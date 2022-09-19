@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Val_admin_si_stage</fullName>
+    <active>true</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+TEXT(Convsta_Type_de_demande__c)=&apos;Stage&apos; &amp;&amp;
+ TEXT(Convsta_Verdict_Administratif__c)=&apos;Demande Acceptée&apos; &amp;&amp; 
+(ISBLANK( Responsable_administratif_entreprise__c ) || 
+ISBLANK( Convsta_Tuteur__c ) || 
+ISBLANK( Convsta_Referent_pedagogique__c ) || 
+ISPICKVAL( Convsta_Langue__c, &quot;&quot;) || 
+ISPICKVAL( Convsta_Verdict_Administratif__c,&quot;&quot; ))</errorConditionFormula>
+    <errorMessage>Merci de renseigner les champs Entreprise, Responsable administratif entreprise, Tuteur entreprise, Langue de la convention, Tuteur emLyon et Décision administrative.</errorMessage>
+</ValidationRule>

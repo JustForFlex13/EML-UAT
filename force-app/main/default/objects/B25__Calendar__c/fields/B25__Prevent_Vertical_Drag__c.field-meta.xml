@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Prevent_Vertical_Drag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this if you want to prevent vertical dragging of events on this Calendar.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cochez cette case si vous voulez empêcher le glissement vertical des événements sur ce calendrier.</inlineHelpText>
+    <label>Prevent Vertical Drag</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

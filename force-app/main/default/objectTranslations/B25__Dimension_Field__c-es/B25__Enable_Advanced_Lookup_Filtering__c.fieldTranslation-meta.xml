@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marcar esta casilla permite la búsqueda avanzada en el formulario de reserva. Esta búsqueda permite a los usuarios filtrar solo objetos en los que esta reserva podría crearse haciendo clic en el botón del filtro. La búsqueda personalizada no respeta los filtros de búsqueda.</help>
+    <label></label>
+    <name>B25__Enable_Advanced_Lookup_Filtering__c</name>
+</CustomFieldTranslation>

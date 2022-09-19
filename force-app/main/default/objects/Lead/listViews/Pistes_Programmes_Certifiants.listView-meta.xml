@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pistes_Programmes_Certifiants</fullName>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Commentaire_piste__c</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Adresse_e_mail__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Provenance__c</columns>
+    <columns>Login__c</columns>
+    <columns>Motif_d_abandon__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Gamme__c</field>
+        <operation>equals</operation>
+        <value>Programme certifiant</value>
+    </filters>
+    <label>Pistes Programmes Certifiants</label>
+    <sharedTo>
+        <role>EML</role>
+    </sharedTo>
+</ListView>

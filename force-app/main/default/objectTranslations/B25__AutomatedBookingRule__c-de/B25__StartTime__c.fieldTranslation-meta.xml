@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Stunde des Tages (= 17:00 für 5 pm).  Erforderlich bei leerem Start-Datetime-Feld.</help>
+    <label></label>
+    <name>B25__StartTime__c</name>
+</CustomFieldTranslation>

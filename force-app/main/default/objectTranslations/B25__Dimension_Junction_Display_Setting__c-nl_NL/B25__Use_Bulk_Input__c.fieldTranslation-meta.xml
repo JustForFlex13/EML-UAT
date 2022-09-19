@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Kan worden gebruikt om betere performance te geven wanneer de validatie traag is. Zorgt ervoor dat er meerder junction records worden geselecteerd voordat deze aan de reservering worden toegevoegd.</help>
+    <label></label>
+    <name>B25__Use_Bulk_Input__c</name>
+</CustomFieldTranslation>

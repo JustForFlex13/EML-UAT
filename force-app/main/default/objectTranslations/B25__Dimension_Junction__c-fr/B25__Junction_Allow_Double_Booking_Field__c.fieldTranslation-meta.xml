@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le nom API d’un champ de case à cocher (interobjets) pour l’objet connexe. Si cette case est cochée, l’enregistrement de la jonction ne compte pas pour les vérifications de double réservation.</help>
+    <label></label>
+    <name>B25__Junction_Allow_Double_Booking_Field__c</name>
+</CustomFieldTranslation>

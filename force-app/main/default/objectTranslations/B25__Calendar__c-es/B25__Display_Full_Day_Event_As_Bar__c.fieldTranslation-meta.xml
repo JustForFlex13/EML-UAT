@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si se marca, cualquier reserva que sea de un día o más se mostrará en la parte superior del día en vez de cubriendo todo el día.</help>
+    <label></label>
+    <name>B25__Display_Full_Day_Event_As_Bar__c</name>
+</CustomFieldTranslation>

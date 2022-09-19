@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Score_proximite__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(RecordType.DeveloperName, 
+&quot;Convsta_Validation_d_experience&quot; , 
+(IF( Convsta_DateStart__c - DATEVALUE(NOW()) &lt; 15, 10, 0)), 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Score proximité</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

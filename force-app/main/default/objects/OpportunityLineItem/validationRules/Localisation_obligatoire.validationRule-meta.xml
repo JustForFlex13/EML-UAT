@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Localisation_obligatoire</fullName>
+    <active>true</active>
+    <description>Ajout de produit localisable que s&apos;il y a une localisation définie sur l&apos;opportunité. Concerne le type d’enregistrement &apos;&apos;relations employeur&apos;&apos;.</description>
+    <errorConditionFormula>AND(
+Opportunity.RecordType.Name = &quot;Relations Employeur&quot;,
+ISBLANK( TEXT(Opportunity.Localisation__c )),
+Product2.Localisation_pr_ciser_dans_l_opp__c = TRUE)</errorConditionFormula>
+    <errorMessage>Le choix de ce produit nécessite que vous remplissiez d&apos;abord la localisation de l&apos;opportunité</errorMessage>
+</ValidationRule>

@@ -1,0 +1,2030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fonctions__c</fullName>
+    <externalId>false</externalId>
+    <label>Fonction codée</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Famille_Fonction__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Président(e)</fullName>
+                <default>false</default>
+                <label>Président(e)</label>
+            </value>
+            <value>
+                <fullName>Administrateur</fullName>
+                <default>false</default>
+                <label>Administrateur</label>
+            </value>
+            <value>
+                <fullName>Vice-Président</fullName>
+                <default>false</default>
+                <label>Vice-Président</label>
+            </value>
+            <value>
+                <fullName>Président du Directoire</fullName>
+                <default>false</default>
+                <label>Président du Directoire</label>
+            </value>
+            <value>
+                <fullName>Conseiller du Président</fullName>
+                <default>false</default>
+                <label>Conseiller du Président</label>
+            </value>
+            <value>
+                <fullName>Président Directeur Général</fullName>
+                <default>false</default>
+                <label>Président Directeur Général</label>
+            </value>
+            <value>
+                <fullName>Directeur Général</fullName>
+                <default>false</default>
+                <label>Directeur Général</label>
+            </value>
+            <value>
+                <fullName>Directeur Général Adjoint</fullName>
+                <default>false</default>
+                <label>Directeur Général Adjoint</label>
+            </value>
+            <value>
+                <fullName>Secrétaire Général</fullName>
+                <default>false</default>
+                <label>Secrétaire Général</label>
+            </value>
+            <value>
+                <fullName>Directeur du Développement</fullName>
+                <default>false</default>
+                <label>Directeur du Développement</label>
+            </value>
+            <value>
+                <fullName>Directeur Affaires Internationales</fullName>
+                <default>false</default>
+                <label>Directeur Affaires Internationales</label>
+            </value>
+            <value>
+                <fullName>Fondé de Pouvoir</fullName>
+                <default>false</default>
+                <label>Fondé de Pouvoir</label>
+            </value>
+            <value>
+                <fullName>Dir. des Compensations Internationales</fullName>
+                <default>false</default>
+                <label>Dir. des Compensations Internationales</label>
+            </value>
+            <value>
+                <fullName>Directeur</fullName>
+                <default>false</default>
+                <label>Directeur</label>
+            </value>
+            <value>
+                <fullName>Directeur Adjoint</fullName>
+                <default>false</default>
+                <label>Directeur Adjoint</label>
+            </value>
+            <value>
+                <fullName>Attaché de Direction</fullName>
+                <default>false</default>
+                <label>Attaché de Direction</label>
+            </value>
+            <value>
+                <fullName>Directeur de Filiale</fullName>
+                <default>false</default>
+                <label>Directeur de Filiale</label>
+            </value>
+            <value>
+                <fullName>Directeur et Responsable d&apos;Etablissement</fullName>
+                <default>false</default>
+                <label>Directeur et Responsable d&apos;Etablissement</label>
+            </value>
+            <value>
+                <fullName>Associé</fullName>
+                <default>false</default>
+                <label>Associé</label>
+            </value>
+            <value>
+                <fullName>Gérant(e)</fullName>
+                <default>false</default>
+                <label>Gérant(e)</label>
+            </value>
+            <value>
+                <fullName>Directeur d&apos;Agence</fullName>
+                <default>false</default>
+                <label>Directeur d&apos;Agence</label>
+            </value>
+            <value>
+                <fullName>Conseil Auprès de la DG</fullName>
+                <default>false</default>
+                <label>Conseil Auprès de la DG</label>
+            </value>
+            <value>
+                <fullName>Directeur ou Conseil en Stratégie</fullName>
+                <default>false</default>
+                <label>Directeur ou Conseil en Stratégie</label>
+            </value>
+            <value>
+                <fullName>Chargé de Mission</fullName>
+                <default>false</default>
+                <label>Chargé de Mission</label>
+            </value>
+            <value>
+                <fullName>Directeur Technique</fullName>
+                <default>false</default>
+                <label>Directeur Technique</label>
+            </value>
+            <value>
+                <fullName>Responsable Technique</fullName>
+                <default>false</default>
+                <label>Responsable Technique</label>
+            </value>
+            <value>
+                <fullName>Cadre Technique</fullName>
+                <default>false</default>
+                <label>Cadre Technique</label>
+            </value>
+            <value>
+                <fullName>Personnel Technique</fullName>
+                <default>false</default>
+                <label>Personnel Technique</label>
+            </value>
+            <value>
+                <fullName>Cadre Logistique</fullName>
+                <default>false</default>
+                <label>Cadre Logistique</label>
+            </value>
+            <value>
+                <fullName>Directeur de Production</fullName>
+                <default>false</default>
+                <label>Directeur de Production</label>
+            </value>
+            <value>
+                <fullName>Respons.d&apos;Unité de Production</fullName>
+                <default>false</default>
+                <label>Respons.d&apos;Unité de Production</label>
+            </value>
+            <value>
+                <fullName>Responsable des Achats</fullName>
+                <default>false</default>
+                <label>Responsable des Achats</label>
+            </value>
+            <value>
+                <fullName>Cadre Achats</fullName>
+                <default>false</default>
+                <label>Cadre Achats</label>
+            </value>
+            <value>
+                <fullName>Directeur Industriel</fullName>
+                <default>false</default>
+                <label>Directeur Industriel</label>
+            </value>
+            <value>
+                <fullName>Directeur Recherche/Développement</fullName>
+                <default>false</default>
+                <label>Directeur Recherche/Développement</label>
+            </value>
+            <value>
+                <fullName>Cadre Recherche/Développement</fullName>
+                <default>false</default>
+                <label>Cadre Recherche/Développement</label>
+            </value>
+            <value>
+                <fullName>Directeur Etudes/Recherche</fullName>
+                <default>false</default>
+                <label>Directeur Etudes/Recherche</label>
+            </value>
+            <value>
+                <fullName>Responsable Etudes/Recherche</fullName>
+                <default>false</default>
+                <label>Responsable Etudes/Recherche</label>
+            </value>
+            <value>
+                <fullName>Ingénieur Etudes/Recherche</fullName>
+                <default>false</default>
+                <label>Ingénieur Etudes/Recherche</label>
+            </value>
+            <value>
+                <fullName>Conseil Etudes/Recherche</fullName>
+                <default>false</default>
+                <label>Conseil Etudes/Recherche</label>
+            </value>
+            <value>
+                <fullName>Directeur Qualité</fullName>
+                <default>false</default>
+                <label>Directeur Qualité</label>
+            </value>
+            <value>
+                <fullName>Animateur Qualité</fullName>
+                <default>false</default>
+                <label>Animateur Qualité</label>
+            </value>
+            <value>
+                <fullName>Conseil Qualité</fullName>
+                <default>false</default>
+                <label>Conseil Qualité</label>
+            </value>
+            <value>
+                <fullName>Resp. Environ/Risque/Sécurité</fullName>
+                <default>false</default>
+                <label>Resp. Environ/Risque/Sécurité</label>
+            </value>
+            <value>
+                <fullName>VP/VPRH</fullName>
+                <default>false</default>
+                <label>VP/VPRH</label>
+            </value>
+            <value>
+                <fullName>Directeur Ressources Humaines</fullName>
+                <default>false</default>
+                <label>Directeur Ressources Humaines</label>
+            </value>
+            <value>
+                <fullName>Adjoint Directeur Ressources Humaines</fullName>
+                <default>false</default>
+                <label>Adjoint Directeur Ressources Humaines</label>
+            </value>
+            <value>
+                <fullName>Direct.Relations Hum./Sociales</fullName>
+                <default>false</default>
+                <label>Direct.Relations Hum./Sociales</label>
+            </value>
+            <value>
+                <fullName>Responsable Ressources Humaines</fullName>
+                <default>false</default>
+                <label>Responsable Ressources Humaines</label>
+            </value>
+            <value>
+                <fullName>Adjoint Dir.Rel.Hum./Sociales</fullName>
+                <default>false</default>
+                <label>Adjoint Dir.Rel.Hum./Sociales</label>
+            </value>
+            <value>
+                <fullName>Directeur du Personnel</fullName>
+                <default>false</default>
+                <label>Directeur du Personnel</label>
+            </value>
+            <value>
+                <fullName>Adjoint Direct du Personnel</fullName>
+                <default>false</default>
+                <label>Adjoint Direct du Personnel</label>
+            </value>
+            <value>
+                <fullName>Responsable du Personnel</fullName>
+                <default>false</default>
+                <label>Responsable du Personnel</label>
+            </value>
+            <value>
+                <fullName>Directeur ou Responsable Recrutement</fullName>
+                <default>false</default>
+                <label>Directeur ou Responsable Recrutement</label>
+            </value>
+            <value>
+                <fullName>Cadre de la Fonct.&quot;Personnel&quot;</fullName>
+                <default>false</default>
+                <label>Cadre de la Fonct.&quot;Personnel&quot;</label>
+            </value>
+            <value>
+                <fullName>Responsable Gestion Cadres/Car</fullName>
+                <default>false</default>
+                <label>Responsable Gestion Cadres/Car</label>
+            </value>
+            <value>
+                <fullName>Adjoint Resp Gestion Cad./Car.</fullName>
+                <default>false</default>
+                <label>Adjoint Resp Gestion Cad./Car.</label>
+            </value>
+            <value>
+                <fullName>Directeur du Dvpt Cadres Dirigeants</fullName>
+                <default>false</default>
+                <label>Directeur du Dvpt Cadres Dirigeants</label>
+            </value>
+            <value>
+                <fullName>Responsable Avantages et Rémunérations</fullName>
+                <default>false</default>
+                <label>Responsable Avantages et Rémunérations</label>
+            </value>
+            <value>
+                <fullName>Respons. Relations Gdes Ecoles</fullName>
+                <default>false</default>
+                <label>Respons. Relations Gdes Ecoles</label>
+            </value>
+            <value>
+                <fullName>Chargé des Relations Ecoles</fullName>
+                <default>false</default>
+                <label>Chargé des Relations Ecoles</label>
+            </value>
+            <value>
+                <fullName>Responsable de Stages</fullName>
+                <default>false</default>
+                <label>Responsable de Stages</label>
+            </value>
+            <value>
+                <fullName>Consultant en Recrutement</fullName>
+                <default>false</default>
+                <label>Consultant en Recrutement</label>
+            </value>
+            <value>
+                <fullName>Conseil en Ress. Humaines/ Outplacement</fullName>
+                <default>false</default>
+                <label>Conseil en Ress. Humaines/ Outplacement</label>
+            </value>
+            <value>
+                <fullName>Responsable Taxe Apprentissage</fullName>
+                <default>false</default>
+                <label>Responsable Taxe Apprentissage</label>
+            </value>
+            <value>
+                <fullName>Directeur de la Formation</fullName>
+                <default>false</default>
+                <label>Directeur de la Formation</label>
+            </value>
+            <value>
+                <fullName>Responsable de la Formation</fullName>
+                <default>false</default>
+                <label>Responsable de la Formation</label>
+            </value>
+            <value>
+                <fullName>Directeur Formation Commerc.</fullName>
+                <default>false</default>
+                <label>Directeur Formation Commerc.</label>
+            </value>
+            <value>
+                <fullName>Responsable Form. des Cadres</fullName>
+                <default>false</default>
+                <label>Responsable Form. des Cadres</label>
+            </value>
+            <value>
+                <fullName>Directeur de Ctre Form.Intern.</fullName>
+                <default>false</default>
+                <label>Directeur de Ctre Form.Intern.</label>
+            </value>
+            <value>
+                <fullName>Formateur Interne</fullName>
+                <default>false</default>
+                <label>Formateur Interne</label>
+            </value>
+            <value>
+                <fullName>Assistant de la Formation</fullName>
+                <default>false</default>
+                <label>Assistant de la Formation</label>
+            </value>
+            <value>
+                <fullName>Conseil en Formation</fullName>
+                <default>false</default>
+                <label>Conseil en Formation</label>
+            </value>
+            <value>
+                <fullName>Secrétaire/Assistante</fullName>
+                <default>false</default>
+                <label>Secrétaire/Assistante</label>
+            </value>
+            <value>
+                <fullName>Directeur Marketing</fullName>
+                <default>false</default>
+                <label>Directeur Marketing</label>
+            </value>
+            <value>
+                <fullName>Responsable Marketing</fullName>
+                <default>false</default>
+                <label>Responsable Marketing</label>
+            </value>
+            <value>
+                <fullName>Chef de Groupe Marketing</fullName>
+                <default>false</default>
+                <label>Chef de Groupe Marketing</label>
+            </value>
+            <value>
+                <fullName>Chef de Marchés</fullName>
+                <default>false</default>
+                <label>Chef de Marchés</label>
+            </value>
+            <value>
+                <fullName>Assistant Chef de Marchés</fullName>
+                <default>false</default>
+                <label>Assistant Chef de Marchés</label>
+            </value>
+            <value>
+                <fullName>Chef de Projet Marketing</fullName>
+                <default>false</default>
+                <label>Chef de Projet Marketing</label>
+            </value>
+            <value>
+                <fullName>Chef de Produits/Marques</fullName>
+                <default>false</default>
+                <label>Chef de Produits/Marques</label>
+            </value>
+            <value>
+                <fullName>Assistant Chef de Prod/Marq.</fullName>
+                <default>false</default>
+                <label>Assistant Chef de Prod/Marq.</label>
+            </value>
+            <value>
+                <fullName>Assistant Marketing</fullName>
+                <default>false</default>
+                <label>Assistant Marketing</label>
+            </value>
+            <value>
+                <fullName>Responsable Etudes Marketing</fullName>
+                <default>false</default>
+                <label>Responsable Etudes Marketing</label>
+            </value>
+            <value>
+                <fullName>Responsable des Nouveaux Produits</fullName>
+                <default>false</default>
+                <label>Responsable des Nouveaux Produits</label>
+            </value>
+            <value>
+                <fullName>Chargé d&apos;Etudes Marketing</fullName>
+                <default>false</default>
+                <label>Chargé d&apos;Etudes Marketing</label>
+            </value>
+            <value>
+                <fullName>Responsable Trade Marketing</fullName>
+                <default>false</default>
+                <label>Responsable Trade Marketing</label>
+            </value>
+            <value>
+                <fullName>Conseil en Marketing</fullName>
+                <default>false</default>
+                <label>Conseil en Marketing</label>
+            </value>
+            <value>
+                <fullName>Directeur Publicité</fullName>
+                <default>false</default>
+                <label>Directeur Publicité</label>
+            </value>
+            <value>
+                <fullName>Chef de Publicité</fullName>
+                <default>false</default>
+                <label>Chef de Publicité</label>
+            </value>
+            <value>
+                <fullName>Assistant Publicité</fullName>
+                <default>false</default>
+                <label>Assistant Publicité</label>
+            </value>
+            <value>
+                <fullName>Directeur Promotion</fullName>
+                <default>false</default>
+                <label>Directeur Promotion</label>
+            </value>
+            <value>
+                <fullName>Responsable de Promotion</fullName>
+                <default>false</default>
+                <label>Responsable de Promotion</label>
+            </value>
+            <value>
+                <fullName>Directeur Clientèle</fullName>
+                <default>false</default>
+                <label>Directeur Clientèle</label>
+            </value>
+            <value>
+                <fullName>Directeur des Relations Exter.</fullName>
+                <default>false</default>
+                <label>Directeur des Relations Exter.</label>
+            </value>
+            <value>
+                <fullName>Directeur de la Communication</fullName>
+                <default>false</default>
+                <label>Directeur de la Communication</label>
+            </value>
+            <value>
+                <fullName>Adjoint Direct. de la Communi.</fullName>
+                <default>false</default>
+                <label>Adjoint Direct. de la Communi.</label>
+            </value>
+            <value>
+                <fullName>Responsable de la Communication</fullName>
+                <default>false</default>
+                <label>Responsable de la Communication</label>
+            </value>
+            <value>
+                <fullName>Responsable Communicat.Interne</fullName>
+                <default>false</default>
+                <label>Responsable Communicat.Interne</label>
+            </value>
+            <value>
+                <fullName>Responsable Relations/Presse</fullName>
+                <default>false</default>
+                <label>Responsable Relations/Presse</label>
+            </value>
+            <value>
+                <fullName>Responsable Edition</fullName>
+                <default>false</default>
+                <label>Responsable Edition</label>
+            </value>
+            <value>
+                <fullName>Responsable Audio-Visuel</fullName>
+                <default>false</default>
+                <label>Responsable Audio-Visuel</label>
+            </value>
+            <value>
+                <fullName>Responsable Mécénat</fullName>
+                <default>false</default>
+                <label>Responsable Mécénat</label>
+            </value>
+            <value>
+                <fullName>Conseil en Communication/Publ.</fullName>
+                <default>false</default>
+                <label>Conseil en Communication/Publ.</label>
+            </value>
+            <value>
+                <fullName>Responsable e-Commerce</fullName>
+                <default>false</default>
+                <label>Responsable e-Commerce</label>
+            </value>
+            <value>
+                <fullName>Webmaster</fullName>
+                <default>false</default>
+                <label>Webmaster</label>
+            </value>
+            <value>
+                <fullName>Directeur Commercial</fullName>
+                <default>false</default>
+                <label>Directeur Commercial</label>
+            </value>
+            <value>
+                <fullName>Adjoint Directeur Commercial</fullName>
+                <default>false</default>
+                <label>Adjoint Directeur Commercial</label>
+            </value>
+            <value>
+                <fullName>Responsable Commercial</fullName>
+                <default>false</default>
+                <label>Responsable Commercial</label>
+            </value>
+            <value>
+                <fullName>Directeur Régional</fullName>
+                <default>false</default>
+                <label>Directeur Régional</label>
+            </value>
+            <value>
+                <fullName>Adjoint Directeur Régional</fullName>
+                <default>false</default>
+                <label>Adjoint Directeur Régional</label>
+            </value>
+            <value>
+                <fullName>Responsable Régional</fullName>
+                <default>false</default>
+                <label>Responsable Régional</label>
+            </value>
+            <value>
+                <fullName>Ingénieur d&apos;Affaires</fullName>
+                <default>false</default>
+                <label>Ingénieur d&apos;Affaires</label>
+            </value>
+            <value>
+                <fullName>Ingénieur Commercial</fullName>
+                <default>false</default>
+                <label>Ingénieur Commercial</label>
+            </value>
+            <value>
+                <fullName>Cadre Commercial</fullName>
+                <default>false</default>
+                <label>Cadre Commercial</label>
+            </value>
+            <value>
+                <fullName>Directeur des Ventes</fullName>
+                <default>false</default>
+                <label>Directeur des Ventes</label>
+            </value>
+            <value>
+                <fullName>Responsable des Ventes</fullName>
+                <default>false</default>
+                <label>Responsable des Ventes</label>
+            </value>
+            <value>
+                <fullName>Directeur Export</fullName>
+                <default>false</default>
+                <label>Directeur Export</label>
+            </value>
+            <value>
+                <fullName>Responsable de Zone Export</fullName>
+                <default>false</default>
+                <label>Responsable de Zone Export</label>
+            </value>
+            <value>
+                <fullName>Cadre Export</fullName>
+                <default>false</default>
+                <label>Cadre Export</label>
+            </value>
+            <value>
+                <fullName>Directeur Administ. des Ventes</fullName>
+                <default>false</default>
+                <label>Directeur Administ. des Ventes</label>
+            </value>
+            <value>
+                <fullName>Cadre Administ. des Ventes</fullName>
+                <default>false</default>
+                <label>Cadre Administ. des Ventes</label>
+            </value>
+            <value>
+                <fullName>Chargé d&apos;Affaires</fullName>
+                <default>false</default>
+                <label>Chargé d&apos;Affaires</label>
+            </value>
+            <value>
+                <fullName>Attaché Commercial</fullName>
+                <default>false</default>
+                <label>Attaché Commercial</label>
+            </value>
+            <value>
+                <fullName>Agent Commercial</fullName>
+                <default>false</default>
+                <label>Agent Commercial</label>
+            </value>
+            <value>
+                <fullName>Conseil Commercial/Ventes</fullName>
+                <default>false</default>
+                <label>Conseil Commercial/Ventes</label>
+            </value>
+            <value>
+                <fullName>Dir. ou Resp. Administ. et Financier</fullName>
+                <default>false</default>
+                <label>Dir. ou Resp. Administ. et Financier</label>
+            </value>
+            <value>
+                <fullName>Adjoint Direct. Admini et Financier</fullName>
+                <default>false</default>
+                <label>Adjoint Direct. Admini et Financier</label>
+            </value>
+            <value>
+                <fullName>Directeur ou Responsable Financier</fullName>
+                <default>false</default>
+                <label>Directeur ou Responsable Financier</label>
+            </value>
+            <value>
+                <fullName>Directeur ou Responsable Administratif</fullName>
+                <default>false</default>
+                <label>Directeur ou Responsable Administratif</label>
+            </value>
+            <value>
+                <fullName>Responsable du Contrôle de Gestion</fullName>
+                <default>false</default>
+                <label>Responsable du Contrôle de Gestion</label>
+            </value>
+            <value>
+                <fullName>Chargé de Clientèle</fullName>
+                <default>false</default>
+                <label>Chargé de Clientèle</label>
+            </value>
+            <value>
+                <fullName>Comptable</fullName>
+                <default>false</default>
+                <label>Comptable</label>
+            </value>
+            <value>
+                <fullName>Contrôleur Financier</fullName>
+                <default>false</default>
+                <label>Contrôleur Financier</label>
+            </value>
+            <value>
+                <fullName>Contrôleur de Gestion</fullName>
+                <default>false</default>
+                <label>Contrôleur de Gestion</label>
+            </value>
+            <value>
+                <fullName>Consolideur</fullName>
+                <default>false</default>
+                <label>Consolideur</label>
+            </value>
+            <value>
+                <fullName>Auditeur Interne</fullName>
+                <default>false</default>
+                <label>Auditeur Interne</label>
+            </value>
+            <value>
+                <fullName>Chargé d&apos;Etudes Economiques</fullName>
+                <default>false</default>
+                <label>Chargé d&apos;Etudes Economiques</label>
+            </value>
+            <value>
+                <fullName>Spécialiste des Marchés Financiers</fullName>
+                <default>false</default>
+                <label>Spécialiste des Marchés Financiers</label>
+            </value>
+            <value>
+                <fullName>Spéc.Marchés Financiers/Back Office</fullName>
+                <default>false</default>
+                <label>Spéc.Marchés Financiers/Back Office</label>
+            </value>
+            <value>
+                <fullName>Spéc.Marchés Financiers/Middle Office</fullName>
+                <default>false</default>
+                <label>Spéc.Marchés Financiers/Middle Office</label>
+            </value>
+            <value>
+                <fullName>Spéc.Marchés Financiers/Front Office</fullName>
+                <default>false</default>
+                <label>Spéc.Marchés Financiers/Front Office</label>
+            </value>
+            <value>
+                <fullName>Capital Investissement/Private Equity</fullName>
+                <default>false</default>
+                <label>Capital Investissement/Private Equity</label>
+            </value>
+            <value>
+                <fullName>Analyste Financier</fullName>
+                <default>false</default>
+                <label>Analyste Financier</label>
+            </value>
+            <value>
+                <fullName>Credit Manager</fullName>
+                <default>false</default>
+                <label>Credit Manager</label>
+            </value>
+            <value>
+                <fullName>Risk Manager</fullName>
+                <default>false</default>
+                <label>Risk Manager</label>
+            </value>
+            <value>
+                <fullName>Trésorier</fullName>
+                <default>false</default>
+                <label>Trésorier</label>
+            </value>
+            <value>
+                <fullName>Auditeur Externe</fullName>
+                <default>false</default>
+                <label>Auditeur Externe</label>
+            </value>
+            <value>
+                <fullName>Commissaire aux Comptes</fullName>
+                <default>false</default>
+                <label>Commissaire aux Comptes</label>
+            </value>
+            <value>
+                <fullName>Expert Comptable</fullName>
+                <default>false</default>
+                <label>Expert Comptable</label>
+            </value>
+            <value>
+                <fullName>Agent de Change</fullName>
+                <default>false</default>
+                <label>Agent de Change</label>
+            </value>
+            <value>
+                <fullName>Gestionnaire de Patrimoine</fullName>
+                <default>false</default>
+                <label>Gestionnaire de Patrimoine</label>
+            </value>
+            <value>
+                <fullName>Actuaire</fullName>
+                <default>false</default>
+                <label>Actuaire</label>
+            </value>
+            <value>
+                <fullName>Resp. Communication Financière</fullName>
+                <default>false</default>
+                <label>Resp. Communication Financière</label>
+            </value>
+            <value>
+                <fullName>Chargé Fusions/Acquisitions</fullName>
+                <default>false</default>
+                <label>Chargé Fusions/Acquisitions</label>
+            </value>
+            <value>
+                <fullName>Consultant Finance/Gestion/Audit</fullName>
+                <default>false</default>
+                <label>Consultant Finance/Gestion/Audit</label>
+            </value>
+            <value>
+                <fullName>Directeur ou Resp. Juridique et Fiscal</fullName>
+                <default>false</default>
+                <label>Directeur ou Resp. Juridique et Fiscal</label>
+            </value>
+            <value>
+                <fullName>Directeur ou Responsable Juridique</fullName>
+                <default>false</default>
+                <label>Directeur ou Responsable Juridique</label>
+            </value>
+            <value>
+                <fullName>Adjoint Directeur Juridique</fullName>
+                <default>false</default>
+                <label>Adjoint Directeur Juridique</label>
+            </value>
+            <value>
+                <fullName>Directeur Affaires Juridiques</fullName>
+                <default>false</default>
+                <label>Directeur Affaires Juridiques</label>
+            </value>
+            <value>
+                <fullName>Conseil Juridique/Avocat</fullName>
+                <default>false</default>
+                <label>Conseil Juridique/Avocat</label>
+            </value>
+            <value>
+                <fullName>Directeur Organi./SI</fullName>
+                <default>false</default>
+                <label>Directeur Organi./SI</label>
+            </value>
+            <value>
+                <fullName>Directeur SI</fullName>
+                <default>false</default>
+                <label>Directeur SI</label>
+            </value>
+            <value>
+                <fullName>Responsable des Etudes</fullName>
+                <default>false</default>
+                <label>Responsable des Etudes</label>
+            </value>
+            <value>
+                <fullName>Responsable SI</fullName>
+                <default>false</default>
+                <label>Responsable SI</label>
+            </value>
+            <value>
+                <fullName>Chef de Centre SI</fullName>
+                <default>false</default>
+                <label>Chef de Centre SI</label>
+            </value>
+            <value>
+                <fullName>Chef de Projets</fullName>
+                <default>false</default>
+                <label>Chef de Projets</label>
+            </value>
+            <value>
+                <fullName>Responsable Organisation</fullName>
+                <default>false</default>
+                <label>Responsable Organisation</label>
+            </value>
+            <value>
+                <fullName>Directeur Logistique SI</fullName>
+                <default>false</default>
+                <label>Directeur Logistique SI</label>
+            </value>
+            <value>
+                <fullName>Cadre SI</fullName>
+                <default>false</default>
+                <label>Cadre SI</label>
+            </value>
+            <value>
+                <fullName>Cadre Organisation/Logistique</fullName>
+                <default>false</default>
+                <label>Cadre Organisation/Logistique</label>
+            </value>
+            <value>
+                <fullName>Directeur Réseau &amp; Télécom</fullName>
+                <default>false</default>
+                <label>Directeur Réseau &amp; Télécom</label>
+            </value>
+            <value>
+                <fullName>Responsable Réseau et Télécom</fullName>
+                <default>false</default>
+                <label>Responsable Réseau et Télécom</label>
+            </value>
+            <value>
+                <fullName>Responsable Sécurité SI</fullName>
+                <default>false</default>
+                <label>Responsable Sécurité SI</label>
+            </value>
+            <value>
+                <fullName>Conseil Organis./SI</fullName>
+                <default>false</default>
+                <label>Conseil Organis./SI</label>
+            </value>
+            <value>
+                <fullName>Recteur/Doyen</fullName>
+                <default>false</default>
+                <label>Recteur/Doyen</label>
+            </value>
+            <value>
+                <fullName>Directeur de Programmes</fullName>
+                <default>false</default>
+                <label>Directeur de Programmes</label>
+            </value>
+            <value>
+                <fullName>Adjoint Direct. de Programmes</fullName>
+                <default>false</default>
+                <label>Adjoint Direct. de Programmes</label>
+            </value>
+            <value>
+                <fullName>Principal/Respons. des Etudes</fullName>
+                <default>false</default>
+                <label>Principal/Respons. des Etudes</label>
+            </value>
+            <value>
+                <fullName>Proviseur</fullName>
+                <default>false</default>
+                <label>Proviseur</label>
+            </value>
+            <value>
+                <fullName>Conseiller Principal Education</fullName>
+                <default>false</default>
+                <label>Conseiller Principal Education</label>
+            </value>
+            <value>
+                <fullName>Proviseur Adjoint</fullName>
+                <default>false</default>
+                <label>Proviseur Adjoint</label>
+            </value>
+            <value>
+                <fullName>Documentaliste</fullName>
+                <default>false</default>
+                <label>Documentaliste</label>
+            </value>
+            <value>
+                <fullName>Responsable Classes Préparatoires</fullName>
+                <default>false</default>
+                <label>Responsable Classes Préparatoires</label>
+            </value>
+            <value>
+                <fullName>Direc. d&apos;un Centre de Formation</fullName>
+                <default>false</default>
+                <label>Direc. d&apos;un Centre de Formation</label>
+            </value>
+            <value>
+                <fullName>Direc. de Départ. Pédagogique</fullName>
+                <default>false</default>
+                <label>Direc. de Départ. Pédagogique</label>
+            </value>
+            <value>
+                <fullName>Direct de Programmes Internat.</fullName>
+                <default>false</default>
+                <label>Direct de Programmes Internat.</label>
+            </value>
+            <value>
+                <fullName>Directeur des Etudes</fullName>
+                <default>false</default>
+                <label>Directeur des Etudes</label>
+            </value>
+            <value>
+                <fullName>Directeur d&apos;Etablissement</fullName>
+                <default>false</default>
+                <label>Directeur d&apos;Etablissement</label>
+            </value>
+            <value>
+                <fullName>Directeur Adjoint d&apos;Etablissement</fullName>
+                <default>false</default>
+                <label>Directeur Adjoint d&apos;Etablissement</label>
+            </value>
+            <value>
+                <fullName>Directeur des Concours</fullName>
+                <default>false</default>
+                <label>Directeur des Concours</label>
+            </value>
+            <value>
+                <fullName>Chercheur</fullName>
+                <default>false</default>
+                <label>Chercheur</label>
+            </value>
+            <value>
+                <fullName>Doctorant</fullName>
+                <default>false</default>
+                <label>Doctorant</label>
+            </value>
+            <value>
+                <fullName>Professeur</fullName>
+                <default>false</default>
+                <label>Professeur</label>
+            </value>
+            <value>
+                <fullName>Enseignant</fullName>
+                <default>false</default>
+                <label>Enseignant</label>
+            </value>
+            <value>
+                <fullName>Coordinateur Université Partenaire</fullName>
+                <default>false</default>
+                <label>Coordinateur Université Partenaire</label>
+            </value>
+            <value>
+                <fullName>Personnel Administratif</fullName>
+                <default>false</default>
+                <label>Personnel Administratif</label>
+            </value>
+            <value>
+                <fullName>Prof Libérales &amp; Act.Diverses</fullName>
+                <default>false</default>
+                <label>Prof Libérales &amp; Act.Diverses</label>
+            </value>
+            <value>
+                <fullName>En Cours de Création d&apos;Entreprise</fullName>
+                <default>false</default>
+                <label>En Cours de Création d&apos;Entreprise</label>
+            </value>
+            <value>
+                <fullName>Volontariat International en Entreprise</fullName>
+                <default>false</default>
+                <label>Volontariat International en Entreprise</label>
+            </value>
+            <value>
+                <fullName>En Cours de Formation Compl.</fullName>
+                <default>false</default>
+                <label>En Cours de Formation Compl.</label>
+            </value>
+            <value>
+                <fullName>Retraité</fullName>
+                <default>false</default>
+                <label>Retraité</label>
+            </value>
+            <value>
+                <fullName>Congé Parental d&apos;Education</fullName>
+                <default>false</default>
+                <label>Congé Parental d&apos;Education</label>
+            </value>
+            <value>
+                <fullName>Militaire</fullName>
+                <default>false</default>
+                <label>Militaire</label>
+            </value>
+            <value>
+                <fullName>Profession Artistique</fullName>
+                <default>false</default>
+                <label>Profession Artistique</label>
+            </value>
+            <value>
+                <fullName>Prof Médicale/Pharmacie/Vétér.</fullName>
+                <default>false</default>
+                <label>Prof Médicale/Pharmacie/Vétér.</label>
+            </value>
+            <value>
+                <fullName>Religieux</fullName>
+                <default>false</default>
+                <label>Religieux</label>
+            </value>
+            <value>
+                <fullName>Ministre/Député/Haut Fonction.</fullName>
+                <default>false</default>
+                <label>Ministre/Député/Haut Fonction.</label>
+            </value>
+            <value>
+                <fullName>Elus</fullName>
+                <default>false</default>
+                <label>Elus</label>
+            </value>
+            <value>
+                <fullName>Cadre des Services Publics</fullName>
+                <default>false</default>
+                <label>Cadre des Services Publics</label>
+            </value>
+            <value>
+                <fullName>Exploitant Agricole</fullName>
+                <default>false</default>
+                <label>Exploitant Agricole</label>
+            </value>
+            <value>
+                <fullName>Journaliste</fullName>
+                <default>false</default>
+                <label>Journaliste</label>
+            </value>
+            <value>
+                <fullName>Contrôleur/Inspecteur Impôts</fullName>
+                <default>false</default>
+                <label>Contrôleur/Inspecteur Impôts</label>
+            </value>
+            <value>
+                <fullName>Syndic d&apos;Immeubles</fullName>
+                <default>false</default>
+                <label>Syndic d&apos;Immeubles</label>
+            </value>
+            <value>
+                <fullName>Hôtelier/Restaurateur</fullName>
+                <default>false</default>
+                <label>Hôtelier/Restaurateur</label>
+            </value>
+            <value>
+                <fullName>Commerçant</fullName>
+                <default>false</default>
+                <label>Commerçant</label>
+            </value>
+            <value>
+                <fullName>Agent Général d&apos;Assurance</fullName>
+                <default>false</default>
+                <label>Agent Général d&apos;Assurance</label>
+            </value>
+            <value>
+                <fullName>Divers Etranger</fullName>
+                <default>false</default>
+                <label>Divers Etranger</label>
+            </value>
+            <value>
+                <fullName>Non Renseignée</fullName>
+                <default>false</default>
+                <label>Non Renseignée</label>
+            </value>
+            <value>
+                <fullName>Directeur Logistique</fullName>
+                <default>false</default>
+                <label>Directeur Logistique</label>
+            </value>
+            <value>
+                <fullName>Responsable Gestion</fullName>
+                <default>false</default>
+                <label>Responsable Gestion</label>
+            </value>
+            <value>
+                <fullName>Directeur des Achats</fullName>
+                <default>false</default>
+                <label>Directeur des Achats</label>
+            </value>
+            <value>
+                <fullName>Directeur ou Responsable Comptabilité</fullName>
+                <default>false</default>
+                <label>Directeur ou Responsable Comptabilité</label>
+            </value>
+            <value>
+                <fullName>Sporti(ve)f</fullName>
+                <default>false</default>
+                <label>Sporti(ve)f</label>
+            </value>
+            <value>
+                <fullName>Conseil Production/Achats</fullName>
+                <default>false</default>
+                <label>Conseil Production/Achats</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Prof Libérales &amp; Act.Diverses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>En Cours de Création d&apos;Entreprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Volontariat International en Entreprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>En Cours de Formation Compl.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Retraité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Congé Parental d&apos;Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Militaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Profession Artistique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Prof Médicale/Pharmacie/Vétér.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Religieux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Ministre/Député/Haut Fonction.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Elus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Cadre des Services Publics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Exploitant Agricole</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Journaliste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Contrôleur/Inspecteur Impôts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Syndic d&apos;Immeubles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Hôtelier/Restaurateur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Commerçant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Agent Général d&apos;Assurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Divers Etranger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Non Renseignée</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autres</controllingFieldValue>
+            <valueName>Sporti(ve)f</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Président(e)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Administrateur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Vice-Président</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Président du Directoire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Conseiller du Président</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Président Directeur Général</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Directeur Général</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Directeur Général Adjoint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Secrétaire Général</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Directeur du Développement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Directeur Affaires Internationales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Fondé de Pouvoir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Dir. des Compensations Internationales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Directeur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Directeur Adjoint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Attaché de Direction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Directeur de Filiale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Directeur et Responsable d&apos;Etablissement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Associé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Gérant(e)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Directeur d&apos;Agence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Conseil Auprès de la DG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Directeur ou Conseil en Stratégie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <valueName>Chargé de Mission</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Générale</controllingFieldValue>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Directeur d&apos;Etablissement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Directeur Technique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Responsable Technique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Cadre Technique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Personnel Technique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Cadre Logistique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Directeur de Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Respons.d&apos;Unité de Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Responsable des Achats</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Cadre Achats</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Directeur Industriel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Directeur des Achats</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production/Achats</controllingFieldValue>
+            <valueName>Conseil Production/Achats</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etud/Recherche/Dévelop/Qualité</controllingFieldValue>
+            <valueName>Directeur Recherche/Développement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etud/Recherche/Dévelop/Qualité</controllingFieldValue>
+            <valueName>Cadre Recherche/Développement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etud/Recherche/Dévelop/Qualité</controllingFieldValue>
+            <valueName>Directeur Etudes/Recherche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etud/Recherche/Dévelop/Qualité</controllingFieldValue>
+            <valueName>Responsable Etudes/Recherche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etud/Recherche/Dévelop/Qualité</controllingFieldValue>
+            <valueName>Ingénieur Etudes/Recherche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etud/Recherche/Dévelop/Qualité</controllingFieldValue>
+            <valueName>Conseil Etudes/Recherche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etud/Recherche/Dévelop/Qualité</controllingFieldValue>
+            <valueName>Directeur Qualité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etud/Recherche/Dévelop/Qualité</controllingFieldValue>
+            <valueName>Animateur Qualité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etud/Recherche/Dévelop/Qualité</controllingFieldValue>
+            <valueName>Conseil Qualité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etud/Recherche/Dévelop/Qualité</controllingFieldValue>
+            <valueName>Resp. Environ/Risque/Sécurité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>VP/VPRH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Directeur Ressources Humaines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Adjoint Directeur Ressources Humaines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Direct.Relations Hum./Sociales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Responsable Ressources Humaines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Adjoint Dir.Rel.Hum./Sociales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Directeur du Personnel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Adjoint Direct du Personnel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Responsable du Personnel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Directeur ou Responsable Recrutement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Cadre de la Fonct.&quot;Personnel&quot;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Responsable Gestion Cadres/Car</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Adjoint Resp Gestion Cad./Car.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Directeur du Dvpt Cadres Dirigeants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Responsable Avantages et Rémunérations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Respons. Relations Gdes Ecoles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Chargé des Relations Ecoles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Responsable de Stages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Consultant en Recrutement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Conseil en Ress. Humaines/ Outplacement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Responsable Taxe Apprentissage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Directeur de la Formation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Responsable de la Formation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Directeur Formation Commerc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Responsable Form. des Cadres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Directeur de Ctre Form.Intern.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Formateur Interne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Assistant de la Formation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Conseil en Formation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ressources Humaines/Formation</controllingFieldValue>
+            <valueName>Secrétaire/Assistante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Directeur Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Chef de Groupe Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Chef de Marchés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Assistant Chef de Marchés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Chef de Projet Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Chef de Produits/Marques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Assistant Chef de Prod/Marq.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Assistant Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable Etudes Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable des Nouveaux Produits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Chargé d&apos;Etudes Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable Trade Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Conseil en Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Directeur Publicité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Chef de Publicité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Assistant Publicité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Directeur Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable de Promotion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Directeur Clientèle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Directeur des Relations Exter.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Directeur de la Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Adjoint Direct. de la Communi.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable de la Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable Communicat.Interne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable Relations/Presse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable Edition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable Audio-Visuel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable Mécénat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Conseil en Communication/Publ.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Responsable e-Commerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing/Communication</controllingFieldValue>
+            <valueName>Webmaster</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Directeur Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Adjoint Directeur Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Responsable Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Directeur Régional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Adjoint Directeur Régional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Responsable Régional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Ingénieur d&apos;Affaires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Ingénieur Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Cadre Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Directeur des Ventes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Responsable des Ventes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Directeur Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Responsable de Zone Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Cadre Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Directeur Administ. des Ventes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Cadre Administ. des Ventes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Chargé d&apos;Affaires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Attaché Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Agent Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Ventes</controllingFieldValue>
+            <valueName>Conseil Commercial/Ventes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Dir. ou Resp. Administ. et Financier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Adjoint Direct. Admini et Financier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Directeur ou Responsable Financier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Directeur ou Responsable Administratif</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Responsable du Contrôle de Gestion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Chargé de Clientèle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Comptable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Contrôleur Financier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Contrôleur de Gestion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Consolideur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Auditeur Interne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Chargé d&apos;Etudes Economiques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Spécialiste des Marchés Financiers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Spéc.Marchés Financiers/Back Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Spéc.Marchés Financiers/Middle Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Spéc.Marchés Financiers/Front Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Capital Investissement/Private Equity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Analyste Financier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Credit Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Risk Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Trésorier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Auditeur Externe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Commissaire aux Comptes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Expert Comptable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Agent de Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Gestionnaire de Patrimoine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Actuaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Resp. Communication Financière</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Chargé Fusions/Acquisitions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Consultant Finance/Gestion/Audit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Directeur ou Resp. Juridique et Fiscal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Directeur ou Responsable Juridique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Adjoint Directeur Juridique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Directeur Affaires Juridiques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance/Gest./Adminis./Juridi.</controllingFieldValue>
+            <valueName>Conseil Juridique/Avocat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Directeur Organi./SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Directeur SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Responsable des Etudes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Responsable SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Chef de Centre SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Chef de Projets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Responsable Organisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Directeur Logistique SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Cadre SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Cadre Organisation/Logistique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Directeur Réseau &amp; Télécom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Responsable Réseau et Télécom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Responsable Sécurité SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organisation/Systèmes d&apos;Informations</controllingFieldValue>
+            <valueName>Conseil Organis./SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Recteur/Doyen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Directeur de Programmes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Adjoint Direct. de Programmes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Principal/Respons. des Etudes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Proviseur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Conseiller Principal Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Proviseur Adjoint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Documentaliste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Responsable Classes Préparatoires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Direc. d&apos;un Centre de Formation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Direc. de Départ. Pédagogique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Direct de Programmes Internat.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Directeur des Etudes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Directeur Adjoint d&apos;Etablissement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Directeur des Concours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Chercheur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Doctorant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Professeur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Enseignant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Coordinateur Université Partenaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enseignement/Education</controllingFieldValue>
+            <valueName>Personnel Administratif</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

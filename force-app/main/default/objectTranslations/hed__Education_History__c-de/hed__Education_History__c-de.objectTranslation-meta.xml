@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Bildungswerdegang</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Bildungswerdegänge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Bildungswerdegang</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Bildungswerdegängen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Bildungswerdegangs</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Bildungswerdegänge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Bildungswerdegang</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Bildungswerdegängen</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Parcours académique</layout>
+        <sections>
+            <label></label>
+            <section>Academic Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Credential Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Parcours professionnel</layout>
+        <sections>
+            <label></label>
+            <section>Academic Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Credential Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Séjour linguistique</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Name des Bildungswerdegangs</nameFieldLabel>
+    <recordTypes>
+        <label></label>
+        <name>SIS_Parcours_academique</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>SIS_Parcours_professionnel</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>SIS_Sejour_linguistique</name>
+    </recordTypes>
+</CustomObjectTranslation>

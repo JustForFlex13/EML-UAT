@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der Kalender, auf dem der Reservierungstitel angezeigt werden soll.</help>
+    <label></label>
+    <name>B25__Calendar__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>« Binaire » compte une ressource comme occupée s’il y a une réservation qui ne se termine pas ce jour-là. « Poucentage » utilise le temps occupé divisé par le temps total disponible dans une journée.</help>
+    <label></label>
+    <name>B25__DayCapacityCalculation__c</name>
+    <picklistValues>
+        <masterLabel>Binary</masterLabel>
+        <translation>Binaire</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percentual</masterLabel>
+        <translation>Pourcentage</translation>
+    </picklistValues>
+</CustomFieldTranslation>

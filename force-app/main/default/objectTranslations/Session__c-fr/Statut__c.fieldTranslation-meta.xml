@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Statut__c</name>
+    <picklistValues>
+        <masterLabel>SF-SS10</masterLabel>
+        <translation>En attente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-SS20</masterLabel>
+        <translation>Confirmée</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-SS30</masterLabel>
+        <translation>Complète</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-SS40</masterLabel>
+        <translation>Abandonnée</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contrepartie</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contreparties</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Présentation Contrepartie</layout>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

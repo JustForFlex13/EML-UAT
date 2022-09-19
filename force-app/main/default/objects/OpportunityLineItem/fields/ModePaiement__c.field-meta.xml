@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ModePaiement__c</fullName>
+    <externalId>false</externalId>
+    <label>Mode de paiement</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CB online</fullName>
+                <default>false</default>
+                <label>CB online</label>
+            </value>
+            <value>
+                <fullName>Facture</fullName>
+                <default>false</default>
+                <label>Facture</label>
+            </value>
+            <value>
+                <fullName>Gratuit</fullName>
+                <default>false</default>
+                <label>Gratuit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

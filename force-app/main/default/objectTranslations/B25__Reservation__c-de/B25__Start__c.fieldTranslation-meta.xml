@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Startzeit in Ihrer Zeitzone.</help>
+    <label></label>
+    <name>B25__Start__c</name>
+</CustomFieldTranslation>

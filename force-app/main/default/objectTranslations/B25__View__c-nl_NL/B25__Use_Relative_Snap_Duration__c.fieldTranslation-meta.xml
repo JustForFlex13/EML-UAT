@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indien niet gezet gebruikt de kalender vaste intervals tussen de snap duration. Gebruikers kunnen dan niet terug gaan naar hun originele positie.</help>
+    <label></label>
+    <name>B25__Use_Relative_Snap_Duration__c</name>
+</CustomFieldTranslation>

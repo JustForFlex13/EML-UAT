@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si no se marca, este período de tiempo no aparecerá en el formulario de la reserva.</help>
+    <label></label>
+    <name>B25__IsActive__c</name>
+</CustomFieldTranslation>

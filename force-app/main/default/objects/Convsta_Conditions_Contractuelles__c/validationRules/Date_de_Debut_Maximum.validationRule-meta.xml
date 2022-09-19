@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_de_Debut_Maximum</fullName>
+    <active>false</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+Date_Debut__c 
+	&gt;
+ MD_Demande__r.Convsta_Table_des_Regles_Experience_Pro__r.Date_De_Demarrage_Au_Plus_Tard__c</errorConditionFormula>
+    <errorDisplayField>Date_Debut__c</errorDisplayField>
+    <errorMessage>Votre expérience professionnelle ne peut pas débuter après la date butoire prévue à cet effet par votre programme.</errorMessage>
+</ValidationRule>

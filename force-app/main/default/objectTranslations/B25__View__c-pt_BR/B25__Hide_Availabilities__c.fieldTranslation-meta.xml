@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Isto faz com que esta Visualização não carregue as Disponibilidades. Quando a organização tem uma grande quantidade de Recursos a carregar, as Disponibilidades podem demorar muito tempo em Visualizações mais longas. Os horários de abertura continuarão a ser verificados em Guardar mas não serão visualizados em Ver Calendário.</help>
+    <label></label>
+    <name>B25__Hide_Availabilities__c</name>
+</CustomFieldTranslation>

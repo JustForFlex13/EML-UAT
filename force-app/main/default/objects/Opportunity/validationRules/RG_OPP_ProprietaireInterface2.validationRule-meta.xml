@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_OPP_ProprietaireInterface2</fullName>
+    <active>true</active>
+    <description>Upsert côté demi interface kerensen, donc règle indiquant qu&apos;on a  pas le droit de changer le propriétaire si le nouveau est interface2.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+AND( 
+OR( 
+RecordType.Name = &quot;Formation intra-entreprise&quot;,
+RecordType.Name = &quot;Programme Long Diplômant&quot;,
+RecordType.Name = &quot;Formation courte&quot;),
+ISCHANGED(  OwnerId  ),
+OwnerId =  &quot;005w0000004vswC&quot;
+)
+)</errorConditionFormula>
+    <errorMessage>Upsert côté demi interface kerensen, donc règle indiquant qu&apos;on a  pas le droit de changer le propriétaire si le nouveau est interface.</errorMessage>
+</ValidationRule>

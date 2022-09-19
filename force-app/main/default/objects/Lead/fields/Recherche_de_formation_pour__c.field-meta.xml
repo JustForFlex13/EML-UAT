@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recherche_de_formation_pour__c</fullName>
+    <externalId>false</externalId>
+    <label>Recherche de formation pour</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Des collaborateurs</fullName>
+                <default>false</default>
+                <label>Des collaborateurs</label>
+            </value>
+            <value>
+                <fullName>Soi</fullName>
+                <default>false</default>
+                <label>Soi</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

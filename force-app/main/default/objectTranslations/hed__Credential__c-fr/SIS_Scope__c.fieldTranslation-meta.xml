@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Périmètre d&apos;évaluation</label>
+    <name>SIS_Scope__c</name>
+    <picklistValues>
+        <masterLabel>Program</masterLabel>
+        <translation>Programme</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Research</masterLabel>
+        <translation>Recherche</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>School</masterLabel>
+        <translation>Ecole</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>School and Program</masterLabel>
+        <translation>Ecole et programme</translation>
+    </picklistValues>
+</CustomFieldTranslation>

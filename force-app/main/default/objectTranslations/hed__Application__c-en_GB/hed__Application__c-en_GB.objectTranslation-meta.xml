@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Applications</value>
+    </caseValues>
+    <layouts>
+        <layout>Portail Candidat</layout>
+        <sections>
+            <label></label>
+            <section>Bourse</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financement</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Motivation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Portail Candidat VUE CANDIDAT</layout>
+        <sections>
+            <label></label>
+            <section>Bourse</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financement</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Motivation</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Application Name</nameFieldLabel>
+    <recordTypes>
+        <label></label>
+        <name>Portail_candidat</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

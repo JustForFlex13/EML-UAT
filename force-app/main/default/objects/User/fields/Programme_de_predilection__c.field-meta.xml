@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programme_de_predilection__c</fullName>
+    <externalId>false</externalId>
+    <label>Programme de prédilection</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>convsta_liste_programme_pour</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

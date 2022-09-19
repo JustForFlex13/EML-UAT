@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CASA_Stat_Semaine_GMST</fullName>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Contact_central__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Contact_Canal_d_acquisition__c</columns>
+    <columns>Exercice__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>A_d_sactiv_son_int_r_t__c</columns>
+    <columns>Statut_Dossier_CANEL__c</columns>
+    <columns>Remplissage_Dossier_CANEL__c</columns>
+    <columns>Statut_Canel__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>equals</operation>
+        <value>Global MS Track Casablanca</value>
+    </filters>
+    <filters>
+        <field>Date_de_Cr_ation_fiche_UI__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>11/1/2018</value>
+    </filters>
+    <filters>
+        <field>Date_de_Cr_ation_fiche_UI__c</field>
+        <operation>lessOrEqual</operation>
+        <value>3/30/2019</value>
+    </filters>
+    <filters>
+        <field>Contact_Pays_de_R_sidence__c</field>
+        <operation>equals</operation>
+        <value>MAROC</value>
+    </filters>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+        <value>CA_GMST</value>
+    </filters>
+    <label>CASA Stat Semaine GMST</label>
+    <language>fr</language>
+    <sharedTo>
+        <group>Opp_FC_Longue</group>
+    </sharedTo>
+</ListView>

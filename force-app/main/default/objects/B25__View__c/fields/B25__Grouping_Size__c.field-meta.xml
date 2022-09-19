@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Grouping_Size__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of records that the top level Resources wil be split into when pagination is enabled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le nombre d’enregistrements en lesquels les ressources de niveau supérieur seront divisées lorsque la pagination est activée.</inlineHelpText>
+    <label>Grouping Size</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

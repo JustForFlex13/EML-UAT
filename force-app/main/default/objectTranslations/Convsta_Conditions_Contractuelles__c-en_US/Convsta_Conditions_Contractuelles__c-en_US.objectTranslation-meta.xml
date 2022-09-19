@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <layouts>
+        <layout>Conditions contractuelles Back Office</layout>
+        <sections>
+            <label></label>
+            <section>Conditions matérielles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Conditions particulières</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Moyen d&apos;obtention</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Conditions contractuelles Front Office</layout>
+        <sections>
+            <label>Material conditions</label>
+            <section>Conditions matérielles</section>
+        </sections>
+        <sections>
+            <label>Specific terms</label>
+            <section>Conditions particulières</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Means of obtaintion</label>
+            <section>Moyen d&apos;obtention</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel></nameFieldLabel>
+    <startsWith></startsWith>
+    <validationRules>
+        <errorMessage>Remuneration: the value shouldn&apos;t exceed 5 numbers before the decimal point.</errorMessage>
+        <name>Bornage_champ_remuneration</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The ending date cannot be before the starting date</errorMessage>
+        <name>Date_Debut_Avant_Date_Fin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Your work experience cannot start after the deadline provided for the purpose by your program</errorMessage>
+        <name>Date_de_Debut_Maximum</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Your work experience cannot start before the date provided for the purpose by your program</errorMessage>
+        <name>Date_de_Debut_Minimum</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Your work experience cannot end after the deadline provided for the purpose by your program</errorMessage>
+        <name>Date_de_Fin_Butoire</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Your work experience must end before your jury examination date</errorMessage>
+        <name>Date_de_Jury_Diplome</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Your work experience is to long to be validated by your program</errorMessage>
+        <name>Duree_Maximum</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Your work experience is not long enough to be validated by your program</errorMessage>
+        <name>Duree_Minimum</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Precisions_Avenant_Obligatoire</fullName>
+    <active>true</active>
+    <description>Si la raison de l&apos;avenant est &quot;Autre&quot;, le champ &quot;Précisions&quot; est obligatoire.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+INCLUDES( Convsta_Raisons_de_l_avenant__c , &quot;Autre&quot;)  &amp;&amp;
+ 	ISBLANK(Convsta_Precisions__c )</errorConditionFormula>
+    <errorDisplayField>Convsta_Precisions__c</errorDisplayField>
+    <errorMessage>Merci de renseigner le champ &quot;Précisions&quot; si la raison de l&apos;avenant est &quot;Autre&quot;.</errorMessage>
+</ValidationRule>

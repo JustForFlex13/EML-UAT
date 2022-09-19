@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>En_retard__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (
+	ISPICKVAL(Statut__c, &quot;Fermé&quot;),
+	IF (
+		Date_de_fermeture__c &gt; Date_limite__c + 5,
+		IMAGE(&quot;https://c.na14.content.force.com/servlet/servlet.ImageServer?id=015d0000000JO69&amp;oid=00Dd0000000ciwW&quot;,&quot;Rouge&quot;),
+		IF (	
+			Date_de_fermeture__c &gt; Date_limite__c,
+			IMAGE(&quot;https://c.na14.content.force.com/servlet/servlet.ImageServer?id=015d0000000JO5o&amp;oid=00Dd0000000ciwW&quot;,&quot;Orange&quot;),
+			IF (
+				Date_de_fermeture__c &lt;= Date_limite__c,
+				IMAGE(&quot;https://c.na14.content.force.com/servlet/servlet.ImageServer?id=015d0000000JO6E&amp;oid=00Dd0000000ciwW&quot;,&quot;Vert&quot;),
+				&quot;&quot;
+				)
+		)
+	),
+	IF (
+		TODAY() &gt; Date_en_test__c,
+		IMAGE(&quot;https://c.na14.content.force.com/servlet/servlet.ImageServer?id=015d0000000JO69&amp;oid=00Dd0000000ciwW&quot;,&quot;Rouge&quot;),
+		IF (
+			TODAY() = Date_en_test__c,
+			IMAGE(&quot;https://c.na14.content.force.com/servlet/servlet.ImageServer?id=015d0000000JO5o&amp;oid=00Dd0000000ciwW&quot;,&quot;Orange&quot;),
+			IF (
+			TODAY() &lt; Date_en_test__c,
+			IMAGE(&quot;https://c.na14.content.force.com/servlet/servlet.ImageServer?id=015d0000000JO6E&amp;oid=00Dd0000000ciwW&quot;,&quot;Vert&quot;),
+			&quot;&quot;
+			)
+		)	
+	)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>- Rouge si fermé et (date fermeture &gt; date limite + 5) ou ouvert et today &gt; date test
+- Orange si fermé et (date fermeture &gt; date limite) ou ouvert et today = date test
+- Vert si fermé et (date fermeture &lt;= date limite) ou ouvert et today &lt; date test</inlineHelpText>
+    <label>En retard ?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

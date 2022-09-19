@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicule__c</fullName>
+    <externalId>false</externalId>
+    <label>Véhicule</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AESCRA</fullName>
+                <default>false</default>
+                <label>AESCRA</label>
+            </value>
+            <value>
+                <fullName>Fondation de France</fullName>
+                <default>false</default>
+                <label>Fondation de France</label>
+            </value>
+            <value>
+                <fullName>Fond de dotation Alliance</fullName>
+                <default>false</default>
+                <label>Fond de dotation Alliance</label>
+            </value>
+            <value>
+                <fullName>Friends of Allyage</fullName>
+                <default>false</default>
+                <label>Friends of Allyage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

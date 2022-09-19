@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technologie_produit__c</fullName>
+    <externalId>false</externalId>
+    <label>Technologie produit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>App mobile</fullName>
+                <default>false</default>
+                <label>App mobile</label>
+            </value>
+            <value>
+                <fullName>Marketplace</fullName>
+                <default>false</default>
+                <label>Marketplace</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Software (Saas, Iaas, Paas)</fullName>
+                <default>false</default>
+                <label>Software (Saas, Iaas, Paas)</label>
+            </value>
+            <value>
+                <fullName>Intelligence Artificielle</fullName>
+                <default>false</default>
+                <label>Intelligence Artificielle</label>
+            </value>
+            <value>
+                <fullName>AR - VR</fullName>
+                <default>false</default>
+                <label>AR - VR</label>
+            </value>
+            <value>
+                <fullName>Robotic</fullName>
+                <default>false</default>
+                <label>Robotic</label>
+            </value>
+            <value>
+                <fullName>Impression 3D</fullName>
+                <default>false</default>
+                <label>Impression 3D</label>
+            </value>
+            <value>
+                <fullName>Blockchain</fullName>
+                <default>false</default>
+                <label>Blockchain</label>
+            </value>
+            <value>
+                <fullName>Internet Of Things</fullName>
+                <default>false</default>
+                <label>Internet Of Things</label>
+            </value>
+            <value>
+                <fullName>5G</fullName>
+                <default>false</default>
+                <label>5G</label>
+            </value>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

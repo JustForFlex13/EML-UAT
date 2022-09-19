@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Start_Hour__c</fullName>
+    <defaultValue>0</defaultValue>
+    <deprecated>false</deprecated>
+    <description>At what hour does the Resource become available? Enter a value from 0 to 23.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>À quelle heure la ressource devient-elle disponible ? Saisissez une valeur comprise entre 0 et 23.</inlineHelpText>
+    <label>Start Hour</label>
+    <precision>2</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

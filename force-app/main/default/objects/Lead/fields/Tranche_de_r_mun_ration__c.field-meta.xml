@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tranche_de_r_mun_ration__c</fullName>
+    <externalId>false</externalId>
+    <label>Tranche de rémunération</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&lt; 50k€</fullName>
+                <default>false</default>
+                <label>&lt; 50k€</label>
+            </value>
+            <value>
+                <fullName>entre 50k€ et 60k€</fullName>
+                <default>false</default>
+                <label>entre 50k€ et 60k€</label>
+            </value>
+            <value>
+                <fullName>entre 60k€ et 70k€</fullName>
+                <default>false</default>
+                <label>entre 60k€ et 70k€</label>
+            </value>
+            <value>
+                <fullName>entre 70k€ et 80k€</fullName>
+                <default>false</default>
+                <label>entre 70k€ et 80k€</label>
+            </value>
+            <value>
+                <fullName>entre 80k€ et 90k€</fullName>
+                <default>false</default>
+                <label>entre 80k€ et 90k€</label>
+            </value>
+            <value>
+                <fullName>entre 90k€ et 100k€</fullName>
+                <default>false</default>
+                <label>entre 90k€ et 100k€</label>
+            </value>
+            <value>
+                <fullName>entre 100k€ et 110k€</fullName>
+                <default>false</default>
+                <label>entre 100k€ et 110k€</label>
+            </value>
+            <value>
+                <fullName>entre 110k€ et 120k€</fullName>
+                <default>false</default>
+                <label>entre 110k€ et 120k€</label>
+            </value>
+            <value>
+                <fullName>entre 120k€ et 130k€</fullName>
+                <default>false</default>
+                <label>entre 120k€ et 130k€</label>
+            </value>
+            <value>
+                <fullName>entre 130k€ et 140k€</fullName>
+                <default>false</default>
+                <label>entre 130k€ et 140k€</label>
+            </value>
+            <value>
+                <fullName>entre 140k€ et 150k€</fullName>
+                <default>false</default>
+                <label>entre 140k€ et 150k€</label>
+            </value>
+            <value>
+                <fullName>&gt; 150k€</fullName>
+                <default>false</default>
+                <label>&gt; 150k€</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

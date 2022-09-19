@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_OPPO_01_DON_001</fullName>
+    <active>true</active>
+    <description>Règle de validation qui empêchera la création d&apos;une opportunité sans contact central par un utilisateur avec un profil &quot;Interface&quot;</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+AND ( $Profile.Name = &quot;Interface&quot; , ISBLANK( Contact_central__c ) 
+)
+)</errorConditionFormula>
+    <errorMessage>Contact central est obligatoire</errorMessage>
+</ValidationRule>

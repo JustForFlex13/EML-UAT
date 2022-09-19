@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Code_Devise__c</fullName>
+    <defaultValue>&apos;EUR&apos;</defaultValue>
+    <description>Le code de la devise dans laquelle l&apos;étudiant sera rémunéré dans le cadre de son expérience professionnelle (ex: EUR, USD, CHF, etc.)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le code de la devise dans laquelle l&apos;étudiant sera rémunéré dans le cadre de son expérience professionnelle (ex: EUR, USD, CHF, etc.)</inlineHelpText>
+    <label>Code Devise</label>
+    <length>3</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

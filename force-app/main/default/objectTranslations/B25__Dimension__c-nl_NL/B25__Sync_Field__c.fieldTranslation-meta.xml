@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De API Naam van een veld op het Synchronisatie Connectie object dat een lookup is naar deze dimensie. Dit zorgt ervoor dat je synchronisaties kan instellen voor deze dimentie</help>
+    <label></label>
+    <name>B25__Sync_Field__c</name>
+</CustomFieldTranslation>

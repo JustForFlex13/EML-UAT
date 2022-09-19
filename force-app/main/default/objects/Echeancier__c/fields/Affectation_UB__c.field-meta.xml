@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Affectation_UB__c</fullName>
+    <description>Permet d&apos;indiquer sur les opportunités &quot;partenariats fundraising&quot;, les UB ( unités budgétaires) qui reçoivent les fonds versés par les partenaires.</description>
+    <externalId>false</externalId>
+    <label>Affectation UB</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

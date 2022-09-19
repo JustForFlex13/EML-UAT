@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "2363044b-79b8-4b7a-ae65-675be9df1cb9",
+  "appPageId" : "b58db886-f511-49fa-ad0e-a69ce76f309f",
+  "configurationTags" : [ ],
+  "id" : "e5bb7214-740a-4efc-896f-bdf25ce12581",
+  "label" : "Dossier de candidature Détails",
+  "objectApiName" : "hed__Application__c",
+  "routeType" : "detail-a1F",
+  "type" : "route",
+  "urlPrefix" : "application"
+}

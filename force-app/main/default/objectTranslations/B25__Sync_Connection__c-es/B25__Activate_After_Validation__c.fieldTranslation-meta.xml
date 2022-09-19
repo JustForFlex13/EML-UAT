@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si se marca, Booker25 intentará activar automáticamente esta conexión una vez que los detalles se hayan validado a través de la API.</help>
+    <label></label>
+    <name>B25__Activate_After_Validation__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_formule_entreprise__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&apos;/internships/s/case/&apos;+Id,   If(ISNULL(Convsta_Entreprise__c),&apos;Nouveau stage&apos;,Convsta_Entreprise__r.Name ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Entreprise</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

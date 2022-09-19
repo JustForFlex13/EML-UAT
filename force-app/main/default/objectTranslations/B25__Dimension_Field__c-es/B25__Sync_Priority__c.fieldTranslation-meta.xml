@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cuando se rellenan múltiples campos de dimensión en una reserva, el calendario del registro con la menor prioridad de sincronización se utilizará para crear el evento. Los otros registros de dimensiones relacionados se añadirán como asistentes.</help>
+    <label></label>
+    <name>B25__Sync_Priority__c</name>
+</CustomFieldTranslation>

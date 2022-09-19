@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si se marca, los eventos más cortos que una célula se expandirán hasta llenar toda la celda. Estos eventos tendrán una barra de duración que indique sus tiempos reales.</help>
+    <label></label>
+    <name>B25__Expand_Events_To_Fill_Cell__c</name>
+</CustomFieldTranslation>

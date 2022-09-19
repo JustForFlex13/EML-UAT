@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Parent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A lookup to the parent Resource of this Resource record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Une recherche de la ressource parente de cet enregistrement de ressource.</inlineHelpText>
+    <label>Parent</label>
+    <referenceTo>B25__Resource__c</referenceTo>
+    <relationshipLabel>Resources (Parent)</relationshipLabel>
+    <relationshipName>Children</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

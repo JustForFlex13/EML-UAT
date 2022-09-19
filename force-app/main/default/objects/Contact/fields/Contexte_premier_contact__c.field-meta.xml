@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contexte_premier_contact__c</fullName>
+    <externalId>false</externalId>
+    <label>Contexte premier contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Agent commercial</fullName>
+                <default>false</default>
+                <label>Agent commercial</label>
+            </value>
+            <value>
+                <fullName>Articles de Presse</fullName>
+                <default>false</default>
+                <label>Articles de Presse</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+            <value>
+                <fullName>Bouche à oreille</fullName>
+                <default>false</default>
+                <label>Bouche à oreille</label>
+            </value>
+            <value>
+                <fullName>Classements</fullName>
+                <default>false</default>
+                <label>Classements</label>
+            </value>
+            <value>
+                <fullName>Diplômés</fullName>
+                <default>false</default>
+                <label>Diplômés</label>
+            </value>
+            <value>
+                <fullName>Directories/ Guides</fullName>
+                <default>false</default>
+                <label>Directories/ Guides</label>
+            </value>
+            <value>
+                <fullName>Display/ Banner</fullName>
+                <default>false</default>
+                <label>Display/ Banner</label>
+            </value>
+            <value>
+                <fullName>Emailing</fullName>
+                <default>false</default>
+                <label>Emailing</label>
+            </value>
+            <value>
+                <fullName>Evènements/ Conférences</fullName>
+                <default>false</default>
+                <label>Evènements/ Conférences</label>
+            </value>
+            <value>
+                <fullName>Forum/salon</fullName>
+                <default>false</default>
+                <label>Forum/salon</label>
+            </value>
+            <value>
+                <fullName>Mailing (papier)</fullName>
+                <default>false</default>
+                <label>Mailing (papier)</label>
+            </value>
+            <value>
+                <fullName>Parents</fullName>
+                <default>false</default>
+                <label>Parents</label>
+            </value>
+            <value>
+                <fullName>Prescripteurs</fullName>
+                <default>false</default>
+                <label>Prescripteurs</label>
+            </value>
+            <value>
+                <fullName>Publicité papier</fullName>
+                <default>false</default>
+                <label>Publicité papier</label>
+            </value>
+            <value>
+                <fullName>Réputation</fullName>
+                <default>false</default>
+                <label>Réputation</label>
+            </value>
+            <value>
+                <fullName>Réseaux sociaux</fullName>
+                <default>false</default>
+                <label>Réseaux sociaux</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

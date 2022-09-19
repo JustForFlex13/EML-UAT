@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>L’identifiant unique de l’événement Outlook lié à cette réservation.</help>
+    <label></label>
+    <name>B25__Outlook_ICalUId__c</name>
+</CustomFieldTranslation>

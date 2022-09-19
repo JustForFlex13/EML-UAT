@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CC CONFIRMATION INSCRIPTION CF GDE ENTREPRISE Start-up/PME présentiel</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_Save_the_date_2020</letterhead>
+    <name>CC CONFIRMATION INSCRIPTION CF  Start-up/PME présentiel</name>
+    <style>freeForm</style>
+    <subject>emlyon business school, Careers Forum Présentiel: Confirmation d’inscription</subject>
+    <textOnly>Cher employeur,
+
+Je vous remercie  pour votre inscription au Careers Forum 2022 en présentiel, sur notre campus d&apos;Ecully.
+
+J’ai le plaisir de vous confirmer votre inscription pour la journée du {!Opportunity.Date_evenement__c} au tarif de {!Opportunity.Amount} sur le stand n°xx.
+
+Notre service événementiel prendra contact avec vous afin de de vous accueillir au mieux. 
+
+Par ailleurs, pour toute question relative à votre arrivée et la facturation, n&apos;hésitez pas à nous contacter à l&apos;adresse suivante : relations-employeurs@em-lyon.com
+
+Je reste à votre disposition pour tout complément d’information et au plaisir de vous accueillir prochainement.
+
+Cordialement,
+
+{!User.Name}
+{!User.Title}
+{!User.Phone}
+23, avenue Guy de Collongue
+CS 40203 69134 Ecully Cedex France
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

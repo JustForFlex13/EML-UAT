@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif_de_fermeture__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif de fermeture</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Abandon</fullName>
+                <default>false</default>
+                <label>Abandon</label>
+            </value>
+            <value>
+                <fullName>Abandon projet client</fullName>
+                <default>false</default>
+                <label>Abandon projet client</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+            <value>
+                <fullName>Choisi école concurrente</fullName>
+                <default>false</default>
+                <label>Choisi école concurrente</label>
+            </value>
+            <value>
+                <fullName>Choisi organisme concurrent</fullName>
+                <default>false</default>
+                <label>Choisi organisme concurrent</label>
+            </value>
+            <value>
+                <fullName>Choix autre programme EMLYON</fullName>
+                <default>false</default>
+                <label>Choix autre programme EMLYON</label>
+            </value>
+            <value>
+                <fullName>Choix concurrence</fullName>
+                <default>false</default>
+                <label>Choix concurrence</label>
+            </value>
+            <value>
+                <fullName>Concurrence</fullName>
+                <default>false</default>
+                <label>Concurrence</label>
+            </value>
+            <value>
+                <fullName>Déçu par l&apos;Ecole</fullName>
+                <default>false</default>
+                <label>Déçu par l&apos;Ecole</label>
+            </value>
+            <value>
+                <fullName>Demande incohérente</fullName>
+                <default>false</default>
+                <label>Demande incohérente</label>
+            </value>
+            <value>
+                <fullName>Etablissements non assujettis à la Taxe</fullName>
+                <default>false</default>
+                <label>Etablissements non assujettis à la Taxe</label>
+            </value>
+            <value>
+                <fullName>Etudiant</fullName>
+                <default>false</default>
+                <label>Etudiant</label>
+            </value>
+            <value>
+                <fullName>Existe Déjà</fullName>
+                <default>false</default>
+                <label>Existe Déjà</label>
+            </value>
+            <value>
+                <fullName>Financement - recherche alternance</fullName>
+                <default>false</default>
+                <label>Financement - recherche alternance</label>
+            </value>
+            <value>
+                <fullName>Hors profil</fullName>
+                <default>false</default>
+                <label>Hors profil</label>
+            </value>
+            <value>
+                <fullName>Incapacité à répondre à la demande</fullName>
+                <default>false</default>
+                <label>Incapacité à répondre à la demande</label>
+            </value>
+            <value>
+                <fullName>Injoignable</fullName>
+                <default>false</default>
+                <label>Injoignable</label>
+            </value>
+            <value>
+                <fullName>Investissement trop élevé</fullName>
+                <default>false</default>
+                <label>Investissement trop élevé</label>
+            </value>
+            <value>
+                <fullName>Motif budgétaire</fullName>
+                <default>false</default>
+                <label>Motif budgétaire</label>
+            </value>
+            <value>
+                <fullName>Ne correspond pas aux attentes</fullName>
+                <default>false</default>
+                <label>Ne correspond pas aux attentes</label>
+            </value>
+            <value>
+                <fullName>Ne répond pas à la sollicitation</fullName>
+                <default>false</default>
+                <label>Ne répond pas à la sollicitation</label>
+            </value>
+            <value>
+                <fullName>Non éligible</fullName>
+                <default>false</default>
+                <label>Non éligible</label>
+            </value>
+            <value>
+                <fullName>Offre non adaptée</fullName>
+                <default>false</default>
+                <label>Offre non adaptée</label>
+            </value>
+            <value>
+                <fullName>Pas convaincu</fullName>
+                <default>false</default>
+                <label>Pas convaincu</label>
+            </value>
+            <value>
+                <fullName>Pas de budget</fullName>
+                <default>false</default>
+                <label>Pas de budget</label>
+            </value>
+            <value>
+                <fullName>Pas de place disponible</fullName>
+                <default>false</default>
+                <label>Pas de place disponible</label>
+            </value>
+            <value>
+                <fullName>Pas d’argent pour mon école</fullName>
+                <default>false</default>
+                <label>Pas d’argent pour mon école</label>
+            </value>
+            <value>
+                <fullName>Pas école cible</fullName>
+                <default>false</default>
+                <label>Pas école cible</label>
+            </value>
+            <value>
+                <fullName>Pas intéressé</fullName>
+                <default>false</default>
+                <label>Pas intéressé</label>
+            </value>
+            <value>
+                <fullName>Pas pour le moment</fullName>
+                <default>false</default>
+                <label>Pas pour le moment</label>
+            </value>
+            <value>
+                <fullName>Pas soutenu par son entreprise</fullName>
+                <default>false</default>
+                <label>Pas soutenu par son entreprise</label>
+            </value>
+            <value>
+                <fullName>Prématuré</fullName>
+                <default>false</default>
+                <label>Prématuré</label>
+            </value>
+            <value>
+                <fullName>Problème financement</fullName>
+                <default>false</default>
+                <label>Problème financement</label>
+            </value>
+            <value>
+                <fullName>Raisons personnelles</fullName>
+                <default>false</default>
+                <label>Raisons personnelles</label>
+            </value>
+            <value>
+                <fullName>Redressement / Liquidation Judiciaire</fullName>
+                <default>false</default>
+                <label>Redressement / Liquidation Judiciaire</label>
+            </value>
+            <value>
+                <fullName>Refusé(e) en sélection</fullName>
+                <default>false</default>
+                <label>Refusé(e) en sélection</label>
+            </value>
+            <value>
+                <fullName>Refus sélection</fullName>
+                <default>false</default>
+                <label>Refus sélection</label>
+            </value>
+            <value>
+                <fullName>Reorienté autre BU</fullName>
+                <default>false</default>
+                <label>Reorienté autre BU</label>
+            </value>
+            <value>
+                <fullName>Report</fullName>
+                <default>false</default>
+                <label>Report</label>
+            </value>
+            <value>
+                <fullName>Report client</fullName>
+                <default>false</default>
+                <label>Report client</label>
+            </value>
+            <value>
+                <fullName>Report EML</fullName>
+                <default>false</default>
+                <label>Report EML</label>
+            </value>
+            <value>
+                <fullName>Sans réponse</fullName>
+                <default>false</default>
+                <label>Sans réponse</label>
+            </value>
+            <value>
+                <fullName>Taxe gérée par le siège social</fullName>
+                <default>false</default>
+                <label>Taxe gérée par le siège social</label>
+            </value>
+            <value>
+                <fullName>Taxe gérée par un organisme extérieur</fullName>
+                <default>false</default>
+                <label>Taxe gérée par un organisme extérieur</label>
+            </value>
+            <value>
+                <fullName>Test EMLYON</fullName>
+                <default>false</default>
+                <label>Test EMLYON</label>
+            </value>
+            <value>
+                <fullName>Timing ne convient pas</fullName>
+                <default>false</default>
+                <label>Timing ne convient pas</label>
+            </value>
+            <value>
+                <fullName>Verse à la demande des salariés</fullName>
+                <default>false</default>
+                <label>Verse à la demande des salariés</label>
+            </value>
+            <value>
+                <fullName>Verse à la même Ecole quand N-1</fullName>
+                <default>false</default>
+                <label>Verse à la même Ecole quand N-1</label>
+            </value>
+            <value>
+                <fullName>Verse à une Ecole du même secteur d’activité</fullName>
+                <default>false</default>
+                <label>Verse à une Ecole du même secteur d’activité</label>
+            </value>
+            <value>
+                <fullName>Verse aux Ecoles ayant une convention de partenariat</fullName>
+                <default>false</default>
+                <label>Verse aux Ecoles ayant une convention de partenariat</label>
+            </value>
+            <value>
+                <fullName>Verse aux Ecoles clientes</fullName>
+                <default>false</default>
+                <label>Verse aux Ecoles clientes</label>
+            </value>
+            <value>
+                <fullName>Verse aux Ecoles fournissant des apprentis</fullName>
+                <default>false</default>
+                <label>Verse aux Ecoles fournissant des apprentis</label>
+            </value>
+            <value>
+                <fullName>Verse aux Ecoles fournissant des stagiaires</fullName>
+                <default>false</default>
+                <label>Verse aux Ecoles fournissant des stagiaires</label>
+            </value>
+            <value>
+                <fullName>Verse aux Ecoles qui recrutent des diplômés</fullName>
+                <default>false</default>
+                <label>Verse aux Ecoles qui recrutent des diplômés</label>
+            </value>
+            <value>
+                <fullName>Verse en local</fullName>
+                <default>false</default>
+                <label>Verse en local</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>A (ré)orienter</controllingFieldValue>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Autre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A (ré)orienter</controllingFieldValue>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Admis</controllingFieldValue>
+            <controllingFieldValue>Pré inscrit</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Choix autre programme EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A (ré)orienter</controllingFieldValue>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Admis</controllingFieldValue>
+            <controllingFieldValue>Pré inscrit</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Reorienté autre BU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Abandon</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Admis</controllingFieldValue>
+            <controllingFieldValue>Pré inscrit</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Abandon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Choisi école concurrente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Demande incohérente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Admis</controllingFieldValue>
+            <controllingFieldValue>Pré inscrit</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Hors profil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Admis</controllingFieldValue>
+            <controllingFieldValue>Pré inscrit</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Injoignable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Investissement trop élevé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Admis</controllingFieldValue>
+            <controllingFieldValue>Pré inscrit</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Ne répond pas à la sollicitation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Admis</controllingFieldValue>
+            <controllingFieldValue>Pré inscrit</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Non éligible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Pas soutenu par son entreprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Problème financement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Candidat</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Raisons personnelles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Admis</controllingFieldValue>
+            <controllingFieldValue>Pré inscrit</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Report client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Admis</controllingFieldValue>
+            <controllingFieldValue>Pré inscrit</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Report EML</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non actif</controllingFieldValue>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Prospect qualifié</controllingFieldValue>
+            <controllingFieldValue>Intéressé par</controllingFieldValue>
+            <controllingFieldValue>Prospect probable</controllingFieldValue>
+            <controllingFieldValue>Prospect chaud</controllingFieldValue>
+            <controllingFieldValue>Admis</controllingFieldValue>
+            <controllingFieldValue>Pré inscrit</controllingFieldValue>
+            <controllingFieldValue>Intégré</controllingFieldValue>
+            <controllingFieldValue>Intérêt Supplémentaire</controllingFieldValue>
+            <valueName>Test EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Abandon projet client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Choix concurrence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Concurrence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Déçu par l&apos;Ecole</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Etablissements non assujettis à la Taxe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Etudiant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Existe Déjà</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Financement - recherche alternance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Incapacité à répondre à la demande</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Motif budgétaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Ne correspond pas aux attentes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Offre non adaptée</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Abandon</controllingFieldValue>
+            <valueName>Pas convaincu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Pas de place disponible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Pas d’argent pour mon école</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <controllingFieldValue>Abandon</controllingFieldValue>
+            <valueName>Pas pour le moment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Prématuré</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Redressement / Liquidation Judiciaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Refusé(e) en sélection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Taxe gérée par le siège social</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Taxe gérée par un organisme extérieur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Verse à la demande des salariés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Verse à la même Ecole quand N-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Verse à une Ecole du même secteur d’activité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Verse aux Ecoles ayant une convention de partenariat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Verse aux Ecoles clientes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Verse aux Ecoles fournissant des apprentis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Verse aux Ecoles fournissant des stagiaires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Verse aux Ecoles qui recrutent des diplômés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clos (Perdu)</controllingFieldValue>
+            <valueName>Verse en local</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Abandon</controllingFieldValue>
+            <valueName>Pas de budget</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label>Date de création du cours</label>
+    <name>SIS_Course_creation_date__c</name>
+</CustomFieldTranslation>

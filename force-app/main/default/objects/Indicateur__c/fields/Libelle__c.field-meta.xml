@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Libelle__c</fullName>
+    <externalId>false</externalId>
+    <label>libellé</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Indicateur__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mission Mastère Spécialisé</fullName>
+                <default>false</default>
+                <label>Mission Mastère Spécialisé</label>
+            </value>
+            <value>
+                <fullName>Mission MBA</fullName>
+                <default>false</default>
+                <label>Mission MBA</label>
+            </value>
+            <value>
+                <fullName>Nombre d&apos;Anciens</fullName>
+                <default>false</default>
+                <label>Nombre d&apos;Anciens</label>
+            </value>
+            <value>
+                <fullName>Promesse Taxe</fullName>
+                <default>false</default>
+                <label>Promesse Taxe</label>
+            </value>
+            <value>
+                <fullName>Recrutement ESC Junior</fullName>
+                <default>false</default>
+                <label>Recrutement ESC Junior</label>
+            </value>
+            <value>
+                <fullName>Recrutement ESC Senior</fullName>
+                <default>false</default>
+                <label>Recrutement ESC Senior</label>
+            </value>
+            <value>
+                <fullName>Recrutement Mastère Junior</fullName>
+                <default>false</default>
+                <label>Recrutement Mastère Junior</label>
+            </value>
+            <value>
+                <fullName>Recrutement Mastère Senior</fullName>
+                <default>false</default>
+                <label>Recrutement Mastère Senior</label>
+            </value>
+            <value>
+                <fullName>Recrutement MBA Diplômé</fullName>
+                <default>false</default>
+                <label>Recrutement MBA Diplômé</label>
+            </value>
+            <value>
+                <fullName>Recrutement MBA Senior</fullName>
+                <default>false</default>
+                <label>Recrutement MBA Senior</label>
+            </value>
+            <value>
+                <fullName>Stages ESC Application</fullName>
+                <default>false</default>
+                <label>Stages ESC Application</label>
+            </value>
+            <value>
+                <fullName>Versement Taxe</fullName>
+                <default>false</default>
+                <label>Versement Taxe</label>
+            </value>
+            <value>
+                <fullName>Stages BBA</fullName>
+                <default>false</default>
+                <label>Stages BBA</label>
+            </value>
+            <value>
+                <fullName>Stages GEP</fullName>
+                <default>false</default>
+                <label>Stages GEP</label>
+            </value>
+            <value>
+                <fullName>Stages MSC</fullName>
+                <default>false</default>
+                <label>Stages MSC</label>
+            </value>
+            <value>
+                <fullName>Apprentis ESC</fullName>
+                <default>false</default>
+                <label>Apprentis ESC</label>
+            </value>
+            <value>
+                <fullName>Apprentis BBA</fullName>
+                <default>false</default>
+                <label>Apprentis BBA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>TAXEPC</controllingFieldValue>
+            <valueName>Promesse Taxe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TAXEVERS</controllingFieldValue>
+            <valueName>Versement Taxe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STAGBBA</controllingFieldValue>
+            <valueName>Stages BBA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STAGMSC</controllingFieldValue>
+            <valueName>Stages MSC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STAGGEP</controllingFieldValue>
+            <valueName>Stages GEP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APPESC</controllingFieldValue>
+            <valueName>Apprentis ESC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>APPBBA</controllingFieldValue>
+            <valueName>Apprentis BBA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANCIENNB</controllingFieldValue>
+            <valueName>Nombre d&apos;Anciens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANCIENRCJ</controllingFieldValue>
+            <valueName>Recrutement MBA Diplômé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANCIENRCS</controllingFieldValue>
+            <valueName>Recrutement MBA Senior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANCIENREJ</controllingFieldValue>
+            <valueName>Recrutement ESC Junior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANCIENRES</controllingFieldValue>
+            <valueName>Recrutement ESC Senior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANCIENRMJ</controllingFieldValue>
+            <valueName>Recrutement Mastère Junior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ANCIENRMS</controllingFieldValue>
+            <valueName>Recrutement Mastère Senior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STAGCES</controllingFieldValue>
+            <valueName>Mission MBA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STAGESCSA</controllingFieldValue>
+            <valueName>Stages ESC Application</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>STAGMAS</controllingFieldValue>
+            <valueName>Mission Mastère Spécialisé</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Time_Header_Duration__c</fullName>
+    <deprecated>false</deprecated>
+    <description>On the Single Record Calendar, this defines the duration of each indicator on the sidebar containing the time of day. Values should be between 1 and 60 and should divide 60 without a remainder.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>La durée de chaque indicateur de la barre latérale contenant l’heure du jour sur le calendrier à enregistrement unique. Les valeurs doivent être comprises entre 1 et 60 et doivent diviser 60 sans reste.</inlineHelpText>
+    <label>Time Header Duration</label>
+    <length>2</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

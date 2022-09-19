@@ -1,0 +1,18 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" controller="Convsta_Object_Helper">
+    <aura:attribute name="caseId" type="String" />
+    <aura:attribute name="uploadDisabled" type="Boolean"/>
+    <aura:registerEvent name="fileUploaded" type="aura:componentEvent"/>
+    <lightning:recordEditForm aura:id="recordViewForm" 
+                                     recordId="{!v.recordId}"
+                                     objectApiName="Case">
+        <lightning:inputField fieldName="Convsta_Type_de_document__c" aura:id="Convsta_Type_de_document__c" onchange="{!c.disableUpload}"/>
+    </lightning:recordEditForm>
+    <div class="slds-grid slds-wrap">
+            <lightning:fileUpload  name="fileUploader"
+                        label= "{!$Label.c.Convsta_uploadConvention}"
+                        multiple="false"
+                        disabled="{!v.uploadDisabled}"
+                        recordId="{!v.caseId}"
+                        onuploadfinished="{!c.handleUploadFinished }"/>
+    </div>
+</aura:component>

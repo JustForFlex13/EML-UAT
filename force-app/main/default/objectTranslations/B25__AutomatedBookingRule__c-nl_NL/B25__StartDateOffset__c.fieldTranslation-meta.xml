@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Voer de tijd in dagen in dat moet worden opgeteld/afgetrokken van de einddatum. Kan negatief zijn.</help>
+    <label></label>
+    <name>B25__StartDateOffset__c</name>
+</CustomFieldTranslation>

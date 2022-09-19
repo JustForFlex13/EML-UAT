@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>A seleção desta caixa de seleção permite a procura avançada no formulário de Reserva. Esta procura permite aos utilizadores filtrar apenas objetos em que esta Reserva poderia ser criada, clicando no botão de filtro. A procura personalizada não respeita os filtros de procura.</help>
+    <label></label>
+    <name>B25__Enable_Advanced_Lookup_Filtering__c</name>
+</CustomFieldTranslation>

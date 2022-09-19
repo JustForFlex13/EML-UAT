@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bij de selectie in de kalender wordt er rekening gehouden met de beschikbaarheid.</help>
+    <label></label>
+    <name>B25__Enable_Availability_Aware_Selection__c</name>
+</CustomFieldTranslation>

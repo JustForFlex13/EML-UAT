@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RV_Contact_Blocage_Plusieurs_emails_coch</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND(
+Appliquer_l_e_mail_professionnel__c=true,
+Appliquer_l_e_mail_personnel__c=true,
+Appliquer_l_e_mail_EM_Lyon__c=true
+)
+,
+
+
+AND(
+Appliquer_l_e_mail_professionnel__c=true,
+Appliquer_l_e_mail_personnel__c=true
+)
+,
+
+
+AND(
+Appliquer_l_e_mail_professionnel__c=true,
+Appliquer_l_e_mail_EM_Lyon__c=true
+)
+,
+
+
+AND(
+Appliquer_l_e_mail_personnel__c=true,
+Appliquer_l_e_mail_EM_Lyon__c=true
+)
+)</errorConditionFormula>
+    <errorMessage>Merci d&apos;appliquer un seul email à ce contact (en cochant une seule case)</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remplissage automatique à partir du nombre d&apos;heures du module de formation. 1 journée = 8 heures.</help>
+    <label>Nombre de jours du module de formation</label>
+    <name>SIS_Day_number_of_formation_module__c</name>
+</CustomFieldTranslation>

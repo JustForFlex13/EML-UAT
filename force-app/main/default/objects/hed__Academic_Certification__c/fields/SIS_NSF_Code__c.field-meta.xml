@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_NSF_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>NSF Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>100	Formations générales</fullName>
+                <default>false</default>
+                <label>100	Formations générales</label>
+            </value>
+            <value>
+                <fullName>110	Spécialités pluriscientifiques</fullName>
+                <default>false</default>
+                <label>110	Spécialités pluriscientifiques</label>
+            </value>
+            <value>
+                <fullName>111	Physique-chimie</fullName>
+                <default>false</default>
+                <label>111	Physique-chimie</label>
+            </value>
+            <value>
+                <fullName>112	Chimie-biologie, biochimie</fullName>
+                <default>false</default>
+                <label>112	Chimie-biologie, biochimie</label>
+            </value>
+            <value>
+                <fullName>113	Sciences naturelles (biologie-géologie)</fullName>
+                <default>false</default>
+                <label>113	Sciences naturelles (biologie-géologie)</label>
+            </value>
+            <value>
+                <fullName>114	Mathématiques</fullName>
+                <default>false</default>
+                <label>114	Mathématiques</label>
+            </value>
+            <value>
+                <fullName>115	Physique</fullName>
+                <default>false</default>
+                <label>115	Physique</label>
+            </value>
+            <value>
+                <fullName>116	Chimie</fullName>
+                <default>false</default>
+                <label>116	Chimie</label>
+            </value>
+            <value>
+                <fullName>117	Sciences de la terre</fullName>
+                <default>false</default>
+                <label>117	Sciences de la terre</label>
+            </value>
+            <value>
+                <fullName>118	Sciences de la vie</fullName>
+                <default>false</default>
+                <label>118	Sciences de la vie</label>
+            </value>
+            <value>
+                <fullName>120	Spécialités pluridisciplinaires, sciences humaines et droit</fullName>
+                <default>false</default>
+                <label>120	Spécialités pluridisciplinaires, sciences humaines et droit</label>
+            </value>
+            <value>
+                <fullName>121	Géographie</fullName>
+                <default>false</default>
+                <label>121	Géographie</label>
+            </value>
+            <value>
+                <fullName>122	Economie</fullName>
+                <default>false</default>
+                <label>122	Economie</label>
+            </value>
+            <value>
+                <fullName>123	Sciences sociales (y compris démographie, anthropologie)</fullName>
+                <default>false</default>
+                <label>123	Sciences sociales (y compris démographie, anthropologie)</label>
+            </value>
+            <value>
+                <fullName>124	Psychologie</fullName>
+                <default>false</default>
+                <label>124	Psychologie</label>
+            </value>
+            <value>
+                <fullName>125	Linguistique</fullName>
+                <default>false</default>
+                <label>125	Linguistique</label>
+            </value>
+            <value>
+                <fullName>126	Histoire</fullName>
+                <default>false</default>
+                <label>126	Histoire</label>
+            </value>
+            <value>
+                <fullName>127	Philosophie, éthique et théologie</fullName>
+                <default>false</default>
+                <label>127	Philosophie, éthique et théologie</label>
+            </value>
+            <value>
+                <fullName>128	Droit, sciences politiques</fullName>
+                <default>false</default>
+                <label>128	Droit, sciences politiques</label>
+            </value>
+            <value>
+                <fullName>130	Spécialités littéraires et artistiques plurivalentes</fullName>
+                <default>false</default>
+                <label>130	Spécialités littéraires et artistiques plurivalentes</label>
+            </value>
+            <value>
+                <fullName>131	Français, littérature et civilisation française</fullName>
+                <default>false</default>
+                <label>131	Français, littérature et civilisation française</label>
+            </value>
+            <value>
+                <fullName>132	Arts plastiques</fullName>
+                <default>false</default>
+                <label>132	Arts plastiques</label>
+            </value>
+            <value>
+                <fullName>133	Musique, arts du spectacle</fullName>
+                <default>false</default>
+                <label>133	Musique, arts du spectacle</label>
+            </value>
+            <value>
+                <fullName>134	Autres disciplines artistiques et spécialités artistiques plurivalentes</fullName>
+                <default>false</default>
+                <label>134	Autres disciplines artistiques et spécialités artistiques plurivalentes</label>
+            </value>
+            <value>
+                <fullName>135	Langues et civilisations anciennes</fullName>
+                <default>false</default>
+                <label>135	Langues et civilisations anciennes</label>
+            </value>
+            <value>
+                <fullName>136	Langues vivantes, civilisations étrangères et régionales</fullName>
+                <default>false</default>
+                <label>136	Langues vivantes, civilisations étrangères et régionales</label>
+            </value>
+            <value>
+                <fullName>200	Technologies industrielles fondamentales (génie industriel, procédés de transformation, spécialités à dominante fonctionnelle)</fullName>
+                <default>false</default>
+                <label>200	Technologies industrielles fondamentales (génie industriel, procédés de transformation, spécialités à dominante fonctionnelle)</label>
+            </value>
+            <value>
+                <fullName>201	Technologies de commandes des transformations industriels (automatismes et robotique industriels, informatique industrielle)</fullName>
+                <default>false</default>
+                <label>201	Technologies de commandes des transformations industriels (automatismes et robotique industriels, informatique industrielle)</label>
+            </value>
+            <value>
+                <fullName>210	Spécialités plurivalentes de l&apos;agronomie et de l&apos;agriculture</fullName>
+                <default>false</default>
+                <label>210	Spécialités plurivalentes de l&apos;agronomie et de l&apos;agriculture</label>
+            </value>
+            <value>
+                <fullName>211	Productions végétales, cultures spécialisées (horticulture, viticulture, arboriculture fruitière...)</fullName>
+                <default>false</default>
+                <label>211	Productions végétales, cultures spécialisées (horticulture, viticulture, arboriculture fruitière...)</label>
+            </value>
+            <value>
+                <fullName>212	Productions animales, élevage spécialisé, aquaculture, soins aux animaux, y compris vétérinaire</fullName>
+                <default>false</default>
+                <label>212	Productions animales, élevage spécialisé, aquaculture, soins aux animaux, y compris vétérinaire</label>
+            </value>
+            <value>
+                <fullName>213	Forêts, espaces naturels, faune sauvage, pêche</fullName>
+                <default>false</default>
+                <label>213	Forêts, espaces naturels, faune sauvage, pêche</label>
+            </value>
+            <value>
+                <fullName>214	Aménagement paysager (parcs, jardins, espaces verts ...)</fullName>
+                <default>false</default>
+                <label>214	Aménagement paysager (parcs, jardins, espaces verts ...)</label>
+            </value>
+            <value>
+                <fullName>220	Spécialités pluritechnologiques des transformations</fullName>
+                <default>false</default>
+                <label>220	Spécialités pluritechnologiques des transformations</label>
+            </value>
+            <value>
+                <fullName>221	Agro-alimentaire, alimentation, cuisine</fullName>
+                <default>false</default>
+                <label>221	Agro-alimentaire, alimentation, cuisine</label>
+            </value>
+            <value>
+                <fullName>222	Transformations chimiques et apparentées (y compris industrie pharmaceutique)</fullName>
+                <default>false</default>
+                <label>222	Transformations chimiques et apparentées (y compris industrie pharmaceutique)</label>
+            </value>
+            <value>
+                <fullName>223	Métallurgie (y compris sidérurgie, fonderie, non ferreux...)</fullName>
+                <default>false</default>
+                <label>223	Métallurgie (y compris sidérurgie, fonderie, non ferreux...)</label>
+            </value>
+            <value>
+                <fullName>224	Matériaux de construction, verre, céramique</fullName>
+                <default>false</default>
+                <label>224	Matériaux de construction, verre, céramique</label>
+            </value>
+            <value>
+                <fullName>225	Plasturgie, matériaux composites</fullName>
+                <default>false</default>
+                <label>225	Plasturgie, matériaux composites</label>
+            </value>
+            <value>
+                <fullName>226	Papier, carton</fullName>
+                <default>false</default>
+                <label>226	Papier, carton</label>
+            </value>
+            <value>
+                <fullName>227	Energie, génie climatique (y compris énergie nucléaire, thermique, hydraulique ; utilités : froid, climatisation, chauffage)</fullName>
+                <default>false</default>
+                <label>227	Energie, génie climatique (y compris énergie nucléaire, thermique, hydraulique ; utilités : froid, climatisation, chauffage)</label>
+            </value>
+            <value>
+                <fullName>230	Spécialités pluritechnologiques, génie civil, construction, bois</fullName>
+                <default>false</default>
+                <label>230	Spécialités pluritechnologiques, génie civil, construction, bois</label>
+            </value>
+            <value>
+                <fullName>231	Mines et carrières, génie civil, topographie</fullName>
+                <default>false</default>
+                <label>231	Mines et carrières, génie civil, topographie</label>
+            </value>
+            <value>
+                <fullName>232	Bâtiment : construction et couverture</fullName>
+                <default>false</default>
+                <label>232	Bâtiment : construction et couverture</label>
+            </value>
+            <value>
+                <fullName>233	Bâtiment : finitions</fullName>
+                <default>false</default>
+                <label>233	Bâtiment : finitions</label>
+            </value>
+            <value>
+                <fullName>234	Travail du bois et de l&apos;ameublement</fullName>
+                <default>false</default>
+                <label>234	Travail du bois et de l&apos;ameublement</label>
+            </value>
+            <value>
+                <fullName>240	Spécialités pluritechnologiques matériaux souples</fullName>
+                <default>false</default>
+                <label>240	Spécialités pluritechnologiques matériaux souples</label>
+            </value>
+            <value>
+                <fullName>241	Textile</fullName>
+                <default>false</default>
+                <label>241	Textile</label>
+            </value>
+            <value>
+                <fullName>242	Habillement (y compris mode, couture)</fullName>
+                <default>false</default>
+                <label>242	Habillement (y compris mode, couture)</label>
+            </value>
+            <value>
+                <fullName>243	Cuirs et peaux</fullName>
+                <default>false</default>
+                <label>243	Cuirs et peaux</label>
+            </value>
+            <value>
+                <fullName>250	Spécialités pluritechnologiques mécanique-électricité (y compris maintenance mécano-électrique)</fullName>
+                <default>false</default>
+                <label>250	Spécialités pluritechnologiques mécanique-électricité (y compris maintenance mécano-électrique)</label>
+            </value>
+            <value>
+                <fullName>251	Mécanique générale et de précision, usinage</fullName>
+                <default>false</default>
+                <label>251	Mécanique générale et de précision, usinage</label>
+            </value>
+            <value>
+                <fullName>252	Moteurs et mécanique auto</fullName>
+                <default>false</default>
+                <label>252	Moteurs et mécanique auto</label>
+            </value>
+            <value>
+                <fullName>253	Mécanique aéronautique et spatiale</fullName>
+                <default>false</default>
+                <label>253	Mécanique aéronautique et spatiale</label>
+            </value>
+            <value>
+                <fullName>254	Structures métalliques (y compris soudure, carrosserie, coque bateau, cellule avion)</fullName>
+                <default>false</default>
+                <label>254	Structures métalliques (y compris soudure, carrosserie, coque bateau, cellule avion)</label>
+            </value>
+            <value>
+                <fullName>255	Electricité, électronique (non compris automatismes, productique)</fullName>
+                <default>false</default>
+                <label>255	Electricité, électronique (non compris automatismes, productique)</label>
+            </value>
+            <value>
+                <fullName>300	Spécialités plurivalentes des services</fullName>
+                <default>false</default>
+                <label>300	Spécialités plurivalentes des services</label>
+            </value>
+            <value>
+                <fullName>310	Spécialités plurivalentes des échanges et de la gestion (y compris administration générale des entreprises et des collectivités)</fullName>
+                <default>false</default>
+                <label>310	Spécialités plurivalentes des échanges et de la gestion (y compris administration générale des entreprises et des collectivités)</label>
+            </value>
+            <value>
+                <fullName>311	Transports, manutention, magasinage</fullName>
+                <default>false</default>
+                <label>311	Transports, manutention, magasinage</label>
+            </value>
+            <value>
+                <fullName>312	Commerce, vente</fullName>
+                <default>false</default>
+                <label>312	Commerce, vente</label>
+            </value>
+            <value>
+                <fullName>313	Finances, banque, assurances</fullName>
+                <default>false</default>
+                <label>313	Finances, banque, assurances</label>
+            </value>
+            <value>
+                <fullName>314	Comptabilité, gestion</fullName>
+                <default>false</default>
+                <label>314	Comptabilité, gestion</label>
+            </value>
+            <value>
+                <fullName>315	Ressources humaines, gestion du personnel, gestion de l&apos;emploi</fullName>
+                <default>false</default>
+                <label>315	Ressources humaines, gestion du personnel, gestion de l&apos;emploi</label>
+            </value>
+            <value>
+                <fullName>320	Spécialités plurivalentes de la communication</fullName>
+                <default>false</default>
+                <label>320	Spécialités plurivalentes de la communication</label>
+            </value>
+            <value>
+                <fullName>321	Journalisme, communication (y compris communication graphique et publicité)</fullName>
+                <default>false</default>
+                <label>321	Journalisme, communication (y compris communication graphique et publicité)</label>
+            </value>
+            <value>
+                <fullName>322	Techniques de l&apos;imprimerie et de l&apos;édition</fullName>
+                <default>false</default>
+                <label>322	Techniques de l&apos;imprimerie et de l&apos;édition</label>
+            </value>
+            <value>
+                <fullName>323	Techniques de l&apos;image et du son, métiers connexes du spectacle</fullName>
+                <default>false</default>
+                <label>323	Techniques de l&apos;image et du son, métiers connexes du spectacle</label>
+            </value>
+            <value>
+                <fullName>324	Secrétariat, bureautique</fullName>
+                <default>false</default>
+                <label>324	Secrétariat, bureautique</label>
+            </value>
+            <value>
+                <fullName>325	Documentation, bibliothèques, administration des données</fullName>
+                <default>false</default>
+                <label>325	Documentation, bibliothèques, administration des données</label>
+            </value>
+            <value>
+                <fullName>326	Informatique, traitement de l&apos;information, réseaux de transmission des données</fullName>
+                <default>false</default>
+                <label>326	Informatique, traitement de l&apos;information, réseaux de transmission des données</label>
+            </value>
+            <value>
+                <fullName>330	Spécialités plurivalentes sanitaires et sociales</fullName>
+                <default>false</default>
+                <label>330	Spécialités plurivalentes sanitaires et sociales</label>
+            </value>
+            <value>
+                <fullName>331	Santé</fullName>
+                <default>false</default>
+                <label>331	Santé</label>
+            </value>
+            <value>
+                <fullName>332	Travail social</fullName>
+                <default>false</default>
+                <label>332	Travail social</label>
+            </value>
+            <value>
+                <fullName>333	Enseignement, formation</fullName>
+                <default>false</default>
+                <label>333	Enseignement, formation</label>
+            </value>
+            <value>
+                <fullName>334	Accueil, hôtellerie, tourisme</fullName>
+                <default>false</default>
+                <label>334	Accueil, hôtellerie, tourisme</label>
+            </value>
+            <value>
+                <fullName>335	Animation culturelle, sportive et de loisirs</fullName>
+                <default>false</default>
+                <label>335	Animation culturelle, sportive et de loisirs</label>
+            </value>
+            <value>
+                <fullName>336	Coiffure, esthétique et autres spécialités des services aux personnes</fullName>
+                <default>false</default>
+                <label>336	Coiffure, esthétique et autres spécialités des services aux personnes</label>
+            </value>
+            <value>
+                <fullName>341	Aménagement du territoire, développement, urbanisme</fullName>
+                <default>false</default>
+                <label>341	Aménagement du territoire, développement, urbanisme</label>
+            </value>
+            <value>
+                <fullName>342	Protection et développement du patrimoine</fullName>
+                <default>false</default>
+                <label>342	Protection et développement du patrimoine</label>
+            </value>
+            <value>
+                <fullName>343	Nettoyage, assainissement, protection de l&apos;environnement</fullName>
+                <default>false</default>
+                <label>343	Nettoyage, assainissement, protection de l&apos;environnement</label>
+            </value>
+            <value>
+                <fullName>344	Sécurité des biens et des personnes, police, surveillance (y compris hygiène et sécurité)</fullName>
+                <default>false</default>
+                <label>344	Sécurité des biens et des personnes, police, surveillance (y compris hygiène et sécurité)</label>
+            </value>
+            <value>
+                <fullName>345	Application des droits et statut des personnes</fullName>
+                <default>false</default>
+                <label>345	Application des droits et statut des personnes</label>
+            </value>
+            <value>
+                <fullName>346	Spécialités militaires</fullName>
+                <default>false</default>
+                <label>346	Spécialités militaires</label>
+            </value>
+            <value>
+                <fullName>410	Spécialités concernant plusieurs capacités</fullName>
+                <default>false</default>
+                <label>410	Spécialités concernant plusieurs capacités</label>
+            </value>
+            <value>
+                <fullName>411	Pratiques sportives (y compris : arts martiaux)</fullName>
+                <default>false</default>
+                <label>411	Pratiques sportives (y compris : arts martiaux)</label>
+            </value>
+            <value>
+                <fullName>412	Développement des capacités mentales et apprentissages de base</fullName>
+                <default>false</default>
+                <label>412	Développement des capacités mentales et apprentissages de base</label>
+            </value>
+            <value>
+                <fullName>413	Développement des capacités comportementales et relationnelles</fullName>
+                <default>false</default>
+                <label>413	Développement des capacités comportementales et relationnelles</label>
+            </value>
+            <value>
+                <fullName>414	Développement des capacités individuelles d&apos;organisation</fullName>
+                <default>false</default>
+                <label>414	Développement des capacités individuelles d&apos;organisation</label>
+            </value>
+            <value>
+                <fullName>415	Développement des capacités d&apos;orientation, d&apos;insertion ou de réinsertion sociales et professionnelles</fullName>
+                <default>false</default>
+                <label>415	Développement des capacités d&apos;orientation, d&apos;insertion ou de réinsertion sociales et professionnelles</label>
+            </value>
+            <value>
+                <fullName>421	Jeux et activités spécifiques de loisirs</fullName>
+                <default>false</default>
+                <label>421	Jeux et activités spécifiques de loisirs</label>
+            </value>
+            <value>
+                <fullName>422	Economie et activités domestiques</fullName>
+                <default>false</default>
+                <label>422	Economie et activités domestiques</label>
+            </value>
+            <value>
+                <fullName>423	Vie familiale, vie sociale et autres formations au développement personnel</fullName>
+                <default>false</default>
+                <label>423	Vie familiale, vie sociale et autres formations au développement personnel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

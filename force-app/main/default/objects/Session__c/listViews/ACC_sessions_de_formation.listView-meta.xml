@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACC_sessions_de_formation</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Produits__c</field>
+        <operation>contains</operation>
+        <value>booster,sport,job</value>
+    </filters>
+    <label>ACC_sessions de formation</label>
+</ListView>

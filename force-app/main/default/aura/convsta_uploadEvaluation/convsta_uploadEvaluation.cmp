@@ -1,0 +1,10 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:lightningQuickAction,force:hasRecordId" controller="Convsta_Object_Helper">
+    <aura:registerEvent name="fileUploaded" type="aura:componentEvent"/>
+        <div class="slds-grid slds-wrap">
+               <lightning:fileUpload  name="fileUploader"
+                           label= "{!$Label.c.Convsta_uploadEvaluation}"
+                           multiple="false"
+                           recordId="{!v.recordId}"
+                           onuploadfinished="{! c.handleUploadFinished }"/>
+        </div>
+</aura:component>

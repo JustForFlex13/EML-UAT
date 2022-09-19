@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Staff_Connections</fullName>
+    <columns>NAME</columns>
+    <columns>B25__Staff__c</columns>
+    <columns>B25__User_Id__c</columns>
+    <columns>B25__Valid__c</columns>
+    <columns>B25__Active__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>B25__Staff__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Staff Connections</label>
+</ListView>

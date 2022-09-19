@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domaine_tudes_formule__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES( Domaine_tudes__c ,&quot;Gestion&quot;),&quot;Gestion &quot;,&quot;&quot;) &amp;
+IF(INCLUDES( Domaine_tudes__c ,&quot;Sciences (mathématiques, physique,...)&quot;),&quot;Sciences (mathématiques, physique,...) &quot;,&quot;&quot;) &amp; 
+IF(INCLUDES( Domaine_tudes__c ,&quot;Sciences humaines (lettres,...)&quot;),&quot;Sciences humaines (lettres,...) &quot;,&quot;&quot;) &amp; 
+IF(INCLUDES( Domaine_tudes__c ,&quot;Ingénieur&quot;),&quot;Ingénieur &quot;,&quot;&quot;) &amp; 
+IF(INCLUDES( Domaine_tudes__c ,&quot;Santé (pharmacie, vétérinaire,…)&quot;),&quot;Santé (pharmacie, vétérinaire,…) &quot;,&quot;&quot;) &amp; 
+IF(INCLUDES( Domaine_tudes__c ,&quot;Autre&quot;),&quot;Autre &quot;,&quot;&quot;) &amp;
+IF(INCLUDES( Domaine_tudes__c ,&quot;Gestion&quot;),&quot;Gestion &quot;,&quot;&quot;) &amp; 
+IF(INCLUDES( Domaine_tudes__c ,&quot;Droit&quot;),&quot;Droit &quot;,&quot;&quot;) &amp; 
+IF(INCLUDES( Domaine_tudes__c ,&quot;Bac STMG&quot;),&quot;Bac STMG &quot;,&quot;&quot;) &amp; 
+IF(INCLUDES( Domaine_tudes__c ,&quot;Bac L (littéraire)&quot;),&quot;Bac L (littéraire) &quot;,&quot;&quot;) &amp; 
+IF(INCLUDES( Domaine_tudes__c ,&quot;Bac S (scientifique)&quot;),&quot;Bac S (scientifique) &quot;,&quot;&quot;) &amp; 
+IF(INCLUDES( Domaine_tudes__c ,&quot;Bac ES (économique et sociale)&quot;),&quot;Bac ES (économique et sociale) &quot;,&quot;&quot;) &amp;
+IF(INCLUDES( Domaine_tudes__c ,&quot;Economie&quot;),&quot;Economie &quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Domaine études formule</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

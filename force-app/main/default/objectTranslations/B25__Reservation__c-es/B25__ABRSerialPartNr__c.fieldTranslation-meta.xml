@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilizado para identificar múltiples reservas &apos;a diario&apos; que son parte de una serie única.</help>
+    <label></label>
+    <name>B25__ABRSerialPartNr__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le numéro de téléphone de l&apos;employé de l’entreprise en charge de l’étudiant pendant son expérience professionnelle.</help>
+    <label>Téléphone du Tuteur / Manager Entreprise</label>
+    <name>Telephone_Tuteur_Entreprise__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annee_Application__c</fullName>
+    <description>Les 4 premiers caractères du code étudiant des étudiants concernés</description>
+    <externalId>false</externalId>
+    <label>Préfixe du code étudiant</label>
+    <length>4</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

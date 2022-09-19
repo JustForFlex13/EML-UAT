@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Title of the student&apos;s mission in the company (70 caracters maximum)</help>
+    <label>Mission&apos;s title</label>
+    <name>Titre_Mission__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Envoi 1 du formulaire d&apos;évaluation pour l&apos;évaluateur</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Évaluateur Envoi 1 du formulaire HTML</name>
+    <style>none</style>
+    <subject>Evaluation de votre stagiaire {!Convsta_Evaluation__c.Etudiant__c} / Evaluation of your intern {!Convsta_Evaluation__c.Etudiant__c}</subject>
+    <textOnly>Bonjour {!Convsta_Evaluation__c.Evaluateur__c},
+
+Vous accueillez actuellement {!Convsta_Evaluation__c.Etudiant__c}, étudiant au sein d’emlyon business school et nous vous en remercions.
+
+Le stage étant un requis pour l’obtention de son diplôme, nous vous invitions à compléter dans les meilleurs délais le formulaire d’évaluation suivant : &lt;a href=&quot;{!Convsta_Evaluation__c.evalLink__c}&quot;&gt; évaluation disponible ici&lt;/a&gt;
+
+Afin de l’accompagner dans ses apprentissages, nous vous conseillons de compléter cette évaluation lors d’un entretien de bilan de fin de stage en présence de l’étudiant.
+
+
+Nous restons à votre disposition,
+
+emlyon Career Center
+internship@em-lyon.com
+
+English version below
+
+Subject : Evaluation of your intern {!Convsta_Evaluation__c.Etudiant__c}
+
+Dear {!Convsta_Evaluation__c.Evaluateur__c},
+
+You recently welcomed {!Convsta_Evaluation__c.Etudiant__c}, student at emlyon business school and we thank your for it.
+
+The internship is mandatory for obtaining their diploma. We invite you to complete the following evaluation form as soon as possible : &lt;a href=&quot;{!Convsta_Evaluation__c.evalLink__c}&quot;&gt; Evaluate our student here&lt;/a&gt;
+
+In order to support them with their learning, we advise you to complete this evaluation during a face-to-face meeting with the students at the end their project.
+
+
+We remain at your disposal,
+
+emlyon Career Center
+internship@em-lyon.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

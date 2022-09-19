@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role_sur_l_opportunite__c</fullName>
+    <externalId>false</externalId>
+    <label>Role sur l&apos;opportunité</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Responsable légal</fullName>
+                <default>false</default>
+                <label>Responsable légal</label>
+            </value>
+            <value>
+                <fullName>Prescripteur agent</fullName>
+                <default>false</default>
+                <label>Prescripteur agent</label>
+            </value>
+            <value>
+                <fullName>Prescripteur coopteur</fullName>
+                <default>false</default>
+                <label>Prescripteur coopteur</label>
+            </value>
+            <value>
+                <fullName>Prescripteur décideur</fullName>
+                <default>false</default>
+                <label>Prescripteur décideur</label>
+            </value>
+            <value>
+                <fullName>Prescripteur gestionnaire RH</fullName>
+                <default>false</default>
+                <label>Prescripteur gestionnaire RH</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <label>Manager</label>
+            </value>
+            <value>
+                <fullName>Agent recruteur</fullName>
+                <default>false</default>
+                <label>Agent recruteur</label>
+            </value>
+            <value>
+                <fullName>Cooptation via diplomés</fullName>
+                <default>false</default>
+                <label>Cooptation via diplomés</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O algoritmo tentará encontrar uma localização para a Reserva com base na Ordem de Preferência classificada de baixa para alta.</help>
+    <label></label>
+    <name>B25__PreferenceOrder__c</name>
+</CustomFieldTranslation>

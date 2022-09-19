@@ -1,0 +1,51 @@
+{
+  "appPageId" : "b58db886-f511-49fa-ad0e-a69ce76f309f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "17572c45-d704-4080-90fd-d6d59606fbf5",
+  "label" : "User Profile",
+  "regions" : [ {
+    "id" : "bcd76737-2d74-42be-84c6-9b27fdc74dc9",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "caseCreateLabel" : "Create Case",
+        "caseFilterName" : "AllOpenCases",
+        "caseHeaderLabel" : "My Cases",
+        "casesTabLabel" : "Cases",
+        "detailsTabLabel" : "Details",
+        "feedTabLabel" : "Feed",
+        "knowledgeableAboutTitle" : "Knows About",
+        "maxTopics" : 5,
+        "recognitionbuttonLabel" : "Give",
+        "relatedTabLabel" : "Related",
+        "showAllUpdates" : false,
+        "showBadges" : true,
+        "showFullPhotoAsCircle" : true,
+        "showKnowledgeableAbout" : true,
+        "showRelatedList" : true,
+        "showReputationInInfluenceCard" : false,
+        "showStats" : true,
+        "userBadgesTitle" : "Recognition Badges",
+        "userId" : "{!recordId}",
+        "userStatsTitle" : "Influence"
+      },
+      "componentName" : "forceCommunity:userRecordHome",
+      "id" : "0885bf97-e026-467d-8d04-41f475eb05e2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1edc8dcc-ee16-422b-b044-234699b092b9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9d057eda-4df4-43a9-8b9a-f2fee8b6c7d3",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-005"
+}

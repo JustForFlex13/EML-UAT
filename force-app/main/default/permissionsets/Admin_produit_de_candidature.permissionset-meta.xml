@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Seuls les ayant droit dont Mahmoud peuvent avoir accès à ce champ</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Produit_de_candidature__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Admin produit de candidature</label>
+</PermissionSet>

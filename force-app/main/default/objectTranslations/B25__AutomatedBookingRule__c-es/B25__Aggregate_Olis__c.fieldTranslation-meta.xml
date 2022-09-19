@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si esto está marcado, todos los artículos de línea de oportunidad para este producto se gestionarán juntos, para que ocupen los mismos recursos.</help>
+    <label></label>
+    <name>B25__Aggregate_Olis__c</name>
+</CustomFieldTranslation>

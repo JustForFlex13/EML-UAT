@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Motif_Rejet_Administratif__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif de Rejet Administratif</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Convsta_Verdict_Administratif__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Conformité contacts et entreprise</fullName>
+                <default>false</default>
+                <label>Conformité contacts et entreprise</label>
+            </value>
+            <value>
+                <fullName>Consécutivité des stages</fullName>
+                <default>false</default>
+                <label>Consécutivité des stages</label>
+            </value>
+            <value>
+                <fullName>Dates non conformes</fullName>
+                <default>false</default>
+                <label>Dates non conformes</label>
+            </value>
+            <value>
+                <fullName>Mission non conforme</fullName>
+                <default>false</default>
+                <label>Mission non conforme</label>
+            </value>
+            <value>
+                <fullName>Rémunération inappropriée</fullName>
+                <default>false</default>
+                <label>Rémunération inappropriée</label>
+            </value>
+            <value>
+                <fullName>Stage illégal</fullName>
+                <default>false</default>
+                <label>Stage illégal</label>
+            </value>
+            <value>
+                <fullName>Autre raison</fullName>
+                <default>false</default>
+                <label>Autre raison</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Demande Rejetée</controllingFieldValue>
+            <controllingFieldValue>Précisions Nécessaires</controllingFieldValue>
+            <valueName>Conformité contacts et entreprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande Rejetée</controllingFieldValue>
+            <controllingFieldValue>Précisions Nécessaires</controllingFieldValue>
+            <valueName>Consécutivité des stages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande Rejetée</controllingFieldValue>
+            <controllingFieldValue>Précisions Nécessaires</controllingFieldValue>
+            <valueName>Dates non conformes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande Rejetée</controllingFieldValue>
+            <controllingFieldValue>Précisions Nécessaires</controllingFieldValue>
+            <valueName>Mission non conforme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande Rejetée</controllingFieldValue>
+            <controllingFieldValue>Précisions Nécessaires</controllingFieldValue>
+            <valueName>Rémunération inappropriée</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande Rejetée</controllingFieldValue>
+            <controllingFieldValue>Précisions Nécessaires</controllingFieldValue>
+            <valueName>Stage illégal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande Rejetée</controllingFieldValue>
+            <controllingFieldValue>Précisions Nécessaires</controllingFieldValue>
+            <valueName>Autre raison</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

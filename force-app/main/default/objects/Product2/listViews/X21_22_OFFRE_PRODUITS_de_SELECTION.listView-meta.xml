@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X21_22_OFFRE_PRODUITS_de_SELECTION</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>CPF_Mon_Compte_Formation__c</columns>
+    <columns>PRODUCT2.RECORD_TYPE</columns>
+    <columns>Type_enregistrement_produit__c</columns>
+    <columns>Format__c</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Selection</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>21-22 OFFRE PRODUITS de SELECTION</label>
+</ListView>

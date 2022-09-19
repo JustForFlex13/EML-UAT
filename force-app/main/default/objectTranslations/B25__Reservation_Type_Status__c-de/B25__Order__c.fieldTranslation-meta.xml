@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Definiert die Reihenfolge, in der die Status im Reservierungsformular in der Status-Pickliste angezeigt werden. Die niedrigsten Nummern werden zuerst angezeigt.</help>
+    <label></label>
+    <name>B25__Order__c</name>
+</CustomFieldTranslation>

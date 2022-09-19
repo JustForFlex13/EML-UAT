@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Stade_d_clar_de_la_d_marche__c</name>
+    <picklistValues>
+        <masterLabel>Choix presque finalisé</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Réflexion en cours</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stade déclaré de la démarche</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

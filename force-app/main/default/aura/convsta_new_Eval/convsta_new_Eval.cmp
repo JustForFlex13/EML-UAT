@@ -1,0 +1,4 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:hasRecordId,flexipage:availableForRecordHome" access="global"
+                controller="LCctrl02_Convsta_evaluationController">
+    <lightning:button label="Créer eval" title="Créer évaluation" onclick="{! c.handleClick }"></lightning:button>
+</aura:component>

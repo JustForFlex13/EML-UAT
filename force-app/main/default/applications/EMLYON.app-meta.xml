@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>EMLYON  - Classic</label>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Document</tabs>
+    <tabs>D_partement__c</tabs>
+    <tabs>NAF__c</tabs>
+    <tabs>Pays__c</tabs>
+    <tabs>Postes_Suppl_mentaires__c</tabs>
+    <tabs>Etat__c</tabs>
+    <tabs>Etablissement__c</tabs>
+    <tabs>Dipl_me__c</tabs>
+    <tabs>Formation__c</tabs>
+    <tabs>Titre__c</tabs>
+    <tabs>R_le__c</tabs>
+    <tabs>Cible__c</tabs>
+    <tabs>SIS_Bibliography__c</tabs>
+    <tabs>SIS_Program_Offering__c</tabs>
+</CustomApplication>

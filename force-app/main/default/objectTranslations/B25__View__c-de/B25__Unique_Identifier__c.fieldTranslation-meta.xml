@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Enthält ggf. keine Sonderzeichen und startet ggf. auch ohne Nummer. Wird zur eindeutigen Identifikation dieser Ansicht genutzt, auch wenn es dasselbe Label wie eine andere Ansicht hat.</help>
+    <label></label>
+    <name>B25__Unique_Identifier__c</name>
+</CustomFieldTranslation>

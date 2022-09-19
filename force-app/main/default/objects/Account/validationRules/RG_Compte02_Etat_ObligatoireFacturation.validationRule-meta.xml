@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Compte02_Etat_ObligatoireFacturation</fullName>
+    <active>true</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( and(   
+    OR
+    (
+       Adresse_Pays_WF__c  =  &quot;ÉTATS-UNIS&quot; , 
+       Adresse_Pays_WF__c  = &quot;CANADA&quot;
+    ),
+    isblank(Adresse_facturation_Etat1__c )
+)
+)</errorConditionFormula>
+    <errorDisplayField>Adresse_facturation_Etat1__c</errorDisplayField>
+    <errorMessage>Le champs Etat doit être obligatoire</errorMessage>
+</ValidationRule>

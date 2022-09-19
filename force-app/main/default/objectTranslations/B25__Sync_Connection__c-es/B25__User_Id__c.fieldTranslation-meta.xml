@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El ID del usuario con el que este registro debería sincronizarse. En la mayoría de los casos, es la dirección de correo electrónico del usuario.</help>
+    <label></label>
+    <name>B25__User_Id__c</name>
+</CustomFieldTranslation>

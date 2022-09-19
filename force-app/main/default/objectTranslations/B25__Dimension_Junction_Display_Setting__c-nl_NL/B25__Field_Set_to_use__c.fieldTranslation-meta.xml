@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indien deze gerelateerde lijst op het reserveringsformulier wordt getoond worden de velden in dit fieldset gebruikt om weer te geven voor elk item. Laat leeg voor geen extra velden.</help>
+    <label></label>
+    <name>B25__Field_Set_to_use__c</name>
+</CustomFieldTranslation>

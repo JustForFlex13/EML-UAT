@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O nome de API de um campo de caixa de seleção (objeto cruzado) no objeto de junção. Quando ativado, o registo da junção não conta para as verificações de reserva dupla.</help>
+    <label></label>
+    <name>B25__Junction_Allow_Double_Booking_Field__c</name>
+</CustomFieldTranslation>

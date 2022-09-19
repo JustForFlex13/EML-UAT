@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPF_Mon_Compte_Formation__c</fullName>
+    <description>Détermine si un produit est éligible au CPF (Compte Personnel de Formation)</description>
+    <externalId>false</externalId>
+    <label>CPF_Mon Compte Formation</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>éligible à Mon Compte Formation</fullName>
+                <default>false</default>
+                <label>éligible à Mon Compte Formation</label>
+            </value>
+            <value>
+                <fullName>non éligible à Mon Compte Formation</fullName>
+                <default>false</default>
+                <label>non éligible à Mon Compte Formation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

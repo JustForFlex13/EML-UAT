@@ -1,0 +1,10 @@
+<aura:component >
+
+    <aura:attribute name="selectedCompany"	type="Object"/>
+    <aura:handler name="formsubmit" event="c:Convsta_searchSiret" action="{!c.searchSiret}"/>
+    <aura:handler name="dataLoaded" event="c:SireneSearchOver" action="{!c.toggleSpinner}"/>
+    <lightning:spinner aura:id="mySpinner" class="slds-hide" alternativeText="en attente base Siret"/>
+
+    <c:SireneSearchForm/>
+    <c:SireneSearchResult aura:id="searchResult" selectedCompany="{!v.selectedCompany}"/>
+</aura:component>

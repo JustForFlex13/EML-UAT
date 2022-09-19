@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Mit welchem Nutzertyp dieser Datensatz synchronisiert. Wird zur richtigen Einstellung des Teilnehmertyps verwendet.</help>
+    <label></label>
+    <name>B25__User_Type__c</name>
+    <picklistValues>
+        <masterLabel>Resource</masterLabel>
+        <translation>Quelle</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User</masterLabel>
+        <translation>Nutzer</translation>
+    </picklistValues>
+</CustomFieldTranslation>

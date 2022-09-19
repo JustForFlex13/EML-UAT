@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CC CONFIRMATION INSCRIPTION Recruitment Week</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_Save_the_date_2020</letterhead>
+    <name>CC CONFIRMATION INSCRIPTION Recruitment Week</name>
+    <style>freeForm</style>
+    <subject>emlyon business school, Recruitment Week : Confirmation d’inscription</subject>
+    <textOnly>Cher employeur,
+
+Je vous remercie pour votre inscription au Careers Forum 2022 qui se tiendra sur la plateforme Talentspace.
+
+J’ai le plaisir de vous confirmer votre inscription pour la journée du {!Opportunity.Date_evenement__c} au tarif de {!Opportunity.Amount}.
+
+Dans le cadre de ce nouveau format online, nous reviendrons vers vous pour vous former à l&apos;utilisation de la plateforme et pour vous accompagner dans l&apos;organisation de votre évènement digital.
+
+Pour toute question relative à votre arrivée et la facturation, n&apos;hésitez pas à nous contacter à l&apos;adresse suivante : relations-employeurs@em-lyon.com
+
+Je reste à votre disposition pour tout complément d’information et au plaisir de vous accueillir prochainement.
+
+Cordialement,
+
+{!User.Name}
+{!User.Title}
+{!User.Phone}
+23, avenue Guy de Collongue
+CS 40203 69134 Ecully Cedex France
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

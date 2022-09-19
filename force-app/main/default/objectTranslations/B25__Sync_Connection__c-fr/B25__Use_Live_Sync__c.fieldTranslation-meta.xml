@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsque cette option est activée, Booker25 met en place un abonnement en direct et les actualisations dans le système externe déclenchent des actualisations dans Booker25 en temps presque réel.</help>
+    <label></label>
+    <name>B25__Use_Live_Sync__c</name>
+</CustomFieldTranslation>

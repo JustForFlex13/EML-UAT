@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Inscription CADIF x emlyon</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>BI certificats online CADIF</name>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>Personnel _ Bulletin d&apos;inscription poursuite parcours LBE | certificat online emlyon executive education</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

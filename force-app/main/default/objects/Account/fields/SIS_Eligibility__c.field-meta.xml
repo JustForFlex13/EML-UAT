@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Eligibility__c</fullName>
+    <externalId>false</externalId>
+    <label>Eligibility</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>SIS_Program_Family__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Parallel admission</fullName>
+                <default>false</default>
+                <label>Parallel admission (Year 2 or 3)</label>
+            </value>
+            <value>
+                <fullName>Dual degree</fullName>
+                <default>false</default>
+                <label>Dual degree</label>
+            </value>
+            <value>
+                <fullName>VAE</fullName>
+                <default>false</default>
+                <label>VAE</label>
+            </value>
+            <value>
+                <fullName>ASTF</fullName>
+                <default>false</default>
+                <label>ASTF</label>
+            </value>
+            <value>
+                <fullName>ASTF Institut de l&apos;engagement</fullName>
+                <default>false</default>
+                <label>ASTF Institut de l&apos;engagement</label>
+            </value>
+            <value>
+                <fullName>ASTI Join a school in France</fullName>
+                <default>false</default>
+                <label>ASTI Join a school in France</label>
+            </value>
+            <value>
+                <fullName>ASTI concours propre</fullName>
+                <default>false</default>
+                <label>ASTI concours propre</label>
+            </value>
+            <value>
+                <fullName>Double Diplôme avec reciprocité</fullName>
+                <default>false</default>
+                <label>Double Diplôme avec reciprocité</label>
+            </value>
+            <value>
+                <fullName>Double Diplôme sans reciprocité</fullName>
+                <default>false</default>
+                <label>Double Diplôme sans reciprocité</label>
+            </value>
+            <value>
+                <fullName>SESAME</fullName>
+                <default>false</default>
+                <label>SESAME</label>
+            </value>
+            <value>
+                <fullName>Concours international</fullName>
+                <default>false</default>
+                <label>Concours international</label>
+            </value>
+            <value>
+                <fullName>Admission parallèle (Année 2 ou année 3)</fullName>
+                <default>false</default>
+                <label>Admission parallèle (Année 2 ou année 3)</label>
+            </value>
+            <value>
+                <fullName>Double Diplôme</fullName>
+                <default>false</default>
+                <label>Double Diplôme</label>
+            </value>
+            <value>
+                <fullName>BCE Classe prépa Eco</fullName>
+                <default>false</default>
+                <label>BCE Classe prépa Eco</label>
+            </value>
+            <value>
+                <fullName>BCE Classe prépa Commercial</fullName>
+                <default>false</default>
+                <label>BCE Classe prépa Commercial</label>
+            </value>
+            <value>
+                <fullName>BCE Classe prépa Littéraire</fullName>
+                <default>false</default>
+                <label>BCE Classe prépa Littéraire</label>
+            </value>
+            <value>
+                <fullName>BCE Classe prépa Admissible à l&apos;ENS</fullName>
+                <default>false</default>
+                <label>BCE Classe prépa Admissible à l&apos;ENS</label>
+            </value>
+            <value>
+                <fullName>BCE Classe prépa Paris Saclay</fullName>
+                <default>false</default>
+                <label>BCE Classe prépa Paris Saclay</label>
+            </value>
+            <value>
+                <fullName>BCE Classe prépa BCPST</fullName>
+                <default>false</default>
+                <label>BCE Classe prépa BCPST</label>
+            </value>
+            <value>
+                <fullName>BCE Classe prépa MP</fullName>
+                <default>false</default>
+                <label>BCE Classe prépa MP</label>
+            </value>
+            <value>
+                <fullName>BCE Classe prépa PC</fullName>
+                <default>false</default>
+                <label>BCE Classe prépa PC</label>
+            </value>
+            <value>
+                <fullName>BCE Classe prépa PSI</fullName>
+                <default>false</default>
+                <label>BCE Classe prépa PSI</label>
+            </value>
+            <value>
+                <fullName>BCE Classe prépa PT</fullName>
+                <default>false</default>
+                <label>BCE Classe prépa PT</label>
+            </value>
+            <value>
+                <fullName>Admission sur dossier</fullName>
+                <default>false</default>
+                <label>Admission sur dossier</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Global BBA</controllingFieldValue>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>VAE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global BBA</controllingFieldValue>
+            <valueName>SESAME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global BBA</controllingFieldValue>
+            <valueName>Concours international</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global BBA</controllingFieldValue>
+            <valueName>Admission parallèle (Année 2 ou année 3)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Global BBA</controllingFieldValue>
+            <valueName>Double Diplôme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>ASTF Institut de l&apos;engagement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>ASTI Join a school in France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>ASTI concours propre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>Double Diplôme avec reciprocité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>Double Diplôme sans reciprocité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>BCE Classe prépa Eco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>BCE Classe prépa Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>BCE Classe prépa Littéraire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>BCE Classe prépa Admissible à l&apos;ENS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>BCE Classe prépa Paris Saclay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>BCE Classe prépa BCPST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>BCE Classe prépa MP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>BCE Classe prépa PC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>BCE Classe prépa PSI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <valueName>BCE Classe prépa PT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PGE</controllingFieldValue>
+            <controllingFieldValue>Executive MBA</controllingFieldValue>
+            <valueName>Admission sur dossier</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

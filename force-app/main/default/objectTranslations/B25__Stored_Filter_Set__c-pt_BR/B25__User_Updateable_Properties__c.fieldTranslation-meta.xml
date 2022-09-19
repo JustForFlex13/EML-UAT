@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>As opções que o utilizador pode editar ao carregar o filtro global. As alterações são guardadas por utilizador individual.</help>
+    <label></label>
+    <name>B25__User_Updateable_Properties__c</name>
+    <picklistValues>
+        <masterLabel>Enabled</masterLabel>
+        <translation>Ativado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operators</masterLabel>
+        <translation>Operadores</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Values</masterLabel>
+        <translation>Valores</translation>
+    </picklistValues>
+</CustomFieldTranslation>

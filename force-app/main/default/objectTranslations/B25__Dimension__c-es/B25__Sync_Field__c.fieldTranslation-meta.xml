@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El nombre de API de un campo en el objeto de conexión de sincronización que es una búsqueda en el objeto de dimensión. Esto le permite configurar sincronizaciones para este objeto.</help>
+    <label></label>
+    <name>B25__Sync_Field__c</name>
+</CustomFieldTranslation>

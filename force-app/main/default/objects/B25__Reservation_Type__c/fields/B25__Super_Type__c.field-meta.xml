@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Super_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The super type of this Reservation Type. Super types wil be shown in the dropdown at the top of the Reservation form. All subtypes of this super type can then be selected in a dropdown in the form itself.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le super-type de ce type de réservation. Les super-types seront affichés dans la liste déroulante en haut du formulaire de réservation. Tous les sous-types de ce super-type peuvent ensuite être sélectionnés dans une liste déroulante dans le formulaire en soi.</inlineHelpText>
+    <label>Super Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Default</fullName>
+                <default>false</default>
+                <label>Default</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

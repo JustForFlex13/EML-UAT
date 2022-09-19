@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pistes_qualifiees</fullName>
+    <columns>LEAD.STATUS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>Adresse_e_mail__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>FULL_NAME</field>
+        <operation>contains</operation>
+        <value>LAMARQUE</value>
+    </filters>
+    <label>pistes qualifiees</label>
+    <language>fr</language>
+    <sharedTo>
+        <group>Vues_DPM</group>
+    </sharedTo>
+</ListView>

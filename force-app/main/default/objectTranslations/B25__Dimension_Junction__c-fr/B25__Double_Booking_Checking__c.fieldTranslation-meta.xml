@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Définit ce qui se passe si une double réservation est détectée. Rien : l’autoriser. Strict : ne pas l’autoriser. Souple : l’autoriser, mais créer un enregistrement de conflit entre les deux réservations conflictuelles.</help>
+    <label></label>
+    <name>B25__Double_Booking_Checking__c</name>
+</CustomFieldTranslation>

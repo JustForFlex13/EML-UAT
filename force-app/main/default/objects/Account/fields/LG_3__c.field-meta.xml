@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LG_3__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Our graduates develop a creative mindset and are able to make ideas happen</inlineHelpText>
+    <label>LG 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LO5 : Graduates are able to use the critical, creative and flexible thinking methods to analyse and solve complex problems in a changing and uncertain environment</fullName>
+                <default>false</default>
+                <label>LO5 : Graduates are able to use the critical, creative and flexible thinking methods to analyse and solve complex problems in a changing and uncertain environment</label>
+            </value>
+            <value>
+                <fullName>LO6 : Graduates are able to act/react and establish design process and innovating developments</fullName>
+                <default>false</default>
+                <label>LO6 : Graduates are able to act/react and establish design process and innovating developments</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bestehen für eine einzelne Dimension mehrere Einzeldatensatz-Kalender, wird der Kalender mit der Checkbox genutzt, wenn der Kalender mit einem Datensatz nur mit einer Quellen-ID geladen wird.</help>
+    <label></label>
+    <name>B25__Default__c</name>
+</CustomFieldTranslation>

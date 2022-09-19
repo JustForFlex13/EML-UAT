@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Type &quot;non-inscrits&quot;</label>
+    <name>SIS_non_registered_students_type__c</name>
+    <picklistValues>
+        <masterLabel>Etudiants en échange entrants</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Libre</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VAE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

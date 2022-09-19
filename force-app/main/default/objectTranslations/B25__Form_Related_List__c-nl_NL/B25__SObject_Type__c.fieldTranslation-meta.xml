@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Het SObject type van het gerelateerde object. Dit wordt automatisch gevuld dus hoeft niet te worden gezet.</help>
+    <label></label>
+    <name>B25__SObject_Type__c</name>
+</CustomFieldTranslation>

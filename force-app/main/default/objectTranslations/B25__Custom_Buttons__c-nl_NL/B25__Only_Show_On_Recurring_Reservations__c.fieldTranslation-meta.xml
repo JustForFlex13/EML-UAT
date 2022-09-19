@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indien aangevinkt, toon deze button alleen bij het bewerken van een herhalende reservering</help>
+    <label></label>
+    <name>B25__Only_Show_On_Recurring_Reservations__c</name>
+</CustomFieldTranslation>

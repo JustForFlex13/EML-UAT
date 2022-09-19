@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si se marca &apos;Crear eventos para reservas&apos; en los ajustes de Booker25, es el ID para el evento relacionado con un registro de reserva específico.</help>
+    <label></label>
+    <name>B25__Event_Id__c</name>
+</CustomFieldTranslation>

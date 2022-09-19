@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Relance d&apos;une demande d&apos;upload de l&apos;attestation de l&apos;employeur</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Attestation Relance V2</name>
+    <style>freeForm</style>
+    <subject>[Reminder]Demande de certificat de présence en entreprise / Employer’s certificate of attendance</subject>
+    <textOnly>Bonjour {!Convsta_Evaluation__c.Etudiant__c},
+
+Dans l’optique de vous présenter au jury de diplôme, nous avons besoin d’une attestation émise par votre employeur afin de valider votre expérience professionnelle et certifier de votre présence actuelle en entreprise. Elle devra contenir les informations suivantes :
+- Le nom et prénom
+- La fonction occupée
+- L’entreprise
+- La date de début
+- La signature et/ou le tampon du manager ou RH
+
+Pour nous envoyer cette attestation, accédez à votre espace « jobs and internships » sur Makersboard. Dans la demande {!Convsta_Evaluation__c.Demande__c}, téléchargez le document dans la zone de dépôt de fichier.
+
+Nous restons à votre disposition,
+
+emlyon Career Center
+
+English version below
+
+Subject : Employer’s certificate of attendance
+
+Dear {!Convsta_Evaluation__c.Etudiant__c},
+
+In order to introduce you to the diploma jury, we need a certificate issued by your employer to validate your professional experience and certify your current attendance in the company. It must contain the following information :
+
+- Last name and name
+- The function occupied
+- The company
+- The start date
+- The signature and/or the stamp of the manager or HR
+
+To send us this certificate, go to your « jobs and internships » section on Makersboard. In the request {!Convsta_Evaluation__c.Demande__c}, download the document in the file dropbox.
+
+We remain at your disposal
+
+emlyon Career Center</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

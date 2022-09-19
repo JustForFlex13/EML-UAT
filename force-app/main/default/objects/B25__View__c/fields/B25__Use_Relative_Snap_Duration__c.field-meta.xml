@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Use_Relative_Snap_Duration__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When left unchecked Calendar uses fixed intervals for snap durations. Users may be unable to slide back
+		to original position.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option n’est pas cochée, le calendrier utilise des intervalles fixes pour les durées d’instantané. Les utilisateurs peuvent être incapables de glisser pour revenir à la position d’origine.</inlineHelpText>
+    <label>Use Relative Snap Duration</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Accusé de réception de la soumission d&apos;une demande à l&apos;étranger</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Convsta_Accusé de réception de la soumission d&apos;une demande à l&apos;étranger</name>
+    <style>freeForm</style>
+    <subject>Accusé de réception &amp; Guide des bonnes pratiques à l&apos;étranger</subject>
+    <textOnly>Bonjour {!Contact.Name},
+
+Nous accusons réception de votre demande de convention de stage/ validation d’expérience professionnelle à l&apos;étranger. 
+Elle intègre désormais un processus de validation. 
+
+Nous vous invitons à prendre connaissance des informations et renseignements relatifs à votre mission à l’étranger (document en pièce jointe).
+
+A tout moment, suivez l&apos;évolution de votre demande sur votre espace MakersBoard / &quot;Stages &amp; Expérience Professionnelle&quot;.
+ 
+Cordialement.
+
+emlyon Career Center</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

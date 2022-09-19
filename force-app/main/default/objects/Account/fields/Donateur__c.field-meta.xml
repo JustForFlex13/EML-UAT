@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Donateur__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Ancien intitulé du champ : &apos;Donateur&apos;. A été modifié à la demande de l&apos;EM Lyon (fiche 1535)</description>
+    <externalId>false</externalId>
+    <label>Partenaire B2B</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

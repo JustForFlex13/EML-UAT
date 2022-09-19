@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CA_Vue_Opp_PGM_Casa</fullName>
+    <columns>Contact_central__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>Exercice__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>Contact_Canal_d_acquisition__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>A_d_sactiv_son_int_r_t__c</columns>
+    <columns>Statut_Dossier_CANEL__c</columns>
+    <columns>Remplissage_Dossier_CANEL__c</columns>
+    <columns>Statut_Canel__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>PGM Casablanca</value>
+    </filters>
+    <label>CASA Vue Opp PGM Casa</label>
+    <language>fr</language>
+    <sharedTo>
+        <group>Opp_FC_Longue</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,83 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" controller="Convsta_Internship">
+    <aura:attribute name="inputCountry" type="String" default=""/>
+    <aura:attribute name="inputCity" type="String" default=""/>
+    <aura:attribute name="inputProgram" type="String" default=""/>
+    <aura:attribute name="inputNaf" type="String" default=""/>
+    <aura:attribute name="inputCompanyName" type="String" default=""/>
+    <aura:attribute name="inputTitle" type="String" default=""/>
+
+    <aura:attribute name="outputResults" type="List"/>
+
+    <!-- SEARCH -->
+    <div class="slds-form-element slds-lookup" data-select="single">
+        <div class="slds-form-element__control internship-history-container">
+            <div class="slds-form_horizontal slds-form slds-grid slds-wrap ">
+                <lightning:input aura:id="countryField" class="slds-size_1-of-3" type="text" value="{!v.inputCountry}" name="Country" placeholder="{!$Label.c.Convsta_SearchCountry}"/>
+                <lightning:input aura:id="cityField" class="slds-size_1-of-3" type="text" value="{!v.inputCity}" name="City" placeholder ="{!$Label.c.Convsta_SearchCity}"/>
+                <lightning:input aura:id="programField" class="slds-size_1-of-3" type="text" value="{!v.inputProgram}" name="Program" placeholder ="{!$Label.c.Convsta_SearchProgram}"/>
+            </div>
+            <div class="slds-form_horizontal slds-form slds-grid slds-wrap">
+                <lightning:input aura:id="activityField" class="slds-size_1-of-3" type="text" value="{!v.inputNaf}" name="Activity" placeholder ="{!$Label.c.Convsta_Activity}"/>
+                <lightning:input aura:id="companyField" class="slds-size_1-of-3" type="text" value="{!v.inputCompanyName}" name="CompanyName" placeholder ="{!$Label.c.Convsta_SearchEntreprise}"/>
+                <lightning:input aura:id="titleField" class="slds-size_1-of-3" type="text" value="{!v.inputTitle}" name="Title" placeholder ="{!$Label.c.Convsta_eval_titreMission}"/>
+            </div>
+            <lightning:button class ="slds-align_absolute-center" label="{!$Label.c.Convsta_Search}" iconName="utility:search" onclick="{! c.searchJS }"/>
+        </div>
+    </div>
+
+    <!-- TABLE CONTENT --> 
+    <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+        <thead>
+            <tr class="slds-text-title_caps">
+                <th scope="col">
+                    <div class="slds-truncate" title="CompanyName">{!$Label.c.Convsta_SearchEntreprise}</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="Country">{!$Label.c.Convsta_SearchCountry}</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="City">{!$Label.c.Convsta_SearchCity}</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="Naf">{!$Label.c.Convsta_Activity}</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="Title">{!$Label.c.Convsta_eval_titreMission}</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="Start year">{!$Label.c.Convsta_StartYear}</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="Student name">{!$Label.c.Convsta_eval_etudiant}</div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <aura:iteration items="{!v.outputResults}" var="output">
+                <tr>
+                    <td>
+                        <div class="slds-truncate">{!output.companyName}</div>
+                    </td>
+                    <td>
+                        <div class="slds-truncate">{!output.country}</div>
+                    </td>
+                    <td>
+                        <div class="slds-truncate">{!output.city}</div>
+                    </td>
+                    <td>
+                        <div class="slds-truncate">{!output.naf}</div>
+                    </td>
+                    <td>
+                        <div class="slds-truncate">{!output.title}</div>
+                    </td>
+                    <td>
+                        <div class="slds-truncate">{!output.startYear}</div>
+                    </td>
+                    <td>
+                        <div class="slds-truncate">{!output.studentName}</div>
+                    </td>
+                </tr>
+            </aura:iteration>
+        </tbody>
+    </table>
+</aura:component>

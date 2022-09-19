@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Al activar esta casilla, no podrá añadir reservas de servicios cuando tenga seleccionado este tipo de reserva.</help>
+    <label></label>
+    <name>B25__Hide_Service_Section__c</name>
+</CustomFieldTranslation>

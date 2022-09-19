@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Etat_des_verdicts__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (ISNULL ( Convsta_Date_de_premiere_soumission__c ), &quot;&quot;,  
+    IF (TEXT (Convsta_Verdict_Pedagogique__c) = &apos;Précisions Nécessaires&apos;, &quot;Précisions Nécessaires&quot;,  
+    IF (TEXT ( Convsta_Verdict_Pedagogique__c) = &apos;Demande Rejetée&apos;, &quot;Demande Rejetée&quot;, 
+    IF (TEXT ( Convsta_Verdict_Pedagogique__c) = &apos;Demande Acceptée&apos;,
+                (IF (TEXT (Convsta_Verdict_Administratif__c ) = &apos;Précisions Nécessaires&apos;, &quot;Précisions Nécessaires&quot;, 
+                   IF (TEXT (Convsta_Verdict_Administratif__c ) = &apos;Demande Rejetée&apos;, &quot;Demande Rejetée&quot;, 
+                   IF (NOT(ISNULL(Convsta_Date_Validation_Administrative__c)) , &quot;Demande Acceptée&quot;, &quot;En attente de validation administrative&quot;)))), 
+
+&quot;En attente de validation pédagogique&quot; ))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Etat des verdicts</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

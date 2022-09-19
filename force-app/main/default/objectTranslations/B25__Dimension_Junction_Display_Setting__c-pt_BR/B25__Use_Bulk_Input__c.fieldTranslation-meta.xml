@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Pode ser utilizado para aumentar o desempenho se a validação da junção for lenta. Permite ao utilizador selecionar primeiro múltiplas novas junções, e adia a validação até depois de o utilizador clicar no botão Adicionar.</help>
+    <label></label>
+    <name>B25__Use_Bulk_Input__c</name>
+</CustomFieldTranslation>

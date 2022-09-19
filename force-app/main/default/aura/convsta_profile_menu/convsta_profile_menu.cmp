@@ -1,0 +1,43 @@
+<aura:component 
+                implements="forceCommunity:profileMenuInterface" 
+                access="global"
+                controller="LCctrl01_Convsta_demandeController">
+    <aura:attribute name="toConfirm" type="boolean" default="false"/>
+    <aura:attribute name="currUser" type="User" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <ltng:require styles="{!$Resource.Convsta_multilineToastCSS}" />
+    <!-- <article class="slds-card" style="background-color:rgb(201, 199, 197); float: right;">-->
+    <div style=" float: right;">
+        <aura:if isTrue="{! v.currUser }">
+            {!v.currUser.Name }  &nbsp;  
+            <img src="{!$Resource.convsta_flag_FR}" onclick="{!c.changeFR}"  style="width:32px;height:24px;"/> &nbsp; 
+            <img src="{!$Resource.convsta_flag_EN}" alternativeText="EN/US" onclick="{!c.changeEN}"  style="width:32px;height:24px;"/>
+        </aura:if>        
+    <!--<ui:button label="Logout" press="{!c.logout}"/>-->
+        </div>
+          <!--<img src="{!$Resource.convsta_flag_FR}" onclick="{!c.changeFR}"  style="width:32px;height:24px;"/> &nbsp; 
+                    <img src="{!$Resource.convsta_flag_EN}" alternativeText="EN/US" onclick="{!c.changeEN}"  style="width:32px;height:24px;"/>  &nbsp;
+
+            
+    </article>-->
+    <aura:if isTrue="{!v.toConfirm}">
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        {!$Label.c.convsta_language_changed}
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <lightning:button variant="neutral" 
+                                        label="{!$Label.c.Convsta_Annuler}" 
+                                        title="{!$Label.c.Convsta_Annuler}" 
+                                        onclick="{! c.closeConfirm }"/>
+                        <lightning:button variant="brand" 
+                                        label="{!$Label.c.Convsta_RefreshPageButton}" 
+                                        title="{!$Label.c.Convsta_RefreshPageButton}" 
+                                        onclick="{! c.refreshPage }"/>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>            
+        </aura:if>
+</aura:component>

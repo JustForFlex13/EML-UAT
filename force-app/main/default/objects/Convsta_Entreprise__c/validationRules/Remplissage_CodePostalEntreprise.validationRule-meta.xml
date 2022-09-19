@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remplissage_CodePostalEntreprise</fullName>
+    <active>true</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+NOT(ISNEW())&amp;&amp; 
+AND ( 
+NOT(MD_Demande__r.Convsta_tech_notIsPortaluser__c), 
+TEXT(MD_Demande__r.Convsta_Localisation_de_l_entreprise__c )!=&apos;En France&apos;, 
+OR( TEXT(MD_Demande__r.Convsta_Type_de_demande__c)=&apos;Stage&apos;, 
+TEXT(MD_Demande__r.Convsta_Type_de_demande__c)=&apos;Contrat à venir&apos;, 
+TEXT(MD_Demande__r.Convsta_Type_de_demande__c)=&apos;Validation_experience_anterieure&apos; 
+), 
+ISBLANK( Code_Postal__c ) 
+)</errorConditionFormula>
+    <errorDisplayField>Code_Postal__c</errorDisplayField>
+    <errorMessage>Veuillez renseigner le code postal de votre entreprise.</errorMessage>
+</ValidationRule>

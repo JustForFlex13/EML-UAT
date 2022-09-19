@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__EndTime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Required when using EndDateField__c instead of EndDatetimeField__c</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Heure de la journée (c’est-à-dire 17 pour 17 heures)</inlineHelpText>
+    <label>End Time</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

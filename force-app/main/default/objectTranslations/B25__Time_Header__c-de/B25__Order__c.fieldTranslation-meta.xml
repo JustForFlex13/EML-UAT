@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Legt die Reihenfolge, in der die Reihenfolge die Time Header erscheinen, fest, wobei die niedrigere Zahl oben erscheint, danach die niedrigeren Zahlen sowie die leeren Felder.</help>
+    <label></label>
+    <name>B25__Order__c</name>
+</CustomFieldTranslation>

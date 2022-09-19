@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Lazy_Reservation_Loading__c</fullName>
+    <deprecated>false</deprecated>
+    <description>‘Vertical’ enables Lazy Loading on the vertical axis. ‘Vertical/Horizontal’ enables Lazy Loading on both axes. This last setting is incompatible with any setting that hides parts of the timeline, such as ‘Hide closed time without reservations&apos; on View.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>« Vertical » active le chargement paresseux sur l’axe vertical. « Vertical/Horizontal » active le chargement paresseux sur les deux axes. Ce dernier paramètre est incompatible avec tout paramètre qui masque des parties de la ligne de temps, tel que « Masquer les heures de fermeture sans réservation » dans la vue.</inlineHelpText>
+    <label>Lazy Reservation Loading</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Disabled</fullName>
+                <default>true</default>
+                <label>Disabled</label>
+            </value>
+            <value>
+                <fullName>Vertical</fullName>
+                <default>false</default>
+                <label>Vertical</label>
+            </value>
+            <value>
+                <fullName>Vertical &amp; Horizontal</fullName>
+                <default>false</default>
+                <label>Vertical &amp; Horizontal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

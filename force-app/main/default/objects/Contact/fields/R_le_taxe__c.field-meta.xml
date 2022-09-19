@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>R_le_taxe__c</fullName>
+    <externalId>false</externalId>
+    <label>Rôle Taxe</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Décisionnaire versement Taxe</fullName>
+                <default>false</default>
+                <label>Décisionnaire versement Taxe</label>
+            </value>
+            <value>
+                <fullName>Gestionnaire versement Taxe</fullName>
+                <default>false</default>
+                <label>Gestionnaire versement Taxe</label>
+            </value>
+            <value>
+                <fullName>Prescripteur fond libre collecteur</fullName>
+                <default>false</default>
+                <label>Prescripteur fond libre collecteur</label>
+            </value>
+            <value>
+                <fullName>Prescripteur versement Taxe</fullName>
+                <default>false</default>
+                <label>Prescripteur versement Taxe</label>
+            </value>
+            <value>
+                <fullName>Remerciement Taxe DG à Président</fullName>
+                <default>false</default>
+                <label>Remerciement Taxe DG à Président</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

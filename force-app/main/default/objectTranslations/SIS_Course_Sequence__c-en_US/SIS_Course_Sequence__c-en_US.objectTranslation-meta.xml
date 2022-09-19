@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Course sequence</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Course sequences</value>
+    </caseValues>
+    <layouts>
+        <layout>Présentation Séquence du cours</layout>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Course sequence</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Add resource</label>
+        <name>Ajouter_des_ressources</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

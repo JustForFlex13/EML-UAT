@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Plan_Requirement_CL</fullName>
+    <fields>Name</fields>
+    <fields>SIS_Label__c</fields>
+    <fields>hed__Category__c</fields>
+    <fields>hed__Sequence__c</fields>
+    <fields>SIS_Requirement_Family__c</fields>
+    <fields>hed__Credits__c</fields>
+    <fields>LastModifiedById</fields>
+    <label>SIS Plan Requirement CL</label>
+</CompactLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__All</fullName>
+    <columns>NAME</columns>
+    <columns>B25__Operation_Type__c</columns>
+    <columns>B25__Stage__c</columns>
+    <columns>B25__Status_Code__c</columns>
+    <columns>B25__Error_Message__c</columns>
+    <columns>B25__Sync_Connection__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

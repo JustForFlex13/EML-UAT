@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motifs_de_non_eligibilite__c</fullName>
+    <externalId>false</externalId>
+    <label>Motifs de non éligibilité</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Age trop élevé</fullName>
+                <default>false</default>
+                <label>Age trop élevé</label>
+            </value>
+            <value>
+                <fullName>Niveau d’études insuffisant</fullName>
+                <default>false</default>
+                <label>Niveau d’études insuffisant</label>
+            </value>
+            <value>
+                <fullName>Expérience professionnelle incohérente</fullName>
+                <default>false</default>
+                <label>Expérience professionnelle incohérente</label>
+            </value>
+            <value>
+                <fullName>Domaine d’études incohérent</fullName>
+                <default>false</default>
+                <label>Domaine d’études incohérent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

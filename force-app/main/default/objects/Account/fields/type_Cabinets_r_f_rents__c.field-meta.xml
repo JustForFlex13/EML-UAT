@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>type_Cabinets_r_f_rents__c</fullName>
+    <description>Ce champ permet de sélectionner les entreprises intervenants dans le dispositif carrière</description>
+    <externalId>false</externalId>
+    <label>Type Cabinets référents</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Associations</fullName>
+                <default>false</default>
+                <label>Associations</label>
+            </value>
+            <value>
+                <fullName>Coaching</fullName>
+                <default>false</default>
+                <label>Coaching</label>
+            </value>
+            <value>
+                <fullName>Outplacement</fullName>
+                <default>false</default>
+                <label>Outplacement</label>
+            </value>
+            <value>
+                <fullName>Recrutement</fullName>
+                <default>false</default>
+                <label>Recrutement</label>
+            </value>
+            <value>
+                <fullName>RH</fullName>
+                <default>false</default>
+                <label>RH</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

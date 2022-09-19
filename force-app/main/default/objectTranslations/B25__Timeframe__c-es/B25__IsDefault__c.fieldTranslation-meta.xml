@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si se marca, este período de tiempo se seleccionará de forma predeterminada para los recursos apropiados.</help>
+    <label></label>
+    <name>B25__IsDefault__c</name>
+</CustomFieldTranslation>

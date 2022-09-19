@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_document_non_conforme_justif</fullName>
+    <active>true</active>
+    <description>Renseigner le champ Justification si le document n&apos;est pas conforme.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+(Text(Convsta_Document_recu__c) =&quot;Non conforme&quot; &amp;&amp;   
+		ISBLANK( Convsta_Precision_piece_jointe__c))</errorConditionFormula>
+    <errorDisplayField>Convsta_Precision_piece_jointe__c</errorDisplayField>
+    <errorMessage>Veuillez inclure la justification que l&apos;étudiant doit fournir. Il la recevra automatiquement par email.</errorMessage>
+</ValidationRule>

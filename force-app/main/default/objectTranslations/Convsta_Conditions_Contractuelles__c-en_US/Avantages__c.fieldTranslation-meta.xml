@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Listing of the benefits offered to the student (meal tickets, public transport reimbursement, etc.) as part of his work experience. If nothing, precise &quot;none&quot;</help>
+    <label>Benefits</label>
+    <name>Avantages__c</name>
+</CustomFieldTranslation>

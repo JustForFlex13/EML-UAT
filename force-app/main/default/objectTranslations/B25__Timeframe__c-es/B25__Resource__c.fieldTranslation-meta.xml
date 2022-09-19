@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cuando se rellena, el período de tiempo solo aparecerá para el recurso elegido y sus elementos secundarios.</help>
+    <label></label>
+    <name>B25__Resource__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

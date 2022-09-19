@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Calendar__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>On which Calendar should the Reservation Title be shown?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sur quel calendrier le titre de la réservation doit-il être affiché ?</inlineHelpText>
+    <label>Calendar</label>
+    <referenceTo>B25__Calendar__c</referenceTo>
+    <relationshipLabel>Resource Titles</relationshipLabel>
+    <relationshipName>Reservation_Titles</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

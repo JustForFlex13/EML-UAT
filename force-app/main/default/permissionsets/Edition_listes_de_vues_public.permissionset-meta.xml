@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Cette permission set est déployé pour permettre aux utilisateurs suivant se modifier, supprimer les listes de vues (Wendy hédiart, Dyana Niergues, Renaud Henrion, Tess, nathalie seux)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Edition listes de vues public</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeFilters</name>
+    </userPermissions>
+</PermissionSet>

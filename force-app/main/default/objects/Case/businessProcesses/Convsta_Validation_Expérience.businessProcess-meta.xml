@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Validation_Expérience</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Annulée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Brouillon</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Brouillon annulé</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Complément d%E2%80%99information</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>En cours de signature</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Evaluée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Expirée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Refusée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Signée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Validation administrative</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Validation pédagogique</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Validée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Validée et en attente de contrat à uploader</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

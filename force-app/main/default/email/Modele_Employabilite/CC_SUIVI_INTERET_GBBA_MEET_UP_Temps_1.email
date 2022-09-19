@@ -1,0 +1,37 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><font face="Arial, sans-serif" style="" size="2"><span style="background-color: rgb(255, 255, 255);">Bonjour,</span><br style=""><br style=""><span style="background-color: rgb(255, 255, 255);">Vous aviez suscité de l'intérêt pour le <b>Global BBA Forum du 10 novembre 2022.</b></span><br style=""><br style=""><span style="background-color: rgb(255, 255, 255);">Veuillez trouver en pièce jointe le bulletin d'inscription.</span><br style=""><br style=""><span style="background-color: rgb(255, 255, 255);">Votre inscription sera confirmée dès la réception de votre choix du document joint signé et daté.</span><br style=""><br style=""><br style=""><span style="background-color: rgb(255, 255, 255);">Je reste à votre disposition pour tout complément d’information.</span><br style=""><br style=""><br style=""><span style="background-color: rgb(255, 255, 255);">Cordialement,</span></font></div><p class="MsoNormal" style="font-size: 12pt; font-family: arial; text-align: justify; line-height: normal;"><span style="font-size:12.0pt;
+font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;
+mso-bidi-theme-font:major-latin;mso-fareast-language:FR"><br></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Name}</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Title}</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Phone}</span></p>
+
+
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">23, avenue Guy de Collongue</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">CS 40203 69134 Ecully Cedex France</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><a href="http://www.em-lyon.com"><span style="font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-hansi-theme-font:
+major-latin;mso-bidi-theme-font:major-latin">www.em-lyon.com</span></a></p>
+
+<!--EndFragment-->]]></td>
+</tr>
+</table>

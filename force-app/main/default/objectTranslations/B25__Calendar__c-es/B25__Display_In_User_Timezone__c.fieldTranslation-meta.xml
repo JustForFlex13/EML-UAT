@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si se activa, muestra las reservas en la zona horaria del usuario en lugar de la zona horaria local. Active esto solo si es consciente de las consecuencias.</help>
+    <label></label>
+    <name>B25__Display_In_User_Timezone__c</name>
+</CustomFieldTranslation>

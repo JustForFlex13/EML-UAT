@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>CONVSTA_Notifierevaluateur_de_la_disponibilit_de_l_valuation</fullName>
+        <description>Notifierevaluateur de la disponibilité de l&apos;évaluation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Evaluateur__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/valuateur_Envoi_1_du_formulaire_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Contact_career_center_Etudiant</fullName>
+        <description>Convsta Contact career center Étudiant</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Etudiant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/tudiant_prise_de_contact_career_center_V2</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Etudiant_evaluation_disponible</fullName>
+        <description>Convsta Evaluateur évaluation disponible</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Evaluateur__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/valuateur_Envoi_1_du_formulaire_V2</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Etudiant_presentation</fullName>
+        <description>Convsta Étudiant présentation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Etudiant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/tudiant_pr_sentation_valuation_V2</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Evaluateur_presentation</fullName>
+        <description>Convsta Évaluateur présentation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Evaluateur__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/valuateur_pr_sentation_valuation_V2</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Evaluation_disponible_etudiant</fullName>
+        <description>Convsta Evaluation disponible étudiant</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Etudiant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Etudiant_valuation_disponible_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Relance_etudiant_J_3</fullName>
+        <description>Convsta Relance étudiant J-3</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Etudiant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Etudiant_relance_formulaire_V2</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Relance_etudiant_J_7</fullName>
+        <description>Convsta Relance étudiant J-7</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Etudiant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Etudiant_relance_formulaire_V2</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Relance_etudiant_Jplus7</fullName>
+        <description>Convsta Relance étudiant J+7</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Etudiant__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Etudiant_relance_formulaire_V2</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Relance_evaluateur_J_14</fullName>
+        <description>Convsta Relance évaluateur J-14</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Evaluateur__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Evaluateur_relance_formulaire_V2</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Relance_evaluateur_J_7</fullName>
+        <description>Convsta Relance évaluateur J-7</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Evaluateur__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Evaluateur_relance_formulaire_V2</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Remercier_evaluateur</fullName>
+        <description>Convsta Remercier évaluateur</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Evaluateur__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>internship@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/valuateur_remerciement_HTML</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Convsta_Statut_expire</fullName>
+        <description>Passe le statut à &quot;Expirée&quot;</description>
+        <field>Statut__c</field>
+        <literalValue>Expirée</literalValue>
+        <name>Convsta Statut Expirée</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Convsta_Statut_relancee</fullName>
+        <description>Passe le statut à &quot;Relancée&quot;</description>
+        <field>Statut__c</field>
+        <literalValue>Relancée</literalValue>
+        <name>Convsta Statut relancée</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Convsta Evaluation présentation %26 envoi</fullName>
+        <active>true</active>
+        <description>Envois d&apos;explication et de formulaire de l&apos;évaluation à J-28 et J-21</description>
+        <formula>NOT(ISBLANK(DateEndStage__c))  &amp;&amp;  NOT( ISPICKVAL( Demande__r.Convsta_TypeContrat__c , &quot;CDI&quot;) )</formula>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Convsta_Etudiant_presentation</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Convsta_Evaluateur_presentation</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Convsta_Evaluation__c.DateEndStage__c</offsetFromField>
+            <timeLength>-28</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Convsta_Etudiant_evaluation_disponible</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Convsta_Evaluation__c.DateEndStage__c</offsetFromField>
+            <timeLength>-21</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Evaluation terminée</fullName>
+        <actions>
+            <name>Convsta_Evaluation_disponible_etudiant</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Convsta_Remercier_evaluateur</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Convsta_Evaluation__c.Statut__c</field>
+            <operation>equals</operation>
+            <value>Évaluée</value>
+        </criteriaItems>
+        <description>Envoi de remerciements à l&apos;évaluateur et d&apos;informations à l&apos;étudiant</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Convsta Évaluation relances à J%2B14</fullName>
+        <active>true</active>
+        <description>Envois de relances à J+14 si l&apos;évaluation n&apos;est pas faite</description>
+        <formula>TEXT(Statut__c)!= &apos;Évaluée&apos; &amp;&amp; DateEndStage__c -TODAY()&gt;=-14 &amp;&amp;  TEXT ( Demande__r.Convsta_TypeContrat__c ) != &apos;CDI&apos; &amp;&amp;  NOT( ISPICKVAL( Statut__c, &apos;Non-évaluable&apos; ))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Convsta_Contact_career_center_Etudiant</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Convsta_Statut_expire</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Convsta_Evaluation__c.DateEndStage__c</offsetFromField>
+            <timeLength>14</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Évaluation relances à J%2B7</fullName>
+        <active>true</active>
+        <description>Envois de relances à J+7 si l&apos;évaluation n&apos;est pas faite</description>
+        <formula>TEXT(Statut__c)!= &apos;Évaluée&apos; &amp;&amp; DateEndStage__c -TODAY()&gt;=-7 &amp;&amp;  TEXT ( Demande__r.Convsta_TypeContrat__c ) != &apos;CDI&apos;</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Convsta_Relance_etudiant_Jplus7</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Convsta_Evaluation__c.DateEndStage__c</offsetFromField>
+            <timeLength>7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Évaluation relances à J-14</fullName>
+        <active>true</active>
+        <description>Envois de relances à J-14 si l&apos;évaluation n&apos;est pas faite</description>
+        <formula>TEXT(Statut__c)!= &apos;Évaluée&apos; &amp;&amp; TEXT(Statut__c)!= &apos;Evaluation manuelle&apos; &amp;&amp; DateEndStage__c -TODAY()&gt;=14 &amp;&amp;  TEXT ( Demande__r.Convsta_TypeContrat__c ) != &apos;CDI&apos;</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Convsta_Relance_evaluateur_J_14</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Convsta_Statut_relancee</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Convsta_Evaluation__c.DateEndStage__c</offsetFromField>
+            <timeLength>-14</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Évaluation relances à J-3</fullName>
+        <active>true</active>
+        <description>Envois de relances à J-3 si l&apos;évaluation n&apos;est pas faite</description>
+        <formula>TEXT(Statut__c)!= &apos;Évaluée&apos; &amp;&amp; DateEndStage__c -TODAY()&gt;=3 &amp;&amp;  TEXT ( Demande__r.Convsta_TypeContrat__c ) != &apos;CDI&apos;</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Convsta_Relance_etudiant_J_3</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Convsta_Evaluation__c.DateEndStage__c</offsetFromField>
+            <timeLength>-3</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Évaluation relances à J-7</fullName>
+        <active>true</active>
+        <description>Envois de relances à J-7 si l&apos;évaluation n&apos;est pas faite</description>
+        <formula>TEXT(Statut__c)!= &apos;Évaluée&apos; &amp;&amp; TEXT(Statut__c)!= &apos;Evaluation manuelle&apos; &amp;&amp; DateEndStage__c -TODAY()&gt;=7 &amp;&amp;  TEXT ( Demande__r.Convsta_TypeContrat__c ) != &apos;CDI&apos;</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Convsta_Relance_etudiant_J_7</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Convsta_Relance_evaluateur_J_7</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Convsta_Evaluation__c.DateEndStage__c</offsetFromField>
+            <timeLength>-7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta_Eval Disponible à J-21</fullName>
+        <active>true</active>
+        <formula>NOT(ISBLANK(DateEndStage__c)) &amp;&amp; DateEndStage__c -TODAY()&gt;=-7 &amp;&amp;  TEXT ( Demande__r.Convsta_TypeContrat__c ) != &apos;CDI&apos;</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Convsta_Etudiant_evaluation_disponible</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Convsta_Evaluation__c.DateEndStage__c</offsetFromField>
+            <timeLength>-21</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta_Présentation du processus à J-28</fullName>
+        <active>true</active>
+        <formula>NOT(ISBLANK(DateEndStage__c)) &amp;&amp; DateEndStage__c -TODAY()&gt;=28 &amp;&amp;  TEXT ( Demande__r.Convsta_TypeContrat__c ) != &apos;CDI&apos;</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Convsta_Etudiant_presentation</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Convsta_Evaluateur_presentation</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Convsta_Evaluation__c.DateEndStage__c</offsetFromField>
+            <timeLength>-28</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique l’identifiant de l’événement principal dans Outlook si l’événement est récurrent.</help>
+    <label></label>
+    <name>B25__Outlook_Series_Master_Id__c</name>
+</CustomFieldTranslation>

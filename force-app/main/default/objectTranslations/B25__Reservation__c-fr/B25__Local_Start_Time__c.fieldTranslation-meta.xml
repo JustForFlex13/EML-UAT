@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>L’heure de début locale au format 24 h. Ce champ est destiné à la sortie uniquement et non à la saisie.</help>
+    <label></label>
+    <name>B25__Local_Start_Time__c</name>
+</CustomFieldTranslation>

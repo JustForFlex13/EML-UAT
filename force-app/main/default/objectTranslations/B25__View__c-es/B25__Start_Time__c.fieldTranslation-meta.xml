@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La hora del día a la que empieza la vista. Reemplaza a las dos casillas ‘Ocultar horas’.</help>
+    <label></label>
+    <name>B25__Start_Time__c</name>
+</CustomFieldTranslation>

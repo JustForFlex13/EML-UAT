@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Accusé de réception de la création de la demande</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Convsta_Accusé de réception de la création de la demande</name>
+    <style>freeForm</style>
+    <subject>Création d’une demande &quot;Stages &amp; Expérience Professionnelle&quot;</subject>
+    <textOnly>Bonjour {!Contact.Name},
+
+ 
+Nous avons identifié une création de demande de convention de stage/ validation d’expérience professionnelle. 
+
+Les informations saisies seront sauvegardées pendant deux semaines. 
+Ce délai passé, votre brouillon sera supprimé.
+
+Cordialement,
+ 
+emlyon Career Center</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando esta lista relacionada é mostrada no formulário de reserva, estes campos são adicionados a cada linha na lista relacionada. Deixe em branco para remover a lista suspensa dos campos da lista relacionada.</help>
+    <label></label>
+    <name>B25__Field_Set_to_use__c</name>
+</CustomFieldTranslation>

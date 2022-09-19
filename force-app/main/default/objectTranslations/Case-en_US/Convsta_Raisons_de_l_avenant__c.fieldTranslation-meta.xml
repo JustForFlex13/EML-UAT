@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Convsta_Raisons_de_l_avenant__c</name>
+    <picklistValues>
+        <masterLabel>Ajout d&apos;une clause</masterLabel>
+        <translation>Addition of a clause</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Autre</masterLabel>
+        <translation>Other</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Changement de tuteur</masterLabel>
+        <translation>Tutor change</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conditions contractuelles</masterLabel>
+        <translation>Contractual terms</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dates de stage</masterLabel>
+        <translation>Internship dates</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_management__c</fullName>
+    <externalId>false</externalId>
+    <label>Test management</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TAGE Post-Bac</fullName>
+                <default>false</default>
+                <label>TAGE Post-Bac</label>
+            </value>
+            <value>
+                <fullName>TAGE 2</fullName>
+                <default>false</default>
+                <label>TAGE 2</label>
+            </value>
+            <value>
+                <fullName>TAGE MAGE</fullName>
+                <default>false</default>
+                <label>TAGE MAGE</label>
+            </value>
+            <value>
+                <fullName>GMAT</fullName>
+                <default>false</default>
+                <label>GMAT</label>
+            </value>
+            <value>
+                <fullName>GRE</fullName>
+                <default>false</default>
+                <label>GRE</label>
+            </value>
+            <value>
+                <fullName>CAT</fullName>
+                <default>false</default>
+                <label>CAT</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+            <value>
+                <fullName>Exempté</fullName>
+                <default>false</default>
+                <label>Exempté</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

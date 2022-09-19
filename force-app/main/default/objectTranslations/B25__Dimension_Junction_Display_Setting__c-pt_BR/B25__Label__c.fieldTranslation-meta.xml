@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>A etiqueta que será mostrada no cabeçalho da secção que contém esta lista de junção de elemento. Quando deixada vazia, é utilizada a etiqueta plural do objeto de elemento.</help>
+    <label></label>
+    <name>B25__Label__c</name>
+</CustomFieldTranslation>

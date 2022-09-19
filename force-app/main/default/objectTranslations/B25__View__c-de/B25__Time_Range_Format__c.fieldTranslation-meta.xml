@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Das Format für den Zeitbereich auf der Oberseite des Kalenders in folgender Form: Start {&lt;format tokens&gt;} Ende{&lt;format tokens&gt;}.
+Die Format-Tokens finden Sie hier: https://momentjs.com/docs/#/displaying/format/.</help>
+    <label></label>
+    <name>B25__Time_Range_Format__c</name>
+</CustomFieldTranslation>

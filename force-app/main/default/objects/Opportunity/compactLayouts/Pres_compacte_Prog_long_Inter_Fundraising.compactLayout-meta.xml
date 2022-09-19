@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pres_compacte_Prog_long_Inter_Fundraising</fullName>
+    <fields>Name</fields>
+    <fields>OwnerId</fields>
+    <fields>Contact_Souhait_programme__c</fields>
+    <fields>Contact_central__c</fields>
+    <fields>Localisation__c</fields>
+    <fields>Date_de_d_but__c</fields>
+    <fields>CA_Projet__c</fields>
+    <label>Pres compacte Prog long Inter Fundraising</label>
+</CompactLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remuneration_Mensuelle__c</fullName>
+    <description>La rénumération mensuelle de l&apos;étudiant dans le cadre de son expérience professionnelle</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Rémumération mensuelle de l&apos;étudiant dans le cadre de son expérience professionnelle</inlineHelpText>
+    <label>Rémunération Brute en Euros</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

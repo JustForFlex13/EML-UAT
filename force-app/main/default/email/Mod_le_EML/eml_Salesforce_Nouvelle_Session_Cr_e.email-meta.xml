@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing1300x280</letterhead>
+    <name>Salesforce - Nouvelle Session Créée</name>
+    <style>freeForm</style>
+    <subject>Salesforce - Nouvelle Session Créée ou modifiée</subject>
+    <textOnly>Création ou modification d&apos;une Session dans Salesforce
+
+Une nouvelle session de formation vient d&apos;être créée ou modifiée par {!Session__c.OwnerFullName}, voici les détails de cette session :
+
+Lien vers la fiche :
+https://arpege-emlyon.lightning.force.com/{!Session__c.Id}
+
+Id : {!Session__c.Id}
+Libellé : {!Session__c.Name}
+Code Agresso Formation : {!Session__c.Code_agresso_for__c}
+Code Agresso Session Formation : {!Session__c.Code_Agresso_Session_formation__c}
+Exercice Fiscal : {!Session__c.Exercice_fiscale__c}
+Lieu : {!Session__c.Lieu_ls__c}
+Mode d&apos;apprentissage : {!Session__c.Mode_apprentissage__c}
+Date de début : {!Session__c.Date_de_debut_de_session__c}
+Date de fin : {!Session__c.Date_de_fin_de_session__c}
+Ne pas afficher sur le site Web : {!Session__c.Ne_pas_afficher_sur_le_site_EML__c}
+Produit : {!Session__c.Produits__c}
+Statut : {!Session__c.Statut__c}
+Date de création : {!Session__c.CreatedDate}
+Date de dernière modification : {!Session__c.LastModifiedDate}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

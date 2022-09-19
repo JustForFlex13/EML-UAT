@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Use_Live_Sync__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When enabled Booker25 will setup a live subscription and updates in the external system will trigger updates in Booker25 in near real time.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est activée, Booker25 met en place un abonnement en direct et les actualisations dans le système externe déclenchent des actualisations dans Booker25 en temps presque réel.</inlineHelpText>
+    <label>Use Live Sync</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

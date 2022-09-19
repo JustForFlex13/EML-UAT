@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sens_de_prise_de_contact__c</fullName>
+    <externalId>false</externalId>
+    <label>Sens de prise de contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partenaire ==&gt; EMLYON</fullName>
+                <default>false</default>
+                <label>Partenaire ==&gt; EMLYON</label>
+            </value>
+            <value>
+                <fullName>EMLYON ==&gt; Partenaire</fullName>
+                <default>false</default>
+                <label>EMLYON ==&gt; Partenaire</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

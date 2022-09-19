@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bei der Auswahl einer Methode wird diese Berechnungsmethode von allen Quellen dieses Ressourcentyps standardmäßig angewendet.</help>
+    <label></label>
+    <name>B25__Default_Price_Calculation__c</name>
+    <picklistValues>
+        <masterLabel>PER_PERSON</masterLabel>
+        <translation>PRO_PERSON</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER_PERSON_PER_TIME_UNIT</masterLabel>
+        <translation>PRO_PERSON_PRO_ZEIT_EINHEIT</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER_TIME_UNIT</masterLabel>
+        <translation>PRO_ZEIT_EINHEIT</translation>
+    </picklistValues>
+</CustomFieldTranslation>

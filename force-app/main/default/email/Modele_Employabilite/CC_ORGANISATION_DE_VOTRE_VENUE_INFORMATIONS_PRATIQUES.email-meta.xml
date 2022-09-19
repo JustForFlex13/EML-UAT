@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CC-ORGANISATION DE VOTRE VENUE – INFORMATIONS PRATIQUES</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_Save_the_date_2020</letterhead>
+    <name>CC ORGANISATION DE VOTRE VENUE – INFORMATIONS PRATIQUES</name>
+    <style>freeForm</style>
+    <subject>emlyon business school, {!Opportunity.Name}: Informations pratiques</subject>
+    <textOnly>Bonjour,
+
+Vous aviez suscité de l&apos;intérêt pour le Careers Forum de Janvier et je reviens vers vous afin de savoir où vous en êtes.
+
+Avez vous besoin d&apos;informations supplémentaires pour finaliser votre inscription?
+
+Veuillez trouver en suivant le lien ci-après le plan du forum : ici Vous pourrez ainsi choisir rapidement votre emplacement et nous l&apos;indiquer dès que possible afin que celui-ci vous soit bien réservé.
+
+Votre inscription sera confirmée dès la réception de votre choix de stand et du document joint signé et daté.
+
+ 
+Je reste à votre disposition pour tout complément d’information.
+
+
+Cordialement,
+
+{!User.Name}
+{!User.Title}
+{!User.Phone}
+23, avenue Guy de Collongue
+CS 40203 69134 Ecully Cedex France
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

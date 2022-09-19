@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Availability_Lookup__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API name of a lookup field on B25__Availability__c to the dimension object. This allows you to
+		configure (un)availabilities for this dimension.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le nom API d’un champ de recherche pour B25__Availability__c pour l’objet de dimension. Cela vous permet de configurer les (in)disponibilités pour cette dimension.</inlineHelpText>
+    <label>Availability Lookup</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

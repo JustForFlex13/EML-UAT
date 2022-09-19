@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Voor checkbox filters, dit aanvinken zorgt ervoor dat de filter niet zichtbaar is op de kalender en zorgt ervoor dat de standaard waarde gebruikt wordt op de kalender.</help>
+    <label></label>
+    <name>B25__Hide_from_Calendar__c</name>
+</CustomFieldTranslation>

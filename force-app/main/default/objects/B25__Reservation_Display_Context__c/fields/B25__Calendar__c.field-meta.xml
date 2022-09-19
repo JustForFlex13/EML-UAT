@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Calendar__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Calendar of this context. When filled, only Reservations displayed in this Calendar will match with this context.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le calendrier de ce contexte. Lorsque ce champ est rempli, seules les réservations affichées dans ce calendrier correspondront à ce contexte.</inlineHelpText>
+    <label>Calendar</label>
+    <referenceTo>B25__Calendar__c</referenceTo>
+    <relationshipLabel>Reservation Display Contexts</relationshipLabel>
+    <relationshipName>Reservation_Display_Contexts</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

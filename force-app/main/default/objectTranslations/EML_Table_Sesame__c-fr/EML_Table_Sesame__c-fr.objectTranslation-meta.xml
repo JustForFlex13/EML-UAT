@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Table Sésame</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tables Sésame</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Présentation Table Sésame</layout>
+        <sections>
+            <label></label>
+            <section>Epreuves</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Erreur importation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Etudiant</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>TEST</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

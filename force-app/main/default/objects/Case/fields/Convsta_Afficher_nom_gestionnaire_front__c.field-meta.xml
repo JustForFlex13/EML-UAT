@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Afficher_nom_gestionnaire_front__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISNULL(Convsta_Gestionnaire_en_charge__c) ,  $Label.Convsta_Case_Gestionnaire_Front_Office , Convsta_Gestionnaire_en_charge__r.FirstName
+&amp; &apos; &apos;&amp;Convsta_Gestionnaire_en_charge__r.LastName)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Afficher nom gestionnaire Front</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

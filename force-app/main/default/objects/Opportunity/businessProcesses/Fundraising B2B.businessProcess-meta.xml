@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fundraising B2B</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Accord de principe</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Clos %28Perdu%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contacté</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contrat signé</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Intéressé</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Partenariat terminé</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospect</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

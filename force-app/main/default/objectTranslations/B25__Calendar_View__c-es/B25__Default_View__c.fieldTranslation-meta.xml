@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Esto indica que la vista vinculada es la vista predeterminada para el calendario vinculado. Cada calendario solo puede tener una vista predeterminada, lo que significa que solo una vista de calendario puede marcarse como predeterminada.</help>
+    <label></label>
+    <name>B25__Default_View__c</name>
+</CustomFieldTranslation>

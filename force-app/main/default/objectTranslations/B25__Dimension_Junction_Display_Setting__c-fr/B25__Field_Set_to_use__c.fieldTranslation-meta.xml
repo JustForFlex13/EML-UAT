@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsque cette liste connexe est affichée sur le formulaire de réservation, ces champs sont ajoutés à chaque ligne de la liste connexe. Laissez ce champ vide pour supprimer la liste déroulante des champs de la liste connexe.</help>
+    <label></label>
+    <name>B25__Field_Set_to_use__c</name>
+</CustomFieldTranslation>

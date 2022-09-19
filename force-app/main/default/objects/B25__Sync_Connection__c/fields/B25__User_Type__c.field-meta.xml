@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__User_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>What type of user this record syncs to. This is used to properly set the attendee type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le type d’utilisateur pour lequel cet enregistrement est synchronisé. Ceci est utilisé pour définir correctement le type de participant.</inlineHelpText>
+    <label>User Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>user</fullName>
+                <default>true</default>
+                <label>User</label>
+            </value>
+            <value>
+                <fullName>resource</fullName>
+                <default>false</default>
+                <label>Resource</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

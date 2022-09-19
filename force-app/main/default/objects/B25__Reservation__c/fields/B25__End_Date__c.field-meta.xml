@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__End_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The end date of a booking on the Calendar.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>La date de fin d’une réservation dans le calendrier.</inlineHelpText>
+    <label>Local End Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

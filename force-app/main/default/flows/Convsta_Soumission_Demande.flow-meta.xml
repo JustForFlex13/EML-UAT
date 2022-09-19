@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <description>2 choix pour 2 formulaires : 
+- demande de changement de tuteur
+- difficulté pendant le stage ou difficulté dans le remplissage de la demande (par défaut)</description>
+        <name>Convsta_type_de_demande</name>
+        <label>Quel type de demande ?</label>
+        <locationX>217</locationX>
+        <locationY>246</locationY>
+        <defaultConnector>
+            <targetReference>Convsta_Detail_de_la_demande</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Résultat par défaut</defaultConnectorLabel>
+        <rules>
+            <name>CONVSTA_Demande_de_changement_de_tuteur</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Convsta_Motif_de_la_demande</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Demande de changement de tuteur</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CONVSTA_Coordonnees_du_nouveau_tuteur</targetReference>
+            </connector>
+            <label>Demande de changement de tuteur</label>
+        </rules>
+    </decisions>
+    <dynamicChoiceSets>
+        <name>Convsta_Motif_Demande</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Convsta_Motif_de_la_demande__c</picklistField>
+        <picklistObject>Case</picklistObject>
+    </dynamicChoiceSets>
+    <formulas>
+        <description>Calcul du champ description : 
+- soit la valeur saisie par l&apos;utilisateur en cas de demande d&apos;aide
+- soit la concaténation des coordonnées du nouveau tuteur</description>
+        <name>Convsta_DescriptionDemandeFormula</name>
+        <dataType>String</dataType>
+        <expression>IF({!Convsta_Motif_de_la_demande} = &quot;Demande de changement de tuteur&quot;,
+&quot;Nom Tuteur : &quot; + {!CONVSTA_Nom_Tuteur} + BR()
+ + &quot;Prénom : &quot; + {!CONVSTA_Prenom_Tuteur} + BR() 
+ + &quot;Fonction : &quot;+ {!CONVSTA_Fonction_Tuteur} + BR() 
+ + &quot;Téléphone : &quot; + {!CONVSTA_Phone_Tuteur} + BR() 
+ + &quot;Email : &quot; + {!Convsta_Email_Tuteur}, {!CONVSTA_Detail_demande})</expression>
+    </formulas>
+    <formulas>
+        <name>newSubject2</name>
+        <dataType>String</dataType>
+        <expression>{!DonneesContact.FirstName} +&apos;  &apos;+{!DonneesContact.LastName} + &apos; -  &apos;+ {!Convsta_Motif_de_la_demande}</expression>
+    </formulas>
+    <interviewLabel>Soumission Demande {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Avez-vous besoin d&apos;aide?</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Convsta_Enregistrement_de_la_demande</name>
+        <label>Enregistrement de la demande</label>
+        <locationX>1046</locationX>
+        <locationY>247</locationY>
+        <connector>
+            <targetReference>Convsta_Ecran_de_fin</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>DonneesCase.AccountId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ContactId</field>
+            <value>
+                <elementReference>DonneesCase.ContactId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Convsta_Motif_de_la_demande__c</field>
+            <value>
+                <elementReference>Convsta_Motif_de_la_demande</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Convsta_Type_de_demande__c</field>
+            <value>
+                <stringValue>Besoin d&apos;aide</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Description</field>
+            <value>
+                <elementReference>Convsta_DescriptionDemandeFormula</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Portail</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ParentId</field>
+            <value>
+                <elementReference>DonneesCase.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Moyen</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <elementReference>RecordTypeId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Demande en cours</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>newSubject2</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <elementReference>Convsta_Motif_de_la_demande</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordCreates>
+    <recordLookups>
+        <name>Convsta_Recuperation_donnees</name>
+        <label>Récupération données</label>
+        <locationX>516</locationX>
+        <locationY>247</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Recuperation_contact</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>RecordId</elementReference>
+            </value>
+        </filters>
+        <object>Case</object>
+        <outputReference>DonneesCase</outputReference>
+        <queriedFields>AccountId</queriedFields>
+        <queriedFields>ContactId</queriedFields>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>CaseNumber</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Recuperation_contact</name>
+        <label>Récupération contact</label>
+        <locationX>674</locationX>
+        <locationY>247</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Retrieve_Record_Type_Id</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>DonneesCase.ContactId</elementReference>
+            </value>
+        </filters>
+        <object>Contact</object>
+        <outputReference>DonneesContact</outputReference>
+        <queriedFields>Name</queriedFields>
+        <queriedFields>FirstName</queriedFields>
+        <queriedFields>LastName</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Retrieve_Record_Type_Id</name>
+        <label>Retrieve Record Type Id</label>
+        <locationX>855</locationX>
+        <locationY>247</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Convsta_Enregistrement_de_la_demande</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Convsta_Demande</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>SobjectType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Case</stringValue>
+            </value>
+        </filters>
+        <object>RecordType</object>
+        <outputAssignments>
+            <assignToReference>RecordTypeId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <screens>
+        <name>CONVSTA_Coordonnees_du_nouveau_tuteur</name>
+        <label>Coordonnées du nouveau tuteur</label>
+        <locationX>382</locationX>
+        <locationY>353</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Convsta_Recuperation_donnees</targetReference>
+        </connector>
+        <fields>
+            <name>CONVSTA_Nom_Tuteur</name>
+            <dataType>String</dataType>
+            <fieldText>Nom du nouveau tuteur</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>CONVSTA_Prenom_Tuteur</name>
+            <dataType>String</dataType>
+            <fieldText>Prénom</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>CONVSTA_Fonction_Tuteur</name>
+            <dataType>String</dataType>
+            <fieldText>Fonction</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>CONVSTA_Phone_Tuteur</name>
+            <dataType>String</dataType>
+            <fieldText>Téléphone</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Convsta_Email_Tuteur_inp</name>
+            <extensionName>flowruntime:email</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>required</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <isRequired>true</isRequired>
+            <outputParameters>
+                <assignToReference>Convsta_Email_Tuteur</assignToReference>
+                <name>value</name>
+            </outputParameters>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Convsta_Detail_de_la_demande</name>
+        <label>Detail de la demande</label>
+        <locationX>379</locationX>
+        <locationY>143</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Convsta_Recuperation_donnees</targetReference>
+        </connector>
+        <fields>
+            <name>CONVSTA_Detail_demande</name>
+            <fieldText>Description de la demande</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Convsta_Ecran_de_fin</name>
+        <label>Ecran de fin</label>
+        <locationX>1268</locationX>
+        <locationY>247</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Convsta_Confirmation_Soumission_Demande</name>
+            <fieldText>Votre demande a bien été soumise.</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Convsta_Remplissage_demande</name>
+        <label>Remplissage demande</label>
+        <locationX>50</locationX>
+        <locationY>245</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Convsta_type_de_demande</targetReference>
+        </connector>
+        <fields>
+            <name>Convsta_Motif_de_la_demande</name>
+            <choiceReferences>Convsta_Motif_Demande</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Motif de la demande</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Convsta_Remplissage_demande</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>Convsta_Email_Tuteur</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>DonneesCase</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Case</objectType>
+    </variables>
+    <variables>
+        <name>DonneesContact</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Contact</objectType>
+    </variables>
+    <variables>
+        <name>RecordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>RecordTypeId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>subjectVar</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>{!DonneesContact.Name} + &apos; -  &apos;+ {!Convsta_Motif_de_la_demande}</stringValue>
+        </value>
+    </variables>
+</Flow>

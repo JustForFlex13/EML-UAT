@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bestimmt das weitere Vorgehen bei Feststellung einer Doppelbuchung. Keine: erlauben. Hoch: nicht erlauben. Niedrig: erlauben, aber einen Konflikt zw. den zwei überschneidenden Reservierungen Datensätzen.</help>
+    <label></label>
+    <name>B25__Double_Booking_Checking__c</name>
+</CustomFieldTranslation>

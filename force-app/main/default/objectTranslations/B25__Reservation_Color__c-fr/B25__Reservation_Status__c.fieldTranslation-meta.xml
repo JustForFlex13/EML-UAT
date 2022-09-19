@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si ce champ est rempli, il s’applique uniquement aux réservations ayant ce statut.</help>
+    <label></label>
+    <name>B25__Reservation_Status__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

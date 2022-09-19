@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Nouveau : statut des nouvelles fiches
+A préciser : en attente d&apos;infos du client
+En cours : une réponse / correction est en cours
+Réalisé : la fiche a été réalisée et doit être testée
+Fermé : la fiche est validée
+Abandonné : la fiche est annulée</inlineHelpText>
+    <label>Statut</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nouveau</fullName>
+                <default>true</default>
+                <label>Nouveau</label>
+            </value>
+            <value>
+                <fullName>A préciser</fullName>
+                <default>false</default>
+                <label>A préciser</label>
+            </value>
+            <value>
+                <fullName>A arbitrer</fullName>
+                <default>false</default>
+                <label>A arbitrer</label>
+            </value>
+            <value>
+                <fullName>En cours</fullName>
+                <default>false</default>
+                <label>En cours</label>
+            </value>
+            <value>
+                <fullName>Réalisé</fullName>
+                <default>false</default>
+                <label>Réalisé</label>
+            </value>
+            <value>
+                <fullName>Fermé</fullName>
+                <default>false</default>
+                <label>Fermé</label>
+            </value>
+            <value>
+                <fullName>Abandonné</fullName>
+                <default>false</default>
+                <label>Abandonné</label>
+            </value>
+            <value>
+                <fullName>Validée EMLYON</fullName>
+                <default>false</default>
+                <label>Validée EMLYON</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

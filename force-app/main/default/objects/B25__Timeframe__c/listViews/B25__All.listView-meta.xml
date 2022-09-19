@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__All</fullName>
+    <columns>NAME</columns>
+    <columns>B25__Label2__c</columns>
+    <columns>B25__Resource__c</columns>
+    <columns>B25__ResourceType__c</columns>
+    <columns>B25__StartTime__c</columns>
+    <columns>B25__EndTime__c</columns>
+    <columns>B25__Number_of_Days__c</columns>
+    <columns>B25__IsActive__c</columns>
+    <columns>B25__IsDefault__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

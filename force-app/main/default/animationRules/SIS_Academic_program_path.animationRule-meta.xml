@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>SIS_Academic_program_path</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Academic program</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Academic_Program</recordTypeName>
+    <sobjectType>Account</sobjectType>
+    <targetField>SIS_Program_Status__c</targetField>
+    <targetFieldChangeToValues>Validé</targetFieldChangeToValues>
+</AnimationRule>

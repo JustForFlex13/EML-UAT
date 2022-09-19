@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Valeur comprise entre 0 et 1. 0 étant complètement transparent et 1 étant complètement opaque.</help>
+    <label></label>
+    <name>B25__Opacity__c</name>
+</CustomFieldTranslation>

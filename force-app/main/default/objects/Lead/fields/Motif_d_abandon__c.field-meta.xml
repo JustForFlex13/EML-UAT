@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif_d_abandon__c</fullName>
+    <description>Test EMLYON</description>
+    <externalId>false</externalId>
+    <label>Motif d&apos;abandon</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Date légale dépassée</fullName>
+                <default>false</default>
+                <label>Date légale dépassée</label>
+            </value>
+            <value>
+                <fullName>Doublon</fullName>
+                <default>false</default>
+                <label>Doublon</label>
+            </value>
+            <value>
+                <fullName>Existe déjà</fullName>
+                <default>false</default>
+                <label>Existe déjà</label>
+            </value>
+            <value>
+                <fullName>Impossible à contacter</fullName>
+                <default>false</default>
+                <label>Impossible à contacter</label>
+            </value>
+            <value>
+                <fullName>Non intéressé(e)</fullName>
+                <default>false</default>
+                <label>Non intéressé(e)</label>
+            </value>
+            <value>
+                <fullName>Obsolète</fullName>
+                <default>false</default>
+                <label>Obsolète</label>
+            </value>
+            <value>
+                <fullName>Pas de place disponible</fullName>
+                <default>false</default>
+                <label>Pas de place disponible</label>
+            </value>
+            <value>
+                <fullName>Pas école cible</fullName>
+                <default>false</default>
+                <label>Pas école cible</label>
+            </value>
+            <value>
+                <fullName>Pas intéressé</fullName>
+                <default>false</default>
+                <label>Pas intéressé</label>
+            </value>
+            <value>
+                <fullName>Pas soutenu par son entreprise</fullName>
+                <default>false</default>
+                <label>Pas soutenu par son entreprise</label>
+            </value>
+            <value>
+                <fullName>Problème de financement</fullName>
+                <default>false</default>
+                <label>Problème de financement</label>
+            </value>
+            <value>
+                <fullName>Test EMLYON</fullName>
+                <default>false</default>
+                <label>Test EMLYON</label>
+            </value>
+            <value>
+                <fullName>Timing ne convient pas</fullName>
+                <default>false</default>
+                <label>Timing ne convient pas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

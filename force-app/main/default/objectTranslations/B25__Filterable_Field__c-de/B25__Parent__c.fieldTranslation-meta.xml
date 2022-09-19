@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bei Erstellung eines Filter-Felds: Beim Setzen des „übergeordneten Datensatzes“ in ein „Konto“-Filterfeld können Sie nur die Kontakte auswählen, die mit dem ausgewählten Konto als Filter für den Kalender verbunden sind.</help>
+    <label></label>
+    <name>B25__Parent__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

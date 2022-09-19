@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Mon_evaluation__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Convsta_Boolean_Evaluation__c,
+			IF(NOT(ISBLANK(Convsta_EvaluationDocumentId__c)),
+			HYPERLINK(&apos;/internships/sfc/servlet.shepherd/document/download/&apos;+Convsta_EvaluationDocumentId__c  +&apos;?operationContext=S1&apos;, $Label.convsta_dowload_evaluation, &apos;_blank&apos;),
+			HYPERLINK(&apos;/internships/s/convsta-evaluation/&apos;+Convsta_Evaluation__c, $Label.convsta_dowload_evaluation, &apos;_blank&apos;)),$Label.convsta_pas_disponible )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Mon évaluation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

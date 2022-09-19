@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&apos;Vertical&apos; activa la carga diferida en el eje vertical. &apos;Vertical/Horizontal&apos; activa la carga diferida en ambos ejes. Este último ajuste es incompatible con cualquier ajuste que oculte partes de la escala de tiempo, como &apos;Ocultar hora de cierre sin reservas&apos; en la vista.</help>
+    <label></label>
+    <name>B25__Lazy_Reservation_Loading__c</name>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>Desactivado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical &amp; Horizontal</masterLabel>
+        <translation>Vertical y horizontal</translation>
+    </picklistValues>
+</CustomFieldTranslation>

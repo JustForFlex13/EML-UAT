@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Conditions_de_restauration__c</name>
+    <picklistValues>
+        <masterLabel>Les frais de restauration sont en sus 16€H.T. par personne et par jour (TVA 10%)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Les frais de restauration sont en sus 30€H.T. par personne et par jour (TVA 10%)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Les frais de restauration sont inclus</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Les frais de restauration sont offerts</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

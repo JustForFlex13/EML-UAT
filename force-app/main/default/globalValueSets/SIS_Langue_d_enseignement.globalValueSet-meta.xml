@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>DE</fullName>
+        <default>false</default>
+        <label>DE - Allemand</label>
+    </customValue>
+    <customValue>
+        <fullName>EN</fullName>
+        <default>false</default>
+        <label>EN - Anglais</label>
+    </customValue>
+    <customValue>
+        <fullName>ZH</fullName>
+        <default>false</default>
+        <label>ZH - Chinois</label>
+    </customValue>
+    <customValue>
+        <fullName>ES</fullName>
+        <default>false</default>
+        <label>ES - Espagnol</label>
+    </customValue>
+    <customValue>
+        <fullName>FR</fullName>
+        <default>false</default>
+        <label>FR - Français</label>
+    </customValue>
+    <customValue>
+        <fullName>IT</fullName>
+        <default>false</default>
+        <label>IT - Italien</label>
+    </customValue>
+    <customValue>
+        <fullName>JA</fullName>
+        <default>false</default>
+        <label>JA - Japonais</label>
+    </customValue>
+    <customValue>
+        <fullName>PT</fullName>
+        <default>false</default>
+        <label>PT - Portugais</label>
+    </customValue>
+    <customValue>
+        <fullName>RU</fullName>
+        <default>false</default>
+        <label>RU - Russe</label>
+    </customValue>
+    <customValue>
+        <fullName>NA</fullName>
+        <default>false</default>
+        <label>NA - Non attribué</label>
+    </customValue>
+    <customValue>
+        <fullName>AR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AR</label>
+    </customValue>
+    <customValue>
+        <fullName>AT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AT</label>
+    </customValue>
+    <customValue>
+        <fullName>AM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AM</label>
+    </customValue>
+    <description>Langue d&apos;enseignement du cours. Utilisé pour la nouvelle codification des cours.</description>
+    <masterLabel>Langue d&apos;enseignement</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

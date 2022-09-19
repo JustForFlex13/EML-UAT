@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le nom API d’une recherche (ou maître-détail) de l’enregistrement de dimension connexe pour l’objet de jonction.</help>
+    <label></label>
+    <name>B25__Dimension_Lookup_API_Name__c</name>
+</CustomFieldTranslation>

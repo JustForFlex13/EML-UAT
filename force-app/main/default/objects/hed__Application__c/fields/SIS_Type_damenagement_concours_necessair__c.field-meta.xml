@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Type_damenagement_concours_necessair__c</fullName>
+    <externalId>false</externalId>
+    <label>Type d&apos;aménagement du concours nécessair</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1/3 temps</fullName>
+                <default>false</default>
+                <label>1/3 temps</label>
+            </value>
+            <value>
+                <fullName>Secrétaire</fullName>
+                <default>false</default>
+                <label>Secrétaire</label>
+            </value>
+            <value>
+                <fullName>Autre libre</fullName>
+                <default>false</default>
+                <label>Autre libre</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

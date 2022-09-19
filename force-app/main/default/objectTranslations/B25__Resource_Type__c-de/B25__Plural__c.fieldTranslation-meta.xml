@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Mehrzahl des Namens. Wenn leer, wird dem Namen zur Herstellung des Plurals ein „-en“ angehängt.</help>
+    <label></label>
+    <name>B25__Plural__c</name>
+</CustomFieldTranslation>

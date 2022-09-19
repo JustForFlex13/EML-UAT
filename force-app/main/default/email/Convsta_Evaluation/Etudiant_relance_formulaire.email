@@ -1,0 +1,29 @@
+Bonjour {!Convsta_Evaluation__c.Evaluateur__c},
+ 
+Nous vous rappelons que nous sommes en attente de l’évaluation de stage de l’étudiant {!Convsta_Evaluation__c.Etudiant__c}. 
+
+Nous vous invitions à compléter dans les meilleurs délais le formulaire d’évaluation suivant : <a href="{!Convsta_Evaluation__c.evalLink__c}"> évaluation disponible ici</a> 
+
+Afin de l’accompagner dans ses apprentissages, nous vous conseillons de compléter cette évaluation lors d’un entretien de bilan de fin de stage en présence de l’étudiant.
+
+
+ Nous restons à votre disposition,
+ 
+emlyon Career Center
+
+
+English version below
+
+
+Dear {!Convsta_Evaluation__c.Evaluateur__c},
+
+We remind you that we are waiting for the internship evaluation of the student {!Convsta_Evaluation__c.Etudiant__c}.
+
+We invite you to complete the following evaluation form as soon as possible : <a href="{!Convsta_Evaluation__c.evalLink__c}"> Evaluate our student here</a>
+
+In order to support them with their learning, we advise you to complete this evaluation during a face-to-face meeting with the students at the end their project.
+
+
+ We remain at your disposal,
+
+emlyon Career Center

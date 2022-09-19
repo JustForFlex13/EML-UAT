@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <gender></gender>
+    <layouts>
+        <layout>Parcours académique</layout>
+        <sections>
+            <label></label>
+            <section>Academic Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Credential Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Parcours professionnel</layout>
+        <sections>
+            <label></label>
+            <section>Academic Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Credential Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Séjour linguistique</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <label></label>
+        <name>SIS_Parcours_academique</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>SIS_Parcours_professionnel</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>SIS_Sejour_linguistique</name>
+    </recordTypes>
+</CustomObjectTranslation>

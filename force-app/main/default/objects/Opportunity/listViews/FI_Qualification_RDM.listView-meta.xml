@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FI_Qualification_RDM</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+    <columns>Contact_central__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Statut_Canel__c</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>Contact_Zone_de_commercialisation__c</columns>
+    <columns>Motif_de_fermeture__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Intéressé par</value>
+    </filters>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+        <value>BBA,INTBBA,APA1,EMM,PREPA,SAI,MAI,MEMI,MJ,MJPT,MMTE,MSDAI,MTDMS,CDM,DMDS,GIE,HEBM,HMDI,IHM,MIFF,MIFI,MMML,SCO,SCPM,SIM,DSAIS,IMBD</value>
+    </filters>
+    <filters>
+        <field>Exercice__c</field>
+        <operation>equals</operation>
+        <value>2022</value>
+    </filters>
+    <filters>
+        <field>Contact_Zone_de_commercialisation__c</field>
+        <operation>equals</operation>
+        <value>AUTRE</value>
+    </filters>
+    <filters>
+        <field>Date_de_Cr_ation_fiche_UI__c</field>
+        <operation>lessOrEqual</operation>
+        <value>6/19/2022</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Contact_central__c</field>
+        <operation>notEqual</operation>
+        <value>Nicolas TST_EMWH_NHU_110522_0941</value>
+    </filters>
+    <label>_Qualification-RDM</label>
+</ListView>

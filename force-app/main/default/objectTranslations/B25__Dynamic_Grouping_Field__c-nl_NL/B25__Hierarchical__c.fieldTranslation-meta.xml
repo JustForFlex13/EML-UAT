@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indien aangevinkt, het veld genoemd in de naam van deze rij dient een opzoekveld te zijn naar het eigen record. Booker25 zal dan hiërarchisch de records groeperen</help>
+    <label></label>
+    <name>B25__Hierarchical__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label>Code de la catégorie pédagogique</label>
+    <name>SIS_Pedagogical_Category_code__c</name>
+</CustomFieldTranslation>

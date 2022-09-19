@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CA_MAJ_propri_taire_Ida_El_Majdoubi</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.RECORDTYPE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Pays__c</columns>
+    <columns>Nombre_opportunites_sur_criteres__c</columns>
+    <columns>Souhait_programme__c</columns>
+    <columns>Date_de_cr_ation_contact__c</columns>
+    <columns>Nature_du_premier_contact__c</columns>
+    <columns>Niveau_d_tudes__c</columns>
+    <columns>Age__c</columns>
+    <columns>Domaine__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>9/1/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>MAROC</value>
+    </filters>
+    <label>CA_MAJ Prop. Ikram/Othmane/Camille</label>
+    <language>fr</language>
+</ListView>

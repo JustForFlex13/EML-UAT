@@ -1,0 +1,11 @@
+Bonjour {!Receiving_User.FirstName}<BR/>
+<BR/>
+L'opportunité, {!Opportunity.Name} pour {!Opportunity.Account} a été approuvée.
+<BR/>
+Vous pouvez visualiser l'opportunité en cliquant sur ce <a href="{!Opportunity.Link}">lien</a>.
+
+</a><BR/>
+<BR/>
+Cordialement, <BR/>
+<BR/>
+Administrateur ARPEGE

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Verfügt die Quelle über sowohl einen übergeordneten als auch diesem übergeordneten Datensatz, entspricht der Kontext deren Namen. Hat nur eine davon einen übergeordneten Datensatz, entspricht der Kontext dem Namen dieses Datensatzes. Hat die Quelle keinen übergeordneten Datensatz, so bleibt der Kontext frei.</help>
+    <label></label>
+    <name>B25__Context__c</name>
+</CustomFieldTranslation>

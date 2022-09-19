@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Day_Header_Time_Format__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The time format used by the Single record Calendar for the headers above the day columns.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le format de l’heure utilisé par le calendrier à enregistrement unique pour les en-têtes au-dessus des colonnes de jours.</inlineHelpText>
+    <label>Day Header Time Format</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

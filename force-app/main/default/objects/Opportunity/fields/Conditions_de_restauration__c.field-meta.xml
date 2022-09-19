@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conditions_de_restauration__c</fullName>
+    <externalId>false</externalId>
+    <label>Conditions de restauration</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Les frais de restauration sont inclus</fullName>
+                <default>false</default>
+                <label>Les frais de restauration sont inclus</label>
+            </value>
+            <value>
+                <fullName>Les frais de restauration sont en sus 16€H.T. par personne et par jour (TVA 10%)</fullName>
+                <default>false</default>
+                <label>Les frais de restauration sont en sus 16€H.T. par personne et par jour (TVA 10%)</label>
+            </value>
+            <value>
+                <fullName>Les frais de restauration sont en sus 30€H.T. par personne et par jour (TVA 10%)</fullName>
+                <default>false</default>
+                <label>Les frais de restauration sont en sus 30€H.T. par personne et par jour (TVA 10%)</label>
+            </value>
+            <value>
+                <fullName>Les frais de restauration sont offerts</fullName>
+                <default>false</default>
+                <label>Les frais de restauration sont offerts</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

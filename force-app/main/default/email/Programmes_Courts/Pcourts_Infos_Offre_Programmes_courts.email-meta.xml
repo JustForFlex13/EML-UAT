@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mail d&apos;infos offre programmes courts + liens vers site web</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x160</letterhead>
+    <name>Pcourts - Infos Offre Programmes courts</name>
+    <style>promotionRight</style>
+    <subject>emlyon - Notre offre : Formations courtes, Parcours métier, Certificats et Diplômes | {!Contact.Name}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

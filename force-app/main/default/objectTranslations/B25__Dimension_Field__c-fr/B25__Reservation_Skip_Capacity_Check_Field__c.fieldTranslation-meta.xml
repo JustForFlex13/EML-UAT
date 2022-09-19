@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Facultatif. Si ce champ (interobjets) pour la réservation est true, la quantité de cette réservation ne comptera pas dans la vérification de capacité. Toutefois, la quantité ne peut toujours pas dépasser la capacité de la dimension.</help>
+    <label></label>
+    <name>B25__Reservation_Skip_Capacity_Check_Field__c</name>
+</CustomFieldTranslation>

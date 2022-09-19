@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programme  Long Diplômant</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>A %28ré%29orienter</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Admis</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Candidat</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Clos %28Perdu%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Envoyé Prestataire 2</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Intégré</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Intéressé par</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Intérêt Supplémentaire</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Non actif</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prescription Transformée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospect chaud</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospect probable</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospect qualifié</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospect report</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

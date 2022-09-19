@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La otra reserva con la que la reserva principal está en conflicto.</help>
+    <label></label>
+    <name>B25__Reservation2__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

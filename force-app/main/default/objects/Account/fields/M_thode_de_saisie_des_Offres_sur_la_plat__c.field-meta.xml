@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_thode_de_saisie_des_Offres_sur_la_plat__c</fullName>
+    <externalId>false</externalId>
+    <label>Méthode de saisie des Offres</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>manuel</fullName>
+                <default>false</default>
+                <label>manuel</label>
+            </value>
+            <value>
+                <fullName>mutliposting</fullName>
+                <default>false</default>
+                <label>mutliposting</label>
+            </value>
+            <value>
+                <fullName>iQuesta</fullName>
+                <default>false</default>
+                <label>iQuesta</label>
+            </value>
+            <value>
+                <fullName>autre agrégateur</fullName>
+                <default>false</default>
+                <label>autre agrégateur</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

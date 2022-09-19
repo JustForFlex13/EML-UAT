@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nature_du_versement__c</fullName>
+    <externalId>false</externalId>
+    <label>Nature du versement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chèque</fullName>
+                <default>false</default>
+                <label>Chèque</label>
+            </value>
+            <value>
+                <fullName>Virement</fullName>
+                <default>false</default>
+                <label>Virement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

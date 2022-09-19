@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Salutation of the company tutor/manager</label>
+    <name>Civilite_Tuteur_Entreprise__c</name>
+    <picklistValues>
+        <masterLabel>M</masterLabel>
+        <translation>Mr</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mme</masterLabel>
+        <translation>Ms</translation>
+    </picklistValues>
+</CustomFieldTranslation>

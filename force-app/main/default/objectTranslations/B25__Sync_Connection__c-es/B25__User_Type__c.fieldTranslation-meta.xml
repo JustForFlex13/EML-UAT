@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El tipo de usuario con el que se sincroniza este registro. Esto se utiliza para ajustar bien el tipo de asistente.</help>
+    <label></label>
+    <name>B25__User_Type__c</name>
+    <picklistValues>
+        <masterLabel>Resource</masterLabel>
+        <translation>Recurso</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User</masterLabel>
+        <translation>Usuario</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Evalautions_non_rentr_es_dans_Cursus</fullName>
+    <columns>NAME</columns>
+    <columns>DateEndStage__c</columns>
+    <columns>Date_Reception_Evalutation__c</columns>
+    <columns>Note_globale__c</columns>
+    <columns>Saisie_dans_cursus__c</columns>
+    <columns>Responsable_Pedagogique__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Saisie_dans_cursus__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Responsable_Pedagogique__c</field>
+        <operation>contains</operation>
+        <value>grislain,kiefer,travieso,levallois,bachelot,moore,heine,vogler,phan,david,haincourt,carton</value>
+    </filters>
+    <filters>
+        <field>Statut__c</field>
+        <operation>equals</operation>
+        <value>Évaluée,Evaluation manuelle</value>
+    </filters>
+    <label>Evaluations non rentrées dans Cursus</label>
+</ListView>

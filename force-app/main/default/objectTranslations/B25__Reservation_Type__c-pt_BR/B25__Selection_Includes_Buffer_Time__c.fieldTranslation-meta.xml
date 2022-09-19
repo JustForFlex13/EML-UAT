@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando desativado, o tempo de buffer é adicionado fora do intervalo de tempo selecionado pelo utilizador. Quando ativado, o tempo de reserva é incluído no intervalo de tempo (tornando a reserva real mais pequena).</help>
+    <label></label>
+    <name>B25__Selection_Includes_Buffer_Time__c</name>
+</CustomFieldTranslation>

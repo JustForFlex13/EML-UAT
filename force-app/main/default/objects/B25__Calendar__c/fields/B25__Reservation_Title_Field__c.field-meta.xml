@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Reservation_Title_Field__c</fullName>
+    <defaultValue>&quot;Name&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enter the API name of a Reservation Field to display as the event title on the Calendar.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Saisissez le nom API d’un champ de réservation à afficher comme titre de l’événement sur le calendrier.</inlineHelpText>
+    <label>Reservation Title Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

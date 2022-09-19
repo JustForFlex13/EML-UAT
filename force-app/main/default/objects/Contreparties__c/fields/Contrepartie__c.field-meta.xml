@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contrepartie__c</fullName>
+    <externalId>false</externalId>
+    <label>Contrepartie</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Programme__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Plaque collective</fullName>
+                <default>false</default>
+                <label>Plaque collective</label>
+            </value>
+            <value>
+                <fullName>Plaque 0,1 x 0,1 m Hall of Fame</fullName>
+                <default>false</default>
+                <label>Plaque 0,1 x 0,1 m Hall of Fame</label>
+            </value>
+            <value>
+                <fullName>Plaque 0,2 x 0,2 m Hall of Fame</fullName>
+                <default>false</default>
+                <label>Plaque 0,2 x 0,2 m Hall of Fame</label>
+            </value>
+            <value>
+                <fullName>Plaque 0,3 x 0,2 m Hall of Fame</fullName>
+                <default>false</default>
+                <label>Plaque 0,3 x 0,2 m Hall of Fame</label>
+            </value>
+            <value>
+                <fullName>Plaque 0,5 x 0,2 m Hall of Fame</fullName>
+                <default>false</default>
+                <label>Plaque 0,5 x 0,2 m Hall of Fame</label>
+            </value>
+            <value>
+                <fullName>Plaque 0,5 x 0,5 m Hall of Fame</fullName>
+                <default>false</default>
+                <label>Plaque 0,5 x 0,5 m Hall of Fame</label>
+            </value>
+            <value>
+                <fullName>Panneau 1 m x 1 m Hall of Fame</fullName>
+                <default>false</default>
+                <label>Panneau 1 m x 1 m Hall of Fame</label>
+            </value>
+            <value>
+                <fullName>1 ouvrage dédicacé d’un professeur EMLYON</fullName>
+                <default>false</default>
+                <label>1 ouvrage dédicacé d’un professeur EMLYON</label>
+            </value>
+            <value>
+                <fullName>2 ouvrages dédicacés de professeurs EMLYON</fullName>
+                <default>false</default>
+                <label>2 ouvrages dédicacés de professeurs EMLYON</label>
+            </value>
+            <value>
+                <fullName>3 ouvrages dédicacés de professeurs EMLYON</fullName>
+                <default>false</default>
+                <label>3 ouvrages dédicacés de professeurs EMLYON</label>
+            </value>
+            <value>
+                <fullName>5 ouvrages dédicacés de professeurs EMLYON</fullName>
+                <default>false</default>
+                <label>5 ouvrages dédicacés de professeurs EMLYON</label>
+            </value>
+            <value>
+                <fullName>Tous ouvrages publiés</fullName>
+                <default>false</default>
+                <label>Tous ouvrages publiés</label>
+            </value>
+            <value>
+                <fullName>Gratuité 1 Soirée Performance</fullName>
+                <default>false</default>
+                <label>Gratuité 1 Soirée Performance</label>
+            </value>
+            <value>
+                <fullName>Gratuité 2 Soirées Performance</fullName>
+                <default>false</default>
+                <label>Gratuité 2 Soirées Performance</label>
+            </value>
+            <value>
+                <fullName>Gratuité Soirées Performance</fullName>
+                <default>false</default>
+                <label>Gratuité Soirées Performance</label>
+            </value>
+            <value>
+                <fullName>Adhésion à vie EMLYON FOREVER</fullName>
+                <default>false</default>
+                <label>Adhésion à vie EMLYON FOREVER</label>
+            </value>
+            <value>
+                <fullName>Prise de parole à 1 remise des annuaires EMLYON FOREVER</fullName>
+                <default>false</default>
+                <label>Prise de parole à 1 remise des annuaires EMLYON FOREVER</label>
+            </value>
+            <value>
+                <fullName>Prise de parole à la cérémonie de remise des diplômes</fullName>
+                <default>false</default>
+                <label>Prise de parole à la cérémonie de remise des diplômes</label>
+            </value>
+            <value>
+                <fullName>Gratuité Forum</fullName>
+                <default>false</default>
+                <label>Gratuité Forum</label>
+            </value>
+            <value>
+                <fullName>Citation sur toutes les publications</fullName>
+                <default>false</default>
+                <label>Citation sur toutes les publications</label>
+            </value>
+            <value>
+                <fullName>Membre du jury Meilleur projet Etudiant, meilleur travail de recherche</fullName>
+                <default>false</default>
+                <label>Membre du jury Meilleur projet Etudiant, meilleur travail de recherche</label>
+            </value>
+            <value>
+                <fullName>1 journée de recrutement par an</fullName>
+                <default>false</default>
+                <label>1 journée de recrutement par an</label>
+            </value>
+            <value>
+                <fullName>Membre Internationnal Advisory Board</fullName>
+                <default>false</default>
+                <label>Membre Internationnal Advisory Board</label>
+            </value>
+            <value>
+                <fullName>Citations sur Publications Corporate</fullName>
+                <default>false</default>
+                <label>Citations sur Publications Corporate</label>
+            </value>
+            <value>
+                <fullName>Accès VIP gratuit aux manifestations EMLYON</fullName>
+                <default>false</default>
+                <label>Accès VIP gratuit aux manifestations EMLYON</label>
+            </value>
+            <value>
+                <fullName>2 journées par an de recrutement et de présentation</fullName>
+                <default>false</default>
+                <label>2 journées par an de recrutement et de présentation</label>
+            </value>
+            <value>
+                <fullName>Mention du nom sur le mur des donateurs</fullName>
+                <default>false</default>
+                <label>Mention du nom sur le mur des donateurs</label>
+            </value>
+            <value>
+                <fullName>Mention du nom sur le site de la Fondation</fullName>
+                <default>false</default>
+                <label>Mention du nom sur le site de la Fondation</label>
+            </value>
+            <value>
+                <fullName>Certificat de donateur</fullName>
+                <default>false</default>
+                <label>Certificat de donateur</label>
+            </value>
+            <value>
+                <fullName>Envoi du rapport annuel</fullName>
+                <default>false</default>
+                <label>Envoi du rapport annuel</label>
+            </value>
+            <value>
+                <fullName>Naming fauteuil amphi campus de Lyon ou Paris</fullName>
+                <default>false</default>
+                <label>Naming fauteuil amphi campus de Lyon ou Paris</label>
+            </value>
+            <value>
+                <fullName>Accès salons d’échange &amp; espaces ouverts tous campus</fullName>
+                <default>false</default>
+                <label>Accès salons d’échange &amp; espaces ouverts tous campus</label>
+            </value>
+            <value>
+                <fullName>Accès e-library aux Learning Hubs</fullName>
+                <default>false</default>
+                <label>Accès e-library aux Learning Hubs</label>
+            </value>
+            <value>
+                <fullName>Invitation VIP soirées Alumni</fullName>
+                <default>false</default>
+                <label>Invitation VIP soirées Alumni</label>
+            </value>
+            <value>
+                <fullName>Accès à 1 Brain Bubble &amp; son équipement</fullName>
+                <default>false</default>
+                <label>Accès à 1 Brain Bubble &amp; son équipement</label>
+            </value>
+            <value>
+                <fullName>Formation individualisée à la veille/Intelligence Economique</fullName>
+                <default>false</default>
+                <label>Formation individualisée à la veille/Intelligence Economique</label>
+            </value>
+            <value>
+                <fullName>Trophée Donateur</fullName>
+                <default>false</default>
+                <label>Trophée Donateur</label>
+            </value>
+            <value>
+                <fullName>Trophée nominatif Grand Donateur</fullName>
+                <default>false</default>
+                <label>Trophée nominatif Grand Donateur</label>
+            </value>
+            <value>
+                <fullName>Portrait du donateur écrit/vidéo sur les sites EMLYON</fullName>
+                <default>false</default>
+                <label>Portrait du donateur écrit/vidéo sur les sites EMLYON</label>
+            </value>
+            <value>
+                <fullName>Naming d’un espace de travail collaboratif pendant 2 ans</fullName>
+                <default>false</default>
+                <label>Naming d’un espace de travail collaboratif pendant 2 ans</label>
+            </value>
+            <value>
+                <fullName>Mention spéciale dans l’annuaire</fullName>
+                <default>false</default>
+                <label>Mention spéciale dans l’annuaire</label>
+            </value>
+            <value>
+                <fullName>Organisation d’une soirée « back to school » (1 édition)</fullName>
+                <default>false</default>
+                <label>Organisation d’une soirée « back to school » (1 édition)</label>
+            </value>
+            <value>
+                <fullName>Invitation à une réunion annuelle de présentation des orientations stratégiques d’EMLYON</fullName>
+                <default>false</default>
+                <label>Invitation à une réunion annuelle de présentation des orientations stratégiques d’EMLYON</label>
+            </value>
+            <value>
+                <fullName>Trophée nominatif Grand Mécène</fullName>
+                <default>false</default>
+                <label>Trophée nominatif Grand Mécène</label>
+            </value>
+            <value>
+                <fullName>Possibilité de donner son nom à une salle de cours sur l’un des campus</fullName>
+                <default>false</default>
+                <label>Possibilité de donner son nom à une salle de cours sur l’un des campus</label>
+            </value>
+            <value>
+                <fullName>Possibilité de donner son nom à un amphithéâtre (à partir de 200K€)</fullName>
+                <default>false</default>
+                <label>Possibilité de donner son nom à un amphithéâtre (à partir de 200K€)</label>
+            </value>
+            <value>
+                <fullName>Projet sur mesure à développer en fonction du souhait du donateur</fullName>
+                <default>false</default>
+                <label>Projet sur mesure à développer en fonction du souhait du donateur</label>
+            </value>
+            <value>
+                <fullName>Accès à Scholarvox</fullName>
+                <default>false</default>
+                <label>Accès à Scholarvox</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>B2B_Everest</controllingFieldValue>
+            <valueName>Plaque 0,5 x 0,5 m Hall of Fame</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Everest</controllingFieldValue>
+            <valueName>Tous ouvrages publiés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Everest</controllingFieldValue>
+            <valueName>Membre du jury Meilleur projet Etudiant, meilleur travail de recherche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Everest</controllingFieldValue>
+            <valueName>1 journée de recrutement par an</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2B_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>1 ouvrage dédicacé d’un professeur EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2B_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Gratuité 1 Soirée Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Mont Blanc</controllingFieldValue>
+            <controllingFieldValue>B2C_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Mention du nom sur le mur des donateurs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Niveau Zéro</controllingFieldValue>
+            <controllingFieldValue>B2C_Mont Blanc</controllingFieldValue>
+            <controllingFieldValue>B2C_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Mention du nom sur le site de la Fondation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Mont Blanc</controllingFieldValue>
+            <controllingFieldValue>B2C_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Certificat de donateur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Mont Blanc</controllingFieldValue>
+            <controllingFieldValue>B2C_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Envoi du rapport annuel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Naming fauteuil amphi campus de Lyon ou Paris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Accès salons d’échange &amp; espaces ouverts tous campus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Accès e-library aux Learning Hubs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Invitation VIP soirées Alumni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Accès à 1 Brain Bubble &amp; son équipement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Formation individualisée à la veille/Intelligence Economique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Trophée Donateur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Trophée nominatif Grand Donateur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Portrait du donateur écrit/vidéo sur les sites EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Naming d’un espace de travail collaboratif pendant 2 ans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Mention spéciale dans l’annuaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Organisation d’une soirée « back to school » (1 édition)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Invitation à une réunion annuelle de présentation des orientations stratégiques d’EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <valueName>Trophée nominatif Grand Mécène</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <valueName>Possibilité de donner son nom à une salle de cours sur l’un des campus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <valueName>Possibilité de donner son nom à un amphithéâtre (à partir de 200K€)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Everest</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Niveau Zéro</controllingFieldValue>
+            <controllingFieldValue>B2C_Mont Blanc</controllingFieldValue>
+            <controllingFieldValue>B2C_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2C_McKinley</controllingFieldValue>
+            <controllingFieldValue>B2C_Annapura</controllingFieldValue>
+            <controllingFieldValue>B2C_K2</controllingFieldValue>
+            <valueName>Accès à Scholarvox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Cercle du Président</controllingFieldValue>
+            <valueName>Panneau 1 m x 1 m Hall of Fame</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <valueName>Membre Internationnal Advisory Board</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Cercle du Président</controllingFieldValue>
+            <valueName>Citations sur Publications Corporate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <valueName>Accès VIP gratuit aux manifestations EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Cercle du Président</controllingFieldValue>
+            <valueName>2 journées par an de recrutement et de présentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <controllingFieldValue>B2B_K2</controllingFieldValue>
+            <valueName>Prise de parole à la cérémonie de remise des diplômes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C_Cercle du Président</controllingFieldValue>
+            <valueName>Projet sur mesure à développer en fonction du souhait du donateur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Mont Blanc</controllingFieldValue>
+            <valueName>Plaque collective</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Kilimandjaro</controllingFieldValue>
+            <controllingFieldValue>B2B_McKinley</controllingFieldValue>
+            <valueName>Plaque 0,2 x 0,2 m Hall of Fame</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_McKinley</controllingFieldValue>
+            <valueName>2 ouvrages dédicacés de professeurs EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Annapura</controllingFieldValue>
+            <valueName>Plaque 0,3 x 0,2 m Hall of Fame</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_Annapura</controllingFieldValue>
+            <valueName>3 ouvrages dédicacés de professeurs EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_K2</controllingFieldValue>
+            <valueName>Plaque 0,5 x 0,2 m Hall of Fame</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_K2</controllingFieldValue>
+            <valueName>5 ouvrages dédicacés de professeurs EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_K2</controllingFieldValue>
+            <valueName>Gratuité Forum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B_K2</controllingFieldValue>
+            <valueName>Citation sur toutes les publications</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

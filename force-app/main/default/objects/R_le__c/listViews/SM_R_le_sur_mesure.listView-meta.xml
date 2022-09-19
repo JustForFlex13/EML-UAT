@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SM_R_le_sur_mesure</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Categorie_role__c</field>
+        <operation>equals</operation>
+        <value>EEE sur mesure</value>
+    </filters>
+    <label>SM_Rôle sur-mesure</label>
+</ListView>

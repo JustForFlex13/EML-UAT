@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Include_On_Scheduler__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, this availability will be shown on the scheduler.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est cochée, cette disponibilité sera affichée sur le planificateur.</inlineHelpText>
+    <label>Include On Scheduler</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

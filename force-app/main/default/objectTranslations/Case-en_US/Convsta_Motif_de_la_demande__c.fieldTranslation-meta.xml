@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Reason of the application</label>
+    <name>Convsta_Motif_de_la_demande__c</name>
+    <picklistValues>
+        <masterLabel>Demande de changement de tuteur</masterLabel>
+        <translation>Change my company tutor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Difficulté dans le remplissage de la demande</masterLabel>
+        <translation>Difficulty in the filling of application</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Difficulté pendant le stage</masterLabel>
+        <translation>Difficulty during the internship</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Convsta Notification validation péda BBA</name>
+    <style>freeForm</style>
+    <subject>Stage, présentation du tuteur</subject>
+    <textOnly>Bonjour {!Contact.Name},
+
+Pour faire suite à votre demande de convention de stage numéro {!Case.CaseNumber}, nous vous confirmons que votre mission de stage au sein de l’entreprise {!Case.Convsta_Entreprise_Name__c} a été validée par votre instructeur  :{!Case.Convsta_Responsable_Pedagogique__c} :
+
+Dates du stage : {!Case.Convsta_DateStart__c} et {!Case.Convsta_DateEnd__c}
+
+Lieu de l’entreprise : {!Case.Convsta_Adresse_du_lieu_du_stage__c}
+
+Nous vous informons que {!Case.Convsta_suiveur__c} sera votre tuteur école pour ce stage. Vous pouvez le contacter par mail {!Case.Convsta_fomr_Email_suiveur__c} et il pourra communiquer vers vous à l’adresse suivante {!Contact.Email_EM_Lyon__c}. C’est à lui/elle que vous allez remettre les différents rendus pédagogiques.
+
+Votre demande passe maintenant en validation administrative puis en signatures électroniques. une fois signée, votre convention sera mise à disposition dans votre espace « jobs and internships » sur le Makersboard.
+
+Nous restons à votre disposition,
+
+emlyon Career Center
+
+Dear {!Contact.Name},
+
+To follow up on your request number {!Case.CaseNumber} for an internship agreement, we confirm that your internship at {!Case.Convsta_Entreprise_Name__c} has been approved by {!Case.Convsta_Responsable_Pedagogique__c} :
+
+Dates of internship: {!Case.Convsta_DateStart__c} to {!Case.Convsta_DateEnd__c}
+
+Location of the internship :  {!Case.Convsta_Adresse_du_lieu_du_stage__c}
+
+
+We inform you that {!Case.Convsta_suiveur__c} will be your academic tutor. You can reach him/her by email at {!Case.Convsta_fomr_Email_suiveur__c} and he/she can contact you at {!Contact.Email_EM_Lyon__c}. He/she will be the person you will have to send your various academic documents and reports to.
+
+Your request is now being verified and sent for electronic signatures. Once signed, your internship agreement will be available by clicking on your icon « jobs and internships » on Makersboard.
+
+We remain at your disposal.
+
+emlyon Career Center</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

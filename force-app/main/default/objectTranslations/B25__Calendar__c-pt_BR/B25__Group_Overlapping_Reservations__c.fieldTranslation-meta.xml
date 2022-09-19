@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se mais do que este número de reservas se sobrepuser no calendário, elas serão agrupadas num único bloco que pode ser expandido.</help>
+    <label></label>
+    <name>B25__Group_Overlapping_Reservations__c</name>
+</CustomFieldTranslation>

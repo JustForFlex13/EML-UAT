@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interet__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Interet de la personne.</inlineHelpText>
+    <label>Interet</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Echecs</fullName>
+                <default>false</default>
+                <label>Echecs</label>
+            </value>
+            <value>
+                <fullName>Golf</fullName>
+                <default>false</default>
+                <label>Golf</label>
+            </value>
+            <value>
+                <fullName>Tennis</fullName>
+                <default>false</default>
+                <label>Tennis</label>
+            </value>
+            <value>
+                <fullName>Voile</fullName>
+                <default>false</default>
+                <label>Voile</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

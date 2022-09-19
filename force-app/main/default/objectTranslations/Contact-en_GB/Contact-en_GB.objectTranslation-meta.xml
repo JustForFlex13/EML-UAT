@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Candidat Portail em lyon</layout>
+        <sections>
+            <label></label>
+            <section>Champs</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Documents d&apos;identité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Etudiant</layout>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Diplômé détails</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Poste principal</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Suivi du contact</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Etudiant Admin</layout>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Diplômé détails</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Poste principal</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Suivi du contact</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Fundraising</layout>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Coordonnées de repli / professionnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Diplômé EMLYON</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Employabilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Information supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations sur la formation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Poste principal</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Qualification des données</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Suivi du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Professionel IA</layout>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Diplômé EMLYON</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Information supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Poste principal</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Suivi du contact</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Professionnel</layout>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Diplômé EMLYON</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Information supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Poste principal</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Suivi du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Professionnel ADMIN</layout>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Coordonnées de repli / professionnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Diplômé EMLYON</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Information supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations sur la formation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Poste principal</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Qualification des données</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Suivi du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Professionnel Forever et BDD</layout>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Diplômé EMLYON</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Information supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Poste principal</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prospect Etudiant</layout>
+        <sections>
+            <label></label>
+            <section>Commentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Compte</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Données de création du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Profil / Education</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prospect Etudiant ADMIN</layout>
+        <sections>
+            <label></label>
+            <section>Commentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Compte</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Données de création du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Profil / Education</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Qualification des données</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Relation Employeur</layout>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Coordonnées de repli / professionnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Diplômé EMLYON</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Poste principal</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Suivi du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vision Equipe Relations Employeur</layout>
+        <sections>
+            <label></label>
+            <section>Commentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Compte</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Coordonnées Personnelles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Données de création du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Evénements Relations Employeurs</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gestion de l’adresse Email de référence du contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Profil / Education</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Qualification des données</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Etudiant</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Professionnel</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Prospect_Etudiant</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>SIS_Candidat</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Caractere_Invalides</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ChargePromoFC_CanChangeProfesToProspect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ChargePromoFI_CanChangeProspectToProfess</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Convsta_email_obligatoire_rep_ent_tuteur</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ForbidChangeEtudiantToProfessionnel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ForbidChangeEtudiantToProspect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ForbidChangeProfessionnelToEtudiant</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ForbidChangeProspectToEtudiant</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ForbidChangeRecordType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Professionnel_emailPro_emailPerso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact01_Etat_ObligatoirePersonnelle</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact02_Etat_ObligatoireRepli</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact03_Pays_ObligatoirePersonnel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact04_Pays_ObligatoireRepli</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact05_RegionVsEtat_Personnel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact06_Prenom_obligatoire</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact07_Civilite_Obligatoire</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact08_Famil_fonction_Obligatoire</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact09_Maj_Nom_Prenom_Etudiant</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact10_ville_sans_chiffres</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Contact11_ville_repli_sans_chiffres</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RV_Contact_Blocage_Plusieurs_emails_coch</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Cloner_Custom</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Convertir_en_client_individuel</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Google</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>LinkedIn</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_to_Prospect_Insight</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Changement_de_seuil_B2C</name>
+        <subject></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

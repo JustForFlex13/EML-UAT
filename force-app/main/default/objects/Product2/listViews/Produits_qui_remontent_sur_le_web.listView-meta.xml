@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Produits_qui_remontent_sur_le_web</fullName>
+    <columns>Ne_pas_afficher_sur_le_site_EML__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Suiveur__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ne_pas_afficher_sur_le_site_EML__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.FAMILY</field>
+        <operation>equals</operation>
+        <value>OFFRES EXEC DEV Programmes Certifiants,OFFRES EXEC DEV Programmes courts</value>
+    </filters>
+    <label>Produits qui remontent sur le web</label>
+    <language>fr</language>
+</ListView>

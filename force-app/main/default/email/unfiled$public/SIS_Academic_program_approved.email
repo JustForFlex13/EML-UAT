@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div>Bonjour,</div><div><br></div><div>Nous vous informons de la validation du nouveau programme {!Account.SIS_Official_name__c} après validation par :</div><div><ul><li>{!Account.SIS_Validation_Responsible__c}</li><li>{!Account.SIS_QAR_responsible__c}</li></ul><div>Vous pouvez découvrir le nouveau programme en cliquant sur le lien suivant : https://arpege-emlyon--emsisuat.sandbox.lightning.force.com/lightning/r/{!Account.Id}/view.</div><div><br></div><div>Cordialement.</div></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>2</activeVersionNumber>
+    <description>Déclenché par le process builder (assignation et suppression automatique d&apos;un permission set) et permettant la suppression automatique du permission set &quot;Accès en lecture seule à l&apos;objet Données de clic&quot; aux utilisateurs qui ont un rôle contenant le sigle &quot;EML&quot;, et qui ont la checkbox &quot;utilisateur marketing&quot; cochée.</description>
+    <masterLabel>Delete permission set assignment</masterLabel>
+</FlowDefinition>

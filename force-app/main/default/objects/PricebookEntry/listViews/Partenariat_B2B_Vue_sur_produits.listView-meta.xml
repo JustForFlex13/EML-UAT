@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partenariat_B2B_Vue_sur_produits</fullName>
+    <columns>Product2.Famille__c</columns>
+    <columns>PRODUCT.NAME</columns>
+    <columns>PRODUCT.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT.DEFAULT_PRICE</columns>
+    <columns>PRODUCT.ACTIVE</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Partenariat</value>
+    </filters>
+    <label>Partenariat B2B_Vue sur produits</label>
+    <language>fr</language>
+    <queue>Fundraising B2B</queue>
+    <sharedTo>
+        <role>Employabilit</role>
+        <role>Fundraising_B2B</role>
+    </sharedTo>
+</ListView>

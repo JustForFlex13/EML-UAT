@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role_de_prescripteur_potentiel__c</fullName>
+    <description>Champ technique qui indique si le Rôle EMLyon est un rôle de &quot;Prescripteur potentiel&quot;. Utilisé pour le calcul du champ roll up &quot;Rôle EML Prescripteur potentiel&quot; sur l&apos;objet Contact.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+			AND(ISPICKVAL(Categorie_role__c, &quot;EML-EXEC&quot;), INCLUDES(Liste_r_le__c, &quot;Prescripteur potentiel&quot;)),
+				True,
+				False
+	)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Rôle de prescripteur potentiel</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

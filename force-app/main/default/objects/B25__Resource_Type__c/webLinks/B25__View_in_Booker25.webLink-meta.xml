@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__View_in_Booker25</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>View in Booker25</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/B25__{!IF($User.UIThemeDisplayed == &apos;Theme4d&apos;, &apos;lightning&apos;, &apos;classic&apos;)}_resources?resourcetype={!B25__Resource_Type__c.Id}</url>
+</WebLink>

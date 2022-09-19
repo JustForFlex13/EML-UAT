@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Categorie_role__c</fullName>
+    <externalId>false</externalId>
+    <label>Catégorie rôle</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Apprentissage</fullName>
+                <default>false</default>
+                <label>Apprentissage</label>
+            </value>
+            <value>
+                <fullName>Capital raising</fullName>
+                <default>false</default>
+                <label>Capital raising</label>
+            </value>
+            <value>
+                <fullName>CCI</fullName>
+                <default>false</default>
+                <label>CCI</label>
+            </value>
+            <value>
+                <fullName>Conseils d&apos;Administration</fullName>
+                <default>false</default>
+                <label>Conseils d&apos;Administration</label>
+            </value>
+            <value>
+                <fullName>Diplômés</fullName>
+                <default>false</default>
+                <label>Diplômés</label>
+            </value>
+            <value>
+                <fullName>Direction Entreprises</fullName>
+                <default>false</default>
+                <label>Direction Entreprises</label>
+            </value>
+            <value>
+                <fullName>EEE sur mesure</fullName>
+                <default>false</default>
+                <label>EEE sur mesure</label>
+            </value>
+            <value>
+                <fullName>EML-EXEC</fullName>
+                <default>false</default>
+                <label>EML-EXEC</label>
+            </value>
+            <value>
+                <fullName>Employabilité</fullName>
+                <default>false</default>
+                <label>Employabilité</label>
+            </value>
+            <value>
+                <fullName>Incubateurs</fullName>
+                <default>false</default>
+                <label>Incubateurs</label>
+            </value>
+            <value>
+                <fullName>Jury</fullName>
+                <default>false</default>
+                <label>Jury</label>
+            </value>
+            <value>
+                <fullName>Partenariat et Fondation</fullName>
+                <default>false</default>
+                <label>Partenariat et Fondation</label>
+            </value>
+            <value>
+                <fullName>Stages</fullName>
+                <default>false</default>
+                <label>Stages</label>
+            </value>
+            <value>
+                <fullName>VIP</fullName>
+                <default>false</default>
+                <label>VIP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

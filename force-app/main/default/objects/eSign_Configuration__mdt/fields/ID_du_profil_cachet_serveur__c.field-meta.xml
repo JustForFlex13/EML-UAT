@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ID_du_profil_cachet_serveur__c</fullName>
+    <description>profil à assigner aux signatures cachet serveur de universign. cette valeur est utilisée pour constituer le JSON (dans l&apos;objet serverSignatureOptions attribut &quot;profile&quot;) envoyé à universign par la classe apex Convsta_WS_Helper</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>ID du profil cachet serveur</label>
+    <length>10</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

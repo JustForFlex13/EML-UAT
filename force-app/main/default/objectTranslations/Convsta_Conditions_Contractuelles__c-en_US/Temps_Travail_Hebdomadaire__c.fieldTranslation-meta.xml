@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The number of working hours per week indicated in the student&apos;s contract</help>
+    <label>Weekly work time</label>
+    <name>Temps_Travail_Hebdomadaire__c</name>
+</CustomFieldTranslation>

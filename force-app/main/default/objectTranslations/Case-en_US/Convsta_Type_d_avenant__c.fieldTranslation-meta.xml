@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Type of amendment</label>
+    <name>Convsta_Type_d_avenant__c</name>
+    <picklistValues>
+        <masterLabel>Changement date</masterLabel>
+        <translation>Change dates</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Changement gratification</masterLabel>
+        <translation>Change monetary compensation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Changement lieu de stage</masterLabel>
+        <translation>Change work placement location</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Changement tuteur entreprise</masterLabel>
+        <translation>Change company tutor</translation>
+    </picklistValues>
+</CustomFieldTranslation>

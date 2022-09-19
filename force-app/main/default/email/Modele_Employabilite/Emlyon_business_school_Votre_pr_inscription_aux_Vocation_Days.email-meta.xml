@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Pré-inscription aux Vocation Days</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Emlyon business school - Votre pré-inscription aux Vocation Days</name>
+    <style>none</style>
+    <subject>Emlyon business school - Votre pré-inscription aux Vocation Days</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

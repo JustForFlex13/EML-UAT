@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Type__c</fullName>
+    <description>Choisir un type d&apos;heures d&apos;apprentissage puis renseigner son volume</description>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Face-à-face</fullName>
+                <default>false</default>
+                <label>Présentiel</label>
+            </value>
+            <value>
+                <fullName>Individuel sans mentorat</fullName>
+                <default>false</default>
+                <label>Travail individuel sans tutorat</label>
+            </value>
+            <value>
+                <fullName>Evaluation</fullName>
+                <default>false</default>
+                <label>Evaluation</label>
+            </value>
+            <value>
+                <fullName>Groupe sans mentorat</fullName>
+                <default>false</default>
+                <label>Travail en groupe sans tutorat</label>
+            </value>
+            <value>
+                <fullName>Travail en ligne</fullName>
+                <default>false</default>
+                <label>Travail en ligne</label>
+            </value>
+            <value>
+                <fullName>Travail individuel avec tutorat</fullName>
+                <default>false</default>
+                <label>Travail individuel avec tutorat</label>
+            </value>
+            <value>
+                <fullName>Travail en groupe avec tutorat</fullName>
+                <default>false</default>
+                <label>Travail en groupe avec tutorat</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

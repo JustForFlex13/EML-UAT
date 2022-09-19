@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Envoi dossier candidature au pipe OA : Qualifié,Probable,Chaud</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x160</letterhead>
+    <name>OA - 2017 : Infos session Paris 2017</name>
+    <style>promotionRight</style>
+    <subject>emlyon - Votre candidature au certificat OA - Objectif administratrice | {!Contact.Name}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

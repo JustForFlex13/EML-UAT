@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Vertical zorgt ervoor dat volgens de verticale as de reserveringen lazy geladen worden, vertical/horizontal doet dit op beide assen. Deze laatste setting werkt niet wanneer een deel van de tijdslijn wordt verborgen, bijvoorbeeld door &apos;verberg gesloten tijden zonder reservering&apos;</help>
+    <label></label>
+    <name>B25__Lazy_Reservation_Loading__c</name>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>Uitgeschakeld</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical</masterLabel>
+        <translation>Vertikaal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical &amp; Horizontal</masterLabel>
+        <translation>Verticaal &amp; Horizontaal</translation>
+    </picklistValues>
+</CustomFieldTranslation>

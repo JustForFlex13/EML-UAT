@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilisé pour identifier les réservations créées par une ABR pour un poste d’opportunité.</help>
+    <label></label>
+    <name>B25__OpportunityLineItem__c</name>
+</CustomFieldTranslation>

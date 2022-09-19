@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tot wanneer is deze service beschikbaar?</help>
+    <label></label>
+    <name>B25__End__c</name>
+</CustomFieldTranslation>

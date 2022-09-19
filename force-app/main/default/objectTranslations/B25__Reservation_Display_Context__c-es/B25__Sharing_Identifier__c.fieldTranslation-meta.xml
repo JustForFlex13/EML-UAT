@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si utiliza el uso compartido para asignar contextos distintos a usuarios distintos, utilice este campo para identificar con qué grupos públicos se comparte este contexto. Booker25 utilizará esta información para permitir contextos duplicados si se comparten con distintos usuarios.</help>
+    <label></label>
+    <name>B25__Sharing_Identifier__c</name>
+</CustomFieldTranslation>

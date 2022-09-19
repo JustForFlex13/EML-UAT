@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De API Naam van een veld op het Beschikbaarheid object dat een lookup is naar deze dimensie. Dit zorgt ervoor dat (on)beschikbaarheden voor deze dimensie kan invoeren.</help>
+    <label></label>
+    <name>B25__Availability_Lookup__c</name>
+</CustomFieldTranslation>

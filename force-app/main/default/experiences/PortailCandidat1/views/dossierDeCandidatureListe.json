@@ -1,0 +1,45 @@
+{
+  "appPageId" : "b58db886-f511-49fa-ad0e-a69ce76f309f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "8dccaeac-6238-4ab1-8a16-ae4ea6eeb74d",
+  "label" : "Dossier de candidature Liste",
+  "regions" : [ {
+    "id" : "f9c0799b-d93c-4bf7-a762-0571cde6c62f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "cd4ac8a9-ec02-41d3-a6ed-56ca63a1af5a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "af8a4d04-39cc-425d-bb30-a5747255b129",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "5c16224a-6e1b-415e-8136-4111909b53d2",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-a1F"
+}

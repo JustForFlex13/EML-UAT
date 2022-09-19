@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Produit_de_candidature__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Sur la partie EXECUTIVE nous avons besoin d&apos;ajouter un champ lookup qui nous permette d&apos;indiquer, pour un produit donné quel est le produit de candidature (frais de scolarité associé)</description>
+    <externalId>false</externalId>
+    <label>Produit de candidature</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Produits</relationshipLabel>
+    <relationshipName>Produits</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

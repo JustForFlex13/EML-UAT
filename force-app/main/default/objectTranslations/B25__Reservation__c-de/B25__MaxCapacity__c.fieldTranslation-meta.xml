@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Hier bleiben in der Quelle bereits besetzte Positionen unberücksichtigt. Die max. Auslastung einer Reservierung basiert auf der von der Quelle oder einem anderen Layout von dieser angegebenen Auslastung.</help>
+    <label></label>
+    <name>B25__MaxCapacity__c</name>
+</CustomFieldTranslation>

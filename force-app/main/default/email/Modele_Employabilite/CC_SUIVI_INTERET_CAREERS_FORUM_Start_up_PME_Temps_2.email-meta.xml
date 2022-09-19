@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CC SUIVI INTERET CAREERS FORUM Start-up/PME – Temps 2</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_Save_the_date_2020</letterhead>
+    <name>CC SUIVI INTERET CAREERS FORUM Start-up/PME – Temps 2</name>
+    <style>freeForm</style>
+    <subject>emlyon business school, Careers Forum: nous vous accompagnons dans votre inscription</subject>
+    <textOnly>Bonjour,
+
+Vous avez suscité de l&apos;intérêt pour notre événement de recrutement de janvier : le Careers Forum et je reviens vers vous afin de vous accompagner dans votre inscription.
+
+Sauf erreur de notre part, nous n’avons pas encore reçu votre bulletin d’inscription. 
+
+Vous trouverez en pièce jointe le document à nous retourner complété et signé afin de vous inscrire.
+
+Nous sommes restons à votre entière disposition pour vous accompagner et vous apporter des informations complémentaires.
+
+Votre inscription sera confirmée dès la réception du document joint signé et daté.
+
+Je reste à votre disposition pour tout complément d’information.
+
+Cordialement,
+{!User.Name}
+{!User.Title}
+{!User.Phone}
+23, avenue Guy de Collongue
+CS 40203 69134 Ecully Cedex France
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

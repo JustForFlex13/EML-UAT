@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tranche_de_CA_Tranche_de_CA_entit__c</fullName>
+    <externalId>false</externalId>
+    <label>Tranche de CA / Tranche de CA entité</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Moins de 0,5 million d&apos;euros</fullName>
+                <default>false</default>
+                <label>Moins de 0,5 million d&apos;euros</label>
+            </value>
+            <value>
+                <fullName>De 0,5 a moins de 1 M€</fullName>
+                <default>false</default>
+                <label>De 0,5 a moins de 1 M€</label>
+            </value>
+            <value>
+                <fullName>De 1 M€ a moins de 2 M€</fullName>
+                <default>false</default>
+                <label>De 1 M€ a moins de 2 M€</label>
+            </value>
+            <value>
+                <fullName>De 2 M€ a moins de 5 M€</fullName>
+                <default>false</default>
+                <label>De 2 M€ a moins de 5 M€</label>
+            </value>
+            <value>
+                <fullName>De 5 M€ a moins de 10 M€</fullName>
+                <default>false</default>
+                <label>De 5 M€ a moins de 10 M€</label>
+            </value>
+            <value>
+                <fullName>De 10 M€ a moins de 20 M€</fullName>
+                <default>false</default>
+                <label>De 10 M€ a moins de 20 M€</label>
+            </value>
+            <value>
+                <fullName>De 20 M€ a moins de 50 M€</fullName>
+                <default>false</default>
+                <label>De 20 M€ a moins de 50 M€</label>
+            </value>
+            <value>
+                <fullName>De 50 M€ a moins de 100 M€</fullName>
+                <default>false</default>
+                <label>De 50 M€ a moins de 100 M€</label>
+            </value>
+            <value>
+                <fullName>De 100 M€ a moins de 200 M€</fullName>
+                <default>false</default>
+                <label>De 100 M€ a moins de 200 M€</label>
+            </value>
+            <value>
+                <fullName>200 M€ ou plus</fullName>
+                <default>false</default>
+                <label>200 M€ ou plus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

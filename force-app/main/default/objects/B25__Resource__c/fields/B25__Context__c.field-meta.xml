@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Context__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If the Resource has both a parent and grand-parent, the context will equal their names. If it only has a parent, the context equals the parent&apos;s name. If the Resource has no parent, then the context will be blank.</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+ISNULL(B25__Parent__c), 
+&apos;&apos;, 
+B25__Parent__r.Name + IF( 
+OR(ISNULL(B25__Parent__r.B25__Parent__c), ISBLANK(B25__Parent__r.B25__Parent__r.Name)), 
+&apos;&apos;, 
+&apos;, &apos; + B25__Parent__r.B25__Parent__r.Name 
+) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Si la ressource a un parent et un grand-parent, le contexte sera égal à leurs noms. Si elle n’a qu’un parent, le contexte est égal au nom du parent. Si la ressource n’a pas de parent, le contexte sera vide.</inlineHelpText>
+    <label>Context</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

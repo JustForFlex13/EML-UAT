@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Évaluation disponible pour l&apos;étudiant</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Etudiant évaluation disponible HTML</name>
+    <style>none</style>
+    <subject>Votre stage a été évalué ! / Your insternship has been evaluated !</subject>
+    <textOnly>Bonjour {!Convsta_Evaluation__c.Etudiant__c},
+
+Nous vous informons que votre tuteur en entreprise {!Convsta_Evaluation__c.Evaluateur__c} a complété votre évaluation de stage. Vous pouvez désormais la visualiser dans votre espace « jobs and internships » sur Makersboard.
+
+Nous restons à votre disposition,
+
+emlyon Career Center
+internship@em-lyon.com
+
+English version below
+
+
+Dear {!Convsta_Evaluation__c.Etudiant__c},
+
+We inform you that your company tutor {!Convsta_Evaluation__c.Evaluateur__c} completed your internship evaluation. You can now display at « jobs and internships » section on Makersboard.
+
+We remain at your disposal
+emlyon Career Center
+internship@em-lyon.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

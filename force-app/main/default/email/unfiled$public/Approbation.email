@@ -1,0 +1,13 @@
+Bonjour <BR/>
+<BR/>
+L'opportunité, {!Opportunity.Name} pour {!Opportunity.Account} a été demandée en approbation.
+<BR/>
+Vous pouvez visualiser l'opportunité en cliquant sur sur ce <a href="{!Opportunity.Link}">lien</a>.
+ou répondez à cet e-mail avec l'un des termes de la première ligne du message : APPROUVÉ, REJETÉ
+<BR/>
+Si vous répondez par e-mail, vous pouvez également ajouter des commentaires sur la deuxième ligne. Les commentaires sont stockés avec la demande d'approbation dans Salesforce CRM.
+</a><BR/>
+<BR/>
+Cordialement, <BR/>
+<BR/>
+Administrateur ARPEGE

@@ -1,0 +1,38 @@
+{
+  "appPageId" : "b58db886-f511-49fa-ad0e-a69ce76f309f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "270792f6-dbbf-4ef4-a372-80416c5a1acc",
+  "label" : "Dossier de candidature Liste associée",
+  "regions" : [ {
+    "id" : "73ac7c3b-217b-4c25-aa0a-0eacce3115db",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "403edad1-22d6-4919-90f2-97004c390572",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e3057cd4-cc6f-458f-903c-de9e162fcc67",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2c6196b0-32e8-41a3-be60-437be6ea7e32",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a1F"
+}

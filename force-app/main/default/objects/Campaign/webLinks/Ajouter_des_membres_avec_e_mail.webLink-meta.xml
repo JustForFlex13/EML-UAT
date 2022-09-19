@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ajouter_des_membres_avec_e_mail</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Gérer les membres selon l&apos;email</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!$Site.BaseUrl}/apex/VF001CampaignManageMembersAddTab?campaignid={!Campaign.Id}</url>
+</WebLink>

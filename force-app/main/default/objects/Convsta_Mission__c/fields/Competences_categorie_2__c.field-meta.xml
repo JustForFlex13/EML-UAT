@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competences_categorie_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Compétences comportementales</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Démontrer un comportement assertif</fullName>
+                <default>false</default>
+                <label>Démontrer un comportement assertif</label>
+            </value>
+            <value>
+                <fullName>Gérer son stress</fullName>
+                <default>false</default>
+                <label>Gérer son stress</label>
+            </value>
+            <value>
+                <fullName>Élaborer un diagnostic</fullName>
+                <default>false</default>
+                <label>Élaborer un diagnostic</label>
+            </value>
+            <value>
+                <fullName>Conceptualiser, et modéliser les situations complexes</fullName>
+                <default>false</default>
+                <label>Conceptualiser, et modéliser les situations complexes</label>
+            </value>
+            <value>
+                <fullName>Mobiliser différentes sources pour accéder à l&apos;information</fullName>
+                <default>false</default>
+                <label>Mobiliser différentes sources pour accéder à l&apos;information</label>
+            </value>
+            <value>
+                <fullName>Qualifier l&apos;information et identifier l&apos;information pertinente</fullName>
+                <default>false</default>
+                <label>Qualifier l&apos;information et identifier l&apos;information pertinente</label>
+            </value>
+            <value>
+                <fullName>Organiser son travail avec précision et rigueur</fullName>
+                <default>false</default>
+                <label>Organiser son travail avec précision et rigueur</label>
+            </value>
+            <value>
+                <fullName>Gérer son temps et les priorités</fullName>
+                <default>false</default>
+                <label>Gérer son temps et les priorités</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

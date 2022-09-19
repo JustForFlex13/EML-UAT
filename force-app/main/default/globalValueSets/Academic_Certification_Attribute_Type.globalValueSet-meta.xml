@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Titre RNCP</fullName>
+        <default>false</default>
+        <label>Titre RNCP</label>
+    </customValue>
+    <customValue>
+        <fullName>Titre d&apos;ingénieur</fullName>
+        <default>false</default>
+        <label>Titre d&apos;ingénieur</label>
+    </customValue>
+    <customValue>
+        <fullName>Grade de licence</fullName>
+        <default>false</default>
+        <label>Grade de licence</label>
+    </customValue>
+    <customValue>
+        <fullName>Grade de master</fullName>
+        <default>false</default>
+        <label>Grade de master</label>
+    </customValue>
+    <masterLabel>Academic Certification Attribute Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

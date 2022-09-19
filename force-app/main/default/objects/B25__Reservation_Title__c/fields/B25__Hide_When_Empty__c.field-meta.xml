@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Hide_When_Empty__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Hides this Title when the field it references is empty. The Title wil then no longer take up space.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Masque ce titre lorsque le champ auquel il fait référence est vide. Le titre n’occupera alors plus d’espace.</inlineHelpText>
+    <label>Hide When Empty</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

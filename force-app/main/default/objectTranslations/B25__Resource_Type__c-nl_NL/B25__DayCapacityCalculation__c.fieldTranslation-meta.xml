@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Binair telt een resource als bezet als er geen reservering eindigt die dag. Percentueel berekend de bezette tijd tegen de beschikbare tijd.</help>
+    <label></label>
+    <name>B25__DayCapacityCalculation__c</name>
+    <picklistValues>
+        <masterLabel>Binary</masterLabel>
+        <translation>Binair</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percentual</masterLabel>
+        <translation>Percentueel</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hed__Diploma</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>SIS_Academic_Certification_Flexicompact</compactLayoutAssignment>
+    <description>A certification related to the completion of a course of study, such as a high school diploma in the United States.</description>
+    <label>Diploma</label>
+    <picklistValues>
+        <picklist>SIS_Academic_Certification_Level__c</picklist>
+        <values>
+            <fullName>Grade de Licence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grade de Master</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RNCP Niveau 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RNCP Niveau 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visa Bac %2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visa Bac%2B4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Academic_Certification_Type__c</picklist>
+        <values>
+            <fullName>Main</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secondary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Academic_certification_organism__c</picklist>
+        <values>
+            <fullName>AACSB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEFDG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campus France %22Bienvenue en France%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conférence des Grandes Ecoles %28CGE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DD%26RS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EQUIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emlyon business school</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France Compétences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hcéres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUALIOPI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_NSF_Code__c</picklist>
+        <values>
+            <fullName>100%09Formations générales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110%09Spécialités pluriscientifiques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>111%09Physique-chimie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>112%09Chimie-biologie%2C biochimie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>113%09Sciences naturelles %28biologie-géologie%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>114%09Mathématiques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>115%09Physique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>116%09Chimie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>117%09Sciences de la terre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>118%09Sciences de la vie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>120%09Spécialités pluridisciplinaires%2C sciences humaines et droit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>121%09Géographie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>122%09Economie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>123%09Sciences sociales %28y compris démographie%2C anthropologie%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>124%09Psychologie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>125%09Linguistique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>126%09Histoire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>127%09Philosophie%2C éthique et théologie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>128%09Droit%2C sciences politiques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>130%09Spécialités littéraires et artistiques plurivalentes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>131%09Français%2C littérature et civilisation française</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>132%09Arts plastiques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>133%09Musique%2C arts du spectacle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>134%09Autres disciplines artistiques et spécialités artistiques plurivalentes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>135%09Langues et civilisations anciennes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>136%09Langues vivantes%2C civilisations étrangères et régionales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>200%09Technologies industrielles fondamentales %28génie industriel%2C procédés de transformation%2C spécialités à dominante fonctionnelle%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>201%09Technologies de commandes des transformations industriels %28automatismes et robotique industriels%2C informatique industrielle%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>210%09Spécialités plurivalentes de l%27agronomie et de l%27agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>211%09Productions végétales%2C cultures spécialisées %28horticulture%2C viticulture%2C arboriculture fruitière%2E%2E%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>212%09Productions animales%2C élevage spécialisé%2C aquaculture%2C soins aux animaux%2C y compris vétérinaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>213%09Forêts%2C espaces naturels%2C faune sauvage%2C pêche</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>214%09Aménagement paysager %28parcs%2C jardins%2C espaces verts %2E%2E%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>220%09Spécialités pluritechnologiques des transformations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>221%09Agro-alimentaire%2C alimentation%2C cuisine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>222%09Transformations chimiques et apparentées %28y compris industrie pharmaceutique%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>223%09Métallurgie %28y compris sidérurgie%2C fonderie%2C non ferreux%2E%2E%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>224%09Matériaux de construction%2C verre%2C céramique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>225%09Plasturgie%2C matériaux composites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>226%09Papier%2C carton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>227%09Energie%2C génie climatique %28y compris énergie nucléaire%2C thermique%2C hydraulique %3B utilités %3A froid%2C climatisation%2C chauffage%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230%09Spécialités pluritechnologiques%2C génie civil%2C construction%2C bois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>231%09Mines et carrières%2C génie civil%2C topographie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>232%09Bâtiment %3A construction et couverture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>233%09Bâtiment %3A finitions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>234%09Travail du bois et de l%27ameublement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>240%09Spécialités pluritechnologiques matériaux souples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>241%09Textile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>242%09Habillement %28y compris mode%2C couture%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>243%09Cuirs et peaux</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250%09Spécialités pluritechnologiques mécanique-électricité %28y compris maintenance mécano-électrique%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>251%09Mécanique générale et de précision%2C usinage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>252%09Moteurs et mécanique auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>253%09Mécanique aéronautique et spatiale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>254%09Structures métalliques %28y compris soudure%2C carrosserie%2C coque bateau%2C cellule avion%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>255%09Electricité%2C électronique %28non compris automatismes%2C productique%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300%09Spécialités plurivalentes des services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>310%09Spécialités plurivalentes des échanges et de la gestion %28y compris administration générale des entreprises et des collectivités%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>311%09Transports%2C manutention%2C magasinage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>312%09Commerce%2C vente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>313%09Finances%2C banque%2C assurances</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>314%09Comptabilité%2C gestion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>315%09Ressources humaines%2C gestion du personnel%2C gestion de l%27emploi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>320%09Spécialités plurivalentes de la communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>321%09Journalisme%2C communication %28y compris communication graphique et publicité%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>322%09Techniques de l%27imprimerie et de l%27édition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>323%09Techniques de l%27image et du son%2C métiers connexes du spectacle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>324%09Secrétariat%2C bureautique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>325%09Documentation%2C bibliothèques%2C administration des données</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>326%09Informatique%2C traitement de l%27information%2C réseaux de transmission des données</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>330%09Spécialités plurivalentes sanitaires et sociales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>331%09Santé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>332%09Travail social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>333%09Enseignement%2C formation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>334%09Accueil%2C hôtellerie%2C tourisme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>335%09Animation culturelle%2C sportive et de loisirs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>336%09Coiffure%2C esthétique et autres spécialités des services aux personnes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>341%09Aménagement du territoire%2C développement%2C urbanisme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>342%09Protection et développement du patrimoine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>343%09Nettoyage%2C assainissement%2C protection de l%27environnement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>344%09Sécurité des biens et des personnes%2C police%2C surveillance %28y compris hygiène et sécurité%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>345%09Application des droits et statut des personnes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>346%09Spécialités militaires</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>410%09Spécialités concernant plusieurs capacités</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>411%09Pratiques sportives %28y compris %3A arts martiaux%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>412%09Développement des capacités mentales et apprentissages de base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>413%09Développement des capacités comportementales et relationnelles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>414%09Développement des capacités individuelles d%27organisation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>415%09Développement des capacités d%27orientation%2C d%27insertion ou de réinsertion sociales et professionnelles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>421%09Jeux et activités spécifiques de loisirs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>422%09Economie et activités domestiques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>423%09Vie familiale%2C vie sociale et autres formations au développement personnel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Program_category__c</picklist>
+        <values>
+            <fullName>Certifying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Graduating</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Type_of_diploma__c</picklist>
+        <values>
+            <fullName>Double</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triple</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Academic_Level__c</picklist>
+        <values>
+            <fullName>Adult Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doctoral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Graduate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middle School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Baccalaureate Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-K%2FPreschool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undergraduate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Field_Of_Study__c</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Architecture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business%2C Management%2C and Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer and Information Sciences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>English Language%2C Literature%2C and Letters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family and Consumer Sciences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign Languages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Studies and Humanities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Professions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Professions and Studies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mathematics and Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural Resources and Conservation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Philosophy and Religious Studies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical Sciences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Sciences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visual and Performing Arts</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

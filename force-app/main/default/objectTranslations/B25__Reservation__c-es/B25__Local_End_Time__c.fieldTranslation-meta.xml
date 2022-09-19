@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La hora de fin local en formato de 24 horas. Este campo solo está hecho para salidas, y no para entradas.</help>
+    <label></label>
+    <name>B25__Local_End_Time__c</name>
+</CustomFieldTranslation>

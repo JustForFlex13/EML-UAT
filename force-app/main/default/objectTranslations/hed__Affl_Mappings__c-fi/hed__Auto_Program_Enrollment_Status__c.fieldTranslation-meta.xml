@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tila, joka asetetaan automaattisesti ohjelmaan ilmoittautumistietueeseen, jos automaattinen ohjelmiin ilmoittautuminen on valittu.</help>
+    <label></label>
+    <name>hed__Auto_Program_Enrollment_Status__c</name>
+</CustomFieldTranslation>

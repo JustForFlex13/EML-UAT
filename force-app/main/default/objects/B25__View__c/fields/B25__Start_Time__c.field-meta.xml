@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Start_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The time of day when the view starts. Overrides the two ‘Hide Times’ checkboxes.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>L’heure de la journée à laquelle la vue commence. Remplace les deux cases à cocher « Masquer les heures ».</inlineHelpText>
+    <label>Start Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Time</type>
+</CustomField>

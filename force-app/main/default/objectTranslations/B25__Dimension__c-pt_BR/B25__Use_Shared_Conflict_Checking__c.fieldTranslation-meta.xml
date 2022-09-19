@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando habilitado (recomendado), todos os campos e junções nesta dimensão entrarão em conflito uns com os outros. Quando desativados, eles apenas entram em conflito consigo mesmos.</help>
+    <label></label>
+    <name>B25__Use_Shared_Conflict_Checking__c</name>
+</CustomFieldTranslation>

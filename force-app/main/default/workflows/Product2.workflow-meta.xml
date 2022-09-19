@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Salesforce_Cr_ation_ou_modification_d_un_Produit</fullName>
+        <description>Salesforce - Création ou modification d&apos;un Produit</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>bechaa@em-lyon.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Mod_le_EML/Salesforce_Nouveau_Produit_Cr_ou_Modifi</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Unicit</fullName>
+        <field>produit_unique__c</field>
+        <formula>ProductCode</formula>
+        <name>Unicité</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Send Alert Product Created or Modified</fullName>
+        <actions>
+            <name>Salesforce_Cr_ation_ou_modification_d_un_Produit</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Product2.Family</field>
+            <operation>equals</operation>
+            <value>OFFRES EXEC DEV Programmes Certifiants</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Product2.Family</field>
+            <operation>equals</operation>
+            <value>OFFRES EXEC DEV Programmes Certifiants CASA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Product2.Family</field>
+            <operation>equals</operation>
+            <value>OFFRES EXEC DEV Programmes courts</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Product2.Family</field>
+            <operation>equals</operation>
+            <value>OFFRES EXEC DEV Programmes longs</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Product2.Family</field>
+            <operation>equals</operation>
+            <value>OFFRES EXEC DEV Programmes longs CASA</value>
+        </criteriaItems>
+        <description>Envoie une alerte mail au responsable de catalogue Executive lorsqu&apos;un produit est créé ou modifié</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unicité</fullName>
+        <actions>
+            <name>Unicit</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>rempli le champ produit unique</description>
+        <formula>TRUE</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

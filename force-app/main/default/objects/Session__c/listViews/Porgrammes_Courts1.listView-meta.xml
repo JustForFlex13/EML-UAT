@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Porgrammes_Courts1</fullName>
+    <columns>S_6_avant_d_but__c</columns>
+    <columns>Produits__c</columns>
+    <columns>NAME</columns>
+    <columns>Code_agresso_for__c</columns>
+    <columns>Code_Agresso_Session_formation__c</columns>
+    <columns>Date_de_debut_de_session__c</columns>
+    <columns>Date_de_fin_de_session__c</columns>
+    <columns>Exercice_fiscale__c</columns>
+    <columns>Ne_pas_afficher_sur_le_site_EML__c</columns>
+    <columns>Mode_apprentissage__c</columns>
+    <columns>Lieu_ls__c</columns>
+    <columns>Statut__c</columns>
+    <columns>Lieu__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>Intervenant__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Code_agresso_for__c</field>
+        <operation>contains</operation>
+        <value>tdo</value>
+    </filters>
+    <label>Certificat - Sessions TDO</label>
+</ListView>

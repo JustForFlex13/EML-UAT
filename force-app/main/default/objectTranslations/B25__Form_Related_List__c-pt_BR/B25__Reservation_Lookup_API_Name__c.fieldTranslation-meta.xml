@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O nome de API da procura desde o filho à Reserva. Este valor será definido automaticamente, não havendo necessidade de o definir manualmente.</help>
+    <label></label>
+    <name>B25__Reservation_Lookup_API_Name__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Dauer des Anzeigers in der Seitenleiste, der die Tageszeit im Einzelsatzkalender enthält. Werte sollten zwischen 1 und 60 liegen und ohne Erinnerung durch 60 teilbar sein.</help>
+    <label></label>
+    <name>B25__Time_Header_Duration__c</name>
+</CustomFieldTranslation>

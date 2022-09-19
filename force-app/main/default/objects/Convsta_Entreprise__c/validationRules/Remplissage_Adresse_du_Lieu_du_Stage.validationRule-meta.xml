@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remplissage_Adresse_du_Lieu_du_Stage</fullName>
+    <active>true</active>
+    <description>Si l&apos;adresse du lieu du stage est différente de celle du siège de l&apos;entreprise, alors l&apos;étudiant est dans l&apos;obligation de renseigner cette adresse.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+Mon_stage_se_deroule_a_une_autre_adresse__c &amp;&amp;
+OR (ISBLANK( Convsta_Adresse_du_lieu_du_stage__c) ,
+ISBLANK( Convsta_Code_postal_du_lieu_du_stage__c ),
+ISBLANK( Convsta_Ville_du_lieu_du_stage__c ),
+ISPICKVAL( Pays2__c, &quot;&quot; ))</errorConditionFormula>
+    <errorDisplayField>Mon_stage_se_deroule_a_une_autre_adresse__c</errorDisplayField>
+    <errorMessage>Merci de renseigner l&apos;adresse du lieu de votre stage.</errorMessage>
+</ValidationRule>

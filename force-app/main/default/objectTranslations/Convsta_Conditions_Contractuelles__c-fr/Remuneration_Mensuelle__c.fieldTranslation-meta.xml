@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Rémumération mensuelle de l&apos;étudiant dans le cadre de son expérience professionnelle</help>
+    <label>Rémunération</label>
+    <name>Remuneration_Mensuelle__c</name>
+</CustomFieldTranslation>

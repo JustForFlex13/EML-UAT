@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando um Recurso está inativo, ele e os seus filhos não podem ser reservados.</help>
+    <label></label>
+    <name>B25__Is_Active__c</name>
+</CustomFieldTranslation>

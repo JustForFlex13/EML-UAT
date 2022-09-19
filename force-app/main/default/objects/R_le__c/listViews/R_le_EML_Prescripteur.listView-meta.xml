@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>R_le_EML_Prescripteur</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Categorie_role__c</columns>
+    <columns>Liste_r_le__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Categorie_role__c</field>
+        <operation>contains</operation>
+        <value>EML</value>
+    </filters>
+    <filters>
+        <field>Liste_r_le__c</field>
+        <operation>equals</operation>
+        <value>Prescripteur</value>
+    </filters>
+    <label>Rôle EML : Prescripteur</label>
+    <language>fr</language>
+    <sharedTo>
+        <role>EML</role>
+        <role>EML_Alumni_Track</role>
+        <role>EML_Autres_Programmes_Longs</role>
+        <role>EML_Coordinateur_Intra</role>
+        <role>EML_EXEC_Masters</role>
+        <role>EML_Gestion_Marketing</role>
+        <role>EML_Lecture_seule</role>
+        <role>EML_Programme_MBA</role>
+        <role>EML_Programmes_Courts</role>
+        <role>EML_Programmes_Intra</role>
+        <role>EML_VAE</role>
+    </sharedTo>
+</ListView>

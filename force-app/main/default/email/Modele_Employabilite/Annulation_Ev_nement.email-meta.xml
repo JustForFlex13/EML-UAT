@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CC Rappel des frais en cas d&apos;annulation à la participation d&apos;un événement</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x200</letterhead>
+    <name>CC Annulation Evénement</name>
+    <style>freeForm</style>
+    <subject>Emlyon business school : Votre annulation de participation  à l&apos;événement {!Opportunity.Name}</subject>
+    <textOnly>Bonjour,
+ 
+Nous avons pris en compte votre annulation au {!OpportunityLineItem.Type_produit__c}.
+ 
+Nous vous rappelons que toute annulation de la réservation par l&apos;entreprise exposante ou non présentation lors de l&apos;événement et / ou avant l&apos;événement, emlyon business school s&apos;autorise à facturer un montant correspondant à :
+ 
+J-60 : 30% de la prestation
+J-30 : 50% de la prestation
+J-15 : 90% de la prestation
+ 
+Vous retrouverez ces conditions d’annulation dans le formulaire d’inscription.
+ 
+Cordialement,
+
+
+
+23, avenue Guy de Collongue
+CS 40203 69134 Ecully Cedex France
+ 
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

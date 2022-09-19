@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nb_SIP_en_cours__c</fullName>
+    <description>Indique le nombre total d&apos;opportunités qualifiées (pour l&apos;exercice en cours) pour le contact central de cette opportunité.
+Il comptabilise les opportunités de type : Prospect qualifié;Prospect probable;Prospect chaud;Intérêt Supplémentaire</description>
+    <externalId>false</externalId>
+    <label>Nombre d&apos;opportunités Conseiller</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

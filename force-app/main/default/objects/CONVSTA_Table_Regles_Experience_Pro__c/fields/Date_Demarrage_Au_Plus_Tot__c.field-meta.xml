@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Demarrage_Au_Plus_Tot__c</fullName>
+    <description>La date au plus tôt à laquelle l&apos;étudiant a le droit de commencer son stage</description>
+    <externalId>false</externalId>
+    <label>Date De Démarrage Au Plus Tôt</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

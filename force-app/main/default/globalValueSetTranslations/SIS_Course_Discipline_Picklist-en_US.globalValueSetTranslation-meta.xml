@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Achats, Marketing B to B</masterLabel>
+        <translation>Purchasing, B to B marketing</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Actuariat</masterLabel>
+        <translation>Actuarial science</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Commerce international</masterLabel>
+        <translation>International business</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Communication</masterLabel>
+        <translation>Communication</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Comportement des organisations</masterLabel>
+        <translation>Organizational behavior</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Comptabilité, audit externe</masterLabel>
+        <translation>Accounting, external audit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Conseil</masterLabel>
+        <translation>Consulting</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contrôle de gestion, audit interne</masterLabel>
+        <translation>Management accounting, internal audit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cybersécurité</masterLabel>
+        <translation>Cybersecurity</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Data science</masterLabel>
+        <translation>Data science and analytics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Droit des sociétés</masterLabel>
+        <translation>Corporate law</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Droit social, Droit du travail</masterLabel>
+        <translation>Social law, Labor law</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Développement personnel et leadership</masterLabel>
+        <translation>Self-development and leadership</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>E-business et e-commerce</masterLabel>
+        <translation>E-business &amp; E-commerce</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Economie internationale</masterLabel>
+        <translation>International economics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Economie sociale et solidaire</masterLabel>
+        <translation>Social &amp; solidarity economy</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Entrepreneuriat</masterLabel>
+        <translation>Entrepreneurship</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Entrepreneuriat social</masterLabel>
+        <translation>Social entrepreneurship</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ethique</masterLabel>
+        <translation>Ethics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance de marché</masterLabel>
+        <translation>Quantitative finance</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finance entrepreneuriale</masterLabel>
+        <translation>Entrepreneurship finance</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Financements structurés</masterLabel>
+        <translation>Structured finance</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fiscalité</masterLabel>
+        <translation>Taxation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fonds d’investissement et capital-risque</masterLabel>
+        <translation>Investment funds and venture capital</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fusions et acquisitions</masterLabel>
+        <translation>Mergers and acquisitions</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion de crise</masterLabel>
+        <translation>Crisis management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion de l&apos;Hôtellerie, restauration, tourisme</masterLabel>
+        <translation>Tourism and hospitality management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion de l&apos;industrie du sport</masterLabel>
+        <translation>Sports management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion des Ressources humaines</masterLabel>
+        <translation>HR management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion des Services de santé</masterLabel>
+        <translation>Health service management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion des opérations</masterLabel>
+        <translation>Operations management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion des organisations</masterLabel>
+        <translation>Organizations management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion des prestations d&apos;assurance</masterLabel>
+        <translation>Insurance management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion des risques</masterLabel>
+        <translation>Risk Management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion des ventes et des équipes commerciales</masterLabel>
+        <translation>Sales and sales teams management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion des énergies</masterLabel>
+        <translation>Energy management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion des établissements culturels</masterLabel>
+        <translation>Arts administration</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gestion du secteur public</masterLabel>
+        <translation>Public administration management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gouvernance d&apos;entreprise</masterLabel>
+        <translation>Corporate governance</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Géopolitique</masterLabel>
+        <translation>Geopolitics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Intelligence artificielle</masterLabel>
+        <translation>Artificial intelligence</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Intrapreneuriat</masterLabel>
+        <translation>Intrapreneurship</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Macro économie</masterLabel>
+        <translation>Macroeconomics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Management de l’innovation</masterLabel>
+        <translation>Innovation management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Management des réseaux sociaux</masterLabel>
+        <translation>Community management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Management des systèmes d’informations</masterLabel>
+        <translation>IT Management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Management du changement</masterLabel>
+        <translation>Change management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marketing B to C</masterLabel>
+        <translation>B to C marketing</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marketing Digital</masterLabel>
+        <translation>Digital marketing</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marketing stratégique</masterLabel>
+        <translation>Strategic marketing</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mathématiques et statistiques</masterLabel>
+        <translation>Mathematics and statistics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Micro économie</masterLabel>
+        <translation>Microeconomics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Méthodes quantitatives</masterLabel>
+        <translation>Quantative methods</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Propriété intellectuelle</masterLabel>
+        <translation>Intellectual property</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualité</masterLabel>
+        <translation>Quality Management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RSE</masterLabel>
+        <translation>CSR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sociologie, philosophie</masterLabel>
+        <translation>Sociology, philosophy</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Stratégie</masterLabel>
+        <translation>Strategy</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Supply chain</masterLabel>
+        <translation>Supply chain</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Techniques de négociation</masterLabel>
+        <translation>Negotiation and dealing techniques</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trésorerie d’entreprise</masterLabel>
+        <translation>Corporate treasury management</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

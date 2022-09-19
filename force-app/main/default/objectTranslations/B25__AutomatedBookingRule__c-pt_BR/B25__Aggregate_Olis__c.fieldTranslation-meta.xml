@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se isto for selecionado, todos os itens da linha de oportunidade contíguos para este produto serão tratados em conjunto de modo a ocuparem os mesmos recursos.</help>
+    <label></label>
+    <name>B25__Aggregate_Olis__c</name>
+</CustomFieldTranslation>

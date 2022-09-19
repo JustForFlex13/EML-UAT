@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_produit__c</fullName>
+    <description>Champ permettant de stocker le type d&apos;enregistrement du produit. Il est nécessaire de la stocker pour des raisons techniques : pour les parcours un roll-up sur l&apos;opportunité permet de savoir si on est dans le cas d&apos;un parcours.</description>
+    <externalId>false</externalId>
+    <label>Type produit</label>
+    <length>80</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

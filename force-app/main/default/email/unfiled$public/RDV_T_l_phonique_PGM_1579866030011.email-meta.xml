@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Premier mail - INTERESSES PAR</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>RDV Téléphonique PGM</name>
+    <style>none</style>
+    <subject>Votre intérêt pour l&apos;Executive Master Management Général | emlyon business school</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

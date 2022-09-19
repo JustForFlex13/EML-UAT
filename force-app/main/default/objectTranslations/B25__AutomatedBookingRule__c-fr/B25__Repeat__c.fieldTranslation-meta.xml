@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Détermine la fréquence à laquelle l’ABR se répète.</help>
+    <label></label>
+    <name>B25__Repeat__c</name>
+    <picklistValues>
+        <masterLabel>Daily</masterLabel>
+        <translation>Quotidiennement</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Once</masterLabel>
+        <translation>Une fois</translation>
+    </picklistValues>
+</CustomFieldTranslation>

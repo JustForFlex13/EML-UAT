@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Display_In_User_Timezone__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When enabled, display reservations in the user&apos;s timezone instead of the local timezone. Only enable this if you understand the consequences.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est activée, les réservations s’affichent dans le fuseau horaire de l’utilisateur au lieu du fuseau horaire local. N’activez cette option que si vous en comprenez les conséquences.</inlineHelpText>
+    <label>Display In User Timezone</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

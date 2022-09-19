@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wanneer deze leeg is, trigger één keer voor de verkoopkans. Wanneer deze is gevuld, trigger voor elke verkoopkansregel voor de gekozen producten.</help>
+    <label></label>
+    <name>B25__Product__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

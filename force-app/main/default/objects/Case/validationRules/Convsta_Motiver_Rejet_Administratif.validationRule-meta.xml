@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Motiver_Rejet_Administratif</fullName>
+    <active>true</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+(Text(Convsta_Verdict_Administratif__c)  = &quot;Demande Rejetée&quot; || 
+	Text(Convsta_Verdict_Administratif__c)  = &quot;Précisions Nécessaires&quot;)&amp;&amp;   ISBLANK(Explications_administratives__c)</errorConditionFormula>
+    <errorDisplayField>Explications_administratives__c</errorDisplayField>
+    <errorMessage>Veuillez inclure la précision que l&apos;étudiant doit fournir. Il la recevra automatiquement par email.</errorMessage>
+</ValidationRule>

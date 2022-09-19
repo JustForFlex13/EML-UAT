@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nombre_de_produits__c</fullName>
+    <description>Permet de savoir si l&apos;opportunité possède un produit (sert pour règle de validation sur opportunité)</description>
+    <externalId>false</externalId>
+    <label>Nombre de produits</label>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

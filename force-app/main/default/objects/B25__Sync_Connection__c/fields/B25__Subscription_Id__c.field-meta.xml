@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Subscription_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Id of the live subscription for this connection.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Identifiant de l’abonnement en direct pour cette connexion.</inlineHelpText>
+    <label>Subscription Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

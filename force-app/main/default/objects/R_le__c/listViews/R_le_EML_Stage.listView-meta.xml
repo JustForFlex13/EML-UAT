@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>R_le_EML_Stage</fullName>
+    <columns>NAME</columns>
+    <columns>Categorie_role__c</columns>
+    <columns>convsta_suiveur__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Liste_r_le__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Categorie_role__c</field>
+        <operation>equals</operation>
+        <value>Stages</value>
+    </filters>
+    <label>Rôle EML : Stage</label>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Conseil : Demandez qui va recevoir et signer la convention. ex: le responsable légal peut être le Directeur Général mais c&apos;est dans les faits son assistante qui signera la convention.C&apos;est donc effectivement le mail de l&apos;assistante qu&apos;il faudra renseigner</help>
+    <label>Email du Tuteur / Manager Entreprise</label>
+    <name>Email_Tuteur_Entreprise__c</name>
+</CustomFieldTranslation>

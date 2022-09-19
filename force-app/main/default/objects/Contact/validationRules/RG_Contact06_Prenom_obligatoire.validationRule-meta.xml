@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Contact06_Prenom_obligatoire</fullName>
+    <active>true</active>
+    <description>Permet d&apos;afficher un message d&apos;erreur lorsque le prénom n&apos;est pas référencé.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+ISBLANK( FirstName )
+)</errorConditionFormula>
+    <errorDisplayField>FirstName</errorDisplayField>
+    <errorMessage>Le champ Prénom est obligatoire</errorMessage>
+</ValidationRule>

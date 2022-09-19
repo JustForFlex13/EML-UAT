@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Contrôle les plages horaires à masquer sur le calendrier.</help>
+    <label></label>
+    <name>B25__Column_Hiding_Behavior__c</name>
+    <picklistValues>
+        <masterLabel>Don’t hide anything</masterLabel>
+        <translation>Ne rien masquer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide all times without reservations</masterLabel>
+        <translation>Masquer toutes les heures sans réservation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide closed times</masterLabel>
+        <translation>Masquer les heures de fermeture</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide closed times without reservations</masterLabel>
+        <translation>Masquer les heures de fermeture sans réservation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide times outside of start/end</masterLabel>
+        <translation>Masquer les heures en dehors du début/de la fin</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide times outside of start/end, without reservations</masterLabel>
+        <translation>Masquer les heures en dehors du début/de la fin, sans réservation</translation>
+    </picklistValues>
+</CustomFieldTranslation>

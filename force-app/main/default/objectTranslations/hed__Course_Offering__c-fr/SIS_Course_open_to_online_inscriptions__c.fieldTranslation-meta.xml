@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Ouvert aux inscriptions en ligne</label>
+    <name>SIS_Course_open_to_online_inscriptions__c</name>
+</CustomFieldTranslation>

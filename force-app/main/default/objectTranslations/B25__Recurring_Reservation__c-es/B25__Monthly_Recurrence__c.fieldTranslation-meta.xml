@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>B25__Monthly_Recurrence__c</name>
+    <picklistValues>
+        <masterLabel>Every 1st</masterLabel>
+        <translation>Cada 1.º de mes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every 2nd</masterLabel>
+        <translation>Cada 2.º día del mes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every 3rd</masterLabel>
+        <translation>Cada 3er día del mes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every 4th</masterLabel>
+        <translation>Cada 4.º día del mes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every 5th</masterLabel>
+        <translation>Cada 5.º día del mes</translation>
+    </picklistValues>
+</CustomFieldTranslation>

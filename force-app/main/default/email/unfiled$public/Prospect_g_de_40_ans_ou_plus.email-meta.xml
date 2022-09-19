@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mail envoyé par processus automatique lorsque l&apos;on détecte un prospect dont l&apos;âge est supérieur ou égal à 40 ans. Ceci afin de réorienter rapidement le prospect par téléphone.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Prospect âgé de 40 ans ou plus</name>
+    <style>none</style>
+    <subject>[Alerte Mail Salesforce] - Contact âgé de 40 ans ou plus</subject>
+    <textOnly>Bonjour,
+
+Le contact suivant {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName} a été détecté comme étant âgé de 40 ans ou plus.
+
+Merci de conduire les actions nécessaires à sa réorientation.
+
+Cordialement,
+Votre Administrateur Salesforce</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

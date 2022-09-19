@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El formato del intervalo de tiempo en la parte superior del calendario, en el siguiente formulario: inicio {&lt;format tokens&gt;} fin{&lt;format tokens&gt;}.
+Los formatos de token pueden encontrarse en: https://momentjs.com/docs/#/displaying/format/.</help>
+    <label></label>
+    <name>B25__Time_Range_Format__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Icon__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The icon that will be displayed for all Resources of this specific Resource Type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>L’icône qui sera affichée pour toutes les ressources de ce type de ressource spécifique.</inlineHelpText>
+    <label>Icon</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

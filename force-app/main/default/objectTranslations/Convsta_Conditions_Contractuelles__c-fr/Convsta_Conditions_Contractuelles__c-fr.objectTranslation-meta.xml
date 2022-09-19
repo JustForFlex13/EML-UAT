@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Conditions Contractuelles</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Conditions Contractuelles</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Conditions contractuelles Back Office</layout>
+        <sections>
+            <label></label>
+            <section>Conditions matérielles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Conditions particulières</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Moyen d&apos;obtention</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Conditions contractuelles Front Office</layout>
+        <sections>
+            <label></label>
+            <section>Conditions matérielles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Conditions particulières</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Moyen d&apos;obtention</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Bornage_champ_remuneration</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Date_Debut_Avant_Date_Fin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Votre expérience professionnelle ne peut pas débuter après la date butoir prévue par votre programme.</errorMessage>
+        <name>Date_de_Debut_Maximum</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Votre expérience professionnelle ne peut pas débuter avant la date prévue par votre programme.</errorMessage>
+        <name>Date_de_Debut_Minimum</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Date_de_Fin_Butoire</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Votre expérience professionnelle doit se terminer avant la date prévue de jury de votre diplôme.</errorMessage>
+        <name>Date_de_Jury_Diplome</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Duree_Maximum</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Duree_Minimum</name>
+    </validationRules>
+</CustomObjectTranslation>

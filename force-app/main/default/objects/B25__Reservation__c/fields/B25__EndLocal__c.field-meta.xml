@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__EndLocal__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The end time in the Resource&apos;s local timezone.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>L’heure de fin dans le fuseau horaire local de la ressource.</inlineHelpText>
+    <label>End (local time)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

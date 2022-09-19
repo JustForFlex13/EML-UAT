@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La forme plurielle du nom. Si le champ est laissé vide, un « s » sera ajouté au nom pour obtenir le pluriel.</help>
+    <label></label>
+    <name>B25__Plural__c</name>
+</CustomFieldTranslation>

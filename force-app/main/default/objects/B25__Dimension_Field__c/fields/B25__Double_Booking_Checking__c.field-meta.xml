@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Double_Booking_Checking__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines what happens if a double booking is detected. None: allow it. Hard: don&apos;t allow it. Soft:
+		allow it, but create a conflict record between the two conflicting reservations.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Définit ce qui se passe si une double réservation est détectée. Rien : l’autoriser. Strict : ne pas l’autoriser. Souple : l’autoriser, mais créer un enregistrement de conflit entre les deux réservations conflictuelles.</inlineHelpText>
+    <label>Double Booking Checking</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>B25__Conflict_Checking</valueSetName>
+    </valueSet>
+</CustomField>

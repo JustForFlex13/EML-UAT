@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>R_le__c</fullName>
+    <externalId>false</externalId>
+    <label>Rôle</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Association étudiant</fullName>
+                <default>false</default>
+                <label>Association étudiant</label>
+            </value>
+            <value>
+                <fullName>Délégué de promo</fullName>
+                <default>false</default>
+                <label>Délégué de promo</label>
+            </value>
+            <value>
+                <fullName>Correspondant</fullName>
+                <default>false</default>
+                <label>Correspondant</label>
+            </value>
+            <value>
+                <fullName>Président club</fullName>
+                <default>false</default>
+                <label>Président club</label>
+            </value>
+            <value>
+                <fullName>Administrateur ADEM</fullName>
+                <default>false</default>
+                <label>Administrateur ADEM</label>
+            </value>
+            <value>
+                <fullName>Intervenant témoin</fullName>
+                <default>false</default>
+                <label>Intervenant témoin</label>
+            </value>
+            <value>
+                <fullName>Prestataire</fullName>
+                <default>false</default>
+                <label>Prestataire</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

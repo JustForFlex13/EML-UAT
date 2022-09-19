@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FI_Update_Luxury_Great_China</fullName>
+    <columns>Nom_Prenom__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Contact_Canal_d_acquisition__c</columns>
+    <columns>Date_de_Cr_ation_fiche_UI__c</columns>
+    <columns>OwnerId__c</columns>
+    <columns>Exercice__c</columns>
+    <columns>Formule_nb_oppo_total__c</columns>
+    <columns>Formule_nb_oppo_cours__c</columns>
+    <columns>Eligibilite__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Statut_Dossier_CANEL__c</columns>
+    <columns>Statut_Canel__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_Pays_de_R_sidence__c</field>
+        <operation>contains</operation>
+        <value>Chine,Taiwan,Hong-Kong</value>
+    </filters>
+    <filters>
+        <field>Exercice__c</field>
+        <operation>equals</operation>
+        <value>2018</value>
+    </filters>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+        <value>MMML</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Formation_initiale</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Intéressé par</value>
+    </filters>
+    <label>FI_Update Luxury Great China</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Vues_DPM</group>
+    </sharedTo>
+</ListView>

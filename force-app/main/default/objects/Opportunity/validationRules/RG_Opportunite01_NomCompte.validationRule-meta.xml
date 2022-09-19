@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Opportunite01_NomCompte</fullName>
+    <active>false</active>
+    <description>Permet de vérifier que le compte associé soit le même que le compte du contact associé.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+NOT(  ISNEW()  )
+&amp;&amp;
+( 
+Account.Id    &lt;&gt;    Contact_central__r.Account.Id
+)</errorConditionFormula>
+    <errorMessage>Le compte associé à l&apos;opportunité est différent du compte du contact associé.</errorMessage>
+</ValidationRule>

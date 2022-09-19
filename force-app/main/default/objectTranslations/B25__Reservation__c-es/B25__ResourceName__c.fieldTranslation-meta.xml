@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nombre del recurso y, si existen, los nombres del elemento primario y el elemento primario principal.</help>
+    <label></label>
+    <name>B25__ResourceName__c</name>
+</CustomFieldTranslation>

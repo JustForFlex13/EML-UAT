@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Uhrzeit des Tages, an dem die Ansicht startet. Hebt die zwei „Zeiten ausblenden“-Checkboxen auf.</help>
+    <label></label>
+    <name>B25__Start_Time__c</name>
+</CustomFieldTranslation>

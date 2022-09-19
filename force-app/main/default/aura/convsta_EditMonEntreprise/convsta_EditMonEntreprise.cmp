@@ -1,0 +1,242 @@
+<aura:component implements="flexipage:availableForRecordHome,lightning:actionOverride,forceCommunity:availableForAllPageTypes" access="global">
+    <aura:attribute name="validExpRecord"           type="Convsta_Entreprise__c" />
+    <aura:attribute name="recordError"              type="String" />
+    <aura:attribute name="convstaEntrepriseId"      type="String" />
+    <aura:attribute name="stageEnFranceBool"        type="Boolean" />
+    <aura:attribute name="displayEntrepriseFrance"  type="Boolean" />
+    <aura:attribute name="displayStageDetails"      type="Boolean" />
+    <aura:attribute name="otherAdress"              type="String" />
+    <aura:attribute name="otherString"              type="String" />
+    <aura:attribute name="canEdit"                  type="Boolean" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:registerEvent name="entrepriseSaved" type="c:sireneSearchEvent"/>
+    
+    <div class="slds-media">
+        <div class="slds-media__body">
+            <aura:if isTrue="{!v.canEdit}">
+                <lightning:recordEditForm aura:id="editForm" recordId="{!v.convstaEntrepriseId}" objectApiName="Convsta_Entreprise__c" onsuccess="{!c.handleSuccess}" density="comfy">      
+                    <lightning:messages />
+                    <lightning:layout multipleRows="true" verticalAlign="center">
+                        <aura:if isTrue="{!v.stageEnFranceBool}" >
+                            <lightning:layoutItem size="5" class="slds-form-element_stacked">
+                                <lightning:inputField variant="stacked" fieldName="Nom_Entreprise__c" value="{!v.validExpRecord.Nom_Entreprise__c}" disabled="true" class="slds-form-element_stacked"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="false" fieldName="SIRET__c" value="{!v.validExpRecord.SIRET__c}" disabled="true"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="false" fieldName="Adresse_Entreprise__c" value="{!v.validExpRecord.Adresse_Entreprise__c}" disabled="true"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="false" fieldName="Ville__c" value="{!v.validExpRecord.Ville__c}" disabled="true"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="false" fieldName="Code_Postal__c" value="{!v.validExpRecord.Code_Postal__c}" disabled="true"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="false" fieldName="Pays2__c" value="FR" disabled="true"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="false" fieldName="Secteur_Activite__c" value="{!v.validExpRecord.Secteur_Activite__c}" disabled="true"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="false" fieldName="Tranche_effectif_etablissement__c" value="{!v.validExpRecord.Tranche_effectif_etablissement__c}" disabled="true"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="false" fieldName="code_NAF__c" value="{!v.validExpRecord.code_NAF__c}" disabled="true"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked"  required="true" fieldName="Telephone_Siege__c"/>
+                            </lightning:layoutItem> 
+                            <aura:set attribute="else">
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  required="true" fieldName="Nom_Entreprise__c" />
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="1"></lightning:layoutItem>
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  required="true" fieldName="Adresse_Entreprise__c" />
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  required="true" fieldName="Ville__c"/>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="1"></lightning:layoutItem>
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  required="true" fieldName="Code_Postal__c" />
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked" required="true" fieldName="Etat__c" />
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="1"></lightning:layoutItem>
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  required="true" fieldName="Pays2__c" />
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  required="true" fieldName="Secteur_Activite__c"/>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="1"></lightning:layoutItem>
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked" required="true" fieldName="Telephone_Siege__c"/>
+                                </lightning:layoutItem> 
+                                <lightning:layoutItem size="6" class="thick">
+                                    {!$Label.c.convsta_prefixeGuide}&nbsp; <a href="{!$Resource.convsta_guidePratique_etranger}" target="_blank"> {!$Label.c.convsta_guide_des_bonnes_pratiques} </a>
+                                </lightning:layoutItem>                                
+                                <lightning:layoutItem size="6">
+                                    <lightning:inputField variant="stacked"   aura:id="guideEtranger" required="true" fieldName="Guide_des_bonnes_pratiques__c"/>
+                                </lightning:layoutItem>                         
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  aura:id="assuranceEtranger" required="true" fieldName="Assurance_complementaire__c"/>
+                                </lightning:layoutItem> 
+                            </aura:set>
+                        </aura:if>
+                    </lightning:layout>
+                    <aura:if isTrue="{!v.displayStageDetails}"> 
+                        <!--Adresse du stage différente--> 
+                        <br/>
+                        <br/>
+                        <lightning:layout multipleRows="true">
+                            
+                                <lightning:layoutItem size="12">
+                                    <div class="slds-text-heading_small">{!$Label.c.convsta_stage_autre_adresse}</div>
+                                </lightning:layoutItem>
+                            <lightning:layoutItem size="12">
+                            <lightning:inputField variant="stacked" required="false" fieldName="Mon_stage_se_deroule_a_une_autre_adresse__c" onchange="{!c.onCheck}"/>
+                            </lightning:layoutItem>
+                        </lightning:layout>  
+                        <aura:if isTrue="{!v.otherString}">
+                            <lightning:layout multipleRows="true">
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  required="true" fieldName="Convsta_Adresse_du_lieu_du_stage__c"/>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="1"></lightning:layoutItem>
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  required="true"  fieldName="Convsta_Code_postal_du_lieu_du_stage__c"/>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  required="true"  fieldName="Convsta_Ville_du_lieu_du_stage__c"/>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="1"></lightning:layoutItem>
+                                <lightning:layoutItem size="5">
+                                    <lightning:inputField variant="stacked"  required="true"  fieldName="Convsta_Pays_du_lieu_de_ma_mission__c"/>
+                                </lightning:layoutItem>
+                            </lightning:layout>            
+                        </aura:if>                  
+                        <!-- signataire de la convention-->
+                        <br/>
+                        <br/>
+                        <lightning:layout multipleRows="true">
+                            <article class="slds-card" style="background-color:rgb(227, 38, 27);color:white ">
+                                <lightning:icon iconName="utility:info" variant="inverse"  title="{!$Label.c.Convsta_Texte_aide_3}" alternativeText="{!$Label.c.Convsta_Texte_aide_3}"/> &nbsp;{!$Label.c.Convsta_Texte_aide_3}&nbsp;
+                            </article>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked"  required="true" fieldName="Civilite_Signataire_Convention__c"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="7">
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked"  required="true" fieldName="Famille_Fonction__c" />
+                            </lightning:layoutItem> 
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="true" fieldName="Fonction_Signataire_Convention__c"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked"  required="true" fieldName="Nom_Signataire_Convention__c"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="true" fieldName="Prenom_Signataire_Convention__c"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked"  required="true" fieldName="Email_Signataire_Convention__c"/>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem size="1"></lightning:layoutItem>
+                            <lightning:layoutItem size="5">
+                                <lightning:inputField variant="stacked" required="true" fieldName="Telephone_Signataire_Convention__c"/>
+                            </lightning:layoutItem>
+                        </lightning:layout>
+                    </aura:if>
+                    <lightning:layout horizontalAlign="center" class="slds-m-top_large">
+                        <lightning:button variant="brand" label="{!$Label.c.convsta_enregistrer}" title="{!$Label.c.convsta_enregistrer}" type="submit"/>
+                    </lightning:layout>
+                </lightning:recordEditForm>
+                <aura:set attribute="else">
+                    <lightning:recordViewForm aura:id="viewForm" recordId="{!v.convstaEntrepriseId}" objectApiName="Convsta_Entreprise__c" density="comfy">      
+                        <div class="slds-grid full forcePageBlockSectionRow">
+                            <div class="slds-col slds-size_1-of-2">
+                                <lightning:outputfield  aura:id="stacked" fieldName="Nom_Entreprise__c" value="{!v.validExpRecord.Nom_Entreprise__c}" disabled="true"/>
+                                <lightning:outputField aura:id="stacked" variant="stacked"  required="false" fieldName="Adresse_Entreprise__c" value="{!v.validExpRecord.Adresse_Entreprise__c}" disabled="true"/>
+                                <lightning:outputField aura:id="stacked" required="false" fieldName="Code_Postal__c" value="{!v.validExpRecord.Code_Postal__c}" disabled="true"/>
+                                <lightning:outputField aura:id="stacked" required="false" fieldName="Secteur_Activite__c" value="{!v.validExpRecord.Secteur_Activite__c}" disabled="true"/>
+                                <lightning:outputField aura:id="stacked" required="false" fieldName="code_NAF__c" value="{!v.validExpRecord.code_NAF__c}" disabled="true"/>
+                            </div>
+                            <div class="slds-col slds-size_1-of-2">
+                                <lightning:outputField  aura:id="stacked"  required="false" fieldName="SIRET__c" value="{!v.validExpRecord.SIRET__c}" disabled="true"/>
+                                <lightning:outputField aura:id="stacked" variant="stacked"  required="false" fieldName="Ville__c" value="{!v.validExpRecord.Ville__c}" disabled="true"/>
+                                <lightning:outputField aura:id="stacked" required="false" fieldName="Pays2__c" value="FR" disabled="true"/>
+                                <lightning:outputField aura:id="stacked" required="true" fieldName="Etat__c" />
+                                <lightning:outputField aura:id="stacked" required="false" fieldName="Tranche_effectif_etablissement__c" value="{!v.validExpRecord.Tranche_effectif_etablissement__c}" disabled="true"/>
+                                <lightning:outputField aura:id="stacked" fieldName="Telephone_Siege__c"/>
+                            </div>
+                        </div>
+                        <aura:if isTrue="{!v.displayStageDetails}"> 
+                            <!--Adresse du stage différente--> 
+                            <lightning:layout multipleRows="true">
+                                <lightning:layoutItem size="12">
+                                    <div class="slds-text-heading">{!$Label.c.convsta_stage_autre_adresse}</div>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="6">
+                                    <lightning:outputField aura:id="stacked" required="false" fieldName="Mon_stage_se_deroule_a_une_autre_adresse__c" onchange="{!c.onCheck}"/>
+                                </lightning:layoutItem>
+                            </lightning:layout>  
+                            <aura:if isTrue="{!v.otherString}">
+                                <lightning:layout multipleRows="true">
+                                    <lightning:layoutItem size="6">
+                                        <lightning:outputField aura:id="stacked" required="false" fieldName="Convsta_Adresse_du_lieu_du_stage__c"/>
+                                    </lightning:layoutItem>
+                                    <lightning:layoutItem size="6">
+                                        <lightning:outputField aura:id="stacked" required="false" fieldName="Convsta_Code_postal_du_lieu_du_stage__c"/>
+                                    </lightning:layoutItem>
+                                    <lightning:layoutItem size="6">
+                                        <lightning:outputField aura:id="stacked" required="false" fieldName="Convsta_Ville_du_lieu_du_stage__c"/>
+                                    </lightning:layoutItem>
+                                </lightning:layout>            
+                            </aura:if>                  
+                            <!-- signataire de la convention-->
+                            <lightning:layout multipleRows="true">
+                                <lightning:layoutItem size="6">
+                                    <lightning:outputField aura:id="stacked" required="true" fieldName="Civilite_Signataire_Convention__c"/>
+                                </lightning:layoutItem> 
+                                <lightning:layoutItem size="6">
+                                    <lightning:outputField  aura:id="stacked" required="true" fieldName="Famille_Fonction__c"/>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="6">
+                                    <lightning:outputField aura:id="stacked" required="true" fieldName="Fonction_Signataire_Convention__c"/>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="6">
+                                    <lightning:outputField aura:id="stacked" required="true" fieldName="Nom_Signataire_Convention__c"/>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="6">
+                                    <lightning:outputField aura:id="stacked" required="true" fieldName="Prenom_Signataire_Convention__c"/>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="6">
+                                    <lightning:outputField aura:id="stacked" required="true" fieldName="Email_Signataire_Convention__c"/>
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="6">
+                                    <lightning:outputField aura:id="stacked" required="true" fieldName="Telephone_Signataire_Convention__c"/>
+                                </lightning:layoutItem>
+                            </lightning:layout>
+                        </aura:if>
+                    </lightning:recordViewForm>
+                </aura:set>
+            </aura:if>
+        </div>
+    </div>
+</aura:component>

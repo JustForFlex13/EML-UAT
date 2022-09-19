@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_De_Demarrage_Au_Plus_Tard__c</fullName>
+    <description>La date butoire à laquelle l&apos;étudiant doit commencer son expérience professionnelle.</description>
+    <externalId>false</externalId>
+    <label>Date De Démarrage Au Plus Tard</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Deaktiviert das Laden der Verfügbarkeiten in der Ansicht Wenn die Org. eine hohe Anzahl an Verfügbarkeiten ladende Quellen hat, kann das Laden dieser in längeren Ansichten länger dauern. Die Öffnungszeiten werden beim Speichern geprüft, aber in der Kalenderansicht nicht angezeigt.</help>
+    <label></label>
+    <name>B25__Hide_Availabilities__c</name>
+</CustomFieldTranslation>

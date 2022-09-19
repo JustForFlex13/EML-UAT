@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Liste_r_le__c</fullName>
+    <externalId>false</externalId>
+    <label>Liste rôle</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Cat_gorie_r_le__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Membre de l&apos;AG AESCRA</fullName>
+                <default>false</default>
+                <label>Membre de l&apos;AG AESCRA</label>
+            </value>
+            <value>
+                <fullName>Membre  du CA de l&apos;AESCRA</fullName>
+                <default>false</default>
+                <label>Membre  du CA de l&apos;AESCRA</label>
+            </value>
+            <value>
+                <fullName>membre conseil d&apos;administration Alliance</fullName>
+                <default>false</default>
+                <label>membre conseil d&apos;administration Alliance</label>
+            </value>
+            <value>
+                <fullName>Membre Comex Fondation</fullName>
+                <default>false</default>
+                <label>Membre Comex Fondation</label>
+            </value>
+            <value>
+                <fullName>Réseaux d&apos;accompagement créateurs d&apos;Eses</fullName>
+                <default>false</default>
+                <label>Réseaux d&apos;accompagement créateurs d&apos;Eses</label>
+            </value>
+            <value>
+                <fullName>Membre Conseil Surveillance CDME</fullName>
+                <default>false</default>
+                <label>Membre Conseil Surveillance CDME</label>
+            </value>
+            <value>
+                <fullName>Membre Associés CCI</fullName>
+                <default>false</default>
+                <label>Membre Associés CCI</label>
+            </value>
+            <value>
+                <fullName>Membre Bureau Elus CCI</fullName>
+                <default>false</default>
+                <label>Membre Bureau Elus CCI</label>
+            </value>
+            <value>
+                <fullName>Membre Elus CCI</fullName>
+                <default>false</default>
+                <label>Membre Elus CCI</label>
+            </value>
+            <value>
+                <fullName>Membre Commision Enseignement CCI</fullName>
+                <default>false</default>
+                <label>Membre Commision Enseignement CCI</label>
+            </value>
+            <value>
+                <fullName>Membre PRES</fullName>
+                <default>false</default>
+                <label>Membre PRES</label>
+            </value>
+            <value>
+                <fullName>Membres CA ADEM LYON</fullName>
+                <default>false</default>
+                <label>Membres CA ADEM LYON</label>
+            </value>
+            <value>
+                <fullName>Dirigeant du CAC 40</fullName>
+                <default>false</default>
+                <label>Dirigeant du CAC 40</label>
+            </value>
+            <value>
+                <fullName>Dirigeant créateur</fullName>
+                <default>false</default>
+                <label>Dirigeant créateur</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Membre de l&apos;AG AESCRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Membre  du CA de l&apos;AESCRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>membre conseil d&apos;administration Alliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Membre Comex Fondation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Réseaux d&apos;accompagement créateurs d&apos;Eses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Membre Conseil Surveillance CDME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Membre Associés CCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Membre Bureau Elus CCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Membre Elus CCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Membre Commision Enseignement CCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Membre PRES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction, institutions ou associations apparentées à EMLYON</controllingFieldValue>
+            <valueName>Membres CA ADEM LYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirigeants Entreprises</controllingFieldValue>
+            <valueName>Dirigeant du CAC 40</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dirigeants Entreprises</controllingFieldValue>
+            <valueName>Dirigeant créateur</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

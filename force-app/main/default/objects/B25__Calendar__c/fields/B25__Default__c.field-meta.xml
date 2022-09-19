@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Default__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When multiple Single Record Calendars exist for a single Dimension the Calendar with this checkbox wil be used if the Single Record Calendar is loaded with just a Resource id.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque plusieurs calendriers à enregistrement unique existent pour une seule dimension, le calendrier avec cette case à cocher sera utilisé si le calendrier à enregistrement unique est chargé avec un seul identifiant de ressource.</inlineHelpText>
+    <label>Default</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

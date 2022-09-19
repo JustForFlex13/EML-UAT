@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Resource__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>When filled in, the Timeframe will appear only for the chosen Resource and its children.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque ce champ est rempli, la période n’apparaîtra que pour la ressource choisie et ses enfants.</inlineHelpText>
+    <label>Resource</label>
+    <referenceTo>B25__Resource__c</referenceTo>
+    <relationshipLabel>Predefined Timeframes</relationshipLabel>
+    <relationshipName>Predefined_Timeframes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

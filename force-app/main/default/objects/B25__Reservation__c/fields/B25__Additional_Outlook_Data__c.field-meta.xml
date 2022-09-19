@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Additional_Outlook_Data__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores additional data required for Booker25 to keep reservations in sync with Outlook.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stocke des données supplémentaires nécessaires à Booker25 pour garder les réservations synchronisées avec Outlook.</inlineHelpText>
+    <label>Additional Outlook Data</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

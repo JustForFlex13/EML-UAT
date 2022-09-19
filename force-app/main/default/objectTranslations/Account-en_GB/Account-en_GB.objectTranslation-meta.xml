@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Présentation BDD</layout>
+        <sections>
+            <label></label>
+            <section>Adresse Courante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Employabilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partenariat fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe d&apos;apprentissage</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentation Forever</layout>
+        <sections>
+            <label></label>
+            <section>Adresse Courante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Employabilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Formation continue</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partenariat fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe d&apos;apprentissage</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentation Fundraising</layout>
+        <sections>
+            <label></label>
+            <section>Adresse Courante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Employabilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Formation continue</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partenariat fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe d&apos;apprentissage</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentation Incubateur Accelerateur</layout>
+        <sections>
+            <label></label>
+            <section>Adresse Courante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Adresse Facturation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations startup</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentation Intra EML</layout>
+        <sections>
+            <label></label>
+            <section>Adresse Courante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Adresse Facturation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Formation continue</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partenariat fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe d&apos;apprentissage</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentation Relations Employeur</layout>
+        <sections>
+            <label></label>
+            <section>Adresse Courante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Employabilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Formation continue</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>OCTA</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partenariat Entreprise</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe d&apos;apprentissage</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentation admin</layout>
+        <sections>
+            <label></label>
+            <section>Adresse Courante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Adresse Facturation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Employabilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Formation continue</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations startup</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>OCTA</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partenariat Entreprise</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe d&apos;apprentissage</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentation du compte</layout>
+        <sections>
+            <label></label>
+            <section>Adresse Courante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Adresse Facturation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Employabilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Formation continue</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>OCTA</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partenariat Entreprise</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe d&apos;apprentissage</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentationde page EML</layout>
+        <sections>
+            <label></label>
+            <section>Adresse Courante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Adresse Facturation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Formation continue</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partenariat fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe d&apos;apprentissage</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SIS Academic Program Page Layout</layout>
+        <sections>
+            <label></label>
+            <section>Administration</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Internship and exchanges</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SIS University Department page Layout</layout>
+        <sections>
+            <label></label>
+            <section>Champs</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>présentation Inter EML</layout>
+        <sections>
+            <label></label>
+            <section>Adresse Courante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Adresse Facturation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Formation continue</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partenariat fundraising</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Taxe d&apos;apprentissage</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>SIS_Revision_Reminder</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>convsta_Mettre_A_Jour_Niveau_Alerte_Entreprise</name>
+    </quickActions>
+    <recordTypes>
+        <description>An Academic Program offered at the educational institution.</description>
+        <label>Academic Program</label>
+        <name>Academic_Program</name>
+    </recordTypes>
+    <recordTypes>
+        <description>An administrative account.</description>
+        <label>Administrative</label>
+        <name>Administrative</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Business_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description>A business organisation.</description>
+        <label>Business Organisation</label>
+        <name>Business_Organization</name>
+    </recordTypes>
+    <recordTypes>
+        <description>An educational institution.</description>
+        <label>Educational Institution</label>
+        <name>Educational_Institution</name>
+    </recordTypes>
+    <recordTypes>
+        <description>A Household containing one or more individuals.</description>
+        <label>Household Account</label>
+        <name>HH_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>SIS_Association</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>SIS_Public_organization</name>
+    </recordTypes>
+    <recordTypes>
+        <description>A sports organisation.</description>
+        <label>Sports Organisation</label>
+        <name>Sports_Organization</name>
+    </recordTypes>
+    <recordTypes>
+        <description>A department in the educational institution.</description>
+        <label>University Department</label>
+        <name>University_Department</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Etat_ObligatoireCourante</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Etat_ObligatoireFacturation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Mandatory_Academic_exchange_period</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Mandatory_International_exchange_period</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Mandatory_Internship_period</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte01_Etat_ObligatoireCourante</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte02_Etat_ObligatoireFacturation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte03_RegionVsEtat_Facturation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte04_SIRET_Controle_integrite</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte05_RegionVsEtat_Courante</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte06_Pays_ObligatoireCourante</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte07_Pays_ObligatoireFacturation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte08_NAF_Secteur_dac_Obl</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte09_Ville_Obligatoire</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte10_ville_courante_sans_chiffres</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte11_ad_factu_ville_sans_chiffres</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte12_SIRET_Controle_14_chiffres</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte_CreationCompteFictif</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte_NomDuCompte</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_Compte_NomDuCompteBis</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RegionVsEtat</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SIRET_Controle_integrite</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Siret_pour_Comptes_Etrangers</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Fusionner_comptes</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Fusionner_contacts</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Google</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Societe_com</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_To_Prospect_Insight</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Changement_de_seuil_B2B</name>
+        <subject></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

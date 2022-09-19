@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pistes_Executive_day1</fullName>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>D_tail_canal_d_acquisition__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Gamme__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>D_tail_canal_d_acquisition__c</field>
+        <operation>equals</operation>
+        <value>2018 FLP Promo 2</value>
+    </filters>
+    <label>Pistes - FLP Promo2</label>
+    <language>fr</language>
+</ListView>

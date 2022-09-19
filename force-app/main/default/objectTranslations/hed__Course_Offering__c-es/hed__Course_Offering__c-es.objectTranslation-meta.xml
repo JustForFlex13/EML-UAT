@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Oferta de curso</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ofertas de curso</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>SIS Course Offering Layout</layout>
+        <sections>
+            <label></label>
+            <section>Autres informations utiles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Description du cours</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Heures et découpage</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Modalités d&apos;évaluation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Séquences d&apos;apprentissage et activités</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Id. de Oferta de curso</nameFieldLabel>
+    <quickActions>
+        <label></label>
+        <name>Ajouter_une_ressource</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Course_Knowledge</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Course_Skills</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>LG_LO</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Notifier_le_RP_Brouillon</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Reprendre_le_syllabus</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SIS_Course_Manager_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

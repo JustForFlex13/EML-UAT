@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Envoi de la convention Emlyon pour signature à l&apos;entreprise</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Convsta_Envoi de la convention Emlyon pour signature à l&apos;entreprise</name>
+    <style>freeForm</style>
+    <subject>Convention de stage de {!Contact.Name} disponible pour signature</subject>
+    <textOnly>Madame, Monsieur,
+
+
+La convention de stage de  {!Contact.Name} est validée et signée par l’étudiant, elle est désormais en attente de votre signature via le lien suivant xxxxx.
+
+Vous disposez xx jours pour la signer, une fois celle-ci apposée, seule la signature de EmLyon sera requise.
+
+
+Cordialement.
+
+
+Career Center.
+
+
+Career Center
+Tel + 33 (0)4 78 33 78 00
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

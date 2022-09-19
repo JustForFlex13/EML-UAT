@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>E-mail que les utilisateurs reçoivent sur leur ancienne adresse e-mail</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Communautés : ancienne adresse e-mail - vérification de la modification</name>
+    <style>none</style>
+    <subject>L&apos;adresse e-mail de votre compte {!Community_Name} a été modifiée</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

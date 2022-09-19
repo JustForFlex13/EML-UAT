@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O texto que é visualizado na etiqueta de cada coluna de cada vez. Para possíveis formatos, verificar: https://gen25-jira.atlassian.net/wiki/spaces/BPD/pages/1822916613/Date+Time+Format+Tokens e cadeias de saída colocando-as entre [parênteses retos].</help>
+    <label></label>
+    <name>B25__Slot_Label_Format__c</name>
+</CustomFieldTranslation>

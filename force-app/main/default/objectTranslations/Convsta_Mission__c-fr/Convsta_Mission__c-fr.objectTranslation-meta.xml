@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mission</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Missions</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Mission Back Office</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label>Tuteur Entreprise ou manager si contrat de travail</label>
+            <section>Tuteur Entreprise</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Mission Front Office</layout>
+        <sections>
+            <label></label>
+            <section>*Les compétences sont à choisir en concertation avec votre tuteur en entreprise.</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Tuteur Entreprise ou manager si contrat de travail</label>
+            <section>Tuteur Entreprise</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Competences_obligatoires</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Limitation_nombre_de_caracteres</name>
+    </validationRules>
+</CustomObjectTranslation>

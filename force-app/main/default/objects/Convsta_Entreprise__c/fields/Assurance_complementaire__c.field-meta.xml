@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assurance_complementaire__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>L’entreprise d’accueil fournit une couverture médicale, conformément à la réglementation locale . OUI (l’étudiant bénéficiera de la Sécurité Sociale Française + la couverture de l’entreprise) NON (l’étudiant bénéficiera seulement de la Sécurité Sociale)</inlineHelpText>
+    <label>Assurance complémentaire</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Oui</fullName>
+                <default>false</default>
+                <label>Oui</label>
+            </value>
+            <value>
+                <fullName>Non</fullName>
+                <default>false</default>
+                <label>Non</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

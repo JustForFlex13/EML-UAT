@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El estado para establecer en el registro Inscripción de programa que se crea automáticamente si se selecciona Inscripción de programa automática.</help>
+    <label></label>
+    <name>hed__Auto_Program_Enrollment_Status__c</name>
+</CustomFieldTranslation>

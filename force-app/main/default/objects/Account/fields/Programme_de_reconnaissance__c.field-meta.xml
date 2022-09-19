@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programme_de_reconnaissance__c</fullName>
+    <externalId>false</externalId>
+    <label>Programme de reconnaissance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Recrutement &amp; marque employeur</fullName>
+                <default>false</default>
+                <label>Recrutement &amp; marque employeur</label>
+            </value>
+            <value>
+                <fullName>Pédagogie et formation</fullName>
+                <default>false</default>
+                <label>Pédagogie et formation</label>
+            </value>
+            <value>
+                <fullName>Recherche &amp; développement</fullName>
+                <default>false</default>
+                <label>Recherche &amp; développement</label>
+            </value>
+            <value>
+                <fullName>Stratégie</fullName>
+                <default>false</default>
+                <label>Stratégie</label>
+            </value>
+            <value>
+                <fullName>Sans flux financier</fullName>
+                <default>false</default>
+                <label>Sans flux financier</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

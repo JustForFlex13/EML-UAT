@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__AllowDoubleBooking__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>By default used in Booker25 to allow double bookings on a Dimension when checked.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Utilisé par défaut dans Booker25 pour autoriser les réservations doubles pour une dimension lorsque cette case est cochée.</inlineHelpText>
+    <label>Allow Double Booking</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

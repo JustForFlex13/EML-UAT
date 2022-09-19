@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Credential__c</columns>
+    <columns>Higher_Education_Institution__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>Start_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Toutes les accréditations délivrées</label>
+</ListView>

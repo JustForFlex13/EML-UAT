@@ -1,0 +1,19 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+       
+     <div class="slds-card slds-card_boundary">
+    
+        <div class="slds-media slds-p-around_small slds-p-top_small slds-p-right_small slds-p-bottom_small slds-p-left_small slds-border_bottom">
+            <div class="slds-media__figure">
+                <lightning:icon iconName="action:priority" size="small" variant="warning"></lightning:icon>
+            </div>
+            <div class="slds-media__body">
+                <div class="slds-text-title slds-text-color_default" style="color: rgb(255, 154, 60);">ATTENTION</div>
+                <div class="slds-m-bottom_none slds-p-around_none slds-p-top_none slds-p-right_none slds-p-bottom_none slds-p-left_none slds-text-align_left slds-text-heading_small">Avez-vous pensé à envoyer votre <b>e-mail de confirmation</b> au client ?</div>
+            </div>
+            <div class="slds-media__figure slds-media__figure_reverse"></div>
+        </div>
+    
+</div>
+              
+   
+</aura:component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O nome de API de um campo de caixa de seleção (objeto cruzado) na reserva. Quando for “true”, a reserva irá permitir reservas duplas.</help>
+    <label></label>
+    <name>B25__Reservation_Allow_Double_Booking_Field__c</name>
+</CustomFieldTranslation>

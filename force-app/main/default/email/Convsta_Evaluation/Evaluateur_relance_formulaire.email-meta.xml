@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Relance du formulaire pour l&apos;évaluateur</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Etudiant relance formulaire</name>
+    <style>none</style>
+    <subject>Urgent : Évaluation à compléter par votre tuteur</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

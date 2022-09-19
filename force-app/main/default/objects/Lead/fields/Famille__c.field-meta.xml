@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Famille__c</fullName>
+    <externalId>false</externalId>
+    <label>Famille</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Gamme__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accompagnement entreprises = RDV</fullName>
+                <default>false</default>
+                <label>Accompagnement entreprises = RDV</label>
+            </value>
+            <value>
+                <fullName>Accompagnement pédagogique</fullName>
+                <default>false</default>
+                <label>Accompagnement pédagogique</label>
+            </value>
+            <value>
+                <fullName>Accord Cadre Formation Continue =</fullName>
+                <default>false</default>
+                <label>Accord Cadre Formation Continue =</label>
+            </value>
+            <value>
+                <fullName>Achats</fullName>
+                <default>false</default>
+                <label>Achats</label>
+            </value>
+            <value>
+                <fullName>Annuaires</fullName>
+                <default>false</default>
+                <label>Annuaires</label>
+            </value>
+            <value>
+                <fullName>Atelier</fullName>
+                <default>false</default>
+                <label>Atelier</label>
+            </value>
+            <value>
+                <fullName>Business Weeks</fullName>
+                <default>false</default>
+                <label>Business Weeks</label>
+            </value>
+            <value>
+                <fullName>Careers Days</fullName>
+                <default>false</default>
+                <label>Careers Days</label>
+            </value>
+            <value>
+                <fullName>Célébration</fullName>
+                <default>false</default>
+                <label>Célébration</label>
+            </value>
+            <value>
+                <fullName>Chaires Conjointes</fullName>
+                <default>false</default>
+                <label>Chaires Conjointes</label>
+            </value>
+            <value>
+                <fullName>Chaires d’enseignement et de recherche (&gt;1Me sur 4/5 ans)</fullName>
+                <default>false</default>
+                <label>Chaires d’enseignement et de recherche (&gt;1Me sur 4/5 ans)</label>
+            </value>
+            <value>
+                <fullName>Colloques</fullName>
+                <default>false</default>
+                <label>Colloques</label>
+            </value>
+            <value>
+                <fullName>Conférence</fullName>
+                <default>false</default>
+                <label>Conférence</label>
+            </value>
+            <value>
+                <fullName>Conférences non payantes (notoriété)</fullName>
+                <default>false</default>
+                <label>Conférences non payantes (notoriété)</label>
+            </value>
+            <value>
+                <fullName>Conférences non payantes (pédagogiques)</fullName>
+                <default>false</default>
+                <label>Conférences non payantes (pédagogiques)</label>
+            </value>
+            <value>
+                <fullName>Conférences non payantes (type gd public)</fullName>
+                <default>false</default>
+                <label>Conférences non payantes (type gd public)</label>
+            </value>
+            <value>
+                <fullName>Conférences non payantes (type scientifique)</fullName>
+                <default>false</default>
+                <label>Conférences non payantes (type scientifique)</label>
+            </value>
+            <value>
+                <fullName>Conférences payantes (par l&apos;auditeur, participant)</fullName>
+                <default>false</default>
+                <label>Conférences payantes (par l&apos;auditeur, participant)</label>
+            </value>
+            <value>
+                <fullName>Conférences payantes (par l&apos;intervenant-casHEC)</fullName>
+                <default>false</default>
+                <label>Conférences payantes (par l&apos;intervenant-casHEC)</label>
+            </value>
+            <value>
+                <fullName>Conseil institutionnel =</fullName>
+                <default>false</default>
+                <label>Conseil institutionnel =</label>
+            </value>
+            <value>
+                <fullName>Corporate Discovery Session</fullName>
+                <default>false</default>
+                <label>Corporate Discovery Session</label>
+            </value>
+            <value>
+                <fullName>Développement Commercial &amp; Relation Client</fullName>
+                <default>false</default>
+                <label>Développement Commercial &amp; Relation Client</label>
+            </value>
+            <value>
+                <fullName>Développement personnel</fullName>
+                <default>false</default>
+                <label>Développement personnel</label>
+            </value>
+            <value>
+                <fullName>Direction d’activité</fullName>
+                <default>false</default>
+                <label>Direction d’activité</label>
+            </value>
+            <value>
+                <fullName>Dons Fondation =&gt; individu ou entreprise (idem EMLYON)</fullName>
+                <default>false</default>
+                <label>Dons Fondation =&gt; individu ou entreprise (idem EMLYON)</label>
+            </value>
+            <value>
+                <fullName>Enquêtes et Stats</fullName>
+                <default>false</default>
+                <label>Enquêtes et Stats</label>
+            </value>
+            <value>
+                <fullName>Entretien individuel</fullName>
+                <default>false</default>
+                <label>Entretien individuel</label>
+            </value>
+            <value>
+                <fullName>Evènements corporate payants organisés par la comm</fullName>
+                <default>false</default>
+                <label>Evènements corporate payants organisés par la comm</label>
+            </value>
+            <value>
+                <fullName>Evenements EMLYON.</fullName>
+                <default>false</default>
+                <label>Evenements EMLYON.</label>
+            </value>
+            <value>
+                <fullName>Evenements EMLYON. (A voir avec BB)</fullName>
+                <default>false</default>
+                <label>Evenements EMLYON. (A voir avec BB)</label>
+            </value>
+            <value>
+                <fullName>Evenements EMLYON (à positionner confer supra - voir Bernard)</fullName>
+                <default>false</default>
+                <label>Evenements EMLYON (à positionner confer supra - voir Bernard)</label>
+            </value>
+            <value>
+                <fullName>Evenements FOREVER co-organisés</fullName>
+                <default>false</default>
+                <label>Evenements FOREVER co-organisés</label>
+            </value>
+            <value>
+                <fullName>Evènements FOREVER organisés par EMLYON FOREVER</fullName>
+                <default>false</default>
+                <label>Evènements FOREVER organisés par EMLYON FOREVER</label>
+            </value>
+            <value>
+                <fullName>Expert Panels OU Table rondes</fullName>
+                <default>false</default>
+                <label>Expert Panels OU Table rondes</label>
+            </value>
+            <value>
+                <fullName>Finance &amp; Pilotage de la Performance</fullName>
+                <default>false</default>
+                <label>Finance &amp; Pilotage de la Performance</label>
+            </value>
+            <value>
+                <fullName>FOREVER : cotisation de rattrapage</fullName>
+                <default>false</default>
+                <label>FOREVER : cotisation de rattrapage</label>
+            </value>
+            <value>
+                <fullName>FOREVER : services associés aux cotisants</fullName>
+                <default>false</default>
+                <label>FOREVER : services associés aux cotisants</label>
+            </value>
+            <value>
+                <fullName>Forme CLUB</fullName>
+                <default>false</default>
+                <label>Forme CLUB</label>
+            </value>
+            <value>
+                <fullName>Forum Carrières /Careers Forum</fullName>
+                <default>false</default>
+                <label>Forum Carrières /Careers Forum</label>
+            </value>
+            <value>
+                <fullName>Forum PME</fullName>
+                <default>false</default>
+                <label>Forum PME</label>
+            </value>
+            <value>
+                <fullName>Forum virtuel / Virtual Forum</fullName>
+                <default>false</default>
+                <label>Forum virtuel / Virtual Forum</label>
+            </value>
+            <value>
+                <fullName>Fundraising commun (namming…)</fullName>
+                <default>false</default>
+                <label>Fundraising commun (namming…)</label>
+            </value>
+            <value>
+                <fullName>Innovation &amp; Entreprenariat</fullName>
+                <default>false</default>
+                <label>Innovation &amp; Entreprenariat</label>
+            </value>
+            <value>
+                <fullName>Journée de conférences ateliers et réseau</fullName>
+                <default>false</default>
+                <label>Journée de conférences ateliers et réseau</label>
+            </value>
+            <value>
+                <fullName>Leadership &amp; Développement Personnel</fullName>
+                <default>false</default>
+                <label>Leadership &amp; Développement Personnel</label>
+            </value>
+            <value>
+                <fullName>Locations de salles (EMLYON,EML,ALLIANCE)</fullName>
+                <default>false</default>
+                <label>Locations de salles (EMLYON,EML,ALLIANCE)</label>
+            </value>
+            <value>
+                <fullName>Management &amp; Ressources humaines</fullName>
+                <default>false</default>
+                <label>Management &amp; Ressources humaines</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Partenariats Académiques</fullName>
+                <default>false</default>
+                <label>Partenariats Académiques</label>
+            </value>
+            <value>
+                <fullName>PhD Doctorat</fullName>
+                <default>false</default>
+                <label>PhD Doctorat</label>
+            </value>
+            <value>
+                <fullName>Plateforme Msc in IDEA (LearningLab, Incubateur, MscinIDEA)</fullName>
+                <default>false</default>
+                <label>Plateforme Msc in IDEA (LearningLab, Incubateur, MscinIDEA)</label>
+            </value>
+            <value>
+                <fullName>Programme « Grande Ecole »</fullName>
+                <default>false</default>
+                <label>Programme « Grande Ecole »</label>
+            </value>
+            <value>
+                <fullName>Programme Bachelor (entrée post-bac)</fullName>
+                <default>false</default>
+                <label>Programme Bachelor (entrée post-bac)</label>
+            </value>
+            <value>
+                <fullName>Programme COSMETO</fullName>
+                <default>false</default>
+                <label>Programme COSMETO</label>
+            </value>
+            <value>
+                <fullName>Programme I.D.E.A Alliance ECL-EM</fullName>
+                <default>false</default>
+                <label>Programme I.D.E.A Alliance ECL-EM</label>
+            </value>
+            <value>
+                <fullName>Programme IPIL</fullName>
+                <default>false</default>
+                <label>Programme IPIL</label>
+            </value>
+            <value>
+                <fullName>Programme MBA  - formation continue</fullName>
+                <default>false</default>
+                <label>Programme MBA  - formation continue</label>
+            </value>
+            <value>
+                <fullName>Programme MBA Internationaux - formation initiale</fullName>
+                <default>false</default>
+                <label>Programme MBA Internationaux - formation initiale</label>
+            </value>
+            <value>
+                <fullName>Programmes « Mastères spécialisés »</fullName>
+                <default>false</default>
+                <label>Programmes « Mastères spécialisés »</label>
+            </value>
+            <value>
+                <fullName>Programmes « Masters en anglais»</fullName>
+                <default>false</default>
+                <label>Programmes « Masters en anglais»</label>
+            </value>
+            <value>
+                <fullName>Programmes courts</fullName>
+                <default>false</default>
+                <label>Programmes courts</label>
+            </value>
+            <value>
+                <fullName>Programmes de formation longs non diplômant (DUA)</fullName>
+                <default>false</default>
+                <label>Programmes de formation longs non diplômant (DUA)</label>
+            </value>
+            <value>
+                <fullName>Programmes Entrepreneurs</fullName>
+                <default>false</default>
+                <label>Programmes Entrepreneurs</label>
+            </value>
+            <value>
+                <fullName>Programmes longs diplômants - Programmes Opérationnels</fullName>
+                <default>false</default>
+                <label>Programmes longs diplômants - Programmes Opérationnels</label>
+            </value>
+            <value>
+                <fullName>Programmes longs diplômants - Senior Executive</fullName>
+                <default>false</default>
+                <label>Programmes longs diplômants - Senior Executive</label>
+            </value>
+            <value>
+                <fullName>Programmes sur mesure/intra avec appel d&apos;offre/CDC</fullName>
+                <default>false</default>
+                <label>Programmes sur mesure/intra avec appel d&apos;offre/CDC</label>
+            </value>
+            <value>
+                <fullName>Programmes sur mesure/intra hors appel d&apos;offre/CDC</fullName>
+                <default>false</default>
+                <label>Programmes sur mesure/intra hors appel d&apos;offre/CDC</label>
+            </value>
+            <value>
+                <fullName>Projets de Recherche</fullName>
+                <default>false</default>
+                <label>Projets de Recherche</label>
+            </value>
+            <value>
+                <fullName>Push-Mails</fullName>
+                <default>false</default>
+                <label>Push-Mails</label>
+            </value>
+            <value>
+                <fullName>Relation Editeur - Professeurs</fullName>
+                <default>false</default>
+                <label>Relation Editeur - Professeurs</label>
+            </value>
+            <value>
+                <fullName>Relation informelle</fullName>
+                <default>false</default>
+                <label>Relation informelle</label>
+            </value>
+            <value>
+                <fullName>Relations Presse ?</fullName>
+                <default>false</default>
+                <label>Relations Presse ?</label>
+            </value>
+            <value>
+                <fullName>Relations Publiques ?</fullName>
+                <default>false</default>
+                <label>Relations Publiques ?</label>
+            </value>
+            <value>
+                <fullName>Salons commerciaux de l&apos;éducation : France et International</fullName>
+                <default>false</default>
+                <label>Salons commerciaux de l&apos;éducation : France et International</label>
+            </value>
+            <value>
+                <fullName>Salons des entrepreneurs</fullName>
+                <default>false</default>
+                <label>Salons des entrepreneurs</label>
+            </value>
+            <value>
+                <fullName>Services rendus par la bibliothèque</fullName>
+                <default>false</default>
+                <label>Services rendus par la bibliothèque</label>
+            </value>
+            <value>
+                <fullName>Services rendus par la DSIT</fullName>
+                <default>false</default>
+                <label>Services rendus par la DSIT</label>
+            </value>
+            <value>
+                <fullName>Services rendus par le registraire</fullName>
+                <default>false</default>
+                <label>Services rendus par le registraire</label>
+            </value>
+            <value>
+                <fullName>Sites Internet Carrière</fullName>
+                <default>false</default>
+                <label>Sites Internet Carrière</label>
+            </value>
+            <value>
+                <fullName>Sites Internet CORPORATE</fullName>
+                <default>false</default>
+                <label>Sites Internet CORPORATE</label>
+            </value>
+            <value>
+                <fullName>Sites Internet EML</fullName>
+                <default>false</default>
+                <label>Sites Internet EML</label>
+            </value>
+            <value>
+                <fullName>Sites Internet FOREVER</fullName>
+                <default>false</default>
+                <label>Sites Internet FOREVER</label>
+            </value>
+            <value>
+                <fullName>Soutien au programmes de bourse et « ouverture sociale » (TUMM)</fullName>
+                <default>false</default>
+                <label>Soutien au programmes de bourse et « ouverture sociale » (TUMM)</label>
+            </value>
+            <value>
+                <fullName>Soutien aux pgms/projets entrepreunariat (Incubateur, WEF, Club CCRE)</fullName>
+                <default>false</default>
+                <label>Soutien aux pgms/projets entrepreunariat (Incubateur, WEF, Club CCRE)</label>
+            </value>
+            <value>
+                <fullName>Speed networking</fullName>
+                <default>false</default>
+                <label>Speed networking</label>
+            </value>
+            <value>
+                <fullName>Sponsoring entreprise (public visé/bénéficiaire = diplômés)</fullName>
+                <default>false</default>
+                <label>Sponsoring entreprise (public visé/bénéficiaire = diplômés)</label>
+            </value>
+            <value>
+                <fullName>Sponsoring entreprise (public visé/bénéficiaire = entreprises)</fullName>
+                <default>false</default>
+                <label>Sponsoring entreprise (public visé/bénéficiaire = entreprises)</label>
+            </value>
+            <value>
+                <fullName>Sponsoring entreprise (public visé/bénéficiaire = étudiants)</fullName>
+                <default>false</default>
+                <label>Sponsoring entreprise (public visé/bénéficiaire = étudiants)</label>
+            </value>
+            <value>
+                <fullName>Sponsoring incubateur (public visé/bénéficiaire = incubés)</fullName>
+                <default>false</default>
+                <label>Sponsoring incubateur (public visé/bénéficiaire = incubés)</label>
+            </value>
+            <value>
+                <fullName>Standard</fullName>
+                <default>false</default>
+                <label>Standard</label>
+            </value>
+            <value>
+                <fullName>Stratégie &amp; Gouvernance</fullName>
+                <default>false</default>
+                <label>Stratégie &amp; Gouvernance</label>
+            </value>
+            <value>
+                <fullName>Summer Sessions (pour différents programmes)</fullName>
+                <default>false</default>
+                <label>Summer Sessions (pour différents programmes)</label>
+            </value>
+            <value>
+                <fullName>Summer Sessions Programme Auditeurs</fullName>
+                <default>false</default>
+                <label>Summer Sessions Programme Auditeurs</label>
+            </value>
+            <value>
+                <fullName>Sur mesure</fullName>
+                <default>false</default>
+                <label>Sur mesure</label>
+            </value>
+            <value>
+                <fullName>Taxe d&apos;apprentissage</fullName>
+                <default>false</default>
+                <label>Taxe d&apos;apprentissage</label>
+            </value>
+            <value>
+                <fullName>Visite face/face</fullName>
+                <default>false</default>
+                <label>Visite face/face</label>
+            </value>
+            <value>
+                <fullName>Visite face/face (anciens)</fullName>
+                <default>false</default>
+                <label>Visite face/face (anciens)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>TAXE D&apos;APPRENTISSAGE</controllingFieldValue>
+            <valueName>Taxe d&apos;apprentissage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programme certifiant</controllingFieldValue>
+            <controllingFieldValue>Programme court</controllingFieldValue>
+            <valueName>Achats</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programme certifiant</controllingFieldValue>
+            <controllingFieldValue>Programme court</controllingFieldValue>
+            <valueName>Développement Commercial &amp; Relation Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programme certifiant</controllingFieldValue>
+            <controllingFieldValue>Programme court</controllingFieldValue>
+            <valueName>Développement personnel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programme certifiant</controllingFieldValue>
+            <controllingFieldValue>Programme court</controllingFieldValue>
+            <valueName>Finance &amp; Pilotage de la Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programme certifiant</controllingFieldValue>
+            <controllingFieldValue>Programme court</controllingFieldValue>
+            <valueName>Innovation &amp; Entreprenariat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programme certifiant</controllingFieldValue>
+            <controllingFieldValue>Programme court</controllingFieldValue>
+            <valueName>Management &amp; Ressources humaines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programme certifiant</controllingFieldValue>
+            <controllingFieldValue>Programme court</controllingFieldValue>
+            <valueName>Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programme certifiant</controllingFieldValue>
+            <controllingFieldValue>Programme court</controllingFieldValue>
+            <valueName>Stratégie &amp; Gouvernance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPONSORING</controllingFieldValue>
+            <valueName>Accompagnement pédagogique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPONSORING</controllingFieldValue>
+            <valueName>Relation Editeur - Professeurs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPONSORING</controllingFieldValue>
+            <valueName>Sponsoring entreprise (public visé/bénéficiaire = diplômés)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPONSORING</controllingFieldValue>
+            <valueName>Sponsoring entreprise (public visé/bénéficiaire = entreprises)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPONSORING</controllingFieldValue>
+            <valueName>Sponsoring entreprise (public visé/bénéficiaire = étudiants)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SPONSORING</controllingFieldValue>
+            <valueName>Sponsoring incubateur (public visé/bénéficiaire = incubés)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ACCOMP. CARRIERE ou CARRIERE RESEAUX</controllingFieldValue>
+            <valueName>Atelier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ACCOMP. CARRIERE ou CARRIERE RESEAUX</controllingFieldValue>
+            <valueName>Conférence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ACCOMP. CARRIERE ou CARRIERE RESEAUX</controllingFieldValue>
+            <valueName>Entretien individuel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ACCOMP. CARRIERE ou CARRIERE RESEAUX</controllingFieldValue>
+            <valueName>Expert Panels OU Table rondes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS DE RECRUTEMENT</controllingFieldValue>
+            <valueName>Careers Days</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS DE RECRUTEMENT</controllingFieldValue>
+            <valueName>Corporate Discovery Session</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS DE RECRUTEMENT</controllingFieldValue>
+            <valueName>Forum Carrières /Careers Forum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS DE RECRUTEMENT</controllingFieldValue>
+            <valueName>Forum PME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS DE RECRUTEMENT</controllingFieldValue>
+            <valueName>Forum virtuel / Virtual Forum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS DE RECRUTEMENT</controllingFieldValue>
+            <valueName>Speed networking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS EXPERTS</controllingFieldValue>
+            <valueName>Colloques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS EXPERTS</controllingFieldValue>
+            <valueName>Conférences non payantes (type gd public)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS EXPERTS</controllingFieldValue>
+            <valueName>Conférences non payantes (type scientifique)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS EXPERTS</controllingFieldValue>
+            <valueName>Conférences payantes (par l&apos;auditeur, participant)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS EXPERTS</controllingFieldValue>
+            <valueName>Conférences payantes (par l&apos;intervenant-casHEC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS EXPERTS</controllingFieldValue>
+            <valueName>Evenements EMLYON (à positionner confer supra - voir Bernard)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS IMAGE / RESEAU</controllingFieldValue>
+            <valueName>Célébration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS IMAGE / RESEAU</controllingFieldValue>
+            <valueName>Conférences non payantes (notoriété)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS IMAGE / RESEAU</controllingFieldValue>
+            <valueName>Conférences non payantes (pédagogiques)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS IMAGE / RESEAU</controllingFieldValue>
+            <valueName>Evènements corporate payants organisés par la comm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS IMAGE / RESEAU</controllingFieldValue>
+            <valueName>Evenements EMLYON.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS IMAGE / RESEAU</controllingFieldValue>
+            <valueName>Evenements FOREVER co-organisés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS IMAGE / RESEAU</controllingFieldValue>
+            <valueName>Evènements FOREVER organisés par EMLYON FOREVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS IMAGE / RESEAU</controllingFieldValue>
+            <valueName>Journée de conférences ateliers et réseau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS IMAGE / RESEAU</controllingFieldValue>
+            <valueName>Visite face/face (anciens)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS PROMOTIONNELS</controllingFieldValue>
+            <valueName>Evenements EMLYON. (A voir avec BB)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS PROMOTIONNELS</controllingFieldValue>
+            <valueName>Salons commerciaux de l&apos;éducation : France et International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENEMENTS PROMOTIONNELS</controllingFieldValue>
+            <valueName>Salons des entrepreneurs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES SERVICES</controllingFieldValue>
+            <valueName>FOREVER : cotisation de rattrapage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES SERVICES</controllingFieldValue>
+            <valueName>FOREVER : services associés aux cotisants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES SERVICES</controllingFieldValue>
+            <valueName>Locations de salles (EMLYON,EML,ALLIANCE)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES SERVICES</controllingFieldValue>
+            <valueName>Services rendus par la bibliothèque</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES SERVICES</controllingFieldValue>
+            <valueName>Services rendus par la DSIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES SERVICES</controllingFieldValue>
+            <valueName>Services rendus par le registraire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MESURER LA QUALITE ET LA PERFORMANCE</controllingFieldValue>
+            <valueName>Enquêtes et Stats</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMMES MASTER</controllingFieldValue>
+            <valueName>Programme « Grande Ecole »</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMMES MASTER</controllingFieldValue>
+            <valueName>Programme I.D.E.A Alliance ECL-EM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMMES MASTER</controllingFieldValue>
+            <valueName>Programmes « Masters en anglais»</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMMES MASTERES</controllingFieldValue>
+            <valueName>Programmes « Mastères spécialisés »</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMMES MBA</controllingFieldValue>
+            <valueName>Programme MBA  - formation continue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMMES MBA</controllingFieldValue>
+            <valueName>Programme MBA Internationaux - formation initiale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFFRES EXECUTIVE DEVELOPMENT hors MBA</controllingFieldValue>
+            <valueName>Accord Cadre Formation Continue =</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFFRES EXECUTIVE DEVELOPMENT hors MBA</controllingFieldValue>
+            <valueName>Conseil institutionnel =</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFFRES EXECUTIVE DEVELOPMENT hors MBA</controllingFieldValue>
+            <valueName>Forme CLUB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFFRES EXECUTIVE DEVELOPMENT hors MBA</controllingFieldValue>
+            <valueName>Programmes courts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFFRES EXECUTIVE DEVELOPMENT hors MBA</controllingFieldValue>
+            <valueName>Programmes de formation longs non diplômant (DUA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFFRES EXECUTIVE DEVELOPMENT hors MBA</controllingFieldValue>
+            <valueName>Programmes longs diplômants - Programmes Opérationnels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFFRES EXECUTIVE DEVELOPMENT hors MBA</controllingFieldValue>
+            <valueName>Programmes longs diplômants - Senior Executive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFFRES EXECUTIVE DEVELOPMENT hors MBA</controllingFieldValue>
+            <valueName>Programmes sur mesure/intra avec appel d&apos;offre/CDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFFRES EXECUTIVE DEVELOPMENT hors MBA</controllingFieldValue>
+            <valueName>Programmes sur mesure/intra hors appel d&apos;offre/CDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFFRES EXECUTIVE DEVELOPMENT hors MBA</controllingFieldValue>
+            <valueName>Summer Sessions (pour différents programmes)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMMES ENTREPRENEURS</controllingFieldValue>
+            <valueName>Programmes Entrepreneurs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES PROGRAMMES</controllingFieldValue>
+            <valueName>Business Weeks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES PROGRAMMES</controllingFieldValue>
+            <valueName>Programme Bachelor (entrée post-bac)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES PROGRAMMES</controllingFieldValue>
+            <valueName>Programme COSMETO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES PROGRAMMES</controllingFieldValue>
+            <valueName>Programme IPIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES PROGRAMMES</controllingFieldValue>
+            <valueName>Summer Sessions Programme Auditeurs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES OFFRES ?</controllingFieldValue>
+            <valueName>Partenariats Académiques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTRES OFFRES ?</controllingFieldValue>
+            <valueName>PhD Doctorat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MECENAT EMLYON</controllingFieldValue>
+            <valueName>Chaires d’enseignement et de recherche (&gt;1Me sur 4/5 ans)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MECENAT EMLYON</controllingFieldValue>
+            <valueName>Projets de Recherche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MECENAT EMLYON</controllingFieldValue>
+            <valueName>Soutien aux pgms/projets entrepreunariat (Incubateur, WEF, Club CCRE)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MECENAT (CENTRALE LYON - EMLYON)</controllingFieldValue>
+            <valueName>Chaires Conjointes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MECENAT (CENTRALE LYON - EMLYON)</controllingFieldValue>
+            <valueName>Fundraising commun (namming…)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MECENAT (CENTRALE LYON - EMLYON)</controllingFieldValue>
+            <valueName>Plateforme Msc in IDEA (LearningLab, Incubateur, MscinIDEA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Accompagnement entreprises = RDV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Annuaires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Push-Mails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Relation informelle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Relations Presse ?</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Relations Publiques ?</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Sites Internet Carrière</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Sites Internet CORPORATE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Sites Internet EML</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Sites Internet FOREVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFORMER (par différents canaux)</controllingFieldValue>
+            <valueName>Visite face/face</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MECENAT FONDATION EMLYON</controllingFieldValue>
+            <valueName>Dons Fondation =&gt; individu ou entreprise (idem EMLYON)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MECENAT FONDATION EMLYON</controllingFieldValue>
+            <valueName>Soutien au programmes de bourse et « ouverture sociale » (TUMM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INTRA</controllingFieldValue>
+            <valueName>Standard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INTRA</controllingFieldValue>
+            <valueName>Sur mesure</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De lokale eindtijd in 24h formaat. Dit veld is een output veld en niet voor input.</help>
+    <label></label>
+    <name>B25__Local_End_Time__c</name>
+</CustomFieldTranslation>

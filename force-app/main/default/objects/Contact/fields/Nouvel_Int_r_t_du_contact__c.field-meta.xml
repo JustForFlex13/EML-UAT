@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nouvel_Int_r_t_du_contact__c</fullName>
+    <externalId>false</externalId>
+    <label>Intérêt du contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Global Bachelor in Business Administration</fullName>
+                <default>false</default>
+                <label>Global Bachelor in Business Administration</label>
+            </value>
+            <value>
+                <fullName>Global BBA International Admissions</fullName>
+                <default>false</default>
+                <label>Global BBA International Admissions</label>
+            </value>
+            <value>
+                <fullName>Marketing and Data Science</fullName>
+                <default>false</default>
+                <label>Marketing and Data Science</label>
+            </value>
+            <value>
+                <fullName>MSc in Finance – EN</fullName>
+                <default>false</default>
+                <label>MSc in Finance – EN</label>
+            </value>
+            <value>
+                <fullName>MSc in Finance – FR</fullName>
+                <default>false</default>
+                <label>MSc in Finance – FR</label>
+            </value>
+            <value>
+                <fullName>MSc in Global Innovation &amp; Entrepreneurship</fullName>
+                <default>false</default>
+                <label>MSc in Global Innovation &amp; Entrepreneurship</label>
+            </value>
+            <value>
+                <fullName>MSc in Health Management &amp; Data Intelligence</fullName>
+                <default>false</default>
+                <label>MSc in Health Management &amp; Data Intelligence</label>
+            </value>
+            <value>
+                <fullName>MSc in International Hospitality Management</fullName>
+                <default>false</default>
+                <label>MSc in International Hospitality Management</label>
+            </value>
+            <value>
+                <fullName>MSc in Luxury Management &amp; Marketing</fullName>
+                <default>false</default>
+                <label>MSc in Luxury Management &amp; Marketing</label>
+            </value>
+            <value>
+                <fullName>MSc in Management - European Triple Degree</fullName>
+                <default>false</default>
+                <label>MSc in Management - European Triple Degree</label>
+            </value>
+            <value>
+                <fullName>MSc in ManagementMSc in Digital</fullName>
+                <default>false</default>
+                <label>MSc in ManagementMSc in Digital</label>
+            </value>
+            <value>
+                <fullName>MSc in Sports Industry Management</fullName>
+                <default>false</default>
+                <label>MSc in Sports Industry Management</label>
+            </value>
+            <value>
+                <fullName>MSc in Strategy &amp; Consulting</fullName>
+                <default>false</default>
+                <label>MSc in Strategy &amp; Consulting</label>
+            </value>
+            <value>
+                <fullName>MSc in Supply Chain &amp; Purchasing Management</fullName>
+                <default>false</default>
+                <label>MSc in Supply Chain &amp; Purchasing Management</label>
+            </value>
+            <value>
+                <fullName>MS Entrepreneuriat et Management de l&apos;Innovation</fullName>
+                <default>false</default>
+                <label>MS Entrepreneuriat et Management de l&apos;Innovation</label>
+            </value>
+            <value>
+                <fullName>MS Juriste Manager International</fullName>
+                <default>false</default>
+                <label>MS Juriste Manager International</label>
+            </value>
+            <value>
+                <fullName>MS Juriste Manager International Part-Time</fullName>
+                <default>false</default>
+                <label>MS Juriste Manager International Part-Time</label>
+            </value>
+            <value>
+                <fullName>MS Management des Entreprises du Vivant et de l&apos;Agroalimentaire</fullName>
+                <default>false</default>
+                <label>MS Management des Entreprises du Vivant et de l&apos;Agroalimentaire</label>
+            </value>
+            <value>
+                <fullName>MS Stratégie et Développement d&apos;Affaires Internationales</fullName>
+                <default>false</default>
+                <label>MS Stratégie et Développement d&apos;Affaires Internationales</label>
+            </value>
+            <value>
+                <fullName>MS Transformation Digitale Marketing &amp; Stratégie</fullName>
+                <default>false</default>
+                <label>MS Transformation Digitale Marketing &amp; Stratégie</label>
+            </value>
+            <value>
+                <fullName>Programme en Management de la Transition Energétique</fullName>
+                <default>false</default>
+                <label>Programme en Management de la Transition Energétique</label>
+            </value>
+            <value>
+                <fullName>Programme Grande Ecole - Admission sur Titre France</fullName>
+                <default>false</default>
+                <label>Programme Grande Ecole - Admission sur Titre France</label>
+            </value>
+            <value>
+                <fullName>Programme Grande Ecole - Concours Classes Préparatoires</fullName>
+                <default>false</default>
+                <label>Programme Grande Ecole - Concours Classes Préparatoires</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

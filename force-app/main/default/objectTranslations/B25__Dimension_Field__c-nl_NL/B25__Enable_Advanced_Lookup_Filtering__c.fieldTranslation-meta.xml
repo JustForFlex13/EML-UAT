@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Het aanvinken van deze checkbox zorgt ervoor dat het opzoekveld een &quot;slim&quot; opzoekveld wordt. Hiemee worden alleen waarde getoond die beschikbaar zijn tijdens het zoeken. Door Salesforce gemaakte lookup filters werken hiermee niet</help>
+    <label></label>
+    <name>B25__Enable_Advanced_Lookup_Filtering__c</name>
+</CustomFieldTranslation>

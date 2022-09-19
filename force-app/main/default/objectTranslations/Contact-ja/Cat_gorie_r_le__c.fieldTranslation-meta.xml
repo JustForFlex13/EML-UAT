@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Cat_gorie_r_le__c</name>
+    <picklistValues>
+        <masterLabel>Direction, institutions ou associations apparentées à EMLYON</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dirigeants Entreprises</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se isto estiver ativado, as Reservas com Tipos de Reserva não ligados a este Calendário serão visíveis de qualquer modo.</help>
+    <label></label>
+    <name>B25__Show_Unlinked_Reservation_Types__c</name>
+</CustomFieldTranslation>

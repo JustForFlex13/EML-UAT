@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Filiere__c</fullName>
+    <externalId>false</externalId>
+    <label>Filière</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SIS_Annee_du_diplome__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PHILOSOPHIE-LETTRES</fullName>
+                <default>false</default>
+                <label>PHILOSOPHIE-LETTRES</label>
+            </value>
+            <value>
+                <fullName>ÉCONOMIQUE ET SOCIAL</fullName>
+                <default>false</default>
+                <label>ÉCONOMIQUE ET SOCIAL</label>
+            </value>
+            <value>
+                <fullName>LETTRES-SCIENCES</fullName>
+                <default>false</default>
+                <label>LETTRES-SCIENCES</label>
+            </value>
+            <value>
+                <fullName>LETTRES-LANGUES</fullName>
+                <default>false</default>
+                <label>LETTRES-LANGUES</label>
+            </value>
+            <value>
+                <fullName>LETTRES-ARTS PLASTIQUES</fullName>
+                <default>false</default>
+                <label>LETTRES-ARTS PLASTIQUES</label>
+            </value>
+            <value>
+                <fullName>LANGUES MATHÉMATIQUES</fullName>
+                <default>false</default>
+                <label>LANGUES MATHÉMATIQUES</label>
+            </value>
+            <value>
+                <fullName>LANGUES</fullName>
+                <default>false</default>
+                <label>LANGUES</label>
+            </value>
+            <value>
+                <fullName>ÉDUCATION MUSICALE</fullName>
+                <default>false</default>
+                <label>ÉDUCATION MUSICALE</label>
+            </value>
+            <value>
+                <fullName>ARTS PLASTIQUES</fullName>
+                <default>false</default>
+                <label>ARTS PLASTIQUES</label>
+            </value>
+            <value>
+                <fullName>MATHÉMATIQUES ET SCIENCES PHYSIQUES</fullName>
+                <default>false</default>
+                <label>MATHÉMATIQUES ET SCIENCES PHYSIQUES</label>
+            </value>
+            <value>
+                <fullName>MATHÉMATIQUES ET SCIENCES DE LA NATURE</fullName>
+                <default>false</default>
+                <label>MATHÉMATIQUES ET SCIENCES DE LA NATURE</label>
+            </value>
+            <value>
+                <fullName>SCIENCES AGRONOMIQUES-TECHNIQUES</fullName>
+                <default>false</default>
+                <label>SCIENCES AGRONOMIQUES-TECHNIQUES</label>
+            </value>
+            <value>
+                <fullName>MATHÉMATIQUES ET TECHNIQUES</fullName>
+                <default>false</default>
+                <label>MATHÉMATIQUES ET TECHNIQUES</label>
+            </value>
+            <value>
+                <fullName>BAC INTERNATIONAL ET BAC EUROPÉEN (JUSQU’EN 2010)</fullName>
+                <default>false</default>
+                <label>BAC INTERNATIONAL ET BAC EUROPÉEN (JUSQU’EN 2010)</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCTION MÉCANIQUE</fullName>
+                <default>false</default>
+                <label>CONSTRUCTION MÉCANIQUE</label>
+            </value>
+            <value>
+                <fullName>ÉLECTRONIQUE</fullName>
+                <default>false</default>
+                <label>ÉLECTRONIQUE</label>
+            </value>
+            <value>
+                <fullName>ÉLECTROTECHNIQUE</fullName>
+                <default>false</default>
+                <label>ÉLECTROTECHNIQUE</label>
+            </value>
+            <value>
+                <fullName>GÉNIE CIVIL</fullName>
+                <default>false</default>
+                <label>GÉNIE CIVIL</label>
+            </value>
+            <value>
+                <fullName>PHYSIQUE</fullName>
+                <default>false</default>
+                <label>PHYSIQUE</label>
+            </value>
+            <value>
+                <fullName>CHIMIE</fullName>
+                <default>false</default>
+                <label>CHIMIE</label>
+            </value>
+            <value>
+                <fullName>BIOLOGIE OPTION BIOCHIMIE</fullName>
+                <default>false</default>
+                <label>BIOLOGIE OPTION BIOCHIMIE</label>
+            </value>
+            <value>
+                <fullName>BIOLOGIE OPTION BIOLOGIE</fullName>
+                <default>false</default>
+                <label>BIOLOGIE OPTION BIOLOGIE</label>
+            </value>
+            <value>
+                <fullName>SCIENCES MÉDICO-SOCIALES</fullName>
+                <default>false</default>
+                <label>SCIENCES MÉDICO-SOCIALES</label>
+            </value>
+            <value>
+                <fullName>ÉQUIPEMENT TECHNIQUE – BÂTIMENT</fullName>
+                <default>false</default>
+                <label>ÉQUIPEMENT TECHNIQUE – BÂTIMENT</label>
+            </value>
+            <value>
+                <fullName>MICROTECHNIQUE</fullName>
+                <default>false</default>
+                <label>MICROTECHNIQUE</label>
+            </value>
+            <value>
+                <fullName>MICROTECHNIQUE OPTION APPAREILLAGE</fullName>
+                <default>false</default>
+                <label>MICROTECHNIQUE OPTION APPAREILLAGE</label>
+            </value>
+            <value>
+                <fullName>MICROTECHNIQUE OPTION OPTIQUE</fullName>
+                <default>false</default>
+                <label>MICROTECHNIQUE OPTION OPTIQUE</label>
+            </value>
+            <value>
+                <fullName>MUSIQUE</fullName>
+                <default>false</default>
+                <label>MUSIQUE</label>
+            </value>
+            <value>
+                <fullName>DANSE</fullName>
+                <default>false</default>
+                <label>DANSE</label>
+            </value>
+            <value>
+                <fullName>ARTS APPLIQUÉS</fullName>
+                <default>false</default>
+                <label>ARTS APPLIQUÉS</label>
+            </value>
+            <value>
+                <fullName>SPÉCIALITÉ NON PRÉCISÉE</fullName>
+                <default>false</default>
+                <label>SPÉCIALITÉ NON PRÉCISÉE</label>
+            </value>
+            <value>
+                <fullName>TECHNIQUES ADMINISTRATIVES</fullName>
+                <default>false</default>
+                <label>TECHNIQUES ADMINISTRATIVES</label>
+            </value>
+            <value>
+                <fullName>TECHNIQUES QUANTITATIVES DE GESTION</fullName>
+                <default>false</default>
+                <label>TECHNIQUES QUANTITATIVES DE GESTION</label>
+            </value>
+            <value>
+                <fullName>TECHNIQUES COMMERCIALES</fullName>
+                <default>false</default>
+                <label>TECHNIQUES COMMERCIALES</label>
+            </value>
+            <value>
+                <fullName>TECHNIQUES INFORMATIQUES</fullName>
+                <default>false</default>
+                <label>TECHNIQUES INFORMATIQUES</label>
+            </value>
+            <value>
+                <fullName>HÔTELLERIE</fullName>
+                <default>false</default>
+                <label>HÔTELLERIE</label>
+            </value>
+            <value>
+                <fullName>BACS PROFESSIONNELS INDUSTRIELS</fullName>
+                <default>false</default>
+                <label>BACS PROFESSIONNELS INDUSTRIELS</label>
+            </value>
+            <value>
+                <fullName>BACS PROFESSIONNELS TERTIAIRES</fullName>
+                <default>false</default>
+                <label>BACS PROFESSIONNELS TERTIAIRES</label>
+            </value>
+            <value>
+                <fullName>CAPACITÉ EN DROIT</fullName>
+                <default>false</default>
+                <label>CAPACITÉ EN DROIT</label>
+            </value>
+            <value>
+                <fullName>TITRE ÉTRANGER ADMIS NATIONALEMENT EN ÉQUIVALENCE (Y COMPRIS BACCALAURÉATS ÉTRANGERS)</fullName>
+                <default>false</default>
+                <label>TITRE ÉTRANGER ADMIS NATIONALEMENT EN ÉQUIVALENCE (Y COMPRIS BACCALAURÉATS ÉTRANGERS)</label>
+            </value>
+            <value>
+                <fullName>TITRE FRANÇAIS ADMIS NATIONALEMENT EN DISPENSE</fullName>
+                <default>false</default>
+                <label>TITRE FRANÇAIS ADMIS NATIONALEMENT EN DISPENSE</label>
+            </value>
+            <value>
+                <fullName>ESEU A ou DAEU A</fullName>
+                <default>false</default>
+                <label>ESEU A ou DAEU A</label>
+            </value>
+            <value>
+                <fullName>ESEU B ou DAEU B</fullName>
+                <default>false</default>
+                <label>ESEU B ou DAEU B</label>
+            </value>
+            <value>
+                <fullName>PROMOTION SOCIALE</fullName>
+                <default>false</default>
+                <label>PROMOTION SOCIALE</label>
+            </value>
+            <value>
+                <fullName>VALIDATION D&apos;ÉTUDES, D&apos;EXPÉRIENCES PROFESSIONNELLES, D&apos;ACQUIS PERSONNELS</fullName>
+                <default>false</default>
+                <label>VALIDATION D&apos;ÉTUDES, D&apos;EXPÉRIENCES PROFESSIONNELLES, D&apos;ACQUIS PERSONNELS</label>
+            </value>
+            <value>
+                <fullName>AUTRE CAS DE NON BACHELIERS</fullName>
+                <default>false</default>
+                <label>AUTRE CAS DE NON BACHELIERS</label>
+            </value>
+            <value>
+                <fullName>BMA, BREVET DES METIERS D’ART</fullName>
+                <default>false</default>
+                <label>BMA, BREVET DES METIERS D’ART</label>
+            </value>
+            <value>
+                <fullName>DISPOSITIF BAC -3/+3</fullName>
+                <default>false</default>
+                <label>DISPOSITIF BAC -3/+3</label>
+            </value>
+            <value>
+                <fullName>NOUVEAU BAC GENERAL (A PARTIR DE 2021)</fullName>
+                <default>false</default>
+                <label>NOUVEAU BAC GENERAL (A PARTIR DE 2021)</label>
+            </value>
+            <value>
+                <fullName>SCIENTIFIQUE</fullName>
+                <default>false</default>
+                <label>SCIENTIFIQUE</label>
+            </value>
+            <value>
+                <fullName>LITTÉRAIRE</fullName>
+                <default>false</default>
+                <label>LITTÉRAIRE</label>
+            </value>
+            <value>
+                <fullName>ÉCONOMIQUE ET SOCIALE</fullName>
+                <default>false</default>
+                <label>ÉCONOMIQUE ET SOCIALE</label>
+            </value>
+            <value>
+                <fullName>BAC EUROPEEN (A PARTIR DE 2011)</fullName>
+                <default>false</default>
+                <label>BAC EUROPEEN (A PARTIR DE 2011)</label>
+            </value>
+            <value>
+                <fullName>OIB (Bac à option internationale)</fullName>
+                <default>false</default>
+                <label>OIB (Bac à option internationale)</label>
+            </value>
+            <value>
+                <fullName>IB : Bac international délivré par l’office du baccalauréat de Genève</fullName>
+                <default>false</default>
+                <label>IB : Bac international délivré par l’office du baccalauréat de Genève</label>
+            </value>
+            <value>
+                <fullName>Baccalauréats délivrés par des pays étrangers (ex : Algérie, Maroc…)</fullName>
+                <default>false</default>
+                <label>Baccalauréats délivrés par des pays étrangers (ex : Algérie, Maroc…)</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNOLOGIES DU DESIGN ET DES ARTS APPLIQUES</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNOLOGIES DU DESIGN ET DES ARTS APPLIQUES</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNOLOGIES DE L’INDUSTRIE ET DU DEVELOPPEMENT DURABLE</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNOLOGIES DE L’INDUSTRIE ET DU DEVELOPPEMENT DURABLE</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNIQUES INDUSTRIELLES</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNIQUES INDUSTRIELLES</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNOLOGIES TERTIAIRES</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNOLOGIES TERTIAIRES</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNOLOGIES DE LA GESTION</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNOLOGIES DE LA GESTION</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNOLOGIES DU MANAGEMENT ET DE LA GESTION</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNOLOGIES DU MANAGEMENT ET DE LA GESTION</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNOLOGIES DE LABORATOIRE</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNOLOGIES DE LABORATOIRE</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNOLOGIES DE LA SANTE ET DU SOCIAL</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNOLOGIES DE LA SANTE ET DU SOCIAL</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNOLOGIE DU PRODUIT AGROALIMENTAIRE</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNOLOGIE DU PRODUIT AGROALIMENTAIRE</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNOLOGIE DE L&apos;AGRONOMIE ET DE L&apos;ENVIRONNEMENT</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNOLOGIE DE L&apos;AGRONOMIE ET DE L&apos;ENVIRONNEMENT</label>
+            </value>
+            <value>
+                <fullName>MUSIQUE et TMD MUSIQUE</fullName>
+                <default>false</default>
+                <label>MUSIQUE et TMD MUSIQUE</label>
+            </value>
+            <value>
+                <fullName>DANSE et TMD DANSE</fullName>
+                <default>false</default>
+                <label>DANSE et TMD DANSE</label>
+            </value>
+            <value>
+                <fullName>SCIENCES ET TECHNOLOGIES DE L’HOTELLERIE ET DE LA RESTAURATION</fullName>
+                <default>false</default>
+                <label>SCIENCES ET TECHNOLOGIES DE L’HOTELLERIE ET DE LA RESTAURATION</label>
+            </value>
+            <value>
+                <fullName>BACS PROFESSIONNELS AGRICOLES</fullName>
+                <default>false</default>
+                <label>BACS PROFESSIONNELS AGRICOLES</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>PHILOSOPHIE-LETTRES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>ÉCONOMIQUE ET SOCIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>LETTRES-SCIENCES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>LETTRES-LANGUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>LETTRES-ARTS PLASTIQUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>LANGUES MATHÉMATIQUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>LANGUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>ÉDUCATION MUSICALE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>ARTS PLASTIQUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>MATHÉMATIQUES ET SCIENCES PHYSIQUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>MATHÉMATIQUES ET SCIENCES DE LA NATURE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>SCIENCES AGRONOMIQUES-TECHNIQUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>MATHÉMATIQUES ET TECHNIQUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>BAC INTERNATIONAL ET BAC EUROPÉEN (JUSQU’EN 2010)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>CONSTRUCTION MÉCANIQUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>ÉLECTRONIQUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>ÉLECTROTECHNIQUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>GÉNIE CIVIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>PHYSIQUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>CHIMIE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>BIOLOGIE OPTION BIOCHIMIE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>BIOLOGIE OPTION BIOLOGIE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES MÉDICO-SOCIALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>ÉQUIPEMENT TECHNIQUE – BÂTIMENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>MICROTECHNIQUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>MICROTECHNIQUE OPTION APPAREILLAGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>MICROTECHNIQUE OPTION OPTIQUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>MUSIQUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>DANSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>ARTS APPLIQUÉS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>SPÉCIALITÉ NON PRÉCISÉE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>TECHNIQUES ADMINISTRATIVES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>TECHNIQUES QUANTITATIVES DE GESTION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>TECHNIQUES COMMERCIALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>TECHNIQUES INFORMATIQUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>HÔTELLERIE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>BACS PROFESSIONNELS INDUSTRIELS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>BACS PROFESSIONNELS TERTIAIRES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>CAPACITÉ EN DROIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>TITRE ÉTRANGER ADMIS NATIONALEMENT EN ÉQUIVALENCE (Y COMPRIS BACCALAURÉATS ÉTRANGERS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>TITRE FRANÇAIS ADMIS NATIONALEMENT EN DISPENSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>ESEU A ou DAEU A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>ESEU B ou DAEU B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>PROMOTION SOCIALE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>VALIDATION D&apos;ÉTUDES, D&apos;EXPÉRIENCES PROFESSIONNELLES, D&apos;ACQUIS PERSONNELS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>AUTRE CAS DE NON BACHELIERS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>BMA, BREVET DES METIERS D’ART</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1994 et avant</controllingFieldValue>
+            <valueName>DISPOSITIF BAC -3/+3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>NOUVEAU BAC GENERAL (A PARTIR DE 2021)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENTIFIQUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>LITTÉRAIRE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>ÉCONOMIQUE ET SOCIALE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>BAC EUROPEEN (A PARTIR DE 2011)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>OIB (Bac à option internationale)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>IB : Bac international délivré par l’office du baccalauréat de Genève</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>Baccalauréats délivrés par des pays étrangers (ex : Algérie, Maroc…)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNOLOGIES DU DESIGN ET DES ARTS APPLIQUES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNOLOGIES DE L’INDUSTRIE ET DU DEVELOPPEMENT DURABLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNIQUES INDUSTRIELLES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNOLOGIES TERTIAIRES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNOLOGIES DE LA GESTION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNOLOGIES DU MANAGEMENT ET DE LA GESTION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNOLOGIES DE LABORATOIRE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNOLOGIES DE LA SANTE ET DU SOCIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNOLOGIE DU PRODUIT AGROALIMENTAIRE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNOLOGIE DE L&apos;AGRONOMIE ET DE L&apos;ENVIRONNEMENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>MUSIQUE et TMD MUSIQUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>DANSE et TMD DANSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>SCIENCES ET TECHNOLOGIES DE L’HOTELLERIE ET DE LA RESTAURATION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1995 et après</controllingFieldValue>
+            <valueName>BACS PROFESSIONNELS AGRICOLES</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

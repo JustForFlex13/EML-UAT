@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_test_non_modifiable_par_K_par_K</fullName>
+    <active>false</active>
+    <description>La date en test n&apos;est modifiable que par les équipes de Kerensen</description>
+    <errorConditionFormula>ISCHANGED( Date_en_test__c ) &amp;&amp;  $User.CompanyName = &quot;K par K&quot;</errorConditionFormula>
+    <errorDisplayField>Date_en_test__c</errorDisplayField>
+    <errorMessage>La date en test n&apos;est modifiable que par les équipes de Kerensen</errorMessage>
+</ValidationRule>

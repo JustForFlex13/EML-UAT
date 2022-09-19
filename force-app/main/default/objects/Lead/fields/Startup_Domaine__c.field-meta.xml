@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Startup_Domaine__c</fullName>
+    <externalId>false</externalId>
+    <label>Startup Domaine</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Foodtech</fullName>
+                <default>false</default>
+                <label>Foodtech</label>
+            </value>
+            <value>
+                <fullName>Fintech</fullName>
+                <default>false</default>
+                <label>Fintech</label>
+            </value>
+            <value>
+                <fullName>Sportech</fullName>
+                <default>false</default>
+                <label>Sportech</label>
+            </value>
+            <value>
+                <fullName>Edtech</fullName>
+                <default>false</default>
+                <label>Edtech</label>
+            </value>
+            <value>
+                <fullName>Hrtech</fullName>
+                <default>false</default>
+                <label>Hrtech</label>
+            </value>
+            <value>
+                <fullName>Legaltech</fullName>
+                <default>false</default>
+                <label>Legaltech</label>
+            </value>
+            <value>
+                <fullName>Cyber security</fullName>
+                <default>false</default>
+                <label>Cyber security</label>
+            </value>
+            <value>
+                <fullName>Biotech</fullName>
+                <default>false</default>
+                <label>Biotech</label>
+            </value>
+            <value>
+                <fullName>Healthtech</fullName>
+                <default>false</default>
+                <label>Healthtech</label>
+            </value>
+            <value>
+                <fullName>Beauty - Wellness</fullName>
+                <default>false</default>
+                <label>Beauty - Wellness</label>
+            </value>
+            <value>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+                <label>Entertainment</label>
+            </value>
+            <value>
+                <fullName>Retailtech</fullName>
+                <default>false</default>
+                <label>Retailtech</label>
+            </value>
+            <value>
+                <fullName>Fashiontech</fullName>
+                <default>false</default>
+                <label>Fashiontech</label>
+            </value>
+            <value>
+                <fullName>Smart City</fullName>
+                <default>false</default>
+                <label>Smart City</label>
+            </value>
+            <value>
+                <fullName>CivicTech</fullName>
+                <default>false</default>
+                <label>CivicTech</label>
+            </value>
+            <value>
+                <fullName>Traveltech</fullName>
+                <default>false</default>
+                <label>Traveltech</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Batîment</fullName>
+                <default>false</default>
+                <label>Batîment</label>
+            </value>
+            <value>
+                <fullName>Industrie 4.0</fullName>
+                <default>false</default>
+                <label>Industrie 4.0</label>
+            </value>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

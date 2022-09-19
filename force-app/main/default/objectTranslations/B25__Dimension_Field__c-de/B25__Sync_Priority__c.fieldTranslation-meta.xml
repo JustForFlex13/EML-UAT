@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Enthält eine Reservierung mehrere Dimensionen, wird zum Erstellen des Ereignisses der Datensatz mit der niedrigsten Synchronisierungspriorität genutzt. Die anderen verbundenen Dimension-Datensätze werden als Teilnehmende hinzugefügt.</help>
+    <label></label>
+    <name>B25__Sync_Priority__c</name>
+</CustomFieldTranslation>

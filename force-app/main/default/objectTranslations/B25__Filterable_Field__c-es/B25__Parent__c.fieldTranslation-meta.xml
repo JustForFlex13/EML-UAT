@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si crea un campo de filtro: contacte y ajuste el &quot;elemento primario&quot; a un campo de filtro de &quot;cuenta&quot;. Solo podrá seleccionar los contactos relacionados con la cuenta seleccionada como filtro en el calendario.</help>
+    <label></label>
+    <name>B25__Parent__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

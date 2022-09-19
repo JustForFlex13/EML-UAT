@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_de_formation__c</fullName>
+    <externalId>false</externalId>
+    <label>Type de formation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Antérieure</fullName>
+                <default>false</default>
+                <label>Antérieure</label>
+            </value>
+            <value>
+                <fullName>Postérieure</fullName>
+                <default>false</default>
+                <label>Postérieure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

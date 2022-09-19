@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Controleert welke timeranges moeten worden verborgen op de kalender</help>
+    <label></label>
+    <name>B25__Column_Hiding_Behavior__c</name>
+    <picklistValues>
+        <masterLabel>Don’t hide anything</masterLabel>
+        <translation>Verberg niets</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide all times without reservations</masterLabel>
+        <translation>Verberg alle tijden zonder reserveringen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide closed times</masterLabel>
+        <translation>Verberg alles buiten de openingstijden</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide closed times without reservations</masterLabel>
+        <translation>Verberg alles buiten de openingstijden, zonder reserveringen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide times outside of start/end</masterLabel>
+        <translation>Verberg de tijden buiten de start/eindtijd</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide times outside of start/end, without reservations</masterLabel>
+        <translation>Verberg de tijden buiten de start/eindtijd, zonder reserveringen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

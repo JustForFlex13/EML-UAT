@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Phone number of the employee in charge of human resources who can engage the company in the student&apos;s work experience</help>
+    <label>Phone number of the agreement signatory</label>
+    <name>Telephone_Signataire_Convention__c</name>
+</CustomFieldTranslation>

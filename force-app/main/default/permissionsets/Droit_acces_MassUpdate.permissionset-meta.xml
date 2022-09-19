@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Droit acces MassUpdate</label>
+    <license>Salesforce</license>
+    <pageAccesses>
+        <apexPage>MassUpdateContact</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>MassUpdateOpportunity</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+</PermissionSet>

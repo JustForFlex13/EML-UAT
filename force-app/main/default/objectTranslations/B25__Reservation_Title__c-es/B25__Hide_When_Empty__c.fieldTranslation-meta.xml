@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Oculta este título cuando el campo al que hace referencia está vacío. El título entonces ya no ocupará espacio.</help>
+    <label></label>
+    <name>B25__Hide_When_Empty__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>pour les candidats qui souhaitent candidater plus tard</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Suite entretien tél qualifié</name>
+    <style>none</style>
+    <subject>emlyon business school | Informations complémentaires EMBA</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

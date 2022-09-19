@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Hide_Service_Section__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>By enabling this checkbox you will not be able to add service reservations when you have this reservation type selected</description>
+    <externalId>false</externalId>
+    <inlineHelpText>En activant cette case à cocher, vous ne pourrez pas ajouter de réservations de services lorsque ce type de réservation est sélectionné</inlineHelpText>
+    <label>Hide Service Section</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

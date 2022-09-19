@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Bold__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, this Title will be in bold.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est cochée, ce titre sera en gras.</inlineHelpText>
+    <label>Bold</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

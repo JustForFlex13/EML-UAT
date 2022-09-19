@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O formato para o intervalo de tempo no topo do Calendário, na seguinte forma: início {&lt;format tokens&gt;} fim{&lt;format tokens&gt;}. Os símbolos de formato podem ser encontrados em: https://momentjs.com/docs/#/displaying/format/.</help>
+    <label></label>
+    <name>B25__Time_Range_Format__c</name>
+</CustomFieldTranslation>

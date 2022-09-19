@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Prijsberekening bepaald de totale prijs van de reservering. Het gebruikt de standaardprijs als uitgangspunt voor de berekening.</help>
+    <label></label>
+    <name>B25__Calculation_Method__c</name>
+    <picklistValues>
+        <masterLabel>PER_PERSON</masterLabel>
+        <translation>Per Persoon</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER_PERSON_PER_TIME_UNIT</masterLabel>
+        <translation>Per Persoon Per Tijdseenheid</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER_TIME_UNIT</masterLabel>
+        <translation>Per Tijdseenheid</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cat_gorie_r_le__c</fullName>
+    <externalId>false</externalId>
+    <label>Catégorie rôle</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direction, institutions ou associations apparentées à EMLYON</fullName>
+                <default>false</default>
+                <label>Direction, institutions ou associations apparentées à EMLYON</label>
+            </value>
+            <value>
+                <fullName>Dirigeants Entreprises</fullName>
+                <default>false</default>
+                <label>Dirigeants Entreprises</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

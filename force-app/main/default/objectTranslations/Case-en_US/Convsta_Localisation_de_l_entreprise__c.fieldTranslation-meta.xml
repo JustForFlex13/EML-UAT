@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Company location</label>
+    <name>Convsta_Localisation_de_l_entreprise__c</name>
+    <picklistValues>
+        <masterLabel>A l&apos;étranger</masterLabel>
+        <translation>Out of France</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En France</masterLabel>
+        <translation>In France</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Resource_One__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This resource blocks the other resource and vice versa.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cette ressource bloque l’autre ressource et vice versa.</inlineHelpText>
+    <label>Resource One</label>
+    <referenceTo>B25__Resource__c</referenceTo>
+    <relationshipLabel>Resource Groupings (Resource One)</relationshipLabel>
+    <relationshipName>Resource_Groupings_One</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

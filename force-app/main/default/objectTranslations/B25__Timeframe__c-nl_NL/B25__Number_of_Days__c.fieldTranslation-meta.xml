@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aantal dagen dat aan de startdatum en einddatum moet worden toegevoegd.</help>
+    <label></label>
+    <name>B25__Number_of_Days__c</name>
+</CustomFieldTranslation>

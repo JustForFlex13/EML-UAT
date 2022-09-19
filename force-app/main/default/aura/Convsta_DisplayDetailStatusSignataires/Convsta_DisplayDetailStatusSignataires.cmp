@@ -1,0 +1,17 @@
+<aura:component controller="LCctrl01_Convsta_demandeController"
+                implements="flexipage:availableForAllPageTypes,force:hasRecordId">
+    <!--<force:recordData recordId = "{!v.recordId}"/>-->
+    
+	<lightning:button variant="brand" 
+                      label="Rafraichir" 
+                      title="Rafrachir" 
+                      onclick="{!c.handleClick }" 
+                      value="{!this}"
+    />
+    <lightning:button variant="brand" 
+                      label="Annuler la signature universign" 
+                      title="Annuler la signature universign" 
+                      onclick="{!c.handleClickCancel }" 
+                      value="{!this}"
+    />
+</aura:component>

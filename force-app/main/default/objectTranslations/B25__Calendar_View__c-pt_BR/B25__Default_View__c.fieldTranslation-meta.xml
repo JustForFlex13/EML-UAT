@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Isto indica que a Visualização ligada é a Visualização predefinida para o Calendário ligado. Cada Calendário só pode ter uma Visualização predefinida, o que significa que só uma Visualização de Calendário pode ser marcada como a predefinida.</help>
+    <label></label>
+    <name>B25__Default_View__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Het aantal dat meetelt in de berekening van de bezetting (e.g. in de dimensie)</help>
+    <label></label>
+    <name>B25__Quantity__c</name>
+</CustomFieldTranslation>

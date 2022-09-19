@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__End_GMT__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The end time of the Reservation in GMT.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(B25__End__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>L’heure de fin de la réservation au fuseau GMT.</inlineHelpText>
+    <label>End (GMT)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Selection_Includes_Buffer_Time__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When disabled, the buffer time is added outside of the time range selected by the user. When enabled, the buffer time is included in the time range (making the actual reservation smaller).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est désactivée, le temps de tampon est ajouté en dehors de la plage horaire sélectionnée par l’utilisateur. Lorsque cette option est activée, le temps de tampon est inclus dans la plage horaire (ce qui rend la réservation réelle plus courte).</inlineHelpText>
+    <label>Selection Includes Buffer Time</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

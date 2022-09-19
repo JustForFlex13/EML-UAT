@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Parcours académique</fullName>
+                <default>false</default>
+                <label>Parcours académique</label>
+            </value>
+            <value>
+                <fullName>Parcours professionnel</fullName>
+                <default>false</default>
+                <label>Parcours professionnel</label>
+            </value>
+            <value>
+                <fullName>Séjour linguistique</fullName>
+                <default>false</default>
+                <label>Séjour linguistique</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

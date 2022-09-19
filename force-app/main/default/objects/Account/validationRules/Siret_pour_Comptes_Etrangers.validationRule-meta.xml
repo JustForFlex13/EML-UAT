@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Siret_pour_Comptes_Etrangers</fullName>
+    <active>true</active>
+    <description>Pour les comptes résidant ailleurs qu&apos;en France le champ siret doit être à 00000000000000</description>
+    <errorConditionFormula>! $User.ByPass_RV__c
+&amp;&amp; 
+! ISBLANK(CodePays__r.Code_Pays__c) 
+&amp;&amp;
+CodePays__r.Code_Pays__c &lt;&gt; &quot;FRA&quot;
+ &amp;&amp; 
+SIRET__c  &lt;&gt;  &quot;00000000000000&quot;</errorConditionFormula>
+    <errorDisplayField>SIRET__c</errorDisplayField>
+    <errorMessage>Pour les comptes étrangers veuillez entrer le champ siret à 00000000000000</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si el recurso tiene tanto un elemento primario como un elemento primario principal, el contexto será igual a sus nombres. Si solo tiene un elemento primario, el contexto es igual al nombre del elemento primario. Si el recurso no tiene ningún elemento primario, entonces el contexto se quedará en blanco.</help>
+    <label></label>
+    <name>B25__Context__c</name>
+</CustomFieldTranslation>

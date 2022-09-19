@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>rarely</animationFrequency>
+    <developerName>Path</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Path</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Portail_candidat</recordTypeName>
+    <sobjectType>hed__Application__c</sobjectType>
+    <targetField>hed__Application_Status__c</targetField>
+    <targetFieldChangeToValues>Admit</targetFieldChangeToValues>
+</AnimationRule>

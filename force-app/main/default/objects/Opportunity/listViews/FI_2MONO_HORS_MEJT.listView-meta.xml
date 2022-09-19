@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FI_2MONO_HORS_MEJT</fullName>
+    <columns>Contact_central__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Statut_Canel__c</columns>
+    <columns>Eligibilite__c</columns>
+    <columns>Age__c</columns>
+    <columns>Ann_e_du_dipl_me__c</columns>
+    <columns>Niveau_d_tudes__c</columns>
+    <columns>Contact_Dernier_Dipl_me_ou_en_cours__c</columns>
+    <columns>Contact_Etablissement__c</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>Niveau_d_exp_rience_professionnelle__c</columns>
+    <columns>Date_de_Cr_ation_fiche_UI__c</columns>
+    <columns>Contact_Canal_d_acquisition__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Intéressé par</value>
+    </filters>
+    <filters>
+        <field>Date_de_Cr_ation_fiche_UI__c</field>
+        <operation>lessOrEqual</operation>
+        <value>8/27/2018</value>
+    </filters>
+    <filters>
+        <field>Contact_Type_d_enregistrement__c</field>
+        <operation>equals</operation>
+        <value>Prospect Etudiant</value>
+    </filters>
+    <filters>
+        <field>Exercice__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>2018</value>
+    </filters>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>FI_Qualification Sans Code_Produit</label>
+    <language>fr</language>
+</ListView>

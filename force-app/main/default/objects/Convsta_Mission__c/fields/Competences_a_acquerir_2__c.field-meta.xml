@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competences_a_acquerir_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Compétences Early makers</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Interagir dans un contexte interculturel</fullName>
+                <default>false</default>
+                <label>Interagir dans un contexte interculturel</label>
+            </value>
+            <value>
+                <fullName>Prendre des initiatives</fullName>
+                <default>false</default>
+                <label>Prendre des initiatives</label>
+            </value>
+            <value>
+                <fullName>Prendre des risques</fullName>
+                <default>false</default>
+                <label>Prendre des risques</label>
+            </value>
+            <value>
+                <fullName>Se remettre en cause</fullName>
+                <default>false</default>
+                <label>Se remettre en cause</label>
+            </value>
+            <value>
+                <fullName>Collaborer, à co-construire</fullName>
+                <default>false</default>
+                <label>Collaborer, à co-construire</label>
+            </value>
+            <value>
+                <fullName>Établir, développer, mobiliser des réseaux</fullName>
+                <default>false</default>
+                <label>Établir, développer, mobiliser des réseaux</label>
+            </value>
+            <value>
+                <fullName>Valoriser ses réalisations, faire connaître</fullName>
+                <default>false</default>
+                <label>Valoriser ses réalisations, faire connaître</label>
+            </value>
+            <value>
+                <fullName>Avoir un comportement éthique et responsable</fullName>
+                <default>false</default>
+                <label>Avoir un comportement éthique et responsable</label>
+            </value>
+            <value>
+                <fullName>Anticiper les transformations et ruptures</fullName>
+                <default>false</default>
+                <label>Anticiper les transformations et ruptures</label>
+            </value>
+            <value>
+                <fullName>Capitaliser, à apprendre de ses expériences</fullName>
+                <default>false</default>
+                <label>Capitaliser, à apprendre de ses expériences</label>
+            </value>
+            <value>
+                <fullName>Construire un regard critique</fullName>
+                <default>false</default>
+                <label>Construire un regard critique</label>
+            </value>
+            <value>
+                <fullName>Formuler et mettre en œuvre des solutions innovantes</fullName>
+                <default>false</default>
+                <label>Formuler et mettre en œuvre des solutions innovantes</label>
+            </value>
+            <value>
+                <fullName>Faire preuve de résilience</fullName>
+                <default>false</default>
+                <label>Faire preuve de résilience</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

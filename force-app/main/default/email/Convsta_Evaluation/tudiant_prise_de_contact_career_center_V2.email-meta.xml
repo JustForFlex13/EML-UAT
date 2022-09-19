@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Prise de contact career center pour l&apos;étudiant et son évaluation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Étudiant prise de contact career center V2</name>
+    <style>freeForm</style>
+    <subject>Dernier rappel : Évaluation à compléter par votre tuteur / Last reminder : Evaluation has to be completed by your tutor</subject>
+    <textOnly>Bonjour {!Convsta_Evaluation__c.Etudiant__c},
+
+Nous vous informons de nouveau que le formulaire d’évaluation de votre période de stage n’a toujours pas été complété par votre tuteur en entreprise. L’évaluation de votre stage par votre tuteur est un élément obligatoire dans le but de de valider votre expérience professionnelle.
+
+Nous vous prions de prendre contact au plus vite avec le Career Center afin de régulariser votre dossier.
+
+
+emlyon Career Center
+
+English version below
+
+
+Dear {!Convsta_Evaluation__c.Etudiant__c},
+
+We inform you once again that the evaluation form for your internship period has not been completed by your company tutor. The evaluation of your internship by your tutor is a mandatory element in order to validate your professional experience.
+
+Please contact the Career Center as soon as possible to regularise your case.
+
+emlyon Career Center</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

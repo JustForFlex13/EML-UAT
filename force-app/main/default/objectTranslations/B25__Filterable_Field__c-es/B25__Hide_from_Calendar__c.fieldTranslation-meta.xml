@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Para los filtros de casillas, marcar esto ocultará el filtro del calendario, y siempre aplicará el valor predeterminado de la casilla al calendario.</help>
+    <label></label>
+    <name>B25__Hide_from_Calendar__c</name>
+</CustomFieldTranslation>

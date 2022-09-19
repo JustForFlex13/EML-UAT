@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Previsualiser_la_convention__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&apos;/apex/Convsta_GenerationConvention?caseId=&apos;&amp;Id + &apos;&amp;previewMode&apos;, &apos;Ouvrir&apos;) &amp; BR() &amp;
+HYPERLINK(&apos;/apex/Convsta_GenerationConvention?caseId=&apos;&amp;Id , &apos;Version imprimable&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Prévisualiser la convention</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

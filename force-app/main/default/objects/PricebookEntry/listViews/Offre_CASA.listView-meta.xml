@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offre_CASA</fullName>
+    <columns>PRODUCT2.RECORD_TYPE</columns>
+    <columns>PRODUCT.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT.NAME</columns>
+    <columns>Product2.Libelle_Produit__c</columns>
+    <columns>Product2.Suiveur__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT.CUSTOMER_PRODUCT_ID</field>
+        <operation>contains</operation>
+        <value>CA_</value>
+    </filters>
+    <label>Offre  CASA</label>
+    <language>fr</language>
+</ListView>

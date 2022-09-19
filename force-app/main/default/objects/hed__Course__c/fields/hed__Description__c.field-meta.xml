@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hed__Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field has been replaced by the Extended Description field, which accomodates longer descriptions. Your admin can migrate text from the Description to the Extended Description field in EDA Settings | Courses.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Ce champ a été remplacé par le champ Description étendue, qui accepte des descriptions plus longues. Votre administrateur peut migrer le texte du champ Description vers le champ Description étendue dans Paramètres EDA | Cours.</inlineHelpText>
+    <label>Description</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

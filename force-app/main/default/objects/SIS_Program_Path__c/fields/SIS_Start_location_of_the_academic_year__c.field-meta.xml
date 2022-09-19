@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Start_location_of_the_academic_year__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Start location of the academic year</label>
+    <referenceTo>SIS_Higher_Education_Institution__c</referenceTo>
+    <relationshipLabel>Program Paths</relationshipLabel>
+    <relationshipName>Program_Paths</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

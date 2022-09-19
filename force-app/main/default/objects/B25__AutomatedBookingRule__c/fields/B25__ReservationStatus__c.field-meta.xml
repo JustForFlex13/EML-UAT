@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__ReservationStatus__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The status that the reservation(s) will get.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le statut que la ou les réservations obtiendront.</inlineHelpText>
+    <label>Reservation Status</label>
+    <referenceTo>B25__Reservation_Status__c</referenceTo>
+    <relationshipLabel>Automated Booking Rules</relationshipLabel>
+    <relationshipName>Automated_Booking_Rules</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__NrOfTimeUnitsField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A number field on opportunity or opportunity product. Used together with Time Unit to calculate a duration for the reservations.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Un champ numérique pour l’opportunité ou le produit d’opportunité. Utilisé avec l’unité de temps pour calculer une durée pour les réservations.</inlineHelpText>
+    <label>Nr Of Time Units Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

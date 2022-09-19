@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>chk_vocation_days_4__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Vocation days - Marketing &amp; Business Development - 9/10/18 - Paris</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Vocation days - Marketing &amp; Business Development - 9/10/18 - Paris</inlineHelpText>
+    <label>VDay-Marketing&amp;BD-09/10/18-Paris</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

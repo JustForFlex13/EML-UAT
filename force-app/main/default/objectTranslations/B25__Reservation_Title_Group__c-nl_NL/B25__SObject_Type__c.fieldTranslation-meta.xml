@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De API naam van het SObject waarvoor deze titels gedefinieerd zijn.</help>
+    <label></label>
+    <name>B25__SObject_Type__c</name>
+</CustomFieldTranslation>

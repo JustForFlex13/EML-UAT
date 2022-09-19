@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Liste_des_Etats_CANADA</fullName>
+    <columns>Code_Etat__c</columns>
+    <columns>NAME</columns>
+    <columns>Code_pays__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Code_pays__c</field>
+        <operation>contains</operation>
+        <value>CAN</value>
+    </filters>
+    <label>Liste des Etats - CANADA</label>
+    <language>fr</language>
+</ListView>

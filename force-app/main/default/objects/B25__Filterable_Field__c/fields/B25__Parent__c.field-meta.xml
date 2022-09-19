@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Parent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>If you create a Filter Field: Contact and set the &quot;Parent&quot; to a &quot;Account&quot; Filter Field, you will only be able to select the Contacts related to the selected Account as a Filter for in the Calendar</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Si vous créez un champ de filtre « Contact » et que vous définissez le « Parent » sur un champ de filtre « Compte », vous ne pourrez sélectionner que les contacts liés au compte sélectionné comme filtre dans le calendrier</inlineHelpText>
+    <label>Parent</label>
+    <referenceTo>B25__Filterable_Field__c</referenceTo>
+    <relationshipLabel>Filterable Fields (Parent)</relationshipLabel>
+    <relationshipName>Parent_Fields</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

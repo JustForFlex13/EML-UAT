@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Statut_Signature__c</fullName>
+    <externalId>false</externalId>
+    <label>Statut de la signature</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Envoyé</fullName>
+                <default>false</default>
+                <label>Envoyé</label>
+            </value>
+            <value>
+                <fullName>Signée</fullName>
+                <default>false</default>
+                <label>Signée</label>
+            </value>
+            <value>
+                <fullName>Convention validée à émettre</fullName>
+                <default>false</default>
+                <label>Convention validée à émettre</label>
+            </value>
+            <value>
+                <fullName>Avenant validé à émettre</fullName>
+                <default>false</default>
+                <label>Avenant validé à émettre</label>
+            </value>
+            <value>
+                <fullName>Erreur génération</fullName>
+                <default>false</default>
+                <label>Erreur génération</label>
+            </value>
+            <value>
+                <fullName>Expirée</fullName>
+                <default>false</default>
+                <label>Expirée</label>
+            </value>
+            <value>
+                <fullName>Annulée</fullName>
+                <default>false</default>
+                <label>Annulée</label>
+            </value>
+            <value>
+                <fullName>Traité manuellement</fullName>
+                <default>false</default>
+                <label>Traité manuellement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

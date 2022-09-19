@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Format__c</fullName>
+    <externalId>false</externalId>
+    <label>Format</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Court</fullName>
+                <default>false</default>
+                <label>Court</label>
+            </value>
+            <value>
+                <fullName>Parcours</fullName>
+                <default>false</default>
+                <label>Parcours</label>
+            </value>
+            <value>
+                <fullName>Certificat</fullName>
+                <default>false</default>
+                <label>Certificat</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Unique_Identifier_Validation</fullName>
+    <active>true</active>
+    <description>Unique identifier may not have special characters, and it may not start with a number.</description>
+    <errorConditionFormula>NOT(REGEX(B25__Unique_Identifier__c, &quot;^[a-zA-Z][a-zA-Z0-9]*$&quot;))</errorConditionFormula>
+    <errorDisplayField>B25__Unique_Identifier__c</errorDisplayField>
+    <errorMessage>Unique identifier may not have special characters, and it may not start with a number.</errorMessage>
+</ValidationRule>

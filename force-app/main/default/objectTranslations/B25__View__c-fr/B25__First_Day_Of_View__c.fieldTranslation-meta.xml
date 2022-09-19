@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le jour où la vue doit commencer. « Local » utilise le premier jour de la semaine, en fonction des paramètres régionaux de l’utilisateur. Si ce champ est laissé vide, le jour sélectionné sur le calendrier sera utilisé comme premier jour de la vue.</help>
+    <label></label>
+    <name>B25__First_Day_Of_View__c</name>
+    <picklistValues>
+        <masterLabel>First day of the month</masterLabel>
+        <translation>Premier jour du mois</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First day of the year</masterLabel>
+        <translation>Premier jour de l’année</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Friday</masterLabel>
+        <translation>Vendredi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locale</masterLabel>
+        <translation>Local</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monday</masterLabel>
+        <translation>Lundi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saturday</masterLabel>
+        <translation>Samedi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sunday</masterLabel>
+        <translation>Dimanche</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thursday</masterLabel>
+        <translation>Jeudi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tuesday</masterLabel>
+        <translation>Mardi</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wednesday</masterLabel>
+        <translation>Mercredi</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Analyser le risque financier</label>
+    <protected>false</protected>
+    <values>
+        <field>Famille_metier__c</field>
+        <value xsi:type="xsd:string">Finance d&apos;entreprise, comptabilité, contrôle de gestion</value>
+    </values>
+    <values>
+        <field>Name_En__c</field>
+        <value xsi:type="xsd:string">Analyse financial risk</value>
+    </values>
+    <values>
+        <field>Name__c</field>
+        <value xsi:type="xsd:string">Analyser le risque financier</value>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Type__c</field>
+        <value xsi:type="xsd:string">3Métier</value>
+    </values>
+</CustomMetadata>

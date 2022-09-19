@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Program_Family__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Anciennement Code CENTRE</inlineHelpText>
+    <label>Program Family</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Global BBA</fullName>
+                <default>false</default>
+                <label>Global BBA</label>
+            </value>
+            <value>
+                <fullName>International MBA</fullName>
+                <default>false</default>
+                <label>International MBA</label>
+            </value>
+            <value>
+                <fullName>PGE</fullName>
+                <default>false</default>
+                <label>PGE</label>
+            </value>
+            <value>
+                <fullName>Ms</fullName>
+                <default>false</default>
+                <label>Ms</label>
+            </value>
+            <value>
+                <fullName>Msc</fullName>
+                <default>false</default>
+                <label>Msc</label>
+            </value>
+            <value>
+                <fullName>Executive MBA</fullName>
+                <default>false</default>
+                <label>Executive MBA</label>
+            </value>
+            <value>
+                <fullName>EMBABUPT</fullName>
+                <default>false</default>
+                <label>EMBABUPT</label>
+            </value>
+            <value>
+                <fullName>MBA SISU</fullName>
+                <default>false</default>
+                <label>MBA SISU</label>
+            </value>
+            <value>
+                <fullName>EMMG</fullName>
+                <default>false</default>
+                <label>EMMG</label>
+            </value>
+            <value>
+                <fullName>Phd</fullName>
+                <default>false</default>
+                <label>PhD</label>
+            </value>
+            <value>
+                <fullName>DBA</fullName>
+                <default>false</default>
+                <label>DBA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

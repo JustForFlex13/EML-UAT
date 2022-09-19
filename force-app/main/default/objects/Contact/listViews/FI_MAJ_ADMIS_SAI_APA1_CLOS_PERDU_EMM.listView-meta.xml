@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FI_MAJ_ADMIS_SAI_APA1_CLOS_PERDU_EMM</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Souhait_programme__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>FI_MAJ ADMIS SAI APA1 &gt; CLOS PERDU EMM</label>
+</ListView>

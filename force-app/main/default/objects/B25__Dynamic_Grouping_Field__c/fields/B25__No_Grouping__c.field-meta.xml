@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__No_Grouping__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, this grouping option will represent no grouping at all. Validation of the name field of
+		this record will then be skipped.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est activée, cette option de regroupement ne représente aucun regroupement. La validation du champ de nom de cet enregistrement sera alors ignorée.</inlineHelpText>
+    <label>No Grouping</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

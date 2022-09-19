@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Int_r_t_de_la_piste__c</fullName>
+    <description>Ce champ répertorie l&apos;ensemble des intérêts de la piste</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Ce champ répertorie l&apos;ensemble des intérêts de la piste</inlineHelpText>
+    <label>Intérêt de la piste</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Global BBA</fullName>
+                <default>false</default>
+                <label>BBA</label>
+            </value>
+            <value>
+                <fullName>Global BBA International Admissions</fullName>
+                <default>false</default>
+                <label>INTBBA</label>
+            </value>
+            <value>
+                <fullName>Programme Grande Ecole - Concours Classes Préparatoires</fullName>
+                <default>false</default>
+                <label>PREPA</label>
+            </value>
+            <value>
+                <fullName>Programme Grande Ecole - Admission sur Titre France</fullName>
+                <default>false</default>
+                <label>APA1</label>
+            </value>
+            <value>
+                <fullName>MSc in Management - Grande Ecole</fullName>
+                <default>false</default>
+                <label>SAI</label>
+            </value>
+            <value>
+                <fullName>MSc in Management - European Triple Degree - Grande Ecole</fullName>
+                <default>false</default>
+                <label>EMM</label>
+            </value>
+            <value>
+                <fullName>MSc in Digital Marketing and Data Science</fullName>
+                <default>false</default>
+                <label>DMDS</label>
+            </value>
+            <value>
+                <fullName>MSc in Health Management &amp; Data Intelligence</fullName>
+                <default>false</default>
+                <label>HMDI</label>
+            </value>
+            <value>
+                <fullName>MSc in International Hospitality Management</fullName>
+                <default>false</default>
+                <label>IHM</label>
+            </value>
+            <value>
+                <fullName>MSc in Finance</fullName>
+                <default>false</default>
+                <label>MIFI</label>
+            </value>
+            <value>
+                <fullName>MSc in Luxury Management &amp; Marketing</fullName>
+                <default>false</default>
+                <label>MMML</label>
+            </value>
+            <value>
+                <fullName>MSc in Sports Industry Management</fullName>
+                <default>false</default>
+                <label>SIM</label>
+            </value>
+            <value>
+                <fullName>MSc in Strategy &amp; Consulting</fullName>
+                <default>false</default>
+                <label>SCO</label>
+            </value>
+            <value>
+                <fullName>MSc in Global Innovation &amp; Entrepreneurship</fullName>
+                <default>false</default>
+                <label>GIE</label>
+            </value>
+            <value>
+                <fullName>MSc in Supply Chain &amp; Purchasing Management</fullName>
+                <default>false</default>
+                <label>SCPM</label>
+            </value>
+            <value>
+                <fullName>MSc in Cybersecurity &amp; Defense Management</fullName>
+                <default>false</default>
+                <label>CDM</label>
+            </value>
+            <value>
+                <fullName>MSc in International Marketing &amp; Business Development</fullName>
+                <default>false</default>
+                <label>IMBD</label>
+            </value>
+            <value>
+                <fullName>MSc in Data Science &amp; Artificial Intelligence Strategy</fullName>
+                <default>false</default>
+                <label>DSAIS</label>
+            </value>
+            <value>
+                <fullName>MSc in High-End Brand Management</fullName>
+                <default>false</default>
+                <label>HEBM</label>
+            </value>
+            <value>
+                <fullName>MS Management des Entreprises du Vivant et de l&apos;Agroalimentaire</fullName>
+                <default>false</default>
+                <label>MAI</label>
+            </value>
+            <value>
+                <fullName>MS Entrepreneuriat et Management de l&apos;Innovation</fullName>
+                <default>false</default>
+                <label>MEMI</label>
+            </value>
+            <value>
+                <fullName>MS Juriste Manager International</fullName>
+                <default>false</default>
+                <label>MJ</label>
+            </value>
+            <value>
+                <fullName>MS Juriste Manager International Part-Time</fullName>
+                <default>false</default>
+                <label>MJPT</label>
+            </value>
+            <value>
+                <fullName>MS Stratégie et Développement d&apos;Affaires Internationales</fullName>
+                <default>false</default>
+                <label>MSDAI</label>
+            </value>
+            <value>
+                <fullName>MS Transformation Digitale Marketing &amp; Stratégie</fullName>
+                <default>false</default>
+                <label>MTDMS</label>
+            </value>
+            <value>
+                <fullName>MS Management de la Transition Energétique</fullName>
+                <default>false</default>
+                <label>MMTE</label>
+            </value>
+            <value>
+                <fullName>MS Transformation Digitale Marketing &amp; Stratégie Part Time</fullName>
+                <default>false</default>
+                <label>MTDMSPT</label>
+            </value>
+            <value>
+                <fullName>MS Entrepreneuriat et Management de l&apos;Innovation Part Time</fullName>
+                <default>false</default>
+                <label>MEMIPT</label>
+            </value>
+            <value>
+                <fullName>International MBA</fullName>
+                <default>false</default>
+                <label>IMBA</label>
+            </value>
+            <value>
+                <fullName>Executive Master Management Général</fullName>
+                <default>false</default>
+                <label>PGM</label>
+            </value>
+            <value>
+                <fullName>Executive MBA FR</fullName>
+                <default>false</default>
+                <label>EMBAFR</label>
+            </value>
+            <value>
+                <fullName>Executive MBA EN</fullName>
+                <default>false</default>
+                <label>EMBAEN</label>
+            </value>
+            <value>
+                <fullName>Global Doctorate of Business Administration</fullName>
+                <default>false</default>
+                <label>GDBA</label>
+            </value>
+            <value>
+                <fullName>Diriger une activité</fullName>
+                <default>false</default>
+                <label>DUAV2</label>
+            </value>
+            <value>
+                <fullName>Objectif Conseil d&apos;administration</fullName>
+                <default>false</default>
+                <label>OCA</label>
+            </value>
+            <value>
+                <fullName>Certificat</fullName>
+                <default>false</default>
+                <label>Certificat</label>
+            </value>
+            <value>
+                <fullName>Executive Master Management Général Online</fullName>
+                <default>false</default>
+                <label>PGMONLINE</label>
+            </value>
+            <value>
+                <fullName>Executive MBA Online</fullName>
+                <default>false</default>
+                <label>EMBAO</label>
+            </value>
+            <value>
+                <fullName>MS Entrepreneuriat &amp; Management de l’Innovation Part-Time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MS Entrepreneuriat &amp; Management de l’Innovation Part-Time</label>
+            </value>
+            <value>
+                <fullName>MSc in Finance - FR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MSc in Finance - FR</label>
+            </value>
+            <value>
+                <fullName>PGMONLINE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PGMONLINE</label>
+            </value>
+            <value>
+                <fullName>PTD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PTD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

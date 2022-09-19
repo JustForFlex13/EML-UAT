@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Pour tous les évènements : nombres de places limitées : nous revenons vers vous</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x200</letterhead>
+    <name>Emlyon business school – Merci pour votre demande - Tous les events</name>
+    <style>freeForm</style>
+    <subject>Objet : Emlyon business school – Merci pour votre demande</subject>
+    <textOnly>Bonjour,
+
+Nous vous remercions de choisir le Careers Center pour vous accompagner dans la mise en place de {!Opportunity.Name} le {!Opportunity.Date_evenement__c}.
+
+Pour vous garantir une bonne visibilité et des échanges de qualité, tous nos évènements de recrutement complémentaires sont proposés avec un nombre d’inscription limité.
+
+Nous avons pris en compte votre demande, nous reviendrons vers vous pour vous confirmer votre inscription dans un délai de 15 jours.
+
+Cordialement,
+
+!User.Name}
+{!User.Title}
+
+{!User.Phone}
+
+23, avenue Guy de Collongue
+CS 40203 69134 Ecully Cedex France
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

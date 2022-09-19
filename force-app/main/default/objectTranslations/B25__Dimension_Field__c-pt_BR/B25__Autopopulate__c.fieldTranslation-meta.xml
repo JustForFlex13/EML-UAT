@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ao criar uma nova Reserva no Calendário neste Elemento, este campo deve ser automaticamente preenchido?</help>
+    <label></label>
+    <name>B25__Autopopulate__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Sempre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>Nunca</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Only when on form</masterLabel>
+        <translation>Apenas quando no formulário</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Only when on form and required</masterLabel>
+        <translation>Apenas quando no formulário e necessário</translation>
+    </picklistValues>
+</CustomFieldTranslation>

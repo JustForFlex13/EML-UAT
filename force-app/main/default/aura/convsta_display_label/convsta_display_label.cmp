@@ -1,0 +1,12 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+    
+    <aura:attribute name="labelName" type="String" />
+    <aura:attribute name="labelcontent" type="String" />
+    <aura:attribute name="tempLabelAttr" type="Object" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <article class="slds-card" style="background-color:rgb(227, 38, 27); ">
+        <div class="slds-card__body slds-card__body_inner" style=" color: white;" >{!v.tempLabelAttr}</div>
+    </article>
+</aura:component>

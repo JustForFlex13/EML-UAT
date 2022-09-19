@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FC_F_Courte_Produits_actifs_2018_2019</fullName>
+    <columns>Product2.Suiveur__c</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>PRODUCT.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT.NAME</columns>
+    <columns>Product2.Pack_la_carte__c</columns>
+    <columns>PRODUCT.DEFAULT_PRICE</columns>
+    <columns>PRODUCT.ACTIVE</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>PRICEBOOK.NAME</field>
+        <operation>equals</operation>
+        <value>Formation courte</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.FAMILY_ENUM</field>
+        <operation>equals</operation>
+        <value>OFFRES EXEC DEV Programmes Certifiants,OFFRES EXEC DEV Programmes courts</value>
+    </filters>
+    <label>FC_F.Courte_Produits actifs 2018-2019</label>
+    <language>fr</language>
+    <queue>Formation courte</queue>
+</ListView>

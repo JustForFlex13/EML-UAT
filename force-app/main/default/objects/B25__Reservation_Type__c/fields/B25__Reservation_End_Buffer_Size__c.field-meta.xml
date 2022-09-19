@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Reservation_End_Buffer_Size__c</fullName>
+    <defaultValue>0</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The size of the reservation end buffer in minutes. This will be displayed on the calendar and can be used to indicate clean-up time after the actual reservation has taken place.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>La taille du tampon de fin de réservation en minutes. Elle sera affichée sur le calendrier et peut être utilisée pour indiquer le temps de nettoyage après que la réservation réelle ait eu lieu.</inlineHelpText>
+    <label>Reservation End Buffer Size</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

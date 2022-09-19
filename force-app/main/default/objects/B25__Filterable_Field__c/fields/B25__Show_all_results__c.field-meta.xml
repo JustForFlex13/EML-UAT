@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Show_all_results__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>For lookups, checking this box will display all the possible options in the suggestion list.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Pour les recherches, en cochant cette case, toutes les options possibles seront affichées dans la liste de suggestions.</inlineHelpText>
+    <label>Show all results</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

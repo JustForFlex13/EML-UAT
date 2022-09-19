@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der API-Name eines (projektübergreifenden) Checkbox-Felds im verbundenen Objekt. Wenn ture, werden vom verbundenen Datensatz Doppelbuchungen erlaubt.</help>
+    <label></label>
+    <name>B25__Dimension_Allow_Double_Booking_Field__c</name>
+</CustomFieldTranslation>

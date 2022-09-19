@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Obligation pédagogique</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Obligations pédagogiques</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom de l&apos;enregistrement</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Créer obligation cours</label>
+        <name>SIS_Create_Child_Requirement</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Créer sous catégorie d&apos;obligation</label>
+        <name>SIS_Create_Parent_Child_Requirement</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

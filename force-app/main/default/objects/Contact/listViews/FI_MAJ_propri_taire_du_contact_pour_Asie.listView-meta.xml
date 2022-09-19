@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FI_MAJ_propri_taire_du_contact_pour_Asie</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 4 OR 5) AND 6 AND 7</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Pays_de_r_sidence__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Nombre_opportunites_sur_criteres__c</columns>
+    <columns>Souhait_programme__c</columns>
+    <columns>Date_de_cr_ation_contact__c</columns>
+    <columns>Nature_du_premier_contact__c</columns>
+    <columns>Niveau_d_tudes__c</columns>
+    <columns>CONTACT.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Etudiant,Contact.Prospect_Etudiant</value>
+    </filters>
+    <filters>
+        <field>CONTACT.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>9/1/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>Bangladesh,Bhoutan,Cambodge,Chine,Corée,Hong-Kong,Inde,Indonésie,Japon</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>Lao,Macao,Malaisie,Mongolie,Myanmar,Népal,Pakistan,Philippines,Singapour</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>Sri Lanka,Taïwan,Thaïlande,Viet Nam</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>Formation Initiale</value>
+    </filters>
+    <filters>
+        <field>Souhait_programme__c</field>
+        <operation>notContain</operation>
+        <value>Casablanca</value>
+    </filters>
+    <label>FI_MAJ propriétaire du contact |  Asie</label>
+    <language>fr</language>
+</ListView>

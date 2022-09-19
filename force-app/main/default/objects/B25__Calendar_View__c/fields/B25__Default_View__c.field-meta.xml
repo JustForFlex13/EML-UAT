@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Default_View__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This indicates that the linked View is the default View for the linked Calendar. Each Calendar can only have one default View, meaning only one Calendar View can be marked as the default.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cela indique que la vue connexe est la vue par défaut pour le calendrier connexe. Chaque calendrier ne peut avoir qu’une seule vue par défaut, ce qui signifie qu’une seule vue de calendrier peut être marquée comme étant la vue par défaut.</inlineHelpText>
+    <label>Default View</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

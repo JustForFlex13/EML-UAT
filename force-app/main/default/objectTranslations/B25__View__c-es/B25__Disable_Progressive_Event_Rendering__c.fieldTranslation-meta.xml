@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Desactiva la representación de los eventos durante el desplazamiento y, en su lugar, los representa todos juntos.</help>
+    <label></label>
+    <name>B25__Disable_Progressive_Event_Rendering__c</name>
+</CustomFieldTranslation>

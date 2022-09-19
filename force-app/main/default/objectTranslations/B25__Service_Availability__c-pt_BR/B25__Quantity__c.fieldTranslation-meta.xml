@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Deixe este campo vazio se houver uma quantidade ilimitada deste Serviço disponível.</help>
+    <label></label>
+    <name>B25__Quantity__c</name>
+</CustomFieldTranslation>

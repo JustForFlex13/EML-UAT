@@ -1,0 +1,23 @@
+{
+  "defaultCode" : "fr",
+  "defaultLabel" : "French - français",
+  "id" : "5502761f-e782-40c8-ab37-89a2ddeef7e0",
+  "languages" : [ {
+    "countryCode" : "US",
+    "fallbackLanguageId" : "2a143f4f-4517-4050-8b5e-ceb44dc285a8",
+    "id" : "f8c0526a-4631-4be3-82e1-cfcffe7367b3",
+    "isActive" : true,
+    "label" : "English (US)",
+    "languageCode" : "en",
+    "type" : "language"
+  }, {
+    "countryCode" : "GB",
+    "fallbackLanguageId" : "f8c0526a-4631-4be3-82e1-cfcffe7367b3",
+    "id" : "2a143f4f-4517-4050-8b5e-ceb44dc285a8",
+    "isActive" : true,
+    "label" : "English (UK) (GB)",
+    "languageCode" : "en",
+    "type" : "language"
+  } ],
+  "type" : "languageContainer"
+}

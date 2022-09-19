@@ -1,0 +1,7 @@
+<aura:component
+  implements="force:lightningQuickAction,force:hasRecordId,flexipage:availableForAllPageTypes"
+  access="global"
+>
+  <aura:attribute name="recordId" type="Id" />
+  <c:convstaEvalCursus caseId="{!v.recordId}"></c:convstaEvalCursus>
+</aura:component>

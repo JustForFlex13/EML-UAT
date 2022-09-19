@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>In which way the student got his work experience</help>
+    <label>Means of obtaintion</label>
+    <name>Moyen_d_Obtention__c</name>
+    <picklistValues>
+        <masterLabel>Candidature spontanée</masterLabel>
+        <translation>Unsolicited application</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Careers Forum</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Réseau LMU (ETD)</masterLabel>
+        <translation>LMU network (ETD)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Réseau Lancaster (ETD)</masterLabel>
+        <translation>Lancaster network (ETD)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Réseau institut Paul Bocuse (IHM)</masterLabel>
+        <translation>Paul Bocuse institute network (IHM)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Site internet de l&apos;entreprise</masterLabel>
+        <translation>Company&apos;s website</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>emlyon Career Event</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>emlyon job board</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Estes campos são mostrados em cada linha da lista relacionada no formulário de reserva.</help>
+    <label></label>
+    <name>B25__Field_Set__c</name>
+</CustomFieldTranslation>

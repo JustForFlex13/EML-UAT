@@ -1,0 +1,501 @@
+<apex:page standardController="campaign" extensions="CTR001CampaignManageMembersAddTab" tabstyle="Campaign">
+    <apex:includeScript value="{!$Resource.jquery_min_js_1_9_1}"/>
+    <script type="text/javascript">
+        j$ = jQuery.noConflict();
+
+        var selectedItems = [];
+
+        // Méthode de réinitialisation de la checkbox permettant de sélectionner l'ensemble des membres de la page
+        // Elle sera décochée si au moins un membre de la page est décochée, et cochée si tous les produits de la page sont cochés.
+        // Cette méthode est rappelée à chaque changement de page.
+        function reinitSelectAllCheckBox() {
+            var selectAll = true;
+            j$('td.productChkBox > input:checkbox').each(function(){
+                                                                        if (selectAll && j$(this).prop('checked') == false) {
+                                                                            selectAll = false;
+                                                                            j$('.selectAllChkBox').each(function(){j$(this).prop('checked', selectAll);});
+                                                                        }
+                                                                    });
+            if (selectAll)
+                j$('.selectAllChkBox').each(function(){j$(this).prop('checked', selectAll);});
+        }
+
+
+        // Méthode utilitaire permettant de mettre à jour le champ caché permettant de récupérer les id des éléments sélectionnés.
+        function fillSelectedItems(allSelectedItems) {
+            j$('[id$="hidden_selectedItems"]').val(allSelectedItems.join(','));
+            j$('.span_nbSelectedItems').html(allSelectedItems.length);
+            
+            // Mise à jour de la checkbox de sélection de tous les éléments de la page
+            reinitSelectAllCheckBox();
+            
+        }
+
+        // Méthode déclenchée lors du cochage/décochage de la case à cocher permettant de cocher/décocher tous les membres de la page.
+        function onSelectAllChange(cb){
+            if(cb.checked==true){
+                // Select all
+                j$('td.productChkBox > input:checkbox').each(function(){
+                                                                        j$(this).prop('checked',true);
+                                                                        });
+                var allSelectedItems = getItemIdsIncludingCurrentPage();
+                fillSelectedItems(allSelectedItems);
+            } else {
+                // Unselect all
+                j$('td.productChkBox > input:checkbox').each(function(){
+                                                                        j$(this).prop('checked',false);
+                                                                        });
+                var allSelectedItems = getItemIdsExcludingCurrentPage();
+                fillSelectedItems(allSelectedItems);
+            }
+        }
+
+        // Méthode utilitaire permettant de récupérer la liste complète des id des éléments sélectionnés (incluant la sélection de la page actuelle).
+        function getItemIdsIncludingCurrentPage(){
+            var allItems = selectedItems;
+            j$('span.productId').each(function(){
+                                                    var itemId = j$(this).text();
+                                                    if (j$.inArray(itemId, selectedItems) < 0)
+                                                        allItems.push(itemId);
+                                                });
+            return allItems;
+        }
+
+        // Méthode utilitaire permettant de récupérer la liste complète des id des éléments sélectionnés (excluant la sélection de la page actuelle).
+        function getItemIdsExcludingCurrentPage(){
+            var allItems = [];
+            var pageItems = getPageItems();
+            for (var i=0;i<selectedItems.length;i++) {
+                var item = selectedItems[i];
+                if (j$.inArray(item, pageItems)<0) {// On exclus les éléments de la page courante.
+                    allItems.push(item);
+                }
+            }
+            selectedItems = allItems;
+            return allItems;
+        }
+
+        // Méthode utilitaire permettant de récupérer la liste des id des produits de la page courante.
+        function getPageItems(){
+            var pageItems = [];
+            j$('span.productId').each(function(){   var itemId = j$(this).text();
+                                                    pageItems.push(itemId);
+                                                });
+            return pageItems;
+        }
+
+        // Méthode déclenchée lors du cochage/décochage d'une case de sélection d'un produit
+        function onCheckboxChange(cb,itemId){
+            if(cb.checked==true){// Si le produit a été coché on l'ajoute à la sélection
+                if (j$.inArray(itemId,selectedItems)<0) {
+                    selectedItems.push(itemId);
+                    
+                    fillSelectedItems(selectedItems);
+                }
+            }
+            else{// Si le produit a été décoché on l'enlève de la sélection
+                j$('.selectAllChkBox').each(function(){j$(this).prop('checked', false);});
+                if (j$.inArray(itemId,selectedItems)>=0) {
+                    selectedItems = j$.grep(selectedItems, function(value){return value != itemId;});// On enlève l'élément de la liste des éléments sélectionnés.
+    
+                    fillSelectedItems(selectedItems);
+                }
+            }
+        }
+    </script>
+
+
+    <apex:sectionHeader title="Campagne" subtitle="Gérer les membres"/>
+    <apex:panelGrid columns="1">
+        <apex:outputLink value="/{!campaignId}"  >Retour à campagne : {!campaignName}</apex:outputLink>
+        <apex:outputText />
+    </apex:panelGrid>
+    <apex:pageMessages />
+
+
+    <apex:pageBlock >
+        <apex:form id="form">
+            <apex:actionFunction action="{!selectDeselectAll}" name="selectDeselectAll" />
+            <apex:actionFunction action="{!initialiser}" name="initialiser" />
+            <apex:actionFunction action="{!deleteCampaignMember}" name="deleteCampaignMember" reRender="form">
+                <apex:param name="memberid" value="" assignTo="{!idToDelete}"  />
+            </apex:actionFunction>
+
+            <apex:tabPanel switchType="Ajax" selectedTab="{!selectedTab}" >
+
+                <apex:tab label="Ajouter des membres" id="tab1" name="tab1" >
+                    <apex:pageBlockSection collapsible="true" columns="1" title="Affichier/Masquer la recherche">
+                        <apex:pageBlockSection collapsible="false" title="Etape 1 : Choisir un type de membre à rechercher">
+
+                            <apex:selectRadio layout="pageDirection" value="{!type }" onchange="initialiser();">
+                                <apex:selectOption itemLabel="Pistes" itemValue="Pistes" />
+                                <apex:selectOption itemlabel="Contacts" itemValue="Contacts"/>
+                            </apex:selectRadio>
+
+                        </apex:pageBlockSection>
+
+                        <apex:pageBlockSection collapsible="false" columns="1" title="Etape 2 : Spécifier les critères du filtre">
+
+                            <apex:panelGrid columns="4" id="theGrid">
+                                <apex:outputText value="Champ"/>
+                                <apex:outputText value="Opérateur"/>
+                                <apex:outputText value="Valeur"/>
+                                <apex:outputText value=""/>
+                                <apex:selectList id="fields_1" value="{!leadsField_1}" multiselect="false" size="1">
+                                    <apex:selectOptions value="{!leadsFields}" />
+                                </apex:selectList>
+                                <apex:selectList value="{!operator_1}" multiselect="false" size="1">
+                                    <apex:selectOptions id="op1" value="{!operators}" />
+                                </apex:selectList>
+                                <apex:inputtext id="qc1" value="{!queryCondition_1}" />
+                                <apex:outputText value="ET" />
+                                <apex:selectList id="fields_2" value="{!leadsField_2}" multiselect="false" size="1">
+                                    <apex:selectOptions value="{!leadsFields}" />
+                                </apex:selectList>
+                                <apex:selectList value="{!operator_2}" multiselect="false" size="1">
+                                    <apex:selectOptions id="op2" value="{!operators}" />
+                                </apex:selectList>
+                                <apex:inputtext id="qc2" value="{!queryCondition_2}" />
+                                <apex:outputText value="ET" />
+                                <apex:selectList id="fields_3" value="{!leadsField_3}" multiselect="false" size="1">
+                                    <apex:selectOptions value="{!leadsFields}" />
+                                </apex:selectList>
+                                <apex:selectList value="{!operator_3}" multiselect="false" size="1">
+                                    <apex:selectOptions id="op3" value="{!operators}" />
+                                </apex:selectList>
+                                <apex:inputtext id="qc3" value="{!queryCondition_3}" />
+                                <apex:outputText value="ET" />
+                                <apex:selectList id="fields_4" value="{!leadsField_4}" multiselect="false" size="1">
+                                    <apex:selectOptions value="{!leadsFields}" />
+                                </apex:selectList>
+                                <apex:selectList value="{!operator_4}" multiselect="false" size="1">
+                                    <apex:selectOptions id="op4" value="{!operators}" />
+                                </apex:selectList>
+                                <apex:inputtext id="qc4" value="{!queryCondition_4}" />
+                                <apex:outputText value="ET" />
+                                <apex:outputText value=""/>
+                                <apex:outputText value=""/>
+                                <apex:commandLink value="Effacer les filtres" action="{!effacerFiltres}"/>
+                                <apex:outputText value=""/>
+                            </apex:panelGrid>
+
+                            <apex:commandButton value="OK" action="{!rechercher}" />
+
+                            <!--apex:outputLabel value="{!query}" id="query" /-->
+
+                        </apex:pageBlockSection>
+                    </apex:pageBlockSection>
+
+
+                    <apex:pageBlockSection collapsible="false" title=" " columns="1">
+                        <apex:panelGrid columns="2">
+
+                            <apex:commandButton value="Ajouter avec statut" action="{!addMembersToCampaing}"/>
+
+                            <apex:selectList value="{!campaignMemberStatusSelected}" multiselect="false" size="1">
+                                <apex:selectOptions value="{!campaignMemberStatus}" />
+                            </apex:selectList>
+
+                        </apex:panelGrid>     
+
+                        <apex:outputPanel id="emails"  rendered="{!visible}">
+                            <apex:panelGrid columns="2" >
+                                <apex:outputText value="Adresse email principale" />
+                                <apex:outputText value="Adresse email secondaire" />
+
+                                <apex:selectList multiselect="false" size="1" value="{!email1}">
+                                    <apex:selectOption itemValue="Email_de_repli__c" itemLabel="Email professionnel" />
+                                    <apex:selectOption itemValue="Adresse_Email_Personnelle__c" itemLabel="Email personnel"/>
+                                    <apex:selectOption itemValue="Email_EM_Lyon__c" itemLabel="Email EMLYON"/>
+                                </apex:selectList>
+                                <apex:selectList multiselect="false" size="1" value="{!email2}">
+                                    <apex:selectOption itemValue="Email_de_repli__c" itemLabel="Email professionnel" />
+                                    <apex:selectOption itemValue="Adresse_Email_Personnelle__c" itemLabel="Email personnel"/>
+                                    <apex:selectOption itemValue="Email_EM_Lyon__c" itemLabel="Email EMLYON"/>
+                                </apex:selectList>
+                            </apex:panelGrid>
+                        </apex:outputPanel>
+
+
+                    </apex:pageBlockSection>
+
+
+
+                    <apex:pageBlockTable value="{!myMembers}" var="mymember" id="myMembersTable">
+                        <apex:column >
+                            <apex:facet name="header">
+                                <apex:inputCheckbox value="{!checkedAll}" onclick="selectDeselectAll();" />
+                            </apex:facet>
+                            <apex:inputCheckbox value="{!mymember.checked}" />
+                        </apex:column>
+
+                        <apex:column width="174px">
+                            <apex:facet name="header">Prénom</apex:facet>
+                            <apex:outputText value="{!mymember.FirstName}"/>
+                        </apex:column>
+                        <apex:column width="174px">
+                            <apex:facet name="header">Nom</apex:facet>
+                            <apex:outputText value="{!mymember.LastName}"/>
+                        </apex:column>
+                        <apex:column width="174px">
+                            <apex:facet name="header">Fonction</apex:facet>
+                            <apex:outputText value="{!mymember.title}"/>
+                        </apex:column>
+                        <apex:column width="174px">
+                            <apex:facet name="header">Société</apex:facet>
+                            <apex:outputText value="{!mymember.Company}"/>
+                        </apex:column>
+                        <apex:column >
+                            <apex:facet name="header">Adresse e-mail</apex:facet>
+                            <apex:outputText value="{!mymember.Email}"/>
+                        </apex:column>
+                        <apex:column >
+                            <apex:facet name="header">Statut de membre de campagne</apex:facet>
+                            <apex:outputText value="{!mymember.status}"/>
+                        </apex:column>
+
+                    </apex:pageBlockTable>
+
+
+                </apex:tab>
+
+                
+                
+                
+                
+
+                <apex:tab label="Contacts ajoutés/modifiés depuis les rapports" id="tab3" name="tab3">
+
+                    <apex:commandButton value="Actualiser" action="{!populateMyMembersExistRapport}" />
+                    
+                    <apex:pageBlockSection collapsible="false" title=" " columns="1" rendered="{!paginationTab3!=null}">
+                        <apex:panelGrid columns="1">
+                            <apex:outputPanel id="nbSelected_top">
+                                <label class="label_nbSelectedItems">[ <span class="span_nbSelectedItems">{!NbSelected}</span> Membres sélectionné(s) ]</label>
+                            </apex:outputPanel>
+                        </apex:panelGrid>
+                        <apex:panelGrid columns="2">
+
+                            <apex:commandButton value="Mettre à jour la sélection avec statut" action="{!addMembersToCampaignRapport}"/>
+
+                            <apex:selectList value="{!campaignMemberStatusSelectedRapport}" multiselect="false" size="1">
+                                <apex:selectOptions value="{!campaignMemberStatus}" />
+                            </apex:selectList>
+
+                        </apex:panelGrid>     
+
+                        <apex:outputPanel id="emails" >
+                            <apex:panelGrid columns="2" >
+                                <apex:outputText value="Adresse email principale" />
+                                <apex:outputText value="Adresse email secondaire" />
+
+                                <apex:selectList multiselect="false" size="1" value="{!email1Rapport}">
+                                    <apex:selectOption itemValue="Email_de_repli__c" itemLabel="Email professionnel" />
+                                    <apex:selectOption itemValue="Adresse_Email_Personnelle__c" itemLabel="Email personnel"/>
+                                    <apex:selectOption itemValue="Email_EM_Lyon__c" itemLabel="Email EMLYON"/>
+                                </apex:selectList>
+                                <apex:selectList multiselect="false" size="1" value="{!email2Rapport}">
+                                    <apex:selectOption itemValue="Email_de_repli__c" itemLabel="Email professionnel" />
+                                    <apex:selectOption itemValue="Adresse_Email_Personnelle__c" itemLabel="Email personnel"/>
+                                    <apex:selectOption itemValue="Email_EM_Lyon__c" itemLabel="Email EMLYON"/>
+                                </apex:selectList>
+                            </apex:panelGrid>
+                        </apex:outputPanel>
+
+                        <apex:panelGrid columns="1">
+                            <apex:commandButton value="Sélectionner tous les membres de la campagne" action="{!selectAllMembersTab3}"/>
+                        </apex:panelGrid>
+                        <apex:outputPanel id="Popup">
+                            <apex:outputPanel styleClass="popupBackground" layout="block" rendered="{!displayPopUp}"/>
+                            <apex:outputPanel styleClass="custPopup" layout="block" rendered="{!displayPopUp}">
+								La mise à jour des cibles de la campagne est en cours, un email vous sera adressé quand elles auront toutes été mises à jour.<br/>
+                                Veuillez attendre la réception de cet email à l'adresse {!campaignOwnerEmail} avant d'envoyer les emails.<br/><br/>
+                                <div align="center" draggable="false">
+                                	<apex:commandButton value="Fermer le pop-up" action="{!closePopup}"/>
+                                </div>
+                            </apex:outputPanel>
+                        </apex:outputPanel>
+
+                        <!-- NAVIGATION SECTION -->
+                        <apex:outputPanel layout="block" styleClass="pSearchShowMore" id="Nav3" rendered="{!paginationTab3!=null && paginationTab3.records!=null}">
+                            <apex:image url="/img/search_prevarrow_disabled.gif" styleClass="prevArrow" rendered="{! paginationTab3.offset <= 0 }"/>
+                            <apex:image url="/img/search_prevarrow.gif" title="Précédent" styleClass="prevArrow" rendered="{! paginationTab3.offset > 0 }"/>
+                            
+                            <apex:commandLink title="Précédent" rendered="{!paginationTab3.offset > 0}" action="{!previousPageTab3}">Précédent</apex:commandLink>
+                            
+                            <apex:outputPanel styleClass="pShowLess noLink" style="color:grey" rendered="{! paginationTab3.offset <= 0 }">Précédent</apex:outputPanel>         
+                            
+                            &nbsp;({!paginationTab3.offset+1}-{!paginationTab3.resultSize})&nbsp;
+                            
+                            <apex:outputPanel styleClass="pShowLess noLink" style="color:grey" rendered="{!NOT(paginationTab3.HasNext)}">Suivant</apex:outputPanel>         
+                            
+                            <apex:commandLink title="Suivant" rendered="{!paginationTab3.HasNext}" action="{!nextPageTab3}">Suivant</apex:commandLink>&nbsp;
+                            
+                            <apex:image url="/img/search_nextarrow.gif" title="Suivant" styleClass="nextArrow" rendered="{!paginationTab3.HasNext}"/>
+                            <apex:image url="/img/search_nextarrow_disabled.gif" rendered="{!NOT(paginationTab3.HasNext)}"/>          
+                        </apex:outputPanel>                        
+                        <!-- NAVIGATION SECTION END -->
+                        
+                        <apex:outputPanel id="scriptInitSelectedItems" layout="none" rendered="{!paginationTab3!=null}">
+                            <script>
+                            selectedItems = {!selectedItemsJson};
+                            </script>
+                        </apex:outputPanel>
+                        <apex:inputHidden id="hidden_selectedItems" value="{!selectedItems}" />
+                        
+                        <apex:pageBlockTable value="{!RecordsTab3}" var="mymemberExistRapport" id="myMembersTableExistRapport" rendered="{!paginationTab3!=null}">
+                            <apex:column styleClass="productChkBox">
+                                <apex:facet name="header">
+                                    <!--<apex:inputCheckbox value="{!checkedAllExistRapport}" styleClass="selectAllChkBox"  onchange="onSelectAllChange(this)" />-->
+                                    <apex:inputCheckbox value="{!checkedAllExistRapport}" styleClass="selectAllChkBox" disabled="{!membersUncheckable}" onchange="onSelectAllChange(this)" />
+                                </apex:facet>
+                                <apex:inputCheckbox html-data-id="chkbox_product_{!mymemberExistRapport.Id}" disabled="{!membersUncheckable}" onchange="onCheckboxChange(this,'{!mymemberExistRapport.Id}')"/>
+                                <span class="productId" style="display:none">{!mymemberExistRapport.Id}</span>
+                            </apex:column>
+                            <apex:column width="174px">
+                                <apex:facet name="header">Nom</apex:facet>
+                                <apex:outputText value="{!mymemberExistRapport.Name__c}"/>
+                            </apex:column>
+                            <apex:column width="174px">
+                                <apex:facet name="header">Fonction</apex:facet>
+                                <apex:outputText value="{!mymemberExistRapport.Title__c}"/>
+                            </apex:column>
+                            <apex:column width="174px">
+                                <apex:facet name="header">Société</apex:facet>
+                                <apex:outputText value="{!mymemberExistRapport.Company__c}"/>
+                            </apex:column>
+                            <apex:column >
+                                <apex:facet name="header">E-mail</apex:facet>
+                                <apex:outputText value="{!mymemberExistRapport.Email__c}"/>
+                            </apex:column>
+                            <apex:column >
+                                <apex:facet name="header">Type</apex:facet>
+                                <apex:outputText value="{!mymemberExistRapport.Type__c}"/>
+                            </apex:column>
+                            <apex:column >
+                                <apex:facet name="header">Statut</apex:facet>
+                                <apex:outputText value="{!mymemberExistRapport.Status}"/>
+                            </apex:column>
+                            <apex:column >
+                                <apex:facet name="header">Date dernière modification</apex:facet>
+                                <apex:outputText value="{!mymemberExistRapport.LastModifiedDate}"/>
+                            </apex:column>
+                        </apex:pageBlockTable>     
+                    </apex:pageBlockSection>
+                </apex:tab>    
+                
+                
+                <apex:tab label="Membres existants" id="tab2" name="tab2">
+                    <apex:commandButton value="Actualiser" action="{!populateMyMembersExist}" />
+                    <apex:pageBlockSection collapsible="false" title=" " />
+
+                    <!-- NAVIGATION SECTION -->
+                    <apex:outputPanel layout="block" styleClass="pSearchShowMore" id="Nav2" rendered="{!paginationTab2!=null && paginationTab2.records!=null}">
+                          <apex:image url="/img/search_prevarrow_disabled.gif" styleClass="prevArrow" rendered="{! paginationTab2.offset <= 0 }"/>
+                          <apex:image url="/img/search_prevarrow.gif" title="Précédent" styleClass="prevArrow" rendered="{! paginationTab2.offset > 0 }"/>
+                          
+                          <apex:commandLink title="Précédent" rendered="{!paginationTab2.offset > 0}" action="{!previousPageTab2}">Précédent</apex:commandLink>
+                          
+                          <apex:outputPanel styleClass="pShowLess noLink" style="color:grey" rendered="{! paginationTab2.offset <= 0 }">Précédent</apex:outputPanel>         
+                          
+                          &nbsp;({!paginationTab2.offset+1}-{!paginationTab2.resultSize})&nbsp;
+                          
+                          <apex:outputPanel styleClass="pShowLess noLink" style="color:grey" rendered="{!NOT(paginationTab2.HasNext)}">Suivant</apex:outputPanel>         
+                          
+                          <apex:commandLink title="Suivant" rendered="{!paginationTab2.HasNext}" action="{!nextPageTab2}">Suivant</apex:commandLink>&nbsp;
+                          
+                          <apex:image url="/img/search_nextarrow.gif" title="Suivant" styleClass="nextArrow" rendered="{!paginationTab2.HasNext}"/>
+                          <apex:image url="/img/search_nextarrow_disabled.gif" rendered="{!NOT(paginationTab2.HasNext)}"/>          
+                    </apex:outputPanel>
+                    <!-- NAVIGATION SECTION END -->
+
+                    <apex:pageBlockTable value="{!RecordsTab2}" var="mymemberExist" id="myMembersTableExist">
+
+                        <apex:column width="174px">
+                            <apex:facet name="header">Action</apex:facet>
+                               <apex:outputLink title="" value="/{!mymemberExist.id}/e?retURL=/apex/{!$CurrentPage.Name}?campaignid={!campaignId}" style="font-weight:bold">Modifier</apex:outputLink>&nbsp;|&nbsp;
+                               <a href="javascript:if (window.confirm('Êtes-vous sûr ?')) deleteCampaignMember('{!mymemberExist.Id}');" style="font-weight:bold">Supprimer</a>                     
+                        </apex:column>
+                        <apex:column width="174px">
+                            <apex:facet name="header">Nom</apex:facet>
+                            <apex:outputText value="{!mymemberExist.Name__c}"/>
+                        </apex:column>
+                        <apex:column width="174px">
+                            <apex:facet name="header">Fonction</apex:facet>
+                            <apex:outputText value="{!mymemberExist.Title__c}"/>
+                        </apex:column>
+                        <apex:column width="174px">
+                            <apex:facet name="header">Société</apex:facet>
+                            <apex:outputText value="{!mymemberExist.Company__c}"/>
+                        </apex:column>
+                        <apex:column >
+                            <apex:facet name="header">E-mail</apex:facet>
+                            <apex:outputText value="{!mymemberExist.Email__c}"/>
+                        </apex:column>
+                        <apex:column >
+                            <apex:facet name="header">Type</apex:facet>
+                            <apex:outputText value="{!mymemberExist.Type__c}"/>
+                        </apex:column>
+                        <apex:column >
+                            <apex:facet name="header">Statut</apex:facet>
+                            <apex:outputText value="{!mymemberExist.Status}"/>
+                        </apex:column>
+                        <apex:column >
+                            <apex:facet name="header">Date dernière modification</apex:facet>
+                            <apex:outputText value="{!mymemberExist.LastModifiedDate}"/>
+                        </apex:column>
+
+                    </apex:pageBlockTable>
+
+                    <!--apex:outputLabel value="{!selectedTab}" id="query2" />
+                    <apex:outputLabel value="{!checkedAllExist}" id="query3" / -->
+
+                </apex:tab>
+
+            </apex:tabPanel>
+        </apex:form>
+
+        <script>
+        	//Si tous les membres de la campagnes ont été sélectionnés 
+            if (selectedItems == 'all') {
+                //Checker toutes les chkbox
+                j$('input[id^="chkbox_product_"]').prop('checked', true);
+            }else{
+                for (var i=0; i<selectedItems.length; i++) {
+                    j$('#chkbox_product_'+selectedItems[i]).prop('checked',true);
+                }
+            }
+            reinitSelectAllCheckBox();
+        </script>
+    </apex:pageBlock>
+	<style type="text/css">
+        .custPopup{
+            background-color: white;
+            border-width: 2px;
+            border-style: solid;
+            z-index: 9999;
+            left: 50%;
+            padding:10px;
+            position: absolute;
+            /* These are the 3 css properties you will need to change so the popup 
+            displays in the center of the screen. First set the width. Then set 
+            margin-left to negative half of what the width is. You can add 
+            the height property for a fixed size pop up if you want.*/
+            width: 500px;
+            margin-left: -250px;
+            top:100px;
+        }
+        .popupBackground{
+            background-color:black;
+            opacity: 0.20;
+            filter: alpha(opacity = 20);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 9998;
+        }
+
+    </style>
+</apex:page>

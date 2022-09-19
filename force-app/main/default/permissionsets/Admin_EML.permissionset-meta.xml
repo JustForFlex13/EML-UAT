@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Admin_EML</name>
+    </customPermissions>
+    <description>Attribue les droits de modifications sur les enregistrements de type Formation Initiale aux utilisateurs EML.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Exercice__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Admin EML</label>
+    <recordTypeVisibilities>
+        <recordType>Opportunity.Formation_initiale</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

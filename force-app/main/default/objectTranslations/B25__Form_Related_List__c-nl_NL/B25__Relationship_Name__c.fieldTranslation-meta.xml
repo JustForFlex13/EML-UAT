@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De API naam van het veld met relatie naar de reservering op het gerelateerde object. Je kan dit vinden door naar het gerelateerde object te gaan en op de reservering-opzoekveld te kijken hoe die relatie heet.</help>
+    <label></label>
+    <name>B25__Relationship_Name__c</name>
+</CustomFieldTranslation>

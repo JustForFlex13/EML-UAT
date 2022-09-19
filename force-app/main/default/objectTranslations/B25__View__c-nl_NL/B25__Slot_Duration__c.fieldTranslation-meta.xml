@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De interval tussen elke verticale lijn: Voorbeelden 00:005 = 5 minuten, 24:00. = 1 dag, 7.00:00 = 1 week</help>
+    <label></label>
+    <name>B25__Slot_Duration__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>En cochant cette case, vous activez la recherche avancée pour le formulaire de réservation. Cette recherche permet aux utilisateurs de filtrer uniquement les objets dans lesquels cette réservation pourrait être créée en cliquant sur le bouton de filtre. La recherche personnalisée ne respecte pas les filtres de recherche.</help>
+    <label></label>
+    <name>B25__Enable_Advanced_Lookup_Filtering__c</name>
+</CustomFieldTranslation>

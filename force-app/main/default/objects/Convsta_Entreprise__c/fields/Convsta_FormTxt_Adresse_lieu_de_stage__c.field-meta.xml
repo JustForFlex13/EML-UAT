@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_FormTxt_Adresse_lieu_de_stage__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Mon_stage_se_deroule_a_une_autre_adresse__c, Convsta_Adresse_du_lieu_du_stage__c +&apos; &apos;+ Convsta_Code_postal_du_lieu_du_stage__c + &apos; &apos;+ Convsta_Ville_du_lieu_du_stage__c +&apos; &apos;+ TEXT( Etat__c )+TEXT( Pays2__c ) , 
+   Adresse_Entreprise__c + &apos; &apos;+ Code_Postal__c +&apos; &apos;+ Ville__c +&apos; &apos;+ TEXT( Etat__c )+TEXT( Pays2__c ) 
+   )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Adresse lieu de stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

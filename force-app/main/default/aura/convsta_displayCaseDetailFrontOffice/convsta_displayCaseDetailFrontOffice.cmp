@@ -1,0 +1,22 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:hasRecordId" >
+    <aura:attribute name="recordId"         type="Id" />
+    <lightning:card footer="" title=""> 
+        <p>
+            <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Case" density="comfy">
+                <p class="slds-p-horizontal_small">
+                    <div class="slds-grid full forcePageBlockSectionRow">
+                        
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning:outputField fieldName="Convsta_Type_de_demande__c" />
+                            <lightning:outputField fieldName="Convsta_Status_Front_Office__c" />
+                        </div>
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning:outputField fieldName="Convsta_TypeContrat__c" />
+                            <lightning:outputField fieldName="Convsta_Afficher_nom_gestionnaire_front__c" />
+                        </div>
+                    </div>
+                </p>
+            </lightning:recordViewForm>
+        </p>
+    </lightning:card>
+</aura:component>

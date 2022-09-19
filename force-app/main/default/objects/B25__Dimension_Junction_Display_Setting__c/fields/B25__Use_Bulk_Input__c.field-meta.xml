@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Use_Bulk_Input__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Can be used to increase performance if junction validation is slow. Allows the user to first select multiple new junctions, and postpones validation until after the user clicks the Add button.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Peut être utilisée pour augmenter les performances si la validation des jonctions est lente. Permet à l’utilisateur de sélectionner d’abord plusieurs nouvelles jonctions, et reporte la validation jusqu’à ce que l’utilisateur clique sur le bouton « Ajouter ».</inlineHelpText>
+    <label>Use Bulk Input</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

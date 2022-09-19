@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERP_Force_Export__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Demandé par TAU le 07/07/2017 à la demande de Christine Neveux pour forcer l&apos;export des tiers sans affaires vers UNIT4</description>
+    <externalId>false</externalId>
+    <label>Forcer l’envoi vers UNIT4</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

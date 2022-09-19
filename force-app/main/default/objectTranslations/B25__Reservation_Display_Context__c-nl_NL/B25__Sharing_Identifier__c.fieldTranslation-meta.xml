@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indien sharing wordt gebruikt, kan dit worden gebruikt om bepaalde gebruikersgroepen (public groups) deze context te laten zien. Booker25 staat dan toe dat er meerdere contexten van hetzelfde type zijn.</help>
+    <label></label>
+    <name>B25__Sharing_Identifier__c</name>
+</CustomFieldTranslation>

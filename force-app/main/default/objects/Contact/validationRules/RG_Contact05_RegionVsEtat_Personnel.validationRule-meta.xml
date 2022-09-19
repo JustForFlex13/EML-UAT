@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Contact05_RegionVsEtat_Personnel</fullName>
+    <active>false</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+AND(  D_partement__c  &lt;&gt; &quot;&quot;,  Etat__c  &lt;&gt; &quot;&quot;)
+)</errorConditionFormula>
+    <errorMessage>Vérifiez les champs Région et Etat dans l&apos;adresse Personnelle.</errorMessage>
+</ValidationRule>

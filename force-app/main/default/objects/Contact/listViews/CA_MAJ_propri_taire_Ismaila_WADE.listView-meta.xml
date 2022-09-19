@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CA_MAJ_propri_taire_Ismaila_WADE</fullName>
+    <booleanFilter>1 AND (2 OR 3 OR 4)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Pays__c</columns>
+    <columns>Nombre_opportunites_sur_criteres__c</columns>
+    <columns>Souhait_programme__c</columns>
+    <columns>Date_de_cr_ation_contact__c</columns>
+    <columns>Nature_du_premier_contact__c</columns>
+    <columns>Niveau_d_tudes__c</columns>
+    <columns>CONTACT.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>9/1/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>BÉNIN,BURKINA FASO / (Burkina),BURUNDI,CAMEROUN,CENTRAFRICAINE RÉPUBLIQUE</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>CONGO,&quot;CONGO, LA RÉPUBLIQUE DÉMOCRATIQUE&quot;,COMORES</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>RWANDA,SÉNÉGAL,TCHAD,TOGO</value>
+    </filters>
+    <label>CA_MAJ propriétaire à Ismaila WADE</label>
+    <language>fr</language>
+</ListView>

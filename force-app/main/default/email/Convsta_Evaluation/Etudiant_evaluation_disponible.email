@@ -1,0 +1,18 @@
+Bonjour {!Convsta_Evaluation__c.Etudiant__c},
+
+Nous vous informons que votre tuteur en entreprise {!Convsta_Evaluation__c.Evaluateur__c} a complété votre évaluation de stage. Vous pouvez désormais la visualiser dans votre espace « jobs and internships » sur Makersboard.
+
+Nous restons à votre disposition,
+ 
+emlyon Career Center
+
+English version below
+
+Subject : Your insternship has been evaluated ! 
+
+Dear {!Convsta_Evaluation__c.Etudiant__c},
+
+We inform you that your company tutor {!Convsta_Evaluation__c.Evaluateur__c} completed your internship evaluation. You can now display at « jobs and internships » section on Makersboard.
+
+ We remain at your disposal
+emlyon Career Center

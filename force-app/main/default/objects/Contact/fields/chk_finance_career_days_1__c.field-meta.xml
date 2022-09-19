@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>chk_finance_career_days_1__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Finance career day - 04/10/2018 - Lyon</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Finance career day - 04/10/2018 - Lyon</inlineHelpText>
+    <label>Fin. Career Days - 04/10/2018 - Lyon</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

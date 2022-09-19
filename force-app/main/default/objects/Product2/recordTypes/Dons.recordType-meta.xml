@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dons</fullName>
+    <active>true</active>
+    <description>Pour la collecte des fonds ( Dons &amp; Mécenat)</description>
+    <label>Dons</label>
+    <picklistValues>
+        <picklist>CPF_Mon_Compte_Formation__c</picklist>
+        <values>
+            <fullName>non éligible à Mon Compte Formation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>éligible à Mon Compte Formation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Domaine__c</picklist>
+        <values>
+            <fullName>DCRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FPP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%26E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LDP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MKT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSVERSE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Domaine_tudes__c</picklist>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bac ES %28économique et sociale%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bac L %28littéraire%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bac S %28scientifique%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bac STMG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Droit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gestion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingénieur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santé %28pharmacie%2C vétérinaire%2C%E2%80%A6%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sciences %28mathématiques%2C physique%2C%2E%2E%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sciences humaines %28lettres%2C%2E%2E%2E%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Famille__c</picklist>
+        <values>
+            <fullName>Au choix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educational project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Events Projects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investments Projects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knowledge Projects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Responsible Projects</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>Fundraising B2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundraising B2C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Format__c</picklist>
+        <values>
+            <fullName>Certificat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Court</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diplome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parcours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Niveau_d_exp_rience__c</picklist>
+        <values>
+            <fullName>%2B de 10 ans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0-2 ans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-5 ans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6-10 ans</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Niveau_d_tudes__c</picklist>
+        <values>
+            <fullName>Bac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bac %2B 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bac %2B 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bac %2B 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bac %2B 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bac %2B 5 et %2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Première</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seconde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminale</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Objectif__c</picklist>
+        <values>
+            <fullName>PR-LO10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR-LO20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR-LO30</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

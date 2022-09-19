@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El Tipo SObject de registros en esta lista. Este valor se ajustará automáticamente. No es necesario hacerlo manualmente.</help>
+    <label></label>
+    <name>B25__SObject_Type__c</name>
+</CustomFieldTranslation>

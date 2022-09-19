@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsque cette option est activée, cette option de regroupement ne représente aucun regroupement. La validation du champ de nom de cet enregistrement sera alors ignorée.</help>
+    <label></label>
+    <name>B25__No_Grouping__c</name>
+</CustomFieldTranslation>

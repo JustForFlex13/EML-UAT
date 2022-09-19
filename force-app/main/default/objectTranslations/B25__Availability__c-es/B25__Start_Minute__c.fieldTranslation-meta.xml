@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>¿A qué minuto de la primera hora está disponible el recurso? Introduzca un valor de 0 a 59.</help>
+    <label></label>
+    <name>B25__Start_Minute__c</name>
+</CustomFieldTranslation>

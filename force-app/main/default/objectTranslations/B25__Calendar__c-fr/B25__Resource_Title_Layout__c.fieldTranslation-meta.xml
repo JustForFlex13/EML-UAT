@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilisez cette option pour modifier la façon dont les titres des ressources sont affichés sur le calendrier à enregistrement unique.</help>
+    <label></label>
+    <name>B25__Resource_Title_Layout__c</name>
+    <picklistValues>
+        <masterLabel>Horizontal</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pr_sentation_compacte_contact_tudiant</fullName>
+    <fields>Name</fields>
+    <fields>Identifiant_Etudiant__c</fields>
+    <fields>AccountId</fields>
+    <fields>HomePhone</fields>
+    <fields>Adresse_Email_Personnelle__c</fields>
+    <label>Présentation compacte contact étudiant</label>
+</CompactLayout>

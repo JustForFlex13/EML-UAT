@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_En_attente_de_validation_admin_Convsta_Evaluation</fullName>
+    <columns>NAME</columns>
+    <columns>Responsable_Pedagogique__c</columns>
+    <columns>Statut__c</columns>
+    <columns>DateEndStage__c</columns>
+    <columns>Note_globale__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Date_Reception_Evalutation__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Statut__c</field>
+        <operation>equals</operation>
+        <value>Évaluée</value>
+    </filters>
+    <label>Evaluée</label>
+    <queue>Convsta_En_attente_de_validation_admin</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

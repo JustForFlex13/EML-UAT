@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Stellt die Standard-Checkbox-Werte für das filterbare Feld ein.</help>
+    <label></label>
+    <name>B25__Default_Checkbox_Value__c</name>
+    <picklistValues>
+        <masterLabel>Checked</masterLabel>
+        <translation>Geprüft</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation>Nicht zutreffend</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unchecked</masterLabel>
+        <translation>Ungeprüft</translation>
+    </picklistValues>
+</CustomFieldTranslation>

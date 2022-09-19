@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Contact08_Famil_fonction_Obligatoire</fullName>
+    <active>true</active>
+    <description>Permet d&apos;afficher un message d&apos;erreur lorsque le champ famille fonction n&apos;est pas renseigné.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; ( and ( 
+ LOWER(RecordType.Name) =&quot;professionnel&quot;,
+ LOWER(Owner.LastName)&lt;&gt;&quot;interface&quot;,
+ISPICKVAL(Famille_Fonction__c, &quot;&quot;) 
+))</errorConditionFormula>
+    <errorMessage>Le champ Famille fonction est obligatoire</errorMessage>
+</ValidationRule>

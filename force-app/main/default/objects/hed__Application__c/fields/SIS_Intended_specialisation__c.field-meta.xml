@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Intended_specialisation__c</fullName>
+    <externalId>false</externalId>
+    <label>Intended specialisation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SIS_Programme_auquel_vous_postulez__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+                <label>Entrepreneurship</label>
+            </value>
+            <value>
+                <fullName>Strategic Management</fullName>
+                <default>false</default>
+                <label>Strategic Management</label>
+            </value>
+            <value>
+                <fullName>Organization Theory</fullName>
+                <default>false</default>
+                <label>Organization Theory</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Programme PhD</controllingFieldValue>
+            <valueName>Entrepreneurship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programme PhD</controllingFieldValue>
+            <valueName>Strategic Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programme PhD</controllingFieldValue>
+            <valueName>Organization Theory</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Longueur_Champ_Code_agresso_formation</fullName>
+    <active>false</active>
+    <description>L&apos;utilisateur a pour obligation de saisir le champ Code_agresso_for__c à 11 caractères</description>
+    <errorConditionFormula>!$User.ByPass_RV__c
+ &amp;&amp; 
+ (LEN( Code_agresso_for__c ) &lt;&gt; 11 )</errorConditionFormula>
+    <errorMessage>Le nombre de caractères du champ Code agresso Formation doit être obligatoirement égal à 11</errorMessage>
+</ValidationRule>

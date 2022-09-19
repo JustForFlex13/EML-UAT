@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif_Archivage__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif d&apos;archivage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Doublon / Erreur</fullName>
+                <default>false</default>
+                <label>Doublon / Erreur</label>
+            </value>
+            <value>
+                <fullName>Pas le budget</fullName>
+                <default>false</default>
+                <label>Pas le budget</label>
+            </value>
+            <value>
+                <fullName>Timing ne convient pas</fullName>
+                <default>false</default>
+                <label>Timing ne convient pas</label>
+            </value>
+            <value>
+                <fullName>Pas soutenu pas sa hiérarchie</fullName>
+                <default>false</default>
+                <label>Pas soutenu pas sa hiérarchie</label>
+            </value>
+            <value>
+                <fullName>Évènement complet</fullName>
+                <default>false</default>
+                <label>Évènement complet</label>
+            </value>
+            <value>
+                <fullName>Pas intéressé</fullName>
+                <default>false</default>
+                <label>Pas intéressé</label>
+            </value>
+            <value>
+                <fullName>Pas école cible</fullName>
+                <default>false</default>
+                <label>Pas école cible</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

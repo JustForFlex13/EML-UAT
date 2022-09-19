@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut_contrat_signe</fullName>
+    <active>true</active>
+    <description>Pour passer au statut « contrat signé », le statut doit être « accord de principe »</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+AND( 
+RecordType.Name = &quot;Formation intra-entreprise&quot;, 
+NOT ISPICKVAL(PRIORVALUE(StageName), &quot;Accord de principe&quot;),NOT ISPICKVAL(PRIORVALUE(StageName), &quot;Contrat signé&quot;) , 
+ISPICKVAL(StageName, &quot;Contrat signé&quot;) 
+) 
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Pour passer au statut « contrat signé», le statut doit être « accord de principe »</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De lengte van elke indicator aan de zijkant, toont de tijd van de dag op de single resource kalender. Waarde moet tussen de 1 en 60 liggen en moet worden gedeeld door 60 zonder overblijfsel.</help>
+    <label></label>
+    <name>B25__Time_Header_Duration__c</name>
+</CustomFieldTranslation>

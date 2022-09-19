@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Speichert weitere, von Booker25 für die weitere Synchronisierung der Reservierungen mit Google nötige Daten.</help>
+    <label></label>
+    <name>B25__Additional_Outlook_Data__c</name>
+</CustomFieldTranslation>

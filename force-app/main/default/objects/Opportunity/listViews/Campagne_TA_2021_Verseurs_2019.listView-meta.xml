@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campagne_TA_2021_Verseurs_2019</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Montant_promesse__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Taxe</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>CAMPAGNE TAXE 2021</value>
+    </filters>
+    <label>Campagne TA 2021_Verseurs 2019</label>
+    <sharedTo>
+        <roleAndSubordinates>Employabilit</roleAndSubordinates>
+        <roleAndSubordinates>Taxe</roleAndSubordinates>
+    </sharedTo>
+</ListView>

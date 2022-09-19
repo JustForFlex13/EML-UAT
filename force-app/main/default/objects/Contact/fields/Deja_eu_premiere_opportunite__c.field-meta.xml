@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deja_eu_premiere_opportunite__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Lorsqu&apos;une première opportunité est crée pour ce contact, on peut utiliser cette case pour en garder la trace dans le système et faire des actions par workflow ou processus</description>
+    <externalId>false</externalId>
+    <label>Déjà eu première opportunité</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

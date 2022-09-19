@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Define qué ocurre si se detecta un problema de disponibilidad. Ninguno: Se permite. Fuerte: No se permite. Débil: Se permite, pero también se crea un registro de conflicto para la reserva.</help>
+    <label></label>
+    <name>B25__Availability_Checking__c</name>
+</CustomFieldTranslation>

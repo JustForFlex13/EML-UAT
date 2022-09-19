@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si vous créez un champ de filtre « Contact » et que vous définissez le « Parent » sur un champ de filtre « Compte », vous ne pourrez sélectionner que les contacts liés au compte sélectionné comme filtre dans le calendrier</help>
+    <label></label>
+    <name>B25__Parent__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

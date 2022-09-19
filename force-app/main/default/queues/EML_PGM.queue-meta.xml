@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>EML-PGM</name>
+    <queueMembers>
+        <users>
+            <user>turrisi@eml-executive.com</user>
+            <user>cotte-vergne@eml-executive.com</user>
+            <user>ext-bankole@eml-executive.com</user>
+            <user>elmajdoubi@em-lyon.com</user>
+            <user>antoine@em-lyon.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

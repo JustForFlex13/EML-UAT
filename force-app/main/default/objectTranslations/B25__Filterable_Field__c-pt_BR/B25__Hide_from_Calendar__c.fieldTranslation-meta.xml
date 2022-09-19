@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Para filtros de caixa de seleção, ao selecionar isto irá ocultar o filtro do Calendário, e aplicar sempre o valor predefinido da caixa de seleção ao Calendário.</help>
+    <label></label>
+    <name>B25__Hide_from_Calendar__c</name>
+</CustomFieldTranslation>

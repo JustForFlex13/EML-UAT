@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Hover_Definition__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Hover Definition that should be shown in this context.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>La définition de survol qui doit être affichée dans ce contexte.</inlineHelpText>
+    <label>Hover Definition</label>
+    <referenceTo>B25__Reservation_Display__c</referenceTo>
+    <relationshipLabel>Contexts</relationshipLabel>
+    <relationshipName>Reservation_Display_Contexts</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

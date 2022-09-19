@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O tamanho do buffer de fim de reserva em minutos. Este será visualizado no calendário e pode ser utilizado para indicar o tempo de limpeza após a reserva efetiva ter ocorrido.</help>
+    <label></label>
+    <name>B25__Reservation_End_Buffer_Size__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Uniquement pris en charge officiellement sur les calendriers du personnel et des groupes. Divise les ressources du personnel et des groupes en blocs. Les disponibilités ne sont chargées que lorsque le bloc est ouvert. Activez cette option lorsque le chargement des disponibilités prend trop de temps.</help>
+    <label></label>
+    <name>B25__Enable_Grouping__c</name>
+</CustomFieldTranslation>

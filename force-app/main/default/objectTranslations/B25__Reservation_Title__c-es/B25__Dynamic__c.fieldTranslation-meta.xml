@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marca este campo de título como dinámico. Esto le permite especificar un nombre de clase en lugar de un nombre de campo, y calcular el valor dinámicamente en función del contexto del calendario, como las reservas en el recurso y la hora de inicio y fin de la vista.</help>
+    <label></label>
+    <name>B25__Dynamic__c</name>
+</CustomFieldTranslation>

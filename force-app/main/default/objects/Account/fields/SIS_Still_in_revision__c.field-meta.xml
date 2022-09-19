@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Still_in_revision__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND (
+ISPICKVAL ( SIS_Program_Status__c , &quot;Révision&quot;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Toujours en révision</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

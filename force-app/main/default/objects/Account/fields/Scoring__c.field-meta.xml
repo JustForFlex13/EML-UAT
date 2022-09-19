@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scoring__c</fullName>
+    <description>Il définit le niveau de partenariat</description>
+    <externalId>false</externalId>
+    <label>Scoring</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CPT-SCO10</fullName>
+                <default>false</default>
+                <label>CPT-SCO10</label>
+            </value>
+            <value>
+                <fullName>CPT-SCO20</fullName>
+                <default>false</default>
+                <label>CPT-SCO20</label>
+            </value>
+            <value>
+                <fullName>CPT-SCO30</fullName>
+                <default>false</default>
+                <label>CPT-SCO30</label>
+            </value>
+            <value>
+                <fullName>CPT-SCO40</fullName>
+                <default>false</default>
+                <label>CPT-SCO40</label>
+            </value>
+            <value>
+                <fullName>CPT-SCO50</fullName>
+                <default>false</default>
+                <label>CPT-SCO50</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

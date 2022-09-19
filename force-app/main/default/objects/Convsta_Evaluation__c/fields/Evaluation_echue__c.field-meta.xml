@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Evaluation_echue__c</fullName>
+    <description>Permet de déterminer si l&apos;évaluation est échue</description>
+    <externalId>false</externalId>
+    <formula>AND(ISPICKVAL(Statut__c, &quot;Envoyée&quot;) ||
+				ISPICKVAL(Statut__c, &quot;En attente d&apos;évaluation&quot;) || 
+					ISPICKVAL(Statut__c, &quot;Relancée&quot;),
+				  ValidTo__c  &lt;  TODAY())</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Permet de déterminer si l&apos;évaluation est échue</inlineHelpText>
+    <label>Evaluation echue</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

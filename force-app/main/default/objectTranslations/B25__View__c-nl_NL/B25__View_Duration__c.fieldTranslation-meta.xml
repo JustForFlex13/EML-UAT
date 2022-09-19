@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De lengte van de weergave. Voorbeelden: 24:00 = one day, 7.00:00 = one week, 30.00:00 = one month</help>
+    <label></label>
+    <name>B25__View_Duration__c</name>
+</CustomFieldTranslation>

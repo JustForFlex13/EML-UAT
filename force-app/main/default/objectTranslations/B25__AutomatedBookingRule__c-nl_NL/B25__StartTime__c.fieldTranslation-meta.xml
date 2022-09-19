@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Uur van de dag (17 voor 5pm). Verplicht wanneer Startdatum/tijd leeg is.</help>
+    <label></label>
+    <name>B25__StartTime__c</name>
+</CustomFieldTranslation>

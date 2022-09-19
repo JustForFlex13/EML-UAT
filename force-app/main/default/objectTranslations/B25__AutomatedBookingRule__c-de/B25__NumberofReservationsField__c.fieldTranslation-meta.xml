@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Anzahl der bei Auslösung dieser Regel zu erstellenden Reservierungen. Bitte auf ein Referenzfeld unter Gelegenheit oder Gelegenheit-Produkt verweisen oder in Worten eingeben.</help>
+    <label></label>
+    <name>B25__NumberofReservationsField__c</name>
+</CustomFieldTranslation>

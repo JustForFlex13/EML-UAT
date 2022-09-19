@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Interdiction_creation_avenant</fullName>
+    <active>true</active>
+    <description>Empêche la création d&apos;un avenant tant que le statut de le signature n&apos;est pas à &quot;signée&quot;.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c
+&amp;&amp;
+ISNEW() &amp;&amp;
+!(TEXT(Parent.Status) =&apos;Convention signée&apos; ||
+TEXT(Parent.Status) =&apos;Evaluée&apos; )&amp;&amp;
+CONTAINS(TEXT(Status), &apos;Avenant&apos;)</errorConditionFormula>
+    <errorMessage>Vous ne pouvez pas créer d&apos;avenant pour une convention non signée.</errorMessage>
+</ValidationRule>

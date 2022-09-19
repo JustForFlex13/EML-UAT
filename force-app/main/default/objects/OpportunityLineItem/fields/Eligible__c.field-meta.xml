@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Eligible__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ ISPICKVAL(Opportunity.Contact_central__r.Nature_du_premier_contact__c,&quot;Site mobile&quot;),&quot;ELIGIBLE&quot;,
+
+IF(
+ OR( C1_eligible_age__c = &quot;Critère KO&quot;, C2_eligible_niveau_d_tudes__c =&quot;Critère KO&quot;,
+C3_eligible_niveau_xp_pro__c = &quot;Critère KO&quot;, C4_eligible_domaine_d_tudes__c =&quot;Critère KO&quot;) 
+, &quot;NON ELIGIBLE&quot;, 
+ IF(
+ OR( C1_eligible_age__c = &quot;Manque critère&quot;, C2_eligible_niveau_d_tudes__c =&quot;Manque critère&quot;,
+C3_eligible_niveau_xp_pro__c = &quot;Manque critère&quot;, C4_eligible_domaine_d_tudes__c =&quot;Manque critère&quot;) 
+, &quot;MANQUE CRITERE&quot;,
+IF(
+ AND( C1_eligible_age__c = &quot;Critère non actif pour le produit&quot;, C2_eligible_niveau_d_tudes__c =&quot;Critère non actif pour le produit&quot;,
+C3_eligible_niveau_xp_pro__c = &quot;Critère non actif pour le produit&quot;, C4_eligible_domaine_d_tudes__c =&quot;Critère non actif pour le produit&quot;) 
+,&quot;NON DISPONIBLE&quot;,  
+ &quot;ELIGIBLE&quot;
+)))
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Eligibilité calculée</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

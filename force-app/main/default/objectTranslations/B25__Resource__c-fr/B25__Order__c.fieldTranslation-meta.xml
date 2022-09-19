@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Une ressource avec un ordre inférieur est affichée sur le calendrier au-dessus d’une ressource avec un ordre supérieur.</help>
+    <label></label>
+    <name>B25__Order__c</name>
+</CustomFieldTranslation>

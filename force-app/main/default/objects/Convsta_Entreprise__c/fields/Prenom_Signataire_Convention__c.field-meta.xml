@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prenom_Signataire_Convention__c</fullName>
+    <description>Le prénom de l&apos;employé en charge des ressources humaines qui peut engager l’entreprise dans le cadre de l&apos;expérience professionnelle de l&apos;étudiant.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Conseil : Attention à l&apos;orthographe !!</inlineHelpText>
+    <label>Prénom du Signataire de la Convention</label>
+    <length>80</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

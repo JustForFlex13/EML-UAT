@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Somme_Montant_Echeancier</fullName>
+    <active>true</active>
+    <description>Lorsque un échéancier existe, alors pour passer le statut commercial à offre à valider, il faut que le montant de l&apos;opp soit = à la somme échéancier.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+AND(
+RecordType.Name = &quot;Formation intra-entreprise&quot;,
+ISPICKVAL( StageName , &quot;Offre à valider&quot;),
+Somme_Montant_Ech_ancier__c &lt;&gt; 0,
+ Amount &lt;&gt; Somme_Montant_Ech_ancier__c
+)
+)</errorConditionFormula>
+    <errorMessage>Le montant de l&apos;opportunité est différente du montant de l&apos;échéancier</errorMessage>
+</ValidationRule>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Partnership__c</fullName>
+    <externalId>false</externalId>
+    <label>Partnership</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Double</fullName>
+                <default>false</default>
+                <label>Double</label>
+            </value>
+            <value>
+                <fullName>Joint</fullName>
+                <default>false</default>
+                <label>Joint</label>
+            </value>
+            <value>
+                <fullName>Triple</fullName>
+                <default>false</default>
+                <label>Triple</label>
+            </value>
+            <value>
+                <fullName>Partnership</fullName>
+                <default>false</default>
+                <label>Partnership</label>
+            </value>
+            <value>
+                <fullName>Asian Institute of Technology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Asian Institute of Technology</label>
+            </value>
+            <value>
+                <fullName>Aston Business School</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aston Business School</label>
+            </value>
+            <value>
+                <fullName>Centrale Lyon</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Centrale Lyon</label>
+            </value>
+            <value>
+                <fullName>ENS lyon</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ENS lyon</label>
+            </value>
+            <value>
+                <fullName>East China Normal University</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>East China Normal University</label>
+            </value>
+            <value>
+                <fullName>Ecole W</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ecole W</label>
+            </value>
+            <value>
+                <fullName>Escola de Administraçao de Empresas de Sao Paulo, Fundaçao Getulio Vargas, Sao Paulo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Escola de Administraçao de Empresas de Sao Paulo, Fundaçao Getulio Vargas, Sao Paulo</label>
+            </value>
+            <value>
+                <fullName>Financial University</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Financial University</label>
+            </value>
+            <value>
+                <fullName>HEC Montréal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HEC Montréal</label>
+            </value>
+            <value>
+                <fullName>Hanken School of Economics</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hanken School of Economics</label>
+            </value>
+            <value>
+                <fullName>IDA Aix Marseille</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IDA Aix Marseille</label>
+            </value>
+            <value>
+                <fullName>IMT Dubai</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IMT Dubai</label>
+            </value>
+            <value>
+                <fullName>Lancaster University Management School</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lancaster University Management School</label>
+            </value>
+            <value>
+                <fullName>Ludwig-Maximilians-Universität München</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ludwig-Maximilians-Universität München</label>
+            </value>
+            <value>
+                <fullName>McGill University</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>McGill University</label>
+            </value>
+            <value>
+                <fullName>Mines St Etienne</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mines St Etienne</label>
+            </value>
+            <value>
+                <fullName>Murray State University</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Murray State University</label>
+            </value>
+            <value>
+                <fullName>National Chengchi University,  College of Commerce</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>National Chengchi University,  College of Commerce</label>
+            </value>
+            <value>
+                <fullName>Reutlingen University, ESB Business School</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reutlingen University, ESB Business School</label>
+            </value>
+            <value>
+                <fullName>Sc. Po Lyon - IEP lyon</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sc. Po Lyon - IEP lyon</label>
+            </value>
+            <value>
+                <fullName>South China University of Technology, School of Mgt</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>South China University of Technology, School of Mgt</label>
+            </value>
+            <value>
+                <fullName>Tongji University, School of Economics and Management</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tongji University, School of Economics and Management</label>
+            </value>
+            <value>
+                <fullName>Université Jean Moulin Lyon 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Université Jean Moulin Lyon 3</label>
+            </value>
+            <value>
+                <fullName>Université Lyon 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Université Lyon 2</label>
+            </value>
+            <value>
+                <fullName>Université de St Etienne</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Université de St Etienne</label>
+            </value>
+            <value>
+                <fullName>WHU - Otto Beisheim School of Management</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WHU - Otto Beisheim School of Management</label>
+            </value>
+            <value>
+                <fullName>York University, Glendon College</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>York University, Glendon College</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

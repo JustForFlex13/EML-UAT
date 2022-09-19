@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De tekst van de labels voor elke kolom. Voor mogelijke formaten kijk op https://gen25-jira.atlassian.net/wiki/spaces/BPD/pages/1822916613/Date+Time+Format+Tokens en zorg evoor dat normale tekst is geescaped door ze tusssen [blokhaken] te zetten</help>
+    <label></label>
+    <name>B25__Header_Label_Format__c</name>
+</CustomFieldTranslation>

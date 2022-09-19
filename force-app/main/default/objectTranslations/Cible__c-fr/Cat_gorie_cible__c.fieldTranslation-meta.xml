@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Cat_gorie_cible__c</name>
+    <picklistValues>
+        <masterLabel>Autres</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cibles sectorielles</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sociétés proches de l&apos;école</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

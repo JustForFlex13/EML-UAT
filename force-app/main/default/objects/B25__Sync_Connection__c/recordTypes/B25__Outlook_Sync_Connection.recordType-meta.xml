@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Outlook_Sync_Connection</fullName>
+    <active>true</active>
+    <description>Sync connection for connecting to Outlook Calendar</description>
+    <label>Outlook Sync Connection</label>
+    <picklistValues>
+        <picklist>B25__User_Type__c</picklist>
+        <values>
+            <fullName>resource</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>user</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zone_commercialisation__c</fullName>
+    <externalId>false</externalId>
+    <label>Zone commercialisation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AUTRE</fullName>
+                <default>false</default>
+                <label>AUTRE</label>
+            </value>
+            <value>
+                <fullName>AFRIQUE_01</fullName>
+                <default>false</default>
+                <label>AFRIQUE_CE</label>
+            </value>
+            <value>
+                <fullName>AFRIQUE_M</fullName>
+                <default>false</default>
+                <label>AFRIQUE_M</label>
+            </value>
+            <value>
+                <fullName>AFRIQUE_02</fullName>
+                <default>false</default>
+                <label>AFRIQUE_O</label>
+            </value>
+            <value>
+                <fullName>ASIE</fullName>
+                <default>false</default>
+                <label>ASIE</label>
+            </value>
+            <value>
+                <fullName>INDE</fullName>
+                <default>false</default>
+                <label>INDE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

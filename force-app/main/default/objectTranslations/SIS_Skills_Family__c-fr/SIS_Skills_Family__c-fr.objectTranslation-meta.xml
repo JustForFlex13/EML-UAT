@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Famille de compétences</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Familles de compétences</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Skills Family Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Famille de compétence</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

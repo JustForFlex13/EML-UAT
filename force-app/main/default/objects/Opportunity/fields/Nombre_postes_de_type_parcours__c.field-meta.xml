@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nombre_postes_de_type_parcours__c</fullName>
+    <externalId>false</externalId>
+    <label>Nombre postes de type pack</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Type_produit__c</field>
+        <operation>equals</operation>
+        <value>Pack</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

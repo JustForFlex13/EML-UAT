@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Academic_certification_organism__c</fullName>
+    <externalId>false</externalId>
+    <label>Academic certification organism</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AACSB</fullName>
+                <default>false</default>
+                <label>AACSB</label>
+            </value>
+            <value>
+                <fullName>EQUIS</fullName>
+                <default>false</default>
+                <label>EQUIS</label>
+            </value>
+            <value>
+                <fullName>QUALIOPI</fullName>
+                <default>false</default>
+                <label>QUALIOPI</label>
+            </value>
+            <value>
+                <fullName>Hcéres</fullName>
+                <default>false</default>
+                <label>Hcéres</label>
+            </value>
+            <value>
+                <fullName>BSIS</fullName>
+                <default>false</default>
+                <label>BSIS</label>
+            </value>
+            <value>
+                <fullName>DD&amp;RS</fullName>
+                <default>false</default>
+                <label>DD&amp;RS</label>
+            </value>
+            <value>
+                <fullName>Campus France &quot;Bienvenue en France&quot;</fullName>
+                <default>false</default>
+                <label>Campus France &quot;Bienvenue en France&quot;</label>
+            </value>
+            <value>
+                <fullName>CEFDG</fullName>
+                <default>false</default>
+                <label>CEFDG</label>
+            </value>
+            <value>
+                <fullName>AMBA</fullName>
+                <default>false</default>
+                <label>AMBA</label>
+            </value>
+            <value>
+                <fullName>Conférence des Grandes Ecoles (CGE)</fullName>
+                <default>false</default>
+                <label>Conférence des Grandes Ecoles (CGE)</label>
+            </value>
+            <value>
+                <fullName>France Compétences</fullName>
+                <default>false</default>
+                <label>France Compétences</label>
+            </value>
+            <value>
+                <fullName>Emlyon business school</fullName>
+                <default>false</default>
+                <label>Emlyon business school</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

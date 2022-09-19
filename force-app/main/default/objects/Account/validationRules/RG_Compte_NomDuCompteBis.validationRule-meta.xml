@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Compte_NomDuCompteBis</fullName>
+    <active>true</active>
+    <description>Empêcher la duplication des comptes Formation Initiale et sans organisation connue ou transition professionnelle.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( AND
+(
+OR
+(
+Name=&quot;Formation Initiale&quot;,
+Name=&quot;Sans organisation connue&quot;,
+Name=&quot;Transition professionnelle&quot;
+)
+,
+ISCHANGED(Name)
+)
+)</errorConditionFormula>
+    <errorMessage>Il est impossible de modifier le nom de compte en Formation Initiale ou Sans organisation connue ou Transition professionnelle</errorMessage>
+</ValidationRule>

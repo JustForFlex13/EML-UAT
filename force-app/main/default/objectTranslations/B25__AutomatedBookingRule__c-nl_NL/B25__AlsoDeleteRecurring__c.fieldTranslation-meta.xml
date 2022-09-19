@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indien aangevinkt, verwijder ook de terugkerende reserveringen gerelateerd aan deze reserveringen bij verwijderen.</help>
+    <label></label>
+    <name>B25__AlsoDeleteRecurring__c</name>
+</CustomFieldTranslation>

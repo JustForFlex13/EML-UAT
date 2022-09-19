@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Portail_candidat</fullName>
+    <active>true</active>
+    <label>Portail candidat</label>
+    <picklistValues>
+        <picklist>French_skills__c</picklist>
+        <values>
+            <fullName>Advanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beginner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fluent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Native language</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Degree_sought__c</picklist>
+        <values>
+            <fullName>BAC%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAC%2B5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Intended_specialisation__c</picklist>
+        <values>
+            <fullName>Entrepreneurship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organization Theory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategic Management</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Programme_auquel_vous_postulez__c</picklist>
+        <values>
+            <fullName>Certificat onilne Pilotage de la performance et datas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificat online Conduite du changement et intelligence collective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificat online Management agile et responsable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificat online Marketing digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificat online Pilotage du capital humain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificat online Stratégie d%E2%80%99entreprise et disruptions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificat online Transformation digitale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diriger Une Activité</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Démarche Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive MBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive Master Management Général</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive Master Management Général Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance pour Non Financier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global BBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global DBA - Asia Track</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global DBA - with Durham University</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International MBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrapreneur %3A Acteurs de l%E2%80%99Innovation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in Cybersecurity %26 Defense Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in Data Science %26 Artificial Intelligence Strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in Digital Marketing %26 Data Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in Global Innovation %26 Entrepreneurship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in Health Management %26 Data Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in High-End Brand Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in International Hospitality Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in International Marketing %26 Business Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in Luxury Management %26 Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in Sports Industry Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in Strategy %26 Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSc in Supply Chain %26 Purchasing Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management Agile et Responsable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mastère Spécialisé Entrepreneuriat %26 Management de l%27Innovation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mastère Spécialisé Juriste Manager International Full-time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mastère Spécialisé Juriste Manager International Part-Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mastère Spécialisé Management de la Transition Énergétique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mastère Spécialisé Management des Entreprises du Vivant %26 de l%27Agroalimentaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mastère Spécialisé Stratégie %26 Développement d%27Affaires Internationales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mastère Spécialisé Transformation Digitale%2C Marketing %26 Stratégie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Objectif Conseil d%27Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pilotage du Capital Humain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piloter la Transformation Digitale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programme PhD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programmes courts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programmes sur-mesure pour entreprises</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stratégie d%E2%80%99Innovation par le Design Thinking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stratégie d%E2%80%99entreprise et disruption</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Type_damenagement_concours_necessair__c</picklist>
+        <values>
+            <fullName>1%2F3 temps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre libre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secrétaire</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Application_Status__c</picklist>
+        <values>
+            <fullName>Admit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deny</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eligible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrolled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Application_Type__c</picklist>
+        <values>
+            <fullName>Graduate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undergraduate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Code_agresso_for__c</fullName>
+    <description>Ce champ va être renseigné manuellement ou par chargement et sert pour export vers AGRESSO en tant que code formation. Ex: 15SELPGM--1</description>
+    <externalId>false</externalId>
+    <label>Code agresso Formation</label>
+    <length>11</length>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

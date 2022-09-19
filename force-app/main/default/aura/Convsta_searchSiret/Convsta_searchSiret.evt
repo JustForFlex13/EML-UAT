@@ -1,0 +1,5 @@
+<aura:event type="Component" description="pass the filter value from component to component">
+    <aura:attribute name="SIRET" type="String" />
+    <aura:attribute name="companyName" type="String" />
+    <aura:attribute name="zipOrCity" type="String" />    
+</aura:event>

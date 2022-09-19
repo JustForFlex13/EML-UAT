@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Convsta Rejet Administratif</name>
+    <style>freeForm</style>
+    <subject>Votre demande n&apos;a pas été approuvée (refus administratif)</subject>
+    <textOnly>Bonjour {!Contact.Name},
+
+Nous avons le regret de vous informer que votre demande de convention de stage ou de validation d&apos;expérience professionnelle a été rejetée (refus administratif).
+
+Motif du refus : {!Case.Convsta_Motif_Rejet_Administratif__c}
+
+Explications :
+{!Case.Explications_administratives__c}
+
+Pour plus de précisions, contactez le gestionnaire de votre demande au sein de votre Career Center.
+
+Cordialement,
+
+emlyon Career Center</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

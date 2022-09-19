@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Default_Price_Calculation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines the default way the price is calculated for all Resources of the Resource Type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque vous choisissez une méthode, toutes les ressources de ce type de ressource utiliseront cette méthode de calcul du prix par défaut.</inlineHelpText>
+    <label>Default Price Calculation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PER_PERSON</fullName>
+                <default>false</default>
+                <label>PER_PERSON</label>
+            </value>
+            <value>
+                <fullName>PER_TIME_UNIT</fullName>
+                <default>false</default>
+                <label>PER_TIME_UNIT</label>
+            </value>
+            <value>
+                <fullName>PER_PERSON_PER_TIME_UNIT</fullName>
+                <default>false</default>
+                <label>PER_PERSON_PER_TIME_UNIT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

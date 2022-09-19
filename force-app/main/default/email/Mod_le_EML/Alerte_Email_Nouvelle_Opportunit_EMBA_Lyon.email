@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><font size="5"><b>Une nouvelle opportunité EMBA Lyon a été créée</b></font></div><div><br></div><div><b>Lien vers l'opportunité :</b></div><div>https://arpege-emlyon.lightning.force.com/{!Opportunity.Id}&nbsp;</div><div><br></div><div><b>Nom/Prénom :</b> {!Opportunity.Nom_Prenom__c}</div><div><b>Souhait Programme: </b>{!Opportunity.Name}</div><div><b>Date de création : </b>{!Opportunity.CreatedDate}</div><div><b>Lieu : </b>{!Opportunity.Lieu_de_formation__c}</div><div> <b>Nom du propriétaire :</b> {!Opportunity.OwnerLastName}</div><div><b>Statut : </b>{!Opportunity.StageName}</div><div><b>Détail Canal d'acquisition : </b>{!Opportunity.Sous_provenance__c}</div><div><b>Date de Rentrée :</b> {!Opportunity.CloseDate}<br></div>]]></td>
+</tr>
+</table>

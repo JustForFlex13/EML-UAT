@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando são preenchidos vários Campos de Elemento numa Reserva, o calendário do registo com a Prioridade de Sincronização mais baixa será utilizado para criar o evento. Os outros registos de elemento relacionados serão adicionados como participantes.</help>
+    <label></label>
+    <name>B25__Sync_Priority__c</name>
+</CustomFieldTranslation>

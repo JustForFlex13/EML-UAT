@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Hide_from_Calendar__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>For checkbox filters, checking this will hide the filter from the Calendar, and always apply the default checkbox value to the Calendar.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Pour les filtres de case à cocher, le fait de cocher cette option masquera le filtre du calendrier, et appliquera toujours la valeur par défaut de la case à cocher au calendrier.</inlineHelpText>
+    <label>Hide from Calendar</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

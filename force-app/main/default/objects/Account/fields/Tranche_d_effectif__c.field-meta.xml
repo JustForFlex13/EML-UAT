@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tranche_d_effectif__c</fullName>
+    <externalId>false</externalId>
+    <label>Tranche d&apos;effectif</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>De 0 à 9</fullName>
+                <default>false</default>
+                <label>De 0 à 9</label>
+            </value>
+            <value>
+                <fullName>De 10 à 49</fullName>
+                <default>false</default>
+                <label>De 10 à 49</label>
+            </value>
+            <value>
+                <fullName>De 50 à 249</fullName>
+                <default>false</default>
+                <label>De 50 à 249</label>
+            </value>
+            <value>
+                <fullName>De 250 à 499</fullName>
+                <default>false</default>
+                <label>De 250 à 499</label>
+            </value>
+            <value>
+                <fullName>De 500 à 999</fullName>
+                <default>false</default>
+                <label>De 500 à 999</label>
+            </value>
+            <value>
+                <fullName>De 1000 à 1999</fullName>
+                <default>false</default>
+                <label>De 1000 à 1999</label>
+            </value>
+            <value>
+                <fullName>De 2000 à 4999</fullName>
+                <default>false</default>
+                <label>De 2000 à 4999</label>
+            </value>
+            <value>
+                <fullName>De 5000 à 9999</fullName>
+                <default>false</default>
+                <label>De 5000 à 9999</label>
+            </value>
+            <value>
+                <fullName>10 000 et plus</fullName>
+                <default>false</default>
+                <label>10 000 et plus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

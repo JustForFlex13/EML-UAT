@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der Operationstyp, in dem der Fehler aufgetreten ist.</help>
+    <label></label>
+    <name>B25__Operation_Type__c</name>
+    <picklistValues>
+        <masterLabel>Connection Setup</masterLabel>
+        <translation>Verbindungsaufbau</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create</masterLabel>
+        <translation>Erstellen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delete</masterLabel>
+        <translation>Löschen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recurring Event Sync</masterLabel>
+        <translation>Wiederkehrende Ereignisse synchronisieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscription Refresh</masterLabel>
+        <translation>Abonnement erneuern</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscription Update</masterLabel>
+        <translation>Abonnement aktualisieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sync Down</masterLabel>
+        <translation>Nach unten synchronisieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Update</masterLabel>
+        <translation>Aktualisieren</translation>
+    </picklistValues>
+</CustomFieldTranslation>

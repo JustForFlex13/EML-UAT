@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>APREN</fullName>
+        <default>false</default>
+        <label>APREN</label>
+    </customValue>
+    <customValue>
+        <fullName>CCARR</fullName>
+        <default>false</default>
+        <label>CCARR</label>
+    </customValue>
+    <customValue>
+        <fullName>CLANG</fullName>
+        <default>false</default>
+        <label>CLANG - Cours de langue</label>
+    </customValue>
+    <customValue>
+        <fullName>CMANG</fullName>
+        <default>false</default>
+        <label>CMANG - Cours de management</label>
+    </customValue>
+    <customValue>
+        <fullName>CPROJ</fullName>
+        <default>false</default>
+        <label>CPROJ - Cours projet</label>
+    </customValue>
+    <customValue>
+        <fullName>CSPOR</fullName>
+        <default>false</default>
+        <label>CSPOR - Cours de sport</label>
+    </customValue>
+    <customValue>
+        <fullName>ECHAN</fullName>
+        <default>false</default>
+        <label>ECHAN</label>
+    </customValue>
+    <customValue>
+        <fullName>EVENT</fullName>
+        <default>false</default>
+        <label>EVENT</label>
+    </customValue>
+    <customValue>
+        <fullName>PFETU</fullName>
+        <default>false</default>
+        <label>PFETU</label>
+    </customValue>
+    <customValue>
+        <fullName>SEJOU</fullName>
+        <default>false</default>
+        <label>SEJOU</label>
+    </customValue>
+    <customValue>
+        <fullName>STAGE</fullName>
+        <default>false</default>
+        <label>STAGE</label>
+    </customValue>
+    <description>Code de la catégorie pédagogique utilisée dans le cours et le modèle de cours. Utilisé pour la nouvelle codification des cours.</description>
+    <masterLabel>Code catégorie pédagogique</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

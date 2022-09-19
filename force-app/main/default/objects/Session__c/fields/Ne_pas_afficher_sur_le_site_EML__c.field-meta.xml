@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ne_pas_afficher_sur_le_site_EML__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Cocher ce champ pour ne pas exporter sur le site EML</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cocher ce champ pour ne pas exporter sur le site EML</inlineHelpText>
+    <label>Ne pas afficher sur le site EML</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

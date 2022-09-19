@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Has_Resource_Conflicts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, this Reservation has Resource conflicts with other Reservation(s).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Si cette option est cochée, cette réservation présente des conflits de ressources avec d’autres réservations.</inlineHelpText>
+    <label>Has Resource Conflicts</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_enregistrement_produit__c</fullName>
+    <description>Champs formule créé pour récupérer le type d&apos;enregistrement du produit et pour l&apos;afficher dans le type de rapport &quot;Catalogues de prix avec des produits&quot;.</description>
+    <externalId>false</externalId>
+    <formula>RecordType.DeveloperName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Type d&apos;enregistrement produit</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

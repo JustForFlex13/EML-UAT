@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial">Bonjour {!Contact.Name},&nbsp;</font><div><font face="arial"><br></font></div><div><font face="arial">Vous avez récemment effectué une demande de convention de stage sur le portail en ligne.&nbsp;</font></div><div><font face="arial">Nous sommes actuellement en attente de votre contrat.&nbsp;<br><br>Merci de bien vouloir nous le fournir dans les plus bref délais.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Cordialement,&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">Service employabilité</font></div><div><font face="arial"><br></font></div>]]></td>
+</tr>
+</table>

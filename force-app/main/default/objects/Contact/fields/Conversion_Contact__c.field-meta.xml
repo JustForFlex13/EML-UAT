@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_Contact__c</fullName>
+    <description>Ce champ permet d&apos;indiquer quel type d&apos;enregistrement sera appliqué pour le contact lors de la conversion</description>
+    <externalId>false</externalId>
+    <label>Conversion Contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prospect Etudiant</fullName>
+                <default>false</default>
+                <label>Prospect Etudiant</label>
+            </value>
+            <value>
+                <fullName>Etudiant</fullName>
+                <default>false</default>
+                <label>Etudiant</label>
+            </value>
+            <value>
+                <fullName>Professionnel</fullName>
+                <default>false</default>
+                <label>Professionnel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

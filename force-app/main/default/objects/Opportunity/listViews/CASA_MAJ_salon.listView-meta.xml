@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CASA_MAJ_salon</fullName>
+    <columns>Nom_Prenom__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Provenance__c</columns>
+    <columns>Sous_provenance__c</columns>
+    <columns>Exercice__c</columns>
+    <columns>OwnerId__c</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_Date_cr_ation_contact__c</field>
+        <operation>greaterThan</operation>
+        <value>11/25/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Provenance__c</field>
+        <operation>equals</operation>
+        <value>Forum</value>
+    </filters>
+    <label>CASA_MAJ salon</label>
+    <language>fr</language>
+</ListView>

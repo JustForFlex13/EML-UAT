@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nombre de jours de congés et RTT auxquels l&apos;étudiant a droit dans le cadre de son expérience professionnelle</help>
+    <label>Congés/Récupération du Temps de Travail</label>
+    <name>Conges_RTT__c</name>
+</CustomFieldTranslation>

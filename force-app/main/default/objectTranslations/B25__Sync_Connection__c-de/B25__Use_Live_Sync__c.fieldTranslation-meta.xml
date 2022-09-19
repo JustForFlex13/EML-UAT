@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bei Aktivierung wird von Booker25 ein Live-Abonnement eingerichtet, wobei Aktualisierungen im externen System nahezu in Echtzeit Aktualisierungen in Booker25 auslösen.</help>
+    <label></label>
+    <name>B25__Use_Live_Sync__c</name>
+</CustomFieldTranslation>

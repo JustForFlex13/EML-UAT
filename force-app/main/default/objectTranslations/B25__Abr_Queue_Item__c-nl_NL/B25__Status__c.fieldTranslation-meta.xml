@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>B25__Status__c</name>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation>Gefaald</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finished</masterLabel>
+        <translation>Afgerond</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>In afwachting</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Processing</masterLabel>
+        <translation>Verwerken</translation>
+    </picklistValues>
+</CustomFieldTranslation>

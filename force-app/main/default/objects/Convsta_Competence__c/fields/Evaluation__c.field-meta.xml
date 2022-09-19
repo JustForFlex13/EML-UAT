@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Evaluation__c</fullName>
+    <externalId>false</externalId>
+    <label>Evaluation</label>
+    <referenceTo>Convsta_Evaluation__c</referenceTo>
+    <relationshipLabel>Competences</relationshipLabel>
+    <relationshipName>Competences</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Nombre de crédits accordés</label>
+    <name>SIS_Number_of_credits_granted__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Commerciaux_Taxe</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Commerciaux_Taxe</label>
+        <sharedTo>
+            <group>Commerciaux_droit_Taxe</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Taxe</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>EML_Intra_opp_L</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Droits en lecture sur opportunités Intra</description>
+        <label>EML Intra - opp L</label>
+        <sharedTo>
+            <group>Intra_en_lecture</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation intra-entreprise</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Fundraising_opp_LE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Fundraising - opp LE</label>
+        <sharedTo>
+            <roleAndSubordinates>Fundraising</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Partenariat Fundraising,Fundraising B2C</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_Conseillers_Commerciaux</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Lecture/Ecriture pour les conseillers commerciaux sur les opportunités de type FI ou EML EXEC</description>
+        <label>L/E Conseillers Commerciaux</label>
+        <sharedTo>
+            <group>Conseillers_Commerciaux</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation initiale,Formation courte,Formation intra-entreprise,Programme Long Diplômant</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_EXEC_Masters_Programmes</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>L/E EXEC Masters Programmes</label>
+        <sharedTo>
+            <group>EML_EXEC_Masters</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>transformation digitale</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Juriste Business Partner</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_Exec_Master</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>L/E Exec Master</label>
+        <sharedTo>
+            <group>EXEC_Master</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Programme Transformation Digitale des Organisations</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Executive MS Juriste Business Partner</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_Executive_MBA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Doirts transverses en lecture/écriture sur les EMBA</description>
+        <label>L/E Executive MBA</label>
+        <sharedTo>
+            <group>Opp_Executive_MBA</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Executive MBA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>EMBA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_IMBA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Partage lecture écriture sur les opportunités IMBA</description>
+        <label>L/E IMBA</label>
+        <sharedTo>
+            <group>Vue_Transverse_IMBA</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>International MBA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Full-time MBA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_Toutes_opp_CASABLANCA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>L/E sur toutes les opp Casablanca pour me pôle CASA</description>
+        <label>L/E Toutes opp CASABLANCA</label>
+        <sharedTo>
+            <role>BBA_CASA</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Casablanca</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_Transverse_Programmes_Longs</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>L/E Transverse Programmes Longs</label>
+        <sharedTo>
+            <group>Transverse_Programmes_Longs</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Programme Long Diplômant</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_VAE_sur_opportunit_s_INTRA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Rôle en lecture / écriture sur les opp INTRA afin de permettre la saisie de partenaires Financeurs</description>
+        <label>L/E VAE sur opportunités INTRA</label>
+        <sharedTo>
+            <role>EML_VAE</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation intra-entreprise</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_pour_coordinatrice_RE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Donne accès en lecture/écriture aux opportunités de type RE.</description>
+        <label>L/E pour coordinatrice RE</label>
+        <sharedTo>
+            <group>Coordination_RE</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Relations Employeur</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_sur_tout_EML</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>L/E sur tout EML pour le rôle EML (sans subordonné)</description>
+        <label>L/E sur tout EML</label>
+        <sharedTo>
+            <role>EML</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation courte</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation intra-entreprise</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Programme Long Diplômant</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_t_l_conseiller_Presta_Externe_FI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Cette règle de partage permet de définir les accès en Lecture/Ecriture sur les opportunités FI et FC qui sont identifiées comme étant gérées par les téléconseillers externes.</description>
+        <label>L/E téléconseiller Presta Externe FI</label>
+        <sharedTo>
+            <roleAndSubordinates>T_l_conseiller_Externe</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Code_Produit__c</field>
+            <operation>equals</operation>
+            <value>EMM,GEP,IDEA,ENSC,APA1,SAI,IHM,MMML,PREPA,SIM,SP3,BBA,BBA2,BBA3,MFDM,MF,MJ,MT,MMS,ME,MCO,MA,MAI,MSDAI,MK,IMBA,EMBA,PGM,DUA,AMP,EMSO1,EMS02,GDBA,TDO,OA,MEMI,MBMTD,DMDS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Code_Produit__c</field>
+            <operation>equals</operation>
+            <value>AMBA,DIPLVAE,DUAI,OA,OAD,AMP,SELOA,SELPGM,SELEMBA,SELEMBAFR,SELTDO,SELDUA,SELAMPES,EMBAVAE1,EMBAVAE2,PGMVAE1,PGMVAE2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Code_Produit__c</field>
+            <operation>equals</operation>
+            <value>MIFF,MIFI,MTDMS,MTDMSI,MJPT,HMDI,MJPT,MMTE,SCO,GIE,SCPM</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_E_t_l_conseiller_Presta_Externe_FI_2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Cette règle de partage permet de définir les accès en Lecture/Ecriture sur les opportunités FI et FC qui sont identifiées comme étant gérées par les téléconseillers externes. 2e partie car la première avait atteint les limites</description>
+        <label>L/E téléconseiller Presta Externe FI 2</label>
+        <sharedTo>
+            <roleAndSubordinates>T_l_conseiller_Externe</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Code_Produit__c</field>
+            <operation>equals</operation>
+            <value>INTBBA,IMBD,DSAIS</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Lecture_Seule_FI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Lecture seule sur Opportunités FI</description>
+        <label>Lecture Seule FI</label>
+        <sharedTo>
+            <group>CASA_FI</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation initiale</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Lecture_Seule_Tout_EML</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Droits en lecture seule sur toutes les opportunités EML</description>
+        <label>Lecture Seule -Tout  EML</label>
+        <sharedTo>
+            <role>EML_Lecture_seule</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation intra-entreprise,Formation courte,Programme Long Diplômant</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Lecture_t_l_conseiller_Presta_Externe_FI</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Cette règle de partage permet de définir les accès en lecture sur les opportunités FI qui sont identifiées comme étant gérées par les téléconseillers externes.</description>
+        <label>Lecture téléconseiller Presta Externe FI</label>
+        <sharedTo>
+            <roleAndSubordinates>T_l_conseiller_Externe</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Code_Produit__c</field>
+            <operation>equals</operation>
+            <value>CA_BBA,CA_ME,CA_MF,CA_MMS,CA_GMST</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Opp_HEBM</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opp HEBM</label>
+        <sharedTo>
+            <group>Opportunit_HEBM</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Code_Produit__c</field>
+            <operation>equals</operation>
+            <value>HEBM</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Opp_QEPRO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opp QEPRO</label>
+        <sharedTo>
+            <group>Opportunit_QEPRO</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>QEPRO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>QE PRO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Opportunit_CDM</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Donne l&apos;accès aux Opportunités Cybersecurity &amp; Defense Management au pr</description>
+        <label>Opportunité CDM</label>
+        <sharedTo>
+            <role>T_l_conseiller_Externe</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Cybersecurity &amp; Defense Management</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PGM_Online_MEJT</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Partage les opportunités Programme de Management Online avec le prestataire MEJT</description>
+        <label>PGM Online MEJT</label>
+        <sharedTo>
+            <roleAndSubordinates>T_l_conseiller_Externe</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Code_Produit__c</field>
+            <operation>equals</operation>
+            <value>PGMONLINE,BBAINT</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Partage_Lecture_Seule_Formation_Courte_Formation_Dipl_mante</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Partage Lecture Seule - Formation Courte - Formation Diplômante</label>
+        <sharedTo>
+            <group>Marketing_Visualisation_de_Rapports_EML</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation courte,Programme Long Diplômant</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>RP_LR_DUA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Règle de partage des opportunités DUA en lecture/écriture</description>
+        <label>RP L/R DUA</label>
+        <sharedTo>
+            <group>Vues_Opp_DUA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Diriger une activité</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Taxe_opp_LE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Taxe - opp LE</label>
+        <sharedTo>
+            <roleAndSubordinates>Taxe</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Taxe</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>L_E_Alumni_Track</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>L/E Alumni Track</label>
+        <sharedTo>
+            <group>EML_Alumni_Track</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EML_Alumni_Track</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>L_E_Autres_Programmes_Longs</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>L/E Autres Programmes Longs</label>
+        <sharedTo>
+            <group>EML_Autres_Programmes_Longs</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>EML_Autres_Programmes_Longs</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>L_E_CASA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>L/E sur les opportunités CASA entre membres de l&apos;équipe CASA</description>
+        <label>L/E CASA</label>
+        <sharedTo>
+            <roleAndSubordinates>BBA_CASA</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>BBA_CASA</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>L_E_EXEC_Masters</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>L/E EXEC Masters</label>
+        <sharedTo>
+            <group>EML_EXEC_Masters</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>EML_EXEC_Masters</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>L_E_IMBA_EMBA_pour_EXEC_Masters</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>L/E IMBA/EMBA pour EXEC Masters</label>
+        <sharedTo>
+            <group>Transverse_EMBA_IMBA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>EML_EXEC_Masters</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>L_E_Programmes_Courts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Accès L/E transverses sur les opportunités au sein du pôle Programmes Courts</description>
+        <label>L/E Programmes Courts</label>
+        <sharedTo>
+            <group>EML_Programmes_Courts</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>EML_Programmes_Courts</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>L_E_Programmes_Intra</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Accès en L/E sur les opportunités au sein du pôle INTRA</description>
+        <label>L/E Programmes Intra</label>
+        <sharedTo>
+            <group>EML_Programmes_Intra</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>EML_Programmes_Intra</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>L_E_Programmes_MBA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>L/E Programmes MBA</label>
+        <sharedTo>
+            <group>Opp_Executive_MBA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>EML_Programme_MBA</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>L_E_avec_Programmes_Courts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Accès en L/E sur Opportunités appartenant à des utilisateurs du groupe &quot;EML_en_partage_avec_Programmes_Courts&quot;</description>
+        <label>L/E avec Programmes Courts</label>
+        <sharedTo>
+            <role>EML_Programmes_Courts</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>EML_en_partage_avec_Programmes_Courts</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>L_E_pour_EXEC_Masters_sur_EMBA_IMBA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>L/E pour EXEC Masters sur EMBA/IMBA</label>
+        <sharedTo>
+            <group>EML_EXEC_Masters</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>EML_Programme_MBA</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>L_E_pour_manager_ACE_RE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Donne accès en lecture/écriture au groupe public &quot;Manager ACE/RE&quot; à toutes les opportunités de la direction entreprise.</description>
+        <label>L/E pour manager ACE/RE</label>
+        <sharedTo>
+            <group>Manager_ACE_RE</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Direction_Entreprise</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Lecture_Seule_Tout_EML</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Lecture Seule Tout EML</label>
+        <sharedTo>
+            <group>Utilisateurs_EML</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>EML</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Lecture_pour_Direction_Entreprise</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Tous les utilisateurs direction entreprise sont en lecture sur les opportunités direction entreprise</description>
+        <label>Lecture pour Direction Entreprise</label>
+        <sharedTo>
+            <roleAndSubordinates>Direction_Entreprise</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Direction_Entreprise</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Opp_Casa_pour_role_EML</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opp Casa pour rôle EML</label>
+        <sharedTo>
+            <group>Equivalent_Casa</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>BBA_CASA</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Partage_Afrique_FC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Partage Afrique FC</label>
+        <sharedTo>
+            <group>Formation_Courte</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EML_Afrique</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Partage_FC_Afrique</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Partage FC Afrique</label>
+        <sharedTo>
+            <group>EML_Afrique</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Formation_Courte</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>RP_OPPO_01</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Toutes les personnes de Promo Recrut Master se partagent en lecture écriture les opportunités</description>
+        <label>RP_OPPO_01</label>
+        <sharedTo>
+            <role>Promo_Recrut_Master</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Promo_Recrut_Master</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

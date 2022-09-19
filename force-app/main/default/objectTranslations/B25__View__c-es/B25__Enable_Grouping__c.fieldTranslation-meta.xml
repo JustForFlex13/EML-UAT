@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Solo se admite oficialmente en los calendarios de grupos y el personal. Divide en bloques los recursos de grupos y el personal. Las disponibilidades solo se cargan cuando el bloque se abre. Active esto cuando la carga de las disponibilidades dure demasiado.</help>
+    <label></label>
+    <name>B25__Enable_Grouping__c</name>
+</CustomFieldTranslation>

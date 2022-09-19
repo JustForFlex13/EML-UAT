@@ -1,0 +1,10 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" controller="Convsta_Object_Helper">
+    <aura:registerEvent name="fileUploaded" type="aura:componentEvent"/>
+        <div class="slds-grid slds-wrap">
+               <lightning:fileUpload  name="fileUploader"
+                           label= "Charger un avenant"
+                           multiple="false"
+                           recordId="{!v.recordId}"
+                           onuploadfinished="{! c.handleUploadFinished }"/>
+        </div>
+</aura:component>

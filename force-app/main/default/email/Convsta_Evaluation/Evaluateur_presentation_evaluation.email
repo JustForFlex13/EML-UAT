@@ -1,0 +1,29 @@
+Bonjour {!Convsta_Evaluation__c.Evaluateur__c},
+
+Vous accueillez actuellement {!Convsta_Evaluation__c.Etudiant__c}, étudiant au sein d’emlyon business school et nous vous en remercions.
+ 
+Le stage étant un requis pour l’obtention de son diplôme, vous recevrez d’ici quelques jours un lien vous permettant d’accéder au formulaire d’évaluation de la mission réalisée par l’étudiant.
+
+Afin de l’accompagner dans ses apprentissages, nous vous conseillons de compléter cette évaluation lors d’un entretien de bilan de fin de stage en présence de l’étudiant.
+
+
+Nous restons à votre disposition,
+ 
+emlyon Career Center
+
+English version below
+
+
+Subject : Evaluation of your intern {!Convsta_Evaluation__c.Etudiant__c}
+
+Dear {!Convsta_Evaluation__c.Evaluateur__c},
+
+You recently welcomed {!Convsta_Evaluation__c.Etudiant__c}, student at emlyon business school and we thank your for it.
+
+The internship is mandatory for obtaining their diploma. You will receive within a few days a link allowing you to access the form to evaluate the project carried out by the student.
+
+In order to support them with their learning, we advise you to complete this evaluation during a face-to-face meeting with the students at the end their project.
+
+ We remain at your disposal,
+
+emlyon Career Center

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Tranche_de_CA_du_groupe__c</name>
+    <picklistValues>
+        <masterLabel>200 M€ ou plus</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De 0,5 a moins de 1 M€</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De 1 M€ a moins de 2 M€</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De 10 M€ a moins de 20 M€</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De 100 M€ a moins de 200 M€</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De 2 M€ a moins de 5 M€</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De 20 M€ a moins de 50 M€</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De 5 M€ a moins de 10 M€</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De 50 M€ a moins de 100 M€</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Moins de 0,5 million d&apos;euros</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

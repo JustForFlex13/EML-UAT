@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Account</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Pr_sentation_compacte_Compte_Forever</compactLayoutAssignment>
+    <label>Business Account</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Formation continue courte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formation continue indéterminée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formation initiale BBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formation initiale masters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indéterminé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MBA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cat_gorie_Cible__c</picklist>
+        <values>
+            <fullName>Autres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cibles sectorielles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sociétés proches de l%27école</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cible__c</picklist>
+        <values>
+            <fullName>20 plus grosses sociétés en Bourse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BENEFPART</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fournisseurs de l%27école</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescripteur CIO GE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescripteur IDEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Société ETI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sociétés clientes EML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sociétés crées par un diplômé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sociétés dans le secteur du Luxe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sociétés dans le secteur du Sport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAXEGEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAXEPRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAXEPRI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAXEPROC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAXEVIP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Code_NAICS__c</picklist>
+        <values>
+            <fullName>11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31-33</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>42</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>44-45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48-49</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>51</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>52</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>53</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>54</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>55</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>56</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>61</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>62</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>71</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>72</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>81</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>92</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Comment_avez_vous_connu_le_programme__c</picklist>
+        <values>
+            <fullName>Alumni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bouche à oreille</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emlyon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frenchtech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Les echos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recherche internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réseaux sociaux</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salons %2F evenements</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Niveau_Alerte_Entreprise__c</picklist>
+        <values>
+            <fullName>Orange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rouge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vert</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Indice_de_proximit__c</picklist>
+        <values>
+            <fullName>Crayon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oxygène</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Administration Publique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agriculture%2FPêche</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automobile et Matériels de Transport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTP%2FHabitat%2FEnvironnement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banque%2FAssurance%2FScs Finan%2E%2FImmobilier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commerce%2FDistribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction%2FBTP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edition%2FImprimerie%2FReproduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educa%2ESanté%2FAct%2ESociale%2FAct%2Easso%2E%2Fmédia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energie%2FEau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extraction et Industries Extractives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indust%2EElectriq%2FElectroniq%2E%2FInformatique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrie Agro-alimentaire%2FTabac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrie Bois%2FPapier%2FCarton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrie Chimique%2FPharmacie%2FPlastiques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrie Textile%2FHabillement%2FCuir</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metallurgie%2FMachines et Equipement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services aux Entreprises%2FConseil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services aux particuliers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transports%2FLogistique%2FTourisme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Télécommunication%2Fservices informatiques</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LG_1__c</picklist>
+        <values>
+            <fullName>LO1 %3A Graduates understand and analyze the economic and social news of a digi-global changing world</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LO2 %3A Graduates are able to identify and implement solutions to make decisions in an international business environment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LG_2__c</picklist>
+        <values>
+            <fullName>LO3 %3A Graduates understand and are able to implement the concepts%2C methods and tools for management%2C steering of projects and decision-making on a functional and interdisciplinary point of view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LO4 %3A Graduates are able to use the tools and the professional digital systems to create economic value</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LG_3__c</picklist>
+        <values>
+            <fullName>LO5 %3A Graduates are able to use the critical%2C creative and flexible thinking methods to analyse and solve complex problems in a changing and uncertain environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LO6 %3A Graduates are able to act%2Freact and establish design process and innovating developments</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LG_4__c</picklist>
+        <values>
+            <fullName>LO7 %3A Graduates know the principles and mechanisms of the corporate social responsibility in its process of decision-making and are able to work ethically and responsibly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LO8 %3A Graduate are able to learn from experience%2C start over and reassess themselves to develop an ability to anticipate and look into the future</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LG_5__c</picklist>
+        <values>
+            <fullName>LO10 %3A Graduates are able to present and defend a project from their own field of specialization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LO9 %3A Graduates are able to develop and implement techniques%2C tools and methods in the chosen field of specialization</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lev_e_de_fonds__c</picklist>
+        <values>
+            <fullName>Autres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pré-seed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serie A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serie B</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>M_thode_de_saisie_des_Offres_sur_la_plat__c</picklist>
+        <values>
+            <fullName>autre agrégateur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iQuesta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>manuel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mutliposting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Nature_d_activit_Forme_juridique__c</picklist>
+        <values>
+            <fullName>Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entreprise Familiale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fondation d%E2%80%99entreprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Privée</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Publique</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Offre__c</picklist>
+        <values>
+            <fullName>Careers Forum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conférence Carrière Etudiants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Discovery Session</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrepreneurial Leadership Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>European Human Resources Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expert Panel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance Careers Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand Idea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Company Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxury Careers Week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MBA Lounge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mock interview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Careers Days</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filiale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Privé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Chaud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Froid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiède</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Eligibility__c</picklist>
+        <values>
+            <fullName>Dual degree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parallel admission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Experience__c</picklist>
+        <values>
+            <fullName>Post-experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-experience</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Program_Family__c</picklist>
+        <values>
+            <fullName>DBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMBABUPT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMMG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive MBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global BBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International MBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MBA SISU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Msc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phd</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Program_Status__c</picklist>
+        <values>
+            <fullName>Brouillon</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Révision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soumis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validé</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Training_Activity__c</picklist>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onsite</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stade_d_avancement__c</picklist>
+        <values>
+            <fullName>Beta-test produit%2C 1ers clients %2E%2E%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Croissance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idéation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Levée de fonds</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Startup_Domaine__c</picklist>
+        <values>
+            <fullName>Autres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Batîment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beauty - Wellness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CivicTech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cyber security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edtech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fashiontech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fintech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foodtech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthtech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hrtech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrie 4%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legaltech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retailtech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sportech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traveltech</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Technologie_produit__c</picklist>
+        <values>
+            <fullName>5G</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR - VR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blockchain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impression 3D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intelligence Artificielle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet Of Things</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketplace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robotic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software %28Saas%2C Iaas%2C Paas%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tranche_d_effectif__c</picklist>
+        <values>
+            <fullName>10 000 et plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 0 à 9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 10 à 49</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 1000 à 1999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 2000 à 4999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 250 à 499</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 50 à 249</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 500 à 999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 5000 à 9999</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tranche_de_CA_Tranche_de_CA_entit__c</picklist>
+        <values>
+            <fullName>200 M%E2%82%AC ou plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 0%2C5 a moins de 1 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 1 M%E2%82%AC a moins de 2 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 10 M%E2%82%AC a moins de 20 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 100 M%E2%82%AC a moins de 200 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 2 M%E2%82%AC a moins de 5 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 20 M%E2%82%AC a moins de 50 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 5 M%E2%82%AC a moins de 10 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 50 M%E2%82%AC a moins de 100 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moins de 0%2C5 million d%27euros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tranche_de_CA_du_groupe__c</picklist>
+        <values>
+            <fullName>200 M%E2%82%AC ou plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 0%2C5 a moins de 1 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 1 M%E2%82%AC a moins de 2 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 10 M%E2%82%AC a moins de 20 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 100 M%E2%82%AC a moins de 200 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 2 M%E2%82%AC a moins de 5 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 20 M%E2%82%AC a moins de 50 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 5 M%E2%82%AC a moins de 10 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 50 M%E2%82%AC a moins de 100 M%E2%82%AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moins de 0%2C5 million d%27euros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tranche_effectif_groupe__c</picklist>
+        <values>
+            <fullName>10 000 et plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 0 à 9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 10 à 49</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 1000 à 1999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 2000 à 4999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 250 à 499</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 50 à 249</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 500 à 999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 5000 à 9999</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tranche_verseur__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Analyste</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concurrent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intégrateur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investisseur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partenaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revendeur</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_d_tablissement__c</picklist>
+        <values>
+            <fullName>Direction Régionale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Etablissement Secondaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holding-Maison Mère Groupe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siège</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siège Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siège France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siège Monde</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>type_Cabinets_r_f_rents__c</picklist>
+        <values>
+            <fullName>Associations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coaching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outplacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recrutement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

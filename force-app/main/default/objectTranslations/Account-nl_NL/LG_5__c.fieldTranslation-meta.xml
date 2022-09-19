@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>LG_5__c</name>
+    <picklistValues>
+        <masterLabel>LO10 : Graduates are able to present and defend a project from their own field of specialization</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LO9 : Graduates are able to develop and implement techniques, tools and methods in the chosen field of specialization</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

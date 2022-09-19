@@ -1,0 +1,8 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForRecordHome" controller="Convsta_Object_Helper">
+    <lightning:fileUpload name="fileUploader"
+                          label= "Si 'Charger un fichier', la convention passe directement en signée"
+                          multiple="false"
+                          recordId="{!v.recordId}"
+                          title=" La convention passera en signée si vous utilisez le bouton 'charger des fichiers'. Pour ne pas changer le statut de la requête, ouvrez le document joint ou déposer fichier"
+                          onuploadfinished="{! c.handleUploadFinished }"/>
+</aura:component>

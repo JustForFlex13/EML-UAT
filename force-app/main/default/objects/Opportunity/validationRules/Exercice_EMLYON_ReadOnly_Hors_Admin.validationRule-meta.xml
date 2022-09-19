@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exercice_EMLYON_ReadOnly_Hors_Admin</fullName>
+    <active>true</active>
+    <description>Restrictions en lecture seule sur le champ Exercice EMLYON pour tout tout les profils non admin.</description>
+    <errorConditionFormula>AND(ISCHANGED(Exercice__c),
+NOT(ISPICKVAL(PRIORVALUE( Exercice__c),&quot;&quot;)),
+$Profile.Name&lt;&gt; &quot;Administrateur Direction Entreprise&quot;, $Profile.Name&lt;&gt; &quot;Administrateur DPM&quot;, $Profile.Name&lt;&gt; &quot;Administrateur système&quot;,
+NOT($Permission.Admin_EML)
+)</errorConditionFormula>
+    <errorMessage>Vous ne pouvez pas modifier la valeur du champ Exercice EMLYON</errorMessage>
+</ValidationRule>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_INTRA_Statut_besoin_identifi</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Contact_central__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Date_de_Cr_ation_fiche_UI__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Intra_entreprise</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>9/1/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Besoin identifié,Offre en rédaction</value>
+    </filters>
+    <filters>
+        <field>Sous_provenance__c</field>
+        <operation>startsWith</operation>
+        <value>Form Devis</value>
+    </filters>
+    <label>OPP INTRA SIMPLE PC</label>
+    <sharedTo>
+        <group>Intra_en_lecture</group>
+        <group>Opp_Intra</group>
+    </sharedTo>
+</ListView>

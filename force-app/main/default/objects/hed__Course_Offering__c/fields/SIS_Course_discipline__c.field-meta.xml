@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Course_discipline__c</fullName>
+    <externalId>false</externalId>
+    <label>Course discipline</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accounting &amp; Finance</fullName>
+                <default>false</default>
+                <label>Accounting &amp; Finance</label>
+            </value>
+            <value>
+                <fullName>Human relations &amp; regulations</fullName>
+                <default>false</default>
+                <label>Human relations &amp; regulations</label>
+            </value>
+            <value>
+                <fullName>Innovation &amp; Entrepreneurship</fullName>
+                <default>false</default>
+                <label>Innovation &amp; Entrepreneurship</label>
+            </value>
+            <value>
+                <fullName>LEAD OB &amp;d Leadership</fullName>
+                <default>false</default>
+                <label>LEAD OB &amp;d Leadership</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Operations, Data et Artificial Intelligence (ODAI) for business</fullName>
+                <default>false</default>
+                <label>Operations, Data et Artificial Intelligence (ODAI) for business</label>
+            </value>
+            <value>
+                <fullName>Quantitative finance &amp; economics</fullName>
+                <default>false</default>
+                <label>Quantitative finance &amp; economics</label>
+            </value>
+            <value>
+                <fullName>Social Sciences and Humanities</fullName>
+                <default>false</default>
+                <label>Social Sciences and Humanities</label>
+            </value>
+            <value>
+                <fullName>Sport Management</fullName>
+                <default>false</default>
+                <label>Sport Management</label>
+            </value>
+            <value>
+                <fullName>Strategy &amp; business models</fullName>
+                <default>false</default>
+                <label>Strategy &amp; business models</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Niveau_d_tudes__c</fullName>
+    <externalId>false</externalId>
+    <label>Niveau d&apos;études</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Seconde</fullName>
+                <default>false</default>
+                <label>Seconde</label>
+            </value>
+            <value>
+                <fullName>Première</fullName>
+                <default>false</default>
+                <label>Première</label>
+            </value>
+            <value>
+                <fullName>Terminale</fullName>
+                <default>false</default>
+                <label>Terminale</label>
+            </value>
+            <value>
+                <fullName>Bac</fullName>
+                <default>false</default>
+                <label>Bac</label>
+            </value>
+            <value>
+                <fullName>Bac + 1</fullName>
+                <default>false</default>
+                <label>Bac + 1</label>
+            </value>
+            <value>
+                <fullName>Bac + 2</fullName>
+                <default>false</default>
+                <label>Bac + 2</label>
+            </value>
+            <value>
+                <fullName>Bac + 3</fullName>
+                <default>false</default>
+                <label>Bac + 3</label>
+            </value>
+            <value>
+                <fullName>Bac + 4</fullName>
+                <default>false</default>
+                <label>Bac + 4</label>
+            </value>
+            <value>
+                <fullName>Bac + 5 et +</fullName>
+                <default>false</default>
+                <label>Bac + 5 et +</label>
+            </value>
+            <value>
+                <fullName>Non renseigné</fullName>
+                <default>false</default>
+                <label>Non renseigné</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

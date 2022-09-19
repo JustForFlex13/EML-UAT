@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Modification_par_gestionnaire</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Modification par gestionnaire</label>
+        <sharedTo>
+            <group>Convsta_Groupe_Gestionnaire</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Demande,Validation d&apos;expérience,Avenant</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Partage_Career_Center_Partage_RP</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Les requêtes envoyées par les étudiants via le site web sont ensuite assignées à la file d&apos;attente des gestionnaires. Certains Responsables Pédagogiques doivent être en mesure de modifier une requête afin d&apos;y assigner un nouveau suiveur.</description>
+        <label>Partage Career Center -&gt; Partage RP</label>
+        <sharedTo>
+            <group>Convsta_Groupe_Rep_P_da_Requ_tes_RW</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Convsta_En_attente_de_validation_admin</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Partage_Resp_Peda_vers_gestionnaire</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Partage Resp Péda -&gt; gestionnaire</label>
+        <sharedTo>
+            <group>Convsta_Groupe_Gestionnaire</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Convsta_Groupe_Rep_Peda</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

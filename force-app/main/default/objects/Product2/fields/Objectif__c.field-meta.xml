@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objectif__c</fullName>
+    <externalId>false</externalId>
+    <label>Objectif</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PR-LO10</fullName>
+                <default>false</default>
+                <label>PR-LO10</label>
+            </value>
+            <value>
+                <fullName>PR-LO20</fullName>
+                <default>false</default>
+                <label>PR-LO20</label>
+            </value>
+            <value>
+                <fullName>PR-LO30</fullName>
+                <default>false</default>
+                <label>PR-LO30</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annee_validite__c</fullName>
+    <description>L’année de la remise</description>
+    <externalId>false</externalId>
+    <label>Année de validité</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CPT-AVA10</fullName>
+                <default>false</default>
+                <label>CPT-AVA10</label>
+            </value>
+            <value>
+                <fullName>CPT-AVA20</fullName>
+                <default>false</default>
+                <label>CPT-AVA20</label>
+            </value>
+            <value>
+                <fullName>CPT-AVA30</fullName>
+                <default>false</default>
+                <label>CPT-AVA30</label>
+            </value>
+            <value>
+                <fullName>CPT-AVA40</fullName>
+                <default>false</default>
+                <label>CPT-AVA40</label>
+            </value>
+            <value>
+                <fullName>CPT-AVA50</fullName>
+                <default>false</default>
+                <label>CPT-AVA50</label>
+            </value>
+            <value>
+                <fullName>CPT-AVA60</fullName>
+                <default>false</default>
+                <label>CPT-AVA60</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

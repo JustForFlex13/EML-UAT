@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Versements_groupe_N_1__c</fullName>
+    <description>Versements Consolidés Groupe Exercice N-1</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Versements Consolidés Groupe Exercice N-1</inlineHelpText>
+    <label>Versements groupe N-1</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_FC_COURTE_CD04</fullName>
+    <columns>Contact_central__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>Date_de_d_but__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Lieu_de_formation__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>ExerciceNum_ro__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Sous_provenance__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Formation_courte</value>
+    </filters>
+    <filters>
+        <field>ExerciceNum_ro__c</field>
+        <operation>equals</operation>
+        <value>2018,2019,2020</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>ML61</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>,Intéressé par,Prospect qualifié,Prospect probable,Prospect chaud,Inscrit</value>
+    </filters>
+    <label>OPP FC COURTE - ML61</label>
+    <language>fr</language>
+</ListView>

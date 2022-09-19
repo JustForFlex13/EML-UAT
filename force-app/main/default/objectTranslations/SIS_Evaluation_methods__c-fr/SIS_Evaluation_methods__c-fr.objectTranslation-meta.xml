@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Modalité d&apos;évaluation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Modalités d&apos;évaluation</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>SIS Assessment Offering PL</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Modalité d&apos;évaluation</nameFieldLabel>
+    <quickActions>
+        <label></label>
+        <name>Attribuer_des_competences</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

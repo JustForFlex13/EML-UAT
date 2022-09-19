@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Field_Set__c</fullName>
+    <deprecated>false</deprecated>
+    <description>These fields are shown on each row of the related list on the reservation form.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Ces champs sont indiqués sur chaque ligne de la liste connexe du formulaire de réservation.</inlineHelpText>
+    <label>Field Set</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

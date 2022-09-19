@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Reservation_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The reservation type this junction should be displayed on.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le type de réservation sur lequel cette jonction doit être affichée.</inlineHelpText>
+    <label>Reservation Type</label>
+    <referenceTo>B25__Reservation_Type__c</referenceTo>
+    <relationshipLabel>Dimension Junction Display Settings</relationshipLabel>
+    <relationshipName>Dimension_Junction_Display_Settings</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

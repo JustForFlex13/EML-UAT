@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De maximale capacities van de resource. Dit veld is gebaseerd op de capaciteit van de resource of een layout maar niet op basis van de al bestaande reserveringen</help>
+    <label></label>
+    <name>B25__MaxCapacity__c</name>
+</CustomFieldTranslation>

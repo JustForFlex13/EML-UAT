@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__MaxLayoutCapacity__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The maximum capacity of all the related layouts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>La capacité maximale de toutes les dispositions connexes.</inlineHelpText>
+    <label>Max Layout Capacity</label>
+    <summarizedField>B25__ResourceLayout__c.B25__Capacity__c</summarizedField>
+    <summaryFilterItems>
+        <field>B25__ResourceLayout__c.B25__IsActive__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>B25__ResourceLayout__c.B25__Resource__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

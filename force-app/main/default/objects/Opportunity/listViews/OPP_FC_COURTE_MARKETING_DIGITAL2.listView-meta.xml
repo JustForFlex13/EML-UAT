@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_FC_COURTE_MARKETING_DIGITAL2</fullName>
+    <columns>Contact_central__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Date_de_d_but__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Lieu_de_formation__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>ExerciceNum_ro__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Sous_provenance__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Code_Produit__c</columns>
+    <columns>Detail_de_l_opportunite__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Inscrit</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>OCA</value>
+    </filters>
+    <label>OPP FC COURTE - IEDT prospects</label>
+</ListView>

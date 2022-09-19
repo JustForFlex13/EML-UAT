@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competences_obligatoires</fullName>
+    <active>true</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+!ISNEW() &amp;&amp; 
+!MD_Demande__r.Convsta_tech_notIsPortaluser__c&amp;&amp;
+(IF( Gerer_son_stress__c , 1, 0) +
+IF( Gerer_son_temps_et_les_priorites__c , 1, 0) +
+IF( Mobiliser_differentes_sources__c , 1, 0) +
+IF(Precision_et_rigueur_au_travail__c, 1, 0) +
+IF(Qualifier_et_identifier_l_information__c, 1, 0) +
+IF(Elaborer_un_diagnostic__c, 1, 0) +
+IF( Demontrer_un_comportement_assertif__c, 1, 0) +
+IF( Conceptualiser_et_modeliser__c, 1, 0))!=4</errorConditionFormula>
+    <errorDisplayField>Demontrer_un_comportement_assertif__c</errorDisplayField>
+    <errorMessage>Merci de choisir 4 compétences.</errorMessage>
+</ValidationRule>

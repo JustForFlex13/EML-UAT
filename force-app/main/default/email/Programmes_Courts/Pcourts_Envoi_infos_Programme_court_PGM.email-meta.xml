@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>PC - Envoi infos pré-requis/dates/fiche programme/Mod éval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x160</letterhead>
+    <name>Pcourts - Envoi infos - [Programme court-PGM]</name>
+    <style>promotionRight</style>
+    <subject>emlyon - Votre intérêt pour la formation {!Opportunity.Name} | {!Opportunity.Contact_central__c}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

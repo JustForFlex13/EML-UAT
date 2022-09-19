@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Reservation_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Status to be linked to the Reservation Type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le statut à lier au type de réservation.</inlineHelpText>
+    <label>Reservation Status</label>
+    <referenceTo>B25__Reservation_Status__c</referenceTo>
+    <relationshipLabel>Reservation Types</relationshipLabel>
+    <relationshipName>Reservation_Type_Statuses</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

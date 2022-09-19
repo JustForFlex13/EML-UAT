@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ne_pas_basculer_la_note_dans_la_Scola__c</fullName>
+    <externalId>false</externalId>
+    <formula>Demande__r.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_basculer_la_note_dans_la_Scola__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Ne pas basculer la note dans la Scola</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

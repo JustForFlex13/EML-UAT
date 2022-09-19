@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>M_thode_de_saisie_des_Offres_sur_la_plat__c</name>
+    <picklistValues>
+        <masterLabel>autre agrégateur</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iQuesta</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>manuel</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mutliposting</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

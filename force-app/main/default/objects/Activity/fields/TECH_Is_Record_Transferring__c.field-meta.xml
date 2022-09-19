@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_Is_Record_Transferring__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Champ technique booléen qui ne sera utilisé que lors d&apos;un transfert de données pertinentes entre l&apos;environnement de production et une sandbox</description>
+    <externalId>false</externalId>
+    <label>TECH_Is_Record_Transferring</label>
+    <type>Checkbox</type>
+</CustomField>

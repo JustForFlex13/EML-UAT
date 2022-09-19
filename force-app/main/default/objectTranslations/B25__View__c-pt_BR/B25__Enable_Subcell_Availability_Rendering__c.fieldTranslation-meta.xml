@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando ativado, as secções mais escuras que indicam Indisponibilidades deixarão de estar limitadas aos limites das células e representarão as Indisponibilidades reais dentro de uma célula. Isto pode afetar negativamente o desempenho do lado do cliente em calendários grandes.</help>
+    <label></label>
+    <name>B25__Enable_Subcell_Availability_Rendering__c</name>
+</CustomFieldTranslation>

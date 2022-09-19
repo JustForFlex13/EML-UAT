@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Is it a full-time or part-time internship?</help>
+    <label>Full-time/part-time</label>
+    <name>Temporalite_Stage__c</name>
+    <picklistValues>
+        <masterLabel>Temps Partiel</masterLabel>
+        <translation>Part-time</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temps Plein</masterLabel>
+        <translation>Full-time (by default)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

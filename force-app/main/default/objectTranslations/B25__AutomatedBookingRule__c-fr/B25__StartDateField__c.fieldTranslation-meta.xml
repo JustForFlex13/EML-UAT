@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Un champ de date pour l’opportunité ou le produit d’opportunité. Requis si le champ de date et d’heure de début est vide.</help>
+    <label></label>
+    <name>B25__StartDateField__c</name>
+</CustomFieldTranslation>

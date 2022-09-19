@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Alerte Anomalie Exercice Fiscal Session</name>
+    <style>freeForm</style>
+    <subject>Alerte exercice fiscal erroné sur session</subject>
+    <textOnly>Une session a été créée ou modifiée avec un exercice fiscal erroné:
+
+Session : {!Session__c.Name}
+Date de début : {!Session__c.Date_de_debut_de_session__c}
+Date de fin : {!Session__c.Date_de_fin_de_session__c}
+Exercice Fiscal : {!Session__c.Exercice_fiscale__c}
+
+Fiche créée par : {!Session__c.CreatedBy}
+Dernière modification par : {!Session__c.LastModifiedBy}
+
+Lien vers la fiche : https://arpege-emlyon--mbetest.lightning.force.com/{!Session__c.Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

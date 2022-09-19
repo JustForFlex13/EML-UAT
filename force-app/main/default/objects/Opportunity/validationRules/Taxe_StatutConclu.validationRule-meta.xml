@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Taxe_StatutConclu</fullName>
+    <active>true</active>
+    <description>Seuls un admin et les utilisateurs profil MANAGER TAXE peuvent passer l&apos;opportunité à Conclu.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+AND(
+NOT(OR($Profile.Name = &quot;Administrateur système&quot;, 
+$Profile.Name = &quot;Administrateur Direction Entreprise&quot;,
+$Profile.Name = &quot;MANAGER TAXE&quot; )),
+ RecordType.Name = &quot;Taxe&quot;,
+ISPICKVAL( StageName , &quot;Conclu&quot;) 
+)
+)</errorConditionFormula>
+    <errorMessage>Seuls un admin et les utilisateurs profil MANAGER TAXE peuvent passer l&apos;opportunité à Conclu.</errorMessage>
+</ValidationRule>

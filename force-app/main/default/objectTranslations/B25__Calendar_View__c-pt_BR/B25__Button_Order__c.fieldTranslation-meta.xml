@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Define onde o botão para esta Visualização é visualizado no Calendário. Inferior = para a esquerda; Superior = para a direita.</help>
+    <label></label>
+    <name>B25__Button_Order__c</name>
+</CustomFieldTranslation>

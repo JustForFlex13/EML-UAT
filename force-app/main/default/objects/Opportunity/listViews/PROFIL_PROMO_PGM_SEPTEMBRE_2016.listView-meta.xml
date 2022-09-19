@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PROFIL_PROMO_PGM_SEPTEMBRE_2016</fullName>
+    <columns>Nom_Prenom__c</columns>
+    <columns>Secteur_activit_compte__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Age__c</columns>
+    <columns>Niveau_d_exp_rience_professionnelle__c</columns>
+    <columns>Niveau_d_tudes__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>equals</operation>
+        <value>Programme Général de Management</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Intégré</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>9/21/2016</value>
+    </filters>
+    <label>FC PROFIL PROMO PGM SEPTEMBRE 2016</label>
+    <language>fr</language>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hed__Graduation_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If applicable, the date the Contact graduated from this Educational Institution.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Si applicable, la date à laquelle le contact a obtenu son diplôme dans cet établissement d&apos;enseignement.</inlineHelpText>
+    <label>Graduation Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

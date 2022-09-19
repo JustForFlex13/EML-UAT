@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stade_d_avancement__c</fullName>
+    <externalId>false</externalId>
+    <label>Stade d&apos;avancement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Idéation</fullName>
+                <default>false</default>
+                <label>Idéation</label>
+            </value>
+            <value>
+                <fullName>beta-test produit, 1ers clients ...</fullName>
+                <default>false</default>
+                <label>beta-test produit, 1ers clients ...</label>
+            </value>
+            <value>
+                <fullName>levée de fonds</fullName>
+                <default>false</default>
+                <label>levée de fonds</label>
+            </value>
+            <value>
+                <fullName>croissance</fullName>
+                <default>false</default>
+                <label>croissance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

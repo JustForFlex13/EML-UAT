@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Als je een filter veld maakt: Contact en zet de ouder tot &quot;Account&quot; filter veld, kan je alleen maar contactpersonen selecteren die dat account als filter hebben voor in deze kalender.</help>
+    <label></label>
+    <name>B25__Parent__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando selecionado, os recursos deste tipo herdam as suas disponibilidades de todos os seus antepassados em vez de apenas do antepassado definido no campo Disponibilidade Definida Em.</help>
+    <label></label>
+    <name>B25__Use_Full_Availability_Inheritance__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>The Company will provide health and sickness medical cover for the Trainee. YES (this coverage will complement rights and benefits provided by student Sécurité sociale coverage) NO (Trainee only covered by the existing health and sickness cover abroad)</help>
+    <label>Complimentary insurance</label>
+    <name>Assurance_complementaire__c</name>
+    <picklistValues>
+        <masterLabel>Non</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oui</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

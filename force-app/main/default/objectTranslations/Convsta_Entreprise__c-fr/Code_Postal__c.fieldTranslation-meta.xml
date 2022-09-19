@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Code postal de l&apos;entreprise au sein de laquelle l&apos;étudiant va effectuer son expérience professionnelle</help>
+    <label></label>
+    <name>Code_Postal__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Availability_Defined_At__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Resource Type from which Resources of this type will inherit their Availability.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le type de ressource dont les ressources de ce type hériteront de leur disponibilité.</inlineHelpText>
+    <label>Availability Defined At</label>
+    <referenceTo>B25__Resource_Type__c</referenceTo>
+    <relationshipLabel>ResourceTypes (Availability Defined At)</relationshipLabel>
+    <relationshipName>Availability_Children</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

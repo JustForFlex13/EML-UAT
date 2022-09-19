@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CC SUIVI INTERET Career Days – Temps 1</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_Save_the_date_2020</letterhead>
+    <name>CC SUIVI INTERET Career days - Temps 1</name>
+    <style>freeForm</style>
+    <subject>emlyon business school, Career Days: nous vous accompagnons dans votre inscription</subject>
+    <textOnly>Bonjour,
+
+Nous vous remercions pour l&apos;intérêt que vous portez à notre évènement {!Contact.Souhait_programme__c} du {!Event.ActivityDate}.
+
+Pour vous garantir une bonne visibilité auprès de nos étudiants et des échanges de qualité, tous nos évènements sont proposés avec un nombre de places limitées.
+
+Nous serions ravis de vous compter parmi nous pour cet événement.
+
+Ainsi je reviens vers vous afin de vous accompagner dans votre inscription.
+
+Vous trouverez en pièce jointe le bulletin d&apos;inscription à nous retourner complété et signé afin de procéder à l’inscription.
+
+Je reste disponible pour vous apporter tout complément d’information à l&apos;adresse suivante : relations-employeurs@em-lyon.com.
+
+Une fois votre inscription finalisée, nous reprendrons contact avec vous prochainement dans le but d’organiser efficacement votre participation.
+
+Cordialement,
+
+{!User.Name}
+{!User.Title}
+{!User.Phone}
+23, avenue Guy de Collongue
+CS 40203 69134 Ecully Cedex France
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

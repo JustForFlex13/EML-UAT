@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_limite_a_renseigner</fullName>
+    <active>false</active>
+    <description>Veuillez renseigner la date limite</description>
+    <errorConditionFormula>TEXT(Type__c) &lt;&gt; &quot;Version&quot; &amp;&amp; TEXT( Responsable__c ) = &quot;K par K&quot; &amp;&amp; TEXT(Date_limite__c) = &quot;&quot;</errorConditionFormula>
+    <errorDisplayField>Date_limite__c</errorDisplayField>
+    <errorMessage>Veuillez renseigner la date limite</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Signataire_delegue__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Si ce champ est renseigné, c&apos;est ce contact qui signera la convention à la place du tuteur emlyon</inlineHelpText>
+    <label>Délégation pour le tuteur école</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Cases (Signataire délégué)</relationshipLabel>
+    <relationshipName>Cases2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

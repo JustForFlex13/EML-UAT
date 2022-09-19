@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn markiert, wird im Reservierungsformular die erweiterte Suche aktiviert. Nutzer können mit dieser Suche durch Klick auf Filtern nur Objekte filtern, in denen diese Reservierung erstellt werden könnte. Kunden-Suche akzeptiert keine Suchfilter.</help>
+    <label></label>
+    <name>B25__Enable_Advanced_Lookup_Filtering__c</name>
+</CustomFieldTranslation>

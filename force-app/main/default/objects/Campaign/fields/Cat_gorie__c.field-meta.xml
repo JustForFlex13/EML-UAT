@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cat_gorie__c</fullName>
+    <externalId>false</externalId>
+    <label>Catégorie</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Réunion d&apos;information</fullName>
+                <default>false</default>
+                <label>Réunion d&apos;information</label>
+            </value>
+            <value>
+                <fullName>Invitation événements</fullName>
+                <default>false</default>
+                <label>Invitation événements</label>
+            </value>
+            <value>
+                <fullName>Information programmes</fullName>
+                <default>false</default>
+                <label>Information programmes</label>
+            </value>
+            <value>
+                <fullName>Information Corporate</fullName>
+                <default>false</default>
+                <label>Information Corporate</label>
+            </value>
+            <value>
+                <fullName>Promotion commerciale</fullName>
+                <default>false</default>
+                <label>Promotion commerciale</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

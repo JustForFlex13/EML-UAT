@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>SIS_Type_d_etablissement__c</name>
+    <picklistValues>
+        <masterLabel>AUTRE ETABLISSEMENT SISE (liste ci-dessous)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AUTRE ETABLISSEMENT ou cursus (en France)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Autre</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BTS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CPGE ou ATS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ECOLE ARTISTIQUE, CULTURELLE, D’ARCHITECTURE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ESPE : Ecoles Supérieures du Professorat et de l’Education</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecole de MANAGEMENT (école de commerce, gestion)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecole des hautes études en sciences sociales (EHESS)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecole et formation d&apos;INGENIEURS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecole nationale de la statistique et de l’administration économique (ENSAE Malakoff)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecole nationale des Chartes (ENC)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecole nationale supérieure des sciences de l’information et des bibliothèques (ENSSIB)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecole nationale supérieure du paysage de Versailles</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecole pratique des hautes études (EPHE)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecoles nationales vétérinaires (Lyon (VETAGRO SUP), Maisons Alfort, Nantes (ONIRIS), Toulouse)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecoles normales supérieures (ENS Cachan, Lyon, Paris)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enseignement Secondaire</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enseignement supérieur par CORRESPONDANCE</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Etablissement ETRANGER d’enseignement secondaire</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Etablissement ETRANGER d’enseignement supérieur</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IUT / licence professionnelle</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Institut catholique d’études supérieures (ICES La Roche/Yon)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Institut national des langues et civilisations orientales (INALCO), Institut de physique du globe de Paris, institut d’études politiques de Paris, Observatoire de Paris</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Instituts catholiques (Lille, Lyon, Nantes (univ catholique de l’ouest), Paris et Toulouse)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MISE A NIVEAU, PREPARATION AUX ETUDES SUPERIEURES</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Museum national d’histoire naturelle (MNHN)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NON SCOLARISE l’année précédente ET JAMAIS ENTRE dans l’enseignement supérieur</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NON SCOLARISE l’année précédente MAIS PRECEDEMMENT ENTRE dans l’enseignement supérieur à l’étranger</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NON SCOLARISE l’année précédente MAIS PRECEDEMMENT ENTRE dans l’enseignement supérieur, universitaire ou non (reprise d’études) en France</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNIVERSITE et Paris Dauphine</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

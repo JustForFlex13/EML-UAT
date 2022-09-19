@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ville__c</fullName>
+    <description>La ville où est située l&apos;entreprise au sein de laquelle l&apos;étudiant va effectuer son expérience professionnelle</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Localisation de l&apos;entreprise signataire de la convention.</inlineHelpText>
+    <label>Ville</label>
+    <length>40</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

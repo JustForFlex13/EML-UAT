@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Sens_de_prise_de_contact__c</name>
+    <picklistValues>
+        <masterLabel>EMLYON ==&gt; Partenaire</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partenaire ==&gt; EMLYON</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

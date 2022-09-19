@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O nome opcional dos eventos do calendário Booker25 deve ser sincronizado para e de. Quando não é especificado é utilizado o calendário primário do utilizador.</help>
+    <label></label>
+    <name>B25__Calendar_Name__c</name>
+</CustomFieldTranslation>

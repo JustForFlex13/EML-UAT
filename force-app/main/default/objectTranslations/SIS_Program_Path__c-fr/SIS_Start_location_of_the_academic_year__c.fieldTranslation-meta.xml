@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Site de rentrée du programme</label>
+    <name>SIS_Start_location_of_the_academic_year__c</name>
+    <relationshipLabel>Offres de parcours</relationshipLabel>
+</CustomFieldTranslation>

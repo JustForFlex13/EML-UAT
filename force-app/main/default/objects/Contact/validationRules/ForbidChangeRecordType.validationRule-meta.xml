@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ForbidChangeRecordType</fullName>
+    <active>true</active>
+    <description>Interdire le changement de type d&apos;enregistrement à tout utilisateur pour lequel la case Contourner_RV_type_d_enregistrement n&apos;est pas cochée</description>
+    <errorConditionFormula>AND(
+!$User.Contourner_RV_type_d_enregistrement__c,
+ISCHANGED(RecordTypeId)
+)</errorConditionFormula>
+    <errorMessage>La modification de type d&apos;enregistrement vous est interdite.</errorMessage>
+</ValidationRule>

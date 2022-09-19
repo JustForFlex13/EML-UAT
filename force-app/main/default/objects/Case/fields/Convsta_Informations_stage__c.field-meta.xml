@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Informations_stage__c</fullName>
+    <externalId>false</externalId>
+    <formula>Convsta_Status_Front_Office__c + &apos; &apos;+
+Convsta_Entreprise__r.Name + 
+IF(isblank(Convsta_DateStart__c) ,
+&apos;&apos;,
+&quot; - &quot; + 
+TEXT(DAY ( Convsta_DateStart__c )) + &quot;/&quot; + 
+TEXT(MONTH(Convsta_DateStart__c ))+&quot;/&quot;+ 
+TEXT(YEAR(Convsta_DateStart__c ))) + 
+IF(isblank(Convsta_DateEnd__c ) ,
+&quot;&quot;,
+&quot; - &quot;+ 
+TEXT(DAY(Convsta_DateEnd__c )) + &quot;/&quot; + 
+TEXT(MONTH(Convsta_DateEnd__c )) + &quot;/&quot; + 
+TEXT(YEAR(Convsta_DateEnd__c )))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Informations stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

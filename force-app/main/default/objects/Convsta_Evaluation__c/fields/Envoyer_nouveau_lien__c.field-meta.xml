@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Envoyer_nouveau_lien__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Permet d&apos;envoyer un nouveau lien vers l&apos;évaluation, par exemple si l&apos;évaluateur souhaite modifier l&apos;évaluation</description>
+    <externalId>false</externalId>
+    <label>Envoyer un nouveau lien</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

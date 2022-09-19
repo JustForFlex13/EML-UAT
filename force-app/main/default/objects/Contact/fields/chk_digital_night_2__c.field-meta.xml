@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>chk_digital_night_2__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Digital Night - 7/03/19 - Lyon</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Digital Night - 7/03/19 - Lyon</inlineHelpText>
+    <label>DNight-07/03/2019-Lyon</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

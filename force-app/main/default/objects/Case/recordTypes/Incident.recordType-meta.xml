@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incident</fullName>
+    <active>true</active>
+    <businessProcess>Behavior Management</businessProcess>
+    <description>An event that’s being tracked by this Case.</description>
+    <label>Incident</label>
+    <picklistValues>
+        <picklist>Convsta_Document_recu__c</picklist>
+        <values>
+            <fullName>Attestation_employeur_Conforme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attestation_employeur_Non_conforme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convention %2F Contrat Conforme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convention %2F Contrat Non conforme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vu</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Langue__c</picklist>
+        <values>
+            <fullName>Anglais</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Espagnol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Français</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Localisation_de_l_entreprise__c</picklist>
+        <values>
+            <fullName>A l%27étranger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En France</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Motif_Rejet_Administratif__c</picklist>
+        <values>
+            <fullName>Autre raison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conformité contacts et entreprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consécutivité des stages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dates non conformes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mission non conforme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rémunération inappropriée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stage illégal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Motif_Rejet_Pedagogique__c</picklist>
+        <values>
+            <fullName>Dates non conformes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manque d%27information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mission non conforme</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Motif_d_annulation__c</picklist>
+        <values>
+            <fullName>Annulation autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annulation emlyon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annulation entreprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annulation étudiant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Motif_de_la_demande__c</picklist>
+        <values>
+            <fullName>Demande de changement de tuteur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulté dans le remplissage de la demande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulté pendant le stage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Raisons_de_l_avenant__c</picklist>
+        <values>
+            <fullName>Ajout d%27une clause</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Changement de tuteur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conditions contractuelles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dates de stage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Statut_Signature__c</picklist>
+        <values>
+            <fullName>Annulée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avenant validé à émettre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convention validée à émettre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envoyé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erreur génération</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expirée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traité manuellement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_TypeContrat__c</picklist>
+        <values>
+            <fullName>Auto_entrepreneur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contrat de travail de l%27entreprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convention de stage de l ecole</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convention de stage de l%27entreprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convention_de_stage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service_civique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Type_d_avenant__c</picklist>
+        <values>
+            <fullName>Changement date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Changement gratification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Changement lieu de stage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Changement tuteur entreprise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Type_de_demande__c</picklist>
+        <values>
+            <fullName>Besoin d%27aide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contrat à venir</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation_experience_anterieure</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Type_de_document__c</picklist>
+        <values>
+            <fullName>Attestation employeur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convention %2F Contrat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Verdict_Administratif__c</picklist>
+        <values>
+            <fullName>Demande Acceptée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande Rejetée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Précisions Nécessaires</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_Verdict_Pedagogique__c</picklist>
+        <values>
+            <fullName>Demande Acceptée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande Rejetée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Précisions Nécessaires</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Convsta_tech_rediger_avenant__c</picklist>
+        <values>
+            <fullName>Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gratification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lieu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuteur</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Adresse e-mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Téléphone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Faible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moyen</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Élevé</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Demande de convention de stage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fonctionnalité complexe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions pas claires</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L%27utilisateur n%27a pas participé à la formation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nouveau problème</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problème existant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Demande de stage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expérience future</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expérience passée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expérience professionnelle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>convsta_Programme__c</picklist>
+        <values>
+            <fullName>BBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LMM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PGE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Category__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School Code of Conduct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Offense</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Location__c</picklist>
+        <values>
+            <fullName>Off Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

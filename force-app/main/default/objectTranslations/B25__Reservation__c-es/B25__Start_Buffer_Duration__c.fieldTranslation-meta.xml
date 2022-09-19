@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La duración del búfer al inicio de la reserva en minutos.</help>
+    <label></label>
+    <name>B25__Start_Buffer_Duration__c</name>
+</CustomFieldTranslation>

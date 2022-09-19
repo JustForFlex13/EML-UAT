@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le filtre pour lequel cet enregistrement contient les valeurs.</help>
+    <label></label>
+    <name>B25__Stored_Filter_Set__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

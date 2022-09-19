@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pres_compacte_Formation_initiale</fullName>
+    <fields>Name</fields>
+    <fields>Contact_central__c</fields>
+    <fields>Exercice__c</fields>
+    <fields>Statut_Com_d_j_modifi_par_CANEL__c</fields>
+    <fields>Formule_nb_oppo_cours__c</fields>
+    <fields>Statut_Canel__c</fields>
+    <label>Pres compacte Formation initiale</label>
+</CompactLayout>

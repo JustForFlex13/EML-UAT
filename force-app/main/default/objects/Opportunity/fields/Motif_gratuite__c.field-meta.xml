@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motif_gratuite__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Champ dépendant du mode de financement &quot;A titre gratuit&quot;</inlineHelpText>
+    <label>Motif de gratuité</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Mode_de_financement__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Module complémentaire au programme initiale</fullName>
+                <default>false</default>
+                <label>Module complémentaire au programme initiale</label>
+            </value>
+            <value>
+                <fullName>Remerciement</fullName>
+                <default>false</default>
+                <label>Remerciement</label>
+            </value>
+            <value>
+                <fullName>Offre commerciale BtB</fullName>
+                <default>false</default>
+                <label>Offre commerciale BtB</label>
+            </value>
+            <value>
+                <fullName>Geste commercial (insatisfaction)</fullName>
+                <default>false</default>
+                <label>Geste commercial (insatisfaction)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>A titre gratuit</controllingFieldValue>
+            <valueName>Module complémentaire au programme initiale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A titre gratuit</controllingFieldValue>
+            <valueName>Remerciement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A titre gratuit</controllingFieldValue>
+            <valueName>Offre commerciale BtB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A titre gratuit</controllingFieldValue>
+            <valueName>Geste commercial (insatisfaction)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

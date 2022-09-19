@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Catalogue_prix_apprentissage</fullName>
+    <columns>PRICEBOOK2.NAME</columns>
+    <columns>PRICEBOOK2.IS_ACTIVE</columns>
+    <columns>PRICEBOOK2.DESCRIPTION</columns>
+    <columns>PRICEBOOK2.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRICEBOOK2.DESCRIPTION</field>
+        <operation>contains</operation>
+        <value>Apprentissage</value>
+    </filters>
+    <label>Catalogue prix apprentissage</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Aggregate_Olis__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If this is checked, all contiguous opportunity line items for this product will be handled together so they will occupy the same resources.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Si cette option est cochée, tous les postes d’opportunité contigus pour ce produit seront traités ensemble afin qu’ils occupent les mêmes ressources.</inlineHelpText>
+    <label>Aggregate Opportunity Line Items</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

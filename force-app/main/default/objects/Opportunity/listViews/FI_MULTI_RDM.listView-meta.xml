@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FI_MULTI_RDM</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+    <columns>Contact_central__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Statut_Canel__c</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>Contact_Zone_de_commercialisation__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Intéressé par</value>
+    </filters>
+    <filters>
+        <field>Date_de_mise__c</field>
+        <operation>lessOrEqual</operation>
+        <value>4/22/2020 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+        <value>PREPA,APA1,SAI,EMM,MIFF,MIFI,DMDS,HMDI,SIM,MMML,IHM,MTDMS,MEMI,MSDAI,MJ,MAI,BBA,INTBBA,SCO,GIE,SCPM,MMTE,MJPT</value>
+    </filters>
+    <filters>
+        <field>Contact_central__c</field>
+        <operation>notContain</operation>
+        <value>Prospectmono</value>
+    </filters>
+    <filters>
+        <field>Exercice__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>2020</value>
+    </filters>
+    <filters>
+        <field>Formule_nb_oppo_cours__c</field>
+        <operation>greaterThan</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Contact_Zone_de_commercialisation__c</field>
+        <operation>equals</operation>
+        <value>AUTRE</value>
+    </filters>
+    <label>FI_MULTI_RDM</label>
+</ListView>

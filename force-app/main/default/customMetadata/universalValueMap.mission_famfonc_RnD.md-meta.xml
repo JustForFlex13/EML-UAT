@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>mission-famfonc-RnD</label>
+    <protected>false</protected>
+    <values>
+        <field>ExtValue__c</field>
+        <value xsi:type="xsd:string">Audit</value>
+    </values>
+    <values>
+        <field>SFDC_value__c</field>
+        <value xsi:type="xsd:string">Etud/Recherche/Dévelop/Qualité</value>
+    </values>
+    <values>
+        <field>fieldName__c</field>
+        <value xsi:type="xsd:string">Famille_fonction__c</value>
+    </values>
+    <values>
+        <field>objectName__c</field>
+        <value xsi:type="xsd:string">Convsta_Mission__c</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FI_MAJ_referents_opps</fullName>
+    <columns>Contact_central__c</columns>
+    <columns>Code_Produit__c</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Formule_nb_oppo_total__c</columns>
+    <columns>Formule_nb_oppo_cours__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Statut_Dossier_CANEL__c</columns>
+    <columns>Statut_Canel__c</columns>
+    <columns>A_d_sactiv_son_int_r_t__c</columns>
+    <columns>Exercice__c</columns>
+    <columns>Nombre_d_opportunit_qualifi_es_en_cours__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_Date_cr_ation_contact__c</field>
+        <operation>lessThan</operation>
+        <value>9/1/2017 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Exercice__c</field>
+        <operation>equals</operation>
+        <value>2019</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>1/14/2019 12:00 AM</value>
+    </filters>
+    <label>FI_opps_2019_a_supprimer</label>
+    <language>fr</language>
+</ListView>

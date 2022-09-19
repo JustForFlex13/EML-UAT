@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le libellé qui sera affiché dans l’en-tête de la section qui contient cette liste de jonction de dimension. Lorsque ce champs est laissé vide, le libellé pluriel de l’objet de dimension est utilisé.</help>
+    <label></label>
+    <name>B25__Label__c</name>
+</CustomFieldTranslation>

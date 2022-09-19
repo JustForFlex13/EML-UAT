@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copie_de_CFA_BBA_AP</fullName>
+    <columns>Contact_central__c</columns>
+    <columns>Nom_Prenom__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+        <value>BBA_AP</value>
+    </filters>
+    <filters>
+        <field>Exercice__c</field>
+        <operation>equals</operation>
+        <value>2021</value>
+    </filters>
+    <label>CFA_BBA_AP</label>
+</ListView>

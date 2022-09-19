@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut_candidature__c</fullName>
+    <externalId>false</externalId>
+    <label>Statut Candidature CANEL</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>.</fullName>
+                <default>false</default>
+                <label>.</label>
+            </value>
+            <value>
+                <fullName>Non-recevable (Hors profil)</fullName>
+                <default>false</default>
+                <label>Non-recevable (Hors profil)</label>
+            </value>
+            <value>
+                <fullName>Abandon</fullName>
+                <default>false</default>
+                <label>Abandon</label>
+            </value>
+            <value>
+                <fullName>Dossier débuté</fullName>
+                <default>false</default>
+                <label>Dossier débuté</label>
+            </value>
+            <value>
+                <fullName>Dossier avancé</fullName>
+                <default>false</default>
+                <label>Dossier avancé</label>
+            </value>
+            <value>
+                <fullName>En finalisation</fullName>
+                <default>false</default>
+                <label>En finalisation</label>
+            </value>
+            <value>
+                <fullName>Candidat</fullName>
+                <default>false</default>
+                <label>Candidat</label>
+            </value>
+            <value>
+                <fullName>Admissible</fullName>
+                <default>false</default>
+                <label>Admissible</label>
+            </value>
+            <value>
+                <fullName>Non-admis(sible)</fullName>
+                <default>false</default>
+                <label>Non-admis(sible)</label>
+            </value>
+            <value>
+                <fullName>Abandon candidature</fullName>
+                <default>false</default>
+                <label>Abandon candidature</label>
+            </value>
+            <value>
+                <fullName>Admis</fullName>
+                <default>false</default>
+                <label>Admis</label>
+            </value>
+            <value>
+                <fullName>Admis sous condition</fullName>
+                <default>false</default>
+                <label>Admis sous condition</label>
+            </value>
+            <value>
+                <fullName>Inscrit</fullName>
+                <default>false</default>
+                <label>Inscrit</label>
+            </value>
+            <value>
+                <fullName>Report</fullName>
+                <default>false</default>
+                <label>Report</label>
+            </value>
+            <value>
+                <fullName>Renonciation</fullName>
+                <default>false</default>
+                <label>Renonciation</label>
+            </value>
+            <value>
+                <fullName>Incohérent</fullName>
+                <default>false</default>
+                <label>Incohérent</label>
+            </value>
+            <value>
+                <fullName>Non admissible</fullName>
+                <default>false</default>
+                <label>Non admissible</label>
+            </value>
+            <value>
+                <fullName>Non admis</fullName>
+                <default>false</default>
+                <label>Non admis</label>
+            </value>
+            <value>
+                <fullName>Admis board 1</fullName>
+                <default>false</default>
+                <label>Admis board 1</label>
+            </value>
+            <value>
+                <fullName>Admis board 2</fullName>
+                <default>false</default>
+                <label>Admis board 2</label>
+            </value>
+            <value>
+                <fullName>Non admis board 1</fullName>
+                <default>false</default>
+                <label>Non admis board 1</label>
+            </value>
+            <value>
+                <fullName>Non admis board 2</fullName>
+                <default>false</default>
+                <label>Non admis board 2</label>
+            </value>
+            <value>
+                <fullName>Pré-inscrit</fullName>
+                <default>false</default>
+                <label>Pré-inscrit</label>
+            </value>
+            <value>
+                <fullName>Renonciation après paiement</fullName>
+                <default>false</default>
+                <label>Renonciation après paiement</label>
+            </value>
+            <value>
+                <fullName>Abandon après candidature</fullName>
+                <default>false</default>
+                <label>Abandon après candidature</label>
+            </value>
+            <value>
+                <fullName>Abandon avant oral</fullName>
+                <default>false</default>
+                <label>Abandon avant oral</label>
+            </value>
+            <value>
+                <fullName>En liste d&apos;attente</fullName>
+                <default>false</default>
+                <label>En liste d&apos;attente</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

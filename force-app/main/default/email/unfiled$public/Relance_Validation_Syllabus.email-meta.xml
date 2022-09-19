@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Relance Validation Syllabus</name>
+    <style>freeForm</style>
+    <subject>Relance Validation Syllabus</subject>
+    <textOnly>Bonjour {!hed__Course_Offering__c.SIS_Course_Manager__c},
+
+
+Pour rappel, en tant que Responsable Pédagogique, il vous reste à compléter le syllabus du cours  {!hed__Course_Offering__c.Name}, créé par  {!hed__Course_Offering__c.CreatedBy}
+
+
+Vous pouvez le retrouver en cliquant sur le lien suivant : https://arpege-emlyon--emsisuat.sandbox.lightning.force.com/lightning/r/hed__Course_Offering__c/{!hed__Course_Offering__c.Id}/view
+
+
+
+Cordialement,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

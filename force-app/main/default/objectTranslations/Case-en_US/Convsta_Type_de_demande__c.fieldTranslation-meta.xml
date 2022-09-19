@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Type of application</label>
+    <name>Convsta_Type_de_demande__c</name>
+    <picklistValues>
+        <masterLabel>Besoin d&apos;aide</masterLabel>
+        <translation>Need help</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contrat à venir (CDI/CDD/Intérim)</masterLabel>
+        <translation>Upcoming validation of experience (permanent contract, fixed-term contract, part-time, IVB, IVA)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stage</masterLabel>
+        <translation>Internship</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validation d&apos;expérience antérieure</masterLabel>
+        <translation>Validation of previous experience</translation>
+    </picklistValues>
+</CustomFieldTranslation>

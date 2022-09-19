@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <layouts>
+        <layout>Table des Règles Expérience Pro Layout</layout>
+        <sections>
+            <label>Specific conditions</label>
+            <section>Conditions particulières</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contrôle avec cursus</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Dates of th internship</label>
+            <section>Dates du stage</section>
+        </sections>
+        <sections>
+            <label>Internship duration</label>
+            <section>Durée de stage</section>
+        </sections>
+        <sections>
+            <label>Team by default</label>
+            <section>Equipe</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Identification Convention</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel></nameFieldLabel>
+    <startsWith></startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>convsta_resp_pedagogique_obligatoire</name>
+    </validationRules>
+</CustomObjectTranslation>

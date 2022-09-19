@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Opcional. Se este campo (objeto cruzado) na reserva for igual a “true”, a quantidade desta reserva não contará na verificação da capacidade. No entanto, a quantidade ainda não pode exceder a capacidade do elemento.</help>
+    <label></label>
+    <name>B25__Reservation_Skip_Capacity_Check_Field__c</name>
+</CustomFieldTranslation>

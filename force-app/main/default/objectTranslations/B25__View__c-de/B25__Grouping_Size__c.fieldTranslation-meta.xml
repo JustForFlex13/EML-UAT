@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bei Aktivierung des Seitenumbruchs wird die Anzahl der in den Quellen der obersten Ebene aufgeteilten Einträge wird aufgeteilt.</help>
+    <label></label>
+    <name>B25__Grouping_Size__c</name>
+</CustomFieldTranslation>

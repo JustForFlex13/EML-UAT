@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TdR_accessible_aux_tudiants</fullName>
+    <columns>NAME</columns>
+    <columns>Accessible_aux_etudiants__c</columns>
+    <columns>Programme__c</columns>
+    <columns>Code_etude__c</columns>
+    <columns>Code_etude_Annee_suivante__c</columns>
+    <columns>Nom_Responsable_Pedagogique__c</columns>
+    <columns>Date_Demarrage_Au_Plus_Tot__c</columns>
+    <columns>Date_Maximum_Fin_Stage__c</columns>
+    <columns>Ann_e_suivante__c</columns>
+    <columns>Duree_Stage_Minimum__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Accessible_aux_etudiants__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>TdR accessible aux étudiants</label>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Type__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The ABR will only target a specific Resource Type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>L’ABR ne ciblera qu’un type de ressource spécifique.</inlineHelpText>
+    <label>Target Resource Type</label>
+    <referenceTo>B25__Resource_Type__c</referenceTo>
+    <relationshipLabel>Preferred Locations</relationshipLabel>
+    <relationshipName>AbrLocations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

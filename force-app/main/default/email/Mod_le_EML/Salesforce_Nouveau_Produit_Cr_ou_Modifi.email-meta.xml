@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Salesforce - Nouveau Produit Créé ou Modifié</name>
+    <style>freeForm</style>
+    <subject>Salesforce - Nouveau Produit Créé ou Modifié</subject>
+    <textOnly>Création ou modification d&apos;un Produit dans Salesforce
+
+Un nouveau produit vient d&apos;être créée ou modifiée par {!Product2.LastModifiedBy}, voici les détails de ce produit:
+
+Lien vers la fiche :
+https://arpege-emlyon.lightning.force.com/{!Product2.Id}
+
+Id : {!Product2.Id}
+Nom du produit : {!Product2.Name}
+Libelle du Produit : {!Product2.Libelle_Produit__c}
+Code Produit : {!Product2.ProductCode}
+Produit Actif : {!Product2.IsActive}
+Famille : {!Product2.Family}
+Domaine : {!Product2.Domaine__c}
+Type d&apos;enregistrement: {!Product2.RecordType}
+Famille:Domaine : {!Product2.Famille__c}
+Format : {!Product2.Format__c}
+Date de fin : {!Session__c.Date_de_fin_de_session__c}
+Ne pas afficher sur le site EML : {!Product2.Ne_pas_afficher_sur_le_site_EML__c}
+Nombre d&apos;heures : {!Product2.Nombre_d_heures__c}
+Nombre de jours : {!Product2.Nombre_de_jours__c}
+Produit : {!Session__c.Produits__c}
+Pack à la carte : {!Product2.Pack_la_carte__c}
+Produit Pack : {!Product2.Produit_Pack__c}
+Suiveur : {!Product2.Suiveur__c}
+Date de création : {!Product2.CreatedDate}
+Date de dernière modification : {!Product2.LastModifiedDate}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

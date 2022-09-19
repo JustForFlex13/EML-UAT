@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Modèle à envoyer au responsable</name>
+    <style>none</style>
+    <subject>Opportunité Intra-entreprise est validée</subject>
+    <textOnly>Bonjour {!Opportunity.OwnerFullName}
+
+{!Opportunity.Name}, 
+
+L&apos;opportunité, {!Opportunity.Name} pour {!Opportunity.Account} a été validée. 
+
+Vous pouvez visualiser l&apos;opportunité en cliquant sur sur ce lien: 
+
+Cordialement, 
+
+Administrateur ARPEGE</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

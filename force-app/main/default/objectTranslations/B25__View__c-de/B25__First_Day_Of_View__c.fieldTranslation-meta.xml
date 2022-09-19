@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der Tag, an dem die Ansicht starten sollte. „Ort“ verwendet den 1. Tag der Woche auf Basis der entsprechenden Nutzereinstellung. Wenn frei, wird der ausgewählte Tag im Kalender als erster Tag der Ansicht verwendet.</help>
+    <label></label>
+    <name>B25__First_Day_Of_View__c</name>
+    <picklistValues>
+        <masterLabel>First day of the month</masterLabel>
+        <translation>Erster Tag des Monats</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First day of the year</masterLabel>
+        <translation>Erster Tag des Jahres</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Friday</masterLabel>
+        <translation>Freitag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locale</masterLabel>
+        <translation>Ort</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monday</masterLabel>
+        <translation>Montag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saturday</masterLabel>
+        <translation>Samstag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sunday</masterLabel>
+        <translation>Sonntag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thursday</masterLabel>
+        <translation>Donnerstag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tuesday</masterLabel>
+        <translation>Dienstag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wednesday</masterLabel>
+        <translation>Mittwoch</translation>
+    </picklistValues>
+</CustomFieldTranslation>

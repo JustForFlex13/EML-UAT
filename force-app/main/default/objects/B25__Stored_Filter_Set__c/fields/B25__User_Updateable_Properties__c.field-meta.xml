@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__User_Updateable_Properties__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The options that user can edit when loading the global filter. Changes are saved per individual user.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Les options que l’utilisateur peut modifier lors du chargement du filtre global. Les modifications sont enregistrées par utilisateur individuel.</inlineHelpText>
+    <label>User Updateable Properties</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Operators</fullName>
+                <default>false</default>
+                <label>Operators</label>
+            </value>
+            <value>
+                <fullName>Values</fullName>
+                <default>false</default>
+                <label>Values</label>
+            </value>
+            <value>
+                <fullName>Enabled</fullName>
+                <default>false</default>
+                <label>Enabled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

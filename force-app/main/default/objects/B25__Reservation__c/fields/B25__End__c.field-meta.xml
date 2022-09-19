@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__End__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The end time in your timezone</description>
+    <externalId>false</externalId>
+    <inlineHelpText>L’heure de fin dans votre fuseau horaire</inlineHelpText>
+    <label>User End Datetime</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

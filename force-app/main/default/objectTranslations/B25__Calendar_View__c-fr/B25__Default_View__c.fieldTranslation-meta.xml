@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cela indique que la vue connexe est la vue par défaut pour le calendrier connexe. Chaque calendrier ne peut avoir qu’une seule vue par défaut, ce qui signifie qu’une seule vue de calendrier peut être marquée comme étant la vue par défaut.</help>
+    <label></label>
+    <name>B25__Default_View__c</name>
+</CustomFieldTranslation>

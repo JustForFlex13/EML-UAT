@@ -1,0 +1,7 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,forceCommunity:profileMenuInterface" 
+                access="global"
+                controller="LCctrl01_Convsta_demandeController" >
+    
+
+
+</aura:component>

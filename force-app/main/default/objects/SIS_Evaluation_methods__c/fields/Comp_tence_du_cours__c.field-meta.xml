@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comp_tence_du_cours__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Compétence du cours</label>
+    <referenceTo>Course_Skill__c</referenceTo>
+    <relationshipLabel>Modalités d&apos;évaluation</relationshipLabel>
+    <relationshipName>SIS_Modalit_s_d_valuation</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,5 @@
+Nous avons rencontré un problème avec votre inscription à {!Community_Name}.
+              Corrigez l’erreur suivante : {!SelfReg_MicroBatch_Error}
+              Accédez à {!Community_Url} pour réessayer ou demandez de l’aide à votre administrateur Salesforce.
+              Merci,
+              {!Organization.Name}

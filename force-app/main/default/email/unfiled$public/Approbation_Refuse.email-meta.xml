@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Approbation Refusé</name>
+    <style>freeForm</style>
+    <subject>Approbation refusée</subject>
+    <textOnly>Bonjour,
+
+
+Une opportunité Intra nécessite votre approbation.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

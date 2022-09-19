@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Evaluation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Evaluations</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Convsta_Evaluation Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Bascule_Scolarite</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>ChangeEvaluateur</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>ChangeNote</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>ChangeStatut</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Generer_la_demande_devaluation_en_PDF</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>UploadEvaluation</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

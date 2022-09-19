@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Student&apos;s remuneration as part of his work experience</help>
+    <label>Compensation in Euros</label>
+    <name>Remuneration_Mensuelle__c</name>
+</CustomFieldTranslation>

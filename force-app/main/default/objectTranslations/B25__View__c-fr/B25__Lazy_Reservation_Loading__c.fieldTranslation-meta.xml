@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>« Vertical » active le chargement paresseux sur l’axe vertical. « Vertical/Horizontal » active le chargement paresseux sur les deux axes. Ce dernier paramètre est incompatible avec tout paramètre qui masque des parties de la ligne de temps, tel que « Masquer les heures de fermeture sans réservation » dans la vue.</help>
+    <label></label>
+    <name>B25__Lazy_Reservation_Loading__c</name>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>Désactivé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical &amp; Horizontal</masterLabel>
+        <translation>Vertical et horizontal</translation>
+    </picklistValues>
+</CustomFieldTranslation>

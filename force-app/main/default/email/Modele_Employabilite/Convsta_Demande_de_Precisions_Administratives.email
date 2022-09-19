@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font style="color: rgb(0, 0, 0);" face="Arial, sans-serif">Bonjour {!Contact.Name},<br><br></font><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif">Nous aurions besoin de précisions concernant votre demande d'expérience professionnelle.<br><br>Précisions demandées :&nbsp;{!Case.Explications_administratives__c}</font></div><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0);"><span lang="EN" style=""><font face="Arial, sans-serif" style="">Cordialement,</font></span></div><div style="color: rgb(0, 0, 0);"><span lang="EN" style="background-color: rgb(255, 0, 0);"><font face="Arial, sans-serif" style=""><b><br></b></font></span></div><div style=""><span lang="EN" style="background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif" style="" color="#ff0000"><b style="">emlyon Career Center</b></font></span></div>]]></td>
+</tr>
+</table>

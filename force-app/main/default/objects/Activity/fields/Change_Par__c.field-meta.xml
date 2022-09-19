@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Par__c</fullName>
+    <description>Indique le no de l&apos;utilisateur qui a changé la tâche en dernnier.</description>
+    <externalId>false</externalId>
+    <label>Changé Par</label>
+    <length>100</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

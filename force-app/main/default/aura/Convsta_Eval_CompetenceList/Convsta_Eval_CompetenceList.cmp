@@ -1,0 +1,25 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global"
+	controller="LCctrl02_Convsta_evaluationController">
+
+	<aura:attribute name="language" type="String" />
+	<aura:attribute name="mission" type="Object" default="{}" />
+	<aura:attribute name="competences" type="Convsta_Competence__c[]" default="[]" />
+	<aura:attribute name="wantedType" type="String" />
+	<aura:attribute name="isReadOnly" type="Boolean" default="false" />
+	<aura:attribute name="family" type="String" default="" />
+
+	<lightning:layout multipleRows="true">
+		<aura:iteration items="{! v.competences }" var="oneComp">
+			<aura:if isTrue="{! and(oneComp.type__c == v.wantedType, or(oneComp.Famille_metiers__c == v.family,v.family=='', v.family==null)) }">
+				<lightning:layoutItem largeDeviceSize="6" mediumDeviceSize="12" smallDeviceSize="12" size="12">
+						<c:Convsta_star_rating 
+                                               competence="{! oneComp }" 
+                                               rating='{! oneComp.rating__c }'
+                                               mission="{!v.mission}"
+                                               language="{!v.language}"
+                                               isReadOnly="{! v.isReadOnly }" />
+				</lightning:layoutItem>
+			</aura:if>
+		</aura:iteration>
+    </lightning:layout>
+</aura:component>

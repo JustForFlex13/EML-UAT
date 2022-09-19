@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Peut être utilisée pour augmenter les performances si la validation des jonctions est lente. Permet à l’utilisateur de sélectionner d’abord plusieurs nouvelles jonctions, et reporte la validation jusqu’à ce que l’utilisateur clique sur le bouton « Ajouter ».</help>
+    <label></label>
+    <name>B25__Use_Bulk_Input__c</name>
+</CustomFieldTranslation>

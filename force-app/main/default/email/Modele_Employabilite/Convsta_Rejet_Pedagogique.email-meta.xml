@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Convsta Rejet Pédagogique</name>
+    <style>freeForm</style>
+    <subject>Votre demande n&apos;a pas été approuvée (refus pédagogique)</subject>
+    <textOnly>Bonjour {!Contact.Name},
+
+
+Nous avons le regret de vous informer que votre demande de convention de stage ou de validation d&apos;expérience professionnelle {!Case.CaseNumber} a été rejetée (refus pédagogique).
+
+
+
+Motif du refus : {!Case.Convsta_Motif_Rejet_Pedagogique__c}
+
+
+
+Explications :
+
+{!Case.Explications_pedagogiques__c}
+
+
+
+
+Cordialement,
+
+Votre responsable pédagogique emlyon</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

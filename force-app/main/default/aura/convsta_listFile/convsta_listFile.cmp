@@ -1,0 +1,28 @@
+<aura:component implements="force:hasRecordId,forceCommunity:availableForAllPageTypes" controller="LCctrl01_Convsta_demandeController">
+    <aura:attribute name="docList" type="List" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="myRecord" type="Object"/>
+    <aura:attribute name="recordLoadError" type="String"/>
+    
+    <force:recordData aura:id="recordLoader"
+                      recordId="{!v.recordId}"
+                      fields="Convsta_Convention__c,Convsta_Document_a_verifier__c,Convsta_TypeContrat__c"
+                      targetFields="{!v.myRecord}"
+                      targetError="{!v.recordLoadError}"
+                      mode="VIEW"
+                      />
+    <aura:if isTrue="{!and(not(v.myRecord.Convsta_Convention__c),and(not(v.myRecord.Convsta_Document_a_verifier__c),v.myRecord.Convsta_TypeContrat__c!='Convention de stage de l ecole'))}">
+        <article class="slds-card" style="background-color:rgb(227, 38, 27); ">
+            <div class="slds-card__body slds-card__body_inner" style=" color: white;" ><lightning:icon iconName="utility:warning" alternativeText="warning" variant="inverse" size="small"/>{!$Label.c.Convsta_consigneUpload}</div>
+        </article>
+	</aura:if>
+    
+    
+    <lightning:card  title="{!$Label.c.convsta_fileList}">
+        <c:convsta_uploadConvention  fileUploaded="{!c.doInit}" caseId="{!v.recordId}"/><br/>
+        <aura:iteration items="{!v.docList}" var="doc">
+             <lightning:fileCard fileId="{!doc.ContentDocumentId}" />
+        </aura:iteration>
+    </lightning:card>
+</aura:component>

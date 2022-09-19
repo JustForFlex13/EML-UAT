@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Alerte Email Nouvelle Opportunité EMBA Lyon</name>
+    <style>freeForm</style>
+    <subject>Une nouvelle opportunité EMBA Lyon a été créée</subject>
+    <textOnly>Une nouvelle opportunité EMBA Lyon a été créée
+
+Lien vers l&apos;opportunité :
+https://arpege-emlyon.lightning.force.com/{!Opportunity.Id}
+
+Nom/Prénom : {!Opportunity.Nom_Prenom__c}
+Souhait Programme: {!Opportunity.Name}
+Date de création : {!Opportunity.CreatedDate}
+Lieu : {!Opportunity.Lieu_de_formation__c}
+Nom du propriétaire : {!Opportunity.OwnerLastName}
+Statut : {!Opportunity.StageName}
+Détail Canal d&apos;acquisition : {!Opportunity.Sous_provenance__c}
+Date de Rentrée : {!Opportunity.CloseDate}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

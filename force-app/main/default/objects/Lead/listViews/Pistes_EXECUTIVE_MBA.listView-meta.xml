@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pistes_EXECUTIVE_MBA</fullName>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Commentaire_piste__c</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Adresse_e_mail__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Provenance__c</columns>
+    <columns>Login__c</columns>
+    <columns>Motif_d_abandon__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2020 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Commentaire_piste__c</field>
+        <operation>contains</operation>
+        <value>executive MBA,MBA</value>
+    </filters>
+    <label>Pistes EXECUTIVE MBA</label>
+    <sharedTo>
+        <group>Opp_Executive_MBA</group>
+    </sharedTo>
+</ListView>

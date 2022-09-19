@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>souhaite_rester_dans_bdd__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>champ à ne pas afficher aux utilisateurs. sert à indiquer que le contact souhaite rester dans la base de données Arpège. Case sera cocher ou décocher à l&apos;aide de DataLoader.</description>
+    <externalId>false</externalId>
+    <label>souhaite rester dans bdd</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

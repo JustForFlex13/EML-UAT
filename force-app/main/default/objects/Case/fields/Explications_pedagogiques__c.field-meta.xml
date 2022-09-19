@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Explications_pedagogiques__c</fullName>
+    <description>Le Responsable pédagogique doit expliquer à l&apos;étudiant les précisions qu&apos;il attend de sa part afin de pouvoir valider sa demande d&apos;expérience professionnelle ou la raison pour laquelle sa demande n&apos;a pas été validée.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le Responsable pédagogique doit expliquer à l&apos;étudiant les précisions qu&apos;il attend de sa part afin de pouvoir valider sa demande d&apos;expérience professionnelle ou la raison pour laquelle sa demande n&apos;a pas été validée.</inlineHelpText>
+    <label>Explications</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

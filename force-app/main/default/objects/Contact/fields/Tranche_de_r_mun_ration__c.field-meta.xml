@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tranche_de_r_mun_ration__c</fullName>
+    <externalId>false</externalId>
+    <label>Tranche de rémunération</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Moins de 30K€</fullName>
+                <default>false</default>
+                <label>Moins de 30K€</label>
+            </value>
+            <value>
+                <fullName>De 31 à 40K€</fullName>
+                <default>false</default>
+                <label>De 31 à 40K€</label>
+            </value>
+            <value>
+                <fullName>De 41 à 50K€</fullName>
+                <default>false</default>
+                <label>De 41 à 50K€</label>
+            </value>
+            <value>
+                <fullName>De 51 à 60K€</fullName>
+                <default>false</default>
+                <label>De 51 à 60K€</label>
+            </value>
+            <value>
+                <fullName>De 61 à 70K€</fullName>
+                <default>false</default>
+                <label>De 61 à 70K€</label>
+            </value>
+            <value>
+                <fullName>De 71 à 80K€</fullName>
+                <default>false</default>
+                <label>De 71 à 80K€</label>
+            </value>
+            <value>
+                <fullName>De 81 à 90K€</fullName>
+                <default>false</default>
+                <label>De 81 à 90K€</label>
+            </value>
+            <value>
+                <fullName>De 91 à 100K€</fullName>
+                <default>false</default>
+                <label>De 91 à 100K€</label>
+            </value>
+            <value>
+                <fullName>De 101 à 200K€</fullName>
+                <default>false</default>
+                <label>De 101 à 200K€</label>
+            </value>
+            <value>
+                <fullName>De 201 à 300K€</fullName>
+                <default>false</default>
+                <label>De 201 à 300K€</label>
+            </value>
+            <value>
+                <fullName>De 301 à 400K€</fullName>
+                <default>false</default>
+                <label>De 301 à 400K€</label>
+            </value>
+            <value>
+                <fullName>De 401 à 500K€</fullName>
+                <default>false</default>
+                <label>De 401 à 500K€</label>
+            </value>
+            <value>
+                <fullName>Plus de 501 K€</fullName>
+                <default>false</default>
+                <label>Plus de 501 K€</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

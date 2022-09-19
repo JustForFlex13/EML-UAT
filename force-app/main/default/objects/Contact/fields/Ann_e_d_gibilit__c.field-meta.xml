@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ann_e_d_gibilit__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( MONTH(DATEVALUE(Date_de_cr_ation_contact__c )) &lt; 9 , IF (  ISPICKVAL(Niveau_d_tudes__c , &quot;Seconde&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 3),
+  IF(  ISPICKVAL(Niveau_d_tudes__c , &quot;Première&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 2),
+     IF(  ISPICKVAL(Niveau_d_tudes__c, &quot;Terminale&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 1),
+        IF(  ISPICKVAL(Niveau_d_tudes__c, &quot;Bac&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 1),
+           IF(  ISPICKVAL(Niveau_d_tudes__c, &quot;Bac + 1&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 1),
+              IF(  ISPICKVAL(Niveau_d_tudes__c, &quot;Bac + 2&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 1),
+                 IF(  ISPICKVAL(Niveau_d_tudes__c, &quot;Bac + 3&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 1),null)
+              )
+           )
+        )
+     )  
+  )
+), IF (  ISPICKVAL(Niveau_d_tudes__c , &quot;Seconde&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 4),
+  IF(  ISPICKVAL(Niveau_d_tudes__c , &quot;Première&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 3),
+     IF(  ISPICKVAL(Niveau_d_tudes__c, &quot;Terminale&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 2),
+        IF(  ISPICKVAL(Niveau_d_tudes__c, &quot;Bac&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 2),
+           IF(  ISPICKVAL(Niveau_d_tudes__c, &quot;Bac + 1&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 2),
+              IF(  ISPICKVAL(Niveau_d_tudes__c, &quot;Bac + 2&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 2),
+                 IF(  ISPICKVAL(Niveau_d_tudes__c, &quot;Bac + 3&quot;), TEXT(YEAR(DATEVALUE(Date_de_cr_ation_contact__c )) + 2),null)
+              )
+           )
+        )
+     )  
+  )
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Année d&apos;égibilité BBA</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

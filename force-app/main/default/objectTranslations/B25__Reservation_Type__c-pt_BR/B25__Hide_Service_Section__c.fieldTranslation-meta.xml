@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ao ativar esta caixa de seleção, não poderá adicionar reservas de serviço quando tiver este tipo de reserva selecionado</help>
+    <label></label>
+    <name>B25__Hide_Service_Section__c</name>
+</CustomFieldTranslation>

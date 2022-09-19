@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Het checkbox veld op de verkoopkans dat deze ABR zal afvuren wanneer hij van false naar true gaat.</help>
+    <label></label>
+    <name>B25__ActivatingCheckbox__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dit geeft aan dat de gelinkte weergave de standaard is voor deze kalender. Hiervan kan er maar één zijn, elke kalender heeft één standaard weergave.</help>
+    <label></label>
+    <name>B25__Default_View__c</name>
+</CustomFieldTranslation>

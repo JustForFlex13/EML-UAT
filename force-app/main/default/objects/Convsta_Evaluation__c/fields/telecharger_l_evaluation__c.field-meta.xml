@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>telecharger_l_evaluation__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK(Demande__r.Convsta_EvaluationDocumentId__c ),
+			HYPERLINK(&apos;/apex/Convsta_GenerationEvaluation?evalId=&apos;+Id, $Label.convsta_dowload_evaluation, &apos;_blank&apos;),
+			 HYPERLINK(&apos;/&apos;+Demande__r.Convsta_EvaluationDocumentId__c, $Label.convsta_dowload_evaluation , &apos;_blank&apos;)   
+			)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>télécharger l&apos;évaluation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

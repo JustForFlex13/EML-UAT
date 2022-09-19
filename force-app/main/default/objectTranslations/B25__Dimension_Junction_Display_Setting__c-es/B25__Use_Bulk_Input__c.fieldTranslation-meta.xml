@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Puede utilizarse para aumentar el rendimiento si la validación de la unión es lenta. Permite al usuario seleccionar primero múltiples uniones nuevas, y pospone la validación hasta que el usuario haga clic en el botón Añadir.</help>
+    <label></label>
+    <name>B25__Use_Bulk_Input__c</name>
+</CustomFieldTranslation>

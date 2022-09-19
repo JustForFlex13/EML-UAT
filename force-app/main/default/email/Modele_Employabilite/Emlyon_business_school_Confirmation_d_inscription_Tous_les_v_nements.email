@@ -1,0 +1,153 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; text-align: justify;"><span style="font-size: 12pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Bonjour,</span></p><p class="MsoNormal" style="caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><span style="font-size: 12pt;">&nbsp;</span></p><p class="MsoNormal" style="caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><span style="font-size: 12pt;">Nous vous remercions de choisir le Career<span class="Apple-converted-space">&nbsp;</span><b>Center<span class="Apple-converted-space">&nbsp;</span></b>em<b>lyon business school<span class="Apple-converted-space">&nbsp;</span></b>pour vous accompagner dans cet évènement et vous confirmons votre inscription à&nbsp;:<o:p></o:p></span></p><p class="MsoNormal" style="caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><span style="font-size: 12pt;">&nbsp;</span></p><p class="MsoNormal" style="caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: center;" align="center"><span style="font-size: 12pt;">La&nbsp;</span><span style="font-size: 16px; text-align: justify;">{!Opportunity.Name}</span><span style="font-size: 12pt;">&nbsp;pour la date du&nbsp;<o:p></o:p></span><span style="text-align: justify; font-family: arial; font-size: 12pt;">{!Opportunity.Date_evenement__c}</span></p><p class="MsoNormal" style="caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><o:p>&nbsp;</o:p></p><p class="MsoNormal" style="caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><span style="font-size: 12pt;">Dans le but d’organiser efficacement votre venue, nous vous demandons de bien vouloir nous transmettre les informations suivantes :<span style="color: red;"><o:p></o:p></span></span></p><p class="MsoNormal" style="caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><o:p>&nbsp;</o:p></p><p class="MsoNormal" style="margin-left: 36pt; caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify; text-indent: -18pt;"><span style="font-size: 12pt;">-</span><span style="font-size: 7pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="Apple-converted-space">&nbsp;</span></span><span style="font-size: 12pt;">Votre<span class="Apple-converted-space">&nbsp;</span><b>logo</b><span class="Apple-converted-space">&nbsp;</span>(format illustrator (.ai) &nbsp;de préférence ou sinon format .png haute définition (300 dpi) avec fond transparent et largeur minimale 17cm)</span><o:p></o:p></p><p class="MsoNormal" style="margin-left: 36pt; caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify; text-indent: -18pt;"><span style="font-size: 12pt;">-</span><span style="font-size: 7pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="Apple-converted-space">&nbsp;</span></span><span style="font-size: 12pt;">Le nombre et nom de</span><span style="font-size: 12pt; color: rgb(31, 73, 125);">s</span><span style="font-size: 12pt;">&nbsp;</span><span style="font-size: 12pt;">personnes qui représenteront votre société ainsi que leur fonction</span><o:p></o:p></p><p class="MsoNormal" style="caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><span style="font-size: 12pt;">&nbsp;</span><o:p></o:p></p><p class="MsoNormal" style="caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><span style="font-size: 12pt;">Nous restons à votre disposition pour tout complément d’information.</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: Calibri, sans-serif; font-size: 11pt; margin: 0cm 0cm 0.0001pt; caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><span style="font-size: 12pt;"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: Calibri, sans-serif; font-size: 11pt; margin: 0cm 0cm 0.0001pt; caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><span style="font-size: 12pt;" lang="EN-US">Cordialement,</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: Calibri, sans-serif; font-size: 11pt; margin: 0cm 0cm 0.0001pt; caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><span style="font-size: 12pt;" lang="EN-US"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 0.0001pt; text-size-adjust: auto;"><span style="color: rgb(255, 0, 0); font-family: Calibri, sans-serif; font-size: 14.6667px; background-color: rgb(255, 255, 255);">{!User.Name}</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 0.0001pt; text-size-adjust: auto;"><font face="Calibri, sans-serif"><span style="font-size: 14.6667px;"><i>{!User.Title}</i></span></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 0.0001pt; text-size-adjust: auto;"><font face="Calibri, sans-serif"><span style="font-size: 14.6667px;"><i>{!User.Phone}</i></span></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0cm 0cm 0.0001pt; text-size-adjust: auto;"><font face="Calibri, sans-serif"><span style="font-size: 14.6667px;"><i><br></i></span></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: Calibri, sans-serif; font-size: 12pt; margin: 0cm 0cm 0.0001pt; caret-color: rgb(0, 0, 0); text-size-adjust: auto;"><span style="font-size: 9pt; font-family: Arial, sans-serif; color: rgb(38, 38, 38);">23,&nbsp;avenue Guy de Collongue</span><o:p></o:p></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: Calibri, sans-serif; font-size: 12pt; margin: 0cm 0cm 0.0001pt; caret-color: rgb(0, 0, 0); text-size-adjust: auto;"><span style="font-size: 9pt; font-family: Arial, sans-serif; color: rgb(38, 38, 38);">CS 40203 69134 Ecully Cedex France</span><o:p></o:p></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: Calibri, sans-serif; font-size: 12pt; margin: 0cm 0cm 0.0001pt; caret-color: rgb(0, 0, 0); text-size-adjust: auto;"><span style="font-size: 9pt; font-family: Arial, sans-serif; color: rgb(38, 38, 38);">&nbsp;</span><o:p></o:p></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: Calibri, sans-serif; font-size: 11pt; margin: 0cm 0cm 0.0001pt; caret-color: rgb(0, 0, 0); text-size-adjust: auto; text-align: justify;"><span style="font-size: 12pt;" lang="EN-US"></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: Calibri, sans-serif; font-size: 12pt; margin: 0cm 0cm 0.0001pt; caret-color: rgb(0, 0, 0); text-size-adjust: auto;"><b><span style="font-size: 9pt; font-family: Arial, sans-serif; color: rgb(226, 0, 26);" lang="EN-US"><a href="http://www.em-lyon.com/" title="http://www.em-lyon.com/" style="color: rgb(149, 79, 114);">www.em-lyon.com</a></span></b></p><style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:decorative;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073697537 9 0 511 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:11.0pt;
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:2059544823;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1109793206 -1676476712 67895299 67895301 67895297 67895299 67895301 67895297 67895299 67895301;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>]]></td>
+</tr>
+</table>

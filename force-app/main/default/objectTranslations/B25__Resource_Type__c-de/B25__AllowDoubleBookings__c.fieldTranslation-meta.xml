@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Doppelbuchungen in Quellen dieses Typs erlauben?</help>
+    <label></label>
+    <name>B25__AllowDoubleBookings__c</name>
+</CustomFieldTranslation>

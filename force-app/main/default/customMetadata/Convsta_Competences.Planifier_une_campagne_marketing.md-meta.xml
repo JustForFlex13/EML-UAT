@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Planifier une campagne marketing</label>
+    <protected>false</protected>
+    <values>
+        <field>Famille_metier__c</field>
+        <value xsi:type="xsd:string">Marketing et Communication</value>
+    </values>
+    <values>
+        <field>Name_En__c</field>
+        <value xsi:type="xsd:string">Plan a marketing campaign</value>
+    </values>
+    <values>
+        <field>Name__c</field>
+        <value xsi:type="xsd:string">Planifier une campagne marketing</value>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">4.0</value>
+    </values>
+    <values>
+        <field>Type__c</field>
+        <value xsi:type="xsd:string">3Métier</value>
+    </values>
+</CustomMetadata>

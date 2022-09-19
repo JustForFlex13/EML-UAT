@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3_Mes_fiches</fullName>
+    <columns>NAME</columns>
+    <columns>Sujet__c</columns>
+    <columns>Priorite__c</columns>
+    <columns>Type__c</columns>
+    <columns>Lot__c</columns>
+    <columns>Validee_par_Kerensen__c</columns>
+    <columns>Statut__c</columns>
+    <columns>Date_limite__c</columns>
+    <columns>Domaine__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Statut__c</field>
+        <operation>notEqual</operation>
+        <value>Fermé,Abandonné</value>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>notEqual</operation>
+        <value>Version</value>
+    </filters>
+    <label>3 - Mes fiches ouvertes</label>
+</ListView>

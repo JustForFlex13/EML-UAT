@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Besoin_en_recrutement__c</fullName>
+    <externalId>false</externalId>
+    <label>Besoin en recrutement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1er emploi</fullName>
+                <default>false</default>
+                <label>1er emploi</label>
+            </value>
+            <value>
+                <fullName>Alternance</fullName>
+                <default>false</default>
+                <label>Alternance</label>
+            </value>
+            <value>
+                <fullName>International</fullName>
+                <default>false</default>
+                <label>International</label>
+            </value>
+            <value>
+                <fullName>Stage</fullName>
+                <default>false</default>
+                <label>Stage</label>
+            </value>
+            <value>
+                <fullName>VIE</fullName>
+                <default>false</default>
+                <label>VIE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LG_2__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Our graduates master business basics and disruptive business competencies</inlineHelpText>
+    <label>LG 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LO3 : Graduates understand and are able to implement the concepts, methods and tools for management, steering of projects and decision-making on a functional and interdisciplinary point of view</fullName>
+                <default>false</default>
+                <label>LO3 : Graduates understand and are able to implement the concepts, methods and tools for management, steering of projects and decision-making on a functional and interdisciplinary point of view</label>
+            </value>
+            <value>
+                <fullName>LO4 : Graduates are able to use the tools and the professional digital systems to create economic value</fullName>
+                <default>false</default>
+                <label>LO4 : Graduates are able to use the tools and the professional digital systems to create economic value</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

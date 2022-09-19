@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification relative à un utilisateur ajouté à une communauté.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Communautés : E-mail de bienvenue pour les nouveaux membres</name>
+    <style>none</style>
+    <subject>Bienvenue dans {!Community_Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CASA_Vue_Opp_EMBA_casa</fullName>
+    <columns>Contact_central__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>ExerciceNum_ro__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>A_d_sactiv_son_int_r_t__c</columns>
+    <columns>Statut_Dossier_CANEL__c</columns>
+    <columns>Statut_Canel__c</columns>
+    <columns>Provenance__c</columns>
+    <columns>Mode_de_financement__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Admis,Inscrit,Intégré</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Formation_initiale,Opportunity.Programme_Long_Dipl_mant</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>Executive MBA Casablanca</value>
+    </filters>
+    <filters>
+        <field>ExerciceNum_ro__c</field>
+        <operation>equals</operation>
+        <value>2022</value>
+    </filters>
+    <label>CASA Vue Opp EMBA Casa</label>
+</ListView>

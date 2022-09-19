@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Het label dat zal worden getoond in de header. Indien leeg wordt de meervouds label van het object gepakt</help>
+    <label></label>
+    <name>B25__Label__c</name>
+</CustomFieldTranslation>

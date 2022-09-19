@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Activate_After_Validation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked Booker25 wil attempt to automatically activate this connection after the details have been
+		validated through the API.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette case est cochée, Booker25 tentera d’activer automatiquement cette connexion après que les détails aient été validés par le biais de l’API.</inlineHelpText>
+    <label>Activate After Validation</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

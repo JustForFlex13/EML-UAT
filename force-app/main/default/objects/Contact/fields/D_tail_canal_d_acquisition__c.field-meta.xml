@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>D_tail_canal_d_acquisition__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>précise un sous canal de la fiche piste dans le système</inlineHelpText>
+    <label>Ancien détail canal d&apos;acquisition</label>
+    <length>150</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

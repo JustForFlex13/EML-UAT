@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Resource_Type__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Resource Type to which this Resource record belongs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le type de ressource auquel cet enregistrement de ressource appartient.</inlineHelpText>
+    <label>Resource Type</label>
+    <referenceTo>B25__Resource_Type__c</referenceTo>
+    <relationshipLabel>Resources (Resource Type)</relationshipLabel>
+    <relationshipName>TypeResources</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

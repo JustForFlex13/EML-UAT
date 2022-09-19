@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Document_recu__c</fullName>
+    <externalId>false</externalId>
+    <label>Document reçu</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Attestation_employeur_Conforme</fullName>
+                <default>false</default>
+                <label>Attestation employeur Conforme</label>
+            </value>
+            <value>
+                <fullName>Attestation_employeur_Non_conforme</fullName>
+                <default>false</default>
+                <label>Attestation employeur Non conforme</label>
+            </value>
+            <value>
+                <fullName>Vu</fullName>
+                <default>false</default>
+                <label>Vu</label>
+            </value>
+            <value>
+                <fullName>Convention / Contrat Conforme</fullName>
+                <default>false</default>
+                <label>Convention / Contrat Conforme</label>
+            </value>
+            <value>
+                <fullName>Convention / Contrat Non conforme</fullName>
+                <default>false</default>
+                <label>Convention / Contrat Non conforme</label>
+            </value>
+            <value>
+                <fullName>Conforme</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Conforme</label>
+            </value>
+            <value>
+                <fullName>Non conforme</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non conforme</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

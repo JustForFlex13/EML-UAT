@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Lauréat</fullName>
+        <default>false</default>
+        <label>Lauréat</label>
+    </customValue>
+    <customValue>
+        <fullName>Startup</fullName>
+        <default>false</default>
+        <label>Startup</label>
+    </customValue>
+    <customValue>
+        <fullName>Mentorat</fullName>
+        <default>false</default>
+        <label>Mentorat</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Booster</fullName>
+        <default>false</default>
+        <label>Digital Booster</label>
+    </customValue>
+    <customValue>
+        <fullName>Food Digital Booster</fullName>
+        <default>false</default>
+        <label>Food Digital Booster</label>
+    </customValue>
+    <customValue>
+        <fullName>Ed Tech Digital Booster</fullName>
+        <default>false</default>
+        <label>Ed Tech Digital Booster</label>
+    </customValue>
+    <customValue>
+        <fullName>Sport Digital Booster</fullName>
+        <default>false</default>
+        <label>Sport Digital Booster</label>
+    </customValue>
+    <description>Contient les différents programmes start-up (incubateur et accélérateur)</description>
+    <masterLabel>Programme start-up</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

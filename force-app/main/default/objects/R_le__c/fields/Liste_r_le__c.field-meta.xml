@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Liste_r_le__c</fullName>
+    <externalId>false</externalId>
+    <label>Liste rôle</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Categorie_role__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1kubator Lyon</fullName>
+                <default>false</default>
+                <label>1kubator Lyon</label>
+            </value>
+            <value>
+                <fullName>50 partners</fullName>
+                <default>false</default>
+                <label>50 partners</label>
+            </value>
+            <value>
+                <fullName>AD’OCC</fullName>
+                <default>false</default>
+                <label>AD’OCC</label>
+            </value>
+            <value>
+                <fullName>Agoranov</fullName>
+                <default>false</default>
+                <label>Agoranov</label>
+            </value>
+            <value>
+                <fullName>Alter’Incub</fullName>
+                <default>false</default>
+                <label>Alter’Incub</label>
+            </value>
+            <value>
+                <fullName>Ancien BOURSIER EMLYON</fullName>
+                <default>false</default>
+                <label>Ancien BOURSIER EMLYON</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Astuce Lycéens</fullName>
+                <default>false</default>
+                <label>Ancien Membre Astuce Lycéens</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre BDA</fullName>
+                <default>false</default>
+                <label>Ancien Membre BDA</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre BDE</fullName>
+                <default>false</default>
+                <label>Ancien Membre BDE</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre BDS</fullName>
+                <default>false</default>
+                <label>Ancien Membre BDS</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Beaux Cuis&apos;</fullName>
+                <default>false</default>
+                <label>Ancien Membre Beaux Cuis&apos;</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Club Voile</fullName>
+                <default>false</default>
+                <label>Ancien Membre Club Voile</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Corpo</fullName>
+                <default>false</default>
+                <label>Ancien Membre Corpo</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Déclic</fullName>
+                <default>false</default>
+                <label>Ancien Membre Déclic</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre EM&apos;icrocrédit</fullName>
+                <default>false</default>
+                <label>Ancien Membre EM&apos;icrocrédit</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Forum</fullName>
+                <default>false</default>
+                <label>Ancien Membre Forum</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Goût&apos;R&apos;Mets</fullName>
+                <default>false</default>
+                <label>Ancien Membre Goût&apos;R&apos;Mets</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre I LINK</fullName>
+                <default>false</default>
+                <label>Ancien Membre I LINK</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre JET</fullName>
+                <default>false</default>
+                <label>Ancien Membre JET</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Junior Conseil</fullName>
+                <default>false</default>
+                <label>Ancien Membre Junior Conseil</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Ligne 2 Mire</fullName>
+                <default>false</default>
+                <label>Ancien Membre Ligne 2 Mire</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Numérik</fullName>
+                <default>false</default>
+                <label>Ancien Membre Numérik</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Opening</fullName>
+                <default>false</default>
+                <label>Ancien Membre Opening</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Petit Paumé</fullName>
+                <default>false</default>
+                <label>Ancien Membre Petit Paumé</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Planet &amp; Co</fullName>
+                <default>false</default>
+                <label>Ancien Membre Planet &amp; Co</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Radio Activ</fullName>
+                <default>false</default>
+                <label>Ancien Membre Radio Activ</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Raid Hannibal</fullName>
+                <default>false</default>
+                <label>Ancien Membre Raid Hannibal</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Ski Club</fullName>
+                <default>false</default>
+                <label>Ancien Membre Ski Club</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Solidari&apos;Terre</fullName>
+                <default>false</default>
+                <label>Ancien Membre Solidari&apos;Terre</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Sup de Côteaux</fullName>
+                <default>false</default>
+                <label>Ancien Membre Sup de Côteaux</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Transaction</fullName>
+                <default>false</default>
+                <label>Ancien Membre Transaction</label>
+            </value>
+            <value>
+                <fullName>Ancien Membre Verbat&apos;EM</fullName>
+                <default>false</default>
+                <label>Ancien Membre Verbat&apos;EM</label>
+            </value>
+            <value>
+                <fullName>Autre incubateur</fullName>
+                <default>false</default>
+                <label>Autre incubateur</label>
+            </value>
+            <value>
+                <fullName>Axeleo</fullName>
+                <default>false</default>
+                <label>Axeleo</label>
+            </value>
+            <value>
+                <fullName>Beelys</fullName>
+                <default>false</default>
+                <label>Beelys</label>
+            </value>
+            <value>
+                <fullName>BIC Montpellier</fullName>
+                <default>false</default>
+                <label>BIC Montpellier</label>
+            </value>
+            <value>
+                <fullName>Big Booster</fullName>
+                <default>false</default>
+                <label>Big Booster</label>
+            </value>
+            <value>
+                <fullName>BoostinLyon</fullName>
+                <default>false</default>
+                <label>BoostinLyon</label>
+            </value>
+            <value>
+                <fullName>Conseil de surveillance Early Makers</fullName>
+                <default>false</default>
+                <label>Conseil de surveillance Early Makers</label>
+            </value>
+            <value>
+                <fullName>Contact principal employabilité</fullName>
+                <default>false</default>
+                <label>Contact principal employabilité</label>
+            </value>
+            <value>
+                <fullName>contacts DG/DRH clients DE</fullName>
+                <default>false</default>
+                <label>contacts DG/DRH clients DE</label>
+            </value>
+            <value>
+                <fullName>CPM 1</fullName>
+                <default>false</default>
+                <label>CPM 1</label>
+            </value>
+            <value>
+                <fullName>CPM 2</fullName>
+                <default>false</default>
+                <label>CPM 2</label>
+            </value>
+            <value>
+                <fullName>CPM 3</fullName>
+                <default>false</default>
+                <label>CPM 3</label>
+            </value>
+            <value>
+                <fullName>CPM 4</fullName>
+                <default>false</default>
+                <label>CPM 4</label>
+            </value>
+            <value>
+                <fullName>CPM 5</fullName>
+                <default>false</default>
+                <label>CPM 5</label>
+            </value>
+            <value>
+                <fullName>CPM 6</fullName>
+                <default>false</default>
+                <label>CPM 6</label>
+            </value>
+            <value>
+                <fullName>CPM 7</fullName>
+                <default>false</default>
+                <label>CPM 7</label>
+            </value>
+            <value>
+                <fullName>CPM 8</fullName>
+                <default>false</default>
+                <label>CPM 8</label>
+            </value>
+            <value>
+                <fullName>Day One</fullName>
+                <default>false</default>
+                <label>Day One</label>
+            </value>
+            <value>
+                <fullName>Délégué de promo</fullName>
+                <default>false</default>
+                <label>Délégué de promo</label>
+            </value>
+            <value>
+                <fullName>Diplômé Sportif de Haut Niveau</fullName>
+                <default>false</default>
+                <label>Diplômé Sportif de Haut Niveau</label>
+            </value>
+            <value>
+                <fullName>Dirigeant du CAC 40</fullName>
+                <default>false</default>
+                <label>Dirigeant du CAC 40</label>
+            </value>
+            <value>
+                <fullName>DM 1</fullName>
+                <default>false</default>
+                <label>DM 1</label>
+            </value>
+            <value>
+                <fullName>DM 2</fullName>
+                <default>false</default>
+                <label>DM 2</label>
+            </value>
+            <value>
+                <fullName>DM 3</fullName>
+                <default>false</default>
+                <label>DM 3</label>
+            </value>
+            <value>
+                <fullName>emlyon</fullName>
+                <default>false</default>
+                <label>emlyon</label>
+            </value>
+            <value>
+                <fullName>Entrepreneurs dans la ville</fullName>
+                <default>false</default>
+                <label>Entrepreneurs dans la ville</label>
+            </value>
+            <value>
+                <fullName>Ex Administrateur ADEM</fullName>
+                <default>false</default>
+                <label>Ex Administrateur ADEM</label>
+            </value>
+            <value>
+                <fullName>ex Président ADEM</fullName>
+                <default>false</default>
+                <label>ex Président ADEM</label>
+            </value>
+            <value>
+                <fullName>Fundraising Club 100</fullName>
+                <default>false</default>
+                <label>Fundraising Club 100</label>
+            </value>
+            <value>
+                <fullName>Fundraising Club 500</fullName>
+                <default>false</default>
+                <label>Fundraising Club 500</label>
+            </value>
+            <value>
+                <fullName>Fundraising HP</fullName>
+                <default>false</default>
+                <label>Fundraising HP</label>
+            </value>
+            <value>
+                <fullName>Gestionnaire du contrat</fullName>
+                <default>false</default>
+                <label>Gestionnaire du contrat</label>
+            </value>
+            <value>
+                <fullName>Global Entrepreneurship Monitor Cibles</fullName>
+                <default>false</default>
+                <label>Global Entrepreneurship Monitor Cibles</label>
+            </value>
+            <value>
+                <fullName>H7/La French Tech</fullName>
+                <default>false</default>
+                <label>H7/La French Tech</label>
+            </value>
+            <value>
+                <fullName>INCUB’ESSCA</fullName>
+                <default>false</default>
+                <label>INCUB’ESSCA</label>
+            </value>
+            <value>
+                <fullName>Intervenant</fullName>
+                <default>false</default>
+                <label>Intervenant</label>
+            </value>
+            <value>
+                <fullName>Ionis 361</fullName>
+                <default>false</default>
+                <label>Ionis 361</label>
+            </value>
+            <value>
+                <fullName>Lauréats et Prix</fullName>
+                <default>false</default>
+                <label>Lauréats et Prix</label>
+            </value>
+            <value>
+                <fullName>Les Premières</fullName>
+                <default>false</default>
+                <label>Les Premières</label>
+            </value>
+            <value>
+                <fullName>Maître d&apos;apprentissage</fullName>
+                <default>false</default>
+                <label>Maître d&apos;apprentissage</label>
+            </value>
+            <value>
+                <fullName>Manufactory</fullName>
+                <default>false</default>
+                <label>Manufactory</label>
+            </value>
+            <value>
+                <fullName>Membre Comex Fondation</fullName>
+                <default>false</default>
+                <label>Membre Comex Fondation</label>
+            </value>
+            <value>
+                <fullName>Membre d&apos;un jury de sélection</fullName>
+                <default>false</default>
+                <label>Membre d&apos;un jury de sélection</label>
+            </value>
+            <value>
+                <fullName>Membre de l&apos;AG AESCRA</fullName>
+                <default>false</default>
+                <label>Membre de l&apos;AG AESCRA</label>
+            </value>
+            <value>
+                <fullName>Membre du CA de l&apos;AESCRA</fullName>
+                <default>false</default>
+                <label>Membre du CA de l&apos;AESCRA</label>
+            </value>
+            <value>
+                <fullName>Membre Elus CCI</fullName>
+                <default>false</default>
+                <label>Membre Elus CCI</label>
+            </value>
+            <value>
+                <fullName>Membre PRES</fullName>
+                <default>false</default>
+                <label>Membre PRES</label>
+            </value>
+            <value>
+                <fullName>Membres CA ADEM LYON</fullName>
+                <default>false</default>
+                <label>Membres CA ADEM LYON</label>
+            </value>
+            <value>
+                <fullName>Mentorat Incubateur</fullName>
+                <default>false</default>
+                <label>Mentorat Incubateur</label>
+            </value>
+            <value>
+                <fullName>Numa</fullName>
+                <default>false</default>
+                <label>Numa</label>
+            </value>
+            <value>
+                <fullName>Paris&amp;Co</fullName>
+                <default>false</default>
+                <label>Paris&amp;Co</label>
+            </value>
+            <value>
+                <fullName>Partenaire Carrières / Employabilité</fullName>
+                <default>false</default>
+                <label>Partenaire Carrières / Employabilité</label>
+            </value>
+            <value>
+                <fullName>Partenaires de l&apos;Incubateur</fullName>
+                <default>false</default>
+                <label>Partenaires de l&apos;Incubateur</label>
+            </value>
+            <value>
+                <fullName>Partenaires Fondation</fullName>
+                <default>false</default>
+                <label>Partenaires Fondation</label>
+            </value>
+            <value>
+                <fullName>Partenaires Fundraising</fullName>
+                <default>false</default>
+                <label>Partenaires Fundraising</label>
+            </value>
+            <value>
+                <fullName>Participant</fullName>
+                <default>false</default>
+                <label>Participant</label>
+            </value>
+            <value>
+                <fullName>Premice</fullName>
+                <default>false</default>
+                <label>Premice</label>
+            </value>
+            <value>
+                <fullName>Prescripteur</fullName>
+                <default>false</default>
+                <label>Prescripteur</label>
+            </value>
+            <value>
+                <fullName>Prescripteur Potentiel</fullName>
+                <default>false</default>
+                <label>Prescripteur Potentiel</label>
+            </value>
+            <value>
+                <fullName>Pulsalys</fullName>
+                <default>false</default>
+                <label>Pulsalys</label>
+            </value>
+            <value>
+                <fullName>Recrutement Etudiant</fullName>
+                <default>false</default>
+                <label>Recrutement Etudiant</label>
+            </value>
+            <value>
+                <fullName>Recrutement Etudiant 1</fullName>
+                <default>false</default>
+                <label>Recrutement Etudiant 1</label>
+            </value>
+            <value>
+                <fullName>Recrutement Etudiant 2</fullName>
+                <default>false</default>
+                <label>Recrutement Etudiant 2</label>
+            </value>
+            <value>
+                <fullName>Recrutement Etudiant 3</fullName>
+                <default>false</default>
+                <label>Recrutement Etudiant 3</label>
+            </value>
+            <value>
+                <fullName>Recrutement Etudiant 4</fullName>
+                <default>false</default>
+                <label>Recrutement Etudiant 4</label>
+            </value>
+            <value>
+                <fullName>Recrutement Etudiant 5</fullName>
+                <default>false</default>
+                <label>Recrutement Etudiant 5</label>
+            </value>
+            <value>
+                <fullName>Redstart</fullName>
+                <default>false</default>
+                <label>Redstart</label>
+            </value>
+            <value>
+                <fullName>Relais entreprises</fullName>
+                <default>false</default>
+                <label>Relais entreprises</label>
+            </value>
+            <value>
+                <fullName>Réseaux d&apos;accompagement créateurs d&apos;Eses</fullName>
+                <default>false</default>
+                <label>Réseaux d&apos;accompagement créateurs d&apos;Eses</label>
+            </value>
+            <value>
+                <fullName>Ronalpia</fullName>
+                <default>false</default>
+                <label>Ronalpia</label>
+            </value>
+            <value>
+                <fullName>Schoolab</fullName>
+                <default>false</default>
+                <label>Schoolab</label>
+            </value>
+            <value>
+                <fullName>Station F</fullName>
+                <default>false</default>
+                <label>Station F</label>
+            </value>
+            <value>
+                <fullName>Suiveur GBBA</fullName>
+                <default>false</default>
+                <label>Suiveur GBBA</label>
+            </value>
+            <value>
+                <fullName>Techstars Paris</fullName>
+                <default>false</default>
+                <label>Techstars Paris</label>
+            </value>
+            <value>
+                <fullName>TheFamily</fullName>
+                <default>false</default>
+                <label>TheFamily</label>
+            </value>
+            <value>
+                <fullName>Tuteur en entreprise</fullName>
+                <default>false</default>
+                <label>Tuteur en entreprise</label>
+            </value>
+            <value>
+                <fullName>VIP DG EMLYON</fullName>
+                <default>false</default>
+                <label>VIP DG EMLYON</label>
+            </value>
+            <value>
+                <fullName>VIP Diplomate</fullName>
+                <default>false</default>
+                <label>VIP Diplomate</label>
+            </value>
+            <value>
+                <fullName>VIP DRE</fullName>
+                <default>false</default>
+                <label>VIP DRE</label>
+            </value>
+            <value>
+                <fullName>VIP Enseignement</fullName>
+                <default>false</default>
+                <label>VIP Enseignement</label>
+            </value>
+            <value>
+                <fullName>VIP Françoise Dany</fullName>
+                <default>false</default>
+                <label>VIP Françoise Dany</label>
+            </value>
+            <value>
+                <fullName>VIP Institutionnel &amp; Politique</fullName>
+                <default>false</default>
+                <label>VIP Institutionnel &amp; Politique</label>
+            </value>
+            <value>
+                <fullName>Wilco</fullName>
+                <default>false</default>
+                <label>Wilco</label>
+            </value>
+            <value>
+                <fullName>Willa</fullName>
+                <default>false</default>
+                <label>Willa</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Direction Entreprises</controllingFieldValue>
+            <valueName>contacts DG/DRH clients DE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direction Entreprises</controllingFieldValue>
+            <valueName>VIP DRE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CCI</controllingFieldValue>
+            <valueName>Membre Elus CCI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>1kubator Lyon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>50 partners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>AD’OCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Agoranov</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Alter’Incub</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Autre incubateur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Axeleo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Beelys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>BIC Montpellier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Big Booster</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>BoostinLyon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Day One</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>emlyon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>H7/La French Tech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>INCUB’ESSCA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Ionis 361</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Les Premières</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Manufactory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Numa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Paris&amp;Co</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Premice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Pulsalys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Redstart</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Ronalpia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Schoolab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Station F</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>TheFamily</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Wilco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incubateurs</controllingFieldValue>
+            <valueName>Willa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partenariat et Fondation</controllingFieldValue>
+            <valueName>Ancien BOURSIER EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partenariat et Fondation</controllingFieldValue>
+            <valueName>Fundraising Club 100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partenariat et Fondation</controllingFieldValue>
+            <valueName>Fundraising Club 500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partenariat et Fondation</controllingFieldValue>
+            <valueName>Fundraising HP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partenariat et Fondation</controllingFieldValue>
+            <valueName>Partenaires Fondation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partenariat et Fondation</controllingFieldValue>
+            <valueName>Partenaires Fundraising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>CPM 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>CPM 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>CPM 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>CPM 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>CPM 5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>CPM 6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>CPM 7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>CPM 8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>DM 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>DM 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EEE sur mesure</controllingFieldValue>
+            <valueName>DM 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Astuce Lycéens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre BDA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre BDE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre BDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Beaux Cuis&apos;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Club Voile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Corpo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Déclic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre EM&apos;icrocrédit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Forum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Goût&apos;R&apos;Mets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre I LINK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre JET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Junior Conseil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Ligne 2 Mire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Numérik</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Opening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Petit Paumé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Planet &amp; Co</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Radio Activ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Raid Hannibal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Ski Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Solidari&apos;Terre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Sup de Côteaux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Transaction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ancien Membre Verbat&apos;EM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Délégué de promo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Diplômé Sportif de Haut Niveau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Ex Administrateur ADEM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>ex Président ADEM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Diplômés</controllingFieldValue>
+            <valueName>Lauréats et Prix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apprentissage</controllingFieldValue>
+            <valueName>Gestionnaire du contrat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Apprentissage</controllingFieldValue>
+            <valueName>Maître d&apos;apprentissage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capital raising</controllingFieldValue>
+            <valueName>Relais entreprises</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jury</controllingFieldValue>
+            <valueName>Membre d&apos;un jury de sélection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employabilité</controllingFieldValue>
+            <valueName>Contact principal employabilité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employabilité</controllingFieldValue>
+            <valueName>Partenaire Carrières / Employabilité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employabilité</controllingFieldValue>
+            <valueName>Recrutement Etudiant 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employabilité</controllingFieldValue>
+            <valueName>Recrutement Etudiant 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employabilité</controllingFieldValue>
+            <valueName>Recrutement Etudiant 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employabilité</controllingFieldValue>
+            <valueName>Recrutement Etudiant 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employabilité</controllingFieldValue>
+            <valueName>Recrutement Etudiant 5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stages</controllingFieldValue>
+            <valueName>Suiveur GBBA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stages</controllingFieldValue>
+            <valueName>Tuteur en entreprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conseils d&apos;Administration</controllingFieldValue>
+            <valueName>Conseil de surveillance Early Makers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conseils d&apos;Administration</controllingFieldValue>
+            <valueName>Membre Comex Fondation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conseils d&apos;Administration</controllingFieldValue>
+            <valueName>Membre du CA de l&apos;AESCRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conseils d&apos;Administration</controllingFieldValue>
+            <valueName>Membres CA ADEM LYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIP</controllingFieldValue>
+            <valueName>Dirigeant du CAC 40</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIP</controllingFieldValue>
+            <valueName>VIP DG EMLYON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIP</controllingFieldValue>
+            <valueName>VIP Diplomate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIP</controllingFieldValue>
+            <valueName>VIP Enseignement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIP</controllingFieldValue>
+            <valueName>VIP Françoise Dany</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIP</controllingFieldValue>
+            <valueName>VIP Institutionnel &amp; Politique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EML-EXEC</controllingFieldValue>
+            <valueName>Intervenant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EML-EXEC</controllingFieldValue>
+            <valueName>Participant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EML-EXEC</controllingFieldValue>
+            <valueName>Prescripteur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EML-EXEC</controllingFieldValue>
+            <valueName>Prescripteur Potentiel</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

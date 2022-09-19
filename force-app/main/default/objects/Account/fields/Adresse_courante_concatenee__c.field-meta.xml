@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adresse_courante_concatenee__c</fullName>
+    <description>Champ récapitulant l&apos;adresse courante, utilisée pour le mini page layout</description>
+    <externalId>false</externalId>
+    <formula>Adresse_Rue__pc &amp;&quot; &quot;&amp;  Rue_2__c &amp;&quot; &quot;&amp; Ligne_3__c &amp;&quot; &quot;&amp; Adresse_code_postal__pc &amp;&quot; &quot;&amp;  Adresse_Ville__pc &amp;&quot; &quot;&amp; R_gion__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Adresse courante concaténée</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

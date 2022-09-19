@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>SIS_Annee_du_diplome__c</name>
+    <picklistValues>
+        <masterLabel>1994 et avant</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1995 et après</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

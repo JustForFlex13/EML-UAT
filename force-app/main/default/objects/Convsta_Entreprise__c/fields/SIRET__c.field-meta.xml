@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIRET__c</fullName>
+    <description>Le numéro SIRET de l&apos;entreprise au sein de laquelle l&apos;étudiant va effectuer son expérience professionnelle</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Numéro SIRET de l&apos;entreprise signataire de la convention de stage.</inlineHelpText>
+    <label>SIRET</label>
+    <length>14</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

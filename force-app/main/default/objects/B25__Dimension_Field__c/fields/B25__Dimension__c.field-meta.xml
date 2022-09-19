@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Dimension__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Dimension record to which this Dimension Field record belongs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>L’enregistrement de la dimension auquel appartient ce champ de dimension.</inlineHelpText>
+    <label>Dimension</label>
+    <referenceTo>B25__Dimension__c</referenceTo>
+    <relationshipLabel>Dimension Fields</relationshipLabel>
+    <relationshipName>Dimension_Fields</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

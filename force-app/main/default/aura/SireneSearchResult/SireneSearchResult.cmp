@@ -1,0 +1,53 @@
+<aura:component controller="sireneSearchUL">
+    <aura:method name="search" action="{!c.doSearch}"
+                 description="Calling this to refresh the Company list">
+        <aura:attribute name="SIRET"        type="String" />
+        <aura:attribute name="companyName"  type="String" />
+        <aura:attribute name="zipOrCity"    type="String" />
+    </aura:method>
+    <aura:attribute name="noSearch"    		type="Boolean" 	default ="true"/>
+    <aura:attribute name="tooMany"      	type="Boolean" 	default ="true" />   
+    <aura:attribute name="zeroRes"      	type="Boolean" 	default ="false" />   
+    <aura:attribute name="debugString"      type="String" 	default ="noSearch" />
+    <aura:attribute name="selectedSiret"    type="String" 	 />
+    <aura:attribute name="selectedCompany"	type="Object"/>
+    <aura:attribute name="returnRes" 		type="Object"/>
+
+    <aura:registerEvent name="dataLoaded" type="c:SireneSearchOver"/>
+    <aura:if isTrue="{!v.noSearch}">
+            {!$Label.c.convsta_lancerRecherche}
+        <aura:set attribute="else">
+            <aura:if isTrue="{!v.tooMany}">
+                {!$Label.c.convsta_tropDeResultats}
+                <aura:set attribute="else">
+                    <aura:if isTrue="{!v.zeroRes}">
+                        {!$Label.c.convsta_tropDezeroResultats}
+                    <aura:set attribute="else">
+                        <ui:scrollerWrapper >
+                            <lightning:layout  horizontalAlign="spread" verticalAlign="stretch" >     
+                                <aura:iteration	items="{!v.returnRes.etablissements}" var="company">
+                                    <lightning:layoutItem padding="around-small">
+                                        <lightning:card title="{!company.uniteLegale.denominationUniteLegale }">
+                                            <aura:set attribute="footer">
+                                                <lightning:button label="Select" variant="{!company.siret==v.selectedSiret? 'brand':'neutral'}" onclick="{!c.clickCompany}" value="{!company.siret}"/>
+                                            </aura:set>
+                                            <p class="slds-p-horizontal_small">
+                                                {!company.adresseEtablissement.numeroVoieEtablissement +' '+ company.adresseEtablissement.typeVoieEtablissement +' ' + company.adresseEtablissement.libelleVoieEtablissement} <br/>
+                                                {!company.adresseEtablissement.codePostalEtablissement +' ' + company.adresseEtablissement.libelleCommuneEtablissement }<br/>
+                                                {!company.siret }
+                                            </p>
+                                        </lightning:card>
+                                    </lightning:layoutItem>
+                                </aura:iteration>
+                            </lightning:layout>
+                        </ui:scrollerWrapper>
+                    </aura:set>
+                </aura:if>
+            </aura:set>
+            </aura:if>
+        </aura:set>
+    </aura:if>
+    <!--
+    {!v.debugString}
+    -->
+</aura:component>

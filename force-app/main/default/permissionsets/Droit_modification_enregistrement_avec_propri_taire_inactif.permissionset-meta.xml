@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Ce permission set permet de modifier les enregistrements pour lesquels le propriétaire est inactif.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Droit modification enregistrement avec propriétaire inactif</label>
+</PermissionSet>

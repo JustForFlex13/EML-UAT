@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compl_ment_R_le__c</fullName>
+    <externalId>false</externalId>
+    <label>Complément Rôle</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Animateur atelier</fullName>
+                <default>false</default>
+                <label>Animateur atelier</label>
+            </value>
+            <value>
+                <fullName>Conférence</fullName>
+                <default>false</default>
+                <label>Conférence</label>
+            </value>
+            <value>
+                <fullName>Groupe</fullName>
+                <default>false</default>
+                <label>Groupe</label>
+            </value>
+            <value>
+                <fullName>Bilan d&apos;orientation</fullName>
+                <default>false</default>
+                <label>Bilan d&apos;orientation</label>
+            </value>
+            <value>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+                <label>Webinars</label>
+            </value>
+            <value>
+                <fullName>Animateur événements/inscriptions</fullName>
+                <default>false</default>
+                <label>Animateur événements/inscriptions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

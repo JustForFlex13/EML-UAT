@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque ce champ de titre comme dynamique. Cela vous permet de spécifier un nom de classe au lieu d’un nom de champ et de calculer la valeur dynamiquement en fonction du contexte du calendrier, comme les réservations dans la ressource et l’heure de début et de fin de la vue.</help>
+    <label></label>
+    <name>B25__Dynamic__c</name>
+</CustomFieldTranslation>

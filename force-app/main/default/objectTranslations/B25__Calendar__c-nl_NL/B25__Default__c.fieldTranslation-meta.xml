@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wanneer meerder Single Record kalenders beschikbaar zijn voor een enkele dimensie zal deze checkbox bepalen welke kalender wordt geladen wanneer alleen id meegegeven wordt.</help>
+    <label></label>
+    <name>B25__Default__c</name>
+</CustomFieldTranslation>

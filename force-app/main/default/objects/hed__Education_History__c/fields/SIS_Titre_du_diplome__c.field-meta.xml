@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Titre_du_diplome__c</fullName>
+    <externalId>false</externalId>
+    <label>Titre du diplôme</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SIS_Nationalite_du_diplome__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Baccalauréat français</fullName>
+                <default>false</default>
+                <label>Baccalauréat français</label>
+            </value>
+            <value>
+                <fullName>BTS</fullName>
+                <default>false</default>
+                <label>BTS</label>
+            </value>
+            <value>
+                <fullName>DUT</fullName>
+                <default>false</default>
+                <label>DUT</label>
+            </value>
+            <value>
+                <fullName>Classes préparatoires (CPGE)</fullName>
+                <default>false</default>
+                <label>Classes préparatoires (CPGE)</label>
+            </value>
+            <value>
+                <fullName>Diplôme d&apos;Ingénieur</fullName>
+                <default>false</default>
+                <label>Diplôme d&apos;Ingénieur</label>
+            </value>
+            <value>
+                <fullName>DAEU / Capacité en droit</fullName>
+                <default>false</default>
+                <label>DAEU / Capacité en droit</label>
+            </value>
+            <value>
+                <fullName>DEUG</fullName>
+                <default>false</default>
+                <label>DEUG</label>
+            </value>
+            <value>
+                <fullName>Attestation de fin de PACES / PASS</fullName>
+                <default>false</default>
+                <label>Attestation de fin de PACES / PASS</label>
+            </value>
+            <value>
+                <fullName>DCEM / DCEP</fullName>
+                <default>false</default>
+                <label>DCEM / DCEP</label>
+            </value>
+            <value>
+                <fullName>Diplôme d&apos;école de management</fullName>
+                <default>false</default>
+                <label>Diplôme d&apos;école de management</label>
+            </value>
+            <value>
+                <fullName>Diplôme paramédical et social</fullName>
+                <default>false</default>
+                <label>Diplôme paramédical et social</label>
+            </value>
+            <value>
+                <fullName>DEUST</fullName>
+                <default>false</default>
+                <label>DEUST</label>
+            </value>
+            <value>
+                <fullName>Licence</fullName>
+                <default>false</default>
+                <label>Licence</label>
+            </value>
+            <value>
+                <fullName>Maîtrise</fullName>
+                <default>false</default>
+                <label>Maîtrise</label>
+            </value>
+            <value>
+                <fullName>Autre diplôme universitaire de 2ème cycle</fullName>
+                <default>false</default>
+                <label>Autre diplôme universitaire de 2ème cycle</label>
+            </value>
+            <value>
+                <fullName>Master / DEA / DESS / Doctorat</fullName>
+                <default>false</default>
+                <label>Master / DEA / DESS / Doctorat</label>
+            </value>
+            <value>
+                <fullName>Autre diplôme supérieur</fullName>
+                <default>false</default>
+                <label>Autre diplôme supérieur</label>
+            </value>
+            <value>
+                <fullName>Diplôme d&apos;établissement secondaire obtenu à l&apos;étranger</fullName>
+                <default>false</default>
+                <label>Diplôme d&apos;établissement secondaire obtenu à l&apos;étranger</label>
+            </value>
+            <value>
+                <fullName>Diplôme d&apos;établissement supérieur obtenu à l&apos;étranger</fullName>
+                <default>false</default>
+                <label>Diplôme d&apos;établissement supérieur obtenu à l&apos;étranger</label>
+            </value>
+            <value>
+                <fullName>DFG</fullName>
+                <default>false</default>
+                <label>DFG</label>
+            </value>
+            <value>
+                <fullName>DFASM / DFASP</fullName>
+                <default>false</default>
+                <label>DFASM / DFASP</label>
+            </value>
+            <value>
+                <fullName>Bachelor</fullName>
+                <default>false</default>
+                <label>Bachelor</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Baccalauréat français</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>BTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>DUT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Classes préparatoires (CPGE)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Diplôme d&apos;Ingénieur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>DAEU / Capacité en droit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>DEUG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Attestation de fin de PACES / PASS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>DCEM / DCEP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Diplôme d&apos;école de management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Diplôme paramédical et social</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>DEUST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Licence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Maîtrise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Autre diplôme universitaire de 2ème cycle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Master / DEA / DESS / Doctorat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Autre diplôme supérieur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Diplôme d&apos;établissement secondaire obtenu à l&apos;étranger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Diplôme d&apos;établissement supérieur obtenu à l&apos;étranger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>DFG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>DFASM / DFASP</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

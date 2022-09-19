@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Motif_de_la_demande__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif de la demande</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Difficulté dans le remplissage de la demande</fullName>
+                <default>false</default>
+                <label>Difficulté dans le remplissage de la demande</label>
+            </value>
+            <value>
+                <fullName>Difficulté pendant le stage</fullName>
+                <default>false</default>
+                <label>Difficulté pendant le stage</label>
+            </value>
+            <value>
+                <fullName>Demande de changement de tuteur</fullName>
+                <default>false</default>
+                <label>Demande de changement de tuteur</label>
+            </value>
+            <value>
+                <fullName>Demande d&apos;avenant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Demande d&apos;avenant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le type de ressource dont les ressources de ce type hériteront de leur disponibilité.</help>
+    <label></label>
+    <name>B25__Availability_Defined_At__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

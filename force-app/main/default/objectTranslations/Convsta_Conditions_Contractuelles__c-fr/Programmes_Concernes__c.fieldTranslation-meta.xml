@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Programmes_Concernes__c</name>
+    <picklistValues>
+        <masterLabel>Offres Institut Paul Bocuse</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Offres université LMU</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Offres université de Lancaster</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

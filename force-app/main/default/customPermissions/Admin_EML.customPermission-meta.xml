@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Attribue le droit de modification sur les enregistrements de type Formation Initiale aux utilisateurs de profil EML.</description>
+    <isLicensed>false</isLicensed>
+    <label>Admin EML</label>
+</CustomPermission>

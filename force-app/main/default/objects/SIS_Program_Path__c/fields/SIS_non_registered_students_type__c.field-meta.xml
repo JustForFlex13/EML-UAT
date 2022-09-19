@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_non_registered_students_type__c</fullName>
+    <externalId>false</externalId>
+    <label>&apos;non-registered&apos; students type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Incoming exchange students</fullName>
+                <default>false</default>
+                <label>Etudiants en échange entrants</label>
+            </value>
+            <value>
+                <fullName>Freemovers</fullName>
+                <default>false</default>
+                <label>Libre</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+            <value>
+                <fullName>VAE</fullName>
+                <default>false</default>
+                <label>VAE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

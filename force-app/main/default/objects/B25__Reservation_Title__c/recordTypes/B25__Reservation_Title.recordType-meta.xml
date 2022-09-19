@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Reservation_Title</fullName>
+    <active>true</active>
+    <description>Specifies a field to display on a reservation in the calendar</description>
+    <label>Reservation Title</label>
+</RecordType>

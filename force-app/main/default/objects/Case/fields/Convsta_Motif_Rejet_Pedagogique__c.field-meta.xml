@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Motif_Rejet_Pedagogique__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif de Rejet Pédagogique</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Convsta_Verdict_Pedagogique__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mission non conforme</fullName>
+                <default>false</default>
+                <label>Mission non conforme</label>
+            </value>
+            <value>
+                <fullName>Dates non conformes</fullName>
+                <default>false</default>
+                <label>Dates non conformes</label>
+            </value>
+            <value>
+                <fullName>Manque d&apos;information</fullName>
+                <default>false</default>
+                <label>Manque d&apos;information</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Demande Rejetée</controllingFieldValue>
+            <valueName>Mission non conforme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demande Rejetée</controllingFieldValue>
+            <valueName>Dates non conformes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Précisions Nécessaires</controllingFieldValue>
+            <valueName>Manque d&apos;information</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Mention__c</fullName>
+    <externalId>false</externalId>
+    <label>Mention</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SIS_Titre_du_diplome__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sans mention</fullName>
+                <default>false</default>
+                <label>Sans mention</label>
+            </value>
+            <value>
+                <fullName>Assez bien</fullName>
+                <default>false</default>
+                <label>Assez bien</label>
+            </value>
+            <value>
+                <fullName>Bien</fullName>
+                <default>false</default>
+                <label>Bien</label>
+            </value>
+            <value>
+                <fullName>Très bien</fullName>
+                <default>false</default>
+                <label>Très bien</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Baccalauréat français</controllingFieldValue>
+            <valueName>Sans mention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baccalauréat français</controllingFieldValue>
+            <valueName>Assez bien</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baccalauréat français</controllingFieldValue>
+            <valueName>Bien</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baccalauréat français</controllingFieldValue>
+            <valueName>Très bien</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

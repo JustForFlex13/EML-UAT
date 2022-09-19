@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nb_jours_depuis_modification_Contact__c</fullName>
+    <description>Resitue le nombre de jours écoulés depuis la dernière modification du contact. Utilisé pour les filtres dans les rapports.</description>
+    <externalId>false</externalId>
+    <formula>NOW() - LastModifiedDate</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Resitue le nombre de jours écoulés depuis la dernière modification du contact. Utilisé pour les filtres dans les rapports.</inlineHelpText>
+    <label>Nb jours depuis modification Contact</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

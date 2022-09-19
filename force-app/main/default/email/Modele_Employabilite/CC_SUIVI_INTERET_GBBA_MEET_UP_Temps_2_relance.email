@@ -1,0 +1,36 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><font size="2"><span style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">Bonjour,</span><br style="font-family: Arial, Helvetica, sans-serif;"><br style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">Nous vous remercions pour l'intérêt que vous portez au <b>Global BBA Meet up du 10 novembre 2022</b>.</span><br style="font-family: Arial, Helvetica, sans-serif;"><br style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">Sauf erreur de notre part, nous n’avons pas encore reçu votre bulletin d’inscription.</span><br style="font-family: Arial, Helvetica, sans-serif;"><br style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">Chaque événement a un nombre de places limitées. Ainsi, je reviens vers vous afin de vous accompagner dans votre inscription.</span><br style="font-family: Arial, Helvetica, sans-serif;"><br style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">Vous trouverez en pièce jointe le bulletin d'inscription à nous retourner complété et signé afin de procéder à l’inscription.</span><br style="font-family: Arial, Helvetica, sans-serif;"><br style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">Je reste disponible pour vous apporter tout complément d’information.</span><br style="font-family: Arial, Helvetica, sans-serif;"><br style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">Une fois votre inscription finalisée, nous reprendrons contact avec vous prochainement dans le but d’organiser efficacement votre participation.</span><br style="font-family: Arial, Helvetica, sans-serif;"><br style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">Cordialement,</span></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Name}</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Title}</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Phone}</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">23, avenue Guy de Collongue</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">CS 40203 69134 Ecully Cedex France</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><a href="http://www.em-lyon.com"><span style="font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-hansi-theme-font:
+major-latin;mso-bidi-theme-font:major-latin">www.em-lyon.com</span></a></p>
+
+<!--EndFragment-->]]></td>
+</tr>
+</table>

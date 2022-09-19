@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si no se activa, el tiempo del búfer se añade fuera del intervalo de tiempo seleccionado por el usuario. Si se activa, el tiempo del búfer se incluye en el intervalo de tiempo (lo que hace más pequeña la reserva real).</help>
+    <label></label>
+    <name>B25__Selection_Includes_Buffer_Time__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Envoi aux personnes relancées par MEJT - PGM PARIS FEV 2018</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x160</letterhead>
+    <name>PGM -Ouverture candidature</name>
+    <style>promotionRight</style>
+    <subject>emlyon - Ouverture de la Candidature en ligne &gt; PGM (Paris) | {!Contact.Name}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>Motif_gratuite__c</name>
+    <picklistValues>
+        <masterLabel>Geste commercial (insatisfaction)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Module complémentaire au programme initiale</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Offre commerciale BtB</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remerciement</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

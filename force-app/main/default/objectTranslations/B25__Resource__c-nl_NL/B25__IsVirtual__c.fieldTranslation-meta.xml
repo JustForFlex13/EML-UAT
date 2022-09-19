@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Een soort wachtrij waarin niet plaatsbare reserveringen kunnen worden geplaatst om later over de daadwerkelijke resources verdeeld te worden</help>
+    <label></label>
+    <name>B25__IsVirtual__c</name>
+</CustomFieldTranslation>

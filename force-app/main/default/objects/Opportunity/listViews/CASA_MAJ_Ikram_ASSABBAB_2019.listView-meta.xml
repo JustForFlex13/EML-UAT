@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CASA_MAJ_Ikram_ASSABBAB_2019</fullName>
+    <booleanFilter>1 AND 2  AND 3</booleanFilter>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Nom_Prenom__c</columns>
+    <columns>Contact_Type_d_enregistrement__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Code_Produit__c</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>Formule_nb_oppo_cours__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>A_d_sactiv_son_int_r_t__c</columns>
+    <columns>Provenance__c</columns>
+    <columns>Sous_provenance__c</columns>
+    <columns>Statut_Canel__c</columns>
+    <columns>Statut_Dossier_CANEL__c</columns>
+    <columns>OwnerId__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+        <value>INTBBA,CA_BBA,CA_GMST,PREPA,APA1,SAI,IDEA,EMM</value>
+    </filters>
+    <filters>
+        <field>Contact_Pays_de_R_sidence__c</field>
+        <operation>equals</operation>
+        <value>MAROC</value>
+    </filters>
+    <filters>
+        <field>Exercice__c</field>
+        <operation>equals</operation>
+        <value>2019</value>
+    </filters>
+    <label>CASA MAJ Ikram ASSABBAB 2019</label>
+    <language>fr</language>
+</ListView>

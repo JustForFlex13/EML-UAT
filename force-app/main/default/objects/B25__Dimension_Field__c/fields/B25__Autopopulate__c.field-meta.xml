@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Autopopulate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When creating a new Reservation on this Dimension&apos;s Calendar, should this field be automatically populated?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lors de la création d’une nouvelle réservation sur le calendrier de cette dimension, ce champ doit-il être automatiquement rempli ?</inlineHelpText>
+    <label>Auto Populate on Calendar</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NEVER</fullName>
+                <default>false</default>
+                <label>Never</label>
+            </value>
+            <value>
+                <fullName>ON_FORM_AND_REQUIRED</fullName>
+                <default>false</default>
+                <label>Only when on form and required</label>
+            </value>
+            <value>
+                <fullName>ON_FORM</fullName>
+                <default>false</default>
+                <label>Only when on form</label>
+            </value>
+            <value>
+                <fullName>ALWAYS</fullName>
+                <default>true</default>
+                <label>Always</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_debut_old__c</fullName>
+    <description>Définit la date de début du devis</description>
+    <externalId>false</externalId>
+    <label>Date de début_old</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

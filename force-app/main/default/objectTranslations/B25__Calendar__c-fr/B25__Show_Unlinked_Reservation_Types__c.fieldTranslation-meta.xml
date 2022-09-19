@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si cette option est activée, les réservations dont le type de réservation n’est pas lié à ce calendrier seront tout de même visibles.</help>
+    <label></label>
+    <name>B25__Show_Unlinked_Reservation_Types__c</name>
+</CustomFieldTranslation>

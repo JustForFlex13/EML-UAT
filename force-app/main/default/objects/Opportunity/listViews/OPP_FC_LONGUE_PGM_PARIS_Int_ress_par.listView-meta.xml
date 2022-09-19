@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_FC_LONGUE_PGM_PARIS_Int_ress_par</fullName>
+    <columns>Nom_Prenom__c</columns>
+    <columns>Stade_d_clar_de_la_d_marche__c</columns>
+    <columns>Date_de_Cr_ation_fiche_UI__c</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>Lieu_de_formation__c</columns>
+    <columns>Sous_provenance__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Provenance__c</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>Programme Général de Management</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Intéressé par</value>
+    </filters>
+    <filters>
+        <field>Lieu_de_formation__c</field>
+        <operation>equals</operation>
+        <value>Paris</value>
+    </filters>
+    <filters>
+        <field>ExerciceNum_ro__c</field>
+        <operation>equals</operation>
+        <value>2017,2018,2019,2020</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2017 12:00 AM</value>
+    </filters>
+    <label>OPP FC LONGUE - PGM PARIS Intéressé par</label>
+</ListView>

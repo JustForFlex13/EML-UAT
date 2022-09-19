@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De relatienaam tussen het sobject (gerefereerd in het afhankelijke filter veld) and dit filterbare veld Sobject</help>
+    <label></label>
+    <name>B25__Relationship_Name__c</name>
+</CustomFieldTranslation>

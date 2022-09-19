@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Banque__c</fullName>
+    <externalId>false</externalId>
+    <label>Banque</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BRED - Banque Populaire</fullName>
+                <default>false</default>
+                <label>BRED - Banque Populaire</label>
+            </value>
+            <value>
+                <fullName>BNP PARIBAS</fullName>
+                <default>false</default>
+                <label>BNP PARIBAS</label>
+            </value>
+            <value>
+                <fullName>BANQUE POPULAIRE</fullName>
+                <default>false</default>
+                <label>BANQUE POPULAIRE</label>
+            </value>
+            <value>
+                <fullName>BTP BANQUE</fullName>
+                <default>false</default>
+                <label>BTP BANQUE</label>
+            </value>
+            <value>
+                <fullName>CREDIT AGRICOLE</fullName>
+                <default>false</default>
+                <label>CREDIT AGRICOLE</label>
+            </value>
+            <value>
+                <fullName>CREDIT COOPERATIF</fullName>
+                <default>false</default>
+                <label>CREDIT COOPERATIF</label>
+            </value>
+            <value>
+                <fullName>CAISSE D&apos;EPARGNE</fullName>
+                <default>false</default>
+                <label>CAISSE D&apos;EPARGNE</label>
+            </value>
+            <value>
+                <fullName>CIC</fullName>
+                <default>false</default>
+                <label>CIC</label>
+            </value>
+            <value>
+                <fullName>CREDIT MUTUEL</fullName>
+                <default>false</default>
+                <label>CREDIT MUTUEL</label>
+            </value>
+            <value>
+                <fullName>CREDIT DU NORD</fullName>
+                <default>false</default>
+                <label>CREDIT DU NORD</label>
+            </value>
+            <value>
+                <fullName>HERVET</fullName>
+                <default>false</default>
+                <label>HERVET</label>
+            </value>
+            <value>
+                <fullName>HSBC</fullName>
+                <default>false</default>
+                <label>HSBC</label>
+            </value>
+            <value>
+                <fullName>LCL - CREDIT LYONNAIS</fullName>
+                <default>false</default>
+                <label>LCL - CREDIT LYONNAIS</label>
+            </value>
+            <value>
+                <fullName>LYONNAISE DE BANQUE</fullName>
+                <default>false</default>
+                <label>LYONNAISE DE BANQUE</label>
+            </value>
+            <value>
+                <fullName>Banque MARTIN MAUREL</fullName>
+                <default>false</default>
+                <label>Banque MARTIN MAUREL</label>
+            </value>
+            <value>
+                <fullName>LA BANQUE POSTALE</fullName>
+                <default>false</default>
+                <label>LA BANQUE POSTALE</label>
+            </value>
+            <value>
+                <fullName>BANQUE SCALBERT DUPONT</fullName>
+                <default>false</default>
+                <label>BANQUE SCALBERT DUPONT</label>
+            </value>
+            <value>
+                <fullName>SOCIETE GENERALE</fullName>
+                <default>false</default>
+                <label>SOCIETE GENERALE</label>
+            </value>
+            <value>
+                <fullName>AUTRE</fullName>
+                <default>false</default>
+                <label>AUTRE</label>
+            </value>
+            <value>
+                <fullName>BANQUE DE LA REUNION</fullName>
+                <default>false</default>
+                <label>BANQUE DE LA REUNION</label>
+            </value>
+            <value>
+                <fullName>BANQUE TARNEAUD</fullName>
+                <default>false</default>
+                <label>BANQUE TARNEAUD</label>
+            </value>
+            <value>
+                <fullName>NEUFLIZE OBC</fullName>
+                <default>false</default>
+                <label>NEUFLIZE OBC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

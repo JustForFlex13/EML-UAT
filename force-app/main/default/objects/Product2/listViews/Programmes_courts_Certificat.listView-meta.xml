@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programmes_courts_Certificat</fullName>
+    <columns>PRODUCT2.RECORD_TYPE</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Pack_la_carte__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>Famille__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Nombre_d_heures__c</columns>
+    <columns>Nombre_de_jours__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Suiveur__c</columns>
+    <columns>ID_suiveur__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.FAMILY</field>
+        <operation>equals</operation>
+        <value>OFFRES EXEC DEV Programmes Certifiants,OFFRES EXEC DEV Programmes courts</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.DESCRIPTION</field>
+        <operation>notContain</operation>
+        <value>Dynamics</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Programme</value>
+    </filters>
+    <label>Programmes courts - Certificat (progr)</label>
+    <language>fr</language>
+</ListView>

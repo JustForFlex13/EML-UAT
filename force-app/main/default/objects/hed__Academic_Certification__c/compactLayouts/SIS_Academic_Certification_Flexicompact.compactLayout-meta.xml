@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Academic_Certification_Flexicompact</fullName>
+    <fields>Name</fields>
+    <fields>SIS_Program_name__c</fields>
+    <fields>hed__Issuer__c</fields>
+    <fields>LastModifiedById</fields>
+    <fields>CreatedById</fields>
+    <label>SIS Academic Certification Flexicompact</label>
+</CompactLayout>

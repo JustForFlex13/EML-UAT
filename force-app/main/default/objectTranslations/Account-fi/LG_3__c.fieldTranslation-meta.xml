@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>LG_3__c</name>
+    <picklistValues>
+        <masterLabel>LO5 : Graduates are able to use the critical, creative and flexible thinking methods to analyse and solve complex problems in a changing and uncertain environment</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LO6 : Graduates are able to act/react and establish design process and innovating developments</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

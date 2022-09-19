@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El nombre de la fase de la operación por la que se produjo el error.</help>
+    <label></label>
+    <name>B25__Stage__c</name>
+</CustomFieldTranslation>

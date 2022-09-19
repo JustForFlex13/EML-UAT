@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Con esto no se cargan las disponibilidades de esta vista. Si la organización tiene una gran cantidad de recursos, cargar las disponibilidades puede tardar en las vistas mayores. Las horas de apertura seguirán marcadas al guardar, pero no se verán en la vista de calendario.</help>
+    <label></label>
+    <name>B25__Hide_Availabilities__c</name>
+</CustomFieldTranslation>

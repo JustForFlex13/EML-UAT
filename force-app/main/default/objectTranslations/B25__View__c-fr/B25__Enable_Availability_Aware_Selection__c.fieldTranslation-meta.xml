@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Pour tenir compte des disponibilités lors de la sélection d’un créneau horaire sur le calendrier. Lorsque l’utilisateur sélectionne une cellule, seule la partie disponible de la cellule sera sélectionnée.</help>
+    <label></label>
+    <name>B25__Enable_Availability_Aware_Selection__c</name>
+</CustomFieldTranslation>

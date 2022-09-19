@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Column_Hiding_Behavior__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Controls which time ranges to hide on the calendar.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contrôle les plages horaires à masquer sur le calendrier.</inlineHelpText>
+    <label>Column Hiding Behavior</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DONT_HIDE_ANYTHING</fullName>
+                <default>false</default>
+                <label>Don’t hide anything</label>
+            </value>
+            <value>
+                <fullName>HIDE_CLOSED_TIMES</fullName>
+                <default>false</default>
+                <label>Hide closed times</label>
+            </value>
+            <value>
+                <fullName>HIDE_CLOSED_TIMES_WITHOUT_RESERVATIONS</fullName>
+                <default>true</default>
+                <label>Hide closed times without reservations</label>
+            </value>
+            <value>
+                <fullName>HIDE_TIMES_OUTSIDE_OF_START_END</fullName>
+                <default>false</default>
+                <label>Hide times outside of start/end</label>
+            </value>
+            <value>
+                <fullName>HIDE_TIMES_OUTSIDE_OF_START_END_WITHOUT_RESERVATIONS</fullName>
+                <default>false</default>
+                <label>Hide times outside of start/end, without reservations</label>
+            </value>
+            <value>
+                <fullName>HIDE_ALL_TIMES_WITHOUT_RESERVATIONS</fullName>
+                <default>false</default>
+                <label>Hide all times without reservations</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

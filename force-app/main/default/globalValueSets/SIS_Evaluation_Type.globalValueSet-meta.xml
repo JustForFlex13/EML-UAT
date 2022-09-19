@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Quizz</fullName>
+        <default>false</default>
+        <label>Quizz</label>
+    </customValue>
+    <customValue>
+        <fullName>Actions</fullName>
+        <default>false</default>
+        <label>Actions</label>
+    </customValue>
+    <customValue>
+        <fullName>Reflective Analysis</fullName>
+        <default>false</default>
+        <label>Reflective Analysis</label>
+    </customValue>
+    <customValue>
+        <fullName>Certification</fullName>
+        <default>false</default>
+        <label>Certification</label>
+    </customValue>
+    <customValue>
+        <fullName>Case Study</fullName>
+        <default>false</default>
+        <label>Case Study</label>
+    </customValue>
+    <customValue>
+        <fullName>Final presentation</fullName>
+        <default>false</default>
+        <label>Final presentation</label>
+    </customValue>
+    <masterLabel>Evaluation Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

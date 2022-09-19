@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Es posible que no contenga caracteres especiales y que no empiece por un número. Se utiliza para identificar de forma exclusiva esta vista, incluso aunque tenga la misma etiqueta que otra vista.</help>
+    <label></label>
+    <name>B25__Unique_Identifier__c</name>
+</CustomFieldTranslation>

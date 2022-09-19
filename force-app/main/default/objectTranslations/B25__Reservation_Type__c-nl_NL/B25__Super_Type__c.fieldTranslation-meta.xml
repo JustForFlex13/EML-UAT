@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De supertype van de reserveringstype. Bepaald hoe de reserveringstype worden gegroepeerd</help>
+    <label></label>
+    <name>B25__Super_Type__c</name>
+    <picklistValues>
+        <masterLabel>Default</masterLabel>
+        <translation>Standaard</translation>
+    </picklistValues>
+</CustomFieldTranslation>

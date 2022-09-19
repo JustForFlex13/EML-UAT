@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Dynamic__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Marks this Title field as dynamic. This allows you to specify a class name instead of a field name and calculate the value dynamically based on Calendar context like Reservations in Resource and start and end time of the View. For more information visit (link to docs)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Marque ce champ de titre comme dynamique. Cela vous permet de spécifier un nom de classe au lieu d’un nom de champ et de calculer la valeur dynamiquement en fonction du contexte du calendrier, comme les réservations dans la ressource et l’heure de début et de fin de la vue.</inlineHelpText>
+    <label>Dynamic</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

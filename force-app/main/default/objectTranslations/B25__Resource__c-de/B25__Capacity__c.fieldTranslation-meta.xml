@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Kapazität dieser Quelle, d. h. die Höchstanzahl an Teilnehmenden in einem Sitzungsraum.</help>
+    <label></label>
+    <name>B25__Capacity__c</name>
+</CustomFieldTranslation>

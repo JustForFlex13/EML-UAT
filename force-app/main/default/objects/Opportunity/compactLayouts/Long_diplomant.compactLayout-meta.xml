@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Long_diplomant</fullName>
+    <fields>Name</fields>
+    <fields>OwnerId</fields>
+    <fields>AccountId</fields>
+    <fields>Contact_central__c</fields>
+    <fields>Localisation__c</fields>
+    <fields>CA_Projet__c</fields>
+    <label>Long diplomant</label>
+</CompactLayout>

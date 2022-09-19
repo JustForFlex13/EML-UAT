@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programmes_acad_miques</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>SIS_Program_Family__c</columns>
+    <columns>SIS_Eligibility__c</columns>
+    <columns>SIS_Official_name__c</columns>
+    <columns>SIS_Responsable_de_gamme__c</columns>
+    <columns>SIS_Program_responsible__c</columns>
+    <columns>SIS_HigherEducationInstitution__c</columns>
+    <columns>SIS_Location__c</columns>
+    <columns>SIS_Year_of_the_creation_1st_intake__c</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Academic_Program</value>
+    </filters>
+    <label>Programmes académiques</label>
+</ListView>

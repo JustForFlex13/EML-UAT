@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Attestation employeur</masterLabel>
+        <translation>Proof of employment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Autre</masterLabel>
+        <translation>Other</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Convention / Contrat</masterLabel>
+        <translation>Agreement / Contract</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

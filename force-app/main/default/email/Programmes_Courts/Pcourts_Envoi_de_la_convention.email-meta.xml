@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mail envoi de la convention</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x160</letterhead>
+    <name>Pcourts - Envoi de la convention</name>
+    <style>promotionRight</style>
+    <subject>emlyon - Convention professionnelle :{!Opportunity.Name} | {!Opportunity.Contact_central__c}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

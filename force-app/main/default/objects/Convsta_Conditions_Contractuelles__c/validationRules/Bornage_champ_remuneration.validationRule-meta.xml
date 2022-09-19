@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bornage_champ_remuneration</fullName>
+    <active>true</active>
+    <description>Empêche l&apos;étudiant de saisir plus de 5 chiffres avant la virgule dans le champ rémunération.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+Remuneration_Mensuelle__c &gt;=100000</errorConditionFormula>
+    <errorDisplayField>Remuneration_Mensuelle__c</errorDisplayField>
+    <errorMessage>Rémunération: la valeur ne doit pas être supérieure à 5 chiffres avant la virgule.</errorMessage>
+</ValidationRule>

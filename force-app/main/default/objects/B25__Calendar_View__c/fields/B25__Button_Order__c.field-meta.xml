@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Button_Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Defines where the button for this View is displayed on the Calendar. Lower = to the left; Higher = to the right.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Définit l’endroit où le bouton de cette vue est affiché sur le calendrier. Plus bas = à gauche ; Plus haut = à droite.</inlineHelpText>
+    <label>Button Order</label>
+    <precision>3</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

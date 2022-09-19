@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Number of paid leaves and extra time off days for which the student is eligible in his work exeprience</help>
+    <label>Paid leaves and extra time off</label>
+    <name>Conges_RTT__c</name>
+</CustomFieldTranslation>

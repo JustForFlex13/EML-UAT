@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>D_tail_Ev_nements_Relations_Employeurs__c</name>
+    <picklistValues>
+        <masterLabel>Careers Forum - journée audit &amp; conseil - 16/01/19</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Careers Forum -14/01/19</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Careers Forum -15/01/19</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Digital Night - 7/03/19 - Lyon</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Digital Night - novembre 2018 - Paris</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vocation days - Banque de détail - Date à confirmer - St Etienne</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vocation days - Business development - 17/10/18 - Lyon</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vocation days - Conseil - 16/10/18 - Lyon</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vocation days - Finance en entreprise - 15/10/18 - Lyon</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vocation days - Marketing &amp; Business Development - 9/10/18 - Paris</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vocation days - Marketing &amp; Business Development - Date à confirmer - St Etienne</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vocation days - Marketing - 18/10/18 - Lyon</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

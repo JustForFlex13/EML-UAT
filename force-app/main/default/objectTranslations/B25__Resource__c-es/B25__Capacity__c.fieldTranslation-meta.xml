@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La capacidad de este recurso; es decir, el número máximo de ocupantes de una sala de reuniones.</help>
+    <label></label>
+    <name>B25__Capacity__c</name>
+</CustomFieldTranslation>

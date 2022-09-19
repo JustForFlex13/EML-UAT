@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilizado para identificar séries de Reservas criadas por uma Automated Booking Rule.</help>
+    <label></label>
+    <name>B25__ABRSerialNr__c</name>
+</CustomFieldTranslation>

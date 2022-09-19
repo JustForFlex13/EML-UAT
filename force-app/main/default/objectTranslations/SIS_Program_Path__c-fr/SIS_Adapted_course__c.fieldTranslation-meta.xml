@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Parcours aménagé</label>
+    <name>SIS_Adapted_course__c</name>
+    <picklistValues>
+        <masterLabel>Co-operative course</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SHN</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Talent</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

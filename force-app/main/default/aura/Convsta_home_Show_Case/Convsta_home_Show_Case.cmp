@@ -1,0 +1,64 @@
+<aura:component 
+    implements="forceCommunity:availableForAllPageTypes"
+    controller="LCctrl01_Convsta_demandeController" >
+    <aura:attribute name="openCase" type="Case" />
+    <aura:attribute name="noCase" type="Boolean" default="true" />
+    <aura:attribute name="ecole" type="Boolean" default="true" />
+    <aura:attribute name="initOk" type="Boolean" default="false" />
+    
+
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:if isTrue="{!v.initOk}">
+        <lightning:card title="{!$Label.c.convsta_accueil_component_header}">
+            <aura:if isTrue="{!v.noCase}">
+                <p class="slds-p-horizontal_small">
+                    {!$Label.c.convsta_accueil_pas_de_demande}
+                </p>
+                <p>
+
+                    <c:convsta_newValidationExperience></c:convsta_newValidationExperience>
+
+                </p>
+                <aura:set attribute="else">
+                    <!--{!v.openCase.Convsta_Status_Front_Office__c} - {!v.openCase.convstatech_Avancement_validation_exp__c}-->
+                    <lightning:progressIndicator currentStep="{!v.openCase.convstatech_Avancement_validation_exp__c}" type="path" hasError="false" variant="base">
+                        <lightning:progressStep 
+                            label="{!$Label.c.Convsta_StatusFront_Demande_En_Cours_De_Saisie}" 
+                            value="1"/>
+                        <lightning:progressStep 
+                            label="{!$Label.c.Convsta_StatusFront_Demande_En_Attente_De_Vos_Corrections}" 
+                            value="9"/>
+                        <lightning:progressStep 
+                            label="{!$Label.c.Convsta_StatusFront_Demande_Soumise}" 
+                            value="3"/>
+                        <lightning:progressStep 
+                            label="{!$Label.c.Convsta_StatusFront_Demande_En_Cours_De_Validation}" 
+                            value="4"/>
+                        <aura:if isTrue="{!v.ecole}">
+                            <lightning:progressStep 
+                            label="{!$Label.c.Convsta_StatusFront_Convention_Emise_Et_Envoyee_Pour_Signature}" 
+                            value="6"/>
+                            <aura:set attribute="else">
+                                <lightning:progressStep 
+                                    label="{!$Label.c.Convsta_StatusFront_Demande_Validee_En_Attente_De_Contrat_A_Uploader}" 
+                                    value="5"/>
+                            </aura:set>
+                        </aura:if>  
+                        <lightning:progressStep 
+                            label="{!$Label.c.Convsta_StatusFront_Convention_Signee}" 
+                            value="7"/>
+                    </lightning:progressIndicator>
+                    <aura:if isTrue="{!v.openCase.convstatech_Avancement_validation_exp__c == '6'}">
+                        <lightning:layout horizontalAlign="center" class="slds-m-top_large">
+                                <ui:outputTextArea aura:id="oTextarea" value="{!v.openCase.Convsta_Detail_statut_signataire__c}"/>
+                        </lightning:layout>
+                    </aura:if> 
+                    <lightning:layout horizontalAlign="center" class="slds-m-top_large">
+                        <lightning:button variant="brand" label="{!$Label.c.convsta_ouvrir_demande}" onclick="{!c.navigateToCase}" ></lightning:button>
+                    </lightning:layout>
+                </aura:set>    
+            </aura:if>
+        </lightning:card>
+    </aura:if>
+</aura:component>

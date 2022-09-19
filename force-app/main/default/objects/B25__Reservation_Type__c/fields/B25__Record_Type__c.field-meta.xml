@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Record_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the API name of a Reservation record type. This will link the Reservation Type with the record type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Saisissez le nom API d’un type d’enregistrement de réservation. Cela liera le type de réservation au type d’enregistrement.</inlineHelpText>
+    <label>Record Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

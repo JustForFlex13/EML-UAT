@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Steuert die im Kalender auszublendenden Zeitspannen.</help>
+    <label></label>
+    <name>B25__Column_Hiding_Behavior__c</name>
+    <picklistValues>
+        <masterLabel>Don’t hide anything</masterLabel>
+        <translation>Nichts verbergen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide all times without reservations</masterLabel>
+        <translation>Alle Zeiten ohne Reservierungen verbergen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide closed times</masterLabel>
+        <translation>Geschlossene Zeiten verbergen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide closed times without reservations</masterLabel>
+        <translation>Alle geschlossenen Zeiten ohne Reservierungen verbergen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide times outside of start/end</masterLabel>
+        <translation>Zeiten außerhalb Start/Ende ausblenden</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide times outside of start/end, without reservations</masterLabel>
+        <translation>Zeiten außerhalb Start/Ende ausblenden, außer Reservierungen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

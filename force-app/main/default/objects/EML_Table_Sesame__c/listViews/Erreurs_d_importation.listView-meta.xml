@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Erreurs_d_importation</fullName>
+    <columns>NAME</columns>
+    <columns>EML_Nom__c</columns>
+    <columns>EML_Prenom__c</columns>
+    <columns>Error_during_import__c</columns>
+    <columns>SIS_Error_description__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Error_during_import__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Erreurs d&apos;importation</label>
+</ListView>

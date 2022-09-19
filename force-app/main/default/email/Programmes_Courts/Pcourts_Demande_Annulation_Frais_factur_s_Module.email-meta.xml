@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mail indiquant les frais dûs suite à anulation par l&apos;entreprise bénéficaire J-15</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x160</letterhead>
+    <name>Pcourts - Demande Annulation =&gt; Frais facturés [Module]</name>
+    <style>promotionRight</style>
+    <subject>emlyon - Annulation d&apos;une action de formation : ME10 - Les fondamentaux du marketing | {!Opportunity.Contact_central__c}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

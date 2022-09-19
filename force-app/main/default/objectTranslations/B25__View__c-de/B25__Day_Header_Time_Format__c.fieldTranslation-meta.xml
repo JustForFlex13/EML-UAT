@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Das vom Einzeldatensatz-Kalender für die Kopfzeilen verwendete Zeitformat, das über den Tagesspalten steht.</help>
+    <label></label>
+    <name>B25__Day_Header_Time_Format__c</name>
+</CustomFieldTranslation>

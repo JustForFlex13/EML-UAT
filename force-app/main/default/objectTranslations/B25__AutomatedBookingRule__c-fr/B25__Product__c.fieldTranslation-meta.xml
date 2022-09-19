@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsque ce champ est vide, il se déclenche une fois pour l’opportunité. Lorsqu’il est rempli, il se déclenche pour chaque produit d’opportunité du produit choisi.</help>
+    <label></label>
+    <name>B25__Product__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

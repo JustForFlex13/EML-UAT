@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsqu’elle est spécifiée, la couleur d’arrière-plan des cellules des samedis et dimanches est fixée à cette couleur.</help>
+    <label></label>
+    <name>B25__Weekend_Highlight_Color__c</name>
+</CustomFieldTranslation>

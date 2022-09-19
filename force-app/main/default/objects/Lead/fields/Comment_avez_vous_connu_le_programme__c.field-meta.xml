@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comment_avez_vous_connu_le_programme__c</fullName>
+    <externalId>false</externalId>
+    <label>Comment avez-vous connu le programme ?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Presse</fullName>
+                <default>false</default>
+                <label>Presse</label>
+            </value>
+            <value>
+                <fullName>Recherche internet</fullName>
+                <default>false</default>
+                <label>Recherche internet</label>
+            </value>
+            <value>
+                <fullName>Bouche à oreille</fullName>
+                <default>false</default>
+                <label>Bouche à oreille</label>
+            </value>
+            <value>
+                <fullName>Réseaux sociaux</fullName>
+                <default>false</default>
+                <label>Réseaux sociaux</label>
+            </value>
+            <value>
+                <fullName>Les echos</fullName>
+                <default>false</default>
+                <label>Les echos</label>
+            </value>
+            <value>
+                <fullName>Frenchtech</fullName>
+                <default>false</default>
+                <label>Frenchtech</label>
+            </value>
+            <value>
+                <fullName>Alumni</fullName>
+                <default>false</default>
+                <label>Alumni</label>
+            </value>
+            <value>
+                <fullName>Emlyon</fullName>
+                <default>false</default>
+                <label>Emlyon</label>
+            </value>
+            <value>
+                <fullName>Salons / evenements</fullName>
+                <default>false</default>
+                <label>Salons / evenements</label>
+            </value>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

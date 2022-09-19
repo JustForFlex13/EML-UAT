@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Travail_le_dimanche_la_nuit__c</fullName>
+    <description>Merci de préciser la clause juste si vous travaillez de nuit ou le weekend</description>
+    <externalId>false</externalId>
+    <label>Travail le dimanche, la nuit</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

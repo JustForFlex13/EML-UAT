@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Het type waaronder deze resource hoort in de hiërarchie.</help>
+    <label></label>
+    <name>B25__Parent__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

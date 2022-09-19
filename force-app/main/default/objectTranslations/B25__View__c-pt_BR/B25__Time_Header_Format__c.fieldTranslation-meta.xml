@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O formato da hora da barra lateral contendo a hora do dia no Calendário de Registo Único. Valores válidos: Relógio12Horas, Relógio24Horas, Auto. Auto utilizará o formato de hora preferido pelos utilizadores definido na Salesforce.</help>
+    <label></label>
+    <name>B25__Time_Header_Format__c</name>
+</CustomFieldTranslation>

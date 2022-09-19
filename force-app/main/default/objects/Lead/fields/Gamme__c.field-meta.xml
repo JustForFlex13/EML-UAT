@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gamme__c</fullName>
+    <externalId>false</externalId>
+    <label>Gamme</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ACCOMP. CARRIERE ou CARRIERE RESEAUX</fullName>
+                <default>false</default>
+                <label>ACCOMP. CARRIERE ou CARRIERE RESEAUX</label>
+            </value>
+            <value>
+                <fullName>AUTRES OFFRES ?</fullName>
+                <default>false</default>
+                <label>AUTRES OFFRES ?</label>
+            </value>
+            <value>
+                <fullName>AUTRES PROGRAMMES</fullName>
+                <default>false</default>
+                <label>AUTRES PROGRAMMES</label>
+            </value>
+            <value>
+                <fullName>AUTRES SERVICES</fullName>
+                <default>false</default>
+                <label>AUTRES SERVICES</label>
+            </value>
+            <value>
+                <fullName>EVENEMENTS DE RECRUTEMENT</fullName>
+                <default>false</default>
+                <label>EVENEMENTS DE RECRUTEMENT</label>
+            </value>
+            <value>
+                <fullName>EVENEMENTS EXPERTS</fullName>
+                <default>false</default>
+                <label>EVENEMENTS EXPERTS</label>
+            </value>
+            <value>
+                <fullName>EVENEMENTS IMAGE / RESEAU</fullName>
+                <default>false</default>
+                <label>EVENEMENTS IMAGE / RESEAU</label>
+            </value>
+            <value>
+                <fullName>EVENEMENTS PROMOTIONNELS</fullName>
+                <default>false</default>
+                <label>EVENEMENTS PROMOTIONNELS</label>
+            </value>
+            <value>
+                <fullName>INFORMER (par différents canaux)</fullName>
+                <default>false</default>
+                <label>INFORMER (par différents canaux)</label>
+            </value>
+            <value>
+                <fullName>INTRA</fullName>
+                <default>false</default>
+                <label>INTRA</label>
+            </value>
+            <value>
+                <fullName>MECENAT (CENTRALE LYON - EMLYON)</fullName>
+                <default>false</default>
+                <label>MECENAT (CENTRALE LYON - EMLYON)</label>
+            </value>
+            <value>
+                <fullName>MECENAT EMLYON</fullName>
+                <default>false</default>
+                <label>MECENAT EMLYON</label>
+            </value>
+            <value>
+                <fullName>MECENAT FONDATION EMLYON</fullName>
+                <default>false</default>
+                <label>MECENAT FONDATION EMLYON</label>
+            </value>
+            <value>
+                <fullName>MESURER LA QUALITE ET LA PERFORMANCE</fullName>
+                <default>false</default>
+                <label>MESURER LA QUALITE ET LA PERFORMANCE</label>
+            </value>
+            <value>
+                <fullName>OFFRES EXECUTIVE DEVELOPMENT hors MBA</fullName>
+                <default>false</default>
+                <label>OFFRES EXECUTIVE DEVELOPMENT hors MBA</label>
+            </value>
+            <value>
+                <fullName>Programme certifiant</fullName>
+                <default>false</default>
+                <label>Programme certifiant</label>
+            </value>
+            <value>
+                <fullName>Programme court</fullName>
+                <default>false</default>
+                <label>Programme court</label>
+            </value>
+            <value>
+                <fullName>PROGRAMMES ENTREPRENEURS</fullName>
+                <default>false</default>
+                <label>PROGRAMMES ENTREPRENEURS</label>
+            </value>
+            <value>
+                <fullName>PROGRAMMES MASTER</fullName>
+                <default>false</default>
+                <label>PROGRAMMES MASTER</label>
+            </value>
+            <value>
+                <fullName>PROGRAMMES MASTERES</fullName>
+                <default>false</default>
+                <label>PROGRAMMES MASTERES</label>
+            </value>
+            <value>
+                <fullName>PROGRAMMES MBA</fullName>
+                <default>false</default>
+                <label>PROGRAMMES MBA</label>
+            </value>
+            <value>
+                <fullName>SPONSORING</fullName>
+                <default>false</default>
+                <label>SPONSORING</label>
+            </value>
+            <value>
+                <fullName>TAXE D&apos;APPRENTISSAGE</fullName>
+                <default>false</default>
+                <label>TAXE D&apos;APPRENTISSAGE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

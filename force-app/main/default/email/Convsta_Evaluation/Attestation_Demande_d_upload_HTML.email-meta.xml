@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Demande d&apos;upload de l&apos;attestation employeur</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Attestation Demande d&apos;upload HTML</name>
+    <style>none</style>
+    <subject>Demande d&apos;attestion employeur / Employer’s certificate of attendance</subject>
+    <textOnly>Bonjour {!Case.Contact},
+
+Afin de valider votre expérience professionnelle dans votre parcours académique, nous avons besoin d’une attestation émise par votre employeur afin de valider votre expérience professionnelle et certifier de votre présence actuelle en entreprise. Elle devra contenir les informations suivantes :
+- Le nom et prénom
+- La fonction occupée
+- L’entreprise
+- La date de début
+- La signature et/ou le tampon du manager ou RH
+
+Pour nous envoyer cette attestation, accédez à votre espace « jobs and internships » sur Makersboard. Dans la demande {!Case.CaseNumber}, téléchargez le document dans la zone de dépôt de fichier.
+
+Nous restons à votre disposition,
+
+emlyon career center
+internship@em-lyon.com
+
+English version bellow Dear {!Case.Contact},
+
+In order to validate your professional experience in your academic path, we need a certificate issued by your employer to validate your professional experience and certify your current attendance in the company. It must contain the following information :
+
+- Last name and name
+- The function occupied
+- The company
+- The start date
+- The signature and/or the stamp of the manager or HR
+
+To send us this certificate, go to your « jobs and internships » section on Makersboard. In the request {!Case.CaseNumber}, download the document in the file dropbox.
+
+We remain at your disposal,
+
+emlyon Career Center
+internship@em-lyon.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Type_d_etablissement__c</fullName>
+    <externalId>false</externalId>
+    <label>Type d&apos;établissement</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SIS_Nationalite_du_diplome__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enseignement Secondaire</fullName>
+                <default>false</default>
+                <label>Enseignement Secondaire</label>
+            </value>
+            <value>
+                <fullName>BTS</fullName>
+                <default>false</default>
+                <label>BTS</label>
+            </value>
+            <value>
+                <fullName>IUT / licence professionnelle</fullName>
+                <default>false</default>
+                <label>IUT / licence professionnelle</label>
+            </value>
+            <value>
+                <fullName>CPGE ou ATS</fullName>
+                <default>false</default>
+                <label>CPGE ou ATS</label>
+            </value>
+            <value>
+                <fullName>Ecole et formation d&apos;INGENIEURS</fullName>
+                <default>false</default>
+                <label>Ecole et formation d&apos;INGENIEURS</label>
+            </value>
+            <value>
+                <fullName>Enseignement supérieur par CORRESPONDANCE</fullName>
+                <default>false</default>
+                <label>Enseignement supérieur par CORRESPONDANCE</label>
+            </value>
+            <value>
+                <fullName>UNIVERSITE et Paris Dauphine</fullName>
+                <default>false</default>
+                <label>UNIVERSITE et Paris Dauphine</label>
+            </value>
+            <value>
+                <fullName>ECOLE ARTISTIQUE, CULTURELLE, D’ARCHITECTURE</fullName>
+                <default>false</default>
+                <label>ECOLE ARTISTIQUE, CULTURELLE, D’ARCHITECTURE</label>
+            </value>
+            <value>
+                <fullName>Ecole de MANAGEMENT (école de commerce, gestion)</fullName>
+                <default>false</default>
+                <label>Ecole de MANAGEMENT (école de commerce, gestion)</label>
+            </value>
+            <value>
+                <fullName>AUTRE ETABLISSEMENT SISE (liste ci-dessous)</fullName>
+                <default>false</default>
+                <label>AUTRE ETABLISSEMENT SISE (liste ci-dessous)</label>
+            </value>
+            <value>
+                <fullName>Ecoles normales supérieures (ENS Cachan, Lyon, Paris)</fullName>
+                <default>false</default>
+                <label>Ecoles normales supérieures (ENS Cachan, Lyon, Paris)</label>
+            </value>
+            <value>
+                <fullName>Instituts catholiques (Lille, Lyon, Nantes (univ catholique de l’ouest), Paris et Toulouse)</fullName>
+                <default>false</default>
+                <label>Instituts catholiques (Lille, Lyon, Nantes (univ catholique de l’ouest), Paris et Toulouse)</label>
+            </value>
+            <value>
+                <fullName>Museum national d’histoire naturelle (MNHN)</fullName>
+                <default>false</default>
+                <label>Museum national d’histoire naturelle (MNHN)</label>
+            </value>
+            <value>
+                <fullName>Ecole des hautes études en sciences sociales (EHESS)</fullName>
+                <default>false</default>
+                <label>Ecole des hautes études en sciences sociales (EHESS)</label>
+            </value>
+            <value>
+                <fullName>Ecole pratique des hautes études (EPHE)</fullName>
+                <default>false</default>
+                <label>Ecole pratique des hautes études (EPHE)</label>
+            </value>
+            <value>
+                <fullName>Ecole nationale des Chartes (ENC)</fullName>
+                <default>false</default>
+                <label>Ecole nationale des Chartes (ENC)</label>
+            </value>
+            <value>
+                <fullName>Ecole nationale supérieure des sciences de l’information et des bibliothèques (ENSSIB)</fullName>
+                <default>false</default>
+                <label>Ecole nationale supérieure des sciences de l’information et des bibliothèques (ENSSIB)</label>
+            </value>
+            <value>
+                <fullName>Ecole nationale de la statistique et de l’administration économique (ENSAE Malakoff)</fullName>
+                <default>false</default>
+                <label>Ecole nationale de la statistique et de l’administration économique (ENSAE Malakoff)</label>
+            </value>
+            <value>
+                <fullName>Institut catholique d’études supérieures (ICES La Roche/Yon)</fullName>
+                <default>false</default>
+                <label>Institut catholique d’études supérieures (ICES La Roche/Yon)</label>
+            </value>
+            <value>
+                <fullName>Institut national des langues et civilisations orientales (INALCO), Institut de physique du globe de Paris, institut d’études politiques de Paris, Observatoire de Paris</fullName>
+                <default>false</default>
+                <label>Institut national des langues et civilisations orientales (INALCO), Institut de physique du globe de Paris, institut d’études politiques de Paris, Observatoire de Paris</label>
+            </value>
+            <value>
+                <fullName>Ecoles nationales vétérinaires (Lyon (VETAGRO SUP), Maisons Alfort, Nantes (ONIRIS), Toulouse)</fullName>
+                <default>false</default>
+                <label>Ecoles nationales vétérinaires (Lyon (VETAGRO SUP), Maisons Alfort, Nantes (ONIRIS), Toulouse)</label>
+            </value>
+            <value>
+                <fullName>Ecole nationale supérieure du paysage de Versailles</fullName>
+                <default>false</default>
+                <label>Ecole nationale supérieure du paysage de Versailles</label>
+            </value>
+            <value>
+                <fullName>ESPE : Ecoles Supérieures du Professorat et de l’Education</fullName>
+                <default>false</default>
+                <label>ESPE : Ecoles Supérieures du Professorat et de l’Education</label>
+            </value>
+            <value>
+                <fullName>MISE A NIVEAU, PREPARATION AUX ETUDES SUPERIEURES</fullName>
+                <default>false</default>
+                <label>MISE A NIVEAU, PREPARATION AUX ETUDES SUPERIEURES</label>
+            </value>
+            <value>
+                <fullName>AUTRE ETABLISSEMENT ou cursus (en France)</fullName>
+                <default>false</default>
+                <label>AUTRE ETABLISSEMENT ou cursus (en France)</label>
+            </value>
+            <value>
+                <fullName>NON SCOLARISE l’année précédente ET JAMAIS ENTRE dans l’enseignement supérieur</fullName>
+                <default>false</default>
+                <label>NON SCOLARISE l’année précédente ET JAMAIS ENTRE dans l’enseignement supérieur</label>
+            </value>
+            <value>
+                <fullName>NON SCOLARISE l’année précédente MAIS PRECEDEMMENT ENTRE dans l’enseignement supérieur, universitaire ou non (reprise d’études) en France</fullName>
+                <default>false</default>
+                <label>NON SCOLARISE l’année précédente MAIS PRECEDEMMENT ENTRE dans l’enseignement supérieur, universitaire ou non (reprise d’études) en France</label>
+            </value>
+            <value>
+                <fullName>Etablissement ETRANGER d’enseignement secondaire</fullName>
+                <default>false</default>
+                <label>Etablissement ETRANGER d’enseignement secondaire</label>
+            </value>
+            <value>
+                <fullName>Etablissement ETRANGER d’enseignement supérieur</fullName>
+                <default>false</default>
+                <label>Etablissement ETRANGER d’enseignement supérieur</label>
+            </value>
+            <value>
+                <fullName>NON SCOLARISE l’année précédente MAIS PRECEDEMMENT ENTRE dans l’enseignement supérieur à l’étranger</fullName>
+                <default>false</default>
+                <label>NON SCOLARISE l’année précédente MAIS PRECEDEMMENT ENTRE dans l’enseignement supérieur à l’étranger</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Enseignement Secondaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>BTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>IUT / licence professionnelle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>CPGE ou ATS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Ecole et formation d&apos;INGENIEURS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Enseignement supérieur par CORRESPONDANCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>UNIVERSITE et Paris Dauphine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>ECOLE ARTISTIQUE, CULTURELLE, D’ARCHITECTURE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Ecole de MANAGEMENT (école de commerce, gestion)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>AUTRE ETABLISSEMENT SISE (liste ci-dessous)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Ecoles normales supérieures (ENS Cachan, Lyon, Paris)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Instituts catholiques (Lille, Lyon, Nantes (univ catholique de l’ouest), Paris et Toulouse)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Museum national d’histoire naturelle (MNHN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Ecole des hautes études en sciences sociales (EHESS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Ecole pratique des hautes études (EPHE)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Ecole nationale des Chartes (ENC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Ecole nationale supérieure des sciences de l’information et des bibliothèques (ENSSIB)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Ecole nationale de la statistique et de l’administration économique (ENSAE Malakoff)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Institut catholique d’études supérieures (ICES La Roche/Yon)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Institut national des langues et civilisations orientales (INALCO), Institut de physique du globe de Paris, institut d’études politiques de Paris, Observatoire de Paris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Ecoles nationales vétérinaires (Lyon (VETAGRO SUP), Maisons Alfort, Nantes (ONIRIS), Toulouse)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Ecole nationale supérieure du paysage de Versailles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>ESPE : Ecoles Supérieures du Professorat et de l’Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>MISE A NIVEAU, PREPARATION AUX ETUDES SUPERIEURES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>AUTRE ETABLISSEMENT ou cursus (en France)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>NON SCOLARISE l’année précédente ET JAMAIS ENTRE dans l’enseignement supérieur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>NON SCOLARISE l’année précédente MAIS PRECEDEMMENT ENTRE dans l’enseignement supérieur, universitaire ou non (reprise d’études) en France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>Etablissement ETRANGER d’enseignement secondaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>Etablissement ETRANGER d’enseignement supérieur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>NON SCOLARISE l’année précédente MAIS PRECEDEMMENT ENTRE dans l’enseignement supérieur à l’étranger</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si cette option est cochée, tous les postes d’opportunité contigus pour ce produit seront traités ensemble afin qu’ils occupent les mêmes ressources.</help>
+    <label></label>
+    <name>B25__Aggregate_Olis__c</name>
+</CustomFieldTranslation>

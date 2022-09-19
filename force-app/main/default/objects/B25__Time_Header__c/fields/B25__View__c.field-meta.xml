@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__View__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The View this Header should be shown on.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>La vue sur laquelle cet en-tête doit être affiché.</inlineHelpText>
+    <label>View</label>
+    <referenceTo>B25__View__c</referenceTo>
+    <relationshipLabel>Time Headers</relationshipLabel>
+    <relationshipName>Time_Headers</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

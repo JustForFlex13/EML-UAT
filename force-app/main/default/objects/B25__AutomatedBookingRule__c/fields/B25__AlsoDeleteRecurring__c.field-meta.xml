@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__AlsoDeleteRecurring__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, also delete any recurring reservations that the reservations are related to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est cochée, elle supprime également toutes les réservations récurrentes auxquelles les réservations sont liées.</inlineHelpText>
+    <label>Also Delete Recurring</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

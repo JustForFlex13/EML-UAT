@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FI_MAJ_Propri_taire_Landure</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Nombre_opportunites_sur_criteres__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>Pays_de_r_sidence__c</columns>
+    <columns>Souhait_programme__c</columns>
+    <columns>pi__url__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>contains</operation>
+        <value>nielsen</value>
+    </filters>
+    <filters>
+        <field>CONTACT.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>9/1/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Prospect_Etudiant</value>
+    </filters>
+    <filters>
+        <field>Souhait_programme__c</field>
+        <operation>contains</operation>
+        <value>Entrepreneuriat</value>
+    </filters>
+    <label>FI_MAJ Propriétaire</label>
+    <language>fr</language>
+</ListView>

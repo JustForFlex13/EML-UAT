@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Display_Full_Day_Event_As_Bar__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked any reservations that are one day or longer will be displayed at the top of the day instead of covering the entire day.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est cochée, toute réservation d’un jour ou plus s’affiche en haut de la journée au lieu de couvrir la journée entière.</inlineHelpText>
+    <label>Display Full Day Event As Bar</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

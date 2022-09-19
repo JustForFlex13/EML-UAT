@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provenance__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>décrit le canal technique d’arrivée de la fiche piste dans le système</inlineHelpText>
+    <label>Canal d&apos;acquisition</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Adwords</fullName>
+                <default>false</default>
+                <label>Adwords</label>
+            </value>
+            <value>
+                <fullName>Agent commercial</fullName>
+                <default>false</default>
+                <label>Agent commercial</label>
+            </value>
+            <value>
+                <fullName>Application mobile</fullName>
+                <default>false</default>
+                <label>Application mobile</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+            <value>
+                <fullName>Campus Day virtuel</fullName>
+                <default>false</default>
+                <label>Campus Day virtuel</label>
+            </value>
+            <value>
+                <fullName>Directories/ Guides</fullName>
+                <default>false</default>
+                <label>Directories/ Guides</label>
+            </value>
+            <value>
+                <fullName>Display/ Banners</fullName>
+                <default>false</default>
+                <label>Display/ Banners</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Fichiers externes</fullName>
+                <default>false</default>
+                <label>Fichiers externes</label>
+            </value>
+            <value>
+                <fullName>Forum/ Salon</fullName>
+                <default>false</default>
+                <label>Forum/ Salon</label>
+            </value>
+            <value>
+                <fullName>Import contacts</fullName>
+                <default>false</default>
+                <label>Import contacts</label>
+            </value>
+            <value>
+                <fullName>Master class</fullName>
+                <default>false</default>
+                <label>Master class</label>
+            </value>
+            <value>
+                <fullName>Module Chat</fullName>
+                <default>false</default>
+                <label>Module Chat</label>
+            </value>
+            <value>
+                <fullName>Open class</fullName>
+                <default>false</default>
+                <label>Open class</label>
+            </value>
+            <value>
+                <fullName>Prescripteurs</fullName>
+                <default>false</default>
+                <label>Prescripteurs</label>
+            </value>
+            <value>
+                <fullName>Présentation aux écoles/ universités</fullName>
+                <default>false</default>
+                <label>Présentation aux écoles/ universités</label>
+            </value>
+            <value>
+                <fullName>Présentation étudiants</fullName>
+                <default>false</default>
+                <label>Présentation étudiants</label>
+            </value>
+            <value>
+                <fullName>Réputation</fullName>
+                <default>false</default>
+                <label>Réputation</label>
+            </value>
+            <value>
+                <fullName>Réseaux sociaux</fullName>
+                <default>false</default>
+                <label>Réseaux sociaux</label>
+            </value>
+            <value>
+                <fullName>Réunion d&apos;information France</fullName>
+                <default>false</default>
+                <label>Réunion d&apos;information France</label>
+            </value>
+            <value>
+                <fullName>Réunion d&apos;information Internationale</fullName>
+                <default>false</default>
+                <label>Réunion d&apos;information Internationale</label>
+            </value>
+            <value>
+                <fullName>Salon virtuel</fullName>
+                <default>false</default>
+                <label>Salon virtuel</label>
+            </value>
+            <value>
+                <fullName>Score test</fullName>
+                <default>false</default>
+                <label>Score test</label>
+            </value>
+            <value>
+                <fullName>Site concours grandes ecoles</fullName>
+                <default>false</default>
+                <label>Site concours grandes ecoles</label>
+            </value>
+            <value>
+                <fullName>Site web</fullName>
+                <default>false</default>
+                <label>Site web</label>
+            </value>
+            <value>
+                <fullName>Téléphone</fullName>
+                <default>false</default>
+                <label>Téléphone</label>
+            </value>
+            <value>
+                <fullName>Training Day (BBA)</fullName>
+                <default>false</default>
+                <label>Training Day (BBA)</label>
+            </value>
+            <value>
+                <fullName>Visite</fullName>
+                <default>false</default>
+                <label>Visite</label>
+            </value>
+            <value>
+                <fullName>Web to lead</fullName>
+                <default>false</default>
+                <label>Web to lead</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

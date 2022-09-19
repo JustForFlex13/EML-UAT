@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De API nam van een reserverings opzoekveld (of master-detail) op het junction object.</help>
+    <label></label>
+    <name>B25__Reservation_Lookup_API_Name__c</name>
+</CustomFieldTranslation>

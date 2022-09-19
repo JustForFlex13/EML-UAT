@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Sessions</fullName>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>Code_agresso_for__c</columns>
+    <columns>NAME</columns>
+    <columns>Code_Agresso_Session_formation__c</columns>
+    <columns>Date_de_debut_de_session__c</columns>
+    <columns>Date_de_fin_de_session__c</columns>
+    <columns>Lieu_ls__c</columns>
+    <columns>Statut__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Produits__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Toutes</label>
+    <sharedTo>
+        <group>EML_Programmes_Courts</group>
+    </sharedTo>
+</ListView>

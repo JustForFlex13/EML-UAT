@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Dernier_Dipl_me_ou_en_cours__c</fullName>
+    <externalId>false</externalId>
+    <formula>Contact_central__r.Dernier_dipl_me_ou_en_cours__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contact : Dernier Diplôme (ou en cours)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

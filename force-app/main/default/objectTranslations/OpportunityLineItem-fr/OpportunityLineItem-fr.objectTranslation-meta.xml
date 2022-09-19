@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>CloneOpp__Clone_Opportunity_Field_Set</name>
+    </fieldSets>
+    <layouts>
+        <layout>Administrateur</layout>
+        <sections>
+            <label></label>
+            <section>Calcul automatique d&apos;éligibilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Historique</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations CANEL</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formation Courte</layout>
+        <sections>
+            <label></label>
+            <section>Historique</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Intra</layout>
+        <sections>
+            <label></label>
+            <section>Informations système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Produits de sélection</layout>
+        <sections>
+            <label></label>
+            <section>Calcul automatique d&apos;éligibilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Historique</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations CANEL</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentation du produit de l&apos;opportunité</layout>
+        <sections>
+            <label></label>
+            <section>Calcul automatique d&apos;éligibilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Historique</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations CANEL</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Relation employeurs</layout>
+        <sections>
+            <label></label>
+            <section>Calcul automatique d&apos;éligibilité</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Historique</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations CANEL</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Taxe</layout>
+        <sections>
+            <label></label>
+            <section>Historique</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Taxe / RE</layout>
+        <sections>
+            <label></label>
+            <section>Historique</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Localisation_obligatoire</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Ouverture_candidature_non_modifiable</name>
+    </validationRules>
+</CustomObjectTranslation>

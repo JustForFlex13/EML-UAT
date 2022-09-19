@@ -1,0 +1,18 @@
+<messaging:emailTemplate subject="Your Reservation at {!relatedTo.B25__ResourceName__c}" recipientType="Contact" relatedToType="B25__Reservation__c">
+
+	<messaging:plainTextEmailBody >
+		Dear {!recipient.FirstName},
+
+		The following reservation has been made for you:
+		
+		Resource: {!relatedTo.B25__ResourceName__c}
+		From: <c:Util_TimezoneConverter datetime="{!relatedTo.B25__Start__c}" format="HH:mm" timezone="{!relatedTo.B25__Resource__c}"/>
+		Until: <c:Util_TimezoneConverter datetime="{!relatedTo.B25__End__c}" format="HH:mm" timezone="{!relatedTo.B25__Resource__c}"/>
+		
+	</messaging:plainTextEmailBody>
+	
+	<messaging:htmlEmailBody >
+		<c:ReservationEmailTemplate target="Contact" recipientName="{!recipient.FirstName}" reservation="{!relatedTo}"/>
+	</messaging:htmlEmailBody>
+	
+</messaging:emailTemplate>

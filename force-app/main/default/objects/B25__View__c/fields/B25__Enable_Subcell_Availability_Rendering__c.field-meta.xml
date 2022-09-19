@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Enable_Subcell_Availability_Rendering__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When enabled, the darker sections that indicate Unavailabilities will no longer be restricted to cell borders and will represent the actual Unavailabilities within a cell. This may negatively impact client side performance on large calendars.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est activée, les sections plus sombres qui indiquent les indisponibilités ne seront plus limitées aux bordures des cellules et représenteront les indisponibilités réelles dans une cellule. Cela peut avoir un impact négatif sur les performances côté client sur les grands calendriers.</inlineHelpText>
+    <label>Enable Subcell Availability Rendering</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

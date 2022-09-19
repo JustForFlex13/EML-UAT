@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Champs_Obligatoires_Session</fullName>
+    <active>false</active>
+    <description>Rend certains champs obligatoires à la création/modification d&apos;une Session de formation</description>
+    <errorConditionFormula>!$User.ByPass_RV__c
+&amp;&amp;
+ ISBLANK( Date_de_debut_de_session__c )  || 
+ ISBLANK( Date_de_fin_de_session__c )  || 
+ ISBLANK( Produits__c )</errorConditionFormula>
+    <errorMessage>Les champs Date de début de session, Date de fin de session et Produit sont obligatoires</errorMessage>
+</ValidationRule>

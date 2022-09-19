@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PRODUIT_sans_suiveur</fullName>
+    <columns>X18caracter__c</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>Product2.Ne_pas_afficher_sur_le_site_EML__c</columns>
+    <columns>Product2.Suiveur__c</columns>
+    <columns>PRODUCT2.RECORD_TYPE</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>PRODUCT.NAME</columns>
+    <columns>PRODUCT.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT.DEFAULT_PRICE</columns>
+    <columns>PRODUCT.ACTIVE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product2.Suiveur__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>PRODUCT2.DESCRIPTION</field>
+        <operation>equals</operation>
+        <value>Dynamics</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>PRODUIT - sans suiveur - désactivés OK</label>
+    <language>fr</language>
+</ListView>

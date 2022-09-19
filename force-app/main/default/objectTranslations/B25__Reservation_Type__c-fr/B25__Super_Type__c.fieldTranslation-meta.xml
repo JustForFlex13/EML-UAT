@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le super-type de ce type de réservation. Les super-types seront affichés dans la liste déroulante en haut du formulaire de réservation. Tous les sous-types de ce super-type peuvent ensuite être sélectionnés dans une liste déroulante dans le formulaire en soi.</help>
+    <label></label>
+    <name>B25__Super_Type__c</name>
+    <picklistValues>
+        <masterLabel>Default</masterLabel>
+        <translation>Valeur par défaut</translation>
+    </picklistValues>
+</CustomFieldTranslation>

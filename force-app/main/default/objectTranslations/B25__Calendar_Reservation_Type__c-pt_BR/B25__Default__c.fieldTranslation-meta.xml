@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se selecionado, este será o Tipo de Reserva predefinido para novas reservas neste Calendário.</help>
+    <label></label>
+    <name>B25__Default__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Professionnel_emailPro_emailPerso</fullName>
+    <active>true</active>
+    <description>Règle de validation qui oblige de renseigner l&apos;email professionnel et l&apos;email personnelle pour un contact avec comme type d’enregistrement &quot;professionnel&quot;.</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName  = &quot;Professionnel&quot;, Email_de_repli__c  = NULL, Adresse_Email_Personnelle__c  = NULL, Identifiant_dipl_m__c   =  NULL, TEXT(R_le_taxe__c)  = NULL, $Profile.Name  &lt;&gt; &quot;BDD&quot;, $Profile.Name &lt;&gt; &quot;MANAGER TAXE&quot;,  $Profile.Name  &lt;&gt; &quot;Administrateur système&quot;)</errorConditionFormula>
+    <errorMessage>L&apos;email professionnel ou l&apos;email personnel n&apos;est pas renseigné</errorMessage>
+</ValidationRule>

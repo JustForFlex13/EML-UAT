@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El nombre de la API de un campo de casilla de verificación (de objeto cruzado) en el objeto de unión. Si está activado, el registro de unión no cuenta para las marcas de reserva doble.</help>
+    <label></label>
+    <name>B25__Junction_Allow_Double_Booking_Field__c</name>
+</CustomFieldTranslation>

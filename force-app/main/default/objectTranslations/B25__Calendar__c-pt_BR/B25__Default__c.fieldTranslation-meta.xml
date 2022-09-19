@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando existem vários Calendários de Registo Único para um único Elemento, o Calendário com esta caixa de seleção será utilizado se o Calendário de Registo Único for carregado apenas com um ID de Recurso.</help>
+    <label></label>
+    <name>B25__Default__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Skill_Family_CL</fullName>
+    <fields>Name</fields>
+    <fields>SIS_Skills_Family_Type__c</fields>
+    <fields>SIS_Description_FR__c</fields>
+    <fields>SIS_Description_EN__c</fields>
+    <fields>CreatedById</fields>
+    <fields>LastModifiedById</fields>
+    <label>SIS Skill Family CL</label>
+</CompactLayout>

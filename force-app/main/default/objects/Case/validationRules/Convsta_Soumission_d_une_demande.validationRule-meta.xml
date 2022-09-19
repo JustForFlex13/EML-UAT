@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Soumission_d_une_demande</fullName>
+    <active>true</active>
+    <description>Remplissage des champs localisation de l&apos;entreprise, type de contrat et type de demande obligatoire.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+RecordType.DeveloperName= &apos;Convsta_Validation_d_experience&apos; &amp;&amp;
+(ISBLANK(TEXT( Convsta_Type_de_demande__c))|| 
+ISBLANK(TEXT(Convsta_TypeContrat__c  )))</errorConditionFormula>
+    <errorMessage>Merci de renseigner les champs Type de demande et Type de contrat pour soumettre votre demande.</errorMessage>
+</ValidationRule>

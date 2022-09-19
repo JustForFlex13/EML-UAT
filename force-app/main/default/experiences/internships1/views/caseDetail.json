@@ -1,0 +1,93 @@
+{
+  "appPageId" : "ac75e041-ea32-4d30-828e-3947b181afc6",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "a055f059-de6e-4ddd-bc9e-9e0586d2c662",
+  "label" : "Case Detail",
+  "regions" : [ {
+    "id" : "ad2fcba6-ee91-4205-a5e8-c5e8a9ebc0c7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:convsta_displayCaseDetailFrontOffice",
+      "id" : "60d8e08a-0314-4242-a0d5-6836f52042d0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordIdTest" : ""
+      },
+      "componentName" : "c:ConvSta_demandeDetails",
+      "id" : "9688551b-81fd-412c-a66b-cb0863482c40",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cc593bbb-0709-4ac2-bb78-c51244b9c4ef",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "52ee7133-3558-47ff-ac58-5211491b5007",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "742326ae-77e6-4f9d-9fd7-a50c1e501101",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "baaff398-9c27-4b70-a93f-7b0ab523e414",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:convsta_home_help",
+      "id" : "a91c45e2-8da3-45bb-a93f-78b7a287496f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:convsta_listFile",
+      "id" : "73b5c42c-2637-4920-bf89-9ba65fcfaa7d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span style=\"color: rgb(57, 57, 57);\">Pour toute assistance ou changement : merci de contacter&nbsp;</span><a href=\"mailto:internship@em-lyon.com\" rel=\"noopener noreferrer\" target=\"null\" style=\"background-color: rgb(255, 255, 255); color: rgb(51, 122, 183);\">internship@em-lyon.com</a>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "f8e39d62-4e17-42e9-bab2-5f300dea9da2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "03b90ca1-3b68-4f16-857c-721fdbe4e96c"
+      },
+      "renditions" : [ {
+        "id" : "03b90ca1-3b68-4f16-857c-721fdbe4e96c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"color: rgb(57, 57, 57);\">For any assistance or any change : please contact&nbsp;</span><a href=\"mailto:internship@em-lyon.com\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(51, 122, 183); background-color: rgb(255, 255, 255);\">internship@em-lyon.com</a></p>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "dda23dce-4978-44b0-b70c-b64a16071d13",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-500"
+}

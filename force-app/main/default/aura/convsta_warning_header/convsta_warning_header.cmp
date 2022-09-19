@@ -1,0 +1,11 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+    <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_warning" role="alert">
+        <span class="slds-assistive-text">warning</span>
+        <span class="slds-icon_container slds-icon-utility-warning slds-m-right_x-small" title="Warning!">
+                <lightning:icon iconName="utility:warning" alternativeText="Warning!" variant="warning"/>
+        </span>
+        <h2><!--You have not completed your registration. You will not be able to validate your professional experiences.-->
+            {! $Label.c.Convsta_UploadFile }
+        </h2>
+    </div>
+</aura:component>

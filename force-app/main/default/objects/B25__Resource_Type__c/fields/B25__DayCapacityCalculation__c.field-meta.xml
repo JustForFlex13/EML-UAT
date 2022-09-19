@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__DayCapacityCalculation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Binary counts a Resource as occupied if there is a Reservation that doesn&apos;t end on that day. Percentual uses occupied time divided by total available time in a day.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>« Binaire » compte une ressource comme occupée s’il y a une réservation qui ne se termine pas ce jour-là. « Poucentage » utilise le temps occupé divisé par le temps total disponible dans une journée.</inlineHelpText>
+    <label>Day Capacity Calculation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Percentual</fullName>
+                <default>false</default>
+                <label>Percentual</label>
+            </value>
+            <value>
+                <fullName>Binary</fullName>
+                <default>false</default>
+                <label>Binary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

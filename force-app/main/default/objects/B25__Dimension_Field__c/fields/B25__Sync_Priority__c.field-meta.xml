@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Sync_Priority__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When multiple Dimension Fields are filled on a Reservation, the calendar of the record with the
+		lowest Sync Priority will be used to create the event. The other related dimension records will
+		be added as attendees.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque plusieurs champs de dimension sont remplis pour une réservation, le calendrier de l’enregistrement ayant la plus faible priorité de synchronisation sera utilisé pour créer l’événement. Les autres enregistrements de dimension liés seront ajoutés en tant que participants.</inlineHelpText>
+    <label>Sync Priority</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

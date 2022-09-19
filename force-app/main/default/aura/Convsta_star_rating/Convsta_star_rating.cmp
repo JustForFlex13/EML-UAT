@@ -1,0 +1,36 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global"
+                controller="LCctrl02_Convsta_evaluationController">
+    
+    <aura:attribute name="rating" type="String" />
+    
+    
+    <aura:attribute name="competence" type="Convsta_Competence__c" />
+    <aura:attribute name="stars" type="String[]" />
+    <aura:attribute name="isReadOnly" type="Boolean" default="false" />
+    <aura:attribute name="language" type="String" />
+	<aura:attribute name="mission" type="Object" default="{}" /> 
+	<aura:attribute name="selectedByStudent" type="Boolean" default="false" />
+     
+    <aura:registerEvent name="Convsta_eval_ratingChanged" type="c:Convsta_eval_ratingChanged" />
+    <aura:registerEvent name="Convsta_eval_spinner" type="c:Convsta_eval_spinner" />
+    
+    <!--aura:handler name="change" value="{!v.rating}" action="{!c.loadRating}" /-->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" /> 
+    <div class="oneComp-label" style="{! v.selectedByStudent  ? 'font-weight: bold;':'' }">{! v.language == 'fr' ? v.competence.Label_fr__c : v.competence.Label_En__c }</div>
+    <div class="oneComp-rating">
+        <button aura:id="na-btn" class="{! v.rating == 'n/a' ? 'slds-button_destructive slds-button slds-button_neutral rating-na' : 'slds-button slds-button_neutral rating-na' }" data-idx="n/a"
+                onclick="{! v.isReadOnly ? '' : c.doRate }">n/a</button>
+        <p>{!v.ratingValue__c }</p>
+        <div class="{! v.isReadOnly ? 'isReadOnly stars-container' : 'stars-container' }">
+            <aura:iteration items="{! v.stars }" var="star" indexVar="idx">
+                <!-- TODO use star un static resource -->
+                <!--img class="{! star == 'full' ? 'one-star full-star' : 'one-star empty-star' }" data-idx="{! idx }"
+                     onclick="{! c.doRate }"
+                     src="https://cdn2.iconfinder.com/data/icons/universal-signs-symbols/128/star-yellow-512.png" alt="" /-->
+                <img class="{! star == 'full' ? 'one-star full-star' : 'one-star empty-star' }" data-idx="{! idx }"
+                     onclick="{! c.doRate }"
+                     src="{! $Resource.Convsta_rating_star }" alt="" />
+            </aura:iteration>
+        </div>
+    </div>
+</aura:component>

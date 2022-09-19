@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <layouts>
+        <layout>Mission Back Office</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label>Company tutor or manager in case of a working contract</label>
+            <section>Tuteur Entreprise</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Mission Front Office</layout>
+        <sections>
+            <label></label>
+            <section>*Les compétences sont à choisir en concertation avec votre tuteur en entreprise.</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Company tutor or manager in case of a working contract</label>
+            <section>Tuteur Entreprise</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel></nameFieldLabel>
+    <startsWith></startsWith>
+    <validationRules>
+        <errorMessage>Please pick 4 competences</errorMessage>
+        <name>Competences_obligatoires</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Your description is too long.</errorMessage>
+        <name>Limitation_nombre_de_caracteres</name>
+    </validationRules>
+</CustomObjectTranslation>

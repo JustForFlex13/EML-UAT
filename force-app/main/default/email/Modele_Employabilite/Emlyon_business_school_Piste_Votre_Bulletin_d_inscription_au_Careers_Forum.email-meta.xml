@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Careers Forum  Mail suite action JET Phoning</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x200</letterhead>
+    <name>Emlyon business school | Piste: Votre Bulletin d&apos;inscription au Careers Forum</name>
+    <style>freeForm</style>
+    <subject>Emlyon business school : Votre Bulletin d&apos;inscription au Careers Forum</subject>
+    <textOnly>Bonjour,
+
+Le Careers Forum est l’événement phare parmi la gamme des solutions de recrutement proposée par le career center d’emlyon business school !
+
+Chaque année, plus de 150 entreprises et partenaires emploi sont présents pendant 3 jours sur le Campus d&apos;emlyon business school et viennent pour proposer des opportunités de stages, emplois, Graduate Programmes et V.I.E.
+
+J’ai le plaisir de vous confirmer votre pré-inscription au Careers Forum 2020.
+
+Veuillez trouver en suivant le lien ci-après le plan du forum : ici
+
+Je vous invite à parcourir le plan et de choisir votre emplacement.
+
+Votre inscription sera confirmée dès la réception de votre choix de stand et du document joint signé et daté.
+
+Pour garantir la disponibilité de votre emplacement, nous vous recommandons de nous confirmer votre inscription dans un délai de 7 jours.
+
+Je reste à votre disposition pour tout complément d’information.
+
+Cordialement,
+
+User.Name}
+{!User.Title}
+
+{!User.Phone}
+
+23, avenue Guy de Collongue
+CS 40203 69134 Ecully Cedex France
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Use_Shared_Conflict_Checking__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When enabled (recommended), all fields and junctions in this dimension will conflict with each other. When disabled, they only conflict with themselves.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsqu&apos;il est activé (recommandé), tous les champs et jonctions de cette dimension entreront en conflit les uns avec les autres. Lorsqu&apos;ils sont désactivés, ils ne sont en conflit qu&apos;avec eux-mêmes.</inlineHelpText>
+    <label>Use Shared Conflict Checking</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

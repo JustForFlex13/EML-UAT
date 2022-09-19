@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Posture__c</fullName>
+    <externalId>false</externalId>
+    <label>Posture</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Dirigeant</fullName>
+                <default>false</default>
+                <label>Dirigeant</label>
+            </value>
+            <value>
+                <fullName>Expert métier</fullName>
+                <default>false</default>
+                <label>Expert métier</label>
+            </value>
+            <value>
+                <fullName>Middle manager</fullName>
+                <default>false</default>
+                <label>Middle manager</label>
+            </value>
+            <value>
+                <fullName>Primo manager</fullName>
+                <default>false</default>
+                <label>Primo manager</label>
+            </value>
+            <value>
+                <fullName>Senior manager</fullName>
+                <default>false</default>
+                <label>Senior manager</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

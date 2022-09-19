@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_de_rentr_e_cloture_2_mois__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(
+TODAY()&gt;=DATE(YEAR(CloseDate),MONTH(CloseDate)-2,DAY(CloseDate)),
+TODAY()&lt;=CloseDate
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Date de rentrée / cloture - 2 mois</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

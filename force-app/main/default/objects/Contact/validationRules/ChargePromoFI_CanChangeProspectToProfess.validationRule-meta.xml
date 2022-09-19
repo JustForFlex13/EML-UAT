@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChargePromoFI_CanChangeProspectToProfess</fullName>
+    <active>false</active>
+    <description>Autoriser seulement Nathalie SEUX, Delphine CESAR, DREVETON et Top Agresso à modifier le type d&apos;enregistrement de &quot;Prospect Etudiant&quot; vers &quot;Professionnel&quot; .</description>
+    <errorConditionFormula>AND(
+ !$User.ByPass_RV__c,
+	!$User.Contourner_RV_type_d_enregistrement__c,
+ PRIORVALUE(Record_Type_Name__c)=&quot;Prospect Etudiant&quot;,
+ Record_Type_Name__c=&quot;Professionnel&quot;,
+ AND($User.CommunityNickname&lt;&gt; &quot;seux&quot;, 
+     $User.CommunityNickname&lt;&gt; &quot;cesar&quot;,
+     $User.CommunityNickname&lt;&gt; &quot;dreveton&quot;,
+					$User.CommunityNickname &lt;&gt; &quot;topagresso&quot; 
+) 
+)</errorConditionFormula>
+    <errorMessage>La modification de type d&apos;enregistrement de &quot;Prospect Etudiant&quot; vers &quot;Professionnel&quot; vous est interdite.</errorMessage>
+</ValidationRule>

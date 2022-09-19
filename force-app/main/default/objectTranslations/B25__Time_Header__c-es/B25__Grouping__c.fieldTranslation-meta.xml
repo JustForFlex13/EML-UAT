@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La cantidad de tiempo que este encabezamiento debería extenderse.</help>
+    <label></label>
+    <name>B25__Grouping__c</name>
+    <picklistValues>
+        <masterLabel>Cell</masterLabel>
+        <translation>Celda</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Day</masterLabel>
+        <translation>Día</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hour</masterLabel>
+        <translation>Hora</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Month</masterLabel>
+        <translation>Mes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarter</masterLabel>
+        <translation>Trimestre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Week</masterLabel>
+        <translation>Semana</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Year</masterLabel>
+        <translation>Año</translation>
+    </picklistValues>
+</CustomFieldTranslation>

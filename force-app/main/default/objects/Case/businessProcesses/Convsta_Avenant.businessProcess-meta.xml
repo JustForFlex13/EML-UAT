@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Avenant</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Annulée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Avenant annulé</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Avenant en cours de saisie</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Avenant en cours de signature</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Avenant signé</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Avenant validé à émettre</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Expirée</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

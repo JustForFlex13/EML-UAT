@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Relance email pour l&apos;envoi de la convention de stage</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Relance envoi convention</name>
+    <style>freeForm</style>
+    <subject>Votre convention de stage</subject>
+    <textOnly>Bonjour {!Contact.Name},
+
+Vous avez récemment effectué une demande de convention de stage sur le portail en ligne.
+Nous sommes actuellement en attente de votre contrat.
+
+Merci de bien vouloir nous le fournir dans les plus bref délais.
+
+Cordialement,
+
+Service employabilité</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etudiants_marqu_s_entrepreneurs</fullName>
+    <columns>X18caracter__c</columns>
+    <columns>Nom_Prenom__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Entrepreneur__c</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Etudiant</value>
+    </filters>
+    <filters>
+        <field>Entrepreneur__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>FI_Etudiants marqués entrepreneurs</label>
+    <language>fr</language>
+</ListView>

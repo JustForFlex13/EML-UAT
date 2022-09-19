@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__TimeUnit__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If this value is Days or higher, you can use End Time to set the time of day that the reservation should end. Otherwise, the reservation will end at the same time of day that it started.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Si cette valeur est égale ou supérieure à celle des jours, vous pouvez utiliser l’heure de fin pour définir l’heure de la journée à laquelle la réservation doit se terminer. Sinon, la réservation se terminera à l’heure de la journée à laquelle elle a commencé.</inlineHelpText>
+    <label>Time Unit</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Minutes</fullName>
+                <default>false</default>
+                <label>Minutes</label>
+            </value>
+            <value>
+                <fullName>Hours</fullName>
+                <default>false</default>
+                <label>Hours</label>
+            </value>
+            <value>
+                <fullName>Days</fullName>
+                <default>false</default>
+                <label>Days</label>
+            </value>
+            <value>
+                <fullName>Weeks</fullName>
+                <default>false</default>
+                <label>Weeks</label>
+            </value>
+            <value>
+                <fullName>Months</fullName>
+                <default>false</default>
+                <label>Months</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

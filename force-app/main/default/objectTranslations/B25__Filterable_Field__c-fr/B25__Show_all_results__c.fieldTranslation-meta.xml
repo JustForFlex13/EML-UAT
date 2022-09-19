@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Pour les recherches, en cochant cette case, toutes les options possibles seront affichées dans la liste de suggestions.</help>
+    <label></label>
+    <name>B25__Show_all_results__c</name>
+</CustomFieldTranslation>

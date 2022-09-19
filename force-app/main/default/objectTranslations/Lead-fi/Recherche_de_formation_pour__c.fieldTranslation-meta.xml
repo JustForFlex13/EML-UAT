@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Recherche_de_formation_pour__c</name>
+    <picklistValues>
+        <masterLabel>Des collaborateurs</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soi</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

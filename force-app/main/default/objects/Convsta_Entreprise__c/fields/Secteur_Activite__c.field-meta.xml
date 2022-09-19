@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secteur_Activite__c</fullName>
+    <description>Le secteur d&apos;activité dans lequel opère l&apos;entreprise au sein de laquelle l&apos;étudiant effectuera son expérience professionnelle.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Secteur d&apos;activité dans lequel opère l&apos;entreprise au sein de laquelle l&apos;étudiant effectuera son expérience professionnelle.</inlineHelpText>
+    <label>Secteur d&apos;Activité</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administration Publique</fullName>
+                <default>false</default>
+                <label>Administration Publique</label>
+            </value>
+            <value>
+                <fullName>Agriculture/Pêche</fullName>
+                <default>false</default>
+                <label>Agriculture/Pêche</label>
+            </value>
+            <value>
+                <fullName>Automobile et Matériels de Transport</fullName>
+                <default>false</default>
+                <label>Automobile et Matériels de Transport</label>
+            </value>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+            <value>
+                <fullName>Banque/Assurance/Scs Finan./Immobilier</fullName>
+                <default>false</default>
+                <label>Banque/Assurance/Scs Finan./Immobilier</label>
+            </value>
+            <value>
+                <fullName>BTP/Habitat/Environnement</fullName>
+                <default>false</default>
+                <label>BTP/Habitat/Environnement</label>
+            </value>
+            <value>
+                <fullName>Commerce/Distribution</fullName>
+                <default>false</default>
+                <label>Commerce/Distribution</label>
+            </value>
+            <value>
+                <fullName>Construction/BTP</fullName>
+                <default>false</default>
+                <label>Construction/BTP</label>
+            </value>
+            <value>
+                <fullName>Edition/Imprimerie/Reproduction</fullName>
+                <default>false</default>
+                <label>Edition/Imprimerie/Reproduction</label>
+            </value>
+            <value>
+                <fullName>Educa.Santé/Act.Sociale/Act.asso./média</fullName>
+                <default>false</default>
+                <label>Educa.Santé/Act.Sociale/Act.asso./média</label>
+            </value>
+            <value>
+                <fullName>Energie/Eau</fullName>
+                <default>false</default>
+                <label>Energie/Eau</label>
+            </value>
+            <value>
+                <fullName>Extraction et Industries Extractives</fullName>
+                <default>false</default>
+                <label>Extraction et Industries Extractives</label>
+            </value>
+            <value>
+                <fullName>Indust.Electriq/Electroniq./Informatique</fullName>
+                <default>false</default>
+                <label>Indust.Electriq/Electroniq./Informatique</label>
+            </value>
+            <value>
+                <fullName>Industrie Agro-alimentaire/Tabac</fullName>
+                <default>false</default>
+                <label>Industrie Agro-alimentaire/Tabac</label>
+            </value>
+            <value>
+                <fullName>Industrie Bois/Papier/Carton</fullName>
+                <default>false</default>
+                <label>Industrie Bois/Papier/Carton</label>
+            </value>
+            <value>
+                <fullName>Industrie Chimique/Pharmacie/Plastiques</fullName>
+                <default>false</default>
+                <label>Industrie Chimique/Pharmacie/Plastiques</label>
+            </value>
+            <value>
+                <fullName>Industrie Textile/Habillement/Cuir</fullName>
+                <default>false</default>
+                <label>Industrie Textile/Habillement/Cuir</label>
+            </value>
+            <value>
+                <fullName>Metallurgie/Machines et Equipement</fullName>
+                <default>false</default>
+                <label>Metallurgie/Machines et Equipement</label>
+            </value>
+            <value>
+                <fullName>Services aux Entreprises/Conseil</fullName>
+                <default>false</default>
+                <label>Services aux Entreprises/Conseil</label>
+            </value>
+            <value>
+                <fullName>Services aux particuliers</fullName>
+                <default>false</default>
+                <label>Services aux particuliers</label>
+            </value>
+            <value>
+                <fullName>Télécommunication/services informatiques</fullName>
+                <default>false</default>
+                <label>Télécommunication/services informatiques</label>
+            </value>
+            <value>
+                <fullName>Transports/Logistique/Tourisme</fullName>
+                <default>false</default>
+                <label>Transports/Logistique/Tourisme</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

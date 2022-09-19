@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Introduza o nome de API da relação de filho. Pode encontrar isto indo à página de configuração para a procura de reserva no objeto de filho.</help>
+    <label></label>
+    <name>B25__Relationship_Name__c</name>
+</CustomFieldTranslation>

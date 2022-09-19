@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>SIS_Type__c</name>
+    <picklistValues>
+        <masterLabel>Evaluation</masterLabel>
+        <translation>Evaluation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Présentiel</masterLabel>
+        <translation>Face-to-face</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travail en groupe avec tutorat</masterLabel>
+        <translation>Group work with tutoring</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travail en groupe sans tutorat</masterLabel>
+        <translation>Group work without tutoring</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travail en ligne</masterLabel>
+        <translation>On-line work</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travail individuel avec tutorat</masterLabel>
+        <translation>Individual work with tutoring</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Travail individuel sans tutorat</masterLabel>
+        <translation>Individual work without tutoring</translation>
+    </picklistValues>
+</CustomFieldTranslation>

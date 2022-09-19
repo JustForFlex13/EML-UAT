@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut__c</fullName>
+    <externalId>false</externalId>
+    <label>Statut</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SF-SS10</fullName>
+                <default>false</default>
+                <label>SF-SS10</label>
+            </value>
+            <value>
+                <fullName>SF-SS20</fullName>
+                <default>false</default>
+                <label>SF-SS20</label>
+            </value>
+            <value>
+                <fullName>SF-SS30</fullName>
+                <default>false</default>
+                <label>SF-SS30</label>
+            </value>
+            <value>
+                <fullName>SF-SS40</fullName>
+                <default>false</default>
+                <label>SF-SS40</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

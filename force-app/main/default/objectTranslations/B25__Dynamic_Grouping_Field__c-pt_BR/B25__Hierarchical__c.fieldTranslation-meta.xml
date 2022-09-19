@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando selecionado, o campo especificado no nome deste registo tem de ser uma procura de autorreferência. O Booker25 agrupará então os registos de elemento hierarquicamente.</help>
+    <label></label>
+    <name>B25__Hierarchical__c</name>
+</CustomFieldTranslation>

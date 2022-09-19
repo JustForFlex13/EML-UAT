@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Slot_Duration__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The time interval between each vertical line. Examples: 00:05 = 5 minutes, 24:00 = one day, 7.00:00 = one week.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>L’intervalle de temps entre chaque ligne verticale. Exemples : 00:05 = 5 minutes, 24 h = un jour, 7.00:00 = une semaine.</inlineHelpText>
+    <label>Slot Duration</label>
+    <length>8</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

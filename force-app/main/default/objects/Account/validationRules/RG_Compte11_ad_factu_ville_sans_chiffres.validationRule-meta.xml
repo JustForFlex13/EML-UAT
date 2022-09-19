@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Compte11_ad_factu_ville_sans_chiffres</fullName>
+    <active>false</active>
+    <description>Empêcher la saisie de chiffre dans le champ adresse facturation: ville</description>
+    <errorConditionFormula>AND (!$User.ByPass_RV__c, 
+OR( ISNUMBER(Adresse_facturation_ville__c), OR(CONTAINS(Adresse_facturation_ville__c, &quot;0&quot;),CONTAINS(Adresse_facturation_ville__c, &quot;1&quot;),CONTAINS(Adresse_facturation_ville__c, &quot;2&quot;),CONTAINS(Adresse_facturation_ville__c, &quot;3&quot;),CONTAINS(Adresse_facturation_ville__c, &quot;4&quot;),CONTAINS(Adresse_facturation_ville__c, &quot;5&quot;),CONTAINS(Adresse_facturation_ville__c, &quot;6&quot;),CONTAINS(Adresse_facturation_ville__c, &quot;7&quot;),CONTAINS(Adresse_facturation_ville__c, &quot;8&quot;),CONTAINS(Adresse_facturation_ville__c, &quot;9&quot;))))</errorConditionFormula>
+    <errorMessage>Le champ Adresse facturation: ville ne doit pas contenir de chiffres !</errorMessage>
+</ValidationRule>

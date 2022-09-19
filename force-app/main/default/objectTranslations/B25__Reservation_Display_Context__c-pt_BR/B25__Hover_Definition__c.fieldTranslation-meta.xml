@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>A Definição de Pairar do Rato que deve ser mostrada neste contexto.</help>
+    <label></label>
+    <name>B25__Hover_Definition__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

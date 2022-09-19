@@ -1,0 +1,361 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:hasRecordId,flexipage:availableForRecordHome" access="global"
+                controller="LCctrl02_Convsta_evaluationController">
+    <aura:attribute name="pageReference" type="Object" />
+    <aura:attribute name="cryptedKey" type="String" />
+    <aura:attribute name="studentName" type="String" />
+    <aura:attribute name="tutorName" type="String" />
+    <aura:attribute name="companyName" type="String" />
+    <aura:attribute name="currentLanguage" type="String" default="fr"/>
+    
+    <aura:attribute name="errorMessage" type="String" />
+    <aura:attribute name="showErrorPopup" type="Boolean" />
+    <aura:attribute name="someData" type="Boolean" default="false"/>
+    
+    <aura:attribute name="errorSubmitMessage" type="String" />
+    <aura:attribute name="showSubmitErrorPopup" type="Boolean" default="false" />
+    <aura:attribute name="showSubmitSuccessPopup" type="Boolean" default="false" />
+    <aura:attribute name="showConfirmFamilyChangePopup" type="Boolean" default="false" />
+    
+    <aura:attribute name="isGlobalEvalDone" type="Boolean" default="false" />
+    <aura:attribute name="isEarlyMakerCompetencesEvalDone" type="Boolean" default="false" />
+    <aura:attribute name="isComportementCompetencesEvalDone" type="Boolean" default="false" />
+    <aura:attribute name="isCompetencesMetiersEvalDone" type="Boolean" default="false" />
+    <aura:attribute name="isFormComplete" type="Boolean" default="false" />
+    
+    
+    
+    <aura:attribute name="isCompetenceListEarlyMakerOkay" type="Boolean" default="false" />
+    <aura:attribute name="isCompetenceListComportementOkay" type="Boolean" default="false" />
+    <aura:attribute name="isCompetenceListMetiersOkay" type="Boolean" default="false" />
+    <aura:attribute name="isOptinMarketing" type="Boolean" default="false" />
+    <aura:attribute name="isReadOnly" type="Boolean" default="false" /><!-- TODO set to default false -->
+    
+    
+    
+    <aura:attribute name="competenceEarlyMakerAverageRating" type="Integer" default="" />
+    <aura:attribute name="competenceComportementAverageRating" type="Integer" default="" />
+    <aura:attribute name="competenceMetiersAverageRating" type="Integer" default="" />
+    <aura:attribute name="globalRating" type="String" default="" />
+    
+    <aura:attribute name="nextMetierCompFamily" type="String" default="" />
+    <aura:attribute name="oldMetierCompFamily" type="String" default="" />
+    <aura:attribute name="title" type="String" default=""/>
+    
+    
+    <aura:attribute name="globalRatingPossibleValues" type="Object[]" default="[{'label': '0', 'value': '0'},{'label': '1', 'value': '1'},{'label': '2', 'value': '2'},{'label': '3', 'value': '3'},{'label': '4', 'value': '4'},{'label': '5', 'value': '5'},{'label': '6', 'value': '6'},{'label': '7', 'value': '7'},{'label': '8', 'value': '8'},{'label': '9', 'value': '9'},{'label': '10', 'value': '10'},{'label': '11', 'value': '11'},{'label': '12', 'value': '12'},{'label': '13', 'value': '13'},{'label': '14', 'value': '14'},{'label': '15', 'value': '15'},{'label': '16', 'value': '16'},{'label': '17', 'value': '17'},{'label': '18', 'value': '18'},{'label': '19', 'value': '19'},{'label': '20', 'value': '20'}]" />
+    
+    
+    <aura:attribute name="chosenMetierCompFamily" type="String" default="" />
+    
+    <aura:attribute name="formData" type="object" default="{}" />
+    <aura:attribute name="competences" type="Convsta_Competence__c[]" default="[]" />
+    
+    <aura:handler name="change" value="{! v.formData }" action="{! c.checkForm }"/>
+    <aura:handler name="change" value="{! v.competenceEarlyMakerAverageRating }" action="{! c.checkForm }"/>
+    <aura:handler name="change" value="{! v.competenceComportementAverageRating }" action="{! c.checkForm }"/>
+    <aura:handler name="change" value="{! v.competenceMetiersAverageRating }" action="{! c.checkForm }"/>
+    
+    <!--aura:handler event="force:refreshView" action="{!c.refreshPage}" /-->
+    <aura:handler event="c:Convsta_eval_ratingChanged" action="{! c.refreshAverageRatings }" />
+    <aura:handler event="c:Convsta_eval_spinner" action="{! c.toggleSpinner }" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <aura:if isTrue="{! v.showSubmitSuccessPopup }">
+        <div class="submitSuccess">
+            <section style="height:640px" role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        {! $Label.c.Convsta_eval_submitValidation }<br/>
+                        {! $Label.c.convsta_eval_vos_apprciations }<br/>
+                        {! $Label.c.convsta_eval_thank_evaluateur }<br/>
+                        {!$Label.c.convsta_eval_accueil_nouvel_etudiant}<br/>
+                        {!$Label.c.convsta_eval_canClosePage}<br/>
+                    </div>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </aura:if>
+    <aura:if isTrue="{! v.showConfirmFamilyChangePopup }">            
+        <div>
+            <section style="height:640px" role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">                        
+                    <header class="slds-modal__header">
+                        <h2 id="error-modal" class="slds-text-heading_medium slds-hyphenate">
+                            Changer de famille de compétences
+                        </h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <p>Êtes-vous sur de vouloir changer la famille de compétences Métiers ?</p>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <button onclick="{! c.hideConfirmFamilyChangePopup }" class="slds-button slds-button_neutral">Annuler</button>
+                        <button onclick="{! c.doCompFamilyChange }" class="slds-button slds-button_brand">Confirmer</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </aura:if>        
+    <aura:if isTrue="{! v.showErrorPopup }">
+        <div >
+            <section style="height:640px" role="dialog" tabindex="-1" aria-labelledby="error-modal" aria-modal="true"
+                     aria-describedby="error-modal" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <header class="slds-modal__header">
+                        <h2 id="error-modal" class="slds-text-heading_medium slds-hyphenate">Une erreur est survenue
+                        </h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <p>{! v.errorMessage }</p>
+                    </div>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+        
+    </aura:if>
+    <aura:if isTrue="{! v.showSubmitErrorPopup }">
+        <div class="">
+            <section style="height:640px" role="dialog" tabindex="-1" aria-labelledby="error-modal" aria-modal="true"
+                     aria-describedby="error-modal" class="slds-modal slds-fade-in-open ">
+                
+                <div class="slds-modal__container ">
+                    
+                    <header class="slds-modal__header submitErrorPopup">
+                        <span class="slds-button slds-modal__close closeIcon slds-button_icon-bare slds-button_icon-inverse" onclick="{! c.hideSubmitErrorPopup }">X</span>
+                        <h2 id="error-modal" class="slds-text-heading_medium slds-hyphenate">
+                            Formulaire non soumis
+                        </h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="submit-error-modal">
+                        <ul>
+                            <aura:unescapedHtml value="{! v.errorSubmitMessage }" />
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </aura:if>
+    <div aura:id="slds-spinner" class="slds-spinner_container">
+        <div class="slds-spinner slds-spinner--medium" role="alert">
+            <span class="slds-assistive-text">Loading</span>
+            <div class="slds-spinner__dot-a"></div>
+            <div class="slds-spinner__dot-b"></div>
+        </div>
+    </div>
+    <aura:if isTrue="{! v.someData }">
+        <div>
+            <div class="slds-text-heading_large">{! v.title} </div>
+            <table id="earlyComps">
+                <tbody>
+                    <lightning:accordion aura:id="accordion" allowMultipleSectionsOpen="true" activeSectionName="{! $Label.c.Convsta_eval_detailsStage }">                
+                        <lightning:accordionSection name="{! $Label.c.Convsta_eval_detailsStage }"
+                                                    label="{! $Label.c.Convsta_eval_detailsStage }">
+                            <div >         
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="form-element-missionName">{!
+                                        $Label.c.Convsta_eval_titreMission }</label>
+                                    <div class="slds-form-element__control">
+                                        <input type="text" id="form-element-missionName"
+                                               value="{! v.formData.missionName }" disabled="true" class="slds-input" />
+                                    </div>
+                                </div>                                
+                            </div>
+                        </lightning:accordionSection>
+                        <lightning:accordionSection name="{! $Label.c.Convsta_eval_compEarlyMaker }"
+                                                    label="{! $Label.c.Convsta_eval_compEarlyMaker }">
+                            
+                            <aura:set attribute="actions">
+                                <aura:if isTrue="{! !v.isReadOnly }">
+                                    <lightning:buttonGroup>
+                                        <lightning:buttonIcon iconName="{!v.isEarlyMakerCompetencesEvalDone ? 'utility:check':'utility:new_direct_message'}"
+                                                              variant="bare"  value="1" onclick="{!c.checkForm}"/> 
+                                    </lightning:buttonGroup>
+                                </aura:if>
+                            </aura:set>
+                            <c:Convsta_Eval_CompetenceList isReadOnly="{! v.isReadOnly }" language="{! v.currentLanguage }"
+                                                           competences="{! v.formData.competences }" wantedType="1EarlyMaker"
+                                                           />
+                            <br/>
+                            <div class="slds-form-element">
+                                <label class="slds-form-element__label">{! $Label.c.Convsta_eval_commEarlyMaker }</label>
+                                <div class="slds-form-element__control">
+                                    
+                                    <aura:if isTrue="{! v.competenceEarlyMakerAverageRating &lt;= 2 }">
+                                        <aura:set attribute="else">""
+                                            <lightning:textarea name="earlyMakerComment" disabled="{! v.isReadOnly }"
+                                                                aura:id="earlyMakerComment" onblur="{! c.updateEvalCommEarlyMakerJS }"
+                                                                value="{! v.formData.currentEvaluation.Commentaire_EarlyMaker__c }"/>
+                                        </aura:set>
+                                        <lightning:textarea name="earlyMakerComment" disabled="{! v.isReadOnly }"
+                                                            aura:id="earlyMakerComment" required="true"
+                                                            onblur="{! c.updateEvalCommEarlyMakerJS }"
+                                                            value="{! v.formData.currentEvaluation.Commentaire_EarlyMaker__c }"
+                                                            messageWhenValueMissing="{! $Label.c.Convsta_eval_commRequisCauseNote }" 
+                                                            class="slds-has-error"/>
+                                    </aura:if>
+                                </div>
+                            </div>
+                        </lightning:accordionSection>
+                        <lightning:accordionSection name="{! $Label.c.Convsta_eval_compComport }"
+                                                    label="{! $Label.c.Convsta_eval_compComport }">
+                            
+                            
+                            <aura:set attribute="actions">
+                                <aura:if isTrue="{! !v.isReadOnly }">
+                                    <lightning:buttonGroup>
+                                        <lightning:buttonIcon iconName="{!v.isComportementCompetencesEvalDone ? 'utility:check':'utility:new_direct_message'}"
+                                                              variant="bare"  value="1" onclick="{!c.checkForm}"/> 
+                                    </lightning:buttonGroup>
+                                </aura:if>
+                            </aura:set>
+                            {!$Label.c.convsta_eval_selectedCompetence }
+                            <br/>                            <br/>
+                            <c:Convsta_Eval_CompetenceList isReadOnly="{! v.isReadOnly }" language="{! v.currentLanguage }"
+                                                           competences="{! v.formData.competences }" wantedType="2Comportement" mission="{! v.formData.currentMission }"/>
+                            
+                            
+                            <div class="slds-form-element">
+                                <br/>
+                                <label class="slds-form-element__label">{! $Label.c.Convsta_eval_commComport }</label>
+                                <div class="slds-form-element__control">
+                                    <!-- NB: required à la validation si v.competenceComportementAverageRating <= 2 -->
+                                    <aura:if isTrue="{! v.competenceComportementAverageRating &lt;= 2 }">
+                                        <aura:set attribute="else">
+                                            <lightning:textarea name="comportementComment" disabled="{! v.isReadOnly }"
+                                                                aura:id="comportementComment" onblur="{! c.updateEvalCommComportJS }"
+                                                                value="{! v.formData.currentEvaluation.Commentaire_Comportementales__c }" />
+                                        </aura:set>
+                                        <!-- Un commentaire est requis si la note moyenne de ces compétences est égale ou inférieure à 2. -->
+                                        <lightning:textarea name="comportementComment" disabled="{! v.isReadOnly }"
+                                                            aura:id="comportementComment" required="true"
+                                                            onblur="{! c.updateEvalCommComportJS }"
+                                                            value="{! v.formData.currentEvaluation.Commentaire_Comportementales__c }"
+                                                            messageWhenValueMissing="{! $Label.c.Convsta_eval_commRequisCauseNote }"
+                                                            class="slds-has-error"/>
+                                    </aura:if>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                        </lightning:accordionSection>          
+                        <lightning:accordionSection name="{! $Label.c.Convsta_eval_compMetiers }"
+                                                    label="{! $Label.c.Convsta_eval_compMetiers }">
+                            
+                            <aura:set attribute="actions">
+                                <aura:if isTrue="{! !v.isReadOnly }">
+                                    <lightning:buttonGroup>
+                                        <lightning:buttonIcon iconName="{!v.isCompetencesMetiersEvalDone ? 'utility:check':'utility:new_direct_message'}"
+                                                              variant="bare"  value="1" onclick="{!c.checkForm}"/> 
+                                    </lightning:buttonGroup>
+                                </aura:if>
+                            </aura:set>
+                            <lightning:layout >
+                                <lightning:layoutItem padding="around-medium" size="3" > 
+                                    <lightning:combobox name="{! $Label.c.Convsta_eval_familleMetiers }"
+                                                        aura:id="compFamilyPicklist" label="{! $Label.c.Convsta_eval_familleMetiers }"
+                                                        disabled="{! v.isReadOnly }" value="{! v.chosenMetierCompFamily }"
+                                                        options="{! v.formData.evalCompFamillyPicklistValues }" placeholder=""
+                                                        onchange="{! c.handleCompFamilyChange }" />
+                                </lightning:layoutItem>
+                            </lightning:layout>
+                            <ul class="metiersCompetences-container competences-container">
+                                <aura:iteration items="{! v.formData.competences }" var="oneComp">
+                                    <aura:if isTrue="{! and(oneComp.type__c == '3Métier', oneComp.Famille_metiers__c == v.chosenMetierCompFamily) }">
+                                        <li>
+                                            <div class="oneComp-rating">
+                                                <c:Convsta_star_rating isReadOnly="{! v.isReadOnly }" competence="{# oneComp }"
+                                                                       rating='{# oneComp.rating__c }' language="{! v.currentLanguage }"/>
+                                            </div>
+                                        </li>
+                                    </aura:if>
+                                </aura:iteration>
+                            </ul>
+                            <br/>                            
+                            <div class="slds-form-element">
+                                
+                                <!--div id="temp-display-average-rating">
+                                {! 'competenceMetiersAverageRating : ' + v.competenceMetiersAverageRating}
+                            </div-->
+                                <label class="slds-form-element__label">{! $Label.c.Convsta_eval_commMetiers }</label>
+                                <div class="slds-form-element__control">
+                                    <!-- NB: required à la validation si v.competenceMetiersAverageRating <= 2 -->
+                                    <aura:if isTrue="{! v.competenceMetiersAverageRating &lt;= 2 }">
+                                        <aura:set attribute="else">
+                                            <lightning:textarea name="metiersComment"
+                                                                disabled="{! v.isReadOnly }"
+                                                                aura:id="metiersComment"
+                                                                onblur="{! c.updateEvalCommMetiersJS }"
+                                                                value="{! v.formData.currentEvaluation.Commentaire_Metiers__c }"  />
+                                        </aura:set>
+                                        <!-- Un commentaire est requis si la note moyenne de ces compétences est égale ou inférieure à 2. -->
+                                        <lightning:textarea name="metiersComment"
+                                                            disabled="{! v.isReadOnly }"
+                                                            aura:id="metiersComment"
+                                                            required="true"
+                                                            onblur="{! c.updateEvalCommMetiersJS }"
+                                                            value="{! v.formData.currentEvaluation.Commentaire_Metiers__c }"
+                                                            messageWhenValueMissing="{! $Label.c.Convsta_eval_commRequisCauseNote }"
+                                                            class="slds-has-error"/>
+                                    </aura:if>
+                                </div>
+                            </div>
+                        </lightning:accordionSection>
+                        <lightning:accordionSection name="{! $Label.c.Convsta_eval_evalGenerale }" label="{! $Label.c.Convsta_eval_evalGenerale }">
+                            
+                            
+                            <aura:set attribute="actions">
+                                <aura:if isTrue="{! !v.isReadOnly }">
+                                    <lightning:buttonGroup>
+                                        <lightning:buttonIcon iconName="{!v.isGlobalEvalDone ? 'utility:check':'utility:new_direct_message'}"
+                                                              variant="bare"  value="1" onclick="{!c.checkForm}"/> 
+                                    </lightning:buttonGroup>
+                                </aura:if>
+                            </aura:set>
+                            <div class="global-rating">
+                                <lightning:layout>
+                                    <lightning:layoutItem padding="around-medium" size="3" >
+                                        <lightning:combobox name="{! $Label.c.Convsta_eval_noteGenerale }" label="{! $Label.c.Convsta_eval_noteGenerale }"
+                                                            class="no-floating-star"
+                                                            options="{! v.globalRatingPossibleValues }"
+                                                            required="true" 
+                                                            value="{! v.globalRating }"
+                                                            disabled="{! v.isReadOnly }"
+                                                            onchange="{! c.handleGlobalRatingChange }"/>
+                                    </lightning:layoutItem>
+                                </lightning:layout>
+                                
+                                
+                                
+                                
+                                <div class="slds-form-element__control">
+                                    
+                                    <label class="slds-form-element__label">{! $Label.c.Convsta_eval_commGlobal }</label>  
+                                    <lightning:textarea name="GlobalComment"
+                                                        required="true"
+                                                        disabled="{! v.isReadOnly }"
+                                                        onblur="{! c.updateEvalCommGlobalJS }"
+                                                        value="{! v.formData.currentEvaluation.Commentaire_global__c }"
+                                                        messageWhenValueMissing="{! $Label.c.Convsta_eval_commGeneral }" />
+                                </div>
+                            </div>
+                        </lightning:accordionSection>
+                    </lightning:accordion>
+                    <aura:if isTrue="{! !v.isReadOnly }">
+                        <div class="submit-button-container">
+                            <button class="slds-button slds-button_brand" onclick="{! c.submitEval }">{! $Label.c.Convsta_eval_submitBtn }</button>
+                        </div>
+                    </aura:if>
+                </tbody>
+            </table>
+            
+        </div>
+        <aura:set attribute="else" >
+            loading.
+        </aura:set>
+    </aura:if>
+</aura:component>

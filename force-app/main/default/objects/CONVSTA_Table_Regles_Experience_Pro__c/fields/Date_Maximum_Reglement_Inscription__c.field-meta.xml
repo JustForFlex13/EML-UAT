@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Maximum_Reglement_Inscription__c</fullName>
+    <description>La date maximum à laquelle l&apos;étudiant doit avoir réglé ses frais d&apos;inscription</description>
+    <externalId>false</externalId>
+    <label>Date Maximum Pour Régler l&apos;Inscription</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

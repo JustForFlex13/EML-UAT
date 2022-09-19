@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edit_record_only_if_responsible</fullName>
+    <active>false</active>
+    <errorConditionFormula>Responsable__r.Id != $User.Id</errorConditionFormula>
+    <errorMessage>Vous n&apos;êtes pas le responsable de ce programme</errorMessage>
+</ValidationRule>

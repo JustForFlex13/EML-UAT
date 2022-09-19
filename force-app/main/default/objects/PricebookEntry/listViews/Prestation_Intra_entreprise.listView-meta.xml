@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prestation_Intra_entreprise</fullName>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT.NAME</columns>
+    <columns>PRODUCT.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT.DEFAULT_PRICE</columns>
+    <columns>PRODUCT.ACTIVE</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>PRICEBOOK.NAME</field>
+        <operation>equals</operation>
+        <value>Prestation Intra entreprise</value>
+    </filters>
+    <label>Prestation Intra entreprise</label>
+    <language>fr</language>
+    <queue>Prestation Intra entreprise</queue>
+</ListView>

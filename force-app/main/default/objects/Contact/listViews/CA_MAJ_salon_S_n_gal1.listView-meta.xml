@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CA_MAJ_salon_S_n_gal1</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Pays__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Nombre_opportunites_sur_criteres__c</columns>
+    <columns>Souhait_programme__c</columns>
+    <columns>Date_de_cr_ation_contact__c</columns>
+    <columns>Nature_du_premier_contact__c</columns>
+    <columns>D_tail_canal_d_acquisition__c</columns>
+    <columns>Niveau_d_tudes__c</columns>
+    <columns>CONTACT.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>D_tail_canal_d_acquisition__c</field>
+        <operation>equals</operation>
+        <value>Salon formation Senegal</value>
+    </filters>
+    <label>CA_MAJ salon Sénégal</label>
+    <language>fr</language>
+</ListView>

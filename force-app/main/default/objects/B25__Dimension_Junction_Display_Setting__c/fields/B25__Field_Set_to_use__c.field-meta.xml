@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Field_Set_to_use__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When this related list is shown on the reservation form these fields are added to each row on the related list.
+Leave empty to remove the dropdown of related list fields.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette liste connexe est affichée sur le formulaire de réservation, ces champs sont ajoutés à chaque ligne de la liste connexe. Laissez ce champ vide pour supprimer la liste déroulante des champs de la liste connexe.</inlineHelpText>
+    <label>Field Set to use</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

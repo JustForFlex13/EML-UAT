@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Relance du formulaire d&apos;évaluation pour l&apos;étudiant</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Evaluateur relance formulaire</name>
+    <style>none</style>
+    <subject>Rappel : Evaluation de votre stagiaire {!Convsta_Evaluation__c.Etudiant__c} / Reminder : Evaluation of your intern {!Convsta_Evaluation__c.Etudiant__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

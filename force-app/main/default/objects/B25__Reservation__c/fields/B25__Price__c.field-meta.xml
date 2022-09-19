@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Price__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When filled in, this overrides the value in the Total Price field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque ce champ est rempli, ce champ remplace la valeur du champ de prix total.</inlineHelpText>
+    <label>Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

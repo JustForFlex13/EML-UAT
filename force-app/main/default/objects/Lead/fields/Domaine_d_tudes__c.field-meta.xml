@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domaine_d_tudes__c</fullName>
+    <externalId>false</externalId>
+    <label>Domaine d&apos;études</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Autres</fullName>
+                <default>false</default>
+                <label>Autres</label>
+            </value>
+            <value>
+                <fullName>CP littéraires</fullName>
+                <default>false</default>
+                <label>CP littéraires</label>
+            </value>
+            <value>
+                <fullName>Droit, Economie, Sciences de Gestion</fullName>
+                <default>false</default>
+                <label>Droit, Economie, Sciences de Gestion</label>
+            </value>
+            <value>
+                <fullName>Ecole de commerce française</fullName>
+                <default>false</default>
+                <label>Ecole de commerce française</label>
+            </value>
+            <value>
+                <fullName>Gestion</fullName>
+                <default>false</default>
+                <label>Gestion</label>
+            </value>
+            <value>
+                <fullName>Ingénieur</fullName>
+                <default>false</default>
+                <label>Ingénieur</label>
+            </value>
+            <value>
+                <fullName>Santé</fullName>
+                <default>false</default>
+                <label>Santé</label>
+            </value>
+            <value>
+                <fullName>Sciences</fullName>
+                <default>false</default>
+                <label>Sciences</label>
+            </value>
+            <value>
+                <fullName>Sciences humaines</fullName>
+                <default>false</default>
+                <label>Sciences humaines</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

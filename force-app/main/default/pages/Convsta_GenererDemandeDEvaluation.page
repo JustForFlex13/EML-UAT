@@ -1,0 +1,210 @@
+<apex:page standardController="Convsta_Evaluation__c"
+           extensions="Convsta_GenererDemandeDEvaluation_CX"
+           applyBodyTag="false" 
+           showHeader="false"
+           renderas="pdf"
+           cache="false"
+           standardStylesheets="false">
+   
+    <!-- LOGO -->
+    <head>
+        <style type="text/css" media="print">
+             *{
+            	font-family: Arial Unicode MS;
+            	}
+            @page {
+            		margin-top: 200px;
+            		margin-bottom: 70px;
+            
+             	@top-center {
+                    content: element(header);
+               	 }
+             	@bottom-center {
+                    content: element(footer);
+               	 }
+           	}
+            
+            div.header{
+              	display: block;
+            	position: running(header);
+            }
+            
+            div.footer {
+                position: running(footer);
+                display: block;
+            	margin-bottom: 5px;
+            }
+            
+            .pagenumber:before {
+                 content: counter(page);
+             }
+           	.pagecount:before {
+                 content: counter(pages);
+             }
+            
+			 div.page {
+            	display: block;
+            	font-size: 10px;
+            	text-align: center;
+            }  
+        </style>
+        </head>
+    
+        <div class="header">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <apex:image id="logoEM" value="{!$Resource.convsta_Logo_EM}" width="140" height="70"/>
+                    </td>
+                    <td>
+                        <apex:image id="logoPaulBocuse" value="{!$Resource.Logo_Institut_Paul_Bocuse}" rendered="{!Convsta_Evaluation__c.Demande__r.Convsta_Table_des_Regles_Experience_Pro__r.Afficher_logo_Paul_Bocuse__c}" width="150" height="90"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <br/>
+    
+    <!-- EVALUATION -->
+    <center style="font-size: 14px;"><b>EVALUATION DE STAGE DE &nbsp;<apex:outputText value="{!Convsta_Evaluation__c.Etudiant__r.Name}"/>
+    <br/>INTERNSHIP PERFORMANCE APPRAISAL</b></center>
+    
+     <!-- COMPTEUR -->       
+            <div class="page">Page <span class="pagenumber"/>/<span class="pagecount"/></div>
+       	</div>
+        
+     <!-- NOTE DE BAS DE PAGE -->
+    <div class="footer">
+        <apex:image id="footer_img" value="{!$Resource.convsta_footer_eval}" style="max-width: 100%; height: auto;"/>
+    </div>  
+            
+    <!-- FRANCAIS -->
+    <apex:pageBlock rendered="{!demande.Convsta_Langue__c == 'Français'}">
+    <div class="content" style="page-break-after: always; font-size: 14px;">
+    Vous trouverez ci-dessous l’évaluation liée à votre stage effectué au sein de l’entreprise&nbsp;<apex:outputText value="{!Convsta_Evaluation__c.Demande__r.Convsta_Entreprise_Name__c}"/>
+    et qui a eu lieu du&nbsp;<apex:outputText value="{!Convsta_Evaluation__c.Demande__r.Convsta_DateStart__c} au {!Convsta_Evaluation__c.Demande__r.Convsta_DateEnd__c}"/>.<br/>
+    Cette évaluation comporte 3 pages. Elle est générée par emlyon business school et retranscrit les données transmises par l’entreprise d’accueil.
+    <br/><br/><br/>
+    Note globale/Final Grade: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/20
+    <br/><br/><br/>
+    Cordialement,
+    <br/>
+	Le Career Center
+    <br/>
+	emlyon business school
+    </div>
+
+    <div class="content" style="page-break-after: always; font-size: 12px;">
+    Vous trouverez ci-dessous l’évaluation liée à votre stage effectué au sein de l’entreprise&nbsp;<apex:outputText value="{!Convsta_Evaluation__c.Demande__r.Convsta_Entreprise_Name__c}"/>
+    et qui a eu lieu du&nbsp;<apex:outputText value="{!Convsta_Evaluation__c.Demande__r.Convsta_DateStart__c} au {!Convsta_Evaluation__c.Demande__r.Convsta_DateEnd__c}"/>.<br/>
+    Cette évaluation comporte 3 pages. Elle est générée par emlyon business school et retranscrit les données transmises par l’entreprise d’accueil.
+    <br/>    
+        <apex:pageBlock Title="Compétences Early Maker " rendered="{!demande.Convsta_Langue__c == 'Français'}">
+            <apex:pageBlockTable id="repeatCompetenceEM" value="{!lCompEarlyMaker}" var="comp">
+              	<apex:column value="{!comp.Name__c}:" />
+                <apex:column >&nbsp;&nbsp;&nbsp;&nbsp;<img alt="stars" src="/img/samples/stars_000.gif" id="valueCompetenceEM"/></apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        <br/>
+        <apex:pageBlock Title="Compétences comportementales " rendered="{!demande.Convsta_Langue__c == 'Français'}">
+            <apex:pageBlockTable id="repeatCompetanceComportem" value="{!lCompComportem}" var="comp">
+              	<apex:column value="{!comp.Name__c}:" />
+                <apex:column >&nbsp;&nbsp;&nbsp;&nbsp;<img alt="checkboxes" src="/img/samples/stars_000.gif" id="valueCompetenceComportem"/></apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        <br/>
+        <apex:outputText value="{!Convsta_Evaluation__c.Famille_competences_metier__c}" rendered="false"/>
+        <apex:pageBlock Title="Compétences métier" rendered="{!demande.Convsta_Langue__c == 'Français'}">
+            <apex:pageBlockTable id="repeatCompetanceMetier" value="{!lCompMetier}" var="comp">
+              	<apex:column value="{!comp.Name__c}:" id="valueCompetenceMetier"/>
+                <apex:column >&nbsp;&nbsp;&nbsp;&nbsp;<img alt="checkboxes" src="/img/samples/stars_000.gif"/></apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        <br/>
+    </div>
+
+    <div class="content">
+    	<p style="font-size: 12px;">
+        Vous trouverez ci-dessous l’évaluation liée à votre stage effectué au sein de l’entreprise&nbsp;<apex:outputText value="{!Convsta_Evaluation__c.Demande__r.Convsta_Entreprise_Name__c}"/>
+    et qui a eu lieu du&nbsp;<apex:outputText value="{!Convsta_Evaluation__c.Demande__r.Convsta_DateStart__c} au {!Convsta_Evaluation__c.Demande__r.Convsta_DateEnd__c}"/>.<br/>
+    Cette évaluation comporte 3 pages. Elle est générée par emlyon business school et retranscrit les données transmises par l’entreprise d’accueil.
+        </p>
+    	<article>
+    	<section>Circonstances de déroulement du stage :
+    		<p style="margin-bottom:200px;">&nbsp;</p>
+    	</section>
+    
+    	<section><b>Evaluation globale :</b>
+    		<p style="font-size: 13px; margin-bottom:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/20</p>
+    	</section>
+
+    	<section><b>Commentaire global :</b>
+            <p style="margin-bottom:200px;">&nbsp;</p>
+        </section>
+    </article>
+    </div>
+    </apex:pageBlock>
+
+     <!-- ANGLAIS -->
+     <apex:pageBlock rendered="{!IF(OR(demande.Convsta_Langue__c == 'Anglais', demande.Convsta_Langue__c == 'Espagnol'), TRUE, fALSE)}">
+     <div class="content" style="page-break-after: always; font-size: 14px;">
+    Please find below your performance appraisal for the internship you did at &nbsp;<apex:outputText value="{!Convsta_Evaluation__c.Demande__r.Convsta_Entreprise_Name__c}"/>
+    from&nbsp;<apex:outputText value="{0, date, MM'/'dd'/'yyyy}"><apex:param value="{!Convsta_Evaluation__c.Demande__r.Convsta_DateStart__c}"/></apex:outputText> to&nbsp;<apex:outputText value="{0, date, MM'/'dd'/'yyyy}"><apex:param value="{!Convsta_Evaluation__c.Demande__r.Convsta_DateEnd__c}"/></apex:outputText>.<br/>
+    This appraisal includes 3 pages. It is created by emlyon business school and accurately transcribes information provided by the host company.
+    <br/><br/><br/>
+    Final Grade: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/20
+    <br/><br/><br/>
+    Best regards
+    <br/>
+	Career Center
+    <br/>
+	emlyon business school
+    </div>
+
+    <div class="content" style="page-break-after: always; font-size: 12px;">
+    Please find below your performance appraisal for the internship you did at &nbsp;<apex:outputText value="{!Convsta_Evaluation__c.Demande__r.Convsta_Entreprise_Name__c}"/>
+    from&nbsp;<apex:outputText value="{0, date, MM'/'dd'/'yyyy}"><apex:param value="{!Convsta_Evaluation__c.Demande__r.Convsta_DateStart__c}"/></apex:outputText> to&nbsp;<apex:outputText value="{0, date, MM'/'dd'/'yyyy}"><apex:param value="{!Convsta_Evaluation__c.Demande__r.Convsta_DateEnd__c}"/></apex:outputText>.<br/>
+    This appraisal includes 3 pages. It is created by emlyon business school and accurately transcribes information provided by the host company.
+    <br/>
+    <apex:pageBlock Title="Early makers skills ">
+            <apex:pageBlockTable id="repeatCompetenceEMEng" value="{!lCompEarlyMaker}" var="comp">
+              	<apex:column value="{!comp.Name_En__c}:" />
+                <apex:column >&nbsp;&nbsp;&nbsp;&nbsp;<img alt="stars" src="/img/samples/stars_000.gif" id="valueCompetenceEM"/></apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        <apex:pageBlock Title="Behavioral competencies">
+            <apex:pageBlockTable id="repeatCompetanceComportemEng" value="{!lCompComportem}" var="comp">
+              	<apex:column value="{!comp.Name_En__c}:" />
+                <apex:column >&nbsp;&nbsp;&nbsp;&nbsp;<img alt="stars" src="/img/samples/stars_000.gif" id="valueCompetenceComportem"/></apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        <apex:pageBlock Title="Job skills" rendered="{!IF(OR(demande.Convsta_Langue__c == 'Anglais', demande.Convsta_Langue__c == 'Espagnol'), TRUE, fALSE)}">
+            <apex:pageBlockTable id="repeatCompetanceMetierEng" value="{!lCompMetier}" var="comp">
+              	<apex:column value="{!comp.Name_En__c}:" />
+                <apex:column >&nbsp;&nbsp;&nbsp;&nbsp;<img alt="stars" src="/img/samples/stars_000.gif" id="valueCompetenceMetier"/></apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </div>
+
+<div class="content">
+    	<p style="font-size: 12px;">
+      Please find below your performance appraisal for the internship you did at &nbsp;<apex:outputText value="{!Convsta_Evaluation__c.Demande__r.Convsta_Entreprise_Name__c}"/>
+    from&nbsp;<apex:outputText value="{0, date, MM'/'dd'/'yyyy}"><apex:param value="{!Convsta_Evaluation__c.Demande__r.Convsta_DateStart__c}"/></apex:outputText> to&nbsp;<apex:outputText value="{0, date, MM'/'dd'/'yyyy}"><apex:param value="{!Convsta_Evaluation__c.Demande__r.Convsta_DateEnd__c}"/></apex:outputText>.<br/>
+    This appraisal includes 3 pages. It is created by emlyon business school and accurately transcribes information provided by the host company.
+        </p>
+    	<article>
+    	<section>Circonstances de déroulement du stage :
+    		<p style="margin-bottom:200px;">&nbsp;</p>
+    	</section>
+    
+    	<section><b>Final grade :</b>
+    		<p style="font-size: 13px; margin-bottom:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/20</p>
+    	</section>
+
+    	<section><b>Global apreciation :</b>
+            <p style="margin-bottom:200px;">&nbsp;</p>
+        </section>
+    </article>
+    </div>
+     </apex:pageBlock>
+</apex:page>

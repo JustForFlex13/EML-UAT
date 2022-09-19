@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__NumberofReservationsField__c</fullName>
+    <defaultValue>&apos;1&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>How many reservations should be created when this rule triggers? Either reference a field on opportunity or opportunity product, or fill in a literal quantity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Combien de réservations doivent être créées lorsque cette règle se déclenche ? Faites soit référence à un champ pour l’opportunité ou le produit d’opportunité, soit saisissez une quantité littérale.</inlineHelpText>
+    <label>Number of Reservations to Create</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

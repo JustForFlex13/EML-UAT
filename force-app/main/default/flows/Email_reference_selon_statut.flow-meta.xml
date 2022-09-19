@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <description>La décision choisit quel email choisir pour renseigner l&apos;email de référence.
+Prio 1 : Email Em-Lyon 
+Prio 2 : Email Personnel</description>
+        <name>Choix_Email_de_Reference_Etudiant</name>
+        <label>Choix d&apos;Email de Référence Etudiant</label>
+        <locationX>451</locationX>
+        <locationY>454</locationY>
+        <defaultConnectorLabel>Résultat par défaut</defaultConnectorLabel>
+        <rules>
+            <name>Choix_Email_EM_Lyon</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>contact.Email_EM_Lyon__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Change_Email_ref_education_etudiant</targetReference>
+            </connector>
+            <label>Choix Email EM-Lyon</label>
+        </rules>
+        <rules>
+            <name>Choix_Email_perso</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>contact.Adresse_Email_Personnelle__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Change_Email_ref_perso_etudiant</targetReference>
+            </connector>
+            <label>Choix Email perso</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>La décision choisit quel email choisir pour renseigner l&apos;email de référence.
+Prio 1 : Email Professionnel
+Prio 2 : Email Personnel
+Prio 3 : Email Em-Lyon</description>
+        <name>Choix_Email_de_Reference_Pro</name>
+        <label>Choix d&apos;Email de Référence Pro</label>
+        <locationX>447</locationX>
+        <locationY>190</locationY>
+        <defaultConnectorLabel>Résultat par défaut</defaultConnectorLabel>
+        <rules>
+            <name>Choix_Email_Pro</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>contact.Email_de_repli__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Change_Email_ref_pro_pro</targetReference>
+            </connector>
+            <label>Choix Email Pro</label>
+        </rules>
+        <rules>
+            <name>Choix_Email_perso_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>contact.Adresse_Email_Personnelle__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Change_Email_ref_perso_pro</targetReference>
+            </connector>
+            <label>Choix Email perso</label>
+        </rules>
+        <rules>
+            <name>Choix_Email_EM_Lyon_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>contact.Email_EM_Lyon__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Change_Email_ref_education_pro</targetReference>
+            </connector>
+            <label>Choix Email EM-Lyon</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Choix_statut</name>
+        <label>Choix statut</label>
+        <locationX>250</locationX>
+        <locationY>450</locationY>
+        <defaultConnectorLabel>Résultat par défaut</defaultConnectorLabel>
+        <rules>
+            <name>Choix_statut_pro</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>contact.Statut__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Professionnel</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Choix_Email_de_Reference_Pro</targetReference>
+            </connector>
+            <label>Choix statut pro</label>
+        </rules>
+        <rules>
+            <name>Choix_statut_Etudiant</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>contact.Statut__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Etudiant</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Choix_Email_de_Reference_Etudiant</targetReference>
+            </connector>
+            <label>Choix statut Etudiant</label>
+        </rules>
+        <rules>
+            <name>Choix_statut_Prospect</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>contact.Statut__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Prospect Etudiant</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Change_Email_ref_perso_prospect</targetReference>
+            </connector>
+            <label>Choix statut Prospect</label>
+        </rules>
+    </decisions>
+    <description>Récupère les adresses mail par ordre de priorité métier pour remplir Email Référence selon le statut du contact</description>
+    <interviewLabel>Email référence selon statut {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Email référence selon statut</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Change Email de référence par email EM Lyon</description>
+        <name>Change_Email_ref_education_etudiant</name>
+        <label>Change Email ref education pour statut etudiant</label>
+        <locationX>691</locationX>
+        <locationY>374</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>contact.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Email</field>
+            <value>
+                <elementReference>contact.Email_EM_Lyon__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Change Email de référence par email EM Lyon</description>
+        <name>Change_Email_ref_education_pro</name>
+        <label>Change Email ref education pour statut pro</label>
+        <locationX>858</locationX>
+        <locationY>327</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>contact.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Email</field>
+            <value>
+                <elementReference>contact.Email_EM_Lyon__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Change Email de référence par email perso</description>
+        <name>Change_Email_ref_perso_etudiant</name>
+        <label>Change Email ref perso pour statut etudiant</label>
+        <locationX>693</locationX>
+        <locationY>519</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>contact.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Email</field>
+            <value>
+                <elementReference>contact.Adresse_Email_Personnelle__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Change Email de référence par email perso</description>
+        <name>Change_Email_ref_perso_pro</name>
+        <label>Change Email ref perso pour statut pro</label>
+        <locationX>855</locationX>
+        <locationY>196</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>contact.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Email</field>
+            <value>
+                <elementReference>contact.Adresse_Email_Personnelle__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Change Email de référence par email perso</description>
+        <name>Change_Email_ref_perso_prospect</name>
+        <label>Change Email ref perso pour statut prospect</label>
+        <locationX>261</locationX>
+        <locationY>738</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Adresse_Email_Personnelle__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>contact.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Email</field>
+            <value>
+                <elementReference>contact.Adresse_Email_Personnelle__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Change Email de référence par email pro</description>
+        <name>Change_Email_ref_pro_pro</name>
+        <label>Change Email ref pro pour statut pro</label>
+        <locationX>856</locationX>
+        <locationY>50</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>contact.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Email</field>
+            <value>
+                <elementReference>contact.Email_de_repli__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Choix_statut</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>contact</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Contact</objectType>
+    </variables>
+</Flow>

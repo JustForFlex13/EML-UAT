@@ -1,0 +1,115 @@
+{
+  "activeBrandingSetId" : "98114340-5fcb-423f-a47f-36faf02ca7e5",
+  "customCSS" : "@font-face {\n    font-family: 'Convsta_Police_EM_Regular';\n    src: url('titillium-regular-webfont.ttf') format('truetype');\n}\n\n@font-face {\n font-family: 'Convsta_Police_EM_Sans_Regular'; \n    src: url('Al__gre_Sans_Regular_NC.ttf') format('truetype'); \n}\n \n@font-face {\n      font-family: 'Covsta_Police_EM_Semibold'; \n    src: url('titillium-semibold-webfont.ttf') format('truetype');         \n}\n.cProfileCon{\n    width: 30% !important;\n}",
+  "developerName" : "service",
+  "id" : "81b33788-daa1-4c75-9f12-5c0fa5dc65b7",
+  "label" : "Customer Service",
+  "layouts" : {
+    "Inner" : "c3075a1c-3a19-4c43-bd87-839e92093402",
+    "Login" : "fe69d484-207f-46d6-b9a7-ebe7d72babe0",
+    "ServiceNotAvailable" : "ef0b031a-3e93-4d62-8279-2068f7fca7e4"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "fe69d484-207f-46d6-b9a7-ebe7d72babe0",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "5cef6a7b-015f-49e0-ac67-6e4575205dc8",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "9d7c2723-d403-421d-ace0-ff0612879c01",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "72cf7e34-cb0d-48b6-9930-d860da88494c",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "IsDefaultHeaderHidden" : false,
+      "IsDefaultNotificationsHidden" : true
+    },
+    "componentName" : "siteforce:serviceBody",
+    "id" : "c3075a1c-3a19-4c43-bd87-839e92093402",
+    "label" : "Default",
+    "regions" : [ {
+      "id" : "b928ba97-5c39-4fdb-b693-f4bffd922802",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:LC_NoSearch",
+        "id" : "549525a3-4214-4e6f-9ef7-9760174dc02f",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "2e54e4e7-82f3-4c7c-a1dc-c8596c9161ab",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:convsta_profile_menu",
+        "id" : "cbdffbae-ef67-4903-8b7f-898982bdb17d",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "99189912-7b2d-4ca1-8f5e-2246621847ac",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : true,
+          "hideHomeText" : true
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "ad74ae03-0dc8-41e6-b4b5-664704ab036b",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "dfed7bcf-de26-4885-b967-d8ebe62345ea",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "id" : "ea7aa9cb-ccc9-4cda-a220-c154ac4bf0fb",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "id" : "88b83b5a-ce11-4aa9-8acf-3e935fc62a81",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "ef0b031a-3e93-4d62-8279-2068f7fca7e4",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "98e3cd5a-4eee-448a-a4b9-55268306d9ff",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "8cf76b86-4937-46e2-9ec6-389bf584a313",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

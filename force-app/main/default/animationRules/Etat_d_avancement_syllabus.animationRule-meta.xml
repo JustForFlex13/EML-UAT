@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>Etat_d_avancement_syllabus</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Etat d&apos;avancement syllabus</masterLabel>
+    <recordTypeContext>Master</recordTypeContext>
+    <recordTypeName>__MASTER__</recordTypeName>
+    <sobjectType>hed__Course_Offering__c</sobjectType>
+    <targetField>SIS_Status__c</targetField>
+    <targetFieldChangeToValues>Validated</targetFieldChangeToValues>
+</AnimationRule>

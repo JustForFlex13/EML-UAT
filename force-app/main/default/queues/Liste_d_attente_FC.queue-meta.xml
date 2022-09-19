@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Liste d&apos;attente FC</name>
+    <queueMembers>
+        <users>
+            <user>elyassari@eml-executive.com</user>
+            <user>aloi@eml-executive.com</user>
+            <user>lopezbonilla@em-lyon.com</user>
+            <user>papillat@em-lyon.com</user>
+            <user>antonelli@eml-executive.com</user>
+            <user>breysse@eml-executive.com</user>
+            <user>digiovanni@eml-executive.com</user>
+            <user>bruyere@eml-executive.com</user>
+            <user>yakouben@eml-executive.com</user>
+            <user>aguero@eml-executive.com</user>
+            <user>ekollo@eml-executive.com</user>
+            <user>bechaa@em-lyon.com</user>
+            <user>diebolt@eml-executive.com</user>
+            <user>pedriglieri@eml-executive.com</user>
+            <user>wesse@eml-executive.com</user>
+            <user>alves@eml-executive.com</user>
+            <user>pboyeaux@eml-executive.com</user>
+            <user>chavanelle@eml-executive.com</user>
+            <user>aboukaram@eml-executive.com</user>
+            <user>minette@eml-executive.com</user>
+            <user>lafont@eml-executive.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

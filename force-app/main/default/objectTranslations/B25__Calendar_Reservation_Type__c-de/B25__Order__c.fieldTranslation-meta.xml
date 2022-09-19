@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Dropdown-Liste für Reservierungstypen wird auf Basis dieses Felds mit den niedrigen Nummern zuerst sortiert.</help>
+    <label></label>
+    <name>B25__Order__c</name>
+</CustomFieldTranslation>

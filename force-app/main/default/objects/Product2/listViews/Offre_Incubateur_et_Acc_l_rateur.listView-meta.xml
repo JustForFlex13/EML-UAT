@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offre_Incubateur_et_Acc_l_rateur</fullName>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Famille__c</columns>
+    <columns>Type_enregistrement_produit__c</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.FAMILY</field>
+        <operation>equals</operation>
+        <value>Offre Incubateur-accélérateur</value>
+    </filters>
+    <label>ACC/INC Incubateur et Accélérateur</label>
+</ListView>

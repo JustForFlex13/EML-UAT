@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>type_de_formation__c</name>
+    <picklistValues>
+        <masterLabel>OPP-TF10</masterLabel>
+        <translation>Standard</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OPP-TF20</masterLabel>
+        <translation>Sur mesure</translation>
+    </picklistValues>
+</CustomFieldTranslation>

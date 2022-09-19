@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Dimension__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The dimension in which the conflict occurred.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>La dimension dans laquelle le conflit s’est produit.</inlineHelpText>
+    <label>Dimension</label>
+    <referenceTo>B25__Dimension__c</referenceTo>
+    <relationshipLabel>Conflicts</relationshipLabel>
+    <relationshipName>Conflicts</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

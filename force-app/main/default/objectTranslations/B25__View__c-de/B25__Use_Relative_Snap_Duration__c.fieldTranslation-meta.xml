@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn nicht markiert, werden vom Kalender feste Intervalle für die Snap-Dauer genutzt. Nutzer können dann ggf. nicht mehr zur Originalposition schieben.</help>
+    <label></label>
+    <name>B25__Use_Relative_Snap_Duration__c</name>
+</CustomFieldTranslation>

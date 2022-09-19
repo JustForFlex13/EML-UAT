@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die örtliche Startzeit im 24-Std.-Format. Dieses Feld ist nur für Output und nicht für Input vorgesehen.</help>
+    <label></label>
+    <name>B25__Local_Start_Time__c</name>
+</CustomFieldTranslation>

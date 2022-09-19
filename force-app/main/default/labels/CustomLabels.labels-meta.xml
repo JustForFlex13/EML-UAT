@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CONVSTA_nouvelle_demande_cr_e</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>CONVSTA_nouvelle_demande_créée</shortDescription>
+        <value>Votre demande a été créée</value>
+    </labels>
+    <labels>
+        <fullName>Communiry_Evaluation_url</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Community Evaluation url</shortDescription>
+        <value>https://emlyon.force.com/internships/s/eval</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Activity</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_Activity</shortDescription>
+        <value>NAF</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_AlertIE</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_AlertIE</shortDescription>
+        <value>L&apos;utilisation d&apos;Internet Explorer n&apos;est pas recommandée sur ce site.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Annuler</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_Annuler</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Case_Gestionnaire_Front_Office</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Gestionnaire Front Office</shortDescription>
+        <value>Pas encore de gestionnaire en charge</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Case_Status_Front_Office_Brouillon_en_cours_de_validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>Demande en cours de validation</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Case_Status_Front_Office_Experience_Validee</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>Expérience Validée</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Commencer</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Commencer</shortDescription>
+        <value>Commencer</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_ConfirmSoumission</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_ConfirmSoumission</shortDescription>
+        <value>En soumettant votre demande, vous vous engagez auprès de l&apos;entreprise et de l&apos;emLyon Business School.
+Confirmez-vous votre soumission ?</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_ConfirmSoumissionButton</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_ConfirmSoumissionButton</shortDescription>
+        <value>Confirmer la soumission</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_DemandeSoumise</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_DemandeSoumise</shortDescription>
+        <value>Demande soumise avec succès</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_DocType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_DocType</shortDescription>
+        <value>Which document type it is ?</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_DocUploadedMsg</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_DocUploadedMsg</shortDescription>
+        <value>Votre document a été chargé avec succès. Il sera examiné avec votre demande dans les plus brefs délais.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_EM_ResponsableEmailAdress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta EM ResponsableEmailAdress</shortDescription>
+        <value>HUGONNET@em-lyon.com</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_EM_SecondResponsableEmailAdress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta EM SecondResponsableEmailAdress</shortDescription>
+        <value>ext-mozian@eml-executive.com</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_ERR_Case_not_found</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta ERR Case not found</shortDescription>
+        <value>Demande de stage introuvable.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_ERR_Convsta_Evaluation_c_not_found</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta ERR Convsta_Evaluation__c not found</shortDescription>
+        <value>Évaluation introuvable.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_ERR_Expired</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta ERR Expired</shortDescription>
+        <value>La date de fin d&apos;évaluation est dépassée.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_ERR_Missing_from_url</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta ERR Missing from url</shortDescription>
+        <value>Votre lien semble erroné. Veuillez prendre contact avec le career center.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_ERR_Read</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta ERR Read</shortDescription>
+        <value>La période d&apos;évaluation n&apos;a pas encore commencé.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_ERR_mission_not_found</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta ERR mission not found</shortDescription>
+        <value>Mission introuvable.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_ErreurSurvenue</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_ErreurSurvenue</shortDescription>
+        <value>Une erreur est survenue</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_HelpSearchEntreprise</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_HelpSearchEntreprise</shortDescription>
+        <value>Merci de remplir le numéro SIRET ou le nom de l&apos;entreprise et son code postal dans les champs ci dessous</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_MonEvaluation</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_MonEvaluation</shortDescription>
+        <value>Mon évaluation</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Nouvelle_convention</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Nouvelle convention</shortDescription>
+        <value>Nouvelle convention</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Palmares_des_entreprise</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Palmarès des entreprise</shortDescription>
+        <value>Palmarès des entreprises</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_PlaceholderEntreprise</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_PlaceholderEntreprise</shortDescription>
+        <value>Saisir le nom de l&apos;entreprise ici...</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_PlaceholderSiret</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_PlaceholderSiret</shortDescription>
+        <value>Saisir le siret ici...</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_PlaceholderVille</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_PlaceholderVille</shortDescription>
+        <value>Saisir le code postal ici...</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Poursuivre</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Poursuivre</shortDescription>
+        <value>Poursuivre</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Quitter</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Quitter</shortDescription>
+        <value>Quitter</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_RefreshPage</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_RefreshPage</shortDescription>
+        <value>Merci de rafraîchir la page pour actualiser la langue
+Les données du formulaire seront perdues</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_RefreshPageButton</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_RefreshPageButton</shortDescription>
+        <value>Refresh the page</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Search</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_Search</shortDescription>
+        <value>Rechercher</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_SearchCity</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_SearchCity</shortDescription>
+        <value>Ville</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_SearchCountry</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_SearchCountry</shortDescription>
+        <value>Pays</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_SearchEntreprise</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_SearchEntreprise</shortDescription>
+        <value>Nom de l&apos;entreprise</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_SearchEntrepriseHelp</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_SearchEntrepriseHelp</shortDescription>
+        <value>Attention, la raison sociale n&apos;est pas forcément le nom commercial</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_SearchProgram</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_SearchProgram</shortDescription>
+        <value>Programme</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_SearchZipCity</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_SearchZipCity</shortDescription>
+        <value>Ville ou Code Postal</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StartYear</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_StartYear</shortDescription>
+        <value>Année de début</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StatusFront_Brouillon_Annule</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>Brouillon annulé</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StatusFront_Convention_Emise_Et_Envoyee_Pour_Signature</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>Émise et envoyée pour signature</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StatusFront_Convention_Signee</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>Terminée</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StatusFront_Demande_En_Attente_De_Vos_Corrections</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>En attente de vos corrections</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StatusFront_Demande_En_Cours_De_Saisie</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>En cours de saisie</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StatusFront_Demande_En_Cours_De_Validation</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>Demande en cours de validation</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StatusFront_Demande_Refusee</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>Demande refusée</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StatusFront_Demande_Soumise</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>Demande soumise</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StatusFront_Demande_Validee_En_Attente_De_Contrat_A_Uploader</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Case Status Front Office</shortDescription>
+        <value>Demande validée, en attente de contrat à uploader</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_StatusFront_Evaluee</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Front status</shortDescription>
+        <value>Evaluée</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Suivant</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Suivant</shortDescription>
+        <value>Suivant</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Supprimer</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Supprimer</shortDescription>
+        <value>Supprimer</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Telecharger</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Télécharger</shortDescription>
+        <value>Télécharger</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Texte_aide_1</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Texte aide 1</shortDescription>
+        <value>Avant de saisir votre demande, assurez vous de disposer de tous vos détails contractuels. Pour vous aider, télécharger le document qui liste l&apos;ensemble des champs requis.
+Egalement, merci de bien prendre connaissance des informations importantes qui y figurent.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Texte_aide_2</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Texte aide 2</shortDescription>
+        <value>Texte aide 2</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Texte_aide_3</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Texte aide 3</shortDescription>
+        <value>Attention si les champs ci dessous  sont mal remplis cela peut entraîner le blocage de votre demande . Merci donc de vous référer aux bulles d&apos;aide de chacun des champs ci dessous.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_TxtGuideStageEtranger</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_TxtGuideStageEtranger</shortDescription>
+        <value>J&apos;ai pris conscience du guide des bonnes pratiques à l&apos;étranger disponible</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_UploadFile</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_UploadFile</shortDescription>
+        <value>Vous devrez charger un fichier pour valider la demande.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_Voir</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Voir</shortDescription>
+        <value>Voir</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_caseExpiration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_caseExpiration</shortDescription>
+        <value>15</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_consigneFormulaireDemande</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_consigneFormulaireDemande</shortDescription>
+        <value>Merci de remplir l&apos;ensemble des champs nécessaire à la demande.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_consigneUpload</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_consigneUpload</shortDescription>
+        <value>Merci de télécharger la copie de votre contrat/convention</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_erreur</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_erreur</shortDescription>
+        <value>Erreur</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_circonstancesStage</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_circonstancesStage</shortDescription>
+        <value>Déroulement et les circonstances du stage</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_commComport</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_commComport</shortDescription>
+        <value>Commentaire compétences comportementales</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_commEarlyMaker</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_commEarlyMaker</shortDescription>
+        <value>Commentaire compétences Early Maker</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_commGeneral</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_commGeneral</shortDescription>
+        <value>Une appréciation globale est requise.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_commGlobal</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_commGlobal</shortDescription>
+        <value>Appréciation générale</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_commMetiers</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_commMetiers</shortDescription>
+        <value>Commentaire compétences métiers</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_commRequisCauseNote</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_commRequisCauseNote</shortDescription>
+        <value>Un commentaire est requis si la note moyenne de ces compétences est égale ou inférieure à 2.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_compComport</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_compComport</shortDescription>
+        <value>Compétences Comportementales</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_compEarlyMaker</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_compEarlyMaker</shortDescription>
+        <value>Compétences Early Maker</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_compMetiers</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_compMetiers</shortDescription>
+        <value>Compétences Métiers</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_dateStage</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_dateStage</shortDescription>
+        <value>Date du stage</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_detailsStage</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_detailsStage</shortDescription>
+        <value>Détails du stage</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_entreprise</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_entreprise</shortDescription>
+        <value>Entreprise</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_errComCprtReq</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_errComCprtReq</shortDescription>
+        <value>Le commentaire sur les compétences de Comportement est requis car la moyenne de ces compétences est égale ou inférieure à 2.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_errComEMreq</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_errComEMreq</shortDescription>
+        <value>Le commentaire sur les compétences Early Maker est requis car la moyenne de ces compétences est égale ou inférieure à 2.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_errComMetierReq</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_errComMetierReq</shortDescription>
+        <value>Le commentaire sur les compétences Métier est requis car la moyenne de ces compétences est égale ou inférieure à 2.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_errCommGlobalReq</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_errCommGlobalReq</shortDescription>
+        <value>L&apos;appréciation globale est manquante.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_errCompCprt</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_errCompCprt</shortDescription>
+        <value>Une ou plusieurs compétences compotementales ne sont pas notées.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_errCompEM</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_errCompEM</shortDescription>
+        <value>Une ou plusieurs compétences Early Maker ne sont pas notées.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_errCompMetiers</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_errCompMetiers</shortDescription>
+        <value>Une ou plusieurs compétences Métier ne sont pas notées.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_errFamilleMetier</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_errFamilleMetier</shortDescription>
+        <value>Aucune famille de compétences Métier n&apos;est choisie.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_errNoteGlobaleReq</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_errNoteGlobaleReq</shortDescription>
+        <value>La note globale est manquante.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_etudiant</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_etudiant</shortDescription>
+        <value>Étudiant</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_evalGenerale</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_evalGenerale</shortDescription>
+        <value>Évaluation générale</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_familleMetiers</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_familleMetiers</shortDescription>
+        <value>Familles de compétences métier</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_familleMetiers_confirmation</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_familleMetiers_confirmation</shortDescription>
+        <value>Êtes-vous sur de vouloir changer la famille de compétences Métiers ?</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_noteGenerale</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_noteGenerale</shortDescription>
+        <value>Note globale ( /20)</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_optinMarketing</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_optinMarketing</shortDescription>
+        <value>optin Marketing</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_submitBtn</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_submitBtn</shortDescription>
+        <value>Soumettre</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_submitValidation</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_submitValidation</shortDescription>
+        <value>Merci, votre évaluation a bien été enregistrée.</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_titreMission</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_titreMission</shortDescription>
+        <value>Intitulé de la mission</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_eval_tuteur</fullName>
+        <categories>convsta</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_eval_tuteur</shortDescription>
+        <value>Tuteur</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_ici</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_ici</shortDescription>
+        <value>ici</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_succes</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_succes</shortDescription>
+        <value>Succès</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_uploadConvention</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_uploadConvention</shortDescription>
+        <value>Déposer un fichier</value>
+    </labels>
+    <labels>
+        <fullName>Convsta_uploadEvaluation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Convsta_uploadEvaluation</shortDescription>
+        <value>Drop a file</value>
+    </labels>
+    <labels>
+        <fullName>DFP_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DFP Complete</shortDescription>
+        <value>Complete</value>
+    </labels>
+    <labels>
+        <fullName>DFP_Current</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DFP Current</shortDescription>
+        <value>Current</value>
+    </labels>
+    <labels>
+        <fullName>DFP_Upcoming</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DFP Upcoming</shortDescription>
+        <value>Upcoming</value>
+    </labels>
+    <labels>
+        <fullName>Lieu1</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Lieu1</shortDescription>
+        <value>Lyon</value>
+    </labels>
+    <labels>
+        <fullName>Lieu2</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Lieu2</shortDescription>
+        <value>Paris</value>
+    </labels>
+    <labels>
+        <fullName>Lieu3</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Lieu3</shortDescription>
+        <value>Casablanca</value>
+    </labels>
+    <labels>
+        <fullName>Lieu4</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Lieu4</shortDescription>
+        <value>Genève</value>
+    </labels>
+    <labels>
+        <fullName>Lieu5</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Lieu5</shortDescription>
+        <value>Shangai</value>
+    </labels>
+    <labels>
+        <fullName>Lieu6</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Lieu6</shortDescription>
+        <value>Dubaï</value>
+    </labels>
+    <labels>
+        <fullName>Lieu7</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Lieu7</shortDescription>
+        <value>on line</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityCriteria</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OpportunityCriteria</shortDescription>
+        <value>Intéressé par;Envoyé Prestataire;Prospect qualifié;Prospect probable;Prospect chaud;Intérêt Supplémentaire;Non actif;Candidat;Admis;Pré inscrit;</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityCriteriaProfessionnel</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>OpportunityCriteriaProfessionnel</shortDescription>
+        <value>Intéressé par;Prospect qualifié;Prospect probable;Prospect chaud;Intérêt Supplémentaire;Non actif;Candidat;Admis;Pré inscrit</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityCriteriaSansIP</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>OpportunityCriteriaSansIP</shortDescription>
+        <value>Prospect qualifié;Prospect probable;Prospect chaud;Intérêt Supplémentaire</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil1_B2B</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil1_B2B</shortDescription>
+        <value>50000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil1_B2C</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil1_B2C</shortDescription>
+        <value>200</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil2_B2B</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil2_B2B</shortDescription>
+        <value>150000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil2_B2C</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil2_B2C</shortDescription>
+        <value>3000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil3_B2B</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil3_B2B</shortDescription>
+        <value>250000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil3_B2C</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil3_B2C</shortDescription>
+        <value>10000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil4_B2B</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil4_B2B</shortDescription>
+        <value>500000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil4_B2C</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil4_B2C</shortDescription>
+        <value>30000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil5_B2B</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil5_B2B</shortDescription>
+        <value>750000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil5_B2C</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil5_B2C</shortDescription>
+        <value>50000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil6_B2B</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil6_B2B</shortDescription>
+        <value>1000000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil6_B2C</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil6_B2C</shortDescription>
+        <value>100000</value>
+    </labels>
+    <labels>
+        <fullName>ProgrammeReconnaissance_Seuil7_B2C</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>ProgrammeReconnaissance_Seuil7_B2C</shortDescription>
+        <value>350000</value>
+    </labels>
+    <labels>
+        <fullName>RecordTypeEtudiant</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>RecordTypeEtudiant</shortDescription>
+        <value>012w0000000h9EH</value>
+    </labels>
+    <labels>
+        <fullName>RecordTypeProfessionnel</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>RecordTypeProfessionnel</shortDescription>
+        <value>012w0000000h9EI</value>
+    </labels>
+    <labels>
+        <fullName>RecordTypeProspectEtudiant</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>RecordTypeProspectEtudiant</shortDescription>
+        <value>012w0000000h9EJ</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Academic_Certifications</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Academic Certifications</shortDescription>
+        <value>Academic Certifications</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Academic_and_professional_outcomes</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIS Academic and professional outcomes</shortDescription>
+        <value>Academic and professional outcomes</value>
+    </labels>
+    <labels>
+        <fullName>SIS_After_this_course_participants_are_able_to</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>After this course, participants are able to</shortDescription>
+        <value>After this course, participants are able to :</value>
+    </labels>
+    <labels>
+        <fullName>SIS_After_this_course_participants_know</fullName>
+        <categories>Flow</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Après avoir suivi ce cours, les participants connaîtront ou maîtriseront</shortDescription>
+        <value>Après avoir suivi ce cours, les participants connaîtront ou maîtriseront</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Approval_History</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approval History</shortDescription>
+        <value>Approval History</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Attributes</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attributes</shortDescription>
+        <value>Attributes</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Competencies_acquired_during_this_course</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Competencies acquired during this course.</shortDescription>
+        <value>Competencies acquired during this course.</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Course</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Course</shortDescription>
+        <value>Course</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Course_Description</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIS_Course_Description</shortDescription>
+        <value>Course description</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Course_Knowledge</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIS_Course_Knowledge</shortDescription>
+        <value>Course knowledge</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Course_Sequence</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIS_Course_Sequence</shortDescription>
+        <value>Course sequences</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Course_Skills</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIS_Course_Skills</shortDescription>
+        <value>Course skills</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Course_Syllabus_Stage_Path</fullName>
+        <categories>Flexipage</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Message_chemin_validation_syllabus</shortDescription>
+        <value>Etapes de validation du syllabus du cours :</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Course_sequences</fullName>
+        <categories>Flexipage</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Séquences du cours</shortDescription>
+        <value>Séquences du cours</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Create_New_Ressource_Label</fullName>
+        <categories>Flow</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>SIS_Create_New_Ressource_Label</shortDescription>
+        <value>Do you want to create a new ressource ?</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Enrollments</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enrollments</shortDescription>
+        <value>Enrollments</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Evaluation_Methods</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIS_Evaluation_Methods</shortDescription>
+        <value>Evaluation methods</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Files</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Files</shortDescription>
+        <value>Files</value>
+    </labels>
+    <labels>
+        <fullName>SIS_History</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>History</shortDescription>
+        <value>History</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Hours_and_distribution</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIS_Hours_and_distribution</shortDescription>
+        <value>Hours and distribution</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Knowledge_acquired_during_the_course</fullName>
+        <categories>Flow</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Connaissances acquises pendant le cours</shortDescription>
+        <value>Connaissances acquises pendant le cours</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Learning_Hours</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Learning Hours</shortDescription>
+        <value>Learning Hours</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Other_Information</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIS_Other_Information</shortDescription>
+        <value>Other useful information</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Paths</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Paths</shortDescription>
+        <value>Paths</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Plan_requirements</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Plan requirements</shortDescription>
+        <value>Plan requirements</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Program_Paths</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Program Paths</shortDescription>
+        <value>Program Paths</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Related_Resources</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIS_Related_Resources</shortDescription>
+        <value>Related resources</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Related_Sequences</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SIS_Related_Sequences</shortDescription>
+        <value>Related sequences</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Skill_Families</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Skill Families</shortDescription>
+        <value>Skill Families</value>
+    </labels>
+    <labels>
+        <fullName>SIS_Skills</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Skills</shortDescription>
+        <value>Skills</value>
+    </labels>
+    <labels>
+        <fullName>SIS_pedagogical_resources</fullName>
+        <categories>Flexipage</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Ressources bibliographiques</shortDescription>
+        <value>Ressources bibliographiques</value>
+    </labels>
+    <labels>
+        <fullName>System_Information</fullName>
+        <categories>Flexipage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System_Information</shortDescription>
+        <value>System information</value>
+    </labels>
+    <labels>
+        <fullName>URL</fullName>
+        <categories>labels</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>URL</shortDescription>
+        <value>https://arpege-emlyon.lightning.force.com</value>
+    </labels>
+    <labels>
+        <fullName>X</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>X</shortDescription>
+        <value>20</value>
+    </labels>
+    <labels>
+        <fullName>convsta_Eval_title</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_Eval_title</shortDescription>
+        <value>Evaluation de l&apos;expérience professionnelle de $1 auprès de $2 réalisé du $3 au $4 par son tuteur $5</value>
+    </labels>
+    <labels>
+        <fullName>convsta_IntershipGuestUser</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_IntershipGuestUser</shortDescription>
+        <value>internships Utilisateur invité du site</value>
+    </labels>
+    <labels>
+        <fullName>convsta_NewWorkPlacement</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_NewWorkPlacement</shortDescription>
+        <value>In progress work placemeent</value>
+    </labels>
+    <labels>
+        <fullName>convsta_NoExpAnterieure</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_NoExpAnterieure</shortDescription>
+        <value>Votre programme ne vous autorise pas à valider des expériences antérieures.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_aLetranger</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_aLetranger</shortDescription>
+        <value>A l étranger</value>
+    </labels>
+    <labels>
+        <fullName>convsta_accueil</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_accueil</shortDescription>
+        <value>Accueil</value>
+    </labels>
+    <labels>
+        <fullName>convsta_accueil_component_header</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_accueil_component_header</shortDescription>
+        <value>Ma demande en cours</value>
+    </labels>
+    <labels>
+        <fullName>convsta_accueil_historique</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_accueil_historique</shortDescription>
+        <value>Demande passées</value>
+    </labels>
+    <labels>
+        <fullName>convsta_accueil_nouveau</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_accueil_nouveau</shortDescription>
+        <value>Nouvelle demande</value>
+    </labels>
+    <labels>
+        <fullName>convsta_accueil_pas_de_demande</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_accueil_pas_de_demande</shortDescription>
+        <value>Vous n&apos;avez pas de demande en cours</value>
+    </labels>
+    <labels>
+        <fullName>convsta_annuler_demande</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_annuler_demande</shortDescription>
+        <value>Supprimer mon brouillon</value>
+    </labels>
+    <labels>
+        <fullName>convsta_autre_adresse_deroulement</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_autre_adresse_deroulement</shortDescription>
+        <value>Mon stage ne se déroule pas à l&apos;adresse indiquée ci dessus</value>
+    </labels>
+    <labels>
+        <fullName>convsta_cursus_password</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_cursus_password</shortDescription>
+        <value>BS!mJ}-pV66f*#</value>
+    </labels>
+    <labels>
+        <fullName>convsta_cursus_user</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_cursus_user</shortDescription>
+        <value>svc-prod-cursus</value>
+    </labels>
+    <labels>
+        <fullName>convsta_directeur_academique</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_directeur_academique</shortDescription>
+        <value>Philippe MONIN</value>
+    </labels>
+    <labels>
+        <fullName>convsta_directeur_employabilite</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_directeur_employabilite</shortDescription>
+        <value>Marc Pérénnes</value>
+    </labels>
+    <labels>
+        <fullName>convsta_directrice_du_programme_grande_ecole</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Convsta Directrice du Programme Grande Ecole</shortDescription>
+        <value>Sylvie Jean</value>
+    </labels>
+    <labels>
+        <fullName>convsta_disponible_dans_vos_docs</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_disponible_dans_vos_docs</shortDescription>
+        <value>Document consultable depuis vos documents.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_domain_esign</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_domain_esign</shortDescription>
+        <value>https://wsesign-convsta-ext.em-lyon.com/</value>
+    </labels>
+    <labels>
+        <fullName>convsta_domain_refint</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_domain_refint</shortDescription>
+        <value>https://wsrefint-ext.em-lyon.com/</value>
+    </labels>
+    <labels>
+        <fullName>convsta_domain_ws_cursus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_domain_ws_cursus</shortDescription>
+        <value>https://wscursus-ext.em-lyon.com/</value>
+    </labels>
+    <labels>
+        <fullName>convsta_domain_wsstudent</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_domain_wsstudent</shortDescription>
+        <value>https://wsstudent-externe.em-lyon.com/</value>
+    </labels>
+    <labels>
+        <fullName>convsta_dowload_evaluation</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_dowload_evaluation</shortDescription>
+        <value>Télécharger mon évaluation</value>
+    </labels>
+    <labels>
+        <fullName>convsta_email_salesforce</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_email_salesforce</shortDescription>
+        <value>convention@d-63zqs44gs1df7ke3osethhr9l7tjalw83lqbi3u6gyxmght9t.w-cp11eac.eu12.apex.salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>convsta_enFrance</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_enFrance</shortDescription>
+        <value>En France</value>
+    </labels>
+    <labels>
+        <fullName>convsta_enregistrer</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_enregistrer</shortDescription>
+        <value>Enregistrer</value>
+    </labels>
+    <labels>
+        <fullName>convsta_eval_accueil_nouvel_etudiant</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_eval_accueil_nouvel_etudiant</shortDescription>
+        <value>Si vous souhaitez accueillir un(e) nouvel(le) étudiant(e) emlyon business school, merci de déposer votre offre sur recrutement.em-lyon.com.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_eval_canClosePage</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_eval_canClosePage</shortDescription>
+        <value>Vous pouvez désormais fermer la page.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_eval_erreurTitle</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_eval_erreurTitle</shortDescription>
+        <value>Evaluation traitée de manière incomplète</value>
+    </labels>
+    <labels>
+        <fullName>convsta_eval_generationLimit</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_eval_generationLimit</shortDescription>
+        <value>2020-12-12</value>
+    </labels>
+    <labels>
+        <fullName>convsta_eval_quitPage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_eval_quitPage</shortDescription>
+        <value>You may now leave the page.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_eval_selectedCompetence</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_eval_selectedCompetence</shortDescription>
+        <value>Les compétences en gras sont celles que l&apos;étudiant a déclarées lors de la rédaction de sa convention de stage.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_eval_takenIntoAccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_eval_takenIntoAccount</shortDescription>
+        <value>Your appreciation will be taken into acocunt as part of your trainee diplomation process.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_eval_thank_evaluateur</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_eval_thank_evaluateur</shortDescription>
+        <value>Nous vous remercions pour votre confiance envers emlyon business school et l’intérêt porté aux profils de nos étudiants.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_eval_thankyou</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_eval_thankyou</shortDescription>
+        <value>Thank you for your trust towards em lyon business school and the profile of our students.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_eval_vos_apprciations</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_eval_vos_apprciations</shortDescription>
+        <value>Vos appréciations et préconisations seront prises en compte dans le cadre de la validation de son diplôme.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_experienceProfessionnelle</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_experienceProfessionnelle</shortDescription>
+        <value>Validation de l&apos;expérience professionnelle</value>
+    </labels>
+    <labels>
+        <fullName>convsta_fileList</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_fileList</shortDescription>
+        <value>Vos documents</value>
+    </labels>
+    <labels>
+        <fullName>convsta_guide_des_bonnes_pratiques</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_guide_des_bonnes_pratiques</shortDescription>
+        <value>guide des bonnes pratiques à l&apos;étranger</value>
+    </labels>
+    <labels>
+        <fullName>convsta_interditSuppression</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_interditSuppression</shortDescription>
+        <value>Vous ne pouvez pas supprimer une demande si vous l&apos;avez déjà soumise prenez contact avec le service employabilité.</value>
+    </labels>
+    <labels>
+        <fullName>convsta_lancerRecherche</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_lancerRecherche</shortDescription>
+        <value>Lancer la recherche pour trouver votre entreprise</value>
+    </labels>
+    <labels>
+        <fullName>convsta_language_changed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_language_changed</shortDescription>
+        <value>Langue changée avec succès
+Merci de rafraîchir la page pour actualiser la langue
+Les données du formulaire seront perdues</value>
+    </labels>
+    <labels>
+        <fullName>convsta_ouvrir_demande</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_ouvrir_demande</shortDescription>
+        <value>Voir ma demande</value>
+    </labels>
+    <labels>
+        <fullName>convsta_pas_disponible</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_pas_disponible</shortDescription>
+        <value>Le document n&apos;est pas encore disponible</value>
+    </labels>
+    <labels>
+        <fullName>convsta_password_esign</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_password_esign</shortDescription>
+        <value>GSuOmZnPVa4jzffxh8GH</value>
+    </labels>
+    <labels>
+        <fullName>convsta_prefixeGuide</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_prefixeGuide</shortDescription>
+        <value>J&apos;ai pris connaissance du</value>
+    </labels>
+    <labels>
+        <fullName>convsta_rechercher</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_rechercher</shortDescription>
+        <value>Lancer la recherche</value>
+    </labels>
+    <labels>
+        <fullName>convsta_refint_password</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_refint_password</shortDescription>
+        <value>GSuOmZnPVa4jzffxh8GH</value>
+    </labels>
+    <labels>
+        <fullName>convsta_refint_user</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_refint_user</shortDescription>
+        <value>svc-prod-convsta@em-lyon.com</value>
+    </labels>
+    <labels>
+        <fullName>convsta_respAdministratifEntreprise</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_respAdministratifEntreprise</shortDescription>
+        <value>Signataire de la convention</value>
+    </labels>
+    <labels>
+        <fullName>convsta_responsable_pedagogique</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_responsable_pedagogique</shortDescription>
+        <value>Chantal POTY</value>
+    </labels>
+    <labels>
+        <fullName>convsta_returnWebhook</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_returnWebhook</shortDescription>
+        <value>https://emlyon.force.com/internships/</value>
+    </labels>
+    <labels>
+        <fullName>convsta_seDerouleEn</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_seDerouleEn</shortDescription>
+        <value>Le stage se déroule</value>
+    </labels>
+    <labels>
+        <fullName>convsta_soumettre</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_soumettre</shortDescription>
+        <value>Soumettre sa demande de stage</value>
+    </labels>
+    <labels>
+        <fullName>convsta_stage_autre_adresse</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_stage_autre_adresse</shortDescription>
+        <value>Si votre stage se déroule à une autre adresse, merci de cocher la case ci dessous</value>
+    </labels>
+    <labels>
+        <fullName>convsta_stepConditionsContractuelles</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_stepConditionsContractuelles</shortDescription>
+        <value>Etape 4 Mes conditions contractuelles</value>
+    </labels>
+    <labels>
+        <fullName>convsta_stepEntreprise</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_stepEntreprise</shortDescription>
+        <value>Etape 2 Mon entreprise</value>
+    </labels>
+    <labels>
+        <fullName>convsta_stepInformationsPersonelles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_stepInformationsPersonelles</shortDescription>
+        <value>Etape 1 Informations personnelles</value>
+    </labels>
+    <labels>
+        <fullName>convsta_stepMission</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_stepMission</shortDescription>
+        <value>Etape 3 Ma mission</value>
+    </labels>
+    <labels>
+        <fullName>convsta_telecharger_ma_convention</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_telecharger_ma_convention</shortDescription>
+        <value>Télécharger ma convention</value>
+    </labels>
+    <labels>
+        <fullName>convsta_tropDeResultats</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_tropDeResultats</shortDescription>
+        <value>Votre recherche a renvoyé plus de 20 résultats. Veuillez restreindre votre recherche à l&apos;aide du code postal, de la ville ou du Siret</value>
+    </labels>
+    <labels>
+        <fullName>convsta_tropDezeroResultats</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>convsta_tropDezeroResultats</shortDescription>
+        <value>No companies meet your search criteria</value>
+    </labels>
+    <labels>
+        <fullName>convsta_username_esign</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>convsta_username_esign</shortDescription>
+        <value>svc-prod-convsta@em-lyon.com</value>
+    </labels>
+    <labels>
+        <fullName>ers_CancelButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ers_ClearFilterAction</fullName>
+        <categories>actions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Filter</shortDescription>
+        <value>Clear Filter</value>
+    </labels>
+    <labels>
+        <fullName>ers_ClearSelectionButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Selection</shortDescription>
+        <value>Clear Selection</value>
+    </labels>
+    <labels>
+        <fullName>ers_ColumnHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column</shortDescription>
+        <value>Column</value>
+    </labels>
+    <labels>
+        <fullName>ers_EmptyTableMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Empty</shortDescription>
+        <value>This table currently has no data to display</value>
+    </labels>
+    <labels>
+        <fullName>ers_ErrorRequiredEntry</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required</shortDescription>
+        <value>This is a required entry.  At least 1 row must be selected.</value>
+    </labels>
+    <labels>
+        <fullName>ers_FilterHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>ers_LabelHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label</shortDescription>
+        <value>Label</value>
+    </labels>
+    <labels>
+        <fullName>ers_SaveButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>ers_SetFilterAction</fullName>
+        <categories>actions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Set Filter</shortDescription>
+        <value>Set Filter</value>
+    </labels>
+    <labels>
+        <fullName>fsc_AccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccessLevel</shortDescription>
+        <value>Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Back</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ButtonIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ButtonIsNotSupportedMessage</shortDescription>
+        <value>Following buttons are note supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ConditionLogicHelpText</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConditionLogicHelpText</shortDescription>
+        <value>Use parentheses, AND, OR, and NOT to customize the logic. For example, if you enter “(1 AND 2 AND 3) OR 4”, the flow evaluates whether the first three conditions are true or only the fourth condition is true.</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Delete</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FieldIsNotSupportedMessage</shortDescription>
+        <value>Following fields are not supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldTypeNotSuportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fsc_FieldTypeNotSuportedMessage</shortDescription>
+        <value>You provided an unsupported value for the DataTypeFilter input on Object and Field Picker. Currently the only supported value is ’picklist’</value>
+    </labels>
+    <labels>
+        <fullName>fsc_For</fullName>
+        <categories>Buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>For</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Key_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Key Label</shortDescription>
+        <value>Key</value>
+    </labels>
+    <labels>
+        <fullName>fsc_LackingPermissions</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LackingPermissions</shortDescription>
+        <value>You don\&apos;t have the proper permissions for ths action</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ManagerEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagerEmptyMessage</shortDescription>
+        <value>&quot;Manager APEX Class&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_MultipleGroupsForRole</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MultipleGroupsForRole</shortDescription>
+        <value>There are multiple groups for that role</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Name</fullName>
+        <categories>quicklinks, Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>fsc_NonePicklistValueLabel</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NonePicklistValueLabel</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OWDReadWrite</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OWDReadWrite</shortDescription>
+        <value>Sharing Settings must be private or public read/write to enable manual sharing</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OwnerAdminModify</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OwnerAdminModify</shortDescription>
+        <value>Only the record owner or administrators can modify permissions</value>
+    </labels>
+    <labels>
+        <fullName>fsc_PublicGroups</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PublicGroups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Queues</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queues</shortDescription>
+        <value>Queues</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Read</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ReadWrite</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReadWrite</shortDescription>
+        <value>Read / Write</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Reason</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>fsc_RelatedUsers</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedUsers</shortDescription>
+        <value>Related Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Roles</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roles</shortDescription>
+        <value>Roles</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Search</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search in</shortDescription>
+        <value>Search in</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SearchFor</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchFor</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SetAccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetAccessLevel</shortDescription>
+        <value>Set Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedAddCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedAddCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Add Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedButtonsEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedButtonsEmptyMessage</shortDescription>
+        <value>&quot;Supported Buttons&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedEditCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedEditCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Edit Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_TooManyResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TooManyResultsMessage</shortDescription>
+        <value>Your search found more than 200 results.  Keep typing to make it more specific</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Type</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>fsc_UserOrGroup</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserOrGroup</shortDescription>
+        <value>User Or Group</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Users</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Users</shortDescription>
+        <value>Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Value_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Value Label</shortDescription>
+        <value>Value</value>
+    </labels>
+    <labels>
+        <fullName>sremailNoSearchResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NoSearchResultsMessage</shortDescription>
+        <value>No results found</value>
+    </labels>
+    <labels>
+        <fullName>sremailSearchMembers</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search existing Flow resources</shortDescription>
+        <value>Search existing Flow resources</value>
+    </labels>
+</CustomLabels>

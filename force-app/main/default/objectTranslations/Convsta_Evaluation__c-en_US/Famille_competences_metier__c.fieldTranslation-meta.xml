@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Famille_competences_metier__c</name>
+    <picklistValues>
+        <masterLabel>Achats</masterLabel>
+        <translation>Purchasing</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Audit et Conseil</masterLabel>
+        <translation>Audit and Consulting</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Digital et data</masterLabel>
+        <translation>Digital and Data</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direction Générale</masterLabel>
+        <translation>General Management</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Développement commercial et relations clients</masterLabel>
+        <translation>Business development and sales relations</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finance d&apos;entreprise, comptabilité, contrôle de gestion</masterLabel>
+        <translation>Corporate Finance, Financial Accounting and Control</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financement, Investissements et Assurances</masterLabel>
+        <translation>Financing, Investments and Insurance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Informatique</masterLabel>
+        <translation>IT</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Juridique</masterLabel>
+        <translation>Legal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing et Communication</masterLabel>
+        <translation>Marketing and Communication</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Production et QHSE</masterLabel>
+        <translation>Production, Maintenance and Operations</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ressources Humaines</masterLabel>
+        <translation>Human Resources</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supply Chain Management</masterLabel>
+        <translation>Supply Chain Management</translation>
+    </picklistValues>
+</CustomFieldTranslation>

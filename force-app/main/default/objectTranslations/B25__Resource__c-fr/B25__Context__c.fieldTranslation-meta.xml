@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si la ressource a un parent et un grand-parent, le contexte sera égal à leurs noms. Si elle n’a qu’un parent, le contexte est égal au nom du parent. Si la ressource n’a pas de parent, le contexte sera vide.</help>
+    <label></label>
+    <name>B25__Context__c</name>
+</CustomFieldTranslation>

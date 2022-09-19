@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Partage_programme_26</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Partage programme 26</label>
+        <sharedTo>
+            <role>SHANGHAI</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>26</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Partage_France</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Partage France</label>
+        <sharedTo>
+            <role>SHANGHAI</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Promo_Recrut_Master</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

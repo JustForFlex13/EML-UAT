@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>M&amp;S EWHM</name>
+    <queueMembers>
+        <users>
+            <user>cesar@em-lyon.com</user>
+            <user>poyade@em-lyon.com</user>
+            <user>ext-potiron@em-lyon.com</user>
+            <user>reynier@em-lyon.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Theme__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Thématique de campagne destinée à segmenter les pistes</inlineHelpText>
+    <label>Thème</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+                <label>Hospitality</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Entrepreneuriat/ Innovation</fullName>
+                <default>false</default>
+                <label>Entrepreneuriat/ Innovation</label>
+            </value>
+            <value>
+                <fullName>Management Général</fullName>
+                <default>false</default>
+                <label>Management Général</label>
+            </value>
+            <value>
+                <fullName>Management et ressources humaines</fullName>
+                <default>false</default>
+                <label>Management et ressources humaines</label>
+            </value>
+            <value>
+                <fullName>Stratégie</fullName>
+                <default>false</default>
+                <label>Stratégie</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Achats</fullName>
+                <default>false</default>
+                <label>Achats</label>
+            </value>
+            <value>
+                <fullName>Développement personnel</fullName>
+                <default>false</default>
+                <label>Développement personnel</label>
+            </value>
+            <value>
+                <fullName>Programmes pour dirigeants</fullName>
+                <default>false</default>
+                <label>Programmes pour dirigeants</label>
+            </value>
+            <value>
+                <fullName>Programmes de leadership</fullName>
+                <default>false</default>
+                <label>Programmes de leadership</label>
+            </value>
+            <value>
+                <fullName>Conduite du changement</fullName>
+                <default>false</default>
+                <label>Conduite du changement</label>
+            </value>
+            <value>
+                <fullName>Coaching</fullName>
+                <default>false</default>
+                <label>Coaching</label>
+            </value>
+            <value>
+                <fullName>Luxe</fullName>
+                <default>false</default>
+                <label>Luxe</label>
+            </value>
+            <value>
+                <fullName>Leadership</fullName>
+                <default>false</default>
+                <label>Leadership</label>
+            </value>
+            <value>
+                <fullName>Action Learning</fullName>
+                <default>false</default>
+                <label>Action Learning</label>
+            </value>
+            <value>
+                <fullName>Transport / Logistique</fullName>
+                <default>false</default>
+                <label>Transport / Logistique</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

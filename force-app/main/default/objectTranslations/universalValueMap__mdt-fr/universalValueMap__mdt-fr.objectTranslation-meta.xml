@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>universalValueMap</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>universalValueMaps</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Présentation universalValueMap</layout>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

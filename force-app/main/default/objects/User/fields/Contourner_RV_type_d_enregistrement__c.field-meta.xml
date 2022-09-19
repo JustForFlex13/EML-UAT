@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contourner_RV_type_d_enregistrement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Si cette case est cochée, l&apos;utilisateur contourne les règles de validation qui empêchent de modifier les types d&apos;enregistrement.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Si cochée, les règles de validation de changement de type d&apos;enregistrement ne se déclencheront pas pour cet utilisateur.</inlineHelpText>
+    <label>Contourner RV type d&apos;enregistrement</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>CPF_Mon_Compte_Formation__c</name>
+    <picklistValues>
+        <masterLabel>non éligible à Mon Compte Formation</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>éligible à Mon Compte Formation</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

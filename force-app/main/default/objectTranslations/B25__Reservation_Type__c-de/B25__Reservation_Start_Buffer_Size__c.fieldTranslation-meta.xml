@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Größe des Reservierungsstartpuffers in Minuten. Wird im Kalender angezeigt und kann zum Angeben der Einrichtungszeit nach Abschluss der eigentlichen Reservierung verwendet werden.</help>
+    <label></label>
+    <name>B25__Reservation_Start_Buffer_Size__c</name>
+</CustomFieldTranslation>

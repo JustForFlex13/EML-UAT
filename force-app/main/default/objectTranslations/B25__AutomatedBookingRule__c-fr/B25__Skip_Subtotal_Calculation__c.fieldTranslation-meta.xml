@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si vous cochez cette case, le calcul du prix par Booker25 pour ces réservations sera ignoré.</help>
+    <label></label>
+    <name>B25__Skip_Subtotal_Calculation__c</name>
+</CustomFieldTranslation>

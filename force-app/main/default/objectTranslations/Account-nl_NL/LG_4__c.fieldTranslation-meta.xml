@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>LG_4__c</name>
+    <picklistValues>
+        <masterLabel>LO7 : Graduates know the principles and mechanisms of the corporate social responsibility in its process of decision-making and are able to work ethically and responsibly</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LO8 : Graduate are able to learn from experience, start over and reassess themselves to develop an ability to anticipate and look into the future</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

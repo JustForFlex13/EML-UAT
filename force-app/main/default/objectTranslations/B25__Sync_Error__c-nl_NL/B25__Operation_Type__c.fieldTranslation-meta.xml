@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De type van de foutmelding</help>
+    <label></label>
+    <name>B25__Operation_Type__c</name>
+    <picklistValues>
+        <masterLabel>Connection Setup</masterLabel>
+        <translation>Connectie setup</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create</masterLabel>
+        <translation>Aanmaken</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delete</masterLabel>
+        <translation>Verwijderen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recurring Event Sync</masterLabel>
+        <translation>Terugkerende evenement synchronisatie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscription Refresh</masterLabel>
+        <translation>Subscriptie herladen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscription Update</masterLabel>
+        <translation>Subscriptie updaten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sync Down</masterLabel>
+        <translation>Synchronisatie binnenhalen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Update</masterLabel>
+        <translation>Update</translation>
+    </picklistValues>
+</CustomFieldTranslation>

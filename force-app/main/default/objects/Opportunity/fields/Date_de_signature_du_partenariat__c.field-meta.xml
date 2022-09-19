@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_de_signature_du_partenariat__c</fullName>
+    <description>Champs servant à renseigner la date de signature du partenariat.
+Utilisé uniquement dans le process Fundraising B2B.</description>
+    <externalId>false</externalId>
+    <label>Date de signature du partenariat</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

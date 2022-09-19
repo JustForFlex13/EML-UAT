@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La duración de la vista. Ejemplos: 24:00 = Un día, 7.00:00 = Una semana, 30.00:00 = Un mes.</help>
+    <label></label>
+    <name>B25__View_Duration__c</name>
+</CustomFieldTranslation>

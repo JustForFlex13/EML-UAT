@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wird nur in den Personal- und Gruppenkalendern offiziell unterstützt.Teilt die Personal- und Gruppen-Quellen in Blöcken auf.
+Die Verfügbarkeiten werden nur bei geöffnetem Block geladen.Bei zu langem Laden der Verfügbarkeiten aktivieren.</help>
+    <label></label>
+    <name>B25__Enable_Grouping__c</name>
+</CustomFieldTranslation>

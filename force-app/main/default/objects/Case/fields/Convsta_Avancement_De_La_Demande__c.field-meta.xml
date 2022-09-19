@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Avancement_De_La_Demande__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Convsta_Emploi_Du_Temps_Etudiant_Libre__c, 0.20, 0) + 
+IF(Convsta_Quota_d_Experience_Pro__c, 0.10, 0) +
+IF(Convsta_Stages_Consecutifs_Meme_Entrepri__c , 0.30, 0) +
+IF( Convsta_Niveau_d_Alerte_Entreprise__c , 0.10, 0) +
+IF( Convsta_Date_De_Jury_Apres_Fin_De_Stage__c , 0.10, 0) +
+IF( Convsta_Conformite_Contacts_Entreprise__c , 0.10, 0) +
+IF( Convsta_Phase_de_stage_dans_Cursus__c , 0.15, 0) +
+IF( Convsta_Langue_de_la_convention__c , 0.10, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Avancement De La Demande</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Welk uur wordt de resource beschikbaar? Voer een waarde in tussen de 0 en 23.</help>
+    <label></label>
+    <name>B25__Start_Hour__c</name>
+</CustomFieldTranslation>

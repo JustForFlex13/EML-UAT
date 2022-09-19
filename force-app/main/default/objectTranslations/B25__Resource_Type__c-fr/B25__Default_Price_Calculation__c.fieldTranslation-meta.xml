@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsque vous choisissez une méthode, toutes les ressources de ce type de ressource utiliseront cette méthode de calcul du prix par défaut.</help>
+    <label></label>
+    <name>B25__Default_Price_Calculation__c</name>
+    <picklistValues>
+        <masterLabel>PER_PERSON</masterLabel>
+        <translation>PAR_PERSONNE</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER_PERSON_PER_TIME_UNIT</masterLabel>
+        <translation>PAR_PERSONNE_PAR_UNITÉ_DE_TEMPS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER_TIME_UNIT</masterLabel>
+        <translation>PAR_UNITÉ_DE_TEMPS</translation>
+    </picklistValues>
+</CustomFieldTranslation>

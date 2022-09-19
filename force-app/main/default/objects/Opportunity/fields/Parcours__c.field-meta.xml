@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parcours__c</fullName>
+    <externalId>false</externalId>
+    <formula>Nombre_postes_de_type_parcours__c &gt;0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Pack</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

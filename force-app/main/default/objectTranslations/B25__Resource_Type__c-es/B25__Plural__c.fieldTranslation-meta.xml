@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La forma plural del nombre. Si se deja en blanco, se añadirá una &quot;s&quot; al nombre para pluralizarlo.</help>
+    <label></label>
+    <name>B25__Plural__c</name>
+</CustomFieldTranslation>

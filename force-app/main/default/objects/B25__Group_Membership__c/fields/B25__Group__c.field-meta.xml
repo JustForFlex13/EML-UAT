@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Group__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Group of which Users and Contacts are members.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le groupe dont les utilisateurs et les contacts sont membres.</inlineHelpText>
+    <label>Group</label>
+    <referenceTo>B25__Group__c</referenceTo>
+    <relationshipLabel>Group Memberships</relationshipLabel>
+    <relationshipName>Group_Memberships</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

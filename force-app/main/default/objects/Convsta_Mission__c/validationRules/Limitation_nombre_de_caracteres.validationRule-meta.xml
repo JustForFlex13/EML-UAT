@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limitation_nombre_de_caracteres</fullName>
+    <active>false</active>
+    <description>4 lignes maximum</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+LEN( Convsta_Description_de_la_mission__c )  &gt;= 360</errorConditionFormula>
+    <errorDisplayField>Convsta_Description_de_la_mission__c</errorDisplayField>
+    <errorMessage>Votre description est trop longue.</errorMessage>
+</ValidationRule>

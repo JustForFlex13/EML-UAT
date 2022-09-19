@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O número de dias a adicionar à Data de Início para obter a Data de Fim.</help>
+    <label></label>
+    <name>B25__Number_of_Days__c</name>
+</CustomFieldTranslation>

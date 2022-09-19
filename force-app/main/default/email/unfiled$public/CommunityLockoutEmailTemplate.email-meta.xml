@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>E-mail qu’un utilisateur reçoit en tentant de réinitialiser son mot de passe lorsqu’il est verrouillé en raison d’un trop grand nombre de tentatives de connexion.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Communautés : e-mail de verrouillage de l’utilisateur</name>
+    <style>none</style>
+    <subject>Vous avez été déconnecté(e) de {!Community_Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

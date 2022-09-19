@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Default__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, the Reservation Status record is the default when creating a Reservation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est cochée, ce statut de réservation est la valeur par défaut lors de la création d’une réservation.</inlineHelpText>
+    <label>Default</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

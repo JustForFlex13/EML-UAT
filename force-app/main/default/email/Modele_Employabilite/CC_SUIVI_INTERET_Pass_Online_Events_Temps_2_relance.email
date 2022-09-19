@@ -1,0 +1,96 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">Bonjour,</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR"><br></span></p>
+
+<p class="MsoNormal" style="line-height: normal;"><span style="color: rgb(0, 0, 0); font-family: &quot;Calibri Light&quot;, &quot;sans-serif&quot;; font-size: 12pt;">Nous vous remercions pour l'intérêt que vous portez à notre événement&nbsp;</span><font face="Calibri Light, sans-serif">{!Opportunity.Name} du&nbsp;{!Opportunity.Date_evenement__c}</font><span style="font-family: &quot;Calibri Light&quot;, &quot;sans-serif&quot;; font-size: 12pt;">.</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: normal;"><span style="font-size:12.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;mso-fareast-language:
+FR"><br></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: normal;"><span style="font-size:12.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;mso-fareast-language:
+FR">Sauf erreur de notre part, nous n’avons pas encore reçu votre bulletin
+d’inscription.</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: normal;"><span style="font-size:12.0pt;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;mso-fareast-language:
+FR">Chaque événement a un nombre de places limitées. </span><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;mso-fareast-language:
+FR">Ainsi, je reviens vers vous afin de vous accompagner dans votre
+inscription. </span>
+
+</p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; line-height: normal;"><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;mso-fareast-language:
+FR"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">Vous trouverez en pièce jointe le bulletin
+d'inscription à nous
+retourner complété et signé afin de procéder à l’inscription.</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR"><br></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">Je reste disponible pour vous apporter tout complément
+d’information. </span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR"><br></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; text-align: justify; line-height: normal;"><span style="font-size:12.0pt;
+font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;
+mso-bidi-theme-font:major-latin;mso-fareast-language:FR">Une fois votre
+inscription finalisée, nous reprendrons contact avec vous prochainement dans le
+but d’organiser efficacement votre participation. <br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; text-align: justify; line-height: normal;"><span style="font-size:12.0pt;
+font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;
+mso-bidi-theme-font:major-latin;mso-fareast-language:FR"><br></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">Cordialement,</span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">&nbsp;</span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Name}</span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Title}</span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Phone}</span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">23, avenue Guy de Collongue</span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">CS 40203 69134 Ecully Cedex France</span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><a href="http://www.em-lyon.com"><span style="font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-hansi-theme-font:
+major-latin;mso-bidi-theme-font:major-latin">www.em-lyon.com</span></a></p>
+
+<!--EndFragment-->]]></td>
+</tr>
+</table>

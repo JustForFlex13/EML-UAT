@@ -1,0 +1,12 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><span style="font-family: Arial, sans-serif;">Création ou modification d'une Session dans
+Salesforce<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Arial, sans-serif;">&nbsp;</span></p>
+
+<span style="font-size: 12pt; font-family: Arial, sans-serif;">Une nouvelle session de formation vient d'être créée
+ou modifiée par&nbsp;</span><b style="font-size: 12pt;">{!Session__c.OwnerFullName}</b><span style="font-size: 12pt;">, voici les détail de cette session :</span><div><div><br></div><div><b>Id :</b>&nbsp;{!Session__c.Id}</div><div><b>Libellé :</b>&nbsp;{!Session__c.Name}</div><div><b>Code Agresso Formation :&nbsp;</b>{!Session__c.Code_agresso_for__c}</div><div><b>Code Agresso Session Formation :</b>&nbsp;{!Session__c.Code_Agresso_Session_formation__c}</div></div><div><b>Exercice Fiscal :</b>&nbsp;{!Session__c.Exercice_fiscale__c}</div><div><b>Lieu :&nbsp;</b>{!Session__c.Lieu_ls__c}</div><div><b>Mode d'apprentissage :&nbsp;</b>{!Session__c.Mode_apprentissage__c}</div><div><b>Date de début :</b>&nbsp;{!Session__c.Date_de_debut_de_session__c}</div><div><b>Date de fin :</b>&nbsp;{!Session__c.Date_de_fin_de_session__c}</div><div><b style="font-size: 12pt;">Ne pas afficher sur le site Web :</b><span style="font-size: 12pt;">&nbsp;{!Session__c.Ne_pas_afficher_sur_le_site_EML__c}</span></div><div><b>Produit :</b>&nbsp;{!Session__c.Produits__c}</div><div><b>Statut :</b>&nbsp;{!Session__c.Statut__c}</div><div><b>Date de Création :&nbsp;</b>{!Session__c.CreatedDate}</div><div><b>Date de dernière modification :</b>&nbsp;{!Session__c.LastModifiedDate}</div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div>]]></td>
+</tr>
+</table>

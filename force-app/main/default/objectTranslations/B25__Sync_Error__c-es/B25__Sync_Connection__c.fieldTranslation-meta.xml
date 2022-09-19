@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La conexión de sincronización por la que se produjo el error.</help>
+    <label></label>
+    <name>B25__Sync_Connection__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

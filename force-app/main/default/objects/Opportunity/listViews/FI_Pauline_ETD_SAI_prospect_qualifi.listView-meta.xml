@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FI_Pauline_ETD_SAI_prospect_qualifi</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+    <columns>Contact_central__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Statut_Canel__c</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>Contact_Zone_de_commercialisation__c</columns>
+    <columns>Motif_de_fermeture__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>equals</operation>
+        <value>MSc in Management</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>lessThan</operation>
+        <value>3/1/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Contact_Zone_de_commercialisation__c</field>
+        <operation>equals</operation>
+        <value>AUTRE</value>
+    </filters>
+    <filters>
+        <field>Niveau_d_tudes__c</field>
+        <operation>equals</operation>
+        <value>Bac + 3,Bac + 4,Bac + 5 et +</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Intéressé par,Prospect qualifié</value>
+    </filters>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+        <value>SAI</value>
+    </filters>
+    <label>FI_Pauline_ETD-SAI_prospect-qualifié</label>
+</ListView>

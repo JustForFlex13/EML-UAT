@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Das Inkrement, in dem Sie Reservierungen mit Drag&apos;n&apos;Drop ziehen können.</help>
+    <label></label>
+    <name>B25__Snap_Duration__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Service_Costs__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A rollup on the Subtotal field of the Service Reservation child records.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Un rollup sur le champ du sous-total des enregistrements enfants de la réservation de service.</inlineHelpText>
+    <label>Service Costs</label>
+    <summarizedField>B25__Service_Reservation__c.B25__Subtotal__c</summarizedField>
+    <summaryForeignKey>B25__Service_Reservation__c.B25__Reservation__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Learning_Hour_CL</fullName>
+    <fields>Name</fields>
+    <fields>SIS_Course_Offering__c</fields>
+    <fields>SIS_Type__c</fields>
+    <fields>SIS_Distribution__c</fields>
+    <fields>CreatedById</fields>
+    <label>Learning Hour CL</label>
+</CompactLayout>

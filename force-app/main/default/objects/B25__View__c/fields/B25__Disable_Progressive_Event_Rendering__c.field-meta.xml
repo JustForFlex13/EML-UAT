@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Disable_Progressive_Event_Rendering__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Disables rendering events while you scroll and instead renders them all at once.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Désactive le rendu des événements pendant le défilement et les affiche à la place tous en une seule fois.</inlineHelpText>
+    <label>Disable Progressive Event Rendering</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

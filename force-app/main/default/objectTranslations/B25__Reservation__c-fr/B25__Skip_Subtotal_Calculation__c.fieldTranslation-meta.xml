@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si cette option n’est pas cochée, le sous-total sera calculé et écrasé lors de l’enregistrement d’une réservation.</help>
+    <label></label>
+    <name>B25__Skip_Subtotal_Calculation__c</name>
+</CustomFieldTranslation>

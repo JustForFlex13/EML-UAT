@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Enable_Grouping__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Only officially supported on Staff and Group Calendars.
+Divides the Staff and Group resources in blocks.
+The Availabilities are only loaded when the block is openend.
+Enable this when loading Availabilities takes too long.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Uniquement pris en charge officiellement sur les calendriers du personnel et des groupes. Divise les ressources du personnel et des groupes en blocs. Les disponibilités ne sont chargées que lorsque le bloc est ouvert. Activez cette option lorsque le chargement des disponibilités prend trop de temps.</inlineHelpText>
+    <label>Enable Grouping</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

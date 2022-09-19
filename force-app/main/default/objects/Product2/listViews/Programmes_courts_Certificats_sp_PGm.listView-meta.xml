@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programmes_courts_Certificats_sp_PGm</fullName>
+    <columns>Pack_la_carte__c</columns>
+    <columns>Format__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Suiveur__c</columns>
+    <columns>ID_suiveur__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.FAMILY</field>
+        <operation>equals</operation>
+        <value>OFFRES EXEC DEV Programmes Certifiants,OFFRES EXEC DEV Programmes courts</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Pack</value>
+    </filters>
+    <filters>
+        <field>Format__c</field>
+        <operation>equals</operation>
+        <value>Certificat</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.DESCRIPTION</field>
+        <operation>notContain</operation>
+        <value>Dynamics</value>
+    </filters>
+    <filters>
+        <field>Pack_la_carte__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Programmes courts - Certificats spé PGM</label>
+    <language>fr</language>
+</ListView>

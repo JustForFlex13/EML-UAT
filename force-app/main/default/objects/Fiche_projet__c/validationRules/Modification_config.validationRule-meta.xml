@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Modification_config</fullName>
+    <active>false</active>
+    <description>Si le statut est réalisé, il faut indiquer les modifications</description>
+    <errorConditionFormula>ISPICKVAL( Statut__c, &quot;Réalisé&quot;) &amp;&amp; ( Pas_de_modification__c = False &amp;&amp; Liste_des_modifications__c = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Pas_de_modification__c</errorDisplayField>
+    <errorMessage>Veuillez renseigner l&apos;un des 2 champs &quot;Pas de modification&quot; ou &quot;Liste des modifications&quot;</errorMessage>
+</ValidationRule>

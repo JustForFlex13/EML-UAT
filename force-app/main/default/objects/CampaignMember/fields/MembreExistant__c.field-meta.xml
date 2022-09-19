@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MembreExistant__c</fullName>
+    <description>Vérifie si la date de chargement VF est nulle ou strictement inférieure à la date de dernière modification.</description>
+    <externalId>false</externalId>
+    <formula>true</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zzzTechField_MembreExistant</label>
+    <type>Checkbox</type>
+</CustomField>

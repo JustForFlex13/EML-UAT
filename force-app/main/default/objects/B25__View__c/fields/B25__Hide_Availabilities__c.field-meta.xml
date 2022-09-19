@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Hide_Availabilities__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This makes this View not load the Availabilities
+		When the org has a large amount of Resources loading the Availabilities can take a long time on longer Views.
+		The opening times will still be checked on save but will not display in the Calendar View.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cette vue ne charge pas les disponibilités. Lorsque l’organisation a une grande quantité de ressources, le chargement des disponibilités peut prendre beaucoup de temps sur des vues plus longues. Les heures d’ouverture seront toujours vérifiées lors de la sauvegarde, mais ne s’afficheront pas dans la vue calendrier.</inlineHelpText>
+    <label>Hide Availabilities</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

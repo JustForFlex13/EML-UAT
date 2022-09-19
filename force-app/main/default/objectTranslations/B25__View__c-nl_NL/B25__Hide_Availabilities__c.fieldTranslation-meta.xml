@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De weergave toont in dit geval niet de beschikbaarheid. Dit wordt dus niet weergegeven maar wel gecontroleerd wanneer er word opgeslagen. Dit versnelt Booker25 wanneer er veel rijen moeten worden getoond.</help>
+    <label></label>
+    <name>B25__Hide_Availabilities__c</name>
+</CustomFieldTranslation>

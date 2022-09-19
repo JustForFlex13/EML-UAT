@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NB_d_heure_et_jour_calculer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Ce champ se coche par WF : pour tous les produits non Pack et les produits Pack ayant la case à cocher &quot;à la carte&quot;</description>
+    <externalId>false</externalId>
+    <label>NB d&apos;heure et jour à calculer</label>
+    <type>Checkbox</type>
+</CustomField>

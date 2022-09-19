@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hed__Error_Notifications_To__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores the type of user to send error notifications to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stocke le type d’utilisateur destinataire des notifications d&apos;erreur.</inlineHelpText>
+    <label>Error Notification Recipients</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

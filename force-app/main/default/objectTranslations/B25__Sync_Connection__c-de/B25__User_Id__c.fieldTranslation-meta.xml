@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ID der/des Nutzer:in, mit der dieser Datensatz synchronisiert werden soll. In den meisten Fällen die E-Mail-Adresse der/des Nutzer:in.</help>
+    <label></label>
+    <name>B25__User_Id__c</name>
+</CustomFieldTranslation>

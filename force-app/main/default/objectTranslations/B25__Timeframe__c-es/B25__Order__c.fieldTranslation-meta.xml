@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determina el orden de los períodos de tiempo en la lista desplegable del formulario de reserva. Los números más bajos aparecen primero.</help>
+    <label></label>
+    <name>B25__Order__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Bonjour&nbsp;{{{Recipient.Salutation}}}&nbsp;{{{Recipient.LastName}}}<br />
+<br />
+Je reviens vers vous suite à votre candidature au programme EMBA.<br />
+<br />
+Le prochain comité de sélection se tiendra le 9 septembre prochain.<br />
+<br />
+Afin que votre dossier puisse être présenté il faudrait le finaliser pour le <b>6 septembre au plus tard</b><br />
+<br />
+A ce jour, il manque à votre dossier :</span></span>
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Votre CV</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Vos diplômes</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">L'organigramme de l'entreprise</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Votre pièce d'identité</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Une photo</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Le réglement des frais de dossier</span></span></li>
+</ul>
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;"> <u>N’oubliez pas</u> :</span></span>
+
+<ul>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">d’ajouter deux adresses email de personnes pouvant vous recommander dans l’onglet recommandation</span></span></li>
+	<li><span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">de finir de compléter la partie rédactionnelle sur votre projet professionnel et vos motivations</span></span></li>
+	<li><font face="Arial, Helvetica, sans-serif"><span style="font-size: 11px;">de soumettre votre dossier pour pouvoir passer les tests digitaux</span></font>&nbsp;</li>
+</ul>
+<br />
+<span style="font-size:11px;"><span style="font-family:Arial,Helvetica,sans-serif;">Je suis disponible si besoin, n'hésitez pas,<br />
+<span style="color:#e2001a">__</span><br />
+<b><span style="color:#e2001a">Virginie LAFONT</span></b><br />
+<span lang="EN-US">Recruitment Manager | Executive MBA Lyon</span><br />
+<a href="mailto:lafont@eml-executive.com"><b><i><span lang="EN-US" style="color:blue">lafont@eml-executive.com</span></i></b></a><b><i> </i></b><br />
+<span style="line-height:115%"><span lang="EN-US">Mobile : +33 (0) 6 81 73 28 80</span></span><br />
+<b>Prenez rendez-vous</b> <a href="https://calendly.com/meyer-lafont_emlyon"><b><i><span style="color:blue">agenda en ligne</span></i></b></a><br />
+<img alt="nouveau logo" src="" style="max-width: 676.0675231933593px" title="nouveau logo" /></span></span>
+</body></html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Compte_NomDuCompte</fullName>
+    <active>true</active>
+    <description>Empêcher la modification du nom des comptes &quot;Formation Initiale&quot; et &quot;sans organisation connue&quot;</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( AND(
+OR(
+PRIORVALUE(Name)=&quot;Formation Initiale&quot;,
+PRIORVALUE(Name)=&quot;Sans organisation connue&quot;
+),
+ISCHANGED(Name)
+)
+)</errorConditionFormula>
+    <errorMessage>Il est impossible de modifier le nom de compte</errorMessage>
+</ValidationRule>

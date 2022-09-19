@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Contact09_Maj_Nom_Prenom_Etudiant</fullName>
+    <active>true</active>
+    <description>Règle régissant les droits en modification des contacts Diplômés. Le nom et le prénom ne sont modifiables que par le profil BDD</description>
+    <errorConditionFormula>AND( 
+Identifiant_dipl_m__c&lt;&gt;&quot;&quot;, 
+OR(ISCHANGED(LastName),  ISCHANGED(FirstName)), 
+$Profile.Name &lt;&gt; &quot;BDD&quot;, $Profile.Name &lt;&gt; &quot;FOREVER&quot;, $UserRole.Name &lt;&gt; &quot;Forever&quot;, $Profile.Name &lt;&gt; &quot;Administrateur système&quot;, $Profile.Name &lt;&gt; &quot;Interface&quot;)</errorConditionFormula>
+    <errorMessage>Le champ nom et le champ prénom ne peuvent être modifiés que par les équipes Base de données ou Forever pour ce type d&apos;enregistrement !</errorMessage>
+</ValidationRule>

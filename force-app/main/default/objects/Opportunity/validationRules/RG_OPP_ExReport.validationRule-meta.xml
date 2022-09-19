@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_OPP_ExReport</fullName>
+    <active>true</active>
+    <description>Un exercice de report doit être obligatoirement choisi quand le statut commercial :&quot;Prospect Report&quot; est sélectionné</description>
+    <errorConditionFormula>ISPICKVAL(StageName, &apos;Prospect report&apos;)  &amp;&amp;  ISPICKVAL( Exercice_de_report__c , &apos;&apos;)  &amp;&amp; ( OR( RecordType.DeveloperName  = &apos;Programme_Long_Dipl_mant&apos;,  RecordType.DeveloperName = &apos;Formation_courte&apos;,   BEGINS(InterfaceExternalId__c, &apos;IMBA&apos; )  ) )</errorConditionFormula>
+    <errorDisplayField>Exercice_de_report__c</errorDisplayField>
+    <errorMessage>Veuillez Sélectionner un exercice de report</errorMessage>
+</ValidationRule>

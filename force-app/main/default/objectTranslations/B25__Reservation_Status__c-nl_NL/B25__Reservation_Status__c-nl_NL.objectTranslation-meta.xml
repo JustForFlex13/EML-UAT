@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Reservation Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Reservation Statuses</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Reservering Status Naan</nameFieldLabel>
+</CustomObjectTranslation>

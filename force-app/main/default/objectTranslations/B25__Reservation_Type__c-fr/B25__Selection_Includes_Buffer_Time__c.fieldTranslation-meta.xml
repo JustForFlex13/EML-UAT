@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsque cette option est désactivée, le temps de tampon est ajouté en dehors de la plage horaire sélectionnée par l’utilisateur. Lorsque cette option est activée, le temps de tampon est inclus dans la plage horaire (ce qui rend la réservation réelle plus courte).</help>
+    <label></label>
+    <name>B25__Selection_Includes_Buffer_Time__c</name>
+</CustomFieldTranslation>

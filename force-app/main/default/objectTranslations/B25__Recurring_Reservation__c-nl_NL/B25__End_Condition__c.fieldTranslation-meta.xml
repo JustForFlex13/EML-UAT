@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De terugkerende reserveringen zal stoppen op een einddatum of een aantal reserveringen.</help>
+    <label></label>
+    <name>B25__End_Condition__c</name>
+    <picklistValues>
+        <masterLabel>end date</masterLabel>
+        <translation>Einddatum</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>number of reservations</masterLabel>
+        <translation>Aantal reserveringen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

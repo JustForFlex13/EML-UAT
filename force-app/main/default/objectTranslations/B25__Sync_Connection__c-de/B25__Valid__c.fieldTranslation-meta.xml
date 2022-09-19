@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lt. API bestehen sowohl Nutzer als auch Kalender.</help>
+    <label></label>
+    <name>B25__Valid__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determina en qué orden aparecen los encabezados de hora, con el número inferior mostrándose en la parte superior, seguido de números inferiores y, por último, campos vacíos.</help>
+    <label></label>
+    <name>B25__Order__c</name>
+</CustomFieldTranslation>

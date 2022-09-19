@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Confirmation d&apos;inscription - Certificat Développement Commercial</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x200</letterhead>
+    <name>Confirmation d&apos;inscription Développement Commercial</name>
+    <style>promotionRight</style>
+    <subject>emlyon business school - Confirmation d&apos;inscription</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

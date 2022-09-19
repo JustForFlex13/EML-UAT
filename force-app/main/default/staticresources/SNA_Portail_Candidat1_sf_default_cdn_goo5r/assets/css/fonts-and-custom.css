@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('/PortailCandidatEMLyon/resource/em_lyon_typographie_Poppins/Poppins/Poppins-SemiBold.ttf') format('TrueType');
+}
+:root { --dxp-c-section-columns-max-width: 1170px; }

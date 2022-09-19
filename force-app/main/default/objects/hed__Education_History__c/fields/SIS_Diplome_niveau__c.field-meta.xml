@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Diplome_niveau__c</fullName>
+    <externalId>false</externalId>
+    <label>Diplôme niveau</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SIS_Nationalite_du_diplome__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aucun diplôme</fullName>
+                <default>false</default>
+                <label>Aucun diplôme</label>
+            </value>
+            <value>
+                <fullName>Niveau Bac</fullName>
+                <default>false</default>
+                <label>Niveau Bac</label>
+            </value>
+            <value>
+                <fullName>Niveau Bac +1</fullName>
+                <default>false</default>
+                <label>Niveau Bac +1</label>
+            </value>
+            <value>
+                <fullName>Niveau Bac+2</fullName>
+                <default>false</default>
+                <label>Niveau Bac+2</label>
+            </value>
+            <value>
+                <fullName>Niveau Bac+3</fullName>
+                <default>false</default>
+                <label>Niveau Bac+3</label>
+            </value>
+            <value>
+                <fullName>Niveau Bac+4</fullName>
+                <default>false</default>
+                <label>Niveau Bac+4</label>
+            </value>
+            <value>
+                <fullName>Niveau Bac+5</fullName>
+                <default>false</default>
+                <label>Niveau Bac+5</label>
+            </value>
+            <value>
+                <fullName>Niveau Bac+6</fullName>
+                <default>false</default>
+                <label>Niveau Bac+6</label>
+            </value>
+            <value>
+                <fullName>Niveau Bac+7</fullName>
+                <default>false</default>
+                <label>Niveau Bac+7</label>
+            </value>
+            <value>
+                <fullName>Niveau Bac+8 et plus</fullName>
+                <default>false</default>
+                <label>Niveau Bac+8 et plus</label>
+            </value>
+            <value>
+                <fullName>No degree</fullName>
+                <default>false</default>
+                <label>No degree</label>
+            </value>
+            <value>
+                <fullName>Secondary education</fullName>
+                <default>false</default>
+                <label>Secondary education</label>
+            </value>
+            <value>
+                <fullName>1-year higher education</fullName>
+                <default>false</default>
+                <label>1-year higher education</label>
+            </value>
+            <value>
+                <fullName>2- year higher education</fullName>
+                <default>false</default>
+                <label>2- year higher education</label>
+            </value>
+            <value>
+                <fullName>3-year higher education</fullName>
+                <default>false</default>
+                <label>3-year higher education</label>
+            </value>
+            <value>
+                <fullName>4-year higher education</fullName>
+                <default>false</default>
+                <label>4-year higher education</label>
+            </value>
+            <value>
+                <fullName>5-year higher education</fullName>
+                <default>false</default>
+                <label>5-year higher education</label>
+            </value>
+            <value>
+                <fullName>6-year higher education</fullName>
+                <default>false</default>
+                <label>6-year higher education</label>
+            </value>
+            <value>
+                <fullName>7-year higher education</fullName>
+                <default>false</default>
+                <label>7-year higher education</label>
+            </value>
+            <value>
+                <fullName>8-year or more higher education</fullName>
+                <default>false</default>
+                <label>8-year or more higher education</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Aucun diplôme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Niveau Bac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Niveau Bac +1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Niveau Bac+2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Niveau Bac+3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Niveau Bac+4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Niveau Bac+5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Niveau Bac+6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Niveau Bac+7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FR</controllingFieldValue>
+            <valueName>Niveau Bac+8 et plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>No degree</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>Secondary education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>1-year higher education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>2- year higher education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>3-year higher education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>4-year higher education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>5-year higher education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>6-year higher education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>7-year higher education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>International</controllingFieldValue>
+            <valueName>8-year or more higher education</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

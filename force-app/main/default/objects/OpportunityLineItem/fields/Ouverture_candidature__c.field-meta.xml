@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ouverture_candidature__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Cette coche permet de signaler le déclenchement sur le site EML 3 l’ouverture du dossier de candidature. Valable également pour formation continue longue.</description>
+    <externalId>false</externalId>
+    <label>Ouverture candidature</label>
+    <type>Checkbox</type>
+</CustomField>

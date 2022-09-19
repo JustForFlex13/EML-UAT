@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x160</letterhead>
+    <name>Modéle PGM - Angelina Turrisi</name>
+    <style>promotionRight</style>
+    <subject>emlyon business school - Réunion d&apos;information PGM jeudi 12/01/2017 à 19h00</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

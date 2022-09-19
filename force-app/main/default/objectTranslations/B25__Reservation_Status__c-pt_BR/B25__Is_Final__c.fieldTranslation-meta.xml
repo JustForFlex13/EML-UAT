@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se esta caixa for selecionada, os utilizadores normais não podem editar Reservas com este estado.</help>
+    <label></label>
+    <name>B25__Is_Final__c</name>
+</CustomFieldTranslation>

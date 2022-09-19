@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tenha em conta as Disponibilidades ao selecionar uma faixa horária no calendário. Quando o utilizador seleciona uma célula, apenas a parte disponível da célula será selecionada.</help>
+    <label></label>
+    <name>B25__Enable_Availability_Aware_Selection__c</name>
+</CustomFieldTranslation>

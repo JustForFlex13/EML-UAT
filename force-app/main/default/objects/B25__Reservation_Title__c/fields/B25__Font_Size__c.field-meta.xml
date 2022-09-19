@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Font_Size__c</fullName>
+    <defaultValue>9</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This determines the size of the font.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cela détermine la taille de la police.</inlineHelpText>
+    <label>Font Size</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

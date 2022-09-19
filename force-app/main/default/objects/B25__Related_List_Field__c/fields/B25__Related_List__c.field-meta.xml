@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Related_List__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Related List record to which this Related List Field belongs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>L’enregistrement de liste connexe auquel appartient ce champ de liste connexe.</inlineHelpText>
+    <label>Related List</label>
+    <referenceTo>B25__Related_List__c</referenceTo>
+    <relationshipLabel>Related List Fields</relationshipLabel>
+    <relationshipName>Related_List_Fields</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

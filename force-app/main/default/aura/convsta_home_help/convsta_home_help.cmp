@@ -1,0 +1,38 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:hasRecordId" controller="Convsta_Internship" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="evalLien" type="String"/>
+    <aura:attribute name="evalDownloadLien" type="String"/>
+    
+    <lightning:layout horizontalAlign="spread" verticalAlign="stretch" >
+        <lightning:layoutItem padding="around-small" size="12">
+            <article class="slds-card" style="background-color:rgb(227, 38, 27); ">
+                <aura:if isTrue="{!empty(v.evalLien)}">                    
+                    <aura:if isTrue="{!$Locale.language =='fr'}">
+                        <a href="{!$Resource.convsta_guideCommunityUser}" target="_blank" style=" color: white;text-decoration: underline;">
+                        	<lightning:icon iconName="utility:info" variant="inverse"  title="{!$Label.c.Convsta_Texte_aide_2}" alternativeText="{!$Label.c.Convsta_Texte_aide_2}"/> &nbsp;{!$Label.c.Convsta_Texte_aide_1}&nbsp;
+                    	</a>
+                        <aura:set attribute="else">
+                            <a href="{!$Resource.convsta_guideCommunityUserEN}" target="_blank" style=" color: white;text-decoration: underline;">
+                        		<lightning:icon iconName="utility:info" variant="inverse"  title="{!$Label.c.Convsta_Texte_aide_2}" alternativeText="{!$Label.c.Convsta_Texte_aide_2}"/> &nbsp;{!$Label.c.Convsta_Texte_aide_1}&nbsp;
+                    		</a>
+                        </aura:set>
+                    </aura:if>
+                    <aura:set attribute="else">                        
+                        <a href="{!v.evalLien}" target="_blank" style=" color: white;text-decoration: underline;">
+                            <div class="slds-align_absolute-center">
+                                <lightning:icon iconName="utility:description" variant="inverse" title="Mon évaluation" alternativeText="Mon évaluation"/> &nbsp;
+                                {!$Label.c.Convsta_MonEvaluation}
+                            </div>
+                        </a>  
+                        <a href="{!v.evalDownloadLien}" target="_blank" style=" color: white;text-decoration: underline;">
+                            <div class="slds-align_absolute-center">
+                                <lightning:icon iconName="utility:description" variant="inverse" title="Mon évaluation téléchargée" alternativeText="Mon évaluation téléchargée"/> &nbsp;
+                                {!$Label.c.convsta_dowload_evaluation}
+                            </div>
+                        </a>
+                    </aura:set>
+                </aura:if>
+            </article>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>

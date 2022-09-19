@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>PGE</fullName>
+        <default>false</default>
+        <label>PGE</label>
+    </customValue>
+    <customValue>
+        <fullName>ETD</fullName>
+        <default>false</default>
+        <label>ETD</label>
+    </customValue>
+    <customValue>
+        <fullName>LMM</fullName>
+        <default>false</default>
+        <label>LMM</label>
+    </customValue>
+    <customValue>
+        <fullName>BBA</fullName>
+        <default>false</default>
+        <label>BBA</label>
+    </customValue>
+    <customValue>
+        <fullName>MS</fullName>
+        <default>false</default>
+        <label>MS</label>
+    </customValue>
+    <masterLabel>liste programme pour convsta</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

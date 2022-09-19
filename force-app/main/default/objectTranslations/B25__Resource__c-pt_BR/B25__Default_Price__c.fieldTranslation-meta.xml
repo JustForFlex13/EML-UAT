@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Este é o preço predefinido para calcular os preços de reserva para este Recurso.</help>
+    <label></label>
+    <name>B25__Default_Price__c</name>
+</CustomFieldTranslation>

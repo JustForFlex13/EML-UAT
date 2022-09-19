@@ -1,0 +1,189 @@
+<aura:component 
+                implements="forceCommunity:availableForAllPageTypes,force:hasRecordId,flexipage:availableForRecordHome" 
+                access="global" 
+                controller="LCctrl01_Convsta_demandeController">
+    <aura:attribute name="recordIdTest"     type="String" />
+    <aura:attribute name="testString"       type="String" />
+    <aura:attribute name="recordInfo"       type="Object" />
+    <aura:attribute name="boolInfo"         type="Object" />
+    <aura:attribute name="boolComp"         type="Object" />
+    <aura:attribute name="boolMiss"         type="Object" />
+    <aura:attribute name="boolContr"        type="Object" />
+    <aura:attribute name="demande"          type="Object" />
+    <aura:attribute name="canEditRefreh"    type="Integer" default="1" />
+    <aura:attribute name="toConfirm"        type="boolean" default="false"/>
+    <aura:attribute name="toUpload"         type="boolean" default="false"/>
+    <aura:attribute name="refreshView"      type="boolean" default="true"/>
+    
+    <force:recordData 
+        recordId        = "{!v.recordId}"
+        fields          = "Id,Convsta_TypeContrat__c, Convsta_tech_notIsPortaluser__c, Responsable_administratif_entreprise__c,Convsta_Localisation_de_l_entreprise__c, convsta_techCanSubmit__c, Status,Convsta_Type_de_demande__c, Convsta_Entreprise__c, Convsta_Tuteur__c"
+        mode            = "EDIT"
+        targetFields    = "{!v.demande}"
+        aura:id         = "caseRecord" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name="onSaveSuccess" event="force:recordSaveSuccess" action="{!c.doUpdate}"/>
+    <aura:handler name="entrepriseSaved" event="c:sireneSearchEvent" action="{!c.handleEntreprise}"/>
+    <aura:handler name="localistationToggle" event="aura:componentEvent" action="{!c.handleLocalisationToggle}"/>
+    
+    
+    <lightning:spinner alternativeText="Saving" size="medium" class="slds-hide" />
+    <aura:if isTrue="{!v.recordInfo}">
+            <aura:if isTrue="{!and(!v.demande.Convsta_tech_notIsPortaluser__c,v.demande.Status=='Brouillon en cours de saisie',v.demande.Convsta_TypeContrat__c!='Convention de stage de l ecole')}">
+                <article class="slds-card" style="background-color:rgb(227, 38, 27); ">
+                    <div class="slds-card__body slds-card__body_inner" style=" color: white;" >
+                        <!--<lightning:icon iconName="utility:warning" alternativeText="warning" variant="inverse" size="small"/>&nbsp;-->
+                        {!$Label.c.Convsta_consigneFormulaireDemande}</div>
+                </article>
+            </aura:if>
+    </aura:if>
+    <div aura:id="topInfo"></div>
+    
+    
+    
+    <lightning:accordion aura:id="accordion" activeSectionName="0" onsectiontoggle="{!c.handleScroll}" allowMultipleSectionsOpen="true">
+        <aura:if isTrue="{!v.recordInfo}">
+
+            <lightning:accordionSection name="1" label="{!$Label.c.convsta_stepInformationsPersonelles}">
+                <aura:set attribute="actions">
+                    <lightning:buttonGroup>
+                        <lightning:buttonIcon iconName="{!v.boolInfo ? 'utility:check':'utility:new_direct_message'}" 
+                                              variant="bare" value="1" onclick="{!c.openSection}"/> 
+                    </lightning:buttonGroup>   
+                </aura:set>
+                <aura:if isTrue="{!v.recordInfo.infoPerso.Id}">
+                    <aura:if isTrue="{!v.demande.convsta_techCanSubmit__c}">
+                        <force:recordEdit aura:id="editInfoPerso" recordId="{!v.recordInfo.infoPerso.Id}"/>
+                        <lightning:button variant="brand" label="{!$Label.c.convsta_enregistrer}" value="savePerso" onclick="{!c.saveSection}"/>
+                        <aura:set attribute="else">
+                            <force:recordView recordId="{!v.recordInfo.infoPerso.Id}" />
+                        </aura:set>
+                    </aura:if>
+                </aura:if>
+            </lightning:accordionSection>
+            <lightning:accordionSection name="2" label="{!$Label.c.convsta_stepEntreprise}">
+                <aura:set attribute="actions">
+                    <lightning:buttonGroup>
+                        <lightning:buttonIcon iconName="{!v.boolComp ? 'utility:check':'utility:new_direct_message'}"
+                                              variant="bare"  value="2" onclick="{!c.openSection}"/> 
+                    </lightning:buttonGroup>
+                </aura:set>
+                <aura:if isTrue="{!v.recordInfo.monEntreprise.Id}">
+                    <c:convsta_monEntrepriseTab 
+                                                monEntreprise="{!v.recordInfo.monEntreprise}" 
+                                                localisation = "{!v.demande.Convsta_Localisation_de_l_entreprise__c }" 
+                                                contrat="{!v.demande.Convsta_Type_de_demande__c}"
+                                                canEdit="{!v.demande.convsta_techCanSubmit__c}"/>
+                </aura:if>
+                <aura:if isTrue="{!v.demande.Convsta_tech_notIsPortaluser__c}">
+                    <aura:if isTrue="{!v.refreshView}">
+                        <lightning:recordEditForm
+                            recordId="{!v.recordId}" 
+                            objectApiName="Case"
+                            onsuccess="{!c.refreshview}" >
+                            <lightning:inputField fieldName="Convsta_Entreprise__c" value="{!v.demande.Convsta_Entreprise__c}" /> 
+                            <lightning:inputField fieldName="Responsable_administratif_entreprise__c" value="{!v.demande.Responsable_administratif_entreprise__c}" /> 
+                            <div class="slds-m-top_medium">
+                                <lightning:button variant="brand" type="submit" name="save" label="changer entreprise et responsable administratif" />
+                            </div>
+                        </lightning:recordEditForm>
+                        <br/>
+                        <lightning:messages aura:id="emessages"/>
+                        <lightning:button name="button" onclick="{!c.createAccount}" label="Créer compte" variant="brand" disabled="{!v.demande.Convsta_Entreprise__c != null}"/>
+                        <lightning:button name="button" onclick="{!c.createRespAdmin}" label="Créer responsable administratif" variant="brand" disabled="{!or( v.demande.Responsable_administratif_entreprise__c != null, v.demande.Convsta_Entreprise__c == null) }"/>
+                    </aura:if>
+                </aura:if>
+            </lightning:accordionSection>
+            
+            <lightning:accordionSection name="3" label="{!$Label.c.convsta_stepMission}">
+                <aura:set attribute="actions">
+                    <lightning:buttonGroup>
+                        <lightning:buttonIcon iconName="{!v.boolMiss ? 'utility:check':'utility:new_direct_message'}" 
+                            variant="bare"  value="3" onclick="{!c.openSection}"/> 
+                    </lightning:buttonGroup>
+                </aura:set>
+                <aura:if isTrue="{!v.recordInfo.maMission.Id}">
+                    <aura:if isTrue="{!v.demande.convsta_techCanSubmit__c}">
+                        <article class="slds-card" style="background-color:rgb(227, 38, 27); color:white ">
+                            <lightning:icon iconName="utility:info" variant="inverse"  title="{!$Label.c.Convsta_Texte_aide_3}" alternativeText="{!$Label.c.Convsta_Texte_aide_3}"/> &nbsp;{!$Label.c.Convsta_Texte_aide_3}&nbsp;
+                        </article>
+                        <force:recordEdit aura:id="editMission" recordId="{!v.recordInfo.maMission.Id}"/>
+                        <lightning:button variant="brand" label="{!$Label.c.convsta_enregistrer}" value="saveMission" onclick="{!c.saveSection}"/>
+                        <aura:set attribute="else">
+                            <force:recordView recordId="{!v.recordInfo.maMission.Id}"/>
+                        </aura:set>
+                    </aura:if>
+                    <aura:if isTrue="{!v.demande.Convsta_tech_notIsPortaluser__c}">
+                        <aura:if isTrue="{!v.refreshView}">
+                            <lightning:recordEditForm
+                                recordId="{!v.recordId}" 
+                                objectApiName="Case"
+                                onsuccess="{!c.refreshview}">
+                                <lightning:inputField fieldName="Convsta_Tuteur__c" value="{!v.demande.Convsta_Tuteur__c}" /> 
+                                <div class="slds-m-top_medium">
+                                    <lightning:button variant="brand" type="submit" name="save" label="Modifier le tuteur" />
+                                </div>
+                            </lightning:recordEditForm>
+                            <lightning:messages aura:id="emessages"/>
+                            <br/>
+                            <lightning:button name="button" onclick="{!c.createTuteur}" label="Créer tuteur entreprise" variant="brand" disabled="{!or( v.demande.Convsta_Tuteur__c != null, v.demande.Convsta_Entreprise__c == null) }"/>
+                        </aura:if>
+                    </aura:if>
+                </aura:if>
+            </lightning:accordionSection>
+            <lightning:accordionSection name="4" label="{!$Label.c.convsta_stepConditionsContractuelles}">
+                <aura:set attribute="actions">
+                    <lightning:buttonGroup>
+                        <lightning:buttonIcon iconName="{!v.boolContr ? 'utility:check':'utility:new_direct_message'}"
+                            variant="bare"  value="4" onclick="{!c.openSection}"/> 
+                    </lightning:buttonGroup>
+                </aura:set>
+                
+                <aura:if isTrue="{!v.recordInfo.monContrat.Id}">
+                    <aura:if isTrue="{!and(v.demande.convsta_techCanSubmit__c , v.canEditRefreh>0)}">
+                        <force:recordEdit aura:id="editContrat" recordId="{!v.recordInfo.monContrat.Id}"/>
+                        <lightning:button variant="brand" label="{!$Label.c.convsta_enregistrer}" value="saveContrat" onclick="{!c.saveSection}"/>
+                        <aura:set attribute="else">
+                            <force:recordView recordId="{!v.recordInfo.monContrat.Id}"/>
+                        </aura:set>
+                    </aura:if>                                             
+                </aura:if>
+            </lightning:accordionSection>
+        </aura:if>
+    </lightning:accordion>
+    <aura:if isTrue="{!not(v.demande.Convsta_tech_notIsPortaluser__c)}">
+        <br/>
+        <lightning:button variant="brand" 
+            label="{!$Label.c.convsta_soumettre}" 
+            value="submitCase" 
+            onclick="{!c.openConfirm}"
+            disabled="{!not( and(v.boolInfo, and( v.boolComp, and(v.boolMiss, and(v.boolContr, v.demande.convsta_techCanSubmit__c ))))) }"/>
+        <aura:if isTrue="{!v.demande.Status=='Brouillon en cours de saisie'}">
+            <lightning:button label="{!$Label.c.convsta_annuler_demande}" iconName="utility:delete" iconPosition="left"   onclick="{!c.cancelCase}" />
+        </aura:if>
+        <aura:if isTrue="{!v.toConfirm}">
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        {!$Label.c.Convsta_ConfirmSoumission}<br/>
+                        <aura:if isTrue="{!v.toUpload}">
+                            {!$Label.c.Convsta_UploadFile}
+                        </aura:if>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <lightning:button variant="neutral" 
+                                        label="{!$Label.c.Convsta_Annuler}" 
+                                        title="{!$Label.c.Convsta_Annuler}" 
+                                        onclick="{! c.closeConfirm }"/>
+                        <lightning:button variant="brand" 
+                                        label="{!$Label.c.Convsta_ConfirmSoumissionButton}" 
+                                        title="{!$Label.c.Convsta_ConfirmSoumissionButton}" 
+                                        onclick="{! c.submitCase }"/>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>            
+        </aura:if>
+    </aura:if>
+</aura:component>

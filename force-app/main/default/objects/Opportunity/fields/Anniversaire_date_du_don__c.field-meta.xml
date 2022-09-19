@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Anniversaire_date_du_don__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND( 
+TODAY()&gt;=(DATE(YEAR(TODAY()),MONTH(Date_du_don__c),DAY(Date_du_don__c))-30), 
+TODAY()&lt;=DATE(YEAR(TODAY()),MONTH(Date_du_don__c),DAY(Date_du_don__c)) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Anniversaire date du don</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bepaald wat er gebeurd bij een beschikbaarheids conflict: Geen: sta toe; Zacht: sta toe maar creëer een conflict record; Hard: sta niet toe</help>
+    <label></label>
+    <name>B25__Availability_Checking__c</name>
+</CustomFieldTranslation>

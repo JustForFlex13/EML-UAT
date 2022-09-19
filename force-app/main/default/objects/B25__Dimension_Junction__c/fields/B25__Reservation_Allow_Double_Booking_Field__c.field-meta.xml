@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Reservation_Allow_Double_Booking_Field__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API name of a (cross-object) checkbox field on reservation. When true, the reservation will allow
+		double
+		bookings.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le nom API d’un champ de case à cocher (interobjets) pour la réservation. Si cette option est true, la réservation autorise les réservations doubles.</inlineHelpText>
+    <label>Reservation Allow Double Booking Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Repartition du cursus par site</label>
+    <name>SIS_Distribution_of_the_cursus_by_site__c</name>
+</CustomFieldTranslation>

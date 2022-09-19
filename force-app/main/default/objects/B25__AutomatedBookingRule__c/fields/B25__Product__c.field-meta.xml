@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>When empty, trigger once for the opportunity. When filled in, trigger for every opportunity product of the chosen product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque ce champ est vide, il se déclenche une fois pour l’opportunité. Lorsqu’il est rempli, il se déclenche pour chaque produit d’opportunité du produit choisi.</inlineHelpText>
+    <label>Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Automated Booking Rules</relationshipLabel>
+    <relationshipName>Automated_Booking_Rules</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

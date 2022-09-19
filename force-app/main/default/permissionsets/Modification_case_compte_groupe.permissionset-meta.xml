@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>il faut que la case compte groupe ne soit modifiable que par l&apos;équipe BDD
+1 Adélaide GOMES
+2 Pascale EXBRAYAT
+3 Emilie WILSON</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Compte_Groupe__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Modification case compte groupe</label>
+    <recordTypeVisibilities>
+        <recordType>Account.Business_Account</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

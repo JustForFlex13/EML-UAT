@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si se especifica, el color de fondo de las celdas cambia a este color los sábados y domingos.</help>
+    <label></label>
+    <name>B25__Weekend_Highlight_Color__c</name>
+</CustomFieldTranslation>

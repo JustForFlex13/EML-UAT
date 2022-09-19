@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Optioneel. Als dit (cross-object) veld op de reservering waar is, zal het aantal van de reservering niet meertellen tot de capaciteit controle. The hoeveelheid kan echter niet groter zijn dan de capaciteit van de dimensie.</help>
+    <label></label>
+    <name>B25__Reservation_Skip_Capacity_Check_Field__c</name>
+</CustomFieldTranslation>

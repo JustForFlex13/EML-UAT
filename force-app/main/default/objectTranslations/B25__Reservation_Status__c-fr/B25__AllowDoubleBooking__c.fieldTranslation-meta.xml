@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilisé par défaut dans Booker25 pour autoriser les réservations doubles pour une dimension lorsque cette case est cochée.</help>
+    <label></label>
+    <name>B25__AllowDoubleBooking__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Actions</masterLabel>
+        <translation><!-- Actions --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Case Study</masterLabel>
+        <translation>Etude de cas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Certification</masterLabel>
+        <translation>Certification</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Final presentation</masterLabel>
+        <translation>Présentation finale</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quizz</masterLabel>
+        <translation>Questionnaire</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reflective Analysis</masterLabel>
+        <translation>Analyse réflexive</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

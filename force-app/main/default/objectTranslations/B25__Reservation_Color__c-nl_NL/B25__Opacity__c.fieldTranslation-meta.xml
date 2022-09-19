@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Waarde tussen de 0 en 1. 0 betekent helemaal transparant, 1 betekent volledig gekleurd.</help>
+    <label></label>
+    <name>B25__Opacity__c</name>
+</CustomFieldTranslation>

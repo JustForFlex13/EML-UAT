@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Affichage_EMWH__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Cochez cette case si ce produit doit être affiché sur le Web Hub</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cochez cette case si ce produit doit être affiché sur le Web Hub</inlineHelpText>
+    <label>Affichage EMWH</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

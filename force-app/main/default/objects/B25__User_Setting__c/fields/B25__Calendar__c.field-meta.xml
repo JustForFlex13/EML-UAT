@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Calendar__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Calendar this setting belongs to used for the individually added Resources the id value is stored in the text value field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le calendrier auquel appartient ce paramètre est utilisé pour les ressources ajoutées individuellement. La valeur de l’identifiant est stockée dans le champ de valeur de texte.</inlineHelpText>
+    <label>Calendar</label>
+    <referenceTo>B25__Calendar__c</referenceTo>
+    <relationshipLabel>Added Resources</relationshipLabel>
+    <relationshipName>User_Settings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

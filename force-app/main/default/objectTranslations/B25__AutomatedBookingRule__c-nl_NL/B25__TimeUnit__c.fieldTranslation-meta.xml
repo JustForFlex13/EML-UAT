@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Als deze waarde grotere is dan Days, dan kan de eindtijd worden gebruikt om de tijd dat de reservering moet eindigen te zetten. Anders zullen de reserveringen op dezelfde tijd eindigen als de eerste dag dat de ABR start.</help>
+    <label></label>
+    <name>B25__TimeUnit__c</name>
+    <picklistValues>
+        <masterLabel>Days</masterLabel>
+        <translation>Dagen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hours</masterLabel>
+        <translation>Uren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minutes</masterLabel>
+        <translation>Minuten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Months</masterLabel>
+        <translation>Maanden</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weeks</masterLabel>
+        <translation>Jaren</translation>
+    </picklistValues>
+</CustomFieldTranslation>

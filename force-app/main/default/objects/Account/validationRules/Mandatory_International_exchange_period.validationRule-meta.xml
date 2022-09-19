@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_International_exchange_period</fullName>
+    <active>true</active>
+    <description>International exchange period has to be filled when international exchange is checked.</description>
+    <errorConditionFormula>AND ( SIS_International_exchange__c = true,
+ISBLANK(SIS_International_exchange_period__c) )</errorConditionFormula>
+    <errorDisplayField>SIS_International_exchange_period__c</errorDisplayField>
+    <errorMessage>Please fill International exchange period.</errorMessage>
+</ValidationRule>

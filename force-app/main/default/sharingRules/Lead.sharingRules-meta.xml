@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Equivalent_EML</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Equivalent EML</label>
+        <sharedTo>
+            <group>Equivalent_EML</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation intra-entreprise</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation courte</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Programme Long Diplômant</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Piste_Formation_Continue</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Permets aux personnes ayant le Rôle Formation Continue de voir les pistes ayant comme type : &quot;Formation Courte&quot;, &quot;Formation Intra-Entreprise&quot; et &quot;Programme Long Diplômant&quot;</description>
+        <label>Piste Formation Continue</label>
+        <sharedTo>
+            <role>EML</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Formation courte,Programme Long Diplômant</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Piste_Formation_Sur_mesure</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Piste Formation Sur-mesure</label>
+        <sharedTo>
+            <group>Formation_sur_mesure</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>LeadSource</field>
+            <operation>equals</operation>
+            <value>Formation Sur-mesure</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>L_E_Pistes_Alumni_Track</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>L/E Pistes Alumni Track</label>
+        <sharedTo>
+            <group>EML_Alumni_Track</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>EML_Alumni_Track</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Lecture_sur_EML_PGM</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Lecture sur EML PGM</label>
+        <sharedTo>
+            <group>EML_Marketing</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>EML_PGM</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Pistes_Casa</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Accès aux pistes dont Propriétaire a le rôle Casablanca</description>
+        <label>Pistes Casa</label>
+        <sharedTo>
+            <group>Equivalent_Casa</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>BBA_CASA</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

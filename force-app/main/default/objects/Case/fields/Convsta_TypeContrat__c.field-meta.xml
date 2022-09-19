@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_TypeContrat__c</fullName>
+    <externalId>false</externalId>
+    <label>Type Contrat</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Convsta_Type_de_demande__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Convention de stage de l ecole</fullName>
+                <default>false</default>
+                <label>Convention de stage émise par emlyon business school</label>
+            </value>
+            <value>
+                <fullName>Contrat de travail de l&apos;entreprise</fullName>
+                <default>false</default>
+                <label>Contrat de travail de l&apos;entreprise (CDD/Intérim)</label>
+            </value>
+            <value>
+                <fullName>VIE</fullName>
+                <default>false</default>
+                <label>VIE/VIA</label>
+            </value>
+            <value>
+                <fullName>Convention_de_stage</fullName>
+                <default>false</default>
+                <label>Convention de stage</label>
+            </value>
+            <value>
+                <fullName>Service_civique</fullName>
+                <default>false</default>
+                <label>Service civique</label>
+            </value>
+            <value>
+                <fullName>Auto_entrepreneur</fullName>
+                <default>false</default>
+                <label>Auto-entrepreneur/ Création d&apos;entreprise</label>
+            </value>
+            <value>
+                <fullName>Convention de stage de l&apos;entreprise</fullName>
+                <default>false</default>
+                <label>Convention de stage émise par l&apos;entreprise</label>
+            </value>
+            <value>
+                <fullName>CDI</fullName>
+                <default>false</default>
+                <label>CDI</label>
+            </value>
+            <value>
+                <fullName>Alternance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Alternance</label>
+            </value>
+            <value>
+                <fullName>Contrat local a l etranger</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contrat local a l etranger</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Validation_experience_anterieure</controllingFieldValue>
+            <controllingFieldValue>Contrat à venir</controllingFieldValue>
+            <valueName>Contrat de travail de l&apos;entreprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Validation_experience_anterieure</controllingFieldValue>
+            <controllingFieldValue>Contrat à venir</controllingFieldValue>
+            <valueName>VIE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Validation_experience_anterieure</controllingFieldValue>
+            <valueName>Convention_de_stage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Validation_experience_anterieure</controllingFieldValue>
+            <controllingFieldValue>Contrat à venir</controllingFieldValue>
+            <valueName>Service_civique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Validation_experience_anterieure</controllingFieldValue>
+            <controllingFieldValue>Contrat à venir</controllingFieldValue>
+            <valueName>Auto_entrepreneur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Validation_experience_anterieure</controllingFieldValue>
+            <controllingFieldValue>Contrat à venir</controllingFieldValue>
+            <valueName>CDI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stage</controllingFieldValue>
+            <valueName>Convention de stage de l ecole</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stage</controllingFieldValue>
+            <valueName>Convention de stage de l&apos;entreprise</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

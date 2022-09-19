@@ -1,0 +1,121 @@
+<apex:page controller="Convsta_GenerationAvenantController" 
+           renderAs="pdf"
+           applyBodyTag="false" 
+           applyHtmlTag="false"
+           showHeader="false"
+           standardStylesheets="false">
+    
+    <head>
+        <style type="text/css" media="print">
+            div.footer {
+                position: fixed;
+                bottom: 0px;
+                right: 30px;
+            }
+        </style>
+        <apex:image id="logoEM" value="{!$Resource.convsta_Logo_EM}" style="vertical-align:left"/>
+    </head>
+
+    <body>
+        <apex:pageBlock rendered="{!demande.Convsta_Langue__c == 'Français'}">
+        <div align="center" style="font-weight: bold;font-family: Arial Unicode MS;">
+            Avenant à la convention de stage 
+            <br/>numéro &nbsp; <apex:outputText style="{!OutputClass}" value="{!demande.CaseNumber}"/> de &nbsp; <apex:outputText style="{!OutputClass}" value="{!infoPerso.Prenom__c} {!infoPerso.Nom__c} "/><br/>
+        </div>
+<br/><br/><br/>
+        <span style="font-family: Arial Unicode MS;"><apex:outputText style="{!OutputClass}" value="{!avenant.Convsta_Avenant__c}"/><br/>
+            Les autres dispositions de la convention initiale à laquelle le présent avenant se rapporte restent inchangées et demeurent applicables.<br/></span>
+
+        <div style="page-break-after: always"/>
+
+        <div align="right">
+            <span style="font-family: Arial Unicode MS;">Fait à Ecully, le <apex:outputText value="{0, date, dd'/'MM'/'yyyy}"><apex:param value="{!dateDuJour}"/></apex:outputText><br/></span>
+        </div>
+        <br/>
+        <br/>
+
+        <span style="font-family: Arial Unicode MS;">{!infoPerso.Nom__c} {!infoPerso.Prenom__c}<br/></span>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <span style="font-family: Arial Unicode MS;">{!demande.Responsable_administratif_entreprise__r.Name}<br/></span>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <span style="font-family: Arial Unicode MS;">{!$Label.convsta_directeur_employabilite}<br/>
+        <apex:image value="{!$Resource.convsta_Signature_DirecteurEmployabilite}" width="25%" height="25%"/>  
+        </span>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        </apex:pageBlock>
+
+     <!-- ANGLAIS -->
+    <apex:pageBlock rendered="{!demande.Convsta_Langue__c != 'Français'}">
+      <div align="center" style="font-weight: bold;font-family: Arial Unicode MS;">
+            AMENDMENT TO THE WORK PLACEMENT AGREEMENT
+          	<br/>Number  &nbsp; <apex:outputText style="{!OutputClass}" value="{!demande.CaseNumber}"/> of &nbsp; <apex:outputText style="{!OutputClass}" value="{!infoPerso.Prenom__c} {!infoPerso.Nom__c} "/><br/>
+            </div>
+        <br/><br/><br/>
+        <span style="font-family: Arial Unicode MS;"><apex:outputText style="{!OutputClass}" value="{!avenant.Convsta_Avenant__c}"/><br/>
+            Other dispositions of the initial agreement the present amendment applies to, remain unchanged and are deemed in force.<br/></span>
+
+        <div style="page-break-after: always"/>
+
+        <div align="right">
+            <span style="font-family: Arial Unicode MS;">Fait à Ecully, le <apex:outputText value="{0, date, dd'/'MM'/'yyyy}"><apex:param value="{!dateDuJour}"/></apex:outputText><br/></span>
+        </div>
+        <br/>
+        <br/>
+
+        <span style="font-family: Arial Unicode MS;">{!infoPerso.Nom__c} {!infoPerso.Prenom__c}<br/></span>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <span style="font-family: Arial Unicode MS;">{!demande.Responsable_administratif_entreprise__r.Name}<br/></span>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <span style="font-family: Arial Unicode MS;">{!$Label.convsta_directeur_employabilite}<br/>
+        <apex:image value="{!$Resource.convsta_Signature_DirecteurEmployabilite}" width="25%" height="25%"/>  
+        </span>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </apex:pageBlock>
+
+    </body>
+     
+    <!-- NOTE DE BAS DE PAGE -->
+    <div class="footer">
+        <apex:image id="footerAvenant" value="{!$Resource.convsta_Footer_Avenant}"/>
+    </div>    
+</apex:page>

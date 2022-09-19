@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Relance du formulaire pour l&apos;évaluateur</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Etudiant relance formulaire HTML</name>
+    <style>none</style>
+    <subject>Urgent : Évaluation à compléter par votre tuteur / Urgent : Evaluation has to be completed by your tutor</subject>
+    <textOnly>Bonjour {!Convsta_Evaluation__c.Etudiant__c},
+
+Nous vous informons que le formulaire d’évaluation de votre période de stage n’a toujours pas été complété par votre tuteur entreprise. Cette évaluation est requise obligatoirement afin de valider votre expérience professionnelle. Nous vous prions donc de bien vouloir inviter votre tuteur entreprise, {!Convsta_Evaluation__c.Evaluateur__c}, à le remplir dans les plus brefs délais.
+
+Pour rappel, le lien d’évaluation a été envoyé par mail à votre tuteur entreprise :
+- {!Convsta_Evaluation__c.Evaluateur__c}
+- {!Convsta_Evaluation__c.Form_Mail_Tuteur__c}
+
+Si une ou plusieurs informations sont erronées, veuillez contacter le Career center afin de rectifier ces informations dans les meilleurs délais.
+
+Nous restons à votre disposition,
+
+emlyon Career Center
+internship@em-lyon.com
+
+English version below
+
+
+Dear {!Convsta_Evaluation__c.Etudiant__c},
+
+We inform you that the evaluation form of your internship periode has not been completed by your company tutor yet. This evaluation is required in order to validate your professional experience. We kindly ask you to invite your company tutor {!Convsta_Evaluation__c.Evaluateur__c}, to fill it out as soon as possible.
+
+As a reminder, the evaluation link has been sent by email to your company tutor :
+- {!Convsta_Evaluation__c.Evaluateur__c}
+- {!Convsta_Evaluation__c.Form_Mail_Tuteur__c}
+
+If one or more information is incorrect, please contact the Career Center to rectify this information as soon as possible.
+
+We remain at your disposal,
+
+emlyon Career Center
+internship@em-lyon.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

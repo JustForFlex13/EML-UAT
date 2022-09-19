@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bei Checkbox-Filtern wird der Filter aus dem Kalender durch Aktivieren dieser Option ausgeblendet und stets der Standardwert der Checkbox angewendet.</help>
+    <label></label>
+    <name>B25__Hide_from_Calendar__c</name>
+</CustomFieldTranslation>

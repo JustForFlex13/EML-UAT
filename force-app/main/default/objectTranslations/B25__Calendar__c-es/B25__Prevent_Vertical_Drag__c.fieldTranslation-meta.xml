@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque esto si desea evitar el arrastre vertical de eventos en este calendario.</help>
+    <label></label>
+    <name>B25__Prevent_Vertical_Drag__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Default_Price__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the default base price for Resources of this Type, as used in the price calculation for Reservations.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Il s’agit du prix de base par défaut pour les ressources de ce type, tel qu’il est utilisé dans le calcul du prix pour les réservations.</inlineHelpText>
+    <label>Default Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Relationship_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter the API name of the child relationship. You can find this by going to the setup page for the reservation lookup on the child object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Saisissez le nom API de la relation enfant. Vous pouvez le trouver en allant sur la page de configuration de la recherche de réservation pour l’objet enfant.</inlineHelpText>
+    <label>Relationship Name</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

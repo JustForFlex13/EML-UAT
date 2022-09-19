@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sorte de file d’attente pour l’ABR d’emplacement où une réservation est placée lorsque la ABR ne parvient pas à placer une réservation dans toute autre ressource non virtuelle.</help>
+    <label></label>
+    <name>B25__IsVirtual__c</name>
+</CustomFieldTranslation>

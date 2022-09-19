@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RV_Tache01_objet_valeur_non_valide</fullName>
+    <active>false</active>
+    <description>Gère les saisie de valeurs sur le champ Objet. La valeur saisie doit être comprise dans la liste des valeurs disponibles dans la picklist</description>
+    <errorConditionFormula>!$User.ByPass_RV__c 
+&amp;&amp;(
+AND(
+Subject &lt;&gt; &quot;Appel&quot;,
+Subject &lt;&gt; &quot;Envoyer lettre&quot;,
+Subject &lt;&gt; &quot;Envoyer devis&quot;,
+Subject&lt;&gt;&quot;Autre&quot;,
+Subject&lt;&gt;&quot;Relance téléphonique&quot;,
+Subject&lt;&gt;&quot;Mail&quot;
+
+)
+
+
+)</errorConditionFormula>
+    <errorDisplayField>Subject</errorDisplayField>
+    <errorMessage>Merci de saisir une valeur valide ! (cliquer sur bouton en face du champ Objet pour accéder à la liste des valeurs autorisées)</errorMessage>
+</ValidationRule>

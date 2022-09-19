@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Das im Kalender zusammen mit dem Wert des Felds/dynamischen Felds angezeigte Label.</help>
+    <label></label>
+    <name>B25__Label__c</name>
+</CustomFieldTranslation>

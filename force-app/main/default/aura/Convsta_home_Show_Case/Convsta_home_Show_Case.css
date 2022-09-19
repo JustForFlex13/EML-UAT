@@ -1,0 +1,27 @@
+.THIS .slds-is-active {
+    background : rgb(227, 38, 27);
+}
+.THIS .slds-path__title{
+    color : rgb(255,255,255)
+}
+.THIS .slds-is-complete{
+    background : rgb(227, 38, 27);    
+}
+.THIS .slds-is-active:hover{
+    background : rgb(227, 38, 27);        
+}
+.THIS .slds-path__nav .slds-is-active::before{
+    background : rgb(227, 38, 27);   
+}
+.THIS .slds-path__nav .slds-is-active::after{
+    background : rgb(227, 38, 27);   
+}
+.THIS .slds-path__nav .slds-is-complete:hover{
+    background : rgb(227, 38, 27);   
+}
+.THIS .slds-path__nav .slds-is-complete::before{
+    background : rgb(227, 38, 27); 
+}
+.THIS .slds-path__nav .slds-is-complete::after{
+    background : rgb(227, 38, 27); 
+}

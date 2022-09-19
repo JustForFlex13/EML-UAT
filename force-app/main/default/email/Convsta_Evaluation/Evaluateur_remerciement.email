@@ -1,0 +1,26 @@
+Bonjour {!Convsta_Evaluation__c.Evaluateur__c},
+
+Nous accusons réception de l’évaluation de l’étudiant {!Convsta_Evaluation__c.Etudiant__c}. Vos appréciations et préconisations seront prises en compte dans le cadre de la validation de son diplôme. 
+
+Nous vous remercions pour votre confiance envers emlyon business school et l’intérêt porté aux profils de nos étudiants.
+
+Nous vous invitons à poster vos futures offres de stages/emplois sur notre plateforme dédiée : recrutement.em-lyon.com
+
+
+ Nous restons à votre disposition,
+ 
+emlyon Career Center
+
+English version below
+
+Dear {!Convsta_Evaluation__c.Evaluateur__c},
+
+We acknowledge receipt of the student {!Convsta_Evaluation__c.Etudiant__c}’s evaluation. Your assessments and recommandations will be taken into account as part of the validation of his/her diploma. 
+Thank you for your trust in emlyon business school and your interest in the profiles of our students.
+
+We invite you to post your future internship / job offers on our dedicated platform : recrutement.em-lyon.com
+
+
+ We remain at your disposal,
+
+emlyon Career Center

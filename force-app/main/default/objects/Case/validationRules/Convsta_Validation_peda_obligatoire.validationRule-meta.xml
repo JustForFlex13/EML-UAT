@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Validation_peda_obligatoire</fullName>
+    <active>true</active>
+    <description>La validation pédagogique doit être obligatoire pour réaliser la validation administrative.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+NOT(Convsta_Validation_Pedagogique__c)&amp;&amp; 
+(NOT(ISBLANK (TEXT(Convsta_Verdict_Administratif__c)) )
+)</errorConditionFormula>
+    <errorMessage>Vous ne pouvez pas réaliser une validation administrative sans avoir réaliser la validation pédagogique au préalable.</errorMessage>
+</ValidationRule>

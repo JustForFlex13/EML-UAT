@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Rentable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Can Reservations be made for Resources of this type?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Des réservations peuvent-elles être faites pour des ressources de ce type ?</inlineHelpText>
+    <label>Is Reservable</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

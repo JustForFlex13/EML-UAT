@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>chk_careers_forum_1__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Careers Forum -14/01/19</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Careers Forum -14/01/19</inlineHelpText>
+    <label>CForum-14/01/19</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

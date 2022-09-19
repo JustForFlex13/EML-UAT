@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Exprience_Professionnelle</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>Permet l&apos;accès à l&apos;application lightning Expérience professionnelle</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Acces App Experience Professionnelle</label>
+</PermissionSet>

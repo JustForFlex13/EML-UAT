@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pr_sentation_compactes_compte_Inter_EML</fullName>
+    <fields>SIRET__c</fields>
+    <fields>CodeAPE__c</fields>
+    <fields>Nombre_de_contacts_dipl_m_s__c</fields>
+    <fields>Adresse_Ville__c</fields>
+    <label>Présentation compactes compte Inter EML</label>
+</CompactLayout>

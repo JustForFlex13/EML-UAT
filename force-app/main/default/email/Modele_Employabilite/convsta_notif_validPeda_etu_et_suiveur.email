@@ -1,0 +1,220 @@
+<messaging:emailTemplate subject="Votre stage a été validé / Your internship has been validated" recipientType="Contact" relatedToType="Case">
+<messaging:htmlEmailBody >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+​
+</head>
+​
+<body bgcolor="#FAFAFA" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100% !important; width: 100% !important; background-color: #FAFAFA; margin: 0; padding: 0;">
+<style type="text/css">#outlook a {
+              padding: 0;
+          }
+          .body{
+              width: 100% !important;
+              -webkit-text-size-adjust: 100%;
+              -ms-text-size-adjust: 100%;
+              margin: 0;
+              padding: 0;
+          }
+          .ExternalClass {
+              width:100%;
+          }
+          .ExternalClass,
+          .ExternalClass p,
+          .ExternalClass span,
+          .ExternalClass font,
+          .ExternalClass td,
+          .ExternalClass div {
+              line-height: 100%;
+          }
+          img {
+              outline: none;
+              text-decoration: none;
+              -ms-interpolation-mode: bicubic;
+          }
+          a img {
+              border: none;
+          }
+          p {
+              margin: 1em 0;
+          }
+          table td {
+              border-collapse: collapse;
+          }
+          /* hide unsubscribe from forwards*/
+          blockquote .original-only, .WordSection1 .original-only {
+            display: none !important;
+          }
+​
+          @media only screen and (max-width: 480px){
+            body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+            body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+​
+            #bodyCell{padding:10px !important;}
+​
+            #templateContainer{
+              max-width:600px !important;
+              width:100% !important;
+            }
+​
+            h1{
+              font-size:24px !important;
+              line-height:100% !important;
+            }
+​
+            h2{
+              font-size:20px !important;
+              line-height:100% !important;
+            }
+​
+            h3{
+              font-size:18px !important;
+              line-height:100% !important;
+            }
+​
+            h4{
+              font-size:16px !important;
+              line-height:100% !important;
+            }
+​
+​
+            #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+​
+            #headerImage{
+              height:auto !important;
+              max-width:600px !important;
+              width:100% !important;
+            }
+​
+            .headerContent{
+              font-size:20px !important;
+              line-height:125% !important;
+            }
+​
+            #bodyImage{
+              height:auto !important;
+              max-width:560px !important;
+              width:100% !important;
+            }
+​
+            .bodyContent{
+              font-size:18px !important;
+              line-height:125% !important;
+            }
+​
+            .footerContent{
+              font-size:14px !important;
+              line-height:115% !important;
+            }
+​
+            .footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+          }
+</style>
+<table align="center" border="0" cellpadding="0" cellspacing="0" id="bodyTable" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FAFAFA; border-collapse: collapse !important; height: 100% !important; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; width: 100% !important" width="100%">
+  <tbody>
+    <tr>
+      <td align="center" id="bodyCell" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: 100% !important; width: 100% !important; border-top-width: 4px; border-top-color: #dddddd; border-top-style: solid; margin: 0; padding: 20px;" valign="top"><!-- BEGIN TEMPLATE // -->
+      <table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; width: 600px; border: 1px solid #dddddd;">
+        <tbody>
+          <tr>
+            <td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN PREHEADER // --><!-- // END PREHEADER --></td>
+          </tr>
+          <tr>
+            <td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN HEADER // -->
+            <table border="0" cellpadding="0" cellspacing="0" id="templateHeader" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border-bottom-color: #CCCCCC; border-bottom-style: solid; border-bottom-width: 1px; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+              <tbody>
+                <tr pardot-repeatable="">
+                  <td align="left" class="headerContent" pardot-region="header_image" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Helvetica; font-size: 20px; font-weight: bold; line-height: 20px; text-align: left; vertical-align: middle; padding: 0;" valign="top"><img alt="" border="0" height="200" src="https://request.em-lyon.com/l/312481/2019-07-03/3w4mg/312481/89641/Bandeau_Convsta.png" style="width: 600px; height: 200px; border-width: 0px; border-style: solid;" width="600"/></td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- // END HEADER --></td>
+          </tr>
+          <tr>
+            <td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN BODY // -->
+            <table border="0" cellpadding="0" cellspacing="0" id="templateBody" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border-bottom-color: #CCCCCC; border-bottom-style: solid; border-bottom-width: 1px; border-collapse: collapse !important; border-top-color: #FFFFFF; border-top-style: solid; border-top-width: 1px; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
+              <tbody>
+                <tr pardot-repeatable="">
+                  <td align="left" class="bodyContent" pardot-data="" pardot-region="body_content00" style="text-size-adjust: 100%; color: rgb(8, 8, 8); font-family: Helvetica; font-size: 14px; line-height: 20px; text-align: left; padding: 20px;" valign="top">
+                    <p style="text-align: left;">
+                      <p>English version is below</p>
+                      <p>Bonjour {!relatedTo.Contact.Name},</p>
+                        <p>Pour faire suite à votre demande d'enregistrement d'expérience professionnelle ou de stage numéro {!relatedTo.CaseNumber}, {!relatedTo.Convsta_Table_des_Regles_Experience_Pro__r.Libell_convention_fr__c}, nous vous confirmons que votre mission de stage au sein de l’entreprise {!relatedTo.Convsta_Entreprise_Name__c} a été validée par {!relatedTo.Convsta_Responsable_Pedagogique__r.Name} </p>
+                        <apex:repeat var="student" value="{!relatedTo.Informations_Personnelles__r}">
+                            <p>Nous vous informons que {!relatedTo.Convsta_suiveur__r.Name} sera votre tuteur école pour ce stage. Vous pouvez la/le contacter par mail {!relatedTo.Convsta_fomr_Email_suiveur__c} et il pourra communiquer vers vous à l’adresse suivante {!relatedTo.ContactEmail}/{!relatedTo.ContactPhone}. C’est à lui/elle que vous allez remettre les différents rendus pédagogiques.</p>
+                        </apex:repeat>
+                        <p>Votre demande passe maintenant en validation administrative puis en signatures électroniques s'il s'agit d'une convention de stage. Veillez à la signature complète de votre convention en suivant l'évolution sur la plateforme. Elle sera ensuite mise à disposition dans votre espace « jobs and internships ».</p>
+                        <p>Si votre convention n'est pas signée par toutes les parties, le processus d'évaluation ne s'enclenche pas en fin de stage et votre expérience n'est pas rapatriée dans votre parcours académique.</p>
+                        <p>Dates du stage : du &nbsp; 
+                        <apex:outputText value="{0,date,dd/MM/yyyy}">
+                            <apex:param value="{!relatedTo.Convsta_DateStart__c}" /> 
+                        </apex:outputText>
+                         au &nbsp;
+                        <apex:outputText value="{0,date,dd/MM/yyyy}">
+                            <apex:param value="{!relatedTo.Convsta_DateEnd__c}" /> 
+                        </apex:outputText></p>
+                        <p>Lieu de l’entreprise : {!relatedTo.Convsta_Adresse_du_lieu_du_stage__c}<br/>
+                        <apex:repeat var="mission" value="{!relatedTo.mission__r}">
+                            Tuteur en entreprise : {!mission.Civilite_Tuteur_Entreprise__c} {!mission.Prenom_Tuteur_Entreprise__c} {!mission.Nom_Tuteur_Entreprise__c}<br/>
+                            Fonction du tuteur en entreprise : {!mission.Famille_fonction__c}<br/>
+                            Mail du tuteur : {!mission.Email_Tuteur_Entreprise__c}<br/>
+                            Tel du tuteur : {!mission.Telephone_Tuteur_Entreprise__c}<br/>
+                            Titre de la mission : {!mission.Titre_Mission__c}<br/>
+                            Détails de la mission : {!mission.Convsta_Description_de_la_mission__c}
+                        </apex:repeat></p>
+                        <br/>
+                        <p>Nous restons à votre disposition,<br/>
+                        Bien à vous,<br/>
+                        emlyon Career Center</p>
+                        <br/>
+                        <p>Dear {!relatedTo.Contact.Name},</p>
+                        <p>To follow up on your request number {!relatedTo.CaseNumber}, {!relatedTo.Convsta_Table_des_Regles_Experience_Pro__r.Libell_convention_en__c} for an internship agreement, we confirm that your internship at {!relatedTo.Convsta_Entreprise_Name__c} has been approved by {!relatedTo.Convsta_Responsable_Pedagogique__r.Name} </p>
+                        
+                        <apex:repeat var="student" value="{!relatedTo.Informations_Personnelles__r}">
+                            <p>We inform you that {!relatedTo.Convsta_suiveur__r.Name} will be your academic tutor. You can reach him/her by email at {!relatedTo.Convsta_fomr_Email_suiveur__c} and he/she can contact you at {!relatedTo.ContactEmail}/{!relatedTo.ContactPhone}. He/she will be the person you will have to send your various academic documents and reports to.</p>
+                        </apex:repeat>
+                        <p>Your request now goes through administrative validation and then electronic signatures if it is an internship agreement. Make sure your agreement is fully signed by following the evolution on the platform. It will then be made available in your "jobs and internships" space on Makersboard.</p>
+                        <p>If your agreement is not signed by all the parties, the evaluation process will not be launched at the end of the internship and your experience will not be included in your academic career.</p>
+                        <p>Dates of internship: &nbsp;<apex:outputText value="{0,date,dd/MM/yyyy}">
+                            <apex:param value="{!relatedTo.Convsta_DateStart__c}" /> 
+                        </apex:outputText>
+                          to &nbsp;
+                        <apex:outputText value="{0,date,dd/MM/yyyy}">
+                            <apex:param value="{!relatedTo.Convsta_DateEnd__c}" /> 
+                        </apex:outputText></p>
+                        <p>Location of the internship : {!relatedTo.Convsta_Adresse_du_lieu_du_stage__c}<br/>
+                        <apex:repeat var="mission" value="{!relatedTo.mission__r}">
+                            Your tutor in your host organization : {!mission.Civilite_Tuteur_Entreprise__c} {!mission.Prenom_Tuteur_Entreprise__c} {!mission.Nom_Tuteur_Entreprise__c}<br/>
+                            Function : {!mission.Famille_fonction__c}<br/>
+                            Mail : {!mission.Email_Tuteur_Entreprise__c}<br/>
+                            Phone : {!mission.Telephone_Tuteur_Entreprise__c}<br/>
+                            Misson's title : {!mission.Titre_Mission__c}<br/>
+                            Description of the mission : {!mission.Convsta_Description_de_la_mission__c}
+                        </apex:repeat></p>
+                        <br/>
+                        <p>We remain at your disposal.<br/>
+                        Best regards,<br/>
+                        emlyon Career Center</p>
+                      <a href="mailto:internship@em-lyon.com">internship@em-lyon.com</a><br/>
+                      <img alt="" border="0" height="75" src="https://request.em-lyon.com/l/312481/2019-07-03/3w4mj/312481/89643/Logo_EM_Convsta.png" style="width: 130px; height: 75px; border-width: 0px; border-style: solid;" width="130"/>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- // END BODY --></td>
+          </tr>
+          <tr>
+            <td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN FOOTER // --><!-- // END FOOTER --></td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- // END TEMPLATE --></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

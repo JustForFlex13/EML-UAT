@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_echeancier_versus_montant</fullName>
+    <active>true</active>
+    <description>Le montant échéancier ne peut pas être supérieur au montant de l&apos;opportunité</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+AND(
+RecordType.Name = &quot;Formation intra-entreprise&quot;,
+Somme_Montant_Ech_ancier__c &gt; Amount
+)
+)</errorConditionFormula>
+    <errorMessage>Le total des échéanciers est supérieur au montant de l&apos;opportunité</errorMessage>
+</ValidationRule>

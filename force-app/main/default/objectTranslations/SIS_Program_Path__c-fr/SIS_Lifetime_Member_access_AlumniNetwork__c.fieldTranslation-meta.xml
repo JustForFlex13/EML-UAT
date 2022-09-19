@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Accès Membre à vie réseau alumni</label>
+    <name>SIS_Lifetime_Member_access_AlumniNetwork__c</name>
+</CustomFieldTranslation>

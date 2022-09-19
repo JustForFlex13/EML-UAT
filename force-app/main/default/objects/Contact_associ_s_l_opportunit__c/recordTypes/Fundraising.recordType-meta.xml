@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fundraising</fullName>
+    <active>true</active>
+    <label>Fundraising</label>
+    <picklistValues>
+        <picklist>Role_sur_l_opportunite__c</picklist>
+        <values>
+            <fullName>Agent recruteur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cooptation via diplomés</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescripteur agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescripteur coopteur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescripteur décideur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prescripteur gestionnaire RH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Responsable légal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role_sur_opportunite__c</picklist>
+        <values>
+            <fullName>Ambassadeur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contact principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contact secondaire</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

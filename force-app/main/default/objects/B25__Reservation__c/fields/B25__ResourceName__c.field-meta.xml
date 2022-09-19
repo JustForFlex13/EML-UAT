@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__ResourceName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Name of the Resource and, if these exist, the names of the parent and grand-parent.</description>
+    <externalId>false</externalId>
+    <formula>B25__Resource__r.Name +
+IF(
+  ISNULL(B25__Resource__r.B25__Parent__c),
+  &apos;&apos;,
+  &apos; (&apos; + B25__Resource__r.B25__Parent__r.Name + IF(
+	OR(ISNULL(B25__Resource__r.B25__Parent__r.B25__Parent__c), ISBLANK(B25__Resource__r.B25__Parent__r.B25__Parent__r.Name)),
+	&apos;&apos;,
+	&apos;, &apos; + B25__Resource__r.B25__Parent__r.B25__Parent__r.Name
+  ) + &apos;)&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Nom de la ressource et, s’ils existent, les noms du parent et du grand-parent.</inlineHelpText>
+    <label>Resource Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

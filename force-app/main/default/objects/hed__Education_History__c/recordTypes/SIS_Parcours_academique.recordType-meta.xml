@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Parcours_academique</fullName>
+    <active>true</active>
+    <label>Parcours académique</label>
+    <picklistValues>
+        <picklist>SIS_Annee_du_diplome__c</picklist>
+        <values>
+            <fullName>1994 et avant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1995 et après</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Diplome_niveau__c</picklist>
+        <values>
+            <fullName>1-year higher education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2- year higher education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-year higher education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-year higher education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5-year higher education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6-year higher education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7-year higher education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8-year or more higher education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aucun diplôme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niveau Bac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niveau Bac %2B1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niveau Bac%2B2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niveau Bac%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niveau Bac%2B4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niveau Bac%2B5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niveau Bac%2B6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niveau Bac%2B7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niveau Bac%2B8 et plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No degree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secondary education</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Filiere__c</picklist>
+        <values>
+            <fullName>ARTS APPLIQUÉS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARTS PLASTIQUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUTRE CAS DE NON BACHELIERS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAC EUROPEEN %28A PARTIR DE 2011%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAC INTERNATIONAL ET BAC EUROPÉEN %28JUSQU%E2%80%99EN 2010%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BACS PROFESSIONNELS AGRICOLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BACS PROFESSIONNELS INDUSTRIELS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BACS PROFESSIONNELS TERTIAIRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIOLOGIE OPTION BIOCHIMIE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIOLOGIE OPTION BIOLOGIE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BMA%2C BREVET DES METIERS D%E2%80%99ART</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baccalauréats délivrés par des pays étrangers %28ex %3A Algérie%2C Maroc%E2%80%A6%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAPACITÉ EN DROIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHIMIE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSTRUCTION MÉCANIQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DANSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DANSE et TMD DANSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISPOSITIF BAC -3%2F%2B3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESEU A ou DAEU A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESEU B ou DAEU B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GÉNIE CIVIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HÔTELLERIE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IB %3A Bac international délivré par l%E2%80%99office du baccalauréat de Genève</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LANGUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LANGUES MATHÉMATIQUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LETTRES-ARTS PLASTIQUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LETTRES-LANGUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LETTRES-SCIENCES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LITTÉRAIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MATHÉMATIQUES ET SCIENCES DE LA NATURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MATHÉMATIQUES ET SCIENCES PHYSIQUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MATHÉMATIQUES ET TECHNIQUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MICROTECHNIQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MICROTECHNIQUE OPTION APPAREILLAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MICROTECHNIQUE OPTION OPTIQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MUSIQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MUSIQUE et TMD MUSIQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOUVEAU BAC GENERAL %28A PARTIR DE 2021%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OIB %28Bac à option internationale%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHILOSOPHIE-LETTRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHYSIQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROMOTION SOCIALE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES AGRONOMIQUES-TECHNIQUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNIQUES INDUSTRIELLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNOLOGIE DE L%27AGRONOMIE ET DE L%27ENVIRONNEMENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNOLOGIE DU PRODUIT AGROALIMENTAIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNOLOGIES DE L%E2%80%99HOTELLERIE ET DE LA RESTAURATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNOLOGIES DE L%E2%80%99INDUSTRIE ET DU DEVELOPPEMENT DURABLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNOLOGIES DE LA GESTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNOLOGIES DE LA SANTE ET DU SOCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNOLOGIES DE LABORATOIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNOLOGIES DU DESIGN ET DES ARTS APPLIQUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNOLOGIES DU MANAGEMENT ET DE LA GESTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES ET TECHNOLOGIES TERTIAIRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENCES MÉDICO-SOCIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCIENTIFIQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPÉCIALITÉ NON PRÉCISÉE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECHNIQUES ADMINISTRATIVES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECHNIQUES COMMERCIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECHNIQUES INFORMATIQUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECHNIQUES QUANTITATIVES DE GESTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TITRE FRANÇAIS ADMIS NATIONALEMENT EN DISPENSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TITRE ÉTRANGER ADMIS NATIONALEMENT EN ÉQUIVALENCE %28Y COMPRIS BACCALAURÉATS ÉTRANGERS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALIDATION D%27ÉTUDES%2C D%27EXPÉRIENCES PROFESSIONNELLES%2C D%27ACQUIS PERSONNELS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ÉCONOMIQUE ET SOCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ÉCONOMIQUE ET SOCIALE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ÉDUCATION MUSICALE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ÉLECTRONIQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ÉLECTROTECHNIQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ÉQUIPEMENT TECHNIQUE %E2%80%93 BÂTIMENT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_LST_Pays__c</picklist>
+        <values>
+            <fullName>Afghanistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Afrique du Sud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aland %28îles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Albanie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Algérie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allemagne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andorre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Angola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anguilla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antigua et Barbuda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antilles Néerlandaises</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arabie Saoudite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Argentine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arménie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aruba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ascension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Australie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autriche</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Azerbaïdjan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Açores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bahamas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bahreïn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baléares</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bangladesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barbade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belgique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bermudes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bhoutan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biélorussie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bolivie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bosnie-Herzégovine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Botswana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brunei</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brésil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulgarie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burkina Faso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burundi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bénin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambodge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cameroun</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cap-Vert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caïmans %28îles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Centrafricaine %28Rép%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chili</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chypre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colombie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Congo %28Rep%2E Dém%2E du%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Congo-Brazzaville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cook %28îles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corée %28Rép%2E Dém%2E Pop%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corée %28Rép%2E de%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Costa Rica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Croatie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Côte d%27Ivoire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danemark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diego Garcia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Djibouti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dominicaine %28Rép%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dominique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egypte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Salvador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emirats Arabes Unis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equateur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erythrée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Espagne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estonie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Etats-Unis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ethiopie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falkland %28îles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fidji</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finlande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Féroé %28îles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gabon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gambie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ghana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gibraltar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grenade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Groënland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grèce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guadeloupe %28DOM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guatemala</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guinée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guinée Equatoriale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guinée-Bissau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guyana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guyane Française %28DOM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Géorgie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Haïti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Honduras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hong-Kong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hongrie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indonésie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Irak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iran %28Rép%2E Isl%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Irlande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Islande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Israël</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jamaïque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Japon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jersey %28Ile%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jordanie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kazakhstan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kenya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kirghizistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kiribati</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Koweït</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laos %28Rép%2E Dém%2E Pop%2E du%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lesotho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lettonie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liban</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liberia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Libye</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liechtenstein</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lituanie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxembourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macédoine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Madagascar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Madère</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malaisie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malawi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maldives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mali</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Man %28îles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mariannes %28îles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marie-Galante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maroc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marshall %28îles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Martinique %28DOM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maurice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mauritanie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayotte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micronésie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moldavie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monaco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mongolie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montserrat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mozambique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Myanmar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Namibie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nauru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nicaragua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nigeria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norfolk %28Ile%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norvège</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nouvelle-Calédonie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nouvelle-Zélande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Népal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ouganda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ouzbékistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pakistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palestine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Papouasie-Nouvelle-Guinée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paraguay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pays-Bas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Philippines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pologne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polynésie Française</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Porto Rico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pérou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qatar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rodrigues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roumanie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Royaume-Uni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rwanda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Réunion %28DOM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Barthélemy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-Kitts-et-Nevis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-Marin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-Martin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-Vincent-et-Grenadines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sainte-Hélène</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sainte-Lucie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saintes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salomon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samoa Américaines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samoa Occidental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sao Tome-et-Principe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sardaigne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seychelles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sicile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sierra Leone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singapour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovaque %28Rép%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovénie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Somalie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soudan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sri Lanka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suisse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surinam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suède</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swaziland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Syrie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sénégal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tadjikistan %28Rép%2E du%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tanzanie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taïwan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tchad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tchèque %28Rép%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thaïlande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timor Oriental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Togo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tokelau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trinité-et-Tobago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tunisie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkménistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turks et Caïcos %28Iles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turquie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuvalu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ukraine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uruguay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanuatu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vatican</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venezuela</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vierges Américaines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vierges Britanniques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vietnam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yougoslavie %28Rép%2E Fed%2E de%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yémen %28Rép%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zambie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimbabwe</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Mention__c</picklist>
+        <values>
+            <fullName>Assez bien</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bien</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sans mention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Très bien</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Nationalite_du_diplome__c</picklist>
+        <values>
+            <fullName>FR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Titre_du_diplome__c</picklist>
+        <values>
+            <fullName>Attestation de fin de PACES %2F PASS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre diplôme supérieur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autre diplôme universitaire de 2ème cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baccalauréat français</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classes préparatoires %28CPGE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DAEU %2F Capacité en droit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCEM %2F DCEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEUG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEUST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFASM %2F DFASP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DUT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diplôme d%27Ingénieur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diplôme d%27école de management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diplôme d%27établissement secondaire obtenu à l%27étranger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diplôme d%27établissement supérieur obtenu à l%27étranger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diplôme paramédical et social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Licence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Master %2F DEA %2F DESS %2F Doctorat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maîtrise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Type__c</picklist>
+        <values>
+            <fullName>Parcours académique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parcours professionnel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Séjour linguistique</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIS_Type_d_etablissement__c</picklist>
+        <values>
+            <fullName>AUTRE ETABLISSEMENT SISE %28liste ci-dessous%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUTRE ETABLISSEMENT ou cursus %28en France%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPGE ou ATS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECOLE ARTISTIQUE%2C CULTURELLE%2C D%E2%80%99ARCHITECTURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESPE %3A Ecoles Supérieures du Professorat et de l%E2%80%99Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecole de MANAGEMENT %28école de commerce%2C gestion%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecole des hautes études en sciences sociales %28EHESS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecole et formation d%27INGENIEURS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecole nationale de la statistique et de l%E2%80%99administration économique %28ENSAE Malakoff%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecole nationale des Chartes %28ENC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecole nationale supérieure des sciences de l%E2%80%99information et des bibliothèques %28ENSSIB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecole nationale supérieure du paysage de Versailles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecole pratique des hautes études %28EPHE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecoles nationales vétérinaires %28Lyon %28VETAGRO SUP%29%2C Maisons Alfort%2C Nantes %28ONIRIS%29%2C Toulouse%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecoles normales supérieures %28ENS Cachan%2C Lyon%2C Paris%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enseignement Secondaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enseignement supérieur par CORRESPONDANCE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Etablissement ETRANGER d%E2%80%99enseignement secondaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Etablissement ETRANGER d%E2%80%99enseignement supérieur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IUT %2F licence professionnelle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institut catholique d%E2%80%99études supérieures %28ICES La Roche%2FYon%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institut national des langues et civilisations orientales %28INALCO%29%2C Institut de physique du globe de Paris%2C institut d%E2%80%99études politiques de Paris%2C Observatoire de Paris</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instituts catholiques %28Lille%2C Lyon%2C Nantes %28univ catholique de l%E2%80%99ouest%29%2C Paris et Toulouse%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MISE A NIVEAU%2C PREPARATION AUX ETUDES SUPERIEURES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Museum national d%E2%80%99histoire naturelle %28MNHN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NON SCOLARISE l%E2%80%99année précédente ET JAMAIS ENTRE dans l%E2%80%99enseignement supérieur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NON SCOLARISE l%E2%80%99année précédente MAIS PRECEDEMMENT ENTRE dans l%E2%80%99enseignement supérieur à l%E2%80%99étranger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NON SCOLARISE l%E2%80%99année précédente MAIS PRECEDEMMENT ENTRE dans l%E2%80%99enseignement supérieur%2C universitaire ou non %28reprise d%E2%80%99études%29 en France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNIVERSITE et Paris Dauphine</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Class_Rank_Scale__c</picklist>
+        <values>
+            <fullName>Decile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quartile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quintile</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Class_Rank_Type__c</picklist>
+        <values>
+            <fullName>Unweighted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weighted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Degree_Earned__c</picklist>
+        <values>
+            <fullName>AA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High School Diploma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PhD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__GPA_Scale_Reporting__c</picklist>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__GPA_Scale_Type__c</picklist>
+        <values>
+            <fullName>Unweighted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weighted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrolled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leave of Absence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>hed__Verification_Status__c</picklist>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revoked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unverified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

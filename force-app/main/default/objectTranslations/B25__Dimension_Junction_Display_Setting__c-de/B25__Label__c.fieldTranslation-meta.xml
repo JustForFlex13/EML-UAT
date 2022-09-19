@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der Schriftzug, der in der Kopfzeile des Abschnitts angezeigt wird, der diese Dimension-Verknüpfung enthält.Wenn leer, wird das Plurallabel der Dimension-Objekts verwendet.</help>
+    <label></label>
+    <name>B25__Label__c</name>
+</CustomFieldTranslation>

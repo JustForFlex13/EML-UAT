@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_En_attente_de_contrat</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Convsta_Table_des_Regles_Experience_Pro__c</columns>
+    <columns>Convsta_Phase_de_stage_dans_Cursus__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Convsta_Type_de_demande__c</field>
+        <operation>equals</operation>
+        <value>Validation_experience_anterieure,Stage,Contrat à venir</value>
+    </filters>
+    <filters>
+        <field>Convsta_TypeContrat__c</field>
+        <operation>notEqual</operation>
+        <value>Convention de stage de l ecole</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Demande validée et en attente de contrat à uploader</value>
+    </filters>
+    <label>En attente de contrat</label>
+    <sharedTo>
+        <role>Coordination_Employabilite</role>
+        <role>Employabilit</role>
+    </sharedTo>
+</ListView>

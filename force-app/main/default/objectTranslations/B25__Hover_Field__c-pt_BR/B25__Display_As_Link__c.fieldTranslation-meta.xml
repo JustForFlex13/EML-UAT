@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione esta caixa de seleção para tornar o campo de pairar do rato por cima como um link para o registo a que este campo pertence.</help>
+    <label></label>
+    <name>B25__Display_As_Link__c</name>
+</CustomFieldTranslation>

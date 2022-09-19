@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__IsVirtual__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Sort of queue for the ABR Location where a booking is placed when the ABR fails to place a booking in any other non-virtual Resource.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sorte de file d’attente pour l’ABR d’emplacement où une réservation est placée lorsque la ABR ne parvient pas à placer une réservation dans toute autre ressource non virtuelle.</inlineHelpText>
+    <label>Is Virtual</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

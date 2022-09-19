@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Introduzca el nombre de API de la relación del elemento secundario. Lo encontrará en la página de configuración de la búsqueda de la reserva en el objeto secundario.</help>
+    <label></label>
+    <name>B25__Relationship_Name__c</name>
+</CustomFieldTranslation>

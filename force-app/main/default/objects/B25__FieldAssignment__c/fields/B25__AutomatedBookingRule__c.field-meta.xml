@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__AutomatedBookingRule__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The ABR record for which the Field Assignment record applies.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>L’ABR pour laquelle cette assignation de champ s’applique.</inlineHelpText>
+    <label>Automated Booking Rule</label>
+    <referenceTo>B25__AutomatedBookingRule__c</referenceTo>
+    <relationshipLabel>Field Assignments</relationshipLabel>
+    <relationshipName>FieldAssignments</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

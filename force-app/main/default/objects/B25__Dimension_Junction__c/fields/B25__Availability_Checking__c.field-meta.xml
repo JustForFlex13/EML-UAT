@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Availability_Checking__c</fullName>
+    <defaultValue>&quot;NONE&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Defines what happens if an availability problem is detected. None: allow it. Hard: don&apos;t allow it.
+		Soft: allow it, but also create a conflict record for the reservation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Définit ce qui se passe si un problème de disponibilité est détecté. Rien : l’autoriser. Strict : ne pas l’autoriser. Souple : l’autoriser, mais créer également un enregistrement de conflit pour la réservation.</inlineHelpText>
+    <label>Availability Checking</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>B25__Conflict_Checking</valueSetName>
+    </valueSet>
+</CustomField>

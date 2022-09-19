@@ -1,0 +1,11 @@
+Bonjour {!User.Manager}<BR/>
+<BR/>
+L'opportunité, {!Opportunity.Name} pour {!Opportunity.Account} a été passée au statut "Accord de principe" par  {!Opportunity.OwnerFullName} . <BR/>
+<BR/>
+Vous pouvez visualiser l'opportunité en cliquant sur sur ce <a href="{!Opportunity.Link}">lien</a>.
+
+</a><BR/>
+<BR/>
+Cordialement, <BR/>
+<BR/>
+Administrateur ARPEGE

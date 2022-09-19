@@ -1,0 +1,28 @@
+div.main-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+
+h2 span {
+    font-weight: bold;
+}
+
+h2 span.NOK {
+    color: red;
+}
+
+h2 span.OK {
+    color: lightgreen;
+}
+h2 span.pending {
+    color: lightgrey;
+}
+
+/* slds-button_brand makes it RED because of branding;
+override except for when disabled */
+button.slds-button_brand.style-override:not([disabled]) {
+    background-color: #0070d2 !important;
+    border-color: #0070d2 !important;
+}

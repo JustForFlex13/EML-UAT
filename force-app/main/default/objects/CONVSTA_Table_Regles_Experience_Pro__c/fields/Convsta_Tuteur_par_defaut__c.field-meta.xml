@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Tuteur_par_defaut__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Tuteur emlyon par défaut</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Le contact doit être désigné comme Tuteur EM.</errorMessage>
+        <filterItems>
+            <field>Contact.Convsta_Tuteur_EM__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Tables des Règles Expérience Pro (Tuteur BBA)</relationshipLabel>
+    <relationshipName>Tables_des_R_gles_Exp_rience_Pro1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

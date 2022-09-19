@@ -1,0 +1,97 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">Cher employeur,</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">Nous sommes ravis<span style="mso-spacerun:yes">&nbsp;
+</span>de vous compter parmi nous pour l’événement {!Opportunity.Name} <span style="mso-spacerun:yes">&nbsp;</span>du&nbsp;{!Opportunity.Date_evenement__c} sur
+le campus de {!Opportunity.Localisation__c}</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">A ce titre, vous trouverez en pièce jointe les
+informations pratiques de cet événement, vous indiquant :</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">-<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Le
+déroulé de cette journée</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">-<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Les
+informations à nous fournir afin de faciliter notre organisation (dont
+notamment le nom des collaborateurs qui seront présents).</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">Je vous remercie d’avance de nous fournir ces
+informations au plus tôt.</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">Je reste disponible pour tout complément
+d’information.</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">&nbsp;</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">Très bonne journée à vous,</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">&nbsp;</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:major-latin;
+mso-fareast-language:FR">Cordialement,</span></p>
+
+<p class="MsoNormal"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Name}</span></p>
+
+<p class="MsoNormal"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Title}</span></p>
+
+<p class="MsoNormal"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">{!User.Phone}</span></p>
+
+<p class="MsoNormal"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">&nbsp;</span></p>
+
+<p class="MsoNormal"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">23, avenue Guy de Collongue</span></p>
+
+<p class="MsoNormal"><span style="font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-theme-font:
+major-latin">CS 40203 69134 Ecully Cedex France</span></p>
+
+<p class="MsoNormal"><span style="font-family:
+&quot;Calibri Light&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:major-latin;mso-hansi-theme-font:
+major-latin;mso-bidi-theme-font:major-latin"><a href="http://www.em-lyon.com">www.em-lyon.com</a></span></p>
+
+<!--EndFragment-->]]></td>
+</tr>
+</table>

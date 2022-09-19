@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Método de cálculo que determina el precio total de una reserva. Utiliza el precio de base como unidad de multiplicación.</help>
+    <label></label>
+    <name>B25__Calculation_Method__c</name>
+    <picklistValues>
+        <masterLabel>PER_PERSON</masterLabel>
+        <translation>POR_PERSONA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER_PERSON_PER_TIME_UNIT</masterLabel>
+        <translation>POR_PERSONA_POR_UNIDAD_DE_TIEMPO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PER_TIME_UNIT</masterLabel>
+        <translation>POR_UNIDAD_DE_TIEMPO</translation>
+    </picklistValues>
+</CustomFieldTranslation>

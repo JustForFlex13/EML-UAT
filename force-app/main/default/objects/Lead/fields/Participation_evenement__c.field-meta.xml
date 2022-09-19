@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Participation_evenement__c</fullName>
+    <externalId>false</externalId>
+    <label>Participation événement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Finance career day</fullName>
+                <default>false</default>
+                <label>Finance career day</label>
+            </value>
+            <value>
+                <fullName>Vocation days</fullName>
+                <default>false</default>
+                <label>Vocation days</label>
+            </value>
+            <value>
+                <fullName>Digital night</fullName>
+                <default>false</default>
+                <label>Digital night</label>
+            </value>
+            <value>
+                <fullName>Careers forum</fullName>
+                <default>false</default>
+                <label>Careers forum</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

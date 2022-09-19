@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hed__Course__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Course associated with this Plan Requirement. Leave blank for a parent Plan Requirement with nested Plan Requirements.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le cours associé à cette exigence de plan. Laissez vide pour une exigence de plan parente avec des exigences de plan imbriquées.</inlineHelpText>
+    <label>Course</label>
+    <referenceTo>hed__Course__c</referenceTo>
+    <relationshipLabel>Plan Requirements</relationshipLabel>
+    <relationshipName>Plan_Requirements</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

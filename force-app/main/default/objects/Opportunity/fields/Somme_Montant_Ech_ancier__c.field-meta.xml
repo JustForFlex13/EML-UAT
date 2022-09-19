@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Somme_Montant_Ech_ancier__c</fullName>
+    <externalId>false</externalId>
+    <label>Somme Montant Echéancier</label>
+    <summarizedField>Echeancier__c.Montant_previsionnel__c</summarizedField>
+    <summaryForeignKey>Echeancier__c.Opportunite__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

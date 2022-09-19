@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Voer de API naam van een veld op de reservering in om als titel te fungeren.</help>
+    <label></label>
+    <name>B25__Reservation_Title_Field__c</name>
+</CustomFieldTranslation>

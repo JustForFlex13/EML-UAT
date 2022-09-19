@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Um grupo de Títulos de Reserva utilizando um Contexto de Visualização de Reservas. Você pode especificar um Grupo de Títulos de Reserva a visualizar numa Reserva num determinado contexto.</help>
+    <label></label>
+    <name>B25__Reservation_Title_Group__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

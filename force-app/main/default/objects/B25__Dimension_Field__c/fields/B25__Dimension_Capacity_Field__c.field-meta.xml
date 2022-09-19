@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Dimension_Capacity_Field__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API name of a (cross-object) number field on the Dimension object that contains the capacity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le nom API d’un champ numérique (interobjets) pour l’objet de dimension qui contient la capacité.</inlineHelpText>
+    <label>Dimension Capacity Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

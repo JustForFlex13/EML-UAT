@@ -1,0 +1,24 @@
+<aura:component >
+    <aura:attribute name="SIRET" type="String"/>
+    <aura:attribute name="companyName" type="String"/>
+    <aura:attribute name="zipOrCity" type="String"/>
+
+    <aura:registerEvent name="formsubmit" type="c:Convsta_searchSiret"/>
+    
+	<lightning:layout  horizontalAlign="spread" >
+        <lightning:layoutItem padding="around-small">
+        	<lightning:input name="inputSiret" label="SIRET" placeholder="{!$Label.c.Convsta_PlaceholderSiret}" value="{!v.SIRET}" />
+        </lightning:layoutItem>
+        <lightning:layoutItem padding="around-small">
+        	<lightning:input name="inputCompanyName" label="{!$Label.c.Convsta_SearchEntreprise}" placeholder="{!$Label.c.Convsta_PlaceholderEntreprise}" value="{!v.companyName}" fieldLevelHelp="{!$Label.c.Convsta_SearchEntrepriseHelp}"/>
+        </lightning:layoutItem>
+        <lightning:layoutItem padding="around-small">
+            <lightning:input name="inputCompanyCityZip" label="{!$Label.c.Convsta_SearchZipCity}" placeholder="{!$Label.c.Convsta_PlaceholderVille}" value="{!v.zipOrCity}"/>
+        </lightning:layoutItem>
+    </lightning:layout>
+    <lightning:layout  horizontalAlign="spread" >
+        <lightning:layoutItem padding="around-small">
+            <lightning:button label="{!$Label.c.convsta_rechercher}" onclick="{!c.sendSearch}"></lightning:button>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>

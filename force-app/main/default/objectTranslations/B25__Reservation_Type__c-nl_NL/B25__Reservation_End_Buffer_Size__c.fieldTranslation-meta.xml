@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De grootte van de eindbuffer in minuten. Dit wordt weergegeven op de kalender om schoonmaaktijd aan het eind van de reservering te bepalen</help>
+    <label></label>
+    <name>B25__Reservation_End_Buffer_Size__c</name>
+</CustomFieldTranslation>

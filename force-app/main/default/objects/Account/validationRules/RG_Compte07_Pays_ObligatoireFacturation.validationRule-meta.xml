@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Compte07_Pays_ObligatoireFacturation</fullName>
+    <active>true</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+AND( 
+OR 
+( 
+ Adresse_facturation_Code_Postal__c  &lt;&gt; &quot;&quot;, 
+ Adresse_facturation_d_partement__c  &lt;&gt; &quot;&quot;, 
+ Adresse_facturation_Etat1__c  &lt;&gt; &quot;&quot;, 
+ Adresse_facturation_R_gion__c  &lt;&gt; &quot;&quot;, 
+ Adresse_Facturation_Rue__c  &lt;&gt; &quot;&quot;, 
+ Adresse_facturation_ville__c  &lt;&gt; &quot;&quot;, 
+ Adresse_facturation_Ligne_2__c  &lt;&gt; &quot;&quot;, 
+ Adresse_facturation_Ligne_3__c &lt;&gt; &quot;&quot; 
+), 
+ISBLANK( Adresse_facturation_Pays__c ) 
+)
+)</errorConditionFormula>
+    <errorDisplayField>Adresse_facturation_Pays__c</errorDisplayField>
+    <errorMessage>Le champ Pays est obligatoire</errorMessage>
+</ValidationRule>

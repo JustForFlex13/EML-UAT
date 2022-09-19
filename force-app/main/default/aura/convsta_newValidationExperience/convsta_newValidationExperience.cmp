@@ -1,0 +1,23 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,lightning:actionOverride,forceCommunity:availableForAllPageTypes" 
+    access="global"
+    controller="LCctrl01_Convsta_demandeController">
+    <lightning:spinner aura:id="mySpinner" class="slds-hide" alternativeText="création du dossier en cours"/>
+    <lightning:recordEditForm 
+        aura:id="editForm" 
+        objectApiName="Case" 
+        onsuccess="{!c.handleSuccess}"
+        onsubmit="{!c.handleSubmit}">
+        <lightning:messages />
+        <lightning:inputField required="true" fieldName="Convsta_Localisation_de_l_entreprise__c" aura:id="Convsta_Localisation_de_l_entreprise__c"/>
+        <lightning:inputField required="true" fieldName="Convsta_Type_de_demande__c" aura:id="Convsta_Type_de_demande__c"/>
+        <lightning:inputField required="true" fieldName="Convsta_TypeContrat__c" aura:id="Convsta_TypeContrat__c"/>
+        <lightning:inputField required="true" fieldName="Convsta_DateStart__c" aura:id="Convsta_DateStart__c"/>
+        <lightning:layout horizontalAlign="center" class="slds-m-top_large">
+            <lightning:button 
+                variant="brand" 
+                label="{!$Label.c.convsta_accueil_nouveau}" 
+                title="{!$Label.c.convsta_accueil_nouveau}" 
+                type="submit"/>
+        </lightning:layout>
+    </lightning:recordEditForm>
+</aura:component>

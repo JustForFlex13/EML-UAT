@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Niveau_d_etudes_numero__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(Niveau_d_tudes__c),
+&apos;Seconde&apos;,7,
+&apos;Première&apos;,8,
+&apos;Terminale&apos;,9,
+&apos;Bac&apos;,10,
+&apos;Bac + 1&apos;,20,
+&apos;Bac + 2&apos;,30,
+&apos;Bac + 3&apos;,40,
+&apos;Bac + 4&apos;,50,
+&apos;Bac + 5 et +&apos;,60,
+Null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Niveau d&apos;études numéro</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

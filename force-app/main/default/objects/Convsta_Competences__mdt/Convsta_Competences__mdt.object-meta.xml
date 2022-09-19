@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Regroupe les compétences 
+EarlyMaker
+Comportementales
+Métiers</description>
+    <label>Convsta_Competences</label>
+    <pluralLabel>Convsta_Competences</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

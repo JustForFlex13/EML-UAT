@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__MaxCapacity__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This does not take into account already taken positions in the Resource. Max capacity of a Reservation is based on the capacity offered by the Resource or a different Layout of said Resource.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(B25__SelectedLayout__c), B25__Resource__r.B25__Capacity__c, B25__SelectedLayout__r.B25__Capacity__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Cela ne tient pas compte des positions déjà prises dans la ressource. La capacité maximale d’une réservation est basée sur la capacité offerte par la ressource ou une disposition différente de ladite ressource.</inlineHelpText>
+    <label>Max Capacity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

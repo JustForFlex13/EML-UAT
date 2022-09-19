@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CASA_MAJ_Ida_EL_MAJDOUBI</fullName>
+    <booleanFilter>(1 OR 2) AND (3 OR 4 OR 5 OR 6 OR 7 OR 8) AND 9</booleanFilter>
+    <columns>Nom_Prenom__c</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Code_Produit__c</columns>
+    <columns>A_d_sactiv_son_int_r_t__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Statut_Dossier_CANEL__c</columns>
+    <columns>Statut_Canel__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Formule_nb_oppo_cours__c</columns>
+    <columns>Contact_Type_d_enregistrement__c</columns>
+    <columns>Provenance__c</columns>
+    <columns>Sous_provenance__c</columns>
+    <columns>OwnerId__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+        <value>BBA,INTBBA,APA1,SAI,PREPA,EMM,MMML,IHM,SIM,DMDS,HMDI,MAI,MJ,MJPT,MSDAI</value>
+    </filters>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+        <value>MTDMS,MEMI,MIFF,MIFI,CA_BBA,CA_GMST,CA_TDE,CA_PGM,CA_MFCFA,CA_MF,CA_ME,CA_MMS</value>
+    </filters>
+    <filters>
+        <field>Contact_Pays_de_R_sidence__c</field>
+        <operation>equals</operation>
+        <value>AFRIQUE DU SUD,ALGÉRIE,ANGOLA,BOTSWANA,CAP-VERT,ÉGYPTE,ÉRYTHRÉE,ÉTHIOPIE,GHANA</value>
+    </filters>
+    <filters>
+        <field>Contact_Pays_de_R_sidence__c</field>
+        <operation>equals</operation>
+        <value>Guinée Équatoriale,Guinée-Bissau,KENYA,LESOTHO,LIBÉRIA / (Liberia)</value>
+    </filters>
+    <filters>
+        <field>Contact_Pays_de_R_sidence__c</field>
+        <operation>equals</operation>
+        <value>Libyenne Jamahiriya Arabe / (Libye),MALAWI,MAURICE,MOZAMBIQUE,NAMIBIE</value>
+    </filters>
+    <filters>
+        <field>Contact_Pays_de_R_sidence__c</field>
+        <operation>equals</operation>
+        <value>NIGÉRIA / (Nigeria),OUGANDA,SAO TOMÉ-ET-PRINCIPE,SEYCHELLES,SIERRA LEONE,SOMALIE</value>
+    </filters>
+    <filters>
+        <field>Contact_Pays_de_R_sidence__c</field>
+        <operation>equals</operation>
+        <value>SOUDAN,SOUDAN DU SUD,SWAZILAND,&quot;TANZANIE,RÉPUBLIQUE-UNIE DE&quot;,TUNISIE,ZAMBIE</value>
+    </filters>
+    <filters>
+        <field>Contact_Pays_de_R_sidence__c</field>
+        <operation>equals</operation>
+        <value>ZIMBABWE</value>
+    </filters>
+    <filters>
+        <field>Exercice__c</field>
+        <operation>equals</operation>
+        <value>2019</value>
+    </filters>
+    <label>CASA MAJ Ida EL MAJDOUBI 2019</label>
+    <language>fr</language>
+</ListView>

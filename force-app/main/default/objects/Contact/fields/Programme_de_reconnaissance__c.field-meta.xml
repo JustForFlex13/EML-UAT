@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programme_de_reconnaissance__c</fullName>
+    <externalId>false</externalId>
+    <label>Programme de reconnaissance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>B2C_Niveau Zéro</fullName>
+                <default>false</default>
+                <label>B2C_Niveau Zéro</label>
+            </value>
+            <value>
+                <fullName>B2B_Mont Blanc</fullName>
+                <default>false</default>
+                <label>B2B_Mont Blanc</label>
+            </value>
+            <value>
+                <fullName>B2C_Mont Blanc</fullName>
+                <default>false</default>
+                <label>B2C_Mont Blanc</label>
+            </value>
+            <value>
+                <fullName>B2B_Kilimandjaro</fullName>
+                <default>false</default>
+                <label>B2B_Kilimandjaro</label>
+            </value>
+            <value>
+                <fullName>B2C_Kilimandjaro</fullName>
+                <default>false</default>
+                <label>B2C_Kilimandjaro</label>
+            </value>
+            <value>
+                <fullName>B2B_McKinley</fullName>
+                <default>false</default>
+                <label>B2B_McKinley</label>
+            </value>
+            <value>
+                <fullName>B2C_McKinley</fullName>
+                <default>false</default>
+                <label>B2C_McKinley</label>
+            </value>
+            <value>
+                <fullName>B2B_Annapura</fullName>
+                <default>false</default>
+                <label>B2B_Annapura</label>
+            </value>
+            <value>
+                <fullName>B2C_Annapura</fullName>
+                <default>false</default>
+                <label>B2C_Annapura</label>
+            </value>
+            <value>
+                <fullName>B2B_K2</fullName>
+                <default>false</default>
+                <label>B2B_K2</label>
+            </value>
+            <value>
+                <fullName>B2C_K2</fullName>
+                <default>false</default>
+                <label>B2C_K2</label>
+            </value>
+            <value>
+                <fullName>B2B_Everest</fullName>
+                <default>false</default>
+                <label>B2B_Everest</label>
+            </value>
+            <value>
+                <fullName>B2C_Everest</fullName>
+                <default>false</default>
+                <label>B2C_Everest</label>
+            </value>
+            <value>
+                <fullName>B2B_Cercle du Président</fullName>
+                <default>false</default>
+                <label>B2B_Cercle du Président</label>
+            </value>
+            <value>
+                <fullName>B2C_Cercle du Président</fullName>
+                <default>false</default>
+                <label>B2C_Cercle du Président</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

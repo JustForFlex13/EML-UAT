@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsque cette option n’est pas cochée, le calendrier utilise des intervalles fixes pour les durées d’instantané. Les utilisateurs peuvent être incapables de glisser pour revenir à la position d’origine.</help>
+    <label></label>
+    <name>B25__Use_Relative_Snap_Duration__c</name>
+</CustomFieldTranslation>

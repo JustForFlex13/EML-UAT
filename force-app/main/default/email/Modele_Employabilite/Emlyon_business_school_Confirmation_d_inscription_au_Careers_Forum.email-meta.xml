@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Carrer forum : inscription : Mail de confirmation dès retour du formulaire signé par l’entreprise</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x200</letterhead>
+    <name>Emlyon business school : Confirmation d’inscription au Careers Forum</name>
+    <style>freeForm</style>
+    <subject>Emlyon business school : Confirmation d’inscription au Careers Forum</subject>
+    <textOnly>Bonjour,
+
+Je vous remercie pour votre inscription aux Careers Forum 2020.
+J’ai le plaisir de vous confirmer votre inscription pour la journée du {!Event.ActivityDate}.
+
+Afin de préparer votre venue, nous avons besoin des éléments ci-dessous :
+
+Dans le but d’organiser efficacement votre venue, nous vous demandons de bien vouloir nous transmettre les informations suivantes :
+- Votre logo (format illustrator (.ai)  de préférence ou sinon format .png haute définition (300 dpi) avec fond transparent et largeur minimale 17cm)
+- Le nombre et nom de personne présente sur votre stand ainsi que leur fonction
+- Le nombre de personne souhaitant déjeuner à l’espace restauration (maximum 2 personnes par stand)
+
+Je reste à votre disposition pour tout complément d’information.
+
+Cordialement,
+
+{!User.Name}
+
+{!User.Title}
+{!User.Phone}
+
+23, avenue Guy de Collongue
+CS 40203 69134 Ecully Cedex France
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

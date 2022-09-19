@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programmes_longs_MBA_Sessions</fullName>
+    <columns>OBJECT_ID</columns>
+    <columns>S_6_avant_d_but__c</columns>
+    <columns>Code_agresso_for__c</columns>
+    <columns>NAME</columns>
+    <columns>Lieu_ls__c</columns>
+    <columns>Date_de_debut_de_session__c</columns>
+    <columns>Date_de_fin_de_session__c</columns>
+    <columns>Code_Agresso_Session_formation__c</columns>
+    <columns>Statut__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>Capacit_minimum__c</columns>
+    <columns>Capacite__c</columns>
+    <columns>Exercice_fiscale__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date_de_debut_de_session__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>MBA</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notContain</operation>
+        <value>vae,amba</value>
+    </filters>
+    <filters>
+        <field>Lieu_ls__c</field>
+        <operation>equals</operation>
+        <value>SF-LS10,Lyon,SF-LS20,Paris</value>
+    </filters>
+    <label>Programmes longs MBA- Sessions</label>
+    <sharedTo>
+        <group>Opp_Executive_MBA</group>
+        <group>Opp_FC_Courte</group>
+        <group>Opp_FC_Longue</group>
+        <group>Transverse_EMBA_IMBA</group>
+    </sharedTo>
+</ListView>

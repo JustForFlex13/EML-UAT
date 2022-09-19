@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Parent_Name_Modified__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Case à côchée masquée qui sert à déclencher le flux &quot;Plan Requirement - Create and Update&quot;
+La case se coche automatiquement lors du changement du nom de la structure pédagogique.
+La case est décochée à la fin du flux &quot;Plan requirement...&quot;</description>
+    <externalId>false</externalId>
+    <label>Nom de la structure modifiée</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

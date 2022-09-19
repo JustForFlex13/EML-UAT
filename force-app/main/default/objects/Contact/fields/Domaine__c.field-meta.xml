@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domaine__c</fullName>
+    <externalId>false</externalId>
+    <label>Domaine d&apos;études</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Autre</fullName>
+                <default>false</default>
+                <label>Autre</label>
+            </value>
+            <value>
+                <fullName>Bac ES (économique et sociale)</fullName>
+                <default>false</default>
+                <label>Bac ES (économique et sociale)</label>
+            </value>
+            <value>
+                <fullName>Bac L (littéraire)</fullName>
+                <default>false</default>
+                <label>Bac L (littéraire)</label>
+            </value>
+            <value>
+                <fullName>Bac S (scientifique)</fullName>
+                <default>false</default>
+                <label>Bac S (scientifique)</label>
+            </value>
+            <value>
+                <fullName>Bac STMG</fullName>
+                <default>false</default>
+                <label>Bac STMG</label>
+            </value>
+            <value>
+                <fullName>Droit</fullName>
+                <default>false</default>
+                <label>Droit</label>
+            </value>
+            <value>
+                <fullName>Ecole de commerce française</fullName>
+                <default>false</default>
+                <label>Ecole de commerce française</label>
+            </value>
+            <value>
+                <fullName>Economie</fullName>
+                <default>false</default>
+                <label>Economie</label>
+            </value>
+            <value>
+                <fullName>Gestion</fullName>
+                <default>false</default>
+                <label>Gestion</label>
+            </value>
+            <value>
+                <fullName>Ingénieur</fullName>
+                <default>false</default>
+                <label>Ingénieur</label>
+            </value>
+            <value>
+                <fullName>Santé (pharmacie, vétérinaire,…)</fullName>
+                <default>false</default>
+                <label>Santé (pharmacie, vétérinaire,…)</label>
+            </value>
+            <value>
+                <fullName>Sciences (mathématiques, physique,...)</fullName>
+                <default>false</default>
+                <label>Sciences (mathématiques, physique,...)</label>
+            </value>
+            <value>
+                <fullName>Sciences humaines (lettres,...)</fullName>
+                <default>false</default>
+                <label>Sciences humaines (lettres,...)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

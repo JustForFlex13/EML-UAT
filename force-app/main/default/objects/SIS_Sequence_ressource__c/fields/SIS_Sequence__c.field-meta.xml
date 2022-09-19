@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Sequence__c</fullName>
+    <externalId>false</externalId>
+    <label>Séquence du cours</label>
+    <referenceTo>SIS_Course_Sequence__c</referenceTo>
+    <relationshipLabel>Sequence ressources</relationshipLabel>
+    <relationshipName>SIS_Sequence</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

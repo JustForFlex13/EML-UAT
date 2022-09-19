@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nombre_de_report__c</fullName>
+    <description>Compteur de report à mettre à jour manuellement sur la nouvelle opportunité pour garder la trace du report</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Compteur de report à mettre à jour manuellement sur la nouvelle opportunité pour garder la trace du report</inlineHelpText>
+    <label>Nombre de report</label>
+    <length>2</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

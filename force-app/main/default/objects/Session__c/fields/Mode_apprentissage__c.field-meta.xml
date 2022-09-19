@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mode_apprentissage__c</fullName>
+    <externalId>false</externalId>
+    <label>Mode d&apos;apprentissage</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SF-MA10</fullName>
+                <default>false</default>
+                <label>SF-MA10</label>
+            </value>
+            <value>
+                <fullName>SF-MA20</fullName>
+                <default>false</default>
+                <label>SF-MA20</label>
+            </value>
+            <value>
+                <fullName>SF-MA30</fullName>
+                <default>false</default>
+                <label>SF-MA30</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

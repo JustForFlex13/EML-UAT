@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloner_Custom</fullName>
+    <availability>online</availability>
+    <description>Bouton cloner customisé permettant de clôner un contact sans les données ID FEG et Login</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Cloner</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/{!Contact.Id}/e?retURL={!Contact.Id}&amp;clone=1&amp;00Nw00000067HRk=&amp;00Nw0000008GxWg=</url>
+</WebLink>

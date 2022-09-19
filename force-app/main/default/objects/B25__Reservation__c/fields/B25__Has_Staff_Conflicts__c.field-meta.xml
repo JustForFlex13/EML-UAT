@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Has_Staff_Conflicts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, this Reservation has Staff conflicts with other Reservation(s).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Si cette option est cochée, cette réservation présente des conflits de personnel avec une ou plusieurs autres réservations.</inlineHelpText>
+    <label>Has Staff Conflicts</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

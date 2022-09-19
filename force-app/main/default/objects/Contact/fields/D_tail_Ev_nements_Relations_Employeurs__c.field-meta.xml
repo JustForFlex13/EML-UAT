@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>D_tail_Ev_nements_Relations_Employeurs__c</fullName>
+    <externalId>false</externalId>
+    <label>Détail Evénements Relations Employeurs</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Participation_evenement__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vocation days - Finance en entreprise - 15/10/18 - Lyon</fullName>
+                <default>false</default>
+                <label>Vocation days - Finance en entreprise - 15/10/18 - Lyon</label>
+            </value>
+            <value>
+                <fullName>Vocation days - Conseil - 16/10/18 - Lyon</fullName>
+                <default>false</default>
+                <label>Vocation days - Conseil - 16/10/18 - Lyon</label>
+            </value>
+            <value>
+                <fullName>Vocation days - Business development - 17/10/18 - Lyon</fullName>
+                <default>false</default>
+                <label>Vocation days - Business development - 17/10/18 - Lyon</label>
+            </value>
+            <value>
+                <fullName>Vocation days - Marketing &amp; Business Development - 9/10/18 - Paris</fullName>
+                <default>false</default>
+                <label>Vocation days - Marketing &amp; Business Development - 9/10/18 - Paris</label>
+            </value>
+            <value>
+                <fullName>Vocation days - Marketing &amp; Business Development - Date à confirmer - St Etienne</fullName>
+                <default>false</default>
+                <label>Vocation days - Marketing &amp; Business Development - Date à confirmer - St Etienne</label>
+            </value>
+            <value>
+                <fullName>Vocation days - Marketing - 18/10/18 - Lyon</fullName>
+                <default>false</default>
+                <label>Vocation days - Marketing - 18/10/18 - Lyon</label>
+            </value>
+            <value>
+                <fullName>Vocation days - Banque de détail - Date à confirmer - St Etienne</fullName>
+                <default>false</default>
+                <label>Vocation days - Banque de détail - Date à confirmer - St Etienne</label>
+            </value>
+            <value>
+                <fullName>Digital Night - novembre 2018 - Paris</fullName>
+                <default>false</default>
+                <label>Digital Night - novembre 2018 - Paris</label>
+            </value>
+            <value>
+                <fullName>Digital Night - 7/03/19 - Lyon</fullName>
+                <default>false</default>
+                <label>Digital Night - 7/03/19 - Lyon</label>
+            </value>
+            <value>
+                <fullName>Careers Forum -14/01/19</fullName>
+                <default>false</default>
+                <label>Careers Forum -14/01/19</label>
+            </value>
+            <value>
+                <fullName>Careers Forum -15/01/19</fullName>
+                <default>false</default>
+                <label>Careers Forum -15/01/19</label>
+            </value>
+            <value>
+                <fullName>Careers Forum - journée audit &amp; conseil - 16/01/19</fullName>
+                <default>false</default>
+                <label>Careers Forum - journée audit &amp; conseil - 16/01/19</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Vocation days</controllingFieldValue>
+            <valueName>Vocation days - Finance en entreprise - 15/10/18 - Lyon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vocation days</controllingFieldValue>
+            <valueName>Vocation days - Conseil - 16/10/18 - Lyon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vocation days</controllingFieldValue>
+            <valueName>Vocation days - Business development - 17/10/18 - Lyon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vocation days</controllingFieldValue>
+            <valueName>Vocation days - Marketing &amp; Business Development - 9/10/18 - Paris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vocation days</controllingFieldValue>
+            <valueName>Vocation days - Marketing &amp; Business Development - Date à confirmer - St Etienne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vocation days</controllingFieldValue>
+            <valueName>Vocation days - Marketing - 18/10/18 - Lyon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vocation days</controllingFieldValue>
+            <valueName>Vocation days - Banque de détail - Date à confirmer - St Etienne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital night</controllingFieldValue>
+            <valueName>Digital Night - novembre 2018 - Paris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital night</controllingFieldValue>
+            <valueName>Digital Night - 7/03/19 - Lyon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Careers forum</controllingFieldValue>
+            <valueName>Careers Forum -14/01/19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Careers forum</controllingFieldValue>
+            <valueName>Careers Forum -15/01/19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Careers forum</controllingFieldValue>
+            <valueName>Careers Forum - journée audit &amp; conseil - 16/01/19</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Contact11_ville_repli_sans_chiffres</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND (!$User.ByPass_RV__c, 
+OR( ISNUMBER(Adresse_de_repli_ville__c), OR(CONTAINS(Adresse_de_repli_ville__c, &quot;0&quot;),CONTAINS(Adresse_de_repli_ville__c, &quot;1&quot;),CONTAINS(Adresse_de_repli_ville__c, &quot;2&quot;),CONTAINS(Adresse_de_repli_ville__c, &quot;3&quot;),CONTAINS(Adresse_de_repli_ville__c, &quot;4&quot;),CONTAINS(Adresse_de_repli_ville__c, &quot;5&quot;),CONTAINS(Adresse_de_repli_ville__c, &quot;6&quot;),CONTAINS(Adresse_de_repli_ville__c, &quot;7&quot;),CONTAINS(Adresse_de_repli_ville__c, &quot;8&quot;),CONTAINS(Adresse_de_repli_ville__c, &quot;9&quot;))))</errorConditionFormula>
+    <errorMessage>Le champ adresse de repli: Ville ne doit pas contenir de chiffres !</errorMessage>
+</ValidationRule>

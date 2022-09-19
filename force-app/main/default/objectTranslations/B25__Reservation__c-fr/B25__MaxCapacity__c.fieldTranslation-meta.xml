@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cela ne tient pas compte des positions déjà prises dans la ressource. La capacité maximale d’une réservation est basée sur la capacité offerte par la ressource ou une disposition différente de ladite ressource.</help>
+    <label></label>
+    <name>B25__MaxCapacity__c</name>
+</CustomFieldTranslation>

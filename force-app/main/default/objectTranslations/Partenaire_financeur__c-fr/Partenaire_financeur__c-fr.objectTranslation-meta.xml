@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Partenaire financeur / collecteur OPCA</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Partenaires financeurs/ collecteurs OPCO</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Présentation Partenaire financeur</layout>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

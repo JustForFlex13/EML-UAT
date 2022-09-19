@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>PGM statut non-actif Flagnel =&gt; Point projet + coordonnées</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x160</letterhead>
+    <name>PGM - Non actif : Point projet et infos PGM (paris)</name>
+    <style>promotionRight</style>
+    <subject>emlyon - Votre projet de candidature au diplôme PGM | {!Contact.Name}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

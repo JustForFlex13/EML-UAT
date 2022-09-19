@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El campo al que el valor del campo de origen se copiará.</help>
+    <label></label>
+    <name>B25__TargetField__c</name>
+</CustomFieldTranslation>

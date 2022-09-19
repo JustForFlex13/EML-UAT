@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_PISTE01_Motif_abandon_obligatoire</fullName>
+    <active>true</active>
+    <description>Le champ motif d&apos;abandon est obligatoire si le statut de la piste est Abandon</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+and( 
+ISPICKVAL(Status,&quot;Abandon&quot;), 
+ISPICKVAL(Motif_d_abandon__c,&quot;&quot;) 
+) 
+)</errorConditionFormula>
+    <errorDisplayField>Motif_d_abandon__c</errorDisplayField>
+    <errorMessage>Le champ motif d&apos;abandon est obligatoire si le statut de la piste est Abandon</errorMessage>
+</ValidationRule>

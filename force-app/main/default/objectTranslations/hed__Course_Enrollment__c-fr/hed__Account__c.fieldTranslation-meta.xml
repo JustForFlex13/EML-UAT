@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le Programme académique auquel le membre étudiant ou professeur est associé.</help>
+    <label></label>
+    <name>hed__Account__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

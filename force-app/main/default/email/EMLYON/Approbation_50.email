@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<span style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium;">Bonjour</span><br style="font-family: 'Times New Roman'; font-size: medium;"><br style="font-family: 'Times New Roman'; font-size: medium;"><span style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium;">L'opportunité, {!Opportunity.Name} pour {!Opportunity.Account} a été validée.</span><div><br style="font-family: 'Times New Roman'; font-size: medium;">Vous pouvez visualiser l'opportunité en cliquant sur sur ce lien : <a href="{!Opportunity.Link}">{!Opportunity.Link}</a>&nbsp;.<br style="font-family: 'Times New Roman'; font-size: medium;"><br style="font-family: 'Times New Roman'; font-size: medium;"><span style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium;">Cordialement,&nbsp;</span><br style="font-family: 'Times New Roman'; font-size: medium;"><br style="font-family: 'Times New Roman'; font-size: medium;"><span style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium;">Administrateur ARPEGE</span></div>]]></td>
+</tr>
+</table>

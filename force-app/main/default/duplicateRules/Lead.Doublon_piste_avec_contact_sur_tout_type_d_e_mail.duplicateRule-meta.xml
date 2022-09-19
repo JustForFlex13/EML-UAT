@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Block</actionOnInsert>
+    <actionOnUpdate>Block</actionOnUpdate>
+    <alertText>Vous créez un enregistrement dupliqué. Nous recommandons d&apos;utiliser à la place un enregistrement existant.</alertText>
+    <description>vient s&apos;appliquer pour comparer la piste avec les contacts déjà existants et créer une alerte non-bloquante la règle de correspondance se déclenche.</description>
+    <duplicateRuleFilter>
+        <booleanFilter xsi:nil="true"/>
+        <duplicateRuleFilterItems>
+            <field>LeadSource</field>
+            <operation>equals</operation>
+            <value>Formation continue courte, Formation continue indéterminée, Formation continue longue, Formation initiale masters, Formation Intra-entreprise, Indéterminé, MBA</value>
+            <sortOrder>1</sortOrder>
+            <table>Lead</table>
+        </duplicateRuleFilterItems>
+    </duplicateRuleFilter>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Contact</matchRuleSObjectType>
+        <matchingRule>Tout_type_d_email</matchingRule>
+        <objectMapping>
+            <inputObject>Lead</inputObject>
+            <mappingFields>
+                <inputField>Adresse_e_mail__c</inputField>
+                <outputField>Email_EM_Lyon__c</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Adresse_e_mail__c</inputField>
+                <outputField>Adresse_Email_Personnelle__c</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Adresse_e_mail__c</inputField>
+                <outputField>Email_de_repli__c</outputField>
+            </mappingFields>
+            <outputObject>Contact</outputObject>
+        </objectMapping>
+    </duplicateRuleMatchRules>
+    <isActive>false</isActive>
+    <masterLabel>Doublon piste avec contact sur tout type d&apos;e-mail</masterLabel>
+    <securityOption>EnforceSharingRules</securityOption>
+    <sortOrder>6</sortOrder>
+</DuplicateRule>

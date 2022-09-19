@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Zeigt die verlinkte Ansicht als Standardansicht für den verlinkten Kalender an. Jeder Kalender kann nur eine Standardansicht haben, es lässt sich also nur eine Kalenderansicht als Standard markieren.</help>
+    <label></label>
+    <name>B25__Default_View__c</name>
+</CustomFieldTranslation>

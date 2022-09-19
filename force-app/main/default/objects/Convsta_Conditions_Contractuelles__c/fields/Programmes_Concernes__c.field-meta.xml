@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programmes_Concernes__c</fullName>
+    <externalId>false</externalId>
+    <label>Programmes Concernés</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Moyen_d_Obtention__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Offres Institut Paul Bocuse</fullName>
+                <default>false</default>
+                <label>Offres Institut Paul Bocuse</label>
+            </value>
+            <value>
+                <fullName>Offres université de Lancaster</fullName>
+                <default>false</default>
+                <label>Offres université de Lancaster</label>
+            </value>
+            <value>
+                <fullName>Offres université LMU</fullName>
+                <default>false</default>
+                <label>Offres université LMU</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

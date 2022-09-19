@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Niveau_Alerte_Entreprise__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Signale au gestionnaire si des étudiants ont éprouvé des problèmes au sein de cette entreprise pendant leur expérience professionnelle.</inlineHelpText>
+    <label>Niveau d&apos;Alerte Entreprise</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vert</fullName>
+                <default>false</default>
+                <label>Vert</label>
+            </value>
+            <value>
+                <fullName>Orange</fullName>
+                <default>false</default>
+                <label>Orange</label>
+            </value>
+            <value>
+                <fullName>Rouge</fullName>
+                <default>false</default>
+                <label>Rouge</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

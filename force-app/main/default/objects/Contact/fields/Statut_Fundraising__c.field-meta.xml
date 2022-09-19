@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut_Fundraising__c</fullName>
+    <externalId>false</externalId>
+    <label>Statut Fundraising</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Identifié</fullName>
+                <default>false</default>
+                <label>Identifié</label>
+            </value>
+            <value>
+                <fullName>Informé</fullName>
+                <default>false</default>
+                <label>Informé</label>
+            </value>
+            <value>
+                <fullName>Donateur</fullName>
+                <default>false</default>
+                <label>Donateur</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

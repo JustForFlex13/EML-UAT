@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Um Verfügbarkeiten während der Auswahl eines Zeitfensters im Kalender anzuzeigen. Bei Auswahl einer Zelle wird nur der verfügbare Teil der Zelle ausgewählt.</help>
+    <label></label>
+    <name>B25__Enable_Availability_Aware_Selection__c</name>
+</CustomFieldTranslation>

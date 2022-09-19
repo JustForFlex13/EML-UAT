@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vue_Validation_p_dagogique_PGE</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Convsta_Table_des_Regles_Experience_Pro__c</columns>
+    <columns>Convsta_DateStart__c</columns>
+    <columns>Convsta_DateEnd__c</columns>
+    <columns>Convsta_conflit_cours__c</columns>
+    <columns>Convsta_Gestionnaire_en_charge__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Demande en cours de validation pédagogique</value>
+    </filters>
+    <filters>
+        <field>Convsta_Table_des_Regles_Experience_Pro__c</field>
+        <operation>contains</operation>
+        <value>PGE</value>
+    </filters>
+    <label>Vue Validation pédagogique PGE</label>
+</ListView>

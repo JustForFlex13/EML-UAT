@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>A que horas é que o Recurso deixa de estar disponível? Introduza um valor de 0 a 24.</help>
+    <label></label>
+    <name>B25__End_Hour__c</name>
+</CustomFieldTranslation>

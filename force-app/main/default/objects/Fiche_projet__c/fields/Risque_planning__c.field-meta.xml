@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risque_planning__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (
+	ISPICKVAL(Statut__c, &quot;Réalisé&quot;) || 
+	ISPICKVAL(Statut__c, &quot;A préciser&quot;) ||  
+	ISPICKVAL(Statut__c, &quot;A arbitrer&quot;) ||  
+	(text(Date_limite__c) &lt;&gt; &quot;&quot; &amp;&amp; (TODAY() +  Charge_J__c = Date_limite__c)) ,  
+	IMAGE(&quot;https://c.na14.content.force.com/servlet/servlet.ImageServer?id=015d0000000JO5z&amp;oid=00Dd0000000ciwW&quot;, &quot;Orange&quot;),
+	IF (
+		ISPICKVAL(Statut__c, &quot;Fermé&quot;) || 
+		ISPICKVAL(Statut__c, &quot;Abandonné&quot;) ||  
+		(text(Date_limite__c) &lt;&gt; &quot;&quot; &amp;&amp; (TODAY() +  Charge_J__c &lt; Date_limite__c)) ,  
+		IMAGE(&quot;https://c.na14.content.force.com/servlet/servlet.ImageServer?id=015d0000000JO64&amp;oid=00Dd0000000ciwW&quot;, &quot;Vert&quot;),
+		IF (
+			(text(Date_limite__c) &lt;&gt; &quot;&quot; &amp;&amp; (TODAY() +  Charge_J__c &gt; Date_limite__c)) ,  
+			IMAGE(&quot;https://c.na14.content.force.com/servlet/servlet.ImageServer?id=015d0000000JO5u&amp;oid=00Dd0000000ciwW&quot;, &quot;Rouge&quot;),
+			&quot;&quot;
+		)
+	)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>- Vert : Fermé, abandonné, risque vert (auj + charge &lt; date limite)
+- Orange : Réalisé (donc à tester avec risque de retour), A préciser, A arbitrer, risque orange (auj + charge = date limite)
+- Rouge : Risque  rouge  (auj + charge &gt; date limite)</inlineHelpText>
+    <label>Risque planning</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

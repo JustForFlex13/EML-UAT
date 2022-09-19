@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Envoi doodle poure reporgrammer le module 2</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x160</letterhead>
+    <name>OA - 2017 : Changement de date Session 1 - Module 2</name>
+    <style>promotionRight</style>
+    <subject>emlyon - IMPORTANT - Changement de la programmation du module 2 | {!Contact.Name}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

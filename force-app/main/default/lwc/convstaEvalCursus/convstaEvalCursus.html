@@ -1,0 +1,55 @@
+<template>
+  <lightning-card title="Bascule Scolarité" icon-name="utility:outcome">
+    <div class="slds-card__body_inner">
+      <div class="main-container">
+        <template if:true={showSpinner}>
+          <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+        <div id="statusContainer">
+          <h2>
+            Totalité stricte des données nécessaires de
+            l'évaluation&nbsp;:&nbsp;
+            <span class={strictDataCheck}>{strictDataCheck}</span>
+          </h2>
+          <!-- evalcheck-->
+          <!-- <h2>Totalité stricte des données nécessaires de l'évaluation&nbsp;: <span
+              class={strictEvalDataCheck}>{strictEvalDataCheck}</span>
+          </h2> -->
+        </div>
+        <div id="btnContainer">
+          <template if:true={error}>
+            erreur de web service : {error}
+          </template>
+          <template if:true={dataerror}>
+            erreur de données : {dataerror}
+          </template>
+          <p class="btn-error- message">{updateButtonErrorMessage}</p>
+          <template if:true={isSendButtonDisabled}>
+            <button
+              class="slds-button slds-button_brand style-override"
+              disabled
+            >
+              Mise à jour des données Cursus
+            </button>
+          </template>
+          <template if:false={isSendButtonDisabled}>
+            <button
+              class="slds-button slds-button_brand style-override"
+              onclick={tryCursusUpdate}
+            >
+              Mise à jour des données Cursus
+            </button>
+          </template>
+          <template if:true={isSendButtonDisabled}>
+            <button
+              class="slds-button slds-button_brand style-override"
+              onclick={refreshData}
+            >
+              Réessayer
+            </button>
+          </template>
+        </div>
+      </div>
+    </div>
+  </lightning-card>
+</template>

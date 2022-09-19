@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Convsta_eval_accuse_reception_justificatif</name>
+    <style>none</style>
+    <subject>Réception et validation de votre justificatif d&apos;emploi / Proof of employment received</subject>
+    <textOnly>Bonjour {!Case.Contact},
+
+Nous accusons réception de votre justificatif d&apos;emploi. Après vérification, nous confirmons sa prise en compte dans le cadre de la validation de votre expérience professionnelle au sein de l’entreprise {!Case.Account}.
+
+
+Nous restons à votre disposition,
+
+emlyon Career Center
+internship@em-lyon.com
+
+
+English version bellow Dear {!Case.Contact},
+
+We acknowledge receipt of your certificate of employement. After checking, we confirm that it validates your professional experience in the company {!Case.Account}.
+
+We remain at your disposal,
+
+emlyon Career Center
+internship@em-lyon.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

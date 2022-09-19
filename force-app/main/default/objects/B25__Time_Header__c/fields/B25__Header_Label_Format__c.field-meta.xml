@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Header_Label_Format__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The text that is displayed in the label of each time column. For possible formats check: https://gen25-jira.atlassian.net/wiki/spaces/BPD/pages/1822916613/Date+Time+Format+Tokens and escape strings by wrapping them in [square brackets].</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le texte qui est affiché dans le libellé de chaque colonne de temps. Pour les formats possibles, consultez : https://gen25-jira.atlassian.net/wiki/spaces/BPD/pages/1822916613/Date+Time+Format+Tokens et échappez les chaînes de caractères en les entourant de [crochets].</inlineHelpText>
+    <label>Header Label Format</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

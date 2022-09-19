@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si se marca, el campo especificado en el nombre de este registro debe ser una búsqueda de referencia a sí misma. Booker25 agrupará entonces los registros de dimensiones jerárquicamente.</help>
+    <label></label>
+    <name>B25__Hierarchical__c</name>
+</CustomFieldTranslation>

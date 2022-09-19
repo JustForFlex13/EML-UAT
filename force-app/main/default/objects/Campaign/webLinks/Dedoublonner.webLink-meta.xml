@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dedoublonner</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Dédoublonner</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/16.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/16.0/apex.js&quot;)} 
+
+var result = sforce.apex.execute(&quot;WS001Campaing&quot;,&quot;dedupeContacts&quot;,{CampaingID : &apos;{!Campaign.Id}&apos;});
+
+if (result==&apos;true&apos;) alert(&apos;Dédoublonnage a été lancé avec succès, le résultat est dans quelques minutes&apos;);
+else (&apos;Erreur au dédoublonnage, Merci de communiquer votre administrateur&apos;);</url>
+</WebLink>

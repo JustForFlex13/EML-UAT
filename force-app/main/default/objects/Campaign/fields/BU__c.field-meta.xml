@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BU__c</fullName>
+    <externalId>false</externalId>
+    <label>BU</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Formation Initiale</fullName>
+                <default>false</default>
+                <label>Formation Initiale</label>
+            </value>
+            <value>
+                <fullName>Communication  Corporate</fullName>
+                <default>false</default>
+                <label>Communication  Corporate</label>
+            </value>
+            <value>
+                <fullName>EMLYON FOREVER</fullName>
+                <default>false</default>
+                <label>EMLYON FOREVER</label>
+            </value>
+            <value>
+                <fullName>Fondation</fullName>
+                <default>false</default>
+                <label>Fondation</label>
+            </value>
+            <value>
+                <fullName>Projets Partenariats</fullName>
+                <default>false</default>
+                <label>Projets Partenariats</label>
+            </value>
+            <value>
+                <fullName>Employabilité</fullName>
+                <default>false</default>
+                <label>Employabilité</label>
+            </value>
+            <value>
+                <fullName>Taxe</fullName>
+                <default>false</default>
+                <label>Taxe</label>
+            </value>
+            <value>
+                <fullName>MBA</fullName>
+                <default>false</default>
+                <label>MBA</label>
+            </value>
+            <value>
+                <fullName>PGM</fullName>
+                <default>false</default>
+                <label>PGM</label>
+            </value>
+            <value>
+                <fullName>AMP</fullName>
+                <default>false</default>
+                <label>AMP</label>
+            </value>
+            <value>
+                <fullName>Executive Mastères</fullName>
+                <default>false</default>
+                <label>Executive Mastères</label>
+            </value>
+            <value>
+                <fullName>DUA</fullName>
+                <default>false</default>
+                <label>DUA</label>
+            </value>
+            <value>
+                <fullName>Prog. Courts</fullName>
+                <default>false</default>
+                <label>Prog. Courts</label>
+            </value>
+            <value>
+                <fullName>Intra</fullName>
+                <default>false</default>
+                <label>Intra</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

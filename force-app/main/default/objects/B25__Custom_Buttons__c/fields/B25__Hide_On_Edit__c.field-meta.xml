@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Hide_On_Edit__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Hide the button on the form while the user is editing the Reservation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Hide the button on the form while the user is editing the Reservation.</inlineHelpText>
+    <label>Hide On Edit</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programme__c</fullName>
+    <externalId>false</externalId>
+    <label>Programme de reconnaissance</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type_contrepartie__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>B2C_Niveau Zéro</fullName>
+                <default>false</default>
+                <label>B2C_Niveau Zéro</label>
+            </value>
+            <value>
+                <fullName>B2B_Mont Blanc</fullName>
+                <default>false</default>
+                <label>B2B_Mont Blanc</label>
+            </value>
+            <value>
+                <fullName>B2C_Mont Blanc</fullName>
+                <default>false</default>
+                <label>B2C_Mont Blanc</label>
+            </value>
+            <value>
+                <fullName>B2B_Kilimandjaro</fullName>
+                <default>false</default>
+                <label>B2B_Kilimandjaro</label>
+            </value>
+            <value>
+                <fullName>B2C_Kilimandjaro</fullName>
+                <default>false</default>
+                <label>B2C_Kilimandjaro</label>
+            </value>
+            <value>
+                <fullName>B2B_McKinley</fullName>
+                <default>false</default>
+                <label>B2B_McKinley</label>
+            </value>
+            <value>
+                <fullName>B2C_McKinley</fullName>
+                <default>false</default>
+                <label>B2C_McKinley</label>
+            </value>
+            <value>
+                <fullName>B2B_Annapura</fullName>
+                <default>false</default>
+                <label>B2B_Annapura</label>
+            </value>
+            <value>
+                <fullName>B2C_Annapura</fullName>
+                <default>false</default>
+                <label>B2C_Annapura</label>
+            </value>
+            <value>
+                <fullName>B2B_K2</fullName>
+                <default>false</default>
+                <label>B2B_K2</label>
+            </value>
+            <value>
+                <fullName>B2C_K2</fullName>
+                <default>false</default>
+                <label>B2C_K2</label>
+            </value>
+            <value>
+                <fullName>B2B_Everest</fullName>
+                <default>false</default>
+                <label>B2B_Everest</label>
+            </value>
+            <value>
+                <fullName>B2C_Everest</fullName>
+                <default>false</default>
+                <label>B2C_Everest</label>
+            </value>
+            <value>
+                <fullName>B2B_Cercle du Président</fullName>
+                <default>false</default>
+                <label>B2B_Cercle du Président</label>
+            </value>
+            <value>
+                <fullName>B2C_Cercle du Président</fullName>
+                <default>false</default>
+                <label>B2C_Cercle du Président</label>
+            </value>
+            <value>
+                <fullName>B2C_Contrepartie sur-mesure</fullName>
+                <default>false</default>
+                <label>B2C_Contrepartie sur-mesure</label>
+            </value>
+            <value>
+                <fullName>B2B_Contrepartie sur-mesure</fullName>
+                <default>false</default>
+                <label>B2B_Contrepartie sur-mesure</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>B2B</controllingFieldValue>
+            <valueName>B2B_Mont Blanc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B</controllingFieldValue>
+            <valueName>B2B_Kilimandjaro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B</controllingFieldValue>
+            <valueName>B2B_McKinley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B</controllingFieldValue>
+            <valueName>B2B_Annapura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B</controllingFieldValue>
+            <valueName>B2B_K2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B</controllingFieldValue>
+            <valueName>B2B_Everest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B</controllingFieldValue>
+            <valueName>B2B_Cercle du Président</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2B</controllingFieldValue>
+            <valueName>B2B_Contrepartie sur-mesure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C</controllingFieldValue>
+            <valueName>B2C_Niveau Zéro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C</controllingFieldValue>
+            <valueName>B2C_Mont Blanc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C</controllingFieldValue>
+            <valueName>B2C_Kilimandjaro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C</controllingFieldValue>
+            <valueName>B2C_McKinley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C</controllingFieldValue>
+            <valueName>B2C_Annapura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C</controllingFieldValue>
+            <valueName>B2C_K2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C</controllingFieldValue>
+            <valueName>B2C_Everest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C</controllingFieldValue>
+            <valueName>B2C_Cercle du Président</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B2C</controllingFieldValue>
+            <valueName>B2C_Contrepartie sur-mesure</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

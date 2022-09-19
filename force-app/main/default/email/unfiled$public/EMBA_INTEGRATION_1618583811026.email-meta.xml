@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>emlyon | EMBA  |   Votre inscription est validée</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>EMBA INTEGRATION</name>
+    <style>none</style>
+    <subject>emlyon | EMBA | Votre inscription est validée</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

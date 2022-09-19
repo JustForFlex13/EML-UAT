@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>INDE_SPMI</fullName>
+    <columns>Nom_Prenom__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Code_Produit__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Code_Produit__c</field>
+        <operation>equals</operation>
+        <value>SPMI</value>
+    </filters>
+    <label>INDIA_students SPMI</label>
+</ListView>

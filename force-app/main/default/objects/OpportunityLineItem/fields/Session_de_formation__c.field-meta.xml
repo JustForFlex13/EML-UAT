@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Session_de_formation__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Session de formation</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>$Source.ProduitFiltreSession__c</field>
+            <operation>equals</operation>
+            <valueField>Session__c.Produits__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>Session__c.Statut__c</field>
+            <operation>notEqual</operation>
+            <value>Complète</value>
+        </filterItems>
+        <filterItems>
+            <field>Session__c.Statut__c</field>
+            <operation>notEqual</operation>
+            <value>Abandonnée</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Session__c</referenceTo>
+    <relationshipLabel>Liste prévisionnelle inscrit</relationshipLabel>
+    <relationshipName>Poste_d_opportunit</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

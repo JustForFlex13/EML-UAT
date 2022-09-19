@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut_offre_validee_sans_marge</fullName>
+    <active>true</active>
+    <description>Pour passer au statut « offre validée », une marge prévisionnelle doit être inscrite</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+AND( 
+RecordType.Name = &quot;Formation intra-entreprise&quot;, 
+ISBLANK( Marge_Previsionnelle__c ),
+ISPICKVAL(StageName, &quot;Offre validée&quot;)
+) 
+)</errorConditionFormula>
+    <errorMessage>Pour passer au statut « offre validée », une marge prévisionnelle doit être inscrite</errorMessage>
+</ValidationRule>

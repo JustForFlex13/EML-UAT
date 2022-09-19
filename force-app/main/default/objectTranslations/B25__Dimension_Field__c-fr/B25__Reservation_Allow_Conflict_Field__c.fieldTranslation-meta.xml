@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le nom API d’un champ de case à cocher (interobjets) pour la réservation. Si cette option est true, la réservation autorise les réservations doubles.</help>
+    <label></label>
+    <name>B25__Reservation_Allow_Conflict_Field__c</name>
+</CustomFieldTranslation>

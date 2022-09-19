@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Convention disponible sur l&apos;espace étudiant</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Convsta_Convention disponible sur espace étudiant</name>
+    <style>freeForm</style>
+    <subject>Votre convention de stage est disponible</subject>
+    <textOnly>Bonjour {!Contact.Name},
+
+Votre convention de stage étant signée de toutes les parties, elle est maintenant disponible sur votre espace personnel MakersBoard/ &quot;Stages &amp; Expérience Professionnelle&quot;. 
+
+Nous restons à votre écoute tout au long de votre mission en entreprise.
+Nous vous souhaitons un très bon stage et une belle expérience.
+
+Cordialement,
+
+emlyon Career Center</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

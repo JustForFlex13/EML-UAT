@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>evalLink__c</fullName>
+    <externalId>false</externalId>
+    <formula>$Label.Communiry_Evaluation_url +
+IF(TEXT(Demande__r.Convsta_Langue__c) == &apos;Français&apos;,
+&apos;?language=fr&apos;,
+&apos;?language=en_us&apos;) +
+SUBSTITUTE(&apos;&amp;id=&apos; + Cle_cryptee__c +
+&apos;&amp;ns=&apos; + Etudiant__r.FirstName + IF(!ISBLANK(Etudiant__r.LastName),&apos;%20&apos;,&apos;&apos;) + Etudiant__r.LastName +
+&apos;&amp;nt=&apos; + Evaluateur__r.FirstName + IF(!ISBLANK(Evaluateur__r.LastName),&apos;%20&apos;,&apos;&apos;) + Evaluateur__r.LastName +
+&apos;&amp;nc=&apos; + 
+SUBSTITUTE(
+				   SUBSTITUTE(
+											SUBSTITUTE(
+											SUBSTITUTE(
+															SUBSTITUTE(Demande__r.Convsta_Entreprise__r.Name,&apos;&amp;&apos;,&apos;xyzamperandzyx&apos;)
+															,&apos;%&apos;,&apos;dfgcerpentgfd&apos;),
+											&apos;#&apos;,&apos;dhiaesshe&apos;),
+											&apos;?&apos;,&apos;dfgmaqrkgfd&apos;),
+				&apos;+&apos;,&apos;hardpluslup&apos;),
+											&apos; &apos;,&apos;%20&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Lien pour évaluation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

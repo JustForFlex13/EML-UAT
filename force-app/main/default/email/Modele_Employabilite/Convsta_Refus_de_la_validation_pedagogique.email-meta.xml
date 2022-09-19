@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Refus de la validation pédagogique</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Convsta_Refus de la validation pédagogique</name>
+    <style>freeForm</style>
+    <subject>Demande rejetée</subject>
+    <textOnly>Bonjour {!Contact.Name},
+
+
+Après l’étude de votre demande, nous vous informons que celle-ci a été rejeté pour raisons pédagogiques. Veuillez prendre contact au plus tôt avec votre responsable pédagogique, {!Case.Convsta_Responsable_Pedagogique__c}.
+
+
+Cordialement.
+
+
+Career Center.
+
+
+
+Career Center
+Tel + 33 (0)4 78 33 78 00
+www.em-lyon.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

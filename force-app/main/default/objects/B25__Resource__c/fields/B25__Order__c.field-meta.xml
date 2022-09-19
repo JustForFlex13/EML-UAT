@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A Resource with a lower order is displayed on the Calendar above a Resource with a higher order.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Une ressource avec un ordre inférieur est affichée sur le calendrier au-dessus d’une ressource avec un ordre supérieur.</inlineHelpText>
+    <label>Order</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

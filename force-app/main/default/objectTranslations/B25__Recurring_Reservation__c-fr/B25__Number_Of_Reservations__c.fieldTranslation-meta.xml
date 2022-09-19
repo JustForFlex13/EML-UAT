@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le nombre de réservations qui seront effectuées avant que les réservations récurrentes ne prennent fin.</help>
+    <label></label>
+    <name>B25__Number_Of_Reservations__c</name>
+</CustomFieldTranslation>

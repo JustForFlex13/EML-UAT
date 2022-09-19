@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LG_1__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Our graduates are aware/sensitive to a disrupted world</inlineHelpText>
+    <label>LG 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LO1 : Graduates understand and analyze the economic and social news of a digi-global changing world</fullName>
+                <default>false</default>
+                <label>LO1 : Graduates understand and analyze the economic and social news of a digi-global changing world</label>
+            </value>
+            <value>
+                <fullName>LO2 : Graduates are able to identify and implement solutions to make decisions in an international business environment</fullName>
+                <default>false</default>
+                <label>LO2 : Graduates are able to identify and implement solutions to make decisions in an international business environment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La taille du tampon de fin de réservation en minutes. Elle sera affichée sur le calendrier et peut être utilisée pour indiquer le temps de nettoyage après que la réservation réelle ait eu lieu.</help>
+    <label></label>
+    <name>B25__Reservation_End_Buffer_Size__c</name>
+</CustomFieldTranslation>

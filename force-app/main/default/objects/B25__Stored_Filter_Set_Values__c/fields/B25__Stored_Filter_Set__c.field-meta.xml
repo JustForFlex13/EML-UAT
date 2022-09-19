@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Stored_Filter_Set__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The filter that this record contains the values for.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le filtre pour lequel cet enregistrement contient les valeurs.</inlineHelpText>
+    <label>Stored Filter Set</label>
+    <referenceTo>B25__Stored_Filter_Set__c</referenceTo>
+    <relationshipLabel>Stored Filter Set Values</relationshipLabel>
+    <relationshipName>Stored_Filter_Set_Values</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

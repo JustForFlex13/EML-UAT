@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La vue de ce contexte. Lorsque ce champ est rempli, seules les réservations affichées dans cette vue correspondront à ce contexte.</help>
+    <label></label>
+    <name>B25__View__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Reservation_Display__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Hover Definition this Related List record will be shown on.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>La définition de survol sur laquelle cet enregistrement de liste connexe sera affiché.</inlineHelpText>
+    <label>Hover Definition</label>
+    <referenceTo>B25__Reservation_Display__c</referenceTo>
+    <relationshipLabel>Related Lists</relationshipLabel>
+    <relationshipName>Related_Lists</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

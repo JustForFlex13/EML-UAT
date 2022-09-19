@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Attestation_Courte_duree_Demande_d_upload</fullName>
+        <description>Attestation Courte durée - Demande d&apos;upload</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Attestation_Demande_d_upload_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Attestation_Courte_duree_Relance_J_7</fullName>
+        <description>Attestation Courte durée - Relance J-7</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Attestation_Relance</template>
+    </alerts>
+    <alerts>
+        <fullName>Attestation_Courte_duree_Relance_Jplus7</fullName>
+        <description>Attestation Courte durée - Relance J+7</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Attestation_Relance</template>
+    </alerts>
+    <alerts>
+        <fullName>Attestation_Longue_duree_Relance_Jplus105</fullName>
+        <description>Attestation Longue durée - Relance J+105</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Attestation_Relance</template>
+    </alerts>
+    <alerts>
+        <fullName>Attestation_Longue_duree_Relance_Jplus120</fullName>
+        <description>Attestation Longue durée - Relance J+120</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Attestation_Relance</template>
+    </alerts>
+    <alerts>
+        <fullName>CONVSTA_Deuxieme_relance_contrat</fullName>
+        <description>Deuxième relance contrat</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Relance_envoi_convention</template>
+    </alerts>
+    <alerts>
+        <fullName>CONVSTA_Premiere_relance_contrat</fullName>
+        <description>Première relance contrat</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Relance_envoi_convention</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Accuse_reception_creation_demande</fullName>
+        <description>Convsta Accusé réception création demande</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Accuse_de_reception_de_la_creation_de_la_demande</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Accuse_reception_d_une_demande_l_etranger</fullName>
+        <description>Convsta Accusé réception d&apos;une demande à l&apos;étranger</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Modele_Employabilite/Convsta_Accuse_de_reception_de_la_soumission_d_une_demande_l_etranger</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Accuse_reception_soumission_d_une_demande_en_France</fullName>
+        <description>Convsta Accusé réception soumission d&apos;une demande en France</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Accuse_de_reception_de_la_soumission_d_une_demande_en_France</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Attestation_Longue_duree_Demande_d_upload</fullName>
+        <description>Convsta Attestation Longue durée - Demande d&apos;upload</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Attestation_Demande_d_upload_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Demande_d_informations_complementaire_pour_validation_pedagogique</fullName>
+        <description>Convsta Demande d&apos;informations complémentaire pour validation pédagogique</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Demande_d_informations_complementaires_pour_la_validation_pedagogique</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Demande_de_Precisions_Administratives</fullName>
+        <description>Convsta Demande de Précisions Administratives</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Demande_de_Precisions_Administratives</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Demande_de_Precisions_Pedagogiques</fullName>
+        <description>Convsta Demande de Précisions Pédagogiques</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Demande_de_Precisions_Pedagogiques</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Envoi_Rejet_Administratif</fullName>
+        <description>Convsta Envoi Rejet Administratif</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Rejet_Administratif</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Envoi_Rejet_Pedagogique</fullName>
+        <description>Convsta Envoi Rejet Pédagogique</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Rejet_Pedagogique</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Mail_Document_Non_Conforme</fullName>
+        <description>Convsta Mail Document Non Conforme</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Document_Non_Conforme</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Refus_de_la_validation_pedagogique</fullName>
+        <description>Convsta Refus de la validation pédagogique</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Refus_de_la_validation_pedagogique</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_Relance_email_envoi_convention</fullName>
+        <description>Relance email pour envoi convention</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/Convsta_Relance_envoi_convention</template>
+    </alerts>
+    <alerts>
+        <fullName>Convsta_notification_etudiant_GBBA</fullName>
+        <description>Convsta_notification_etudiant_GBBA</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>Convsta_suiveur__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Modele_Employabilite/convsta_notif_validPeda_etu_et_suiveur</template>
+    </alerts>
+    <alerts>
+        <fullName>convsta_accuse_reception_attestation</fullName>
+        <description>convsta_accuse_reception_attestation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>careercenter_norreply@em-lyon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Convsta_Evaluation/Convsta_eval_accuse_reception_justificatif</template>
+    </alerts>
+    <rules>
+        <fullName>CONVSTA relance PJ</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Convsta_TypeContrat__c</field>
+            <operation>notEqual</operation>
+            <value>Convention de stage de l ecole</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Validation d&apos;expérience</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Convsta_Convention__c</field>
+            <operation>equals</operation>
+            <value>Faux</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Convsta_Send_email_relance_PJ__c</field>
+            <operation>equals</operation>
+            <value>Vrai</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Convsta_Document_a_verifier__c</field>
+            <operation>equals</operation>
+            <value>Faux</value>
+        </criteriaItems>
+        <description>Cette règle permet de relancer les étudiants n&apos;ayant pas fourni de pièce jointe lors de la création d&apos;une demande de stage.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>CONVSTA_Deuxieme_relance_contrat</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CONVSTA_Premiere_relance_contrat</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Attestation Courte durée - Demande d%27upload</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.Convsta_TypeContrat__c</field>
+            <operation>equals</operation>
+            <value>Contrat local a l etranger</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Convsta_DateEnd__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Convention signée,Expérience validée</value>
+        </criteriaItems>
+        <description>Envoi d&apos;une demande d&apos;upload d&apos;attestation pour les &quot;CDD, Interim, Contrat local à l’étranger&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Attestation_Courte_duree_Demande_d_upload</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Convsta_DateEnd__c</offsetFromField>
+            <timeLength>-15</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Attestation Courte durée - Relance J%2B7</fullName>
+        <active>false</active>
+        <description>Envois de relances à J+7 de la date de fin pour les &quot;CDD, Interim, Contrat local à l’étranger&quot;</description>
+        <formula>( TEXT( Convsta_TypeContrat__c ) = &quot;Contrat de travail de l&apos;entreprise&quot; || TEXT( Convsta_TypeContrat__c ) = &apos;Contrat local a l etranger&apos; ) &amp;&amp; Convsta_Document_a_verifier__c = false &amp;&amp; Convsta_Boolean_Evaluation__c = false &amp;&amp; NOT(ISBLANK(Convsta_DateEnd__c)) &amp;&amp; ( TEXT ( Status ) = &apos;Convention signée&apos; || TEXT ( Status )= &apos;Expérience validée&apos;) &amp;&amp; Convsta_DateEnd__c -TODAY()&gt;=-7</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Attestation_Courte_duree_Relance_Jplus7</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Convsta_DateEnd__c</offsetFromField>
+            <timeLength>7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Attestation Courte durée - Relance J-7</fullName>
+        <active>false</active>
+        <description>Envois de relances à J-7 de la date de fin pour les &quot;CDD, Interim, Contrat local à l’étranger&quot;</description>
+        <formula>( TEXT( Convsta_TypeContrat__c ) = &quot;Contrat de travail de l&apos;entreprise&quot; || TEXT( Convsta_TypeContrat__c ) = &apos;Contrat local a l etranger&apos; ) &amp;&amp;  Convsta_Document_a_verifier__c = false &amp;&amp;  Convsta_Boolean_Evaluation__c = false &amp;&amp;  NOT(ISBLANK(Convsta_DateEnd__c)) &amp;&amp;  ( TEXT ( Status ) = &apos;Convention signée&apos; ||  TEXT ( Status )= &apos;Expérience validée&apos;) &amp;&amp;  Convsta_DateEnd__c -TODAY()&gt;=7</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Attestation_Courte_duree_Relance_J_7</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Convsta_DateEnd__c</offsetFromField>
+            <timeLength>-7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Attestation Longue durée - Demande d%27upload</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Convsta_TypeContrat__c</field>
+            <operation>equals</operation>
+            <value>Auto_entrepreneur,CDI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Convsta_DateStart__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Convention signée,Expérience validée</value>
+        </criteriaItems>
+        <description>Envoi d&apos;une demande d&apos;upload d&apos;attestation pour les &quot;CDI, Auto-entrepreneur/Création d’entreprise&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Convsta_Attestation_Longue_duree_Demande_d_upload</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Convsta_DateStart__c</offsetFromField>
+            <timeLength>90</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Attestation Longue durée - Relance à J%2B105</fullName>
+        <active>true</active>
+        <description>Envois de relances à J+105 de la date de début pour les &quot;CDI, Auto-entrepreneur/Création d’entreprise&quot;</description>
+        <formula>(TEXT ( Convsta_TypeContrat__c ) = &apos;CDI&apos; ||  	TEXT ( Convsta_TypeContrat__c ) = &apos;Auto_entrepreneur&apos;)  &amp;&amp;   Convsta_Document_a_verifier__c = false &amp;&amp;   Convsta_Boolean_Evaluation__c = false &amp;&amp;  NOT(ISBLANK(Convsta_DateEnd__c))  &amp;&amp;  	(TEXT( Status ) = &apos;Convention signée&apos; ||  		TEXT( Status ) = &apos;Expérience validée&apos;)  &amp;&amp;    Convsta_DateStart__c  - TODAY()&gt;=-105</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Attestation_Longue_duree_Relance_Jplus105</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Convsta_DateStart__c</offsetFromField>
+            <timeLength>105</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta Attestation Longue durée - Relance à J%2B120</fullName>
+        <active>true</active>
+        <description>Envois de relances à J+120 de la date de début pour les &quot;CDI, Auto-entrepreneur/Création d’entreprise&quot;</description>
+        <formula>(TEXT ( Convsta_TypeContrat__c ) = &apos;CDI&apos; || 	  TEXT ( Convsta_TypeContrat__c ) = &apos;Auto_entrepreneur&apos;)  &amp;&amp;   Convsta_Document_a_verifier__c = false &amp;&amp;   Convsta_Boolean_Evaluation__c = false &amp;&amp;  NOT(ISBLANK(Convsta_DateEnd__c))  &amp;&amp;  (TEXT( Status ) = &apos;Convention signée&apos; ||    		TEXT( Status ) = &apos;Expérience validée&apos;)  &amp;&amp;    Convsta_DateStart__c  - TODAY()&gt;=-120</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Attestation_Longue_duree_Relance_Jplus120</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Convsta_DateStart__c</offsetFromField>
+            <timeLength>120</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Convsta_validPedaBBA</fullName>
+        <actions>
+            <name>Convsta_notification_etudiant_GBBA</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>Convsta_Validation_Pedagogique__c &amp;&amp;  NOT(ISNULL(Convsta_suiveur__c )) &amp;&amp; NOT(ISBLANK(Convsta_suiveur__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

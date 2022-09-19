@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__SObject_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The SObject Type of records in this list. This value will be set automatically, no need to set it manually.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le type de SObjet des enregistrements dans cette liste. Cette valeur sera définie automatiquement, il n’est pas nécessaire de la définir manuellement.</inlineHelpText>
+    <label>SObject Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

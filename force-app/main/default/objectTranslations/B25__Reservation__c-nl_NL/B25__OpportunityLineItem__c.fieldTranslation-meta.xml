@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gebruikt om de reservering te herkennen die gebruikt is door de ABR van de verkoopkansregel</help>
+    <label></label>
+    <name>B25__OpportunityLineItem__c</name>
+</CustomFieldTranslation>

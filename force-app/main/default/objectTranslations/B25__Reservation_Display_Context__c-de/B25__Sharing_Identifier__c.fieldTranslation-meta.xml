@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn Sie zum Zuweisen separaten Kontexten an separaten Nutzern Teilen verwenden, nutzen Sie zum Angeben, für welche öffentlichen Gruppen dieser Kontext freigegeben ist, dieses Feld. Diese Info wird Booker25 dazu genutzt, um das Duplizieren von Kontexten zu erlauben, wenn diese mit anderen Nutzern geteilt werden.</help>
+    <label></label>
+    <name>B25__Sharing_Identifier__c</name>
+</CustomFieldTranslation>

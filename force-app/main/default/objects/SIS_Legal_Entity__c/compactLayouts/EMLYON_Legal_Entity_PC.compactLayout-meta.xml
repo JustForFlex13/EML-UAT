@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EMLYON_Legal_Entity_PC</fullName>
+    <fields>Name</fields>
+    <fields>SIS_Legal_Entity_Type__c</fields>
+    <fields>SIS_IsActive__c</fields>
+    <fields>LastModifiedById</fields>
+    <label>EMLYON Legal Entity PC</label>
+</CompactLayout>

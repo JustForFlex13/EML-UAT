@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Compte08_NAF_Secteur_dac_Obl</fullName>
+    <active>true</active>
+    <description>Cette règle de validation permet de vérifier si l&apos;un des champs &quot;NAF&quot; et &quot;Secteur d&apos;activité&quot; est renseigné.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+
+ $User.ProfileId &lt;&gt; &apos;00ew0000001GE7X&apos;
+ 
+&amp;&amp; 
+( 
+				
+AND  
+( 
+ISPICKVAL(Industry, &quot;&quot;),  
+CodeAPE__c = &quot;&quot; ,
+Name&lt;&gt;&quot;Formation Initiale&quot;,
+Name&lt;&gt;&quot;Sans organisation connue&quot;,
+Name&lt;&gt;&quot;Transition professionnelle&quot;
+) 
+)</errorConditionFormula>
+    <errorMessage>Vérifiez les champs NAF ou Secteur d&apos;activité</errorMessage>
+</ValidationRule>

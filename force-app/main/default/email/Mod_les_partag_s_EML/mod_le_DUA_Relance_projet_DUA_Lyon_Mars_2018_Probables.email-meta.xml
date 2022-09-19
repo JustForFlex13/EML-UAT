@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mailing mass DUA Lyon mars 2018</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x160</letterhead>
+    <name>modèle DUA - Relance projet DUA Lyon Mars 2018 Probables</name>
+    <style>promotionRight</style>
+    <subject>emlyon business school - Certificat Diriger Une Activité &gt; Votre projet de formation</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

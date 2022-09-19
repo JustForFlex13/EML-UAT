@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut_Com_d_j_modifi_par_CANEL__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Le champ Statut Commercial a-t-il déjà été modifié par la valeur du champ Statut Candidature CANEL ? Si oui, ne pas le remodifier</description>
+    <externalId>false</externalId>
+    <label>Statut Com. déjà modifié par CANEL ?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

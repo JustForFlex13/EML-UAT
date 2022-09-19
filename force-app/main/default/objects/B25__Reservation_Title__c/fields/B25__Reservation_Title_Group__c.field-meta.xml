@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Reservation_Title_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A group of Reservation Titles using a Reservation Display Context. You can specify one Reservation Title Group to display on a Reservation in a certain context.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Un groupe de titres de réservation utilisant un contexte d’affichage de réservation. Vous pouvez spécifier un groupe de titres de réservation à afficher sur une réservation dans un certain contexte.</inlineHelpText>
+    <label>Reservation Title Group</label>
+    <referenceTo>B25__Reservation_Title_Group__c</referenceTo>
+    <relationshipLabel>Titles</relationshipLabel>
+    <relationshipName>Titles</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

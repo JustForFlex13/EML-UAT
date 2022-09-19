@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando deixado não selecionado, o Calendário utiliza intervalos fixos para durações de encaixe. Os utilizadores podem não ser capazes de deslizar de volta para a posição original.</help>
+    <label></label>
+    <name>B25__Use_Relative_Snap_Duration__c</name>
+</CustomFieldTranslation>

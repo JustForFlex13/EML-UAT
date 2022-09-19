@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le nom API d’un champ de recherche pour B25__Availability__c pour l’objet de dimension. Cela vous permet de configurer les (in)disponibilités pour cette dimension.</help>
+    <label></label>
+    <name>B25__Availability_Lookup__c</name>
+</CustomFieldTranslation>

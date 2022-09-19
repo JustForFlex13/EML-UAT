@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Echéancier</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Echéanciers</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Présentation Echéancier</layout>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RV_Echeancier01_ExerciceObligatoire</name>
+    </validationRules>
+</CustomObjectTranslation>

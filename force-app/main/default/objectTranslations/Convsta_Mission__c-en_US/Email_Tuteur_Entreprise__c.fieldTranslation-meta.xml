@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tip: Ask who will receive and sign the agreement. eg :  The agreement signatory should be the CEO of the company but it can be his assistant who will really sign the agreement in practice. Thus, you will have to inform the assistant&apos;s email address.</help>
+    <label>Email of the company tutor / manager</label>
+    <name>Email_Tuteur_Entreprise__c</name>
+</CustomFieldTranslation>

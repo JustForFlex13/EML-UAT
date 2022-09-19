@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Présentation de l&apos;évaluation pour l&apos;évaluateur</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Évaluateur présentation évaluation</name>
+    <style>none</style>
+    <subject>Evaluation de votre stagiaire {!Convsta_Evaluation__c.Etudiant__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

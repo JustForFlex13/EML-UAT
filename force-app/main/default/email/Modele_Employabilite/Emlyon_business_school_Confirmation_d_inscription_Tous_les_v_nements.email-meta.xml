@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Event Career classique :Confirmation d&apos;inscription</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Emailing_668_x200</letterhead>
+    <name>Emlyon business school : Confirmation d’inscription - Evénements classiques</name>
+    <style>freeForm</style>
+    <subject>emlyon business school, {!Opportunity.Name}: Confirmation d’inscription</subject>
+    <textOnly>Cher employeur,
+
+Nous vous remercions de choisir le Career Center emlyon business school pour vous accompagner dans cet évènement et vous confirmons votre inscription à l’événement:
+
+{!Opportunity.Name} pour la date du {!Opportunity.Date_evenement__c}
+
+Nous reprendrons contact avec vous prochainement dans le but d’organiser efficacement votre venue.
+
+Je reste à votre disposition pour tout complément d’information.
+
+Cordialement,
+
+{!User.Name}
+
+{!User.Title}
+
+{!User.Phone}
+
+23, avenue Guy de Collongue
+
+CS 40203 69134 Ecully Cedex France www.em-lyon.co</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

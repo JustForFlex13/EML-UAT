@@ -1,0 +1,1466 @@
+<apex:page controller="Convsta_GenerationConventionController" applyBodyTag="false" applyHtmlTag="false" showHeader="false"
+    renderas="pdf" cache="false" standardStylesheets="false">
+
+    <!-- LOGO -->
+
+    <head>
+        <style type="text/css" media="print">
+            @page {
+            	margin-bottom: 70px;
+            
+                @bottom-center {
+                    content: element(footer);
+                }
+            }
+
+            div.footer {
+                position: running(footer);
+                display: block;
+            	margin-bottom: 5px;
+            }
+            td {
+                 text-align: left;
+                 vertical-align: top;
+            }
+        </style>
+
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td>
+                        <apex:image id="logoEM" value="{!$Resource.convsta_Logo_EM}" />
+                    </td>
+                    <td>
+                        <apex:image id="logoPaulBocuse" value="{!$Resource.Logo_Institut_Paul_Bocuse}" rendered="{!demande.Convsta_Table_des_Regles_Experience_Pro__r.Afficher_logo_Paul_Bocuse__c}"
+                            width="300" height="180" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </head>
+
+    <!-- FRANCAIS -->
+    <apex:pageBlock rendered="{!demande.Convsta_Langue__c == 'Français'}">
+        <center>
+            <b>CONVENTION DE STAGE</b>
+        </center>
+        <br/>
+        <br/>
+
+        <b>Préambule : Les signataires de la présente convention de stage s’engagent à respecter la législation en vigueur sur
+            les stages contenu dans le Code de l’Education, le Code du Travail, le Code de la Sécurité Sociale, le Code des
+            Impôts, le Code de la santé.</b>
+        <br/>
+        <br/>
+        <b>ARTICLE 1: Parties signataires de la convention de stage – Thème et lieu du stage</b>
+        <br/> La présente convention règle les rapports entre :
+        <br/>
+        <br/> L'organisme d'accueil :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monEntreprise.Nom_Entreprise__c}, {!monEntreprise.Adresse_Entreprise__c}, {!monEntreprise.Code_Postal__c} {!monEntreprise.Ville__c} {!monEntreprise.Pays2__c}"
+        />
+        <br/> Représenté par :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monEntreprise.Civilite_Signataire_Convention__c} {!monEntreprise.Nom_Signataire_Convention__c} {!monEntreprise.Prenom_Signataire_Convention__c}, {!monEntreprise.Fonction_Signataire_Convention__c}"
+        />
+        <br/>
+        <br/> avec
+        <b>emlyon business school</b>, 23 avenue Guy de Collongue-69130 ECULLY-France
+        <br/> représentée par Mr {!$Label.convsta_directeur_employabilite}, Directeur Employabilité.
+        <br/>
+        <br/> concernant le stage de l’étudiant&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!infoPerso.Nom__c} {!infoPerso.Prenom__c}" />, régulièrement inscrit à l’Ecole dans le programme :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!demande.Convsta_Table_des_Regles_Experience_Pro__r.Libell_convention_fr__c}"
+        />
+        <br/>
+        <br/> Volume horaire académique par année d’enseignement :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!demande.Convsta_Table_des_Regles_Experience_Pro__r.Volume_academique_annuel__c}"
+        />
+        <br/> Référent pédagogique :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!demande.Convsta_Referent_pedagogique__r.Name}" />
+        <br/> Tuteur dans l'organisme d'accueil :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!maMission.Civilite_Tuteur_Entreprise__c} {!maMission.Nom_Tuteur_Entreprise__c} {!maMission.Prenom_Tuteur_Entreprise__c} - {!maMission.Tuteur_Entreprise__c}"
+        />
+        <br/> Lieu du stage :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!lieuStage}" />
+        <br/>
+        <br/>
+        <b>ARTICLE 2 : Objectif du stage</b>
+        <br/> Ce stage inscrit dans le cursus pédagogique de l’Ecole permet à l’étudiant de mettre en pratique ses acquis en situation
+        professionnelle, de développer ses compétences et participe à la construction de son projet professionnel. Cette
+        période temporaire de mise en situation professionnelle est liée à l’obtention d’un diplôme ou d’une certification
+        en vue de son insertion professionnelle.
+        <br/> L’objet du stage est établi d’un commun accord entre l'Organisme et l'Ecole en fonction du programme général de
+        l'Ecole et de la spécialisation de l'élève. Toute modification substantielle de l’objet du stage suppose l'accord
+        de l'Ecole.
+        <br/> L’élève stagiaire doit remettre à l’école un descriptif du stage avant signature de la convention.
+        <br/>
+        <b>Titre de la mission </b> :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!maMission.Titre_Mission__c}" />
+        <br/>
+        <apex:repeat rendered="{!maMission.Afficher_le_detail_dans_la_convention__c == true}" value="{!descriptionList}" var="description">
+            <apex:outputText style="{!OutputClass}" value="{!description}" />
+            <br/>
+        </apex:repeat>
+
+        Compétences à acquérir ou à développer :
+        <br/>
+        <b>Compétences clés à développer pendant le parcours d’un étudiant emlyon business school : </b> Interagir dans un contexte
+        interculturel, Prendre des initiatives, Prendre des risques, Se remettre en cause, Collaborer et co-construire, Etablir,
+        développer, mobiliser des réseaux, Valoriser ses réalisations, faire connaître, Avoir un comportement éthique et
+        responsable, Anticiper les transformations et ruptures, Capitaliser, à apprendre de ses expériences, Construire un
+        regard critique, Formuler et mettre en œuvre des solutions innovantes, Faire preuve de résilience.
+        <br/>
+        <b>Compétences comportementales : </b>
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Français' && maMission.Demontrer_un_comportement_assertif__c = true ,true,false)}"
+            style="{!OutputClass}" value="Démontrer un comportement assertif" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Français' && maMission.Gerer_son_stress__c = true ,true,false)}"
+            style="{!OutputClass}" value="Gérer son stress" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Français' && maMission.Elaborer_un_diagnostic__c = true ,true,false)}"
+            style="{!OutputClass}" value="Élaborer un diagnostic" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Français' && maMission.Conceptualiser_et_modeliser__c = true ,true,false)}"
+            style="{!OutputClass}" value="Conceptualiser et modéliser" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Français' && maMission.Mobiliser_differentes_sources__c = true ,true,false)}"
+            style="{!OutputClass}" value="Mobiliser différentes sources" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Français' && maMission.Qualifier_et_identifier_l_information__c = true ,true,false)}"
+            style="{!OutputClass}" value="Qualifier et identifier l'information" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Français' && maMission.Precision_et_rigueur_au_travail__c = true ,true,false)}"
+            style="{!OutputClass}" value="Précision et rigueur au travail" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Français' && maMission.Gerer_son_temps_et_les_priorites__c = true ,true,false)}"
+            style="{!OutputClass}" value="Gérer son temps et les priorités" />
+        <br/>
+        <!--
+        <b>Compétences métiers : </b>
+        <apex:outputText style="{!OutputClass}" value="{!maMission.Convsta_Autre_competence__c}" />
+        <br/>
+        <br/>
+        -->
+        <br/>
+        <b>ARTICLE 3 : Modalités du stage – Durée</b>
+        <br/>
+        <b>Période de stage</b>
+        <br/> Le stage aura lieu du&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{0, date, dd'/'MM'/'yyyy}">
+            <apex:param value="{!demande.Convsta_DateStart__c}" /></apex:outputText> au&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{0, date, dd'/'MM'/'yyyy}">
+            <apex:param value="{!demande.Convsta_DateEnd__c}" /></apex:outputText>
+        <br/>
+        <br/> Les stages sont limités à 6 mois. Un avenant à la convention pourra éventuellement être établi en cas de prolongation
+        de stage faite à la demande de l’Organisme d’accueil et de l’élève stagiaire dans la limite des 6 mois et en accord
+        avec la maquette pédagogique. En aucun cas la date de fin de stage ne pourra être postérieure à la date du jury de
+        diplôme pour les stages de fin d’études ; pour les autres stages, les prolongations seront soumises aux obligations
+        du programme concerné et à la réglementation en vigueur.
+        <br/> Tout étudiant sous convention de stage au-delà du 31 août de l’année en cours doit obligatoirement procéder à sa
+        réinscription administrative auprès d’em
+        <b>lyon business school</b>.
+        <br/>
+        <br/>
+        <b>Déroulement du stage</b>
+        <br/> La durée hebdomadaire maximale de présence du stagiaire dans l’Organisme sera de&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Temps_Travail_Hebdomadaire__c}" /> heures.
+        <br/> Si le stagiaire doit être présent dans l’Organisme d’accueil la nuit, le dimanche ou un jour férié, l’Organisme
+        doit indiquer ci-dessous les cas particuliers :
+        <br/>
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Travail_le_dimanche_la_nuit__c}" />
+        <br/>
+        <br/>
+        <b>ARTICLE 4 : Statut du stagiaire – Accueil et encadrement</b>
+        <br/> L'élève stagiaire, pendant la durée de son stage, demeure élève de l'Ecole ; il est suivi régulièrement par l'Ecole.
+        L’Organisme d’accueil nomme un tuteur de stage chargé d’assurer le suivi technique et d’optimiser les conditions
+        de réalisation du stage.
+        <br/> L'élève stagiaire pourra revenir à l'Ecole pendant la durée du stage, pour y suivre certains cours demandés explicitement
+        par le programme, participer à des réunions. Les dates étant portées à la connaissance de l'Organisme d’accueil par
+        l'Ecole.
+        <br/>
+        <br/>
+        <b>ARTICLE 5 : Discipline</b>
+        <br/> Durant son stage, l'élève stagiaire est soumis à la discipline et au règlement intérieur qui lui sera communiqué
+        par l’Organisme d’accueil, notamment en ce qui concerne les horaires, les règles d’hygiène et de sécurité en vigueur.
+        En cas de manquements et sur éléments constitutifs fournis par l’Organisme d’accueil, l’Ecole seule pourra prendre
+        les mesures disciplinaires qui s’imposent.
+        <br/> En cas de manquement particulièrement grave, l'Organisme d’accueil pourra mettre fin au stage de l'élève stagiaire
+        mais en ayant au préalable informé par écrit l’Ecole des motifs de sa décision et en accord avec l’Ecole tout en
+        respectant les dispositions fixées à l’article 9 de la présente convention.
+        <br/>
+        <br/>
+        <b>ARTICLE 6 : Gratification – Avantages en nature - Remboursement de frais</b>
+        <br/> L’élève stagiaire ne peut prétendre à aucune rémunération. Toutefois il peut lui être alloué une gratification.
+        <br/> Lorsque la durée du stage est supérieure à deux mois consécutifs ou non, celui-ci fait obligatoirement l’objet d’une
+        gratification.
+        <br/> Les durées s’apprécient en tenant compte de la convention de stage et de ses éventuels avenants.
+        <br/> La gratification est alors due dès le premier jour du premier mois de stage. Elle est versée mensuellement. Le montant
+        minimum horaire de la gratification est fixé à 15 % du plafond horaire de la sécurité sociale défini en application
+        de l’Art. L.241-3 du code de la sécurité sociale.
+        <br/> La gratification de stage est fixée à&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Remuneration_Mensuelle__c}" /> &nbsp;euros brut&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!TypeRemuneration}" />.
+        <br/> Modalités de versement de la gratification :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Modalites_de_versement_2__c}" />
+        <br/> La gratification est due au stagiaire sans préjudice du remboursement des frais engagés pour effectuer le stage
+        et des avantages offerts, le cas échéant, pour la restauration, l’hébergement et le transport (art.L3262-1, 326262
+        du code du travail).
+        <br/> Listes des avantages offerts :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Avantages__c}" />
+        <br/> Les frais de déplacement et d'hébergement engagés par l’élève stagiaire à la demande de l'organisme d’accueil, ainsi
+        que les frais de formation éventuellement nécessités par le stage, seront intégralement pris en charge par l’organisme
+        selon les modalités en vigueur.
+        <br/> En cas de suspension ou de résiliation de la présente convention, le montant de la gratification due au stagiaire
+        est proratisé en fonction de la durée du stage effectué.
+        <br/>
+        <br/>
+        <b>Article 6 bis</b> – accès aux droits des salariés – avantages (organisme de droit privé)
+        <br/> Le stagiaire bénéficie des protections et droits mentionnés aux articles L.1121-1, L.1152.1 et L.1153-1 du code
+        du travail, dans les mêmes conditions que les salariés.
+        <br/> Le stagiaire a accès au restaurant dans l’organisme d’accueil ou aux titres restaurants prévus à l’article L.3262-1
+        du code du travail, dans les mêmes conditions que les salariés de l’Organisme d’accueil. Il bénéficie également de
+        la prise en charge des frais de transport prévue à l’article L.3261-2 du même code. Le stagiaire accède aux activités
+        sociales et culturelles mentionnées à l’article L.2323-83 du code du travail dans les mêmes conditions que les salariés
+        <br/>
+        <br/>
+        <b>Article 6ter</b> – Accès aux droits aux agents –avantages (organisme de droit public)
+        <br/> Dans le secteur public, l’accès aux droits et avantages des agents pour les stagiaires sont régis par le décret
+        du 21 06 2010 n° 2010-676.
+        <br/>
+        <br/>
+        <b>ARTICLE 7 : Protection sociale - Accident</b>
+        <br/> Pendant la durée du stage, le stagiaire reste affilié à son régime de sécurité sociale antérieur.
+        <br/>
+        <br/>
+        <b>7.1 Cotisations</b>
+        <br/>
+        <b>7.1.1 Gratification inférieure ou égale au produit de 15% du plafond horaire de la sécurité sociale par le nombre
+            d’heures de stage effectuées au cours du mois considéré :</b>
+        <br/>
+        <b>Le stagiaire bénéficie de la législation sur les accidents du travail au titre du régime étudiant de l’article L.412-8
+            2° du code de la sécurité sociale</b>
+        <br/> Dans ce cas, conformément à la législation en vigueur, la gratification de stage n’est pas soumise à cotisation
+        sociale. Le paiement des cotisations AT /MP incombe à l’école.
+        <br/>
+        <b>7.1.2 Gratification supérieure au produit de 15% du plafond horaire de la sécurité sociale par le nombre d’heures
+            de stage effectuées au cours du mois considéré :</b>
+        <br/> Les sommes versées prennent alors le caractère d’une rémunération. Les cotisations sociales sont calculées sur le
+        différentiel entre le montant de la gratification et 15% du plafond horaire de la sécurité sociale par le nombre
+        d’heures de stage effectuées au cours du mois considéré. Le paiement des cotisations AT/MP incombe à l’organisme
+        d’accueil.
+        <br/>
+        <br/>
+        <b>7.2 Déclaration accident du travail</b>
+        <br/>
+        <b>7.2.1 : Quand l’accident survient du fait ou à l’occasion du stage, l’obligation de déclaration accident du travail
+            instituée par l’article L441-2 incombe à l’Organisme (Art R412-4 du Code de la Sécurité Sociale).</b>
+        <br/>
+        <b>7.2.2 : Quand l’accident survient du fait ou à l’occasion de l’enseignement ou de la formation dispensée par l’école,
+            l’obligation de déclaration accident du travail incombe à l’école.</b>
+        <br/>
+        <b>7.2.3 Dans tous les cas la déclaration est effectuée sous 48H auprès de la caisse primaire d’assurance maladie dont
+            dépend l’élève. Chaque partie qui déclare l’accident du travail adresse copie de cette déclaration à l’autre
+            partie concernée.</b>
+        <br/>
+        <br/>
+        <b>7.3. Déplacements:</b>
+        <br/> En cas de déplacement, il appartient à l’organisme d’accueil d’établir, dans tous les cas, un descriptif nominatif
+        de la nature du déplacement et d'en informer l'Ecole.
+        <br/> De plus, en cas de déplacements à l’étranger, ceux-ci doivent impérativement être signalés par écrit à l’Ecole au
+        moins quinze jours avant la date prévue de départ. En fonction des différentes procédures des CPAM en région, l’Ecole
+        peut être amenée à signaler ces déplacements à la sécurité sociale et obtenir l’accord avant le départ lorsque le
+        montant de gratification est inférieur ou égal au seuil des 15 % précité (consulter le service international en fonction
+        des différentes procédures des CPAM en région).
+        <br/> Lorsque ces conditions ne sont pas remplies, l’Organisme d’accueil s’engage à cotiser pour la protection de l’élève
+        stagiaire et à faire les déclarations nécessaires en cas d’accident du travail.
+        <br/> Pour ce déplacement à l’étranger le stagiaire s’engage à souscrire à un contrat d’assurance «rapatriement sanitaire,
+        assistance juridique…) et un contrat individuel accident.
+        <br/>
+        <br/>
+        <b>ARTICLE 8 : Responsabilité civile – Assurances – Sécurité – Titres de séjour-Visa</b>
+        <br/> Chacune des trois parties (Organisme, école, élève stagiaire) déclare être garantie au titre de la responsabilité
+        civile.
+        <br/> Lorsque l'Organisme met un véhicule à la disposition du stagiaire, il lui incombe de vérifier préalablement que
+        la police d'assurance du véhicule couvre son utilisation par un élève stagiaire.
+        <br/> Lorsque, dans le cadre de son stage, l’élève stagiaire utilise son propre véhicule ou un véhicule prêté par un tiers,
+        il déclare expressément à l’assureur dudit véhicule cette utilisation qu’il est amené à faire et le cas échéant s’acquitte
+        de la prime afférente.
+        <br/>
+        <br/> Il est rappelé qu’en vertu de l’art 124-14 du Code de l’Education , il est interdit de confier à l’étudiant des
+        tâches dangereuses pour sa santé et sa sécurité.
+        <br/> L’organisme d’accueil s’engage à mettre en œuvre toutes les conditions pour que l’étudiant réalise son stage en
+        toute sécurité tant sur le lieu de stage que sur tout autre lieu de réalisation, y compris à l’étranger.
+        <br/> Tout stage qui ne se déroule pas dans des conditions normales de sécurité, de moralité, d’hygiène, de respect de
+        la personne humaine doit être interrompu sur le champ sans que l’étudiant ne puisse en être sanctionné par son Ecole.
+        <br/> L’étudiant bénéficiant d’un titre de séjour, s’engage à ce que celui-ci soit valide pendant toute la durée du stage.
+        <br/> Tout étudiant doit s’engager à obtenir le visa adéquat qui lui permet la réalisation de la mission dans le pays
+        d’accueil où se déroule le stage.
+        <br/>
+        <br/>
+        <b>ARTICLE 9 : Absence et Interruption du stage</b>
+        <br/>
+        <b>Interruption temporaire</b>
+        <br/> Toute absence devra être signalée par l’Organisme d’accueil à l’établissement de formation.
+        <br/> Pour les stages dont la durée est supérieure à 2 mois et dans la limite maximale des 6 mois, des congés et autorisations
+        d’absences sont possibles en accord avec l’Ecole.
+        <br/> Nombres de jours autorisés :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Conges_RTT__c}" />
+        <br/>
+        <b>Interruption définitive</b>
+        <br/> En cas de volonté d’une des trois parties (Organisme, école, élève) d’interrompre définitivement le stage, celle-ci
+        devra immédiatement en informer les deux autres parties par écrit. Les raisons invoquées seront examinées en étroite
+        concertation. La décision définitive d’interruption du stage ne sera prise qu’à l’issue de cette phase de concertation.
+        <br/>
+        <br/>
+        <b>ARTICLE 10 : Devoir de réserve et confidentialité</b>
+        <br/> Le devoir de réserve est de rigueur absolue. Les élèves stagiaires prennent l'engagement de n'utiliser en aucun
+        cas les informations recueillies ou obtenues par eux pour en faire l'objet de publication, communication à des tiers
+        sans accord préalable de la Direction de l'Organisme, y compris le rapport de stage s’il est requis par l’Ecole.
+        Cet engagement vaudra non seulement pour la durée du stage mais également après son expiration. L'élève s'engage
+        à ne conserver, emporter, ou prendre copie d'aucun document ou logiciel, de quelque nature que ce soit, appartenant
+        à l'Organisme, sauf accord écrit de cette dernière.
+        <br/>
+        <br/> Dans le cadre de la confidentialité des informations contenues dans le rapport s’il est requis par l’Ecole, l’Organisme
+        d’accueil peut demander une restriction de la diffusion du rapport, voire le retrait de certains éléments très confidentiels.
+        Les personnes amenées à en connaître les contenus sont contraintes par le secret professionnel à n’utiliser ni ne
+        divulguer les informations du rapport.
+        <br/>
+        <br/>
+        <b>ARTICLE 11 – Propriété intellectuelle</b>
+        <br/> Conformément au code de la propriété intellectuelle, dans le cas où les activités du(de la) stagiaire donnent lieu
+        à la création d’une œuvre protégée par le droit d’auteur ou la propriété industrielle (y compris un logiciel), si
+        l’organisme d’accueil souhaite l’utiliser et que le(la) stagiaire en est d’accord, un contrat devra être signé entre
+        le(la) stagiaire (auteur) et l’organisme d’accueil.
+        <br/> Le contrat devra alors notamment préciser l’étendue des droits cédés, l’éventuelle exclusivité, la destination,
+        les supports utilisés et la durée de la cession, ainsi que, le cas échéant, le montant de la rémunération due au
+        stagiaire au titre de la cession. Cette clause s’applique quel que soit le statut de l’organisme d’accueil.
+        <br/>
+        <br/>
+        <b>ARTICLE 12 : Dispositions diverses</b>
+        <br/> L’élève ne peut prétendre utiliser les services informatiques de l’Ecole pour toute activité liée à son stage.
+        <br/>
+        <br/>
+        <b>ARTICLE 13 : Fin du stage – Restitution – Evaluation - Attestation</b>
+        <br/> En fin de stage, l’organisme d’accueil transmet à l’Ecole son appréciation sur le stage de l’étudiant sur la fiche
+        d’évaluation, selon les objectifs définis préalablement. En fonction du niveau d’études, un rapport de stage ou un
+        mémoire peut être demandé au stagiaire dans le cadre de ses études, dans le respect des règles de confidentialité.
+        Les personnes amenées à le consulter respectent le secret professionnel et ne peuvent divulguer les informations
+        contenues dans le rapport ou le mémoire. Suivant le règlement pédagogique en vigueur, l’Ecole évalue la restitution
+        fournie par le stagiaire. Celui-ci est invité à formuler une appréciation sur la qualité de son stage.
+        <br/> S’il advenait qu’un contrat de travail prenant effet avant la date de fin du stage soit signé avec l’Organisme,
+        la présente convention deviendrait caduque ; cependant cela n’exonère pas l’étudiant de ses obligations académiques.
+        L’Ecole doit en être impérativement prévenue.
+        <br/>
+        <b>
+            <u>Attestation de stage :</u>
+        </b> à l’issue du stage, l’organisme d’accueil délivre une attestation dont le modèle figure dans l‘arrêté ministériel
+        du 29 /12/2014 relatif à la convention de stage, mentionnant au minimum la durée effective du stage et, le cas échéant,
+        le montant de la gratification perçue. Le(la) stagiaire devra produire cette attestation à l’appui de sa demande
+        éventuelle d’ouverture de droits au régime général d’assurance vieillesse prévue à l’art. L.351-17 du code de la
+        sécurité sociale.
+        <br/>
+        <br/>
+        <b>ARTICLE 14 : Droit applicable – Tribunaux compétents</b>
+        <br/> La présente convention est régie exclusivement par le droit français.
+        <br/> Tout litige non résolu par voie amiable sera soumis à la compétence de la juridiction française compétente.
+        <br/>
+        <br/>
+        <b>ARTICLE 15 : Engagement contre les discriminations</b>
+        <br/> emlyon business school attache une importance particulière à la protection de ses étudiants contre les violences à caractères sexistes et sexuelles et toute forme de discrimination, sur le temps pédagogique et durant leurs périodes de stage.
+		Ces violences sont multiples et peuvent en fonction des cas constituer une infraction, un délit ou un crime quel que soit le cadre dans lequel elles s’exercent.
+		L’organisme d’accueil s’engage à veiller à ce qu’aucune violence à caractère sexiste et sexuel ni discrimination directe ou indirecte ne soit tolérée.
+        <br/>
+        <br/>
+        <apex:outputPanel rendered="{! demande.Convsta_Condition_speciales__c != null && demande.Convsta_Condition_speciales__c != ''}">
+            <br/>
+            <b>ARTICLE 16 : Conditions spéciales</b>
+            <br/>
+            <apex:outputText value="{!demande.Convsta_Condition_speciales__c}" />
+            <br/>
+        </apex:outputPanel>
+        <br/>
+        <br/>
+       
+        <b>ARTICLE COMPLEMENTAIRE : Aménagement exceptionnel lié à la pandémie de COVID 19</b>
+        <br/> Compte-tenu des circonstances exceptionnelles dues à la pandémie de Covid 19, il est entendu entre les parties qu’elles
+        auront vérifié au préalable que les missions confiées au stagiaire se prêtent à un travail en présentiel et/ou à
+        distance et qu’il dispose du matériel adéquat. Les tuteurs vérifient la possibilité d’utilisation par les parties
+        d’outils de communication adéquats. Il est entendu entre les parties qu’en cas de confinement, le stage basculera
+        automatiquement en stage à distance ou fera l’objet d’une suspension par avenant en cas d’impossibilité de stage
+        à distance. Stage en France : Le stage ne pourra être réalisé en présentiel que dans le strict respect du protocole
+        national du 6 janvier 2021 et de toute disposition hygiène, sécurité et santé applicable à l’organisme d’accueil. Stage
+        hors de France : Le stage ne pourra être réalisé en présentiel que dans le strict respect de toute disposition hygiène,
+        sécurité et santé applicable à l’organisme d’accueil. Le stagiaire s’engage sur l’honneur par la présente à se signaler
+        avant son départ sur ARIANE : https://pastel.diplomatie.gouv.fr/fildariane/dyn/public/login.html Le stagiaire atteint
+        du Covid19 pendant son stage devra respecter les conditions prescrites dans le pays d’accueil, notamment en termes
+        de quarantaine. L’établissement d’enseignement ne pourra pas être tenu de rapatrier le stagiaire.
+        <br/>
+        <br/>
+        <div style="page-break-after: always" /> Fait à Ecully, le&nbsp;
+        <apex:outputText value="{0, date, dd'/'MM'/'yyyy}">
+            <apex:param value="{!dateDuJour}" /></apex:outputText>
+        <br/>
+        <br/>
+        <table>
+            <tr>
+                <td>
+                    <left>
+                        <b>
+                            <u>POUR L’ÉTABLISSEMENT D’ENSEIGNEMENT</u>
+                        </b>
+                    </left>
+                </td>
+                <td></td>
+                <td>
+                    <right>
+                        <b>
+                            <u>POUR L’ORGANISME D’ACCUEIL</u>
+                        </b>
+                    </right>
+                </td>
+            </tr>
+            <tr>
+                <td width="48%">
+                    <apex:outputPanel rendered="{!isNoCachetServeur}">
+                        <left>Mr {!$Label.convsta_directeur_employabilite}</left>
+                        <br/>
+                        <apex:image id="logoEM" value="{!$Resource.convsta_Signature_DirecteurEmployabilite}" width="25%" height="25%" />
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!isCachetServeur}">
+                        <left>Mr {!$Label.convsta_directeur_employabilite}</left>
+                        <br/>
+                        <apex:image id="logoEMcachet" value="{!$Resource.convsta_Signature_DirecteurEmployabilite}" width="25%" height="25%" style="margin-top:50px; margin-right:90px; float:right;"
+                        />
+                    </apex:outputPanel>
+                </td>
+                <td width="4%"></td>
+                <td>
+                    <right>
+                        <apex:outputPanel rendered="{! demande.Convsta_Tuteur__c != demande.Responsable_administratif_entreprise__c}">
+                            Nom et signature du responsable de l'organisme d'accueil
+                        </apex:outputPanel>
+                        <apex:outputPanel rendered="{! demande.Convsta_Tuteur__c == demande.Responsable_administratif_entreprise__c}">
+                            Nom et signature du responsable de l'organisme d'accueil et Tuteur de stage
+                        </apex:outputPanel>
+                    </right>
+                </td>
+            </tr>
+            <tr style="height:40px">
+                <td width="48%"></td>
+                <td></td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <left>
+                        <b>
+                            <u>STAGIAIRE</u>
+                        </b>
+                    </left>
+                    <br/>
+                    <left>Nom et signature</left>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="height:135px">
+                <td width="48%"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <apex:outputPanel rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == false}">
+                        <left>
+                            <b>
+                                <u>Le référent pédagogique ECOLE du stagiaire</u>
+                            </b>
+                        </left>
+                        <br/>
+                        <left>Nom et signature</left>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == true
+                    && (demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'BM' &&
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'GE' &&
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'IDEA' &&
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'E2MS')}">
+                        <left>
+                            <b>
+                                <u>Directrice GBBA</u>
+                            </b>
+                        </left>
+                        <!--<left><b><u>Le référent pédagogique ECOLE du stagiaire</u></b></left>-->
+                        <br/>
+                        <left>Mme {!$Label.convsta_responsable_pedagogique}</left>
+                        <br/>
+                        <apex:image id="logoSignRP" value="{!$Resource.convsta_Signature_ResponsablePedagogique}" width="25%" height="25%" />
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == true 
+                    && (demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'BM' || 
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'GE' ||
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'IDEA' ||
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'E2MS')}">
+                        <left>
+                            <b>
+                                <u>Directrice Programme Grande Ecole</u>
+                            </b>
+                        </left>
+                        <br/>
+                        <left>Mme {!$Label.convsta_directrice_du_programme_grande_ecole}</left>
+                        <br/>
+                        internship@em-lyon.com
+                        <br/>
+                        <apex:image id="logoSignDPGE" value="{!$Resource.convsta_Signature_DirectricePGE}" width="25%" height="25%" />
+                    </apex:outputPanel>
+                </td>
+                <td></td>
+                <td>
+                    <apex:outputPanel rendered="{! demande.Convsta_Tuteur__c != demande.Responsable_administratif_entreprise__c}">
+                        <right>
+                            <b>
+                                <u>Le tuteur de stage dans l’Organisme d’accueil</u>
+                            </b>
+                        </right>
+                        <br/>
+                        <right>Nom et signature</right>
+                        <br/>
+                        <apex:image value="{!$Resource.convsta_Signature_Vide}" width="25%" height="25%" rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == true}"
+                        />
+                    </apex:outputPanel>
+                </td>
+            </tr>
+        </table>
+    </apex:pageBlock>
+
+    <!-- ANGLAIS -->
+    <apex:pageBlock rendered="{!demande.Convsta_Langue__c == 'Anglais'}">
+        <center>
+            <b>WORK PLACEMENT AGREEMENT</b>
+            <br/>
+        </center>
+        <br/>
+        <br/>
+
+        <b>Preamble: the signatories of this work placement agreement declare that they are familiar with the French law 2006-396
+            on equal opportunities and subsequent implementation decrees and the charter on work placements www.recherche.gouv.fr
+            and accept the principles.</b>
+        <br/>
+        <br/>
+        <b>ARTICLE 1</b>: Signatories of agreement - Content and location of placement.
+        <br/> The following agreement regulates the relationship between the Company identified below (hereafter referred to as
+        “the Company”):
+        <br/> Designation of company :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monEntreprise.Nom_Entreprise__c}, {!monEntreprise.Adresse_Entreprise__c}, {!monEntreprise.Code_Postal__c} {!monEntreprise.Ville__c} {!monEntreprise.Pays2__c}" />
+        <br/> Represented by :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monEntreprise.Nom_Signataire_Convention__c} {!monEntreprise.Prenom_Signataire_Convention__c}"
+        />
+        <br/>
+        <br/> with
+        <b>emlyon business school</b>, 23 avenue Guy de Collongues, 69130 Ecully, France
+        <br/> and Mr. {!$Label.convsta_directeur_employabilite}, Director Employer Engagement
+        <b>emlyon business school</b>
+        <br/>
+        <br/> and the work placement of&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!infoPerso.Nom__c} {!infoPerso.Prenom__c}" />
+        <br/> (hereunder referred to as “the Trainee”), and registered as a student of the School in the programm :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!demande.Convsta_Table_des_Regles_Experience_Pro__r.Libell_convention_en__c}"
+        />
+        <br/> Description of work placement as approved by the School:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!maMission.Titre_Mission__c}" />
+        <br/> Location of placement (exact address):&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!lieuStage}" />
+        <br/> Supervisor:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!maMission.Nom_Tuteur_Entreprise__c} {!maMission.Prenom_Tuteur_Entreprise__c}"
+        />
+        <br/> Academic tutor:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!demande.Convsta_Referent_pedagogique__r.Name}" />
+        <br/>
+        <br/>
+        <b>ARTICLE 2: Objectives of placement</b>
+        <br/> The main purpose of this work placement is for the Trainee to apply in a practical way the skills and knowledge
+        acquired at the School.
+        <br/> The subject of the placement should be mutually agreed upon by the Company and the School and should take into consideration
+        the general educational programme of the School and the Trainee’s area of specialisation. Any important change in
+        the subject of the placement should meet with the approval of the School.
+        <br/> The Trainee should provide the School with a description of the work placement prior to the signature of the agreement.
+        <br/>
+        <br/>
+        <b>ARTICLE 3: Dates of Placement</b>
+        <br/>
+        <b>Dates of Placement</b>
+        <br/> The work placement will take place from&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{0, date, MM'/'dd'/'yyyy}">
+            <apex:param value="{!demande.Convsta_DateStart__c}" /></apex:outputText> to&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{0, date, MM'/'dd'/'yyyy}">
+            <apex:param value="{!demande.Convsta_DateEnd__c}" /></apex:outputText>
+        <br/> A rider should be added to the agreement in case of extension of the duration of the Placement at the request of
+        the Company and the Trainee.
+        <br/> In the case of end-of-study final year placements, the date of termination of the placement should not exceed the
+        date of the final viva voce examination assessing the placement. For other types of placements any extension should
+        take into consideration the academic calendar in force.
+        <br/>
+        <br/>
+        <b>Conditions of Placement</b>
+        <br/> The Trainee will be required to be present at the workplace for a maximum of&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Temps_Travail_Hebdomadaire__c}" /> hours per week.
+        <br/> Details of special circumstances where the Trainee is required to be present at the workplace at night, on Sundays
+        or on public holidays should be outlined here :
+        <br/>
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Travail_le_dimanche_la_nuit__c}" />
+        <br/>
+        <br/>
+        <b>ARTICLE 4: Completion of Work Placement - Evaluation</b>
+        <br/> On completion of the work placement, the Company shall issue a certificate of satisfactory completion and an evaluation
+        form that should be sent to the School.
+        <br/>
+        <br/>
+        <b>ARTICLE 5: Status of Trainee – Conditions of Supervision</b>
+        <br/> The Trainee shall remain a student of the School throughout the entire period of the work placement. The Company
+        shall appoint a Company Supervisor who will provide technical supervision and ensure the placement is carried out
+        under optimum conditions. If the Trainee is required to return to School during the Placement to attend classes or
+        meetings the School should duly inform the company of the dates.
+        <br/>
+        <br/>
+        <b>ARTICLE 6 : Discipline</b>
+        <br/> The Trainee shall comply with the rules and regulations and code of conduct of the Company, and in particular with
+        hours of work and Company health, safety and hygiene guidelines throughout the period of the placement. Only the
+        School can take disciplinary action against the Trainee. Any case of misconduct should be reported by the Company
+        to the School and supported by evidence.
+        <br/>
+        <br/> The Company may terminate the Placement prematurely in case of gross misconduct on the part of the Trainee under
+        article 10 of the present agreement.
+        <br/>
+        <br/>
+        <b>ARTICLE 7: Compensation and benefits - Reimbursement of costs</b>
+        <br/> The Trainee may receive compensations.
+        <br/> The amount of this compensation is set at&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Remuneration_Mensuelle__c} {!monContrat.Code_Devise__c}" /> net&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!TypeRemuneration}" />.
+        <br/> The terms of payment are as follows:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Modalites_de_versement_2__c}" />
+        <br/>
+        <br/> If the trainee receives fringe benefits or benefits in kind (e.g. free meals, etc.), the corresponding amount should
+        be added to the monthly compensation.
+        <br/> Travel and living expenses incurred by the Trainee on official business at the Company’s request, as well as any
+        training costs pertaining to the Placement shall be incurred by the Company in accordance with the Company’s normal
+        practice and terms.
+        <br/> Details of fringe benefits and benefits in kind:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Avantages__c}" />
+        <br/>
+        <br/>
+        <b>ARTICLE 8: Sociale Welfare:</b>
+        <br/> Throughout the Placement, the Trainee continues to benefit from student status under
+        <i>French Sécurité Sociale coverage</i>, regardless of any other conditions acquired during the Placement. The student
+        must obtain prior approval from
+        <i>French Sécurité Sociale</i> for all placements undertaken abroad.
+        <br/>
+        <br/>
+        <b>
+            <u>8.1. Health and Sickness coverage for Placements abroad:</u>
+        </b>
+        <i>1) Coverage from French student status:</i>
+        <br/> *
+        <u>Wherever applicable</u> the Trainee should complete the form requesting the extension of existing health and sickness
+        coverage abroad: o For Placements undertaken by nationals of the European Economic Community in the European Economic
+        Area, Trainees should be in possession of a valid European Health Insurance Card. o For Placements undertaken in
+        Quebec by French nationals, Trainees must be in possession of form SE401Q (104 for placements undertaken in companies;
+        106 for placements undertaken in universities). *
+        <u>In all other cases</u>: Trainees who incur medical costs abroad can be reimbursed by the mutual insurance organisation
+        that handles their student French
+        <i>Sécurité Sociale</i> health and sickness cover upon their return by providing receipts of costs incurred. The amount
+        of the reimbursement is calculated on the basis of standard French rates. Important differences may exist between
+        the costs paid and the reimbursement received. o The student must take out complementary medical insurance with an
+        organisation of their choice (e.g. student or other mutual insurance organisation, ad hoc private insurance company,
+        etc.) to fully cover their stay in the foreign country, o
+        <u>Exceptions</u>: if the Company provides the Trainee with statutory local medical insurance coverage (see 2 below),
+        the Trainee may choose to benefit from it. However, the Trainee should carefully consider the extent of the coverage
+        provided before making his/her choice
+        <br/>
+        <i>2) Coverage provided by the Company:</i>
+        <br/>
+        <apex:outputPanel rendered="{!monEntreprise.Assurance_complementaire__c=='Oui'}">
+            <b>YES</b> (this coverage will complement rights and benefits provided by French student
+            <i>Sécurité sociale coverage</i>)
+            <br/>
+        </apex:outputPanel>
+        <apex:outputPanel rendered="{!monEntreprise.Assurance_complementaire__c=='Non'}">
+            <b>NO</b> (the Trainee will only be covered by the extension of existing French health and sickness cover abroad)
+            <br/>
+        </apex:outputPanel>
+        <br/>
+        <b>
+            <u>8.2. Insurance coverage for Accidents in the Workplace for Trainees abroad:</u>
+        </b>
+        <br/> 1) In order to benefit from French legislation on accidents in the workplace, the Placement: • should not exceed
+        12 months including all extensions
+        <br/> • should not include any form of remuneration entitling the Trainee to workplace accident insurance in the foreign
+        country (compensation or gratuities not exceeding
+        <b>15 % of the ceiling of the French
+            <i>Sécurité sociale</i> for a statutory 35 hour working week</b> under condition of obtaining the agreement of the
+        CPAM)
+        <br/> • should take place exclusively in the Company designated in this agreement
+        <br/> • should take place exclusively in the foreign country mentioned in this agreement.
+        <br/> 2) Notification of accidents in the workplace is the responsibility of the School. The Company must inform the School
+        in writing no later than 48 hours after the accident. 3) Coverage for accidents in the workplace includes accidents
+        that occur: • Within the perimeter of the place of work and during the hours of work;
+        <br/> • On the inward or outward journey between the Trainee’s place of residence and place of work abroad;
+        <br/> • On the inward or outward journey between the Trainee’s normal place of residence in France and the place of his/her
+        Placement abroad;
+        <br/> • On an external assignment entrusted to the Trainee by the Company and covered by a Company authorisation.
+        <br/> 4) The Company undertakes to cover the Trainee against risk of accident in the workplace, risk of accident on the
+        way to and from the place of work and risk of occupational illnesses or disease, and to make all necessary notifications
+        and declarations duly if any one of the conditions outlined in paragraph 8.2-1 is not fulfilled. 5) Under all circumstances
+        • the Company must immediately notify the School if the Trainee suffers an accident in the workplace during the Placement;
+        <br/> • the Company should provide full insurance coverage for the Trainee if he/she is required to undertake assignments
+        outside the perimeter of the place of work or in another country.
+        <br/>
+        <br/> Whenever the required conditions are not fulfilled the Company undertakes to subscribe to all necessary policies
+        to ensure the protection and coverage of the Trainee, and to make all necessary declarations in case of an accident
+        in the workplace.
+        <br/>
+        <br/>
+        <b>ARTICLE 9: Civil Liability and Insurance</b>
+        <br/> Each of the three parties involved (i.e. the Company, the School and the Trainee) declare they are in possession
+        of a valid civil liability insurance policy.
+        <br/> Regardless of the nature of the placement and the country of destination, the Trainee undertakes to take out an
+        insurance policy covering accident and cover providing assistance in case of need of medical repatriation, legal
+        aid, etc.
+        <br/> If the Company puts a motor vehicle at the disposal of the Trainee, it should ascertain that the insurance policy
+        for the vehicle covers its use by the Trainee.
+        <br/> If the Trainee uses his/her own vehicle or a vehicle loaned by a third party for the purpose of his/her Placement,
+        he/she should declare this to the insurer of the vehicle and pay any supplementary insurance cover.
+        <br/>
+        <br/>
+        <b>ARTICLE 10: Absence and Termination of Placement</b>
+        <br/>
+        <b>Temporary Absence</b>
+        <br/> All absences should be notified by the Company to the School.
+        <br/> A rider signed by the signatories of this agreement should be appended to the present agreement in case of absences
+        exceeding one week for determined reasons or due to unforeseen circumstances and authorised by the Company.
+        <br/> Paid Leaves and extra time off : &nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Conges_RTT__c}" />
+        <br/>
+        <b>Termination of Placement</b>
+        <br/> If one of the three parties (Company, School or Student) wishes to prematurely terminate the Placement this party
+        should immediately inform the other parties and confirm this request in writing. The reasons given shall be examined
+        carefully in close consultation with all parties and the final decision made at the end of the consultation.
+        <br/>
+        <br/>
+        <b>ARTICLE 11: Secrecy and Duty of Confidentiality </b>
+        <br/> Absolute confidentiality must be observed at all times. The Trainee undertakes that under no circumstance shall
+        he/she publish any information about the company or divulge this information to a third party without the prior agreement
+        of the Company. This condition also applies to the Work Placement Report. This condition applies for and after the
+        duration of the Placement. The Trainee undertakes not to remove or keep any document or copy thereof or software
+        of whatever nature appertaining to the Company without its consent.
+        <br/>
+        <br/> N.B. The Company reserves the right to restrict the circulation or the Work Placement Report or to request the removal
+        of restricted or confidential information from the Report in the interests of confidentiality. All persons who read
+        the report in the line of their professional duty shall equally observe professional confidentiality and shall not
+        divulge information contained therein.
+        <br/>
+        <br/>
+        <b>ARTICLE 12: Recruitment</b>
+        <br/> If a contract of employment between the Company and the Trainee comes into effect before the date of the end of
+        the Placement this agreement becomes immediately null and void and the Trainee shall no longer be under the responsibility
+        of the Director of the School, who should be informed before the contract is signed.
+        <br/>
+        <br/>
+        <b>ARTICLE 13: Applicable Law – Jurisdiction</b>
+        <br/> The present Agreement is governed by French law. Any unresolved conflict shall be settled by the relevant French
+        court entertaining jurisdiction in the matter.
+        <br/>
+        <br/>
+        <b>ARTICLE 14 : Commitment against discrimination</b>
+        <br/>
+        emlyon business school is particularly attentive to the protection of our student against sexist and sexual violence, and any kind of discrimination they may be exposed to throughout their pedagogical achievements, but also throughout their internships.
+		Sexist and sexual violence are many fold and may constitute either an infringement, an offense or a crime, whatever the place and circumstances they occur in.
+        The host institution undertakes to ensure that no sexist or sexual violence, nor any direct or indirect discrimination are tolerated.
+        <br/>
+        <apex:outputPanel rendered="{! demande.Convsta_Condition_speciales__c != null && demande.Convsta_Condition_speciales__c != ''}">
+            <br/>
+            <b>ARTICLE 15 : Specific conditions</b>
+            <br/>
+            <apex:outputText value="{!demande.Convsta_Condition_speciales__c}" />
+            <br/>
+        </apex:outputPanel>
+        <br/>
+        <b>ADDITIONAL ARTICLE: Exceptional arrangements due to the COVID-19 pandemic</b>
+        <br/> In the face of the exceptional circumstances due to the COVID-19 pandemic, parties hereby agree to having previously
+        verified that the missions assigned to the trainees are suitable to onsite and/or remote work, and that they have
+        the appropriate equipment to do so. Tutors are to verify that parties can use the appropriate communication tools.
+        Parties agree that, in case of lockdown, the internship will automatically turn into a remote internship or will
+        be left on hold by amendment where remote internship cannot be implemented. Internships in France: internships can
+        only be carried out onsite if in strict compliance with the national protocol of the 6th of January 2021[1] and with any
+        sanitary, safety or health disposition in force in the host institution. Internships outside of France: internships
+        can only be carried out onsite if in strict compliance with any sanitary, safety or health disposition in force in
+        the host institution. The trainee hereby agrees on honor afore going, to declare his/her presence abroad on ARIANE:
+        https://pastel.diplomatie.gouv.fr/fildariane/dyn/public/login.html Any trainee found to be COVID-19 positive during
+        his/her internship will have to comply with the sanitary measures in force in the host country, notably in terms
+        of quarantining. The teaching institution cannot be liable for the repatriation of the said trainee.
+        <br/>
+        <br/>
+        <div style="page-break-after: always" /> Signed at Ecully, on&nbsp;
+        <apex:outputText value="{0, date, MM'/'dd'/'yyyy}">
+            <apex:param value="{!dateDuJour}" /></apex:outputText>
+        <br/>
+        <br/>
+
+        <table>
+            <tr>
+                <td>
+                    <left>
+                        <b>
+                            <u>The Teaching Institution</u>
+                        </b>
+                    </left>
+                </td>
+                <td></td>
+                <td>
+                    <right>
+                        <b>
+                            <u>The Head of the Company</u>
+                        </b>
+                    </right>
+                </td>
+            </tr>
+            <tr>
+                <td width="48%">
+                    <apex:outputPanel rendered="{!isNoCachetServeur}">
+                        <left>Name and signature of the Head of the Teaching Institution</left>
+                    </apex:outputPanel>
+                </td>
+                <td width="4%"></td>
+                <!--<td><right>Name and signature of the Head of the Company</right></td>-->
+                <td>
+                    <right>
+                        <apex:outputPanel rendered="{! demande.Convsta_Tuteur__c != demande.Responsable_administratif_entreprise__c}">
+                            Name and signature of the Head of the Company
+                        </apex:outputPanel>
+                        <apex:outputPanel rendered="{! demande.Convsta_Tuteur__c == demande.Responsable_administratif_entreprise__c}">
+                            Name and signature of the Head of the Company and Internship Tutor
+                        </apex:outputPanel>
+                    </right>
+                </td>
+            </tr>
+            <tr>
+                <td width="48%">
+                    <apex:outputPanel rendered="{!isNoCachetServeur}">
+                        <left>Mr {!$Label.convsta_directeur_employabilite}</left>
+                        <br/>
+                        <apex:image id="logoEM" value="{!$Resource.convsta_Signature_DirecteurEmployabilite}" width="25%" height="25%" />
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!isCachetServeur}">
+                        <left>Mr {!$Label.convsta_directeur_employabilite}</left>
+                        <br/>
+                        <apex:image id="logoEMcachet" value="{!$Resource.convsta_Signature_DirecteurEmployabilite}" width="25%" height="25%" style="margin-top:50px; margin-right:90px; float:right;"
+                        />
+                    </apex:outputPanel>
+
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="height:20px">
+                <td width="48%"></td>
+                <td></td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <left>
+                        <b>
+                            <u>The Trainee</u>
+                        </b>
+                    </left>
+                    <br/>
+                    <left>Name and signature</left>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="height:135px">
+                <td width="48%"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <apex:outputPanel rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == false}">
+                        <left>
+                            <b>
+                                <u>The Pedagogical Referent of the Trainee's School</u>
+                            </b>
+                        </left>
+                        <br/>
+                        <left>Name and signature</left>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == true
+                    && (demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'BM' &&
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'GE' &&
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'IDEA' &&
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'E2MS')}">
+                        <left>
+                            <b>
+                                <u>Director GBBA</u>
+                            </b>
+                        </left>
+                        <!--<left><b><u>The Pedagogical Referent of the Trainee's School</u></b></left>-->
+                        <br/>
+                        <left>Mrs {!$Label.convsta_responsable_pedagogique}</left>
+                        <br/>
+                        <apex:image id="logoSignRP" value="{!$Resource.convsta_Signature_ResponsablePedagogique}" width="25%" height="25%" />
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == true 
+                    && (demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'BM' || 
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'GE' ||
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'IDEA' ||
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'E2MS')}">
+                        <left>
+                            <b>
+                                <u>Director of the MSc In Management</u>
+                            </b>
+                        </left>
+                        <br/>
+                        <left>Mrs {!$Label.convsta_directrice_du_programme_grande_ecole}</left>
+                        <br/>
+                        internship@em-lyon.com
+                        <br/>
+                        <apex:image id="logoSignDPGE" value="{!$Resource.convsta_Signature_DirectricePGE}" width="25%" height="25%" />
+                    </apex:outputPanel>
+                </td>
+                <td></td>
+                <td>
+                    <apex:outputPanel rendered="{! demande.Convsta_Tuteur__c != demande.Responsable_administratif_entreprise__c}">
+                        <right>
+                            <b>
+                                <u>The Internship Tutor in the Host Organization</u>
+                            </b>
+                        </right>
+                        <br/>
+                        <right>Name and signature</right>
+                        <br/>
+                        <apex:image value="{!$Resource.convsta_Signature_Vide}" width="25%" height="25%" rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == true}"
+                        />
+                    </apex:outputPanel>
+                </td>
+            </tr>
+        </table>
+    </apex:pageBlock>
+
+    <!-- ESPAGNOL -->
+    <apex:pageBlock rendered="{!demande.Convsta_Langue__c == 'Espagnol'}">
+        <center>
+            <b>CONVENIO DE PRÁCTICAS</b>
+            <br/>
+        </center>
+        <br/>
+        <br/> Preámbulo: Las partes firmantes del presente convenio de prácticas se comprometen a respetar la legislación en vigor
+        sobre prácticas, contenida en el Código de la Educación, Código Laboral, Código de la Seguridad Social, Código Fiscal
+        y Código de la Salud.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 1:</b> Partes firmantes del convenio de prácticas - Ámbito y lugar de realización de las prácticas.
+        <br/> El presente convenio regula la relación entre:
+        <br/> La Organización de Acogida:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monEntreprise.Nom_Entreprise__c}, {!monEntreprise.Adresse_Entreprise__c} {!monEntreprise.Code_Postal__c} {!monEntreprise.Ville__c}, {!monEntreprise.Pays2__c}"
+        />
+        <br/> Representada por:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monEntreprise.Nom_Signataire_Convention__c} {!monEntreprise.Prenom_Signataire_Convention__c}"
+        />
+        <br/>
+        <br/> con
+        <b>emlyon business school</b>, 23 avenue Guy de Collongue-69130 ECULLY-Francia
+        <br/> representada por {!$Label.convsta_directeur_employabilite}, Director de la Empleabilidad.
+        <br/>
+        <br/> en relación con las prácticas del estudiante,&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!infoPerso.Nom__c} {!infoPerso.Prenom__c} debidamente matriculado en la Escuela, en el programa  {!demande.Convsta_Table_des_Regles_Experience_Pro__r.Libell_convention_es__c}."
+        />
+        <br/>
+        <br/> Volumen de horas académicas por curso:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!demande.Convsta_Table_des_Regles_Experience_Pro__r.Volume_academique_annuel__c}"
+        />
+        <br/>
+        <br/> Referente pedagógico:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!demande.Convsta_Referent_pedagogique__r.Name}" />
+        <br/> Tutor en la organización de acogida:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!maMission.Nom_Tuteur_Entreprise__c} {!maMission.Prenom_Tuteur_Entreprise__c}"
+        />
+        <br/> Lugar de realización de las prácticas:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!lieuStage}" />
+        <br/>
+        <br/>
+        <b>ARTÍCULO 2: Objetivo de las prácticas</b>
+        <br/> Estas prácticas se enmarcan en el curso pedagógico de la Escuela y permiten a los becarios poner en práctica los
+        conocimientos adquiridos en un entorno profesional, así como desarrollar sus competencias, a la vez que contribuyen
+        al desarrollo de su proyecto profesional. Este periodo temporal de puesta en situación profesional está vinculado
+        a la obtención de un diploma o una certificación con vistas a la inserción laboral.
+        <br/> El objetivo de las prácticas se establecerá de común acuerdo entre la Organización y la Escuela en función del programa
+        general de la Escuela y de la especialización del alumno. Cualquier modificación sustancial del objeto de las prácticas
+        requerirá el acuerdo de la Escuela.
+        <br/> El becario deberá remitir a la escuela una descripción de las prácticas antes de la firma del convenio.
+        <br/>
+        <b>Título de la misión </b> :&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!maMission.Titre_Mission__c}" />
+        <br/>
+        <br/> Objetivos detallados:
+        <br/> Competencias a desarrollar durante el programa de un estudiante emlyon business school:
+        <br/> Interactuar en un entorno intercultural, Tomar iniciativas, Tomar riesgos, Recapacitar, Colaborar y construir en
+        equipo, Establecer, Desarrollar, Movilizar recursos, Valorar sus realizaciones, Dar a conocer, Tener un comportamiento
+        ético y responsable, Prever las transformaciones y rupturas, Capitalizar, Aprender de sus experiencias, Construir
+        una mirada crítica, Formular y poner en marcha soluciones innovadoras, Tener resiliencia.
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Espagnol' && maMission.Demontrer_un_comportement_assertif__c = true ,true,false)}"
+            style="{!OutputClass}" value="Demostrar un comportamiento asertivo" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Espagnol' && maMission.Gerer_son_stress__c = true ,true,false)}"
+            style="{!OutputClass}" value="Gestionar el estrés" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Espagnol' && maMission.Elaborer_un_diagnostic__c = true ,true,false)}"
+            style="{!OutputClass}" value="Elaborar un diagnostico" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Espagnol' && maMission.Conceptualiser_et_modeliser__c = true ,true,false)}"
+            style="{!OutputClass}" value="Conceptualizar y modelizar" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Espagnol' && maMission.Mobiliser_differentes_sources__c = true ,true,false)}"
+            style="{!OutputClass}" value="Mobilizar distintos recursos" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Espagnol' && maMission.Qualifier_et_identifier_l_information__c = true ,true,false)}"
+            style="{!OutputClass}" value="Calificar e identificar la informacion" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Espagnol' && maMission.Precision_et_rigueur_au_travail__c = true ,true,false)}"
+            style="{!OutputClass}" value="Trabajar de manera rigurosa y precisa" />
+        <br/>
+        <apex:outputText rendered="{!IF(demande.Convsta_Langue__c ='Espagnol' && maMission.Gerer_son_temps_et_les_priorites__c = true ,true,false)}"
+            style="{!OutputClass}" value="Gestionar el tiempo y las prioridades" />
+        <br/>
+        <br/>
+        <b>ARTÍCULO 3: Modalidades de las prácticas - Duración</b>
+        <br/>
+        <b>Periodo de prácticas</b>
+        <br/> Las prácticas se realizarán entre el&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{0, date, dd'/'MM'/'yyyy}">
+            <apex:param value="{!demande.Convsta_DateStart__c}" /></apex:outputText> y el&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{0, date, dd'/'MM'/'yyyy}">
+            <apex:param value="{!demande.Convsta_DateEnd__c}" /></apex:outputText>
+        <br/>
+        <br/> Las prácticas se limitarán a 6 meses. En su caso, se podrá firmar una adenda en caso de prórroga de las prácticas
+        a solicitud de la Organización de Acogida y del becario con el límite de 6 meses, de conformidad con los programas
+        académicos. En ningún caso, la fecha de finalización de las prácticas podrá ser posterior a la fecha del tribunal
+        responsable del título para las prácticas de fin de estudios; por lo que respecta al resto de las prácticas, las
+        prórrogas estarán sujetas a las obligaciones del programa correspondiente y la normativa en vigor.
+        <br/> Los estudiantes sujetos al convenio de prácticas a partir del 30 de agosto del año en curso deberán proceder a su
+        reinscripción administrativa en la escuela EMLyon Business School.
+        <br/>
+        <b>Desarrollo de las prácticas</b>
+        <br/> La duración semanal máxima de presencia del becario en la Organización será de {!monContrat.Temps_Travail_Hebdomadaire__c}
+        horas.
+        <br/> En el supuesto de que el becario debiera estar presente en la Organización de Acogida durante la noche, en domingo
+        o en día festivo, deberá indicar a continuación los casos particulares:
+        <br/>
+        <br/>
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Travail_le_dimanche_la_nuit__c}" />
+        <br/>
+        <!-- TRADUISIBLE -->
+        <b>ARTÍCULO 4: Estatuto del becario - Acogida y regulación</b>
+        <br/> El becario, durante el periodo la duración de las prácticas, será alumno de la Escuela; tendrá un seguimiento regular
+        por parte de la misma. La Organización de Acogida designará a un tutor de las prácticas que se encargará de garantizar
+        el seguimiento técnico y optimizar las condiciones de realización de las prácticas. El becario podrá acudir a la
+        Escuela durante la duración de las prácticas, para seguir determinados cursos requeridos expresamente por el programa,
+        participar en reuniones... Las fechas se comunicarán a la Organización de Acogida por parte de la Escuela.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 5: Disciplina</b>
+        <br/> Durante las prácticas, el becario estará sujeto al reglamento interno y disciplinar que le comunicará la Organización
+        de Acogida, particularmente en lo relativo a horarios, normativa de higiene y seguridad en vigor. En caso de incumplimiento
+        relacionado con elementos constitutivos suministrados por la Organización de Acogida, únicamente la Escuela podrá
+        adoptar las medidas disciplinarias que se impusieran.
+        <br/> En caso de incumplimiento particularmente grave, la Organización de Acogida podrá poner fin a las prácticas del
+        alumno, informando previamente por escrito a la Escuela sobre los motivos de su decisión y con el acuerdo de la misma,
+        con observancia de las disposiciones previstas en el artículo 9 del presente convenio.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 6: Gratificación - Ventajas en especie - Reembolso de gastos</b>
+        <br/> El becario no podrá solicitar ningún tipo de remuneración. No obstante, podrá recibir una gratificación.
+        <br/> En el supuesto de que la duración de las prácticas fuera superior a dos meses consecutivos, deberá percibir una
+        gratificación.
+        <br/> Las duraciones se establecerán tomando en cuenta el convenio de prácticas y las posibles adendas.
+        <br/> En tal caso, la gratificación se devengará desde el primer día del primer mes de prácticas. Se pagará con carácter
+        mensual. El importe mínimo horario de la gratificación se establecerá en el 15% del máximo horario de la seguridad
+        social, de conformidad con el Art. L.241-3 del código de la seguridad social.
+        <br/>
+        <!-- 18/12/2019 MODIS Y.GA : correction de langue
+        If the trainee receives fringe benefits or benefits in kind (e.g. free meals, etc.), the corresponding amount should be added to the monthly compensation.<br/>-->
+        Si el estudiante recibe ventajas y beneficios adicionales o en especie (por ejemplo, tickets de comida, etc.), la cantidad
+        correspondiente debe ser añadida a la compensación mensual.
+        <br/> La gratificación de las prácticas se establecerá en&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Remuneration_Mensuelle__c} {!monContrat.Code_Devise__c}" /> neto&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!TypeRemuneration}" />.
+        <br/>
+        <!-- TRADUISIBLE -->
+        Modalidades de pago de la gratificación:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Modalites_de_versement_2__c}" />
+        <br/>
+        <!-- TRADUISIBLE -->
+        La gratificación se entregará al becario sin perjuicio del reembolso de los gastos asumidos para realizar las prácticas,
+        así como las ventajas ofrecidas, en su caso, para dietas de comidas, alojamiento y transporte (art.L3262-1, 326262
+        del código laboral).
+        <br/> Listas de ventajas ofrecidas:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Avantages__c}" />
+        <br/>
+        <!-- TRADUISIBLE -->
+        Los gastos de desplazamiento y alojamiento asumidos por el becario a solicitud de la organización de acogida, así como los
+        gastos de formación que pudieran resultar necesarios para las prácticas, se asumirán íntegramente por la organización,
+        en función de las modalidades en vigor.
+        <br/> En caso de suspensión o resolución del presente convenio, el importe de la gratificación que se entregará al becario
+        se prorrateará en función de la duración de las prácticas efectuadas.
+        <br/> Artículo 6 bis - acceso a los derechos de los trabajadores - ventajas (organismo de derecho privado)
+        <br/> El becario se beneficiará de las protecciones y derechos mencionados en los artículos L.1121-1, L.1152.1 y L.1153-1
+        del código laboral, en las mismas condiciones que el resto de trabajadores.
+        <br/> El becario tendrá acceso al restaurante en la organización de acogida o a otros tipos de cheques para comida previstos
+        en el artículo L.32362-1 del código laboral, en las mismas condiciones que los empleados de la Organización de Acogida.
+        Asimismo, se beneficiarán del pago de los gastos de transporte previstos en el artículo L.3261-2 de dicho código.
+        El becario accederá a las actividades sociales y culturales mencionadas en el artículo L.2323-83 del código laboral
+        en las mismas condiciones que los empleados
+        <br/>
+        <!--Otras ventajas asignadas: ………………………………………<br/>-->
+        Artículo 6ter - Acceso a los derechos a los agentes - ventajas (organismo de derecho público)
+        <br/> En el sector público, el acceso a los derechos y las ventajas de los agentes para becarios se regirá por el decreto
+        de 21 06 2010 nº 2010-676.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 7: Protección social - Accidentes</b>
+        <br/> Durante el periodo de duración de las prácticas, el becario seguirá afiliado a su régimen anterior de la seguridad
+        social.
+        <br/>
+        <br/>
+        <b>7.1 Cotizaciones</b>
+        <br/>
+        <b>7.1.1 Gratificación inferior igual a la multiplicación del 15% del máximo horario de la seguridad social por el número
+            de horas de prácticas efectuadas durante el mes correspondiente:</b>
+        <br/>
+        <b>El becario se beneficiará de la legislación sobre accidentes laborales en virtud del régimen del estudiante previstos
+            en el artículo L.412-8 2º del código de la seguridad social</b>
+        <br/> En este caso, de conformidad con la legislación en vigor, la gratificación de las prácticas no estará sujeta a la
+        cotización a la seguridad social. El pago de las cotizaciones por accidentes de trabajo y enfermedades laborales
+        corresponderá a la escuela.
+        <br/>
+        <b>7.1.2 Gratificación inferior a la multiplicación del 15% del máximo horario de la seguridad social por el número
+            de horas de prácticas efectuadas durante el mes correspondiente:</b>
+        <br/> En tal caso, los importes pagados tendrán la consideración de remuneración. Las cotizaciones sociales se calcularán
+        sobre el diferencial entre el importe de la gratificación y el 15% del máximo horario de la seguridad social por
+        el número de horas de prácticas efectuadas durante el mes correspondiente: El pago de las cotizaciones por accidentes
+        de trabajo y enfermedades laborales corresponderá a la organización de acogida.
+        <br/>
+        <br/>
+        <b>7.2 Declaración de accidentes de trabajo</b>
+        <br/>
+        <b>7.2.1: En el supuesto de que el accidente se produjera por causa de las prácticas o durante la realización de las
+            mismas, la obligación de declaración del accidente de trabajo prevista por el artículo L441-2 corresponderá a
+            la Organización (Art R412-4 del Código de la Seguridad Social).</b>
+        <br/>
+        <b>7.2.2: En el supuesto de que el accidente se produjera como consecuencia o durante el periodo de formación ofrecido
+            por la escuela, la obligación de declaración del accidente de trabajo corresponderá a la escuela.</b>
+        <br/> 7.2.3 En todos los casos, la declaración se realizará en un plazo máximo de 48H en la caja primaria de seguros de
+        enfermedad de la que depende el alumno. Cada una de las partes que declare el accidente de trabajo deberá remitir
+        una copia de dicha declaración a la otra parte.
+        <br/>
+        <br/>
+        <b>7.3. Desplazamientos: </b>
+        <br/> En caso de desplazamiento, corresponderá a la organización de acogida la obligación de establecer, en todos los
+        casos, una descripción nominativa de la naturaleza del desplazamiento, así como informar a la Escuela.
+        <br/> Asimismo, en caso de desplazamientos al extranjero, estos deberán notificarse por escrito a la Escuela con una antelación
+        mínima de quince días de la fecha de partida. En función de los diferentes procedimientos de los Cpams en la región,
+        la Escuela podrá tener la obligación de notificar dichos desplazamientos a la seguridad social y obtener el acuerdo
+        antes de la partida, siempre que el importe de gratificación sea inferior o igual al límite mencionado del 15% (consultar
+        con el servicio internacional en función de los diferentes procedimientos de los CPAM en la región).
+        <br/> En caso de incumplimiento de las condiciones, la Organización de Acogida se comprometerá a cotizar por la protección
+        del becario y realizar las declaraciones necesarias en caso de accidente de trabajo.
+        <br/> Para el desplazamiento al extranjero, el becario se comprometerá a firmar un contrato de seguro "repatriación sanitaria,
+        asistencia jurídica..." y un contrato individual de accidentes.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 8: Responsabilidad civil - Seguros - Títulos de residencia - Visado</b>
+        <br/> Las tres partes (Organización, escuela, becario) declaran estar protegidos en términos de responsabilidad civil.
+        <br/> En el supuesto de que la Organización pusiera un vehículo a disposición del becario, esta deberá comprobar previamente
+        que la póliza de seguro del mismo cubra su utilización por parte de un becario.
+        <br/> En el supuesto de que, en el marco de las prácticas, el becario utilizara su propio vehículo o un vehículo prestado
+        por un tercero, deberá declarar previamente a la compañía de seguros que cubra dicho vehículo esta utilización y
+        en su caso, pagará la prima correspondiente.
+        <br/>
+        <br/> Se recuerda que en virtud del artículo 124-14 del Código de la Educación, se prohíbe asignar al becario tareas peligrosas
+        para su salud y su seguridad.
+        <br/> La Organización de acogida se comprometerá a aplicar todas las condiciones para que el becario realice sus prácticas
+        con toda seguridad, tanto en el lugar de realización de las prácticas, como en cualquier otro lugar de realización,
+        incluyendo en el extranjero.
+        <br/> Todas las prácticas que no se desarrollen en condiciones normales de seguridad, ética, higiene y respeto deberán
+        interrumpirse sin que el becario pueda ser sancionado por la Escuela.
+        <br/>
+        <br/> El estudiante que se beneficie de un permiso de residencia, se comprometerá a que el mismo se encuentre en vigor
+        durante toda la duración de las prácticas.
+        <br/>
+        <br/> Todos los becarios deberán comprometerse a obtener el visado correspondiente que le permita la realización del trabajo
+        en el país de acogida en el que se desarrollen las prácticas.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 9: Ausencia e interrupción de las prácticas</b>
+        <br/>
+        <b>Interrupción temporal</b>
+        <br/> Todas las ausencias deberán notificarse por parte de la Organización de Acogida al establecimiento de formación.
+        <br/> Para las prácticas de una duración superior a 2 meses, con el límite máximo de 6 meses, se podrán conceder vacaciones
+        y permisos, de conformidad con la Escuela.
+        <br/> Número de días autorizados:&nbsp;
+        <apex:outputText style="{!OutputClass}" value="{!monContrat.Conges_RTT__c}" />
+        <br/>
+        <b>Interrupción temporal</b>
+        <br/> En caso de voluntad de una de las tres partes (Organización, escuela, becario) de interrumpir definitivamente las
+        prácticas, deberá informar inmediatamente de ello a los otras dos partes por escrito. Las razones alegadas se examinarán
+        en estrecha coordinación. La decisión definitiva de interrupción de las prácticas únicamente se podrá adoptar tras
+        dicha fase de coordinación. En caso de voluntad de una de las tres partes (Organización, escuela, becario) de interrumpir
+        definitivamente las prácticas, deberá informar inmediatamente de ello a los otras dos partes por escrito. Las razones
+        alegadas se examinarán en estrecha coordinación. La decisión definitiva de interrupción de las prácticas únicamente
+        se podrá adoptar tras dicha fase de coordinación.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 10: Deber de reserva y confidencialidad</b>
+        <br/> El deber de reserva y confidencialidad será absoluto. Los becarios no podrán utilizar en ningún caso la información
+        obtenida para su publicación o comunicación a terceros sin el acuerdo previo de la Dirección de la Organización,
+        incluyendo el informe de prácticas, si así lo exigiera la Escuela. Esta obligación será de aplicación no solamente
+        durante el periodo de duración de las prácticas, sino también tras la finalización de la misma. El alumno se comprometerá
+        a no conservar, llevarse ni realizar copias de ningún documento ni programa informático, de cualquier tipo, de propiedad
+        de la Organización, salvo acuerdo por escrito de esta última.
+        <br/>
+        <br/> En el marco de la confidencialidad de la información incluida en el informe, en caso de requerirlo la Escuela, la
+        Organización de Acogida podrá solicitar la restricción de la difusión del informe, incluyendo la retirada de determinados
+        elementos confidenciales. Las personas que tuvieran conocimiento del informe estarán sujetas al secreto profesional
+        y a no divulgar la misma.
+        <br/>
+        <br/>
+        <b>Artículo 11 - Propiedad intelectual</b>
+        <br/> De conformidad con el código de propiedad intelectual, en el supuesto de que las actividades del (de la) becario
+        dieran lugar a la creación de una obra protegida por derechos de autor o de propiedad intelectual (incluyendo programas
+        informáticos), en caso de que la organización de acogida manifestara su voluntad de utilizarla y siempre que el(la)
+        becario estuviera de acuerdo, firmarán un contrato entre el mismo y la organización de acogida.
+        <br/> En este caso, el contrato deberá precisar particularmente el alcance de los derechos cedidos, la exclusividad, en
+        su caso, el destino, los soportes utilizados y la duración de la cesión, así como, en su caso, el importe de la remuneración
+        debida al becario en concepto de la cesión. Esta cláusula se aplicará, independientemente del estatuto de la organización
+        de acogida.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 12: Varios</b>
+        <br/> El alumno únicamente podrá utilizar los servicios informáticos de la Escuela para las actividades relacionadas con
+        las prácticas.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 13: Fin de las prácticas - Restitución - Evaluación - Certificación</b>
+        <br/> Al finalizar las prácticas, la organización de acogida deberá transmitir a la Escuela su apreciación sobre el periodo
+        de prácticas del estudiante en la ficha de evaluación, en función de los objetivos definidos previamente. En función
+        del nivel de estudios, se podrá solicitar al becario que redacte un informe de prácticas o una memoria en el marco
+        de sus estudios, con observancia de la normativa de confidencialidad. Las personas que lo consultaran deberán respetar
+        el secreto profesional y no podrán divulgar la información contenida en el informe o la memoria. De conformidad con
+        el reglamento pedagógico en vigor, la Escuela evaluará la restitución remitida por el becario. Se invitará al mismo
+        a formular una apreciación sobre la calidad de su periodo de prácticas.
+        <br/>
+        <br/> En el supuesto de que se firmara un contrato de trabajo que entrara en vigor antes de la fecha de finalización del
+        periodo de prácticas con la Organización, el presente convenio quedaría sin efectos; si bien, esto no eximirá al
+        estudiante de sus obligaciones académicas. Se deberá informar al respecto a la Escuela.
+        <br/>
+        <br/>
+        <u>Certificados de prácticas:</u> al finalizar el periodo de prácticas, la organización de acogida expedirá un certificado
+        cuyo modelo figura en el decreto ministerial de 29/12/2014 relativo al convenio de prácticas, mencionando al menos
+        la duración efectiva de las prácticas y, en su caso, el importe de la gratificación percibida. El (la) becario deberá
+        redactar este certificado, en su caso, junto con su solicitud de apertura de derechos en el régimen general de seguros
+        de vejez previstos en el art. L351-17 del código de la seguridad social.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 14: Jurisdicción aplicable – Tribunales competentes</b>
+        <br/> El presente convenio se regirá exclusivamente por el ordenamiento jurídico francés.
+        <br/> Los litigios no resueltos por la vía amistosa se someterán a la jurisdicción francesa competente.
+        <br/>
+        <br/>
+        <b>ARTÍCULO 15 : Compromiso contra la discriminación</b>
+        emlyon business school concede una especial importancia a la protección de sus estudiantes contra todo tipo de violencia de género y sexual y todas las formas de discriminación, durante el tiempo de enseñanza en nuestra escuela e igualmente durante sus períodos de prácticas.
+		Las violencias de género y las violencias sexuales son múltiples y pueden, según el caso, constituir un delito, una falta o un crimen independientemente del entorno en el que se produzcen.
+		La organización de acogida se compromete a garantizar que en ningun caso, se tolere la violencia de género ni la discriminación directa o indirecta. 
+        <br/>        
+        <apex:outputPanel rendered="{! demande.Convsta_Condition_speciales__c != null && demande.Convsta_Condition_speciales__c != ''}">
+            <br/>
+            <b>ARTÍCULO 16 : Condiciones especiales</b>
+            <br/>
+            <apex:outputText value="{!demande.Convsta_Condition_speciales__c}" />
+            <br/>
+        </apex:outputPanel>
+        <br/>
+        <br/>
+        <b>ARTÍCULO ADICIONAL : Modificación excepcional vinculada a la pandemia COVID 19</b>
+        <br/> Debido a las circunstancias excepcionales derivadas de la pandemia Covid 19, se entiende que las diferentes partes
+        habrán verificado previamente que las misiones confiadas al pasante pueden realizarse de manera presencial y / o
+        remota y que se dispone del material adecuado. Los tutores verifican que las diferentes partes cuentan con la posibilidad
+        de usar herramientas de comunicación adecuadas. Se entiende entre las partes que en caso de confinamiento, la pasantía
+        pasará automáticamente a una pasantía a la distancia o será objeto de una suspensión por enmienda si el trabajo a
+        distancia no es posible. Prácticas en Francia: Las prácticas solo se pueden realizar de forma presencial bajo el
+        estricto cumplimiento del protocolo nacional del 6 de enero de 2021 y de las medidas de higiene, seguridad y salud
+        aplicables a la organización de acogida. Prácticas fuera de Francia: Las prácticas podrán llevarse a cabo de forma
+        presencial únicamente bajo el estricto cumplimiento de las medidas de higiene, seguridad y salud aplicables a la
+        organización de acogida. Por medio de la presente, el pasante se compromete a registrarse antes de su partida en
+        el sitio ARIANE: https://pastel.diplomatie.gouv.fr/fildariane/dyn/public/login.html Un pasante que resulte infectado
+        por el Covid 19 durante su pasantía profesional deberá respetar los procedimientos establecidos por el país anfitrión,
+        en particular en términos de cuarentena. La institución educativa no cuenta con la obligación de repatriar al alumno.
+        <br/>
+        <br/>
+        <div style="page-break-after: always" /> En Ecully, a&nbsp;
+        <apex:outputText value="{0, date, dd'/'MM'/'yyyy}">
+            <apex:param value="{!dateDuJour}" /></apex:outputText>
+        <br/>
+        <br/>
+        <table>
+            <tr>
+                <td>
+                    <left>
+                        <b>
+                            <u>POR EMLYON BUSINESS SCHOOL</u>
+                        </b>
+                    </left>
+                </td>
+                <td></td>
+                <td>
+                    <right>
+                        <b>
+                            <u>POR LA ORGANIZACIÓN DE ACOGIDA</u>
+                        </b>
+                    </right>
+                </td>
+            </tr>
+            <tr>
+                <td width="48%">
+                    <left>
+                        <b>Nombre y firma del responsable del establecimiento</b>
+                    </left>
+                </td>
+                <td width="4%"></td>
+                <td>
+                    <right>
+                        <apex:outputPanel rendered="{! demande.Convsta_Tuteur__c != demande.Responsable_administratif_entreprise__c}">
+                            Nombre y firma del responsable de la organización de acogida
+                        </apex:outputPanel>
+                        <apex:outputPanel rendered="{! demande.Convsta_Tuteur__c == demande.Responsable_administratif_entreprise__c}">
+                            Apellido y firma del Responsable de la Empresa y tutor de las prácticas
+                        </apex:outputPanel>
+                    </right>
+                </td>
+            </tr>
+            <tr>
+                <td width="48%">
+                    <apex:outputPanel rendered="{!isNoCachetServeur}">
+                        <left>Sr {!$Label.convsta_directeur_employabilite}</left>
+                        <br/>
+                        <apex:image id="logoEM" value="{!$Resource.convsta_Signature_DirecteurEmployabilite}" width="25%" height="25%" />
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!isCachetServeur}">
+                        <left>Mr {!$Label.convsta_directeur_employabilite}</left>
+                        <br/>
+                        <apex:image id="logoEMcachet" value="{!$Resource.convsta_Signature_DirecteurEmployabilite}" width="25%" height="25%" style="margin-top:50px; margin-right:90px; float:right;"
+                        />
+                    </apex:outputPanel>
+                    <br/>
+                    <br/>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="height:10px">
+                <td width="48%"></td>
+                <td></td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <left>
+                        <b>
+                            <u>BECARIO</u>
+                        </b>
+                    </left>
+                    <br/>
+                    <left>Nombre y firma</left>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="height:125px">
+                <td width="48%"></td>
+                <td></td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <apex:outputPanel rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == false}">
+                        <left>
+                            <b>
+                                <u>Referente pedaggico de emlyon business school</u>
+                            </b>
+                        </left>
+                        <br/>
+                        <left>Nombre y firma</left>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == true}
+                && (demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'BM' &&
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'GE' &&
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'IDEA' &&
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c != 'E2MS')">
+                        <left>
+                            <b>
+                                <u>Director GBBA</u>
+                            </b>
+                        </left>
+                        <!--<left><b><u>El referente pedagógico de la ESCUELA del becario</u></b></left>-->
+                        <br/>
+                        <left>Sra {!$Label.convsta_responsable_pedagogique}</left>
+                        <br/>
+                        <apex:image id="logoSignRP" value="{!$Resource.convsta_Signature_ResponsablePedagogique}" width="25%" height="25%" />
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == true 
+                    && (demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'BM' || 
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'GE' ||
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'IDEA' ||
+                    demande.Convsta_Table_des_Regles_Experience_Pro__r.Programme__c = 'E2MS')}">
+                        <left>
+                            <b>
+                                <u>Director del MSc in Management</u>
+                            </b>
+                        </left>
+                        <br/>
+                        <left>Senora {!$Label.convsta_directrice_du_programme_grande_ecole}</left>
+                        <br/>
+                        internship@em-lyon.com
+                        <br/>
+                        <apex:image id="logoSignDPGE" value="{!$Resource.convsta_Signature_DirectricePGE}" width="25%" height="25%" />
+                    </apex:outputPanel>
+                </td>
+                <td></td>
+                <td>
+                    <apex:outputPanel rendered="{! demande.Convsta_Tuteur__c != demande.Responsable_administratif_entreprise__c}">
+                        <right>
+                            <b>
+                                <u>El tutor de las prácticas en la Organización de Acogida</u>
+                            </b>
+                        </right>
+                        <br/>
+                        <right>Nombre y firma</right>
+                        <br/>
+                        <apex:image value="{!$Resource.convsta_Signature_Vide}" width="25%" height="25%" rendered="{! demande.Convsta_Table_des_Regles_Experience_Pro__r.Ne_pas_faire_signer_le_resp_pedagogique__c == true}"
+                        />
+                    </apex:outputPanel>
+                </td>
+            </tr>
+        </table>
+    </apex:pageBlock>
+
+    <!-- NOTE DE BAS DE PAGE -->
+    <div class="footer">
+        <apex:image id="footer_img" value="{!$Resource.convsta_footer_eval}" style="max-width: 100%; height: auto;"/>
+    </div>
+
+</apex:page>

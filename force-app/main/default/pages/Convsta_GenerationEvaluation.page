@@ -1,0 +1,175 @@
+<apex:page controller="Convsta_GenerationEvaluationController"
+           applyBodyTag="false" 
+           showHeader="false"
+           renderAs="pdf"
+           cache="false"
+           standardStylesheets="false"
+         >
+    
+    <!-- LOGO -->
+    <head>
+        <style type="text/css" media="print">
+            *{
+            	font-family: Arial Unicode MS;
+            	}
+            
+            @page {
+            		margin-top: 200px;
+            		margin-bottom: 70px;
+            
+            	@top-center {
+                    content: element(header);
+                }
+                @bottom-center {
+                    content: element(footer);
+                }
+           	}
+            
+            div.header{
+              	display: block;
+            	position: running(header);
+            }
+            
+            div.footer {
+                position: running(footer);
+                <!--text-align: center; -->
+                display: block;
+            	margin-bottom: 5px;
+            }
+            
+            .pagenumber:before {
+                 content: counter(page);
+             }
+           	.pagecount:before {
+                 content: counter(pages);
+             }
+            
+			 div.page {
+            	display: block;
+            	font-size: 10px;
+            	text-align: center;
+            }         	
+        </style>
+       </head>
+    
+        <div class="header">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <apex:image id="logoEM" value="{!$Resource.convsta_Logo_EM}" width="140" height="70"/>
+                    </td>
+                    <td>
+                        <apex:image id="logoPaulBocuse" value="{!$Resource.Logo_Institut_Paul_Bocuse}" rendered="{!demande.Convsta_Table_des_Regles_Experience_Pro__r.Afficher_logo_Paul_Bocuse__c}" width="150" height="90"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    
+    <br/>
+    <!-- EVALUATION -->
+    <center style="font-size: 14px;"><b>EVALUATION DE STAGE DE &nbsp;<apex:outputText style="{!OutputClass}" value="{!eval.Etudiant__r.Name}"/>
+    <br/>INTERNSHIP PERFORMANCE APPRAISAL</b></center>
+            
+    <!-- COMPTEUR -->       
+            <div class="page">Page <span class="pagenumber"/>/<span class="pagecount"/></div>
+        </div>
+    
+           
+    <!-- NOTE DE BAS DE PAGE -->
+    <div class="footer">
+        <apex:image id="footer_img" value="{!$Resource.convsta_footer_eval}"   style="max-width: 100%; height: auto;"
+            />
+    </div>  
+
+    <div class="content" style="page-break-after: always; font-size: 12px;">
+    Vous trouverez ci-dessous l’évaluation liée à votre stage effectué au sein de l’entreprise&nbsp;<apex:outputText style="{!OutputClass}" value="{!eval.Demande__r.Convsta_Entreprise_Name__c}"/>
+        et qui a eu lieu du&nbsp;<apex:outputText style="{!OutputClass}" value="{!demande.Convsta_DateStart__c} au {!demande.Convsta_DateEnd__c}"/>.<br/>
+    Cette évaluation comporte 3 pages. Elle est générée par emlyon business school et retranscrit les données transmises par l’entreprise d’accueil.
+    <br/><br/>
+    Note globale: &nbsp;<apex:outputText style="{!OutputClass}" value="{!eval.Note_globale__c}"/>/20
+    <br/><br/>
+    Cordialement,
+    <br/>
+	Le Career Center
+    <br/>
+	emlyon business school
+        <br/><br/><br/>
+    Please find below your performance appraisal for the internship you did at &nbsp;<apex:outputText style="{!OutputClass}" value="{!eval.Demande__r.Convsta_Entreprise_Name__c}"/> from&nbsp;<apex:outputText style="{!OutputClass}" value="{0, date, MM'/'dd'/'yyyy}"><apex:param value="{!demande.Convsta_DateStart__c}"/></apex:outputText> to&nbsp;<apex:outputText style="{!OutputClass}" value="{0, date, MM'/'dd'/'yyyy}"><apex:param value="{!demande.Convsta_DateEnd__c}"/></apex:outputText>.<br/>
+	This appraisal includes 3 pages. It is created by emlyon business school and accurately transcribes information provided by the host company.
+	<br/><br/>
+	Final Grade:&nbsp;<apex:outputText style="{!OutputClass}" value="{!eval.Note_globale__c}"/>/20
+	<br/><br/>
+	Best regards<br/>
+	Career Center<br/>
+	emlyon business school
+    </div>
+    
+    <div class="content" style="page-break-after: always; font-size: 12px;">
+    Vous trouverez ci-dessous l'évaluation de votre stage effectué dans l'entreprise&nbsp;<apex:outputText style="{!OutputClass}" value="{!eval.Demande__r.Convsta_Entreprise_Name__c}"/>
+    qui a eu lieu du&nbsp;<apex:outputText style="{!OutputClass}" value="{!demande.Convsta_DateStart__c} au {!demande.Convsta_DateEnd__c}"/>.
+    <br/>
+    Cette évaluation comporte 3 pages. Elle est générée par emlyon business school et retranscrit les données transmises par l’entreprise d’accueil.
+    <br/><br/>
+    Note globale: &nbsp;<apex:outputText style="{!OutputClass}" value="{!eval.Note_globale__c}"/>/20
+    <br/><br/>
+    Cordialement,
+    <br/>
+	Le Career Center
+    <br/>
+	emlyon business school
+    <br/>
+        
+    <center><u>Compétences Early Maker</u></center>
+    <br/>
+    <apex:repeat value="{!lCompEarlyMaker}" var="competance" id="repeatCompetanceEM">
+        <apex:outputText value="{!competance.Label_fr__c} : {!competance.Rating_displayed__c}" id="valueCompetanceEM"/><br/>
+    </apex:repeat>
+    <br/>
+
+    <center><u>Compétences comportementales</u></center>
+    <br/>
+    <apex:repeat value="{!lCompComportem}" var="competance" id="repeatCompetanceComportem">
+        <apex:outputText value="{!competance.Label_fr__c} : {!competance.Rating_displayed__c}" id="valueCompetanceComportem"/><br/>
+    </apex:repeat>
+    <br/>
+
+    <center><u>Compétences métier</u></center>
+    <br/>
+    <apex:repeat value="{!lCompMetier}" var="competance" id="repeatCompetanceMetier">
+        <apex:outputText value="{!competance.Label_fr__c} : {!competance.Rating_displayed__c}" id="valueCompetanceMetier"/><br/>
+    </apex:repeat>
+
+  </div>
+    
+        <div class="content" style="font-size: 12px;">
+   Vous trouverez ci-dessous l'évaluation de votre stage effectué dans l'entreprise&nbsp;<apex:outputText style="{!OutputClass}" value="{!eval.Demande__r.Convsta_Entreprise_Name__c}"/>
+    qui a eu lieu du&nbsp;<apex:outputText style="{!OutputClass}" value="{!demande.Convsta_DateStart__c} au {!demande.Convsta_DateEnd__c}"/>.
+    <br/>
+    Cette évaluation comporte 3 pages. Elle est générée par emlyon business school et retranscrit les données transmises par l’entreprise d’accueil.
+    <br/><br/>
+    Note globale: &nbsp;<apex:outputText style="{!OutputClass}" value="{!eval.Note_globale__c}"/>/20
+    <br/><br/>
+    Cordialement,
+    <br/>
+	Le Career Center
+    <br/>
+	emlyon business school
+    <br/>
+
+    <center><u>Circonstance de déroulement du stage :</u></center>
+    <br/>
+    <apex:outputText style="{!OutputClass}" value="{!eval.Circonstances_du_stage__c}"/>   
+    <br/><br/><br/>
+    
+    <center><u>Evaluation globale :</u></center>
+    <br/>
+    <apex:outputText style="{!OutputClass}" value="{!eval.Note_globale__c}/20"/>   
+    <br/><br/><br/>
+
+    <center><u>Commentaire global :</u></center>
+    <br/>
+    <apex:outputText style="{!OutputClass}" value="{!eval.Commentaire_global__c}"/>
+    </div>
+     
+</apex:page>

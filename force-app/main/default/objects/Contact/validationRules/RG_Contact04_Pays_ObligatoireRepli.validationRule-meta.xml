@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Contact04_Pays_ObligatoireRepli</fullName>
+    <active>false</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+AND( 
+OR 
+( 
+ Adresse_de_repli_code_postal__c  &lt;&gt; &quot;&quot;, 
+ Adresse_de_repli_Etat__c  &lt;&gt; &quot;&quot;, 
+ Adresse_Repli_Rue__c  &lt;&gt; &quot;&quot;, 
+ Adresse_de_repli_ville__c  &lt;&gt; &quot;&quot;, 
+ Adresse_de_repli_Ligne_2__c  &lt;&gt; &quot;&quot;, 
+ Adresse_de_repli_Ligne_3__c  &lt;&gt; &quot;&quot; 
+), 
+ISBLANK( Adresse_de_repli_Pays__c ) 
+)
+)</errorConditionFormula>
+    <errorDisplayField>Adresse_de_repli_Pays__c</errorDisplayField>
+    <errorMessage>Le champ Pays est obligatoire</errorMessage>
+</ValidationRule>

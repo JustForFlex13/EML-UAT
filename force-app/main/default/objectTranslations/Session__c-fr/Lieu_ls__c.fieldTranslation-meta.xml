@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Lieu_ls__c</name>
+    <picklistValues>
+        <masterLabel>SF-LS10</masterLabel>
+        <translation>Lyon</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-LS100</masterLabel>
+        <translation>Résidentiel Étranger</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-LS110</masterLabel>
+        <translation>Inde</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-LS20</masterLabel>
+        <translation>Paris</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-LS30</masterLabel>
+        <translation>Casablanca</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-LS40</masterLabel>
+        <translation>Genève</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-LS50</masterLabel>
+        <translation>Shangai</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-LS60</masterLabel>
+        <translation>Dubaï</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-LS70</masterLabel>
+        <translation>Online</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-LS80</masterLabel>
+        <translation>Saint-Etienne</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SF-LS90</masterLabel>
+        <translation>Résidentiel France</translation>
+    </picklistValues>
+</CustomFieldTranslation>

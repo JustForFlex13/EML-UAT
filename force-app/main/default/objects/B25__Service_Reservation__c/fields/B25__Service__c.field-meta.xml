@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Service__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Service record the Service Reservation record is for.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le service pour lequel cette réservation de service est faite.</inlineHelpText>
+    <label>Service</label>
+    <referenceTo>B25__Service__c</referenceTo>
+    <relationshipLabel>Service Reservations</relationshipLabel>
+    <relationshipName>Service_Reservations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

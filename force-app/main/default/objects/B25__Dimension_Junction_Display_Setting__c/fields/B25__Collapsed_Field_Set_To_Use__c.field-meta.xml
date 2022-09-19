@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Collapsed_Field_Set_To_Use__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When this related list is shown on the reservation form these fields are added to each row on the related list when the related list record is collapsed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When this related list is shown on the reservation form these fields are added to each row on the related list when the related list record is collapsed.</inlineHelpText>
+    <label>Collapsed Field Set To Use</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,96 @@
+.THIS .internship-details-content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.THIS .internship-details p {
+	border: 1px solid rgb(182, 182, 182);
+    border-radius: 0.25rem;
+	padding: 14px 28px;
+	margin-bottom: 12px;
+}
+
+.THIS ul.competences-container {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.THIS .internship-circonstances-content {
+	margin-top: 12px;
+}
+.THIS .competences-container li {
+	width: 45%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+
+	/* align text with rating stars */
+    align-items: center;
+
+}
+.THIS #temp-display-average-rating {
+	font-size: 25px;
+	color: darkgreen;
+}
+.THIS .oneComp-rating {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+	align-items: center;
+}
+
+.THIS .global-rating lightning-input input {
+    width: 200px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.THIS .submit-button-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.THIS .submit-button-container button {
+    width: 70%;
+    margin: 15px auto;
+}
+.THIS .submitErrorPopup {
+    position: relative;
+}
+.THIS #submit-error-modal ul {
+    padding-left: 25px;
+    list-style: disc;
+}
+.THIS .cross {
+    position: absolute;
+    top: -45px;
+    right: -25px;
+    font-size: 35px;
+    width: 45px;
+    font-family: consolas;
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.THIS .globalRatingContainer {
+    width: 250px;
+}
+.THIS .cross:hover {
+    color: white;
+    text-shadow: white 1px 0 10px; 
+    
+}
+
+.THIS label .slds-required {
+    position: absolute;
+    top: -25px;
+    left: -10px;
+}
+.THIS .global-rating .no-floating-star label .slds-required {
+ 	position: relative !important;   
+    top: 0px;
+    left: 0px;
+    
+}

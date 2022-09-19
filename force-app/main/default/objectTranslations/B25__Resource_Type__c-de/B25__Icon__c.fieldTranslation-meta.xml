@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Das bei allen Quellen dieses speziellen Quellentyps angezeigte Symbol.</help>
+    <label></label>
+    <name>B25__Icon__c</name>
+</CustomFieldTranslation>

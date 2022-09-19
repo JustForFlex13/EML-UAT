@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Une recherche de l’enregistrement de statut de la réservation auquel appartient cet enregistrement de réservation.</help>
+    <label></label>
+    <name>B25__Status__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

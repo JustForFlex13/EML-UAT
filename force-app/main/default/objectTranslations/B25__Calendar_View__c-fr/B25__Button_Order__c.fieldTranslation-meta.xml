@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Définit l’endroit où le bouton de cette vue est affiché sur le calendrier. Plus bas = à gauche ; Plus haut = à droite.</help>
+    <label></label>
+    <name>B25__Button_Order__c</name>
+</CustomFieldTranslation>

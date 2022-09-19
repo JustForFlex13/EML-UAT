@@ -1,0 +1,9 @@
+<aura:component
+  implements="force:lightningQuickAction,force:hasRecordId,flexipage:availableForAllPageTypes"
+  access="global"
+>
+  <aura:attribute name="caseId" type="Id" />
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+  <c:convsta_CursusLWC caseId="{!v.caseId}"></c:convsta_CursusLWC>
+</aura:component>

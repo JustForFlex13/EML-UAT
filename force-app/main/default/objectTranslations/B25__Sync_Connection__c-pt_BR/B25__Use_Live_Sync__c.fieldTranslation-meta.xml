@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando ativado, o Booker25 irá configurar uma subscrição em tempo real e as atualizações no sistema externo irão acionar atualizações no Booker25 em tempo quase real.</help>
+    <label></label>
+    <name>B25__Use_Live_Sync__c</name>
+</CustomFieldTranslation>

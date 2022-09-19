@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Use_Full_Availability_Inheritance__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, resources of this type inherit their availabilities from all their ancestors instead of
+		only the ancestor defined in the Availability Defined At field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lorsque cette option est cochée, les ressources de ce type héritent leurs disponibilités de tous leurs ancêtres au lieu de seulement l’ancêtre défini dans le champ « Disponibilité définie à ».</inlineHelpText>
+    <label>Use Full Availability Inheritance</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

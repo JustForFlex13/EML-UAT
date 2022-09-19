@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De reserveringstype dat standaard wordt geselecteerd wanneer een reservering wordt gemaakt binnen een resource van dit type</help>
+    <label></label>
+    <name>B25__Default_Reservation_Type__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

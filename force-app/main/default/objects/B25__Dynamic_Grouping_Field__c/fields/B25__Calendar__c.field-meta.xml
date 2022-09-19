@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Calendar__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The calendar this lookup field is available on.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le calendrier sur lequel ce champ de recherche est disponible.</inlineHelpText>
+    <label>Calendar</label>
+    <referenceTo>B25__Calendar__c</referenceTo>
+    <relationshipLabel>Dynamic Grouping Fields</relationshipLabel>
+    <relationshipName>Dynamic_Grouping_Fields</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

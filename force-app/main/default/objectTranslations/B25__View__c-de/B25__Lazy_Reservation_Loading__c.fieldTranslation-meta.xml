@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>„Vertikal“ aktiviert langsames Laden auf der Vertikalachse. „Vertikal/Horizontal“ aktiviert beidseitiges langsames Laden. Diese letzte Einstellung ist mit allen, Teile der Zeitleiste ausblendenden Einstellungen, wie z. B. „Beendete Zeit ohne Reservierungen ausblenden“ unter Ansicht, inkompatibel.</help>
+    <label></label>
+    <name>B25__Lazy_Reservation_Loading__c</name>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>Deaktiviert</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical</masterLabel>
+        <translation>Vertikal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical &amp; Horizontal</masterLabel>
+        <translation>Vertikal &amp; Horizontal</translation>
+    </picklistValues>
+</CustomFieldTranslation>

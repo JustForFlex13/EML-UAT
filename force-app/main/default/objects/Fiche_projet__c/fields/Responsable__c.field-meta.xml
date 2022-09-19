@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Responsable__c</fullName>
+    <description>Alimenter ce champ automatiquement par une règle de workflow en fonction du propriétaire.
+NE PAS OUBLIER DE METTRE EN PLACE LES FILES D&apos;ATTENTE</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Alimenter ce champ automatiquement par une règle de workflow en fonction du propriétaire.
+NE PAS OUBLIER DE METTRE EN PLACE LES FILES D&apos;ATTENTE</inlineHelpText>
+    <label>Responsable</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client</fullName>
+                <default>false</default>
+                <label>Client</label>
+            </value>
+            <value>
+                <fullName>Kerensen</fullName>
+                <default>false</default>
+                <label>Kerensen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

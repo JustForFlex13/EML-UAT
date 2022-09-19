@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si se deja sin marcar, el calendario utiliza intervalos fijos para las duraciones del acoplamiento. Es posible que los usuarios no puedan deslizarse a la posición original.</help>
+    <label></label>
+    <name>B25__Use_Relative_Snap_Duration__c</name>
+</CustomFieldTranslation>

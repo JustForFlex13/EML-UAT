@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indicateur_Montant__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ Amount &lt;&gt;  Somme_Montant_Ech_ancier__c ,
+Image(&quot;/resource/information&quot;,&quot;Image indisponible&quot;,18,18)
+, &quot;&quot;)</formula>
+    <inlineHelpText>Si le montant est différent de la somme des montants de l&apos;échéanciers, le panneau s&apos;affiche.</inlineHelpText>
+    <label>Indicateur Montant</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

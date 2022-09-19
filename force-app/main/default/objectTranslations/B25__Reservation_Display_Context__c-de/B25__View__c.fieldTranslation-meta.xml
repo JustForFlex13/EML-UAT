@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Ansicht dieses Kontexts. Wenn ausgefüllt, sind in dieser Ansicht nur Reservierungen zu sehen, die mit diesem Kontext übereinstimmen.</help>
+    <label></label>
+    <name>B25__View__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

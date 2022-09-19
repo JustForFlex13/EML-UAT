@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ann_e_suivante__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indique que la table doit être rattachée aux demandes de l&apos;année en cours pour l&apos;année suivante</description>
+    <externalId>false</externalId>
+    <label>Année suivante</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

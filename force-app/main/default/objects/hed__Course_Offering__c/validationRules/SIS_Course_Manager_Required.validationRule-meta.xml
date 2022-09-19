@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Course_Manager_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ ISBLANK(SIS_Course_Manager__c), 
+ISPICKVAL(SIS_Status__c, &quot;Revision&quot;),
+ SIS_Tech_Syllabus_Required_Course__c
+)</errorConditionFormula>
+    <errorDisplayField>SIS_Course_Manager__c</errorDisplayField>
+    <errorMessage>A syllabus is required for this course, please add a Course Manager for revision.</errorMessage>
+</ValidationRule>

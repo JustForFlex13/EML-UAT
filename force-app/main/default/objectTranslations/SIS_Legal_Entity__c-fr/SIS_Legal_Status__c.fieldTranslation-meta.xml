@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Forme juridique</label>
+    <name>SIS_Legal_Status__c</name>
+    <picklistValues>
+        <masterLabel>(Association sans but lucratif)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consulting Company Limited - Société de droit chinois</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Holding - Société de droit hongkongais</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SA (Société Anonyme à Directoire et Conseil de Surveillance)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAS (société par actions simplifiée)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SCI (Société civile immobilière)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

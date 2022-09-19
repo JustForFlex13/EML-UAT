@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acceptation_du_guide_de_bonnes_pratiques</fullName>
+    <active>true</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+NOT(ISNEW())&amp;&amp; TEXT( MD_Demande__r.Convsta_Localisation_de_l_entreprise__c )=&quot;A l&apos;étranger&quot; &amp;&amp; NOT( Guide_des_bonnes_pratiques__c )</errorConditionFormula>
+    <errorDisplayField>Guide_des_bonnes_pratiques__c</errorDisplayField>
+    <errorMessage>Veuillez prendre connaissance du guide des bonnes pratiques et vous engager à le respecter</errorMessage>
+</ValidationRule>

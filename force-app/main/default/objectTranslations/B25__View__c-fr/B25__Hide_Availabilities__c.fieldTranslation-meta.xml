@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cette vue ne charge pas les disponibilités. Lorsque l’organisation a une grande quantité de ressources, le chargement des disponibilités peut prendre beaucoup de temps sur des vues plus longues. Les heures d’ouverture seront toujours vérifiées lors de la sauvegarde, mais ne s’afficheront pas dans la vue calendrier.</help>
+    <label></label>
+    <name>B25__Hide_Availabilities__c</name>
+</CustomFieldTranslation>

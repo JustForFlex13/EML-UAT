@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>Convsta_Adresse_du_lieu_du_stage__c</field>
+        <formula>Case.Parent.Convsta_Adresse_du_lieu_du_stage__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Convsta_tech_rediger_avenant__c</field>
+        <literalValue>Lieu</literalValue>
+    </fieldOverrides>
+    <label>Changement lieu de stage</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Convsta_Adresse_du_lieu_du_stage__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Convsta_Nouvelle_adresse_lieu_de_stage__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <type>Update</type>
+</QuickAction>

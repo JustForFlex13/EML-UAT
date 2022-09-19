@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Programme__c</fullName>
+    <externalId>false</externalId>
+    <label>Programme</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Advanced Management Programme</fullName>
+                <default>false</default>
+                <label>Advanced Management Programme</label>
+            </value>
+            <value>
+                <fullName>CPA Lyon</fullName>
+                <default>false</default>
+                <label>CPA Lyon</label>
+            </value>
+            <value>
+                <fullName>ESC Lyon</fullName>
+                <default>false</default>
+                <label>ESC Lyon</label>
+            </value>
+            <value>
+                <fullName>European Master in Management</fullName>
+                <default>false</default>
+                <label>European Master in Management</label>
+            </value>
+            <value>
+                <fullName>Faculté</fullName>
+                <default>false</default>
+                <label>Faculté</label>
+            </value>
+            <value>
+                <fullName>Global Bachelor in Business Administration</fullName>
+                <default>false</default>
+                <label>Global Bachelor in Business Administration</label>
+            </value>
+            <value>
+                <fullName>Global Doctorate of Business Administration</fullName>
+                <default>false</default>
+                <label>Global Doctorate of Business Administration</label>
+            </value>
+            <value>
+                <fullName>Global Entrepreneurship Program</fullName>
+                <default>false</default>
+                <label>Global Entrepreneurship Program</label>
+            </value>
+            <value>
+                <fullName>Mastères Spécialisés</fullName>
+                <default>false</default>
+                <label>Mastères Spécialisés</label>
+            </value>
+            <value>
+                <fullName>MBA</fullName>
+                <default>false</default>
+                <label>MBA</label>
+            </value>
+            <value>
+                <fullName>MSc Finance</fullName>
+                <default>false</default>
+                <label>MSc Finance</label>
+            </value>
+            <value>
+                <fullName>MSc in</fullName>
+                <default>false</default>
+                <label>MSc in</label>
+            </value>
+            <value>
+                <fullName>MSc in Cybersecurity &amp; Defense Management</fullName>
+                <default>false</default>
+                <label>MSc in Cybersecurity &amp; Defense Management</label>
+            </value>
+            <value>
+                <fullName>MSc in Digital Marketing and Data Science</fullName>
+                <default>false</default>
+                <label>MSc in Digital Marketing and Data Science</label>
+            </value>
+            <value>
+                <fullName>MSc in High-End Brand Management</fullName>
+                <default>false</default>
+                <label>MSc in High-End Brand Management</label>
+            </value>
+            <value>
+                <fullName>MSc in Innovation,Design,Entrep. &amp; Arts</fullName>
+                <default>false</default>
+                <label>MSc in Innovation,Design,Entrep. &amp; Arts</label>
+            </value>
+            <value>
+                <fullName>MSc in International Hospitality Management</fullName>
+                <default>false</default>
+                <label>MSc in International Hospitality Management</label>
+            </value>
+            <value>
+                <fullName>MSc in Luxury Management et Marketing</fullName>
+                <default>false</default>
+                <label>MSc in Luxury Management et Marketing</label>
+            </value>
+            <value>
+                <fullName>Msc in Sports Industry Management</fullName>
+                <default>false</default>
+                <label>Msc in Sports Industry Management</label>
+            </value>
+            <value>
+                <fullName>Programme Général de Management</fullName>
+                <default>false</default>
+                <label>Programme Général de Management</label>
+            </value>
+            <value>
+                <fullName>Programme Grande Ecole</fullName>
+                <default>false</default>
+                <label>Programme Grande Ecole</label>
+            </value>
+            <value>
+                <fullName>Programme Grande Ecole - European Triple Degree</fullName>
+                <default>false</default>
+                <label>Programme Grande Ecole - European Triple Degree</label>
+            </value>
+            <value>
+                <fullName>Programme Grande Ecole - Parcours Business Mediation</fullName>
+                <default>false</default>
+                <label>Programme Grande Ecole - Parcours Business Mediation</label>
+            </value>
+            <value>
+                <fullName>Programme Grande Ecole - Parcours I.D.E.A.</fullName>
+                <default>false</default>
+                <label>Programme Grande Ecole - Parcours I.D.E.A.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

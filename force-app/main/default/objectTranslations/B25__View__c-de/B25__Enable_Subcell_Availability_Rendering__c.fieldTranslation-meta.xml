@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn aktiviert ist, sind die dunkleren die Nichtverfügbarkeiten anzeigenden Abschnitte nicht mehr auf die Zellrahmen beschränkt und stellen die tatsächlichen Nichtverfügbarkeiten innerhalb einer Zelle dar. Kann sich bei großen Kalendern negativ auf die Client-seitige Leistung auswirken.</help>
+    <label></label>
+    <name>B25__Enable_Subcell_Availability_Rendering__c</name>
+</CustomFieldTranslation>

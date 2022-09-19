@@ -1,0 +1,36 @@
+Bonjour {!Convsta_Evaluation__c.Etudiant__c},
+
+Le stage que vous effectuez au sein de l’entreprise {!Convsta_Evaluation__c.Form_Entreprise_Etudiant__c} arrive prochainement à son terme. Ce stage fait l’objet d’une évaluation de la part de votre tuteur en entreprise. Nous allons donc lui envoyer un formulaire d’évaluation. 
+
+Afin de nous assurer de la bonne réception du lien d’évaluation, veuillez vérifier les coordonnées de votre tuteur entreprise, ci-dessous : 
+-                      Prénom et nom du tuteur entreprise : {!Convsta_Evaluation__c.Evaluateur__c}
+-                      Fonction du tuteur entreprise : {!Convsta_Evaluation__c.Form_Function_Tuteur__c}
+-                      Adresse mail du tuteur entreprise : {!Convsta_Evaluation__c.Form_Mail_Tuteur__c}
+-                      Numéro de téléphone du tuteur entreprise : {!Convsta_Evaluation__c.Form_Phone_Tuteur__c}
+
+Si une ou plusieurs informations sont erronées, veuillez répondre sous 72 heures à ce mail ou contacter le Career center afin de rectifier ces informations.
+
+ Nous restons à votre disposition,
+ 
+emlyon Career Center
+
+English version below
+
+
+Subject : Validation of the contact information of your internship tutor
+
+Dear {!Convsta_Evaluation__c.Etudiant__c},
+
+The internship that you are performing within the company {!Convsta_Evaluation__c.Form_Entreprise_Etudiant__c} is coming to an end soon. This internship is evaluated by your company tutor. Then we will send them an evaluation form. 
+
+In order to ensure the good reception of the evaluation link, please check the contact details of your company tutor, down below : 
+-                      Name and last name of the company tutor : {!Convsta_Evaluation__c.Evaluateur__c}
+-                      Function of the company tutor : {!Convsta_Evaluation__c.Form_Function_Tuteur__c}
+-                      Email adress of the company tutor  : {!Convsta_Evaluation__c.Form_Mail_Tuteur__c}
+-                      Telephone number of the company tutor : {!Convsta_Evaluation__c.Form_Phone_Tuteur__c}
+
+If one or more information is incorrect, please reply within 72 hours to this email or contact the Career Center to rectify this information. 
+
+ We remain at your disposal,
+
+emlyon Career Center

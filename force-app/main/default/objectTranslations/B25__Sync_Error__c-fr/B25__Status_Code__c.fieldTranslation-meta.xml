@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Pour les erreurs HTTP, ceci contient le code de statut renvoyé par le serveur.</help>
+    <label></label>
+    <name>B25__Status_Code__c</name>
+</CustomFieldTranslation>

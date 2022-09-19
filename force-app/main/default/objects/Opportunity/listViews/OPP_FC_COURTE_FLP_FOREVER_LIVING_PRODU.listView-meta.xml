@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_FC_COURTE_FLP_FOREVER_LIVING_PRODU</fullName>
+    <columns>Sous_provenance__c</columns>
+    <columns>Contact_D_tail_canal_d_acquisition__c</columns>
+    <columns>Contact_central__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Lieu_de_formation__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>ExerciceNum_ro__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Formation_courte</value>
+    </filters>
+    <filters>
+        <field>ExerciceNum_ro__c</field>
+        <operation>equals</operation>
+        <value>2018,2019</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>FLP FOREVER LIVING PRODUCT</value>
+    </filters>
+    <label>OPP FC COURTE - FLP FOREVER LIVING PRODU</label>
+    <language>fr</language>
+</ListView>

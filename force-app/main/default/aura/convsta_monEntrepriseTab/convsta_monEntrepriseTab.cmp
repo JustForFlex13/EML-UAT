@@ -1,0 +1,43 @@
+<aura:component>
+    <aura:attribute name="monEntreprise"        type="Convsta_Entreprise__c" />
+    <aura:attribute name="monEntrepriseSave"    type="Convsta_Entreprise__c" default="{}" />
+    <aura:attribute name="localisation"         type="String" />
+    <aura:attribute name="bonnePratiques"	    type="Boolean"/>
+    <aura:attribute name="contrat"              type="String" />
+    <aura:attribute name="selectedCompany"	    type="Object"/>
+    <aura:attribute name="canEdit"     	        type="Boolean"/>
+    <aura:attribute name="options"              type="List" default="[
+        {'label': 'In France', 'value': 'En France'},
+        {'label': 'Out of France', 'value': 'A l\'étranger'}
+    ]"/>
+        
+    <aura:registerEvent name="localistationToggle" type="aura:componentEvent"/>
+    <aura:handler name="change" value="{!v.selectedCompany}" action="{!c.saveFrenchCompany}"/>
+    <lightning:radioGroup name="radioButtonGroupRequired"
+        label="{!$Label.c.convsta_seDerouleEn}"
+        options="{! v.options }"
+        value="{! v.localisation}"
+        type="button"
+        required="true"
+        disabled="{!!v.canEdit}"
+        onchange="{!c.handleLocalisationToggle}" />
+    <aura:if isTrue="{!and( v.localisation == 'En France' , v.canEdit)}">
+        <br/>
+        <ui:outputText value="{!$Label.c.Convsta_HelpSearchEntreprise}"/>
+        <c:SireneSearch selectedCompany="{!v.selectedCompany}"/>
+        <!-- replaced with value change handler
+        <aura:if isTrue="{!v.selectedCompany}">
+            <lightning:button variant="brand" label="{!$Label.c.convsta_enregistrer}" value="saveCompany" onclick="{!c.saveFrenchCompany}"/>
+        </aura:if>
+        -->
+    </aura:if>
+    <c:convsta_EditMonEntreprise 
+        convstaEntrepriseId="{!v.monEntreprise.Id}" 
+        stageEnFranceBool="{!v.localisation == 'En France'}" 
+        displayStageDetails="{!v.contrat=='Stage'}"
+        validExpRecord="{!v.monEntrepriseSave}"
+        otherAdress ="{!v.monEntreprise.Mon_stage_se_deroule_a_une_autre_adresse__c?'dvdsvdd':null}"
+        canEdit="{!v.canEdit}"
+    /> 
+    
+</aura:component>

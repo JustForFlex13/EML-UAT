@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Course_obligation_status__c</fullName>
+    <externalId>false</externalId>
+    <label>Course obligation status</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Obligatoire</fullName>
+                <default>false</default>
+                <label>Obligatoire</label>
+            </value>
+            <value>
+                <fullName>Semi obligatoire</fullName>
+                <default>false</default>
+                <label>Semi obligatoire</label>
+            </value>
+            <value>
+                <fullName>Electif</fullName>
+                <default>false</default>
+                <label>Electif</label>
+            </value>
+            <value>
+                <fullName>Séminaire</fullName>
+                <default>false</default>
+                <label>Séminaire</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Un_seul_produit_par_opportunite</fullName>
+    <active>true</active>
+    <description>Impossibilité de sélectionner plus d&apos;un produit par opportunité</description>
+    <errorConditionFormula>RecordType.Name =  &quot;Relations Employeur&quot;  &amp;&amp;   Nombre_de_produits__c &gt;= 2</errorConditionFormula>
+    <errorMessage>Impossibilité de sélectionner plus d&apos;un produit par opportunité, veuillez créer une nouvelle opportunité.</errorMessage>
+</ValidationRule>

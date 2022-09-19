@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Validation_de_l_avenant__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Validation de l&apos;avenant par le Responsable Pédagogique.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Validation de l&apos;avenant par le Responsable Pédagogique</inlineHelpText>
+    <label>Validation de l&apos;avenant</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

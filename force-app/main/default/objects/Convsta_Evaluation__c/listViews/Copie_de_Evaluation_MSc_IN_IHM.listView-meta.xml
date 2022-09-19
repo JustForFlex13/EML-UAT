@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copie_de_Evaluation_MSc_IN_IHM</fullName>
+    <columns>NAME</columns>
+    <columns>DateEndStage__c</columns>
+    <columns>Note_globale__c</columns>
+    <columns>Saisie_dans_cursus__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Responsable_Pedagogique__c</field>
+        <operation>contains</operation>
+        <value>vogler</value>
+    </filters>
+    <filters>
+        <field>Statut__c</field>
+        <operation>equals</operation>
+        <value>Évaluée,Non-évaluable</value>
+    </filters>
+    <label>Evaluation MSc IN IHM</label>
+</ListView>

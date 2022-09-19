@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__IsUnassigned__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Checked when a Resource is reservable and has no parent.</description>
+    <externalId>false</externalId>
+    <formula>AND(B25__Resource__r.B25__Resource_Type__r.B25__Rentable__c, ISBLANK(B25__Resource__r.B25__Parent__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Coché lorsqu’une ressource est réservable et n’a pas de parent.</inlineHelpText>
+    <label>Is Unassigned</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tous_les_blocs_RNCP</fullName>
+    <columns>NAME</columns>
+    <columns>SIS_Skills_Family_Type__c</columns>
+    <columns>SIS_Description_FR__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>SIS_Skills_Family_Type__c</field>
+        <operation>equals</operation>
+        <value>RNCP</value>
+    </filters>
+    <label>Tous les blocs RNCP</label>
+</ListView>

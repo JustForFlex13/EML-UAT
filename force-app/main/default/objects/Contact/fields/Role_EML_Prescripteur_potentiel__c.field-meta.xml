@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role_EML_Prescripteur_potentiel__c</fullName>
+    <description>Champ technique permettant un comptage sur la liste liée Rôle EMLyon, pour les Rôles EMLyon dont la checkbox &quot;Rôle de prescripteur potentiel&quot; est cochée. Permet de voir si un Contact a un Rôle EMLyon correspondant à la Catégorie &quot;EML-EXEC&quot; et au Liste rôle &quot;Prescripteur potentiel&quot;. 
+Utilisé dans le process builder &quot;Création automatique d&apos;un nouveau rôle EM Lyon&quot;.</description>
+    <externalId>false</externalId>
+    <label>Rôle EML Prescripteur potentiel</label>
+    <summaryFilterItems>
+        <field>R_le__c.Role_de_prescripteur_potentiel__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>R_le__c.Contact__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

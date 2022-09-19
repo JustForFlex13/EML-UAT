@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CA_MAJ_propri_taire_Ida_EL_MAJDOUBI1</fullName>
+    <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.RECORDTYPE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Pays__c</columns>
+    <columns>Nombre_opportunites_sur_criteres__c</columns>
+    <columns>Souhait_programme__c</columns>
+    <columns>Date_de_cr_ation_contact__c</columns>
+    <columns>Nature_du_premier_contact__c</columns>
+    <columns>Niveau_d_tudes__c</columns>
+    <columns>Dernier_dipl_me_ou_en_cours__c</columns>
+    <columns>Age__c</columns>
+    <columns>Ann_e_du_dipl_me__c</columns>
+    <columns>Code_Pays__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>9/1/2018 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>AFRIQUE DU SUD,ALGÉRIE,ANGOLA,BOTSWANA,CAP-VERT,ÉGYPTE,ÉRYTHRÉE,ÉTHIOPIE,GHANA</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>Guinée Équatoriale,Guinée-Bissau,KENYA,LESOTHO,LIBÉRIA / (Liberia)</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>Libyenne Jamahiriya Arabe / (Libye),MALAWI,MAURICE,MOZAMBIQUE,NAMIBIE</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>NIGÉRIA / (Nigeria),OUGANDA,SAO TOMÉ-ET-PRINCIPE,SEYCHELLES,SIERRA LEONE,SOMALIE</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>SOUDAN,SOUDAN DU SUD,SWAZILAND,&quot;TANZANIE,RÉPUBLIQUE-UNIE DE&quot;,TUNISIE,ZAMBIE</value>
+    </filters>
+    <filters>
+        <field>Pays__c</field>
+        <operation>equals</operation>
+        <value>ZIMBABWE</value>
+    </filters>
+    <label>CA_MAJ propriétaire à Ida EL MAJDOUBI</label>
+    <language>fr</language>
+</ListView>

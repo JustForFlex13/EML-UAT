@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>R_les_EMLYON_Employabilit__c</fullName>
+    <description>Compteur du nombre de rôles ayant pour catégorie : &quot;Employabilité&quot;.</description>
+    <externalId>false</externalId>
+    <label>Rôles EMLYON Employabilité</label>
+    <summaryFilterItems>
+        <field>R_le__c.Categorie_role__c</field>
+        <operation>equals</operation>
+        <value>Employabilité</value>
+    </summaryFilterItems>
+    <summaryForeignKey>R_le__c.Contact__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Conseil : Faites vous préciser le titre exact par un collaborateur de l&apos;équipe RH de l&apos;entreprise.</help>
+    <label></label>
+    <name>Fonction_Signataire_Convention__c</name>
+</CustomFieldTranslation>

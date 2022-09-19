@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Accelerateur-Incubateur</layout>
+        <sections>
+            <label></label>
+            <section>Information système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations startup</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations sur la formation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coordination Employabilité</layout>
+        <sections>
+            <label></label>
+            <section>Information système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Intéressé par l&apos;évènement</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formation Courte</layout>
+        <sections>
+            <label></label>
+            <section>Information système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations sur la formation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formation Sur-Mesure</layout>
+        <sections>
+            <label></label>
+            <section>Information système</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations sur la formation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentation de la piste</layout>
+        <sections>
+            <label></label>
+            <section>Evénements Relations Employeurs</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pardot</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Formation_courte</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Fundraising_B2C</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Partenariat</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Partenariat_Fundraising</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Principal</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Programme_Long_Diplomant</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Relations_Employeur</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Sur_Mesure</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_PISTE01_Motif_abandon_obligatoire</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_PIST_01_DON_002</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>RG_PIST_01_DON_003</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>pi__Send_to_Prospect_Insight</name>
+    </webLinks>
+</CustomObjectTranslation>

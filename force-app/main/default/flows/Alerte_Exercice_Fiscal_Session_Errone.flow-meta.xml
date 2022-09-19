@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Alerte_Email_Anomalie_Exercice_Fiscal_sur_Session</name>
+        <label>Alerte Email Anomalie Exercice Fiscal sur Session</label>
+        <locationX>326</locationX>
+        <locationY>508</locationY>
+        <actionName>Session__c.Alerte_Email_Anomalie_Exercice_Fiscal_sur_Session</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>50.0</apiVersion>
+    <constants>
+        <name>Destinataire</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>bechaa@em-lyon.com</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <name>V_rifier_Validit_Exercice_Fiscal</name>
+        <label>Vérifier Validité Exercice Fiscal</label>
+        <locationX>309</locationX>
+        <locationY>278</locationY>
+        <defaultConnectorLabel>Résultat par défaut</defaultConnectorLabel>
+        <rules>
+            <name>Exercice_Fiscal_Incorrect</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>isValid</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Alerte_Email_Anomalie_Exercice_Fiscal_sur_Session</targetReference>
+            </connector>
+            <label>Exercice Fiscal Incorrect</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>ExerciceFiscaltranslatedValue</name>
+        <dataType>String</dataType>
+        <expression>CASE({!$Record.Exercice_fiscale__c,
+&quot;SF-EF80&quot;,&quot;2019-2020&quot;,
+&quot;SF-EF90&quot;,&quot;2020-2021&quot;,
+&quot;SF-EF100&quot;,&quot;2021-2022&quot;,
+&quot;SF-EF110&quot;,&quot;2022-2023&quot;,
+&quot;SF-EF120&quot;,&quot;2023-2024&quot;,
+&quot;SF-EF130&quot;,&quot;2024-2025&quot;,
+&quot;SF-EF140&quot;,&quot;2025-2026&quot;,
+&quot;SF-EF150&quot;,&quot;2026-2027&quot;,
+&quot;SF-EF160&quot;,&quot;2027-2028&quot;,
+&quot;SF-EF170&quot;,&quot;2028-2029&quot;,
+&quot;SF-EF90&quot;,&quot;2029-2030&quot;,
+&quot;SF-EF90&quot;,&quot;2030-2031&quot;,
+&quot;SF-EF90&quot;,&quot;2031-2032&quot;,
+&quot;SF-EF90&quot;,&quot;2032-2033&quot;,
+&quot;SF-EF90&quot;,&quot;2033-2034&quot;,
+&quot;SF-EF90&quot;,&quot;2034-2035&quot;,
+&quot;SF-EF90&quot;,&quot;2035-2036&quot;,
+&quot;SF-EF90&quot;,&quot;2036-2037&quot;,
+&quot;SF-EF90&quot;,&quot;2037-2038&quot;,
+&quot;SF-EF90&quot;,&quot;2038-2039&quot;,
+&quot;SF-EF90&quot;,&quot;2039-2040&quot;,&quot;N/A&quot;)
+}</expression>
+    </formulas>
+    <formulas>
+        <name>isValid</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(OR(
+    YEAR({!$Record.Date_de_debut_de_session__c})&lt;2020,
+    AND(ISPICKVAL({!$Record.Exercice_fiscale__c},&apos;SF-EF90&apos;),{!$Record.Date_de_debut_de_session__c}&gt;=DATE( 2020, 9, 1 ),({!$Record.Date_de_debut_de_session__c}&lt;=DATE( 2021, 8, 31 )))
+    ,
+    AND(ISPICKVAL({!$Record.Exercice_fiscale__c},&apos;SF-EF100&apos;),{!$Record.Date_de_debut_de_session__c}&gt;=DATE( 2021, 9, 1 ),({!$Record.Date_de_debut_de_session__c}&lt;=DATE( 2022, 8, 31 )))
+    ,
+    AND(ISPICKVAL({!$Record.Exercice_fiscale__c},&apos;SF-EF110&apos;),{!$Record.Date_de_debut_de_session__c}&gt;=DATE( 2022, 9, 1 ),({!$Record.Date_de_debut_de_session__c}&lt;=DATE( 2023, 8, 31 )))
+    ,
+    AND(ISPICKVAL({!$Record.Exercice_fiscale__c},&apos;SF-EF100&apos;),{!$Record.Date_de_debut_de_session__c}&gt;=DATE( 2023, 9, 1 ),({!$Record.Date_de_debut_de_session__c}&lt;=DATE( 2024, 8, 31 )))
+    ,
+    AND(ISPICKVAL({!$Record.Exercice_fiscale__c},&apos;SF-EF100&apos;),{!$Record.Date_de_debut_de_session__c}&gt;=DATE( 2024, 9, 1 ),({!$Record.Date_de_debut_de_session__c}&lt;=DATE( 2025, 8, 31 )))
+    ,
+    AND(ISPICKVAL({!$Record.Exercice_fiscale__c},&apos;SF-EF100&apos;),{!$Record.Date_de_debut_de_session__c}&gt;=DATE( 2025, 9, 1 ),({!$Record.Date_de_debut_de_session__c}&lt;=DATE( 2026, 8, 31 )))    
+        ,
+    AND(ISPICKVAL({!$Record.Exercice_fiscale__c},&apos;SF-EF100&apos;),{!$Record.Date_de_debut_de_session__c}&gt;=DATE( 2026, 9, 1 ),({!$Record.Date_de_debut_de_session__c}&lt;=DATE( 2027, 8, 31 )))
+        ,
+    AND(ISPICKVAL({!$Record.Exercice_fiscale__c},&apos;SF-EF100&apos;),{!$Record.Date_de_debut_de_session__c}&gt;=DATE( 2027, 9, 1 ),({!$Record.Date_de_debut_de_session__c}&lt;=DATE( 2028, 8, 31 )))
+),True, False)</expression>
+    </formulas>
+    <interviewLabel>Alerte Exercice Fiscal Session Errone {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Alerte Exercice Fiscal Session Errone</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>51</locationX>
+        <locationY>51</locationY>
+        <connector>
+            <targetReference>V_rifier_Validit_Exercice_Fiscal</targetReference>
+        </connector>
+        <object>Session__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>EmailBody</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;b&gt;Hello,&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Une session a été créée ou modifiée avec un exercice fiscal en anomalie &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Nom de la session :&lt;/b&gt; {!$Record.Name}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Date de création :&lt;/b&gt; {!$Record.CreatedDate}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Date de dernière modification : &lt;/b&gt;{!$Record.LastModifiedDate}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Modifiée par : &lt;/b&gt;&lt;span style=&quot;color: rgb(62, 62, 60); background-color: rgb(255, 255, 255);&quot;&gt; {!$Record.LastModifiedBy.Firstname} &lt;/span&gt; {!$Record.LastModifiedBy.LastName}{!$Label}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Date de début de la session : &lt;/b&gt;{!$Record.Date_de_debut_de_session__c}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Exercice Fiscal : {!ExerciceFiscaltranslatedValue}&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;URL vers la fiche de session :&lt;/b&gt; &lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(62, 62, 60);&quot;&gt;{!$Label.URL}/{!$Record.Id}&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>URL</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

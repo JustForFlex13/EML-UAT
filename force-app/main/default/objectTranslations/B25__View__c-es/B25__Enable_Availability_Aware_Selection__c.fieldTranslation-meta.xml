@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tiene en cuenta las disponibilidades al seleccionar una franja temporal en el calendario. Cuando el usuario selecciona una celda, solo se seleccionará la parte disponible de la misma.</help>
+    <label></label>
+    <name>B25__Enable_Availability_Aware_Selection__c</name>
+</CustomFieldTranslation>

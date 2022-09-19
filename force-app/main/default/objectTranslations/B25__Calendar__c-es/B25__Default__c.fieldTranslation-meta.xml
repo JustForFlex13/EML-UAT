@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cuando existen múltiples calendarios de registro único para una única dimensión, el calendario con esta casilla de verificación se utilizará si el calendario de registro único se carga con solo un ID de recurso.</help>
+    <label></label>
+    <name>B25__Default__c</name>
+</CustomFieldTranslation>

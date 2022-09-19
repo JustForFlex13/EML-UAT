@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Optional. Entspricht dieses (objektübergreifende) Feld in der Reservierung true, wird die Anzahl dieser Reservierung in der Auslastungsprüfung nicht mitgezählt. Die Anzahl kann die Dimension-Auslastung jedoch trotzdem nicht übersteigen.</help>
+    <label></label>
+    <name>B25__Reservation_Skip_Capacity_Check_Field__c</name>
+</CustomFieldTranslation>

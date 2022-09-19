@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__End_Hour__c</fullName>
+    <defaultValue>24</defaultValue>
+    <deprecated>false</deprecated>
+    <description>At what hour does the Resource stop being available? Enter a value from 0 to 24.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>À quelle heure la ressource cesse-t-elle d’être disponible ? Saisissez une valeur comprise entre 0 et 24.</inlineHelpText>
+    <label>End Hour</label>
+    <precision>2</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

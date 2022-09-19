@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__AutomatedBookingRule__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The rule that was used to create this Reservation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>La règle qui a été utilisée pour créer cette réservation.</inlineHelpText>
+    <label>Automated Booking Rule</label>
+    <referenceTo>B25__AutomatedBookingRule__c</referenceTo>
+    <relationshipLabel>Reservations</relationshipLabel>
+    <relationshipName>Reservations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Motif_d_annulation__c</fullName>
+    <externalId>false</externalId>
+    <label>Motif d&apos;annulation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annulation étudiant</fullName>
+                <default>false</default>
+                <label>Annulation étudiant</label>
+            </value>
+            <value>
+                <fullName>Annulation entreprise</fullName>
+                <default>false</default>
+                <label>Annulation entreprise</label>
+            </value>
+            <value>
+                <fullName>Annulation emlyon</fullName>
+                <default>false</default>
+                <label>Annulation emlyon</label>
+            </value>
+            <value>
+                <fullName>Annulation autre</fullName>
+                <default>false</default>
+                <label>Annulation autre</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

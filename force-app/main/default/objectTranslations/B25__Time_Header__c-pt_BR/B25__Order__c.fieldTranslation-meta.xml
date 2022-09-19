@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determina em que ordem os Cabeçalhos de Hora aparecem com o número mais baixo a aparecer no topo seguido de números mais baixos e campos vazios por último.</help>
+    <label></label>
+    <name>B25__Order__c</name>
+</CustomFieldTranslation>

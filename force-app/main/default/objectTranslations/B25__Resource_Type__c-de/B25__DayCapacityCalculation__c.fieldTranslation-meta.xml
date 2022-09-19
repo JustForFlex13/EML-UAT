@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Zählt binär eine Quelle als belegt, wenn eine bestehende Reservierung nicht an dem Tag endet. Die anteilige Nutzung der belegten Zeit geteilt durch die insgesamt verfügbare Zeit an einem Tag.</help>
+    <label></label>
+    <name>B25__DayCapacityCalculation__c</name>
+    <picklistValues>
+        <masterLabel>Binary</masterLabel>
+        <translation>Binär</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percentual</masterLabel>
+        <translation>Anteilig/Prozentual</translation>
+    </picklistValues>
+</CustomFieldTranslation>

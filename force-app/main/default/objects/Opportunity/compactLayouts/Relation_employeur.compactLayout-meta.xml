@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relation_employeur</fullName>
+    <fields>Name</fields>
+    <fields>Contact_central__c</fields>
+    <fields>AccountId</fields>
+    <fields>Date_evenement__c</fields>
+    <fields>CloseDate</fields>
+    <fields>Amount</fields>
+    <fields>OwnerId</fields>
+    <label>Relation employeur</label>
+</CompactLayout>

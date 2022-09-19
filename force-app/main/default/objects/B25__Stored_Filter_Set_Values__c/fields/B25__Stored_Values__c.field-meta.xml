@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Stored_Values__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores the JSON that represents the stored filter values.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stocke le JSON qui représente les valeurs de filtres stockées.</inlineHelpText>
+    <label>Stored Values</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

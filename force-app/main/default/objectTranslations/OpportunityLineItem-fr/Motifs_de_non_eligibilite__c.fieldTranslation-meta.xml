@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Motifs_de_non_eligibilite__c</name>
+    <picklistValues>
+        <masterLabel>Age trop élevé</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domaine d’études incohérent</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expérience professionnelle incohérente</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Niveau d’études insuffisant</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

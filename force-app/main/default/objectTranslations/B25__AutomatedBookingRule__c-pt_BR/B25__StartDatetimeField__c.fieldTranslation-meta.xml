@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Um campo de hora e data de oportunidade ou produto de oportunidade.</help>
+    <label></label>
+    <name>B25__StartDatetimeField__c</name>
+</CustomFieldTranslation>

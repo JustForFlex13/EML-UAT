@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Slaat additionele date op voor de Google sync</help>
+    <label></label>
+    <name>B25__Additional_Google_Data__c</name>
+</CustomFieldTranslation>

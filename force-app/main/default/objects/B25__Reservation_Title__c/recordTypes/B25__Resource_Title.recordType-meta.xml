@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Resource_Title</fullName>
+    <active>true</active>
+    <description>Specifies a field that should be displayed on a resource on the calendar</description>
+    <label>Resource Title</label>
+</RecordType>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>À quelle minute de la dernière heure la ressource cesse-t-elle d’être disponible ? Saisissez une valeur comprise entre 0 et 59.</help>
+    <label></label>
+    <name>B25__End_Minute__c</name>
+</CustomFieldTranslation>

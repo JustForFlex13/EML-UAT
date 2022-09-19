@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FC_F_Courte_Produits_EMBA_2018_2019</fullName>
+    <columns>PRODUCT2.RECORD_TYPE</columns>
+    <columns>Product2.Libelle_Produit__c</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT.NAME</columns>
+    <columns>Product2.Pack_la_carte__c</columns>
+    <columns>PRODUCT.DEFAULT_PRICE</columns>
+    <columns>Product2.Famille__c</columns>
+    <columns>PRICEBOOK.NAME</columns>
+    <columns>PRODUCT2.FAMILY_ENUM</columns>
+    <columns>Product2.Format__c</columns>
+    <columns>Product2.Nombre_de_jours__c</columns>
+    <columns>Product2.Nombre_d_heures__c</columns>
+    <columns>Product2.Suiveur__c</columns>
+    <columns>Product2.Ne_pas_afficher_sur_le_site_EML__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>PRICEBOOK.NAME</field>
+        <operation>equals</operation>
+        <value>Formation courte</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.FAMILY_ENUM</field>
+        <operation>equals</operation>
+        <value>OFFRES EXEC DEV Programmes Certifiants,OFFRES EXEC DEV Programmes courts</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.DESCRIPTION</field>
+        <operation>equals</operation>
+        <value>Module EMBA_Paris ouvert à l&apos;INTER</value>
+    </filters>
+    <label>FC_F.Courte_Produits EMBA 2018-2019</label>
+    <language>fr</language>
+    <queue>Formation courte</queue>
+</ListView>

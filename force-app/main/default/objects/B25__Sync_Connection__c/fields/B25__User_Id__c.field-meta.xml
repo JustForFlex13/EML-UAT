@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__User_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The id of the user this record should be synced with. In most cases this is the email address of the
+		user.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>L’identifiant de l’utilisateur avec lequel cet enregistrement doit être synchronisé. Dans la plupart des cas, il s’agit de l’adresse e-mail de l’utilisateur.</inlineHelpText>
+    <label>User Id</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

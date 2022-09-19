@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>¿Cuántas reservas deberían crearse cuando esta regla se activa? Haga referencia a un campo en oportunidad o producto de oportunidad, o rellene una cantidad literal.</help>
+    <label></label>
+    <name>B25__NumberofReservationsField__c</name>
+</CustomFieldTranslation>

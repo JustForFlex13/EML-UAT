@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si no hay ningún precio predeterminado para el recurso, el precio de base será igual al precio predeterminado del tipo de recurso.</help>
+    <label></label>
+    <name>B25__Base_Price__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Markeer deze titel als dynamisch. Hiermee kan je een APEX class benoemen die berekeningen maakt op basis van de zichtbare data.</help>
+    <label></label>
+    <name>B25__Dynamic__c</name>
+</CustomFieldTranslation>

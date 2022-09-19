@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>A etiqueta mostrada aos utilizadores na lista de seleção de grupos. Deixe vazio para utilizar a etiqueta de campo do campo de agrupamento.</help>
+    <label></label>
+    <name>B25__Label__c</name>
+</CustomFieldTranslation>

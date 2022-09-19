@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remise_interentreprise__c</fullName>
+    <description>Le % de remise définit dans le contrat cadre en fonction du chiffre d’affraies de l’exercice précédent, réalisé avec EMLYON</description>
+    <externalId>false</externalId>
+    <label>Remise interentreprise</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

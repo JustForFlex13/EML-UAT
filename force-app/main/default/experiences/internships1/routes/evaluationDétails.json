@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "3a39d35c-cd6c-44bf-bf33-7ca48bb377b0",
+  "appPageId" : "ac75e041-ea32-4d30-828e-3947b181afc6",
+  "configurationTags" : [ ],
+  "id" : "e4818507-6c7a-446f-8259-5c0b81699b43",
+  "label" : "Evaluation Détails",
+  "objectApiName" : "Convsta_Evaluation__c",
+  "routeType" : "detail-a1L",
+  "type" : "route",
+  "urlPrefix" : "convsta-evaluation"
+}

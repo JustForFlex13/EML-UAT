@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Combien de réservations doivent être créées lorsque cette règle se déclenche ? Faites soit référence à un champ pour l’opportunité ou le produit d’opportunité, soit saisissez une quantité littérale.</help>
+    <label></label>
+    <name>B25__NumberofReservationsField__c</name>
+</CustomFieldTranslation>

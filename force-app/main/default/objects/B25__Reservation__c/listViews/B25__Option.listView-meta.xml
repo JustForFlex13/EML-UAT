@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Option</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>B25__ResourceName__c</columns>
+    <columns>B25__Start_Local_DateTime__c</columns>
+    <columns>B25__End_Local_DateTime__c</columns>
+    <columns>B25__Account__c</columns>
+    <columns>B25__Contact__c</columns>
+    <columns>B25__Status__c</columns>
+    <columns>B25__Reservation_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>B25__Status__c</field>
+        <operation>equals</operation>
+        <value>Optional</value>
+    </filters>
+    <filters>
+        <field>B25__Status__c</field>
+        <operation>equals</operation>
+        <value>Option</value>
+    </filters>
+    <label>Optional</label>
+</ListView>

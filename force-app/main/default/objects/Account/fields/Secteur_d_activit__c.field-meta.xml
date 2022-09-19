@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secteur_d_activit__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( CodeAPE__c  &lt;&gt; &quot;&quot;,  CodeAPE__r.Secteur__c , null)</formula>
+    <label>Secteur d&apos;activité</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Horodatage_demande__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Status, 
+&quot;Demande en cours de validation pédagogique&quot;, Convsta_Date_Soumission_Demande__c,
+&quot;Demande en cours de validation administrative&quot;, Convsta_Date_assignation_au_gestionnaire__c , 
+&quot;Demande validée et en attente de contrat à uploader&quot;, Convsta_Date_Demande_Completee__c , 
+&quot;Convention validée à émettre&quot;, Convsta_Date_Demande_Completee__c , 
+&quot;Convention en attente de signature&quot;, Convsta_Date_Demande_Completee__c , 
+&quot;Convention signée&quot;, Date_Reception_Convention__c , 
+
+&quot;Demande refusée&quot;, IF (TEXT ( Convsta_Verdict_Administratif__c ) = &apos;Demande Rejetée&apos;, Convsta_Date_Refus_Administratif__c,
+IF (TEXT ( Convsta_Verdict_Pedagogique__c) = &apos;Demande Rejetée&apos;, Convsta_Date_Refus_Pedagogique__c , null)),
+&quot;Demande de complément d’information&quot;, 
+IF (TEXT ( Convsta_Verdict_Administratif__c ) = &apos;Précisions Nécessaires&apos;, Convsta_Date_Precisions_Administratives__c,
+IF (TEXT ( Convsta_Verdict_Pedagogique__c ) = &apos;Précisions Nécessaires&apos;, Convsta_Date_Precisions_Pedagogiques__c , null)), 
+null 
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Horodatage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

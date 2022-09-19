@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Als meer dan dit ingevoerde nummer aan reserveringen in een enkel blok staan, worden deze samengevoegd in een blok dat kan worden utigeklapt</help>
+    <label></label>
+    <name>B25__Group_Overlapping_Reservations__c</name>
+</CustomFieldTranslation>

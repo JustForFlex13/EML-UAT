@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Numero_stand_Vide_Carreer</fullName>
+    <active>true</active>
+    <description>Si Nom du produit contient &quot;Carreers Forum » + Opportunité =  « Inscrit »  en statut commercial alors rendre obligatoire (N° du Stand)</description>
+    <errorConditionFormula>RecordType.Name=&quot;Relations Employeur&quot;
+&amp;&amp;
+ISPICKVAL( StageName , &quot;Inscrit&quot;) 
+&amp;&amp;
+ISBLANK( Numero_de_stand__c ) 
+&amp;&amp;
+ CONTAINS(Name,&quot;Careers Forum&quot;)</errorConditionFormula>
+    <errorMessage>Veuillez remplir le numéro de stand</errorMessage>
+</ValidationRule>

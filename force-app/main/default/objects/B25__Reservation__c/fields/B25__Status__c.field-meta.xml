@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Status__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A lookup to the Reservation Status record to which this Reservation record belongs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Une recherche de l’enregistrement de statut de la réservation auquel appartient cet enregistrement de réservation.</inlineHelpText>
+    <label>Status</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>B25__Reservation_Status__c.B25__Is_Active__c</field>
+            <operation>notEqual</operation>
+            <value>False</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>B25__Reservation_Status__c</referenceTo>
+    <relationshipLabel>Reservations</relationshipLabel>
+    <relationshipName>Reservations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

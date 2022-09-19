@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La duración de cada indicador de la barra lateral que contiene la hora del día en el calendario de registro único. Los valores deben ser de entre 1 y 60 y deben dividir por 60 sin un resto.</help>
+    <label></label>
+    <name>B25__Time_Header_Duration__c</name>
+</CustomFieldTranslation>

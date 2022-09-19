@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Amenagement_concours_necessaire__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>If yes, please contact the Disability Unit at handicap@em-lyon.com to consider your specific needs and provide, when needed, specific arrangements for your application.</inlineHelpText>
+    <label>Aménagement concours nécessaire</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

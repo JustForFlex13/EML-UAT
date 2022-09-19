@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fiche projet</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fiches projet</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Action</layout>
+        <sections>
+            <label></label>
+            <section>&lt;Font color=&quot;red&quot;&gt;Processus&lt;/font&gt;</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Commentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Qualification</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Anomalie</layout>
+        <sections>
+            <label></label>
+            <section>&lt;Font color=&quot;red&quot;&gt;Processus&lt;/font&gt;</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Avancement config / dev</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Commentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Qualification</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Evolution</layout>
+        <sections>
+            <label></label>
+            <section>&lt;Font color=&quot;red&quot;&gt;Processus&lt;/font&gt;</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Avancement config / dev</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Chiffrage Kerensen</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Commentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Qualification</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Version</layout>
+        <sections>
+            <label></label>
+            <section>Informations</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Nouvelle section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Action</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Anomalie</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Evolution</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Version</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Charge_et_date_test_a_renseigner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Date_limite_a_renseigner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Date_test_non_modifiable_par_K_par_K</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Modification_config</name>
+    </validationRules>
+</CustomObjectTranslation>

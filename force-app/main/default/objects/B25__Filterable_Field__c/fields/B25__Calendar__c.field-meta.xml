@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Calendar__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>On which Calendar should this Filterable Field show?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sur quel calendrier ce champ filtrable doit-il apparaître ?</inlineHelpText>
+    <label>Calendar</label>
+    <referenceTo>B25__Calendar__c</referenceTo>
+    <relationshipLabel>Filterable Fields</relationshipLabel>
+    <relationshipName>Filterable_Fields</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

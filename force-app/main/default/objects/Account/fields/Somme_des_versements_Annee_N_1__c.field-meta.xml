@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Somme_des_versements_Annee_N_1__c</fullName>
+    <externalId>false</externalId>
+    <label>Somme versements année N-1</label>
+    <summarizedField>Versement_OCTA__c.Montant_net__c</summarizedField>
+    <summaryFilterItems>
+        <field>Versement_OCTA__c.Exercice_Collecte__c</field>
+        <operation>equals</operation>
+        <value>2018</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Versement_OCTA__c.Compte_Versement_OCTA__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

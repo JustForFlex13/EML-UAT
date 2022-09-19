@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_OPPO_01_IHM_003</fullName>
+    <active>false</active>
+    <description>« Motif de fermeture » est obligatoire pour le passage du statut « A réorienter »</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+and(
+ ISPICKVAL(StageName,&quot;A (ré)orienter&quot;), 
+ ISPICKVAL(Motif_de_fermeture__c,&quot;&quot;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Motif_de_fermeture__c</errorDisplayField>
+    <errorMessage>Remplir un motif de fermeture</errorMessage>
+</ValidationRule>

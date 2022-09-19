@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cessation_d_activit__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Ce champ permet de renseigner si la société à cesser son activité ou pas</description>
+    <externalId>false</externalId>
+    <label>Cessation d&apos;activité</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

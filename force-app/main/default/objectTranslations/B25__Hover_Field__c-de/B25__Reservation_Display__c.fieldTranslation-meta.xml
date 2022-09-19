@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Hover-Definition, auf dem dieses Hover-Feld angezeigt wird.</help>
+    <label></label>
+    <name>B25__Reservation_Display__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

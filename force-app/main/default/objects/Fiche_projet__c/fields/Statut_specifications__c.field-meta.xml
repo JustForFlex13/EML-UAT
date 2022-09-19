@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statut_specifications__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>L&apos;anomalie nécessite une mise à jour</inlineHelpText>
+    <label>Statut spécifications</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>A spécifier</fullName>
+                <default>false</default>
+                <label>A spécifier</label>
+            </value>
+            <value>
+                <fullName>Spécifications à jour</fullName>
+                <default>false</default>
+                <label>Spécifications à jour</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

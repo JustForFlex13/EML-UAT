@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Formation Sur-Mesure</name>
+    <queueMembers>
+        <users>
+            <user>basset@eml-executive.com</user>
+            <user>devesvrotte@em-lyon.com</user>
+            <user>corvee@eml-executive.com</user>
+            <user>didier@eml-executive.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Convsta_Langue_Convention</fullName>
+    <active>false</active>
+    <description>Rendre obligatoire le choix de la langue si le verdict administratif est accepté et si c&apos;est une convention émise par l&apos;EM.</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+ISPICKVAL(Convsta_Verdict_Administratif__c, &quot;Demande Acceptée&quot;)  &amp;&amp;
+ISPICKVAL( Convsta_Langue__c, &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Convsta_Verdict_Administratif__c</errorDisplayField>
+    <errorMessage>Vous devez renseigner la langue de la convention.</errorMessage>
+</ValidationRule>

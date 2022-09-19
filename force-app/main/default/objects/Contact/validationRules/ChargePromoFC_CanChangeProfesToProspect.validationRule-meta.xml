@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChargePromoFC_CanChangeProfesToProspect</fullName>
+    <active>false</active>
+    <description>Autoriser seulement Safae ABOUKARAM, Ludivine TOUTOUNJI et Top Agresso à modifier le type d&apos;enregistrement de &quot;Professionnel&quot; vers &quot;Prospect Etudiant&quot; .</description>
+    <errorConditionFormula>AND( 
+ !$User.ByPass_RV__c,
+	!$User.Contourner_RV_type_d_enregistrement__c,
+ PRIORVALUE(Record_Type_Name__c)=&quot;Professionnel&quot;, 
+ Record_Type_Name__c=&quot;Prospect Etudiant&quot;, 
+ $User.CommunityNickname&lt;&gt; &quot;aboukaram&quot;,
+ $User.CommunityNickname&lt;&gt; &quot;toutounji&quot;,
+ $User.CommunityNickname &lt;&gt; &quot;topagresso&quot; 
+)</errorConditionFormula>
+    <errorMessage>La modification de type d&apos;enregistrement de &quot;Professionnel&quot; vers &quot;Prospect Etudiant&quot; vous est interdite.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Google_Id__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>Unique id of the event in Google Calendar this reservation is synced to.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Identifiant unique de l’événement dans Google Agenda avec lequel cette réservation est synchronisée.</inlineHelpText>
+    <label>Google Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

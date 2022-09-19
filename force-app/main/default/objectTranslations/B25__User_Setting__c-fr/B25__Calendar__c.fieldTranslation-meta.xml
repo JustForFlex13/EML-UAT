@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le calendrier auquel appartient ce paramètre est utilisé pour les ressources ajoutées individuellement. La valeur de l’identifiant est stockée dans le champ de valeur de texte.</help>
+    <label></label>
+    <name>B25__Calendar__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

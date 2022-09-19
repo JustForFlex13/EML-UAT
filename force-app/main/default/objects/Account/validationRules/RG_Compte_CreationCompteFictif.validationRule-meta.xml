@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Compte_CreationCompteFictif</fullName>
+    <active>true</active>
+    <description>interdiction de créer un compte &quot;Formation Initiale&quot;, &quot;Sans organisation connue&quot;, &quot;Transition professionnelle&quot;</description>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+OR( 
+AND(
+ ISNEW(),Name=&quot;Formation Initiale&quot;), 
+AND(
+ ISNEW(),Name=&quot;Sans organisation connue&quot;),
+AND(
+ ISNEW(),Name=&quot;Transition professionnelle&quot;) 
+)
+)</errorConditionFormula>
+    <errorMessage>interdiction de créer un compte &quot;Formation Initiale&quot;, &quot;Sans organisation connue&quot;, &quot;Transition professionnelle&quot;</errorMessage>
+</ValidationRule>

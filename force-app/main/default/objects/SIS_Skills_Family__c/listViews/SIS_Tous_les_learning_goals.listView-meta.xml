@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Tous_les_learning_goals</fullName>
+    <columns>NAME</columns>
+    <columns>SIS_Skills_Family_Type__c</columns>
+    <columns>SIS_Description_FR__c</columns>
+    <columns>SIS_Description_EN__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SIS_Skills_Family_Type__c</field>
+        <operation>equals</operation>
+        <value>Learning Goal</value>
+    </filters>
+    <label>Tous les learning goals</label>
+</ListView>

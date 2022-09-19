@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>“Vertical” permite o Carregamento Lento no eixo vertical. “Vertical/Horizontal” permite o Carregamento Lento em ambos os eixos. Esta última definição é incompatível com qualquer definição que oculte partes da linha de tempo, tais como “Ocultar tempo fechado sem reservas” em Ver.</help>
+    <label></label>
+    <name>B25__Lazy_Reservation_Loading__c</name>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>Desativado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical &amp; Horizontal</masterLabel>
+        <translation>Vertical e Horizontal</translation>
+    </picklistValues>
+</CustomFieldTranslation>

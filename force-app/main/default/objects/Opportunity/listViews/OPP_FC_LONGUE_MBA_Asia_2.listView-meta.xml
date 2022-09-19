@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP_FC_LONGUE_MBA_Asia_2</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+    <columns>Nom_Prenom__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Contact_Pays_de_R_sidence__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Date_de_Cr_ation_fiche_UI__c</columns>
+    <columns>Exercice__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Formule_nb_oppo_total__c</columns>
+    <columns>Formule_nb_oppo_cours__c</columns>
+    <columns>Eligibilite__c</columns>
+    <columns>Statut_Dossier_CANEL__c</columns>
+    <columns>Remplissage_Dossier_CANEL__c</columns>
+    <columns>Statut_Canel__c</columns>
+    <columns>OwnerId__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_Pays_de_R_sidence__c</field>
+        <operation>contains</operation>
+        <value>Mongolie,Népal,Philippines,Sri Lanka,Tadjikistan,Thaïlande,Viêt Nam</value>
+    </filters>
+    <filters>
+        <field>Exercice__c</field>
+        <operation>equals</operation>
+        <value>2019</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>MBA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Formation_initiale</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Intéressé par,Prospect qualifié,Prospect probable,Prospect chaud</value>
+    </filters>
+    <label>OPP FC LONGUE - MBA Asia 3</label>
+    <language>fr</language>
+</ListView>

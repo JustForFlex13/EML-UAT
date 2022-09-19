@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ist dieser Wert Tage oder höher, können Sie als Endzeit die Uhrzeit einstellen, zu der die Reservierung enden soll. Andernfalls endet die Reservierung zur selben Zeit des Tages, an dem sie begann.</help>
+    <label></label>
+    <name>B25__TimeUnit__c</name>
+    <picklistValues>
+        <masterLabel>Days</masterLabel>
+        <translation>Tage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hours</masterLabel>
+        <translation>Stunden</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minutes</masterLabel>
+        <translation>Minuten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Months</masterLabel>
+        <translation>Monate</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weeks</masterLabel>
+        <translation>Wochen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <layouts>
+        <layout>Entreprise Back Office</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Signataire de la Convention</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Entreprise Front Office</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Agreement&apos;s signatory</label>
+            <section>Signataire de la Convention</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Entreprise Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel></nameFieldLabel>
+    <startsWith></startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Remplissage_AdresseEntreprise</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please fill out the address of your internship.</errorMessage>
+        <name>Remplissage_Adresse_du_Lieu_du_Stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Remplissage_AssuranceEntreprise</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Remplissage_CodePostalEntreprise</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Remplissage_NomEntreprise</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Remplissage_PaysEntreprise</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Remplissage_SecteurActiviteEntreprise</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Remplissage_VilleEntreprise</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please fill out the agreement signatory&apos;s gender</errorMessage>
+        <name>Remplissage_civilite_signataire_conv</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please fill out the agreement signatory&apos;s email address</errorMessage>
+        <name>Remplissage_email_signataire_conv</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Remplissage_entreprise</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please fill out the agreement signatory&apos;s function.</errorMessage>
+        <name>Remplissage_fonction_signataire_conv</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please fill out the agreement signatory&apos;s surname.</errorMessage>
+        <name>Remplissage_nom_signataire_conv</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please fill out the agreement signatory&apos;s name.</errorMessage>
+        <name>Remplissage_prenom_signataire_conv</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please fill out the agreement signatory&apos;s phone number.</errorMessage>
+        <name>Remplissage_telephone_signataire_conv</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please take note of the good practices guidelines and commit to comply with it.</errorMessage>
+        <name>acceptation_du_guide_de_bonnes_pratiques</name>
+    </validationRules>
+</CustomObjectTranslation>

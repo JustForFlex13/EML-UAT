@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La etiqueta que se mostrará en el encabezamiento de la sección que contiene esta lista relacionada. Cuando se deja vacío, se utiliza la etiqueta plural del objeto relacionado.</help>
+    <label></label>
+    <name>B25__Label__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indien aangevinkt, donkere secties die onbeschikbaarheid aangeven zullen niet langer worden gelinkt aan de cell-rand. Waardoor de unavailability doorloopt. Dit kan eventueel impact hebben op snelheid van de kalender.</help>
+    <label></label>
+    <name>B25__Enable_Subcell_Availability_Rendering__c</name>
+</CustomFieldTranslation>

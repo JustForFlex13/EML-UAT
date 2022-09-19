@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zone_de_commercialisation_rapport__c</fullName>
+    <description>Formule pour récupérer le nom de valeur &quot;zone de commercialisation&quot;</description>
+    <externalId>false</externalId>
+    <formula>CASE(  TEXT(Zone_commercialisation__c) , &quot;AFRIQUE_01&quot;, &quot;AFRIQUE_CE&quot;, &quot;AFRIQUE_02&quot;, &quot;AFRIQUE_O&quot;, TEXT(Zone_commercialisation__c) )</formula>
+    <label>Zone de commercialisation rapport</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

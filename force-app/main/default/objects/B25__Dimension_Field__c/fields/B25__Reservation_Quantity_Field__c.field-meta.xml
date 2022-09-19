@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B25__Reservation_Quantity_Field__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API name of a (cross-object) number field on Reservation that contains the Reservation quantity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Le nom API d’un champ numérique (interobjets) pour la réservation qui contient la quantité de la réservation.</inlineHelpText>
+    <label>Reservation Quantity Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

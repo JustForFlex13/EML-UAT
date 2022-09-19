@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>supérieur 50</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>EMLYON</letterhead>
+    <name>Approbation &gt; 50</name>
+    <style>freeForm</style>
+    <subject>Information opportunité &gt; 50 K</subject>
+    <textOnly>Bonjour {!User.Name}
+
+L&apos;opportunité, {!Opportunity.Name} pour {!Opportunity.Account} a été crée et validée automatiquement.
+
+
+Cordialement,
+
+Administrateur ARPEGE</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

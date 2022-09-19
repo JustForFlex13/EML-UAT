@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Markieren, wenn Ereignisse in diesem Kalender nicht horizontal gezogen werden sollen.</help>
+    <label></label>
+    <name>B25__Prevent_Horizontal_Drag__c</name>
+</CustomFieldTranslation>

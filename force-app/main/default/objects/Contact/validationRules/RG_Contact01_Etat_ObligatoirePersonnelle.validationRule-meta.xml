@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Contact01_Etat_ObligatoirePersonnelle</fullName>
+    <active>true</active>
+    <errorConditionFormula>! $User.ByPass_RV__c 
+&amp;&amp; 
+( 
+and( 
+OR 
+( 
+ Adresse_Personnelle_Pays_WF__c  = &quot;ÉTATS-UNIS&quot; , 
+Adresse_Personnelle_Pays_WF__c = &quot;CANADA&quot; 
+), 
+isblank(  Etat__c  ) 
+)
+)</errorConditionFormula>
+    <errorDisplayField>Etat__c</errorDisplayField>
+    <errorMessage>Le champ Etat est obligatoire</errorMessage>
+</ValidationRule>

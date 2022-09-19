@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Uma procura para o registo do Estado da Reserva a que este registo de Reserva pertence.</help>
+    <label></label>
+    <name>B25__Status__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Uhrzeit, ab welcher die Quelle nicht mehr verfügbar ist. Bitte einen Wert von 0 - 24 eingeben.</help>
+    <label></label>
+    <name>B25__End_Hour__c</name>
+</CustomFieldTranslation>
