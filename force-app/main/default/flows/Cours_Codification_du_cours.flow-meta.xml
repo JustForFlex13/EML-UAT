@@ -5,7 +5,7 @@
         <name>Attribute_Unique_Course_Code</name>
         <label>Attribute_Unique_Course_Code</label>
         <locationX>314</locationX>
-        <locationY>1175</locationY>
+        <locationY>1055</locationY>
         <assignmentItems>
             <assignToReference>$Record.SIS_Unique_Course_Code__c</assignToReference>
             <operator>Add</operator>
@@ -91,7 +91,7 @@
         <name>Attribute_Unique_Course_Code_Count_Under_10</name>
         <label>Attribute_Unique_Course_Code_Count_Under_10</label>
         <locationX>50</locationX>
-        <locationY>1175</locationY>
+        <locationY>1055</locationY>
         <assignmentItems>
             <assignToReference>$Record.SIS_Unique_Course_Code__c</assignToReference>
             <operator>Add</operator>
@@ -184,7 +184,7 @@
         <name>Attribution_Blank</name>
         <label>Attribution_Blank</label>
         <locationX>50</locationX>
-        <locationY>1055</locationY>
+        <locationY>935</locationY>
         <assignmentItems>
             <assignToReference>$Record.SIS_Unique_Course_Code__c</assignToReference>
             <operator>Assign</operator>
@@ -200,7 +200,7 @@
         <name>Attribution_Blank_2</name>
         <label>Attribution_Blank_2</label>
         <locationX>314</locationX>
-        <locationY>1055</locationY>
+        <locationY>935</locationY>
         <assignmentItems>
             <assignToReference>$Record.SIS_Unique_Course_Code__c</assignToReference>
             <operator>Assign</operator>
@@ -216,7 +216,7 @@
         <name>Attribution_Count</name>
         <label>Attribution_Count</label>
         <locationX>182</locationX>
-        <locationY>815</locationY>
+        <locationY>695</locationY>
         <assignmentItems>
             <assignToReference>Count_of_children</assignToReference>
             <operator>AssignCount</operator>
@@ -232,7 +232,7 @@
         <name>Decision_Count_Under_10</name>
         <label>Decision_Count_Under_10</label>
         <locationX>182</locationX>
-        <locationY>935</locationY>
+        <locationY>815</locationY>
         <defaultConnector>
             <targetReference>Attribution_Blank_2</targetReference>
         </defaultConnector>
@@ -257,7 +257,7 @@
         <name>Decision_Has_Course</name>
         <label>Decision_Has_Course</label>
         <locationX>380</locationX>
-        <locationY>575</locationY>
+        <locationY>455</locationY>
         <defaultConnectorLabel>Résultat par défaut</defaultConnectorLabel>
         <rules>
             <name>Has_Course_Model</name>
@@ -281,12 +281,12 @@ Chaque élément est coupé après 2 caractères et concaténé dans le code cou
     <formulas>
         <name>Code_Categorie_Pedagogique</name>
         <dataType>String</dataType>
-        <expression>LEFT( TEXT ({!$Record.SIS_Pedagogical_Code__c}) , 5)</expression>
+        <expression>UPPER ( LEFT( TEXT ({!$Record.SIS_Pedagogical_Code__c}) , 5) )</expression>
     </formulas>
     <formulas>
         <name>Code_Cours</name>
         <dataType>String</dataType>
-        <expression>LEFT( {!$Record.hed__Course__r.SIS_Course_code__c} , 4)</expression>
+        <expression>UPPER( LEFT( {!$Record.hed__Course__r.SIS_Course_code__c} , 4) )</expression>
     </formulas>
     <formulas>
         <name>Count_Plus_One</name>
@@ -303,7 +303,7 @@ Chaque élément est coupé après 2 caractères et concaténé dans le code cou
     <formulas>
         <name>Discipline</name>
         <dataType>String</dataType>
-        <expression>LEFT( TEXT( {!$Record.SIS_Course_discipline__c}), 2)</expression>
+        <expression>UPPER ( LEFT( TEXT( {!$Record.SIS_Course_discipline__c}), 2) )</expression>
     </formulas>
     <formulas>
         <name>IsNew</name>
@@ -313,12 +313,12 @@ Chaque élément est coupé après 2 caractères et concaténé dans le code cou
     <formulas>
         <name>Langue_enseignement</name>
         <dataType>String</dataType>
-        <expression>LEFT( TEXT({!$Record.SIS_Course_language_teaching_code__c}) , 2 )</expression>
+        <expression>UPPER ( LEFT( TEXT({!$Record.SIS_Course_language_teaching_code__c}) , 2 ) )</expression>
     </formulas>
     <formulas>
         <name>Niveau_du_cours</name>
         <dataType>String</dataType>
-        <expression>LEFT ( TEXT( {!$Record.SIS_Cours_Level__c}), 2 )</expression>
+        <expression>UPPER ( LEFT ( TEXT( {!$Record.SIS_Cours_Level__c}), 2 ) )</expression>
     </formulas>
     <interviewLabel>[Cours]Codification du cours {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Cours]Codification du cours</label>
@@ -345,7 +345,7 @@ Chaque élément est coupé après 2 caractères et concaténé dans le code cou
         <name>Get_Course_Children</name>
         <label>Get_Course_Children</label>
         <locationX>182</locationX>
-        <locationY>695</locationY>
+        <locationY>575</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Attribution_Count</targetReference>
@@ -366,7 +366,7 @@ Chaque élément est coupé après 2 caractères et concaténé dans le code cou
         <name>Get_Modele_de_cours</name>
         <label>Get_Modele_de_cours</label>
         <locationX>380</locationX>
-        <locationY>455</locationY>
+        <locationY>335</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Decision_Has_Course</targetReference>
@@ -384,26 +384,10 @@ Chaque élément est coupé après 2 caractères et concaténé dans le code cou
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
-        <name>Update_Blank</name>
-        <label>Update_Blank</label>
-        <locationX>380</locationX>
-        <locationY>335</locationY>
-        <connector>
-            <targetReference>Get_Modele_de_cours</targetReference>
-        </connector>
-        <inputAssignments>
-            <field>SIS_Unique_Course_Code__c</field>
-            <value>
-                <stringValue></stringValue>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
-    <recordUpdates>
         <name>Update_Course_Code</name>
         <label>Update_Course_Code</label>
         <locationX>182</locationX>
-        <locationY>1391</locationY>
+        <locationY>1271</locationY>
         <inputAssignments>
             <field>SIS_Unique_Course_Code__c</field>
             <value>
@@ -416,13 +400,42 @@ Chaque élément est coupé après 2 caractères et concaténé dans le code cou
         <locationX>254</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Update_Blank</targetReference>
+            <targetReference>Get_Modele_de_cours</targetReference>
         </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>SIS_Pedagogical_Code__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>SIS_Course_language_teaching_code__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>SIS_Cours_Level__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>SIS_Course_discipline__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
         <object>hed__Course_Offering__c</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>Count_of_children</name>
         <dataType>Number</dataType>

@@ -11,18 +11,18 @@
     <gender>Feminine</gender>
     <nameFieldLabel>Reconnaissance</nameFieldLabel>
     <recordTypes>
-        <description></description>
-        <label></label>
+        <description>Une certification liée à la réussite de cours spécifiques.</description>
+        <label>Certifiant</label>
         <name>hed__Certificate</name>
     </recordTypes>
     <recordTypes>
-        <description></description>
-        <label></label>
+        <description>Une certification liée à l&apos;achèvement d&apos;un programme d&apos;études.</description>
+        <label>Qualifiant</label>
         <name>hed__Degree</name>
     </recordTypes>
     <recordTypes>
-        <description></description>
-        <label></label>
+        <description>Une certification liée à l&apos;achèvement d&apos;un programme d&apos;études, tels qu&apos;un diplôme d&apos;études secondaires aux Etats-Unis.</description>
+        <label>Diplômant</label>
         <name>hed__Diploma</name>
     </recordTypes>
     <startsWith>Consonant</startsWith>

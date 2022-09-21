@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coefficient_modalites_superieur_100</fullName>
+    <active>true</active>
+    <description>Règle de validation qui empêche l&apos;enregistrement quand lorsque le total des coefficients de modalités d&apos;évaluation est supérieur à 100. Ce total s&apos;affiche dans le champ % des modalités d&apos;évaluation.</description>
+    <errorConditionFormula>SIS_Evaluation_Methods_Final_Weight__c &gt; 100</errorConditionFormula>
+    <errorDisplayField>SIS_Evaluation_Methods_Final_Weight__c</errorDisplayField>
+    <errorMessage>Le total des coefficients des modalités d&apos;évaluation ne peut être supérieur à 100%.
+Ajustez les coefficients directement dans les modalités d&apos;évaluation relatives à ce cours..</errorMessage>
+</ValidationRule>

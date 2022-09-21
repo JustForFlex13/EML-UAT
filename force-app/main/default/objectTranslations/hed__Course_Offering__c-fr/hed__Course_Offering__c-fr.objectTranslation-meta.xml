@@ -62,6 +62,10 @@
     </quickActions>
     <startsWith>Consonant</startsWith>
     <validationRules>
+        <errorMessage></errorMessage>
+        <name>Coefficient_modalites_superieur_100</name>
+    </validationRules>
+    <validationRules>
         <errorMessage>Un syllabus est requis, merci d&apos;ajouter un responsable pédagogique pour relecture.</errorMessage>
         <name>SIS_Course_Manager_Required</name>
     </validationRules>

@@ -13,76 +13,38 @@
         <valueSetName>SIS_Langue_d_enseignement</valueSetName>
         <valueSettings>
             <controllingFieldValue>PFETU</controllingFieldValue>
-            <controllingFieldValue>SEJOU</controllingFieldValue>
-            <controllingFieldValue>STAGE</controllingFieldValue>
-            <controllingFieldValue>APREN</controllingFieldValue>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <controllingFieldValue>CCARR</controllingFieldValue>
+            <controllingFieldValue>CPROJ</controllingFieldValue>
             <controllingFieldValue>CSPOR</controllingFieldValue>
-            <controllingFieldValue>ECHAN</controllingFieldValue>
             <controllingFieldValue>EVENT</controllingFieldValue>
-            <valueName>NA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CMANG</controllingFieldValue>
-            <controllingFieldValue>CCARR</controllingFieldValue>
-            <controllingFieldValue>CLANG</controllingFieldValue>
-            <controllingFieldValue>CPROJ</controllingFieldValue>
-            <valueName>DE</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CMANG</controllingFieldValue>
-            <controllingFieldValue>CCARR</controllingFieldValue>
-            <controllingFieldValue>CLANG</controllingFieldValue>
-            <controllingFieldValue>CPROJ</controllingFieldValue>
             <valueName>EN</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>PFETU</controllingFieldValue>
             <controllingFieldValue>CMANG</controllingFieldValue>
             <controllingFieldValue>CCARR</controllingFieldValue>
-            <controllingFieldValue>CLANG</controllingFieldValue>
             <controllingFieldValue>CPROJ</controllingFieldValue>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <controllingFieldValue>EVENT</controllingFieldValue>
             <valueName>ZH</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>PFETU</controllingFieldValue>
             <controllingFieldValue>CMANG</controllingFieldValue>
             <controllingFieldValue>CCARR</controllingFieldValue>
-            <controllingFieldValue>CLANG</controllingFieldValue>
             <controllingFieldValue>CPROJ</controllingFieldValue>
-            <valueName>ES</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CMANG</controllingFieldValue>
-            <controllingFieldValue>CCARR</controllingFieldValue>
-            <controllingFieldValue>CLANG</controllingFieldValue>
-            <controllingFieldValue>CPROJ</controllingFieldValue>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <controllingFieldValue>EVENT</controllingFieldValue>
             <valueName>FR</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>CMANG</controllingFieldValue>
-            <controllingFieldValue>CCARR</controllingFieldValue>
+            <controllingFieldValue>SEJOU</controllingFieldValue>
+            <controllingFieldValue>STAGE</controllingFieldValue>
+            <controllingFieldValue>APREN</controllingFieldValue>
             <controllingFieldValue>CLANG</controllingFieldValue>
-            <controllingFieldValue>CPROJ</controllingFieldValue>
-            <valueName>IT</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CMANG</controllingFieldValue>
-            <controllingFieldValue>CCARR</controllingFieldValue>
-            <controllingFieldValue>CLANG</controllingFieldValue>
-            <controllingFieldValue>CPROJ</controllingFieldValue>
-            <valueName>JA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CMANG</controllingFieldValue>
-            <controllingFieldValue>CCARR</controllingFieldValue>
-            <controllingFieldValue>CLANG</controllingFieldValue>
-            <controllingFieldValue>CPROJ</controllingFieldValue>
-            <valueName>PT</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CMANG</controllingFieldValue>
-            <controllingFieldValue>CCARR</controllingFieldValue>
-            <controllingFieldValue>CLANG</controllingFieldValue>
-            <controllingFieldValue>CPROJ</controllingFieldValue>
-            <valueName>RU</valueName>
+            <controllingFieldValue>ECHAN</controllingFieldValue>
+            <valueName>NA</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

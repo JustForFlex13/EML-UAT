@@ -306,34 +306,439 @@
         <label>Cybersécurité</label>
     </customValue>
     <customValue>
-        <fullName>AL - Allemand</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>AL - Allemand</label>
-    </customValue>
-    <customValue>
         <fullName>FR - Français</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>FR - Français</label>
+    </customValue>
+    <customValue>
+        <fullName>ES</fullName>
+        <default>false</default>
+        <label>ES - Espagnol</label>
+    </customValue>
+    <customValue>
+        <fullName>DE</fullName>
+        <default>false</default>
+        <label>DE - Allemand</label>
+    </customValue>
+    <customValue>
+        <fullName>AR - Arabe</fullName>
+        <default>false</default>
+        <label>AR - Arabe</label>
+    </customValue>
+    <customValue>
+        <fullName>EN - Anglais</fullName>
+        <default>false</default>
+        <label>EN - Anglais</label>
+    </customValue>
+    <customValue>
+        <fullName>IT - Italien</fullName>
+        <default>false</default>
+        <label>IT - Italien</label>
+    </customValue>
+    <customValue>
+        <fullName>JA - Japonais</fullName>
+        <default>false</default>
+        <label>JA - Japonais</label>
+    </customValue>
+    <customValue>
+        <fullName>PT - Portugais</fullName>
+        <default>false</default>
+        <label>PT - Portugais</label>
+    </customValue>
+    <customValue>
+        <fullName>RU - Russe</fullName>
+        <default>false</default>
+        <label>RU - Russe</label>
+    </customValue>
+    <customValue>
+        <fullName>ZH - Chinois</fullName>
+        <default>false</default>
+        <label>ZH - Chinois</label>
     </customValue>
     <customValue>
         <fullName>NA - Non applicable</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>NA - Non applicable</label>
     </customValue>
     <customValue>
-        <fullName>FB - Football</fullName>
+        <fullName>Compétition</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>FB - Football</label>
+        <label>Compétition</label>
     </customValue>
     <customValue>
-        <fullName>ES - Espagnol</fullName>
+        <fullName>Cross Training</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>ES - Espagnol</label>
+        <label>Cross Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitness / Cardio</fullName>
+        <default>false</default>
+        <label>Fitness / Cardio</label>
+    </customValue>
+    <customValue>
+        <fullName>Badminton</fullName>
+        <default>false</default>
+        <label>Badminton</label>
+    </customValue>
+    <customValue>
+        <fullName>Loisir Et D&apos;Expression Corporelle</fullName>
+        <default>false</default>
+        <label>Loisir Et D&apos;Expression Corporelle</label>
+    </customValue>
+    <customValue>
+        <fullName>Cabaret Jazz</fullName>
+        <default>false</default>
+        <label>Cabaret Jazz</label>
+    </customValue>
+    <customValue>
+        <fullName>Modern Jazz</fullName>
+        <default>false</default>
+        <label>Modern Jazz</label>
+    </customValue>
+    <customValue>
+        <fullName>Entraînement De Cross</fullName>
+        <default>false</default>
+        <label>Entraînement De Cross</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation Physique Perso</fullName>
+        <default>false</default>
+        <label>Préparation Physique Perso</label>
+    </customValue>
+    <customValue>
+        <fullName>Rugby</fullName>
+        <default>false</default>
+        <label>Rugby</label>
+    </customValue>
+    <customValue>
+        <fullName>Running</fullName>
+        <default>false</default>
+        <label>Running</label>
+    </customValue>
+    <customValue>
+        <fullName>Salsa Bachata</fullName>
+        <default>false</default>
+        <label>Salsa Bachata</label>
+    </customValue>
+    <customValue>
+        <fullName>Self Défense</fullName>
+        <default>false</default>
+        <label>Self Défense</label>
+    </customValue>
+    <customValue>
+        <fullName>Soccer Five</fullName>
+        <default>false</default>
+        <label>Soccer Five</label>
+    </customValue>
+    <customValue>
+        <fullName>Street Jazz</fullName>
+        <default>false</default>
+        <label>Street Jazz</label>
+    </customValue>
+    <customValue>
+        <fullName>Tennis</fullName>
+        <default>false</default>
+        <label>Tennis</label>
+    </customValue>
+    <customValue>
+        <fullName>Volley-Ball</fullName>
+        <default>false</default>
+        <label>Volley-Ball</label>
+    </customValue>
+    <customValue>
+        <fullName>Yoga</fullName>
+        <default>false</default>
+        <label>Yoga</label>
+    </customValue>
+    <customValue>
+        <fullName>Arts Martiaux Mixtes</fullName>
+        <default>false</default>
+        <label>Arts Martiaux Mixtes</label>
+    </customValue>
+    <customValue>
+        <fullName>Aviron</fullName>
+        <default>false</default>
+        <label>Aviron</label>
+    </customValue>
+    <customValue>
+        <fullName>Football Masculin</fullName>
+        <default>false</default>
+        <label>Football Masculin</label>
+    </customValue>
+    <customValue>
+        <fullName>Basket Ball Féminin</fullName>
+        <default>false</default>
+        <label>Basket Ball Féminin</label>
+    </customValue>
+    <customValue>
+        <fullName>Basket-Ball</fullName>
+        <default>false</default>
+        <label>Basket-Ball</label>
+    </customValue>
+    <customValue>
+        <fullName>Basket-Ball 3 * 3</fullName>
+        <default>false</default>
+        <label>Basket-Ball 3 * 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Basketball Masculin</fullName>
+        <default>false</default>
+        <label>Basketball Masculin</label>
+    </customValue>
+    <customValue>
+        <fullName>Boxe Anglaise</fullName>
+        <default>false</default>
+        <label>Boxe Anglaise</label>
+    </customValue>
+    <customValue>
+        <fullName>Boxe Française</fullName>
+        <default>false</default>
+        <label>Boxe Française</label>
+    </customValue>
+    <customValue>
+        <fullName>Hip-Hop</fullName>
+        <default>false</default>
+        <label>Hip-Hop</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardio-Boxing</fullName>
+        <default>false</default>
+        <label>Cardio-Boxing</label>
+    </customValue>
+    <customValue>
+        <fullName>Chant</fullName>
+        <default>false</default>
+        <label>Chant</label>
+    </customValue>
+    <customValue>
+        <fullName>Cheerleading</fullName>
+        <default>false</default>
+        <label>Cheerleading</label>
+    </customValue>
+    <customValue>
+        <fullName>Modern Dance</fullName>
+        <default>false</default>
+        <label>Modern Dance</label>
+    </customValue>
+    <customValue>
+        <fullName>Equitation</fullName>
+        <default>false</default>
+        <label>Equitation</label>
+    </customValue>
+    <customValue>
+        <fullName>Escalade</fullName>
+        <default>false</default>
+        <label>Escalade</label>
+    </customValue>
+    <customValue>
+        <fullName>Escrime</fullName>
+        <default>false</default>
+        <label>Escrime</label>
+    </customValue>
+    <customValue>
+        <fullName>E-Sport</fullName>
+        <default>false</default>
+        <label>E-Sport</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitness/Cardio</fullName>
+        <default>false</default>
+        <label>Fitness/Cardio</label>
+    </customValue>
+    <customValue>
+        <fullName>Football Féminin</fullName>
+        <default>false</default>
+        <label>Football Féminin</label>
+    </customValue>
+    <customValue>
+        <fullName>Musculation</fullName>
+        <default>false</default>
+        <label>Musculation</label>
+    </customValue>
+    <customValue>
+        <fullName>Futsal</fullName>
+        <default>false</default>
+        <label>Futsal</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf</fullName>
+        <default>false</default>
+        <label>Golf</label>
+    </customValue>
+    <customValue>
+        <fullName>Hand Ball Loisir</fullName>
+        <default>false</default>
+        <label>Hand Ball Loisir</label>
+    </customValue>
+    <customValue>
+        <fullName>Handball Féminin</fullName>
+        <default>false</default>
+        <label>Handball Féminin</label>
+    </customValue>
+    <customValue>
+        <fullName>Handball Masculin</fullName>
+        <default>false</default>
+        <label>Handball Masculin</label>
+    </customValue>
+    <customValue>
+        <fullName>Hatha Yoga</fullName>
+        <default>false</default>
+        <label>Hatha Yoga</label>
+    </customValue>
+    <customValue>
+        <fullName>Hiit</fullName>
+        <default>false</default>
+        <label>Hiit</label>
+    </customValue>
+    <customValue>
+        <fullName>Jeux D&apos;Échecs</fullName>
+        <default>false</default>
+        <label>Jeux D&apos;Échecs</label>
+    </customValue>
+    <customValue>
+        <fullName>Judo</fullName>
+        <default>false</default>
+        <label>Judo</label>
+    </customValue>
+    <customValue>
+        <fullName>Karaté</fullName>
+        <default>false</default>
+        <label>Karaté</label>
+    </customValue>
+    <customValue>
+        <fullName>La Voix : Outil De Communication Efficace</fullName>
+        <default>false</default>
+        <label>La Voix : Outil De Communication Efficace</label>
+    </customValue>
+    <customValue>
+        <fullName>Natation</fullName>
+        <default>false</default>
+        <label>Natation</label>
+    </customValue>
+    <customValue>
+        <fullName>Pilates</fullName>
+        <default>false</default>
+        <label>Pilates</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation Ski</fullName>
+        <default>false</default>
+        <label>Préparation Ski</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation Trail/Raid</fullName>
+        <default>false</default>
+        <label>Préparation Trail/Raid</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation Voile</fullName>
+        <default>false</default>
+        <label>Préparation Voile</label>
+    </customValue>
+    <customValue>
+        <fullName>Rattrapage Sports</fullName>
+        <default>false</default>
+        <label>Rattrapage Sports</label>
+    </customValue>
+    <customValue>
+        <fullName>Renforcement Musculaire</fullName>
+        <default>false</default>
+        <label>Renforcement Musculaire</label>
+    </customValue>
+    <customValue>
+        <fullName>Rock</fullName>
+        <default>false</default>
+        <label>Rock</label>
+    </customValue>
+    <customValue>
+        <fullName>Rugby Féminin</fullName>
+        <default>false</default>
+        <label>Rugby Féminin</label>
+    </customValue>
+    <customValue>
+        <fullName>Rugby Masculin</fullName>
+        <default>false</default>
+        <label>Rugby Masculin</label>
+    </customValue>
+    <customValue>
+        <fullName>Running Découverte Lyon</fullName>
+        <default>false</default>
+        <label>Running Découverte Lyon</label>
+    </customValue>
+    <customValue>
+        <fullName>Salsa</fullName>
+        <default>false</default>
+        <label>Salsa</label>
+    </customValue>
+    <customValue>
+        <fullName>Self Defense</fullName>
+        <default>false</default>
+        <label>Self Defense</label>
+    </customValue>
+    <customValue>
+        <fullName>Soccer</fullName>
+        <default>false</default>
+        <label>Soccer</label>
+    </customValue>
+    <customValue>
+        <fullName>Sophrologie</fullName>
+        <default>false</default>
+        <label>Sophrologie</label>
+    </customValue>
+    <customValue>
+        <fullName>Tennis Compétition</fullName>
+        <default>false</default>
+        <label>Tennis Compétition</label>
+    </customValue>
+    <customValue>
+        <fullName>Tennis Loisir</fullName>
+        <default>false</default>
+        <label>Tennis Loisir</label>
+    </customValue>
+    <customValue>
+        <fullName>Tennis Padel</fullName>
+        <default>false</default>
+        <label>Tennis Padel</label>
+    </customValue>
+    <customValue>
+        <fullName>Théâtre D&apos;Improvisation</fullName>
+        <default>false</default>
+        <label>Théâtre D&apos;Improvisation</label>
+    </customValue>
+    <customValue>
+        <fullName>Volley-Ball Masculin</fullName>
+        <default>false</default>
+        <label>Volley-Ball Masculin</label>
+    </customValue>
+    <customValue>
+        <fullName>Volley-Ball Féminin</fullName>
+        <default>false</default>
+        <label>Volley-Ball Féminin</label>
+    </customValue>
+    <customValue>
+        <fullName>Volley-Ball Loisir</fullName>
+        <default>false</default>
+        <label>Volley-Ball Loisir</label>
+    </customValue>
+    <customValue>
+        <fullName>Water-Polo</fullName>
+        <default>false</default>
+        <label>Water-Polo</label>
+    </customValue>
+    <customValue>
+        <fullName>Yoga Santé</fullName>
+        <default>false</default>
+        <label>Yoga Santé</label>
+    </customValue>
+    <customValue>
+        <fullName>Zumba</fullName>
+        <default>false</default>
+        <label>Zumba</label>
+    </customValue>
+    <customValue>
+        <fullName>Théâtre</fullName>
+        <default>false</default>
+        <label>Théâtre</label>
     </customValue>
     <description>Liste de sélection des disciplines du cours. Utilisé pour la nouvelle codification des cours.</description>
     <masterLabel>Discipline</masterLabel>

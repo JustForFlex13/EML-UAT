@@ -163,7 +163,7 @@
     <label>Heure d&apos;apprentissage</label>
     <nameField>
         <displayFormat>LH-{0000}</displayFormat>
-        <label>Record Name</label>
+        <label>Nom de l&apos;enregistrement</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>

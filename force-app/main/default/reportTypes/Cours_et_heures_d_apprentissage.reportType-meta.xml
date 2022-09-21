@@ -440,6 +440,21 @@
             <field>SIS_Unique_Course_Code__c</field>
             <table>hed__Course_Offering__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SIS_Course_Manager_contact__c</field>
+            <table>hed__Course_Offering__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SIS_Evaluation_Methods_Final_Weight__c</field>
+            <table>hed__Course_Offering__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SIS_completion_method_indicator__c</field>
+            <table>hed__Course_Offering__c</table>
+        </columns>
         <masterLabel>Cours</masterLabel>
     </sections>
     <sections>

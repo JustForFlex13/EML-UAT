@@ -687,6 +687,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>hed__Course_Offering__c.SIS_Teaching_language__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>hed__Course_Offering__c.SIS_Tech_A_Relancer__c</field>
         <readable>true</readable>
     </fieldPermissions>

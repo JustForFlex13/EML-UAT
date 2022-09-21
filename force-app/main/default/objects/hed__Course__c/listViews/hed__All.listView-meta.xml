@@ -3,6 +3,8 @@
     <fullName>hed__All</fullName>
     <columns>NAME</columns>
     <columns>SIS_Syllabus_required__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

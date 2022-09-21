@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Comptabilité, audit externe</fullName>
+        <default>false</default>
+        <label>Comptabilité, audit externe</label>
+    </customValue>
+    <customValue>
+        <fullName>Contrôle de gestion, audit interne</fullName>
+        <default>false</default>
+        <label>Contrôle de gestion, audit interne</label>
+    </customValue>
+    <customValue>
+        <fullName>Actuariat</fullName>
+        <default>false</default>
+        <label>Actuariat</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion des établissements culturels</fullName>
+        <default>false</default>
+        <label>Gestion des établissements culturels</label>
+    </customValue>
+    <customValue>
+        <fullName>Comportement des organisations</fullName>
+        <default>false</default>
+        <label>Comportement des organisations</label>
+    </customValue>
+    <customValue>
+        <fullName>Sociologie, philosophie</fullName>
+        <default>false</default>
+        <label>Sociologie, philosophie</label>
+    </customValue>
+    <customValue>
+        <fullName>Communication</fullName>
+        <default>false</default>
+        <label>Communication</label>
+    </customValue>
+    <customValue>
+        <fullName>Management des réseaux sociaux</fullName>
+        <default>false</default>
+        <label>Management des réseaux sociaux</label>
+    </customValue>
+    <customValue>
+        <fullName>RSE</fullName>
+        <default>false</default>
+        <label>RSE</label>
+    </customValue>
+    <customValue>
+        <fullName>Droit des sociétés</fullName>
+        <default>false</default>
+        <label>Droit des sociétés</label>
+    </customValue>
+    <customValue>
+        <fullName>Droit social, Droit du travail</fullName>
+        <default>false</default>
+        <label>Droit social, Droit du travail</label>
+    </customValue>
+    <customValue>
+        <fullName>Propriété intellectuelle</fullName>
+        <default>false</default>
+        <label>Propriété intellectuelle</label>
+    </customValue>
+    <customValue>
+        <fullName>Management des systèmes d’informations</fullName>
+        <default>false</default>
+        <label>Management des systèmes d’informations</label>
+    </customValue>
+    <customValue>
+        <fullName>Conseil</fullName>
+        <default>false</default>
+        <label>Conseil</label>
+    </customValue>
+    <customValue>
+        <fullName>Data science</fullName>
+        <default>false</default>
+        <label>Data science</label>
+    </customValue>
+    <customValue>
+        <fullName>Intelligence artificielle</fullName>
+        <default>false</default>
+        <label>Intelligence artificielle</label>
+    </customValue>
+    <customValue>
+        <fullName>E-business et e-commerce</fullName>
+        <default>false</default>
+        <label>E-business et e-commerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Economie internationale</fullName>
+        <default>false</default>
+        <label>Economie internationale</label>
+    </customValue>
+    <customValue>
+        <fullName>Economie sociale et solidaire</fullName>
+        <default>false</default>
+        <label>Economie sociale et solidaire</label>
+    </customValue>
+    <customValue>
+        <fullName>Micro économie</fullName>
+        <default>false</default>
+        <label>Micro économie</label>
+    </customValue>
+    <customValue>
+        <fullName>Macro économie</fullName>
+        <default>false</default>
+        <label>Macro économie</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion des énergies</fullName>
+        <default>false</default>
+        <label>Gestion des énergies</label>
+    </customValue>
+    <customValue>
+        <fullName>Entrepreneuriat social</fullName>
+        <default>false</default>
+        <label>Entrepreneuriat social</label>
+    </customValue>
+    <customValue>
+        <fullName>Entrepreneuriat</fullName>
+        <default>false</default>
+        <label>Entrepreneuriat</label>
+    </customValue>
+    <customValue>
+        <fullName>Intrapreneuriat</fullName>
+        <default>false</default>
+        <label>Intrapreneuriat</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance de marché</fullName>
+        <default>false</default>
+        <label>Finance de marché</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance entrepreneuriale</fullName>
+        <default>false</default>
+        <label>Finance entrepreneuriale</label>
+    </customValue>
+    <customValue>
+        <fullName>Financements structurés</fullName>
+        <default>false</default>
+        <label>Financements structurés</label>
+    </customValue>
+    <customValue>
+        <fullName>Fonds d’investissement et capital-risque</fullName>
+        <default>false</default>
+        <label>Fonds d’investissement et capital-risque</label>
+    </customValue>
+    <customValue>
+        <fullName>Fusions et acquisitions</fullName>
+        <default>false</default>
+        <label>Fusions et acquisitions</label>
+    </customValue>
+    <customValue>
+        <fullName>Trésorerie d’entreprise</fullName>
+        <default>false</default>
+        <label>Trésorerie d’entreprise</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion des organisations</fullName>
+        <default>false</default>
+        <label>Gestion des organisations</label>
+    </customValue>
+    <customValue>
+        <fullName>Gouvernance d&apos;entreprise</fullName>
+        <default>false</default>
+        <label>Gouvernance d&apos;entreprise</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion des Services de santé</fullName>
+        <default>false</default>
+        <label>Gestion des Services de santé</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion de l&apos;Hôtellerie, restauration, tourisme</fullName>
+        <default>false</default>
+        <label>Gestion de l&apos;Hôtellerie, restauration, tourisme</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion des Ressources humaines</fullName>
+        <default>false</default>
+        <label>Gestion des Ressources humaines</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion des prestations d&apos;assurance</fullName>
+        <default>false</default>
+        <label>Gestion des prestations d&apos;assurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Commerce international</fullName>
+        <default>false</default>
+        <label>Commerce international</label>
+    </customValue>
+    <customValue>
+        <fullName>Développement personnel et leadership</fullName>
+        <default>false</default>
+        <label>Développement personnel et leadership</label>
+    </customValue>
+    <customValue>
+        <fullName>Management du changement</fullName>
+        <default>false</default>
+        <label>Management du changement</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion des ventes et des équipes commerciales</fullName>
+        <default>false</default>
+        <label>Gestion des ventes et des équipes commerciales</label>
+    </customValue>
+    <customValue>
+        <fullName>Management de l’innovation</fullName>
+        <default>false</default>
+        <label>Management de l’innovation</label>
+    </customValue>
+    <customValue>
+        <fullName>Techniques de négociation</fullName>
+        <default>false</default>
+        <label>Techniques de négociation</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion de crise</fullName>
+        <default>false</default>
+        <label>Gestion de crise</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing B to C</fullName>
+        <default>false</default>
+        <label>Marketing B to C</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Digital</fullName>
+        <default>false</default>
+        <label>Marketing Digital</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing stratégique</fullName>
+        <default>false</default>
+        <label>Marketing stratégique</label>
+    </customValue>
+    <customValue>
+        <fullName>Achats, Marketing B to B</fullName>
+        <default>false</default>
+        <label>Achats, Marketing B to B</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion des opérations</fullName>
+        <default>false</default>
+        <label>Gestion des opérations</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion du secteur public</fullName>
+        <default>false</default>
+        <label>Gestion du secteur public</label>
+    </customValue>
+    <customValue>
+        <fullName>Méthodes quantitatives</fullName>
+        <default>false</default>
+        <label>Méthodes quantitatives</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion de l&apos;industrie du sport</fullName>
+        <default>false</default>
+        <label>Gestion de l&apos;industrie du sport</label>
+    </customValue>
+    <customValue>
+        <fullName>Mathématiques et statistiques</fullName>
+        <default>false</default>
+        <label>Mathématiques et statistiques</label>
+    </customValue>
+    <customValue>
+        <fullName>Stratégie</fullName>
+        <default>false</default>
+        <label>Stratégie</label>
+    </customValue>
+    <customValue>
+        <fullName>Gestion des risques</fullName>
+        <default>false</default>
+        <label>Gestion des risques</label>
+    </customValue>
+    <customValue>
+        <fullName>Supply chain</fullName>
+        <default>false</default>
+        <label>Supply chain</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiscalité</fullName>
+        <default>false</default>
+        <label>Fiscalité</label>
+    </customValue>
+    <customValue>
+        <fullName>Géopolitique</fullName>
+        <default>false</default>
+        <label>Géopolitique</label>
+    </customValue>
+    <customValue>
+        <fullName>Qualité</fullName>
+        <default>false</default>
+        <label>Qualité</label>
+    </customValue>
+    <customValue>
+        <fullName>Ethique</fullName>
+        <default>false</default>
+        <label>Ethique</label>
+    </customValue>
+    <customValue>
+        <fullName>Cybersécurité</fullName>
+        <default>false</default>
+        <label>Cybersécurité</label>
+    </customValue>
+    <customValue>
+        <fullName>AR - Arabe</fullName>
+        <default>false</default>
+        <label>AR - Arabe</label>
+    </customValue>
+    <customValue>
+        <fullName>DE - Allemand</fullName>
+        <default>false</default>
+        <label>DE - Allemand</label>
+    </customValue>
+    <customValue>
+        <fullName>EN - Anglais</fullName>
+        <default>false</default>
+        <label>EN - Anglais</label>
+    </customValue>
+    <customValue>
+        <fullName>ES - Espagnol</fullName>
+        <default>false</default>
+        <label>ES - Espagnol</label>
+    </customValue>
+    <customValue>
+        <fullName>FR - Français</fullName>
+        <default>false</default>
+        <label>FR - Français</label>
+    </customValue>
+    <customValue>
+        <fullName>IT - Italien</fullName>
+        <default>false</default>
+        <label>IT - Italien</label>
+    </customValue>
+    <customValue>
+        <fullName>JA - Japonais</fullName>
+        <default>false</default>
+        <label>JA - Japonais</label>
+    </customValue>
+    <customValue>
+        <fullName>PT - Portugais</fullName>
+        <default>false</default>
+        <label>PT - Portugais</label>
+    </customValue>
+    <customValue>
+        <fullName>RU - Russe</fullName>
+        <default>false</default>
+        <label>RU - Russe</label>
+    </customValue>
+    <customValue>
+        <fullName>ZH - Chinois</fullName>
+        <default>false</default>
+        <label>ZH - Chinois</label>
+    </customValue>
+    <customValue>
+        <fullName>Compétition</fullName>
+        <default>false</default>
+        <label>Compétition</label>
+    </customValue>
+    <customValue>
+        <fullName>Cross Training</fullName>
+        <default>false</default>
+        <label>Cross Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitness / Cardio</fullName>
+        <default>false</default>
+        <label>Fitness / Cardio</label>
+    </customValue>
+    <customValue>
+        <fullName>Badminton</fullName>
+        <default>false</default>
+        <label>Badminton</label>
+    </customValue>
+    <customValue>
+        <fullName>Loisir Et D&apos;Expression Corporelle</fullName>
+        <default>false</default>
+        <label>Loisir Et D&apos;Expression Corporelle</label>
+    </customValue>
+    <customValue>
+        <fullName>Cabaret Jazz</fullName>
+        <default>false</default>
+        <label>Cabaret Jazz</label>
+    </customValue>
+    <customValue>
+        <fullName>Modern Jazz</fullName>
+        <default>false</default>
+        <label>Modern Jazz</label>
+    </customValue>
+    <customValue>
+        <fullName>Entraînement De Cross</fullName>
+        <default>false</default>
+        <label>Entraînement De Cross</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation Physique Perso</fullName>
+        <default>false</default>
+        <label>Préparation Physique Perso</label>
+    </customValue>
+    <customValue>
+        <fullName>Rugby</fullName>
+        <default>false</default>
+        <label>Rugby</label>
+    </customValue>
+    <customValue>
+        <fullName>Running</fullName>
+        <default>false</default>
+        <label>Running</label>
+    </customValue>
+    <customValue>
+        <fullName>Salsa Bachata</fullName>
+        <default>false</default>
+        <label>Salsa Bachata</label>
+    </customValue>
+    <customValue>
+        <fullName>Self Défense</fullName>
+        <default>false</default>
+        <label>Self Défense</label>
+    </customValue>
+    <customValue>
+        <fullName>Soccer Five</fullName>
+        <default>false</default>
+        <label>Soccer Five</label>
+    </customValue>
+    <customValue>
+        <fullName>Street Jazz</fullName>
+        <default>false</default>
+        <label>Street Jazz</label>
+    </customValue>
+    <customValue>
+        <fullName>Tennis</fullName>
+        <default>false</default>
+        <label>Tennis</label>
+    </customValue>
+    <customValue>
+        <fullName>Volley-Ball</fullName>
+        <default>false</default>
+        <label>Volley-Ball</label>
+    </customValue>
+    <customValue>
+        <fullName>Yoga</fullName>
+        <default>false</default>
+        <label>Yoga</label>
+    </customValue>
+    <customValue>
+        <fullName>Arts Martiaux Mixtes</fullName>
+        <default>false</default>
+        <label>Arts Martiaux Mixtes</label>
+    </customValue>
+    <customValue>
+        <fullName>Aviron</fullName>
+        <default>false</default>
+        <label>Aviron</label>
+    </customValue>
+    <customValue>
+        <fullName>Football Masculin</fullName>
+        <default>false</default>
+        <label>Football Masculin</label>
+    </customValue>
+    <customValue>
+        <fullName>Basket Ball Féminin</fullName>
+        <default>false</default>
+        <label>Basket Ball Féminin</label>
+    </customValue>
+    <customValue>
+        <fullName>Basket-Ball</fullName>
+        <default>false</default>
+        <label>Basket-Ball</label>
+    </customValue>
+    <customValue>
+        <fullName>Basket-Ball 3 * 3</fullName>
+        <default>false</default>
+        <label>Basket-Ball 3 * 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Basketball Masculin</fullName>
+        <default>false</default>
+        <label>Basketball Masculin</label>
+    </customValue>
+    <customValue>
+        <fullName>Boxe Anglaise</fullName>
+        <default>false</default>
+        <label>Boxe Anglaise</label>
+    </customValue>
+    <customValue>
+        <fullName>Boxe Française</fullName>
+        <default>false</default>
+        <label>Boxe Française</label>
+    </customValue>
+    <customValue>
+        <fullName>Hip-Hop</fullName>
+        <default>false</default>
+        <label>Hip-Hop</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardio-Boxing</fullName>
+        <default>false</default>
+        <label>Cardio-Boxing</label>
+    </customValue>
+    <customValue>
+        <fullName>Chant</fullName>
+        <default>false</default>
+        <label>Chant</label>
+    </customValue>
+    <customValue>
+        <fullName>Cheerleading</fullName>
+        <default>false</default>
+        <label>Cheerleading</label>
+    </customValue>
+    <customValue>
+        <fullName>Modern Dance</fullName>
+        <default>false</default>
+        <label>Modern Dance</label>
+    </customValue>
+    <customValue>
+        <fullName>Equitation</fullName>
+        <default>false</default>
+        <label>Equitation</label>
+    </customValue>
+    <customValue>
+        <fullName>Escalade</fullName>
+        <default>false</default>
+        <label>Escalade</label>
+    </customValue>
+    <customValue>
+        <fullName>Escrime</fullName>
+        <default>false</default>
+        <label>Escrime</label>
+    </customValue>
+    <customValue>
+        <fullName>E-Sport</fullName>
+        <default>false</default>
+        <label>E-Sport</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitness/Cardio</fullName>
+        <default>false</default>
+        <label>Fitness/Cardio</label>
+    </customValue>
+    <customValue>
+        <fullName>Football Féminin</fullName>
+        <default>false</default>
+        <label>Football Féminin</label>
+    </customValue>
+    <customValue>
+        <fullName>Musculation</fullName>
+        <default>false</default>
+        <label>Musculation</label>
+    </customValue>
+    <customValue>
+        <fullName>Futsal</fullName>
+        <default>false</default>
+        <label>Futsal</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf</fullName>
+        <default>false</default>
+        <label>Golf</label>
+    </customValue>
+    <customValue>
+        <fullName>Hand Ball Loisir</fullName>
+        <default>false</default>
+        <label>Hand Ball Loisir</label>
+    </customValue>
+    <customValue>
+        <fullName>Handball Féminin</fullName>
+        <default>false</default>
+        <label>Handball Féminin</label>
+    </customValue>
+    <customValue>
+        <fullName>Handball Masculin</fullName>
+        <default>false</default>
+        <label>Handball Masculin</label>
+    </customValue>
+    <customValue>
+        <fullName>Hatha Yoga</fullName>
+        <default>false</default>
+        <label>Hatha Yoga</label>
+    </customValue>
+    <customValue>
+        <fullName>Hiit</fullName>
+        <default>false</default>
+        <label>Hiit</label>
+    </customValue>
+    <customValue>
+        <fullName>Jeux D&apos;Échecs</fullName>
+        <default>false</default>
+        <label>Jeux D&apos;Échecs</label>
+    </customValue>
+    <customValue>
+        <fullName>Judo</fullName>
+        <default>false</default>
+        <label>Judo</label>
+    </customValue>
+    <customValue>
+        <fullName>Karaté</fullName>
+        <default>false</default>
+        <label>Karaté</label>
+    </customValue>
+    <customValue>
+        <fullName>La Voix : Outil De Communication Efficace</fullName>
+        <default>false</default>
+        <label>La Voix : Outil De Communication Efficace</label>
+    </customValue>
+    <customValue>
+        <fullName>Natation</fullName>
+        <default>false</default>
+        <label>Natation</label>
+    </customValue>
+    <customValue>
+        <fullName>Pilates</fullName>
+        <default>false</default>
+        <label>Pilates</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation Ski</fullName>
+        <default>false</default>
+        <label>Préparation Ski</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation Trail/Raid</fullName>
+        <default>false</default>
+        <label>Préparation Trail/Raid</label>
+    </customValue>
+    <customValue>
+        <fullName>Préparation Voile</fullName>
+        <default>false</default>
+        <label>Préparation Voile</label>
+    </customValue>
+    <customValue>
+        <fullName>Rattrapage Sports</fullName>
+        <default>false</default>
+        <label>Rattrapage Sports</label>
+    </customValue>
+    <customValue>
+        <fullName>Renforcement Musculaire</fullName>
+        <default>false</default>
+        <label>Renforcement Musculaire</label>
+    </customValue>
+    <customValue>
+        <fullName>Rock</fullName>
+        <default>false</default>
+        <label>Rock</label>
+    </customValue>
+    <customValue>
+        <fullName>Rugby Féminin</fullName>
+        <default>false</default>
+        <label>Rugby Féminin</label>
+    </customValue>
+    <customValue>
+        <fullName>Rugby Masculin</fullName>
+        <default>false</default>
+        <label>Rugby Masculin</label>
+    </customValue>
+    <customValue>
+        <fullName>Running Découverte Lyon</fullName>
+        <default>false</default>
+        <label>Running Découverte Lyon</label>
+    </customValue>
+    <customValue>
+        <fullName>Salsa</fullName>
+        <default>false</default>
+        <label>Salsa</label>
+    </customValue>
+    <customValue>
+        <fullName>Self Defense</fullName>
+        <default>false</default>
+        <label>Self Defense</label>
+    </customValue>
+    <customValue>
+        <fullName>Soccer</fullName>
+        <default>false</default>
+        <label>Soccer</label>
+    </customValue>
+    <customValue>
+        <fullName>Sophrologie</fullName>
+        <default>false</default>
+        <label>Sophrologie</label>
+    </customValue>
+    <customValue>
+        <fullName>Tennis Compétition</fullName>
+        <default>false</default>
+        <label>Tennis Compétition</label>
+    </customValue>
+    <customValue>
+        <fullName>Tennis Loisir</fullName>
+        <default>false</default>
+        <label>Tennis Loisir</label>
+    </customValue>
+    <customValue>
+        <fullName>Tennis Padel</fullName>
+        <default>false</default>
+        <label>Tennis Padel</label>
+    </customValue>
+    <customValue>
+        <fullName>Théâtre D&apos;Improvisation</fullName>
+        <default>false</default>
+        <label>Théâtre D&apos;Improvisation</label>
+    </customValue>
+    <customValue>
+        <fullName>Volley-Ball Masculin</fullName>
+        <default>false</default>
+        <label>Volley-Ball Masculin</label>
+    </customValue>
+    <customValue>
+        <fullName>Volley-Ball Féminin</fullName>
+        <default>false</default>
+        <label>Volley-Ball Féminin</label>
+    </customValue>
+    <customValue>
+        <fullName>Volley-Ball Loisir</fullName>
+        <default>false</default>
+        <label>Volley-Ball Loisir</label>
+    </customValue>
+    <customValue>
+        <fullName>Water-Polo</fullName>
+        <default>false</default>
+        <label>Water-Polo</label>
+    </customValue>
+    <customValue>
+        <fullName>Yoga Santé</fullName>
+        <default>false</default>
+        <label>Yoga Santé</label>
+    </customValue>
+    <customValue>
+        <fullName>Zumba</fullName>
+        <default>false</default>
+        <label>Zumba</label>
+    </customValue>
+    <customValue>
+        <fullName>Théâtre</fullName>
+        <default>false</default>
+        <label>Théâtre</label>
+    </customValue>
+    <customValue>
+        <fullName>NA - Non applicable</fullName>
+        <default>false</default>
+        <label>NA - Non applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>Social Sciences and Humanities</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Social Sciences and Humanities</label>
+    </customValue>
+    <customValue>
+        <fullName>Quantitative finance &amp; economics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Quantitative finance &amp; economics</label>
+    </customValue>
+    <customValue>
+        <fullName>Operations, Data et Artificial Intelligence (ODAI) for business</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Operations, Data et Artificial Intelligence (ODAI) for business</label>
+    </customValue>
+    <customValue>
+        <fullName>LEAD OB &amp;d Leadership</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LEAD OB &amp;d Leadership</label>
+    </customValue>
+    <customValue>
+        <fullName>Innovation &amp; Entrepreneurship</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Innovation &amp; Entrepreneurship</label>
+    </customValue>
+    <customValue>
+        <fullName>Human relations &amp; regulations</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Human relations &amp; regulations</label>
+    </customValue>
+    <customValue>
+        <fullName>Accounting &amp; Finance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Accounting &amp; Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Sport Management</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sport Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategy &amp; business models</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Strategy &amp; business models</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Marketing</label>
+    </customValue>
+    <description>Picklist de sélection de la discipline du cours utilisée pour la codification unique du cours.</description>
+    <masterLabel>Discipline_du_cours</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

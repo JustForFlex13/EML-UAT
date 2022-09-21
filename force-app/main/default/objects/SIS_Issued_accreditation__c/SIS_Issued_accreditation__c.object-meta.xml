@@ -162,7 +162,7 @@
     <gender>Feminine</gender>
     <label>Accréditation délivrée</label>
     <nameField>
-        <label>Accréditation délivrée</label>
+        <label>Nom de l&apos;enregistrement</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Text</type>

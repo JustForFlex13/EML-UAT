@@ -3,57 +3,57 @@
     <customValue>
         <fullName>APREN</fullName>
         <default>false</default>
-        <label>APREN</label>
+        <label>APREN - Apprentissage</label>
     </customValue>
     <customValue>
         <fullName>CCARR</fullName>
         <default>false</default>
-        <label>CCARR</label>
+        <label>CCARR - Cours Carrière</label>
     </customValue>
     <customValue>
         <fullName>CLANG</fullName>
         <default>false</default>
-        <label>CLANG - Cours de langue</label>
+        <label>CLANG - Cours de Langue</label>
     </customValue>
     <customValue>
         <fullName>CMANG</fullName>
         <default>false</default>
-        <label>CMANG - Cours de management</label>
+        <label>CMANG - Cours de Management</label>
     </customValue>
     <customValue>
         <fullName>CPROJ</fullName>
         <default>false</default>
-        <label>CPROJ - Cours projet</label>
+        <label>CPROJ - Cours Projet</label>
     </customValue>
     <customValue>
         <fullName>CSPOR</fullName>
         <default>false</default>
-        <label>CSPOR - Cours de sport</label>
+        <label>CSPOR - Cours de Sport</label>
     </customValue>
     <customValue>
         <fullName>ECHAN</fullName>
         <default>false</default>
-        <label>ECHAN</label>
+        <label>ECHAN - Période à l&apos;international</label>
     </customValue>
     <customValue>
         <fullName>EVENT</fullName>
         <default>false</default>
-        <label>EVENT</label>
+        <label>EVENT - Evènement</label>
     </customValue>
     <customValue>
         <fullName>PFETU</fullName>
         <default>false</default>
-        <label>PFETU</label>
+        <label>PFETU - Projet de fin d&apos;Etudes</label>
     </customValue>
     <customValue>
         <fullName>SEJOU</fullName>
         <default>false</default>
-        <label>SEJOU</label>
+        <label>SEJOU - Séjour à l&apos;international</label>
     </customValue>
     <customValue>
         <fullName>STAGE</fullName>
         <default>false</default>
-        <label>STAGE</label>
+        <label>STAGE - Stage</label>
     </customValue>
     <description>Code de la catégorie pédagogique utilisée dans le cours et le modèle de cours. Utilisé pour la nouvelle codification des cours.</description>
     <masterLabel>Code catégorie pédagogique</masterLabel>

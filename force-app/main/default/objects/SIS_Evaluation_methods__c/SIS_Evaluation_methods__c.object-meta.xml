@@ -162,7 +162,7 @@
     <gender>Feminine</gender>
     <label>Modalité d&apos;évaluation</label>
     <nameField>
-        <label>Modalité d&apos;évaluation</label>
+        <label>Nom de la modalité</label>
         <trackHistory>true</trackHistory>
         <type>Text</type>
     </nameField>

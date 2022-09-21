@@ -400,26 +400,6 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.SIS_Teaching_language__c</fieldItem>
-                <identifier>RecordSIS_Teaching_language_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.SIS_Course_language_teaching_code__c</fieldItem>
-                <identifier>RecordSIS_Course_language_teaching_code_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.SIS_ECTS_Credit_number__c</fieldItem>
                 <identifier>RecordSIS_ECTS_Credit_number_cField</identifier>
             </fieldInstance>
@@ -448,10 +428,10 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>readonly</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.SIS_Pedagogical_Code__c</fieldItem>
-                <identifier>RecordSIS_Pedagogical_Code_cField</identifier>
+                <fieldItem>Record.SIS_Course_creation_date__c</fieldItem>
+                <identifier>RecordSIS_Course_creation_date_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -460,18 +440,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.SIS_Cours_Level__c</fieldItem>
-                <identifier>RecordSIS_Cours_Level_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.SIS_Unique_Course_Code__c</fieldItem>
-                <identifier>RecordSIS_Unique_Course_Code_cField</identifier>
+                <fieldItem>Record.SIS_Course_obligation_status__c</fieldItem>
+                <identifier>RecordSIS_Course_obligation_status_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-afaad5b1-e9d6-4c48-97cd-c063c352ee17</name>
@@ -551,18 +521,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.SIS_Course_creation_date__c</fieldItem>
-                <identifier>RecordSIS_Course_creation_date_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.SIS_Course_obligation_status__c</fieldItem>
-                <identifier>RecordSIS_Course_obligation_status_cField</identifier>
+                <fieldItem>Record.SIS_Course_Manager_contact__c</fieldItem>
+                <identifier>RecordSIS_Course_Manager_contact_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-ec64fdde-564d-43ed-9b95-dff17b3a296a</name>
@@ -597,6 +557,88 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.SIS_Pedagogical_Code__c</fieldItem>
+                <identifier>RecordSIS_Pedagogical_Code_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.SIS_Cours_Level__c</fieldItem>
+                <identifier>RecordSIS_Cours_Level_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.SIS_Unique_Course_Code__c</fieldItem>
+                <identifier>RecordSIS_Unique_Course_Code_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-1fc6ba1d-6486-4286-97c4-d8684b28c48d</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.SIS_Course_language_teaching_code__c</fieldItem>
+                <identifier>RecordSIS_Course_language_teaching_code_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.SIS_Course_discipline__c</fieldItem>
+                <identifier>RecordSIS_Course_discipline_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-31c5b4d1-596f-4f55-903c-191261d5035d</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-1fc6ba1d-6486-4286-97c4-d8684b28c48d</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column18</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-31c5b4d1-596f-4f55-903c-191261d5035d</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column19</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-a4bbe004-1a86-42fb-aadc-699fc602ccae</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
                     <value>required</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.SIS_Description__c</fieldItem>
@@ -611,16 +653,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.SIS_Course_rules__c</fieldItem>
                 <identifier>RecordSIS_Course_rules_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.SIS_Course_discipline__c</fieldItem>
-                <identifier>RecordSIS_Course_discipline_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-8e6a3ec0-76c9-4146-80d5-2254bcc00268</name>
@@ -913,6 +945,26 @@
                 <identifier>RecordSIS_Test_result_is_a_numerical_score_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.SIS_Evaluation_Methods_Final_Weight__c</fieldItem>
+                <identifier>RecordSIS_Evaluation_Methods_Final_Weight_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.SIS_completion_method_indicator__c</fieldItem>
+                <identifier>RecordSIS_completion_method_indicator_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-ab959d51-f0dc-4305-ad4c-cf41635b3db2</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -1059,6 +1111,20 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-a4bbe004-1a86-42fb-aadc-699fc602ccae</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>Codification du cours</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:fieldSection</componentName>
+                <identifier>flexipage_fieldSection10</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>

@@ -59,6 +59,10 @@
     <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage></errorMessage>
+        <name>Coefficient_modalites_superieur_100</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
         <name>SIS_Course_Manager_Required</name>
     </validationRules>
 </CustomObjectTranslation>

@@ -1,12 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <valueTranslation>
+        <masterLabel>AR - Arabe</masterLabel>
+        <translation><!-- AR - Arabe --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Achats, Marketing B to B</masterLabel>
         <translation>Purchasing, B to B marketing</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Actuariat</masterLabel>
         <translation>Actuarial science</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Arts Martiaux Mixtes</masterLabel>
+        <translation><!-- Arts Martiaux Mixtes --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aviron</masterLabel>
+        <translation><!-- Aviron --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Badminton</masterLabel>
+        <translation><!-- Badminton --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Basket Ball Féminin</masterLabel>
+        <translation><!-- Basket Ball Féminin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Basket-Ball</masterLabel>
+        <translation><!-- Basket-Ball --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Basket-Ball 3 * 3</masterLabel>
+        <translation><!-- Basket-Ball 3 * 3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Basketball Masculin</masterLabel>
+        <translation><!-- Basketball Masculin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Boxe Anglaise</masterLabel>
+        <translation><!-- Boxe Anglaise --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Boxe Française</masterLabel>
+        <translation><!-- Boxe Française --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cabaret Jazz</masterLabel>
+        <translation><!-- Cabaret Jazz --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cardio-Boxing</masterLabel>
+        <translation><!-- Cardio-Boxing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chant</masterLabel>
+        <translation><!-- Chant --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cheerleading</masterLabel>
+        <translation><!-- Cheerleading --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Commerce international</masterLabel>
@@ -25,6 +81,10 @@
         <translation>Accounting, external audit</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Compétition</masterLabel>
+        <translation><!-- Compétition --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Conseil</masterLabel>
         <translation>Consulting</translation>
     </valueTranslation>
@@ -33,8 +93,16 @@
         <translation>Management accounting, internal audit</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Cross Training</masterLabel>
+        <translation><!-- Cross Training --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Cybersécurité</masterLabel>
         <translation>Cybersecurity</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DE - Allemand</masterLabel>
+        <translation><!-- DE - Allemand --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Data science</masterLabel>
@@ -53,8 +121,20 @@
         <translation>Self-development and leadership</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>E-Sport</masterLabel>
+        <translation><!-- E-Sport --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>E-business et e-commerce</masterLabel>
         <translation>E-business &amp; E-commerce</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EN - Anglais</masterLabel>
+        <translation><!-- EN - Anglais --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ES - Espagnol</masterLabel>
+        <translation><!-- ES - Espagnol --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Economie internationale</masterLabel>
@@ -65,6 +145,10 @@
         <translation>Social &amp; solidarity economy</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Entraînement De Cross</masterLabel>
+        <translation><!-- Entraînement De Cross --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Entrepreneuriat</masterLabel>
         <translation>Entrepreneurship</translation>
     </valueTranslation>
@@ -73,8 +157,24 @@
         <translation>Social entrepreneurship</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Equitation</masterLabel>
+        <translation><!-- Equitation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Escalade</masterLabel>
+        <translation><!-- Escalade --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Escrime</masterLabel>
+        <translation><!-- Escrime --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Ethique</masterLabel>
         <translation>Ethics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FR - Français</masterLabel>
+        <translation><!-- FR - Français --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Finance de marché</masterLabel>
@@ -93,12 +193,32 @@
         <translation>Taxation</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Fitness / Cardio</masterLabel>
+        <translation><!-- Fitness / Cardio --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fitness/Cardio</masterLabel>
+        <translation><!-- Fitness/Cardio --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Fonds d’investissement et capital-risque</masterLabel>
         <translation>Investment funds and venture capital</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Football Féminin</masterLabel>
+        <translation><!-- Football Féminin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Football Masculin</masterLabel>
+        <translation><!-- Football Masculin --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Fusions et acquisitions</masterLabel>
         <translation>Mergers and acquisitions</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Futsal</masterLabel>
+        <translation><!-- Futsal --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Gestion de crise</masterLabel>
@@ -153,6 +273,10 @@
         <translation>Public administration management</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Golf</masterLabel>
+        <translation><!-- Golf --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Gouvernance d&apos;entreprise</masterLabel>
         <translation>Corporate governance</translation>
     </valueTranslation>
@@ -161,12 +285,64 @@
         <translation>Geopolitics</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Hand Ball Loisir</masterLabel>
+        <translation><!-- Hand Ball Loisir --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Handball Féminin</masterLabel>
+        <translation><!-- Handball Féminin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Handball Masculin</masterLabel>
+        <translation><!-- Handball Masculin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hatha Yoga</masterLabel>
+        <translation><!-- Hatha Yoga --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hiit</masterLabel>
+        <translation><!-- Hiit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hip-Hop</masterLabel>
+        <translation><!-- Hip-Hop --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT - Italien</masterLabel>
+        <translation><!-- IT - Italien --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Intelligence artificielle</masterLabel>
         <translation>Artificial intelligence</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Intrapreneuriat</masterLabel>
         <translation>Intrapreneurship</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JA - Japonais</masterLabel>
+        <translation><!-- JA - Japonais --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jeux D&apos;Échecs</masterLabel>
+        <translation><!-- Jeux D&apos;Échecs --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Judo</masterLabel>
+        <translation><!-- Judo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Karaté</masterLabel>
+        <translation><!-- Karaté --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>La Voix : Outil De Communication Efficace</masterLabel>
+        <translation><!-- La Voix : Outil De Communication Efficace --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Loisir Et D&apos;Expression Corporelle</masterLabel>
+        <translation><!-- Loisir Et D&apos;Expression Corporelle --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Macro économie</masterLabel>
@@ -209,12 +385,56 @@
         <translation>Microeconomics</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Modern Dance</masterLabel>
+        <translation><!-- Modern Dance --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Modern Jazz</masterLabel>
+        <translation><!-- Modern Jazz --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Musculation</masterLabel>
+        <translation><!-- Musculation --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Méthodes quantitatives</masterLabel>
         <translation>Quantative methods</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>NA - Non applicable</masterLabel>
+        <translation><!-- NA - Non applicable --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Natation</masterLabel>
+        <translation><!-- Natation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PT - Portugais</masterLabel>
+        <translation><!-- PT - Portugais --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pilates</masterLabel>
+        <translation><!-- Pilates --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Propriété intellectuelle</masterLabel>
         <translation>Intellectual property</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Préparation Physique Perso</masterLabel>
+        <translation><!-- Préparation Physique Perso --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Préparation Ski</masterLabel>
+        <translation><!-- Préparation Ski --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Préparation Trail/Raid</masterLabel>
+        <translation><!-- Préparation Trail/Raid --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Préparation Voile</masterLabel>
+        <translation><!-- Préparation Voile --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Qualité</masterLabel>
@@ -225,12 +445,80 @@
         <translation>CSR</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>RU - Russe</masterLabel>
+        <translation><!-- RU - Russe --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rattrapage Sports</masterLabel>
+        <translation><!-- Rattrapage Sports --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Renforcement Musculaire</masterLabel>
+        <translation><!-- Renforcement Musculaire --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rock</masterLabel>
+        <translation><!-- Rock --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rugby</masterLabel>
+        <translation><!-- Rugby --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rugby Féminin</masterLabel>
+        <translation><!-- Rugby Féminin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rugby Masculin</masterLabel>
+        <translation><!-- Rugby Masculin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Running</masterLabel>
+        <translation><!-- Running --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Running Découverte Lyon</masterLabel>
+        <translation><!-- Running Découverte Lyon --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Salsa</masterLabel>
+        <translation><!-- Salsa --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Salsa Bachata</masterLabel>
+        <translation><!-- Salsa Bachata --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Self Defense</masterLabel>
+        <translation><!-- Self Defense --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Self Défense</masterLabel>
+        <translation><!-- Self Défense --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Soccer</masterLabel>
+        <translation><!-- Soccer --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Soccer Five</masterLabel>
+        <translation><!-- Soccer Five --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Sociologie, philosophie</masterLabel>
         <translation>Sociology, philosophy</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Sophrologie</masterLabel>
+        <translation><!-- Sophrologie --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Stratégie</masterLabel>
         <translation>Strategy</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Street Jazz</masterLabel>
+        <translation><!-- Street Jazz --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Supply chain</masterLabel>
@@ -241,7 +529,67 @@
         <translation>Negotiation and dealing techniques</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Tennis</masterLabel>
+        <translation><!-- Tennis --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tennis Compétition</masterLabel>
+        <translation><!-- Tennis Compétition --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tennis Loisir</masterLabel>
+        <translation><!-- Tennis Loisir --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tennis Padel</masterLabel>
+        <translation><!-- Tennis Padel --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Théâtre</masterLabel>
+        <translation><!-- Théâtre --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Théâtre D&apos;Improvisation</masterLabel>
+        <translation><!-- Théâtre D&apos;Improvisation --></translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Trésorerie d’entreprise</masterLabel>
         <translation>Corporate treasury management</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Volley-Ball</masterLabel>
+        <translation><!-- Volley-Ball --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Volley-Ball Féminin</masterLabel>
+        <translation><!-- Volley-Ball Féminin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Volley-Ball Loisir</masterLabel>
+        <translation><!-- Volley-Ball Loisir --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Volley-Ball Masculin</masterLabel>
+        <translation><!-- Volley-Ball Masculin --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Water-Polo</masterLabel>
+        <translation><!-- Water-Polo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Yoga</masterLabel>
+        <translation><!-- Yoga --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Yoga Santé</masterLabel>
+        <translation><!-- Yoga Santé --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZH - Chinois</masterLabel>
+        <translation><!-- ZH - Chinois --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Zumba</masterLabel>
+        <translation><!-- Zumba --></translation>
     </valueTranslation>
 </GlobalValueSetTranslation>

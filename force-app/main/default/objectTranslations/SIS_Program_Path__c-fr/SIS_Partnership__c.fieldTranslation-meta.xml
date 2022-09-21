@@ -4,18 +4,18 @@
     <name>SIS_Partnership__c</name>
     <picklistValues>
         <masterLabel>Double</masterLabel>
-        <translation></translation>
+        <translation>Double-diplôme</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Joint</masterLabel>
-        <translation></translation>
+        <translation>Diplôme joint</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Partnership</masterLabel>
-        <translation></translation>
+        <translation>Partenariat</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Triple</masterLabel>
-        <translation></translation>
+        <translation>Triple-diplôme</translation>
     </picklistValues>
 </CustomFieldTranslation>

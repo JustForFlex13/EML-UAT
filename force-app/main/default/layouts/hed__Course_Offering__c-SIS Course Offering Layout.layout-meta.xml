@@ -119,12 +119,24 @@
                 <field>SIS_Pedagogical_Code__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>SIS_Cours_Level__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>SIS_Unique_Course_Code__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SIS_Course_Manager_contact__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SIS_Evaluation_Methods_Final_Weight__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>SIS_completion_method_indicator__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

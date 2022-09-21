@@ -8,59 +8,608 @@
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
+        <controllingField>SIS_Pedagogical_Code__c</controllingField>
         <restricted>true</restricted>
-        <valueSetDefinition>
-            <sorted>false</sorted>
-            <value>
-                <fullName>Accounting &amp; Finance</fullName>
-                <default>false</default>
-                <label>Accounting &amp; Finance</label>
-            </value>
-            <value>
-                <fullName>Human relations &amp; regulations</fullName>
-                <default>false</default>
-                <label>Human relations &amp; regulations</label>
-            </value>
-            <value>
-                <fullName>Innovation &amp; Entrepreneurship</fullName>
-                <default>false</default>
-                <label>Innovation &amp; Entrepreneurship</label>
-            </value>
-            <value>
-                <fullName>LEAD OB &amp;d Leadership</fullName>
-                <default>false</default>
-                <label>LEAD OB &amp;d Leadership</label>
-            </value>
-            <value>
-                <fullName>Marketing</fullName>
-                <default>false</default>
-                <label>Marketing</label>
-            </value>
-            <value>
-                <fullName>Operations, Data et Artificial Intelligence (ODAI) for business</fullName>
-                <default>false</default>
-                <label>Operations, Data et Artificial Intelligence (ODAI) for business</label>
-            </value>
-            <value>
-                <fullName>Quantitative finance &amp; economics</fullName>
-                <default>false</default>
-                <label>Quantitative finance &amp; economics</label>
-            </value>
-            <value>
-                <fullName>Social Sciences and Humanities</fullName>
-                <default>false</default>
-                <label>Social Sciences and Humanities</label>
-            </value>
-            <value>
-                <fullName>Sport Management</fullName>
-                <default>false</default>
-                <label>Sport Management</label>
-            </value>
-            <value>
-                <fullName>Strategy &amp; business models</fullName>
-                <default>false</default>
-                <label>Strategy &amp; business models</label>
-            </value>
-        </valueSetDefinition>
+        <valueSetName>SIS_Course_Discipline</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>PFETU</controllingFieldValue>
+            <controllingFieldValue>SEJOU</controllingFieldValue>
+            <controllingFieldValue>STAGE</controllingFieldValue>
+            <controllingFieldValue>APREN</controllingFieldValue>
+            <controllingFieldValue>CCARR</controllingFieldValue>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <controllingFieldValue>CPROJ</controllingFieldValue>
+            <controllingFieldValue>ECHAN</controllingFieldValue>
+            <controllingFieldValue>EVENT</controllingFieldValue>
+            <valueName>NA - Non applicable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Comptabilité, audit externe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Contrôle de gestion, audit interne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Actuariat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion des établissements culturels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Comportement des organisations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Sociologie, philosophie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Management des réseaux sociaux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>RSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Droit des sociétés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Droit social, Droit du travail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Propriété intellectuelle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Management des systèmes d’informations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Conseil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Data science</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Intelligence artificielle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>E-business et e-commerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Economie internationale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Economie sociale et solidaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Micro économie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Macro économie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion des énergies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Entrepreneuriat social</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Entrepreneuriat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Intrapreneuriat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Finance de marché</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Finance entrepreneuriale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Financements structurés</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Fonds d’investissement et capital-risque</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Fusions et acquisitions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Trésorerie d’entreprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion des organisations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gouvernance d&apos;entreprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion des Services de santé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion de l&apos;Hôtellerie, restauration, tourisme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion des Ressources humaines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion des prestations d&apos;assurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Commerce international</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Développement personnel et leadership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Management du changement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion des ventes et des équipes commerciales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Management de l’innovation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Techniques de négociation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion de crise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Marketing B to C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Marketing Digital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Marketing stratégique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Achats, Marketing B to B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion des opérations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion du secteur public</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Méthodes quantitatives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion de l&apos;industrie du sport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Mathématiques et statistiques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Stratégie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Gestion des risques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Supply chain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Fiscalité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Géopolitique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Qualité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Ethique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMANG</controllingFieldValue>
+            <valueName>Cybersécurité</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <valueName>AR - Arabe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <valueName>DE - Allemand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <valueName>EN - Anglais</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <valueName>ES - Espagnol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <valueName>FR - Français</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <valueName>IT - Italien</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <valueName>JA - Japonais</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <valueName>PT - Portugais</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <valueName>RU - Russe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLANG</controllingFieldValue>
+            <valueName>ZH - Chinois</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Compétition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Cross Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Fitness / Cardio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Badminton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Loisir Et D&apos;Expression Corporelle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Cabaret Jazz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Modern Jazz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Entraînement De Cross</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Préparation Physique Perso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Rugby</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Running</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Salsa Bachata</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Self Défense</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Soccer Five</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Street Jazz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Tennis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Volley-Ball</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Yoga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Arts Martiaux Mixtes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Aviron</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Football Masculin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Basket Ball Féminin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Basket-Ball</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Basket-Ball 3 * 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Basketball Masculin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Boxe Anglaise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Boxe Française</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Hip-Hop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Cardio-Boxing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Chant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Cheerleading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Modern Dance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Equitation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Escalade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Escrime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>E-Sport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Fitness/Cardio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Football Féminin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Musculation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Futsal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Golf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Hand Ball Loisir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Handball Féminin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Handball Masculin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Hatha Yoga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Hiit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Jeux D&apos;Échecs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Judo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Karaté</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>La Voix : Outil De Communication Efficace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Natation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Pilates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Préparation Ski</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Préparation Trail/Raid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Préparation Voile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Rattrapage Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Renforcement Musculaire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Rock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Rugby Féminin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Rugby Masculin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Running Découverte Lyon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Salsa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Self Defense</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Soccer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Sophrologie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Tennis Compétition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Tennis Loisir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Tennis Padel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Théâtre D&apos;Improvisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Volley-Ball Masculin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Volley-Ball Féminin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Volley-Ball Loisir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Water-Polo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Yoga Santé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Zumba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSPOR</controllingFieldValue>
+            <valueName>Théâtre</valueName>
+        </valueSettings>
     </valueSet>
 </CustomField>

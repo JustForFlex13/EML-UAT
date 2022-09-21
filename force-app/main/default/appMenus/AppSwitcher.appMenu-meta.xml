@@ -221,26 +221,6 @@
         <type>Network</type>
     </appMenuItems>
     <appMenuItems>
-        <name>B25__Booker25</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>B25__B25_Lightning</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>B25__Booker25_Outlook_Admin</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>B25__Scheduler</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Booker25_Landing_Page</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>PortailCandidat</name>
         <type>Network</type>
     </appMenuItems>
