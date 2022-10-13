@@ -2,61 +2,6 @@
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>actionNames</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>Clone</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Edit</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Delete</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>collapsed</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>enableActionsConfiguration</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>enableActionsInNative</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideChatterActions</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>numVisibleActions</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentName>force:highlightsPanel</componentName>
-                <identifier>force_highlightsPanel</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>hideHeader</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>force:relatedListQuickLinksContainer</componentName>
-                <identifier>force_relatedListQuickLinksContainer</identifier>
-            </componentInstance>
-        </itemInstances>
-        <mode>Replace</mode>
-        <name>header</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
@@ -68,18 +13,20 @@
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.SIS_Program_Official_Name__c</fieldItem>
                 <identifier>RecordSIS_Program_Official_Name_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
-                <fieldItem>Record.SIS_Academic_Certification_Type__c</fieldItem>
-                <identifier>RecordSIS_Academic_Certification_Type_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.SIS_NSF_Code__c</fieldItem>
                 <identifier>RecordSIS_NSF_Code_cField</identifier>
             </fieldInstance>
@@ -90,32 +37,42 @@
     <flexiPageRegions>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.hed__Issuer__c</fieldItem>
                 <identifier>Recordhed_Issuer_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.SIS_Program_name__c</fieldItem>
                 <identifier>RecordSIS_Program_name_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.SIS_Academic_Certification_Level__c</fieldItem>
                 <identifier>RecordSIS_Academic_Certification_Level_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
-                <fieldItem>Record.SIS_Internal_Academic_Certification__c</fieldItem>
-                <identifier>RecordSIS_Internal_Academic_Certification_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.SIS_External_Academic_Certification__c</fieldItem>
-                <identifier>RecordSIS_External_Academic_Certification_cField</identifier>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.SIS_European_level__c</fieldItem>
+                <identifier>RecordSIS_European_level_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-d1fae767-3d92-42b4-b236-cabef218d495</name>
@@ -143,56 +100,6 @@
             </componentInstance>
         </itemInstances>
         <name>Facet-8804932d-f24f-418d-a091-da41bd5f8207</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.SIS_Simple__c</fieldItem>
-                <identifier>RecordSIS_Simple_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.SIS_Double__c</fieldItem>
-                <identifier>RecordSIS_Double_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.SIS_Triple__c</fieldItem>
-                <identifier>RecordSIS_Triple_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-dd7b059b-03ae-40ef-8711-542a4b53dcc3</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <name>Facet-bf92f22d-3971-4c51-9077-abb4a5e7e2f9</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-dd7b059b-03ae-40ef-8711-542a4b53dcc3</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column5</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-bf92f22d-3971-4c51-9077-abb4a5e7e2f9</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column6</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-8cf92ee8-c3a5-4e51-a6e7-8c1623ed801b</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -228,18 +135,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.LastModifiedById</fieldItem>
                 <identifier>RecordLastModifiedByIdField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.SIS_External_ID__c</fieldItem>
-                <identifier>RecordSIS_External_ID_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.SIS_External_ID_2__c</fieldItem>
-                <identifier>RecordSIS_External_ID_2_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-027c1263-012f-4a92-9af5-c32da1224990</name>
@@ -288,20 +183,6 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>columns</name>
-                    <value>Facet-8cf92ee8-c3a5-4e51-a6e7-8c1623ed801b</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                    <value>Type de diplôme</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:fieldSection</componentName>
-                <identifier>flexipage_fieldSection3</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>columns</name>
                     <value>Facet-d0b73d8e-94d6-473e-8d2d-f68cfdc34d92</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
@@ -325,148 +206,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>actionNames</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>New</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>maxRecordsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>hed__Academic_Certification__c.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>Academic_Certification_Attributes__r</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListDisplayType</name>
-                    <value>ADVGRID</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListFieldAliases</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>Issued_accreditation__c</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>SIS_Selected_Start_Date__c</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>SIS_Selected_End_Date__c</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListLabel</name>
-                    <value>Attributs de la reconnaissance</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldAlias</name>
-                    <value>__DEFAULT__</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldOrder</name>
-                    <value>Default</value>
-                </componentInstanceProperties>
-                <componentName>lst:dynamicRelatedList</componentName>
-                <identifier>lst_dynamicRelatedList</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>actionNames</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>New</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>adminFilters</name>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>maxRecordsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>hed__Academic_Certification__c.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>Skills_family_attributions__r</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListDisplayType</name>
-                    <value>ADVGRID</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListFieldAliases</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>SIS_Skills_Family__c</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CREATED_DATE</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>CREATEDBY_USER</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListLabel</name>
-                    <value>Familles de compétences</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldAlias</name>
-                    <value>SIS_Skills_Family__c</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldOrder</name>
-                    <value>Ascending</value>
-                </componentInstanceProperties>
-                <componentName>lst:dynamicRelatedList</componentName>
-                <identifier>lst_dynamicRelatedList2</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-6acd86a1-697f-4b95-96fa-56da87432499</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>actionNames</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>New</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>adminFilters</name>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>maxRecordsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
                     <name>parentFieldApiName</name>
                     <value>hed__Academic_Certification__c.Id</value>
                 </componentInstanceProperties>
@@ -475,54 +214,23 @@
                     <value>Program_Plans__r</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>relatedListDisplayType</name>
+                    <name>relatedListComponentOverride</name>
                     <value>ADVGRID</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>relatedListFieldAliases</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>NAME</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListLabel</name>
-                    <value>Structures pédagogiques</value>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>showActionBar</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldAlias</name>
-                    <value>__DEFAULT__</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldOrder</name>
-                    <value>Default</value>
-                </componentInstanceProperties>
-                <componentName>lst:dynamicRelatedList</componentName>
-                <identifier>lst_dynamicRelatedList4</identifier>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer4</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentInstanceProperties>
-                    <name>actionNames</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>New</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>adminFilters</name>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>maxRecordsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>parentFieldApiName</name>
                     <value>hed__Academic_Certification__c.Id</value>
@@ -532,35 +240,19 @@
                     <value>Program_Paths__r</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>relatedListDisplayType</name>
-                    <value>ADVGRID</value>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>relatedListFieldAliases</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>NAME</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListLabel</name>
-                    <value>Offre de parcours</value>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>showActionBar</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldAlias</name>
-                    <value>__DEFAULT__</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortFieldOrder</name>
-                    <value>Default</value>
-                </componentInstanceProperties>
-                <componentName>lst:dynamicRelatedList</componentName>
-                <identifier>lst_dynamicRelatedList3</identifier>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer5</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-f05310ae-612f-4f70-b499-3756f5ecacba</name>
@@ -649,20 +341,6 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-6acd86a1-697f-4b95-96fa-56da87432499</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>title</name>
-                    <value>{!$Label.SIS_Attributes}</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:tab</componentName>
-                <identifier>flexipage_tab</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
                     <value>Facet-f05310ae-612f-4f70-b499-3756f5ecacba</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
@@ -708,6 +386,56 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>actionNames</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>Clone</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Edit</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Delete</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>collapsed</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>enableActionsConfiguration</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>enableActionsInNative</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideChatterActions</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>numVisibleActions</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentName>force:highlightsPanel</componentName>
+                <identifier>force_highlightsPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>hideHeader</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListQuickLinksContainer</componentName>
+                <identifier>force_relatedListQuickLinksContainer</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>tabs</name>
                     <value>Facet-6798b871-abd0-42c0-b744-f9c932337c52</value>
                 </componentInstanceProperties>
@@ -715,17 +443,127 @@
                 <identifier>flexipage_tabset2</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>hed__Academic_Certification__c.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Academic_Certification_Attributes__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>ADVGRID</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>actionNames</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>CustomButton.SIS_Skills_Family_Assignments__c.SIS_New_Assignment_On_Academic_Certification</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>adminFilters</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>maxRecordsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>hed__Academic_Certification__c.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>Skills_family_attributions__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListDisplayType</name>
+                    <value>ADVGRID</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListFieldAliases</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>SIS_Skills_Family__c</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CREATED_DATE</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CREATEDBY_USER</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListLabel</name>
+                    <value>Blocs de compétences RNCP</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>sortFieldAlias</name>
+                    <value>SIS_Skills_Family__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>sortFieldOrder</name>
+                    <value>Ascending</value>
+                </componentInstanceProperties>
+                <componentName>lst:dynamicRelatedList</componentName>
+                <identifier>lst_dynamicRelatedList2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>className</name>
+                    <value>SIS_CTRL_AcademicCertification</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>fieldsToDisplay</name>
+                    <value>Name,Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>methodName</name>
+                    <value>getRelatedSkills</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>objectName</name>
+                    <value>SIS_Skill__c</value>
+                </componentInstanceProperties>
+                <componentName>sisCustomRelatedList</componentName>
+                <identifier>c_sisCustomRelatedList</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>Replace</mode>
+        <name>header</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
         <mode>Replace</mode>
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>runtime_sales_activities:activityPanel</componentName>
-                <identifier>runtime_sales_activities_activityPanel</identifier>
-            </componentInstance>
-        </itemInstances>
         <mode>Replace</mode>
         <name>sidebar</name>
         <type>Region</type>

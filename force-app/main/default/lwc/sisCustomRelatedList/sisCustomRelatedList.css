@@ -1,0 +1,4 @@
+/* Applies related style to lightning card */
+:host {
+    --slds-c-card-color-background: rgb(243, 242, 242);
+}

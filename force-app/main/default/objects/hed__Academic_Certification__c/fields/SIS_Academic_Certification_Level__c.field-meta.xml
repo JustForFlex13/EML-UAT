@@ -12,34 +12,44 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Visa Bac+4</fullName>
+                <fullName>Bac+1</fullName>
                 <default>false</default>
-                <label>Visa Bac+4</label>
+                <label>Bac+1</label>
             </value>
             <value>
-                <fullName>Grade de Licence</fullName>
+                <fullName>Bac+2</fullName>
                 <default>false</default>
-                <label>Grade de Licence</label>
+                <label>Bac+2</label>
             </value>
             <value>
-                <fullName>RNCP Niveau 6</fullName>
+                <fullName>Bac+3</fullName>
                 <default>false</default>
-                <label>RNCP Niveau 6</label>
+                <label>Bac+3</label>
             </value>
             <value>
-                <fullName>Visa Bac +5</fullName>
+                <fullName>Bac+4</fullName>
                 <default>false</default>
-                <label>Visa Bac +5</label>
+                <label>Bac+4</label>
             </value>
             <value>
-                <fullName>Grade de Master</fullName>
+                <fullName>Bac+5</fullName>
                 <default>false</default>
-                <label>Grade de Master</label>
+                <label>Bac+5</label>
             </value>
             <value>
-                <fullName>RNCP Niveau 7</fullName>
+                <fullName>Bac+6</fullName>
                 <default>false</default>
-                <label>RNCP Niveau 7</label>
+                <label>Bac+6</label>
+            </value>
+            <value>
+                <fullName>Bac+7</fullName>
+                <default>false</default>
+                <label>Bac+7</label>
+            </value>
+            <value>
+                <fullName>Bac+8</fullName>
+                <default>false</default>
+                <label>Bac+8</label>
             </value>
             <value>
                 <fullName>Bac</fullName>
@@ -48,52 +58,40 @@
                 <label>Bac</label>
             </value>
             <value>
-                <fullName>Bac+1</fullName>
+                <fullName>Grade de Licence</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
-                <label>Bac+1</label>
+                <label>Grade de Licence</label>
             </value>
             <value>
-                <fullName>Bac+2</fullName>
+                <fullName>Grade de Master</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
-                <label>Bac+2</label>
+                <label>Grade de Master</label>
             </value>
             <value>
-                <fullName>Bac+3</fullName>
+                <fullName>RNCP Niveau 6</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
-                <label>Bac+3</label>
+                <label>RNCP Niveau 6</label>
             </value>
             <value>
-                <fullName>Bac+4</fullName>
+                <fullName>RNCP Niveau 7</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
-                <label>Bac+4</label>
+                <label>RNCP Niveau 7</label>
             </value>
             <value>
-                <fullName>Bac+5</fullName>
+                <fullName>Visa Bac +5</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
-                <label>Bac+5</label>
+                <label>Visa Bac +5</label>
             </value>
             <value>
-                <fullName>Bac+6</fullName>
+                <fullName>Visa Bac+4</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
-                <label>Bac+6</label>
-            </value>
-            <value>
-                <fullName>Bac+7</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Bac+7</label>
-            </value>
-            <value>
-                <fullName>Bac+8</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Bac+8</label>
+                <label>Visa Bac+4</label>
             </value>
         </valueSetDefinition>
     </valueSet>

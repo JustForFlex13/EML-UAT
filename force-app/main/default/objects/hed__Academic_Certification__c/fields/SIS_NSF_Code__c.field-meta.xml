@@ -151,9 +151,9 @@
                 <label>201	Technologies de commandes des transformations industriels (automatismes et robotique industriels, informatique industrielle)</label>
             </value>
             <value>
-                <fullName>210	Spécialités plurivalentes de l&apos;agronomie et de l&apos;agriculture</fullName>
+                <fullName>210	Spécialités plurivalentes de l&#39;agronomie et de l&#39;agriculture</fullName>
                 <default>false</default>
-                <label>210	Spécialités plurivalentes de l&apos;agronomie et de l&apos;agriculture</label>
+                <label>210	Spécialités plurivalentes de l&#39;agronomie et de l&#39;agriculture</label>
             </value>
             <value>
                 <fullName>211	Productions végétales, cultures spécialisées (horticulture, viticulture, arboriculture fruitière...)</fullName>
@@ -236,9 +236,9 @@
                 <label>233	Bâtiment : finitions</label>
             </value>
             <value>
-                <fullName>234	Travail du bois et de l&apos;ameublement</fullName>
+                <fullName>234	Travail du bois et de l&#39;ameublement</fullName>
                 <default>false</default>
-                <label>234	Travail du bois et de l&apos;ameublement</label>
+                <label>234	Travail du bois et de l&#39;ameublement</label>
             </value>
             <value>
                 <fullName>240	Spécialités pluritechnologiques matériaux souples</fullName>
@@ -321,9 +321,9 @@
                 <label>314	Comptabilité, gestion</label>
             </value>
             <value>
-                <fullName>315	Ressources humaines, gestion du personnel, gestion de l&apos;emploi</fullName>
+                <fullName>315	Ressources humaines, gestion du personnel, gestion de l&#39;emploi</fullName>
                 <default>false</default>
-                <label>315	Ressources humaines, gestion du personnel, gestion de l&apos;emploi</label>
+                <label>315	Ressources humaines, gestion du personnel, gestion de l&#39;emploi</label>
             </value>
             <value>
                 <fullName>320	Spécialités plurivalentes de la communication</fullName>
@@ -336,14 +336,14 @@
                 <label>321	Journalisme, communication (y compris communication graphique et publicité)</label>
             </value>
             <value>
-                <fullName>322	Techniques de l&apos;imprimerie et de l&apos;édition</fullName>
+                <fullName>322	Techniques de l&#39;imprimerie et de l&#39;édition</fullName>
                 <default>false</default>
-                <label>322	Techniques de l&apos;imprimerie et de l&apos;édition</label>
+                <label>322	Techniques de l&#39;imprimerie et de l&#39;édition</label>
             </value>
             <value>
-                <fullName>323	Techniques de l&apos;image et du son, métiers connexes du spectacle</fullName>
+                <fullName>323	Techniques de l&#39;image et du son, métiers connexes du spectacle</fullName>
                 <default>false</default>
-                <label>323	Techniques de l&apos;image et du son, métiers connexes du spectacle</label>
+                <label>323	Techniques de l&#39;image et du son, métiers connexes du spectacle</label>
             </value>
             <value>
                 <fullName>324	Secrétariat, bureautique</fullName>
@@ -356,9 +356,9 @@
                 <label>325	Documentation, bibliothèques, administration des données</label>
             </value>
             <value>
-                <fullName>326	Informatique, traitement de l&apos;information, réseaux de transmission des données</fullName>
+                <fullName>326	Informatique, traitement de l&#39;information, réseaux de transmission des données</fullName>
                 <default>false</default>
-                <label>326	Informatique, traitement de l&apos;information, réseaux de transmission des données</label>
+                <label>326	Informatique, traitement de l&#39;information, réseaux de transmission des données</label>
             </value>
             <value>
                 <fullName>330	Spécialités plurivalentes sanitaires et sociales</fullName>
@@ -406,9 +406,9 @@
                 <label>342	Protection et développement du patrimoine</label>
             </value>
             <value>
-                <fullName>343	Nettoyage, assainissement, protection de l&apos;environnement</fullName>
+                <fullName>343	Nettoyage, assainissement, protection de l&#39;environnement</fullName>
                 <default>false</default>
-                <label>343	Nettoyage, assainissement, protection de l&apos;environnement</label>
+                <label>343	Nettoyage, assainissement, protection de l&#39;environnement</label>
             </value>
             <value>
                 <fullName>344	Sécurité des biens et des personnes, police, surveillance (y compris hygiène et sécurité)</fullName>
@@ -446,14 +446,14 @@
                 <label>413	Développement des capacités comportementales et relationnelles</label>
             </value>
             <value>
-                <fullName>414	Développement des capacités individuelles d&apos;organisation</fullName>
+                <fullName>414	Développement des capacités individuelles d&#39;organisation</fullName>
                 <default>false</default>
-                <label>414	Développement des capacités individuelles d&apos;organisation</label>
+                <label>414	Développement des capacités individuelles d&#39;organisation</label>
             </value>
             <value>
-                <fullName>415	Développement des capacités d&apos;orientation, d&apos;insertion ou de réinsertion sociales et professionnelles</fullName>
+                <fullName>415	Développement des capacités d&#39;orientation, d&#39;insertion ou de réinsertion sociales et professionnelles</fullName>
                 <default>false</default>
-                <label>415	Développement des capacités d&apos;orientation, d&apos;insertion ou de réinsertion sociales et professionnelles</label>
+                <label>415	Développement des capacités d&#39;orientation, d&#39;insertion ou de réinsertion sociales et professionnelles</label>
             </value>
             <value>
                 <fullName>421	Jeux et activités spécifiques de loisirs</fullName>
