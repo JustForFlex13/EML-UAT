@@ -1,0 +1,43 @@
+<template>
+    <div class="slds-card_boundary" style="width:100%">
+        <lightning-card icon-name={iconName}>
+            <div slot="title">{titleWithCount}</div>
+            
+            <p class="slds-text-body--small slds-p-left_medium slds-p-bottom_medium" if:true={recordsBool}>
+                <span class="countSortedByFilteredBy">
+                    {numberOfRecords} {label.LABEL_ITEMS} <span if:true={sortedByLabel}>• {label.LABEL_SORTED_BY} {sortedByLabel}</span>
+                </span>
+            </p>
+            
+            <!-- Footer Actions -->
+            <!-- <div slot="footer">
+                <div if:true={countBool}>
+                    <lightning-button label="View More" onclick={viewMoreRecords}></lightning-button>
+                    <lightning-formatted-url value="/" label="View More" tooltip="View more records" target="_self"></lightning-formatted-url>
+                </div>
+            </div>  -->
+            
+            <div class="slds-border_top slds-scrollable_x">   
+                <div if:true={recordsBool}  style="max-height: 500px;width:101%;">   
+                    <lightning-datatable class="slds-table_bordered" style="width:100%;"
+                        key-field="id" 
+                        data={data}
+                        columns={columns}
+                        hide-checkbox-column
+                        show-row-number-column
+                        row-number-offset={rowOffset}
+                        default-sort-direction={defaultSortDirection}
+                        sorted-direction={sortDirection}
+                        sorted-by={sortedBy}  
+                        onsort={onHandleSort}
+                        column-widths-mode="auto"
+                        suppress-bottom-bar>
+                    </lightning-datatable>
+                    <!-- enable-infinite-loading
+                    onloadmore={loadMoreData} -->
+                </div>   
+                <!-- {loadMoreStatus} -->
+            </div>   
+        </lightning-card>
+    </div>
+</template>

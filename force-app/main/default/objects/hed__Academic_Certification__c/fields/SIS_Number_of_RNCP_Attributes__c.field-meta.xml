@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIS_Number_of_RNCP_Attributes__c</fullName>
+    <description>Automatically filled by a declarative roll up summary. Please do not edit manually.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically filled by a declarative roll up summary. Please do not edit manually.</inlineHelpText>
+    <label>Number of RNCP Attributes</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

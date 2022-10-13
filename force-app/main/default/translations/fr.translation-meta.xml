@@ -57,7 +57,7 @@
         <name>Convsta_Activity</name>
     </customLabels>
     <customLabels>
-        <label>L&apos;utilisation d&apos;Internet Explorer n&apos;est pas recommandée sur ce site.</label>
+        <label>L&#39;utilisation d&#39;Internet Explorer n&#39;est pas recommandée sur ce site.</label>
         <name>Convsta_AlertIE</name>
     </customLabels>
     <customLabels>
@@ -81,7 +81,7 @@
         <name>Convsta_Commencer</name>
     </customLabels>
     <customLabels>
-        <label>En soumettant votre demande, vous vous engagez auprès de l&apos;entreprise et de l&apos;emLyon Business School.
+        <label>En soumettant votre demande, vous vous engagez auprès de l&#39;entreprise et de l&#39;emLyon Business School.
 Confirmez-vous votre soumission ?</label>
         <name>Convsta_ConfirmSoumission</name>
     </customLabels>
@@ -126,7 +126,7 @@ Confirmez-vous votre soumission ?</label>
         <name>Convsta_ERR_Missing_from_url</name>
     </customLabels>
     <customLabels>
-        <label>La période d&apos;évaluation n&apos;a pas encore commencé.</label>
+        <label>La période d&#39;évaluation n&#39;a pas encore commencé.</label>
         <name>Convsta_ERR_Read</name>
     </customLabels>
     <customLabels>
@@ -154,7 +154,7 @@ Confirmez-vous votre soumission ?</label>
         <name>Convsta_Palmares_des_entreprise</name>
     </customLabels>
     <customLabels>
-        <label>Saisir la raison sociale de l&apos;entreprise ici...</label>
+        <label>Saisir la raison sociale de l&#39;entreprise ici...</label>
         <name>Convsta_PlaceholderEntreprise</name>
     </customLabels>
     <customLabels>
@@ -198,7 +198,7 @@ Confirmez-vous votre soumission ?</label>
         <name>Convsta_SearchEntreprise</name>
     </customLabels>
     <customLabels>
-        <label>Attention, la raison sociale n&apos;est pas forcément le nom commercial</label>
+        <label>Attention, la raison sociale n&#39;est pas forcément le nom commercial</label>
         <name>Convsta_SearchEntrepriseHelp</name>
     </customLabels>
     <customLabels>
@@ -266,7 +266,7 @@ Confirmez-vous votre soumission ?</label>
         <name>Convsta_Telecharger</name>
     </customLabels>
     <customLabels>
-        <label>Avant de saisir votre demande, assurez vous de disposer de tous vos détails contractuels. Pour vous aider, téléchargez le document qui liste l&apos;ensemble des champs requis (notamment : durée de travail, gratifications non salariales, etc…).</label>
+        <label>Avant de saisir votre demande, assurez vous de disposer de tous vos détails contractuels. Pour vous aider, téléchargez le document qui liste l&#39;ensemble des champs requis (notamment : durée de travail, gratifications non salariales, etc…).</label>
         <name>Convsta_Texte_aide_1</name>
     </customLabels>
     <customLabels>
@@ -274,15 +274,15 @@ Confirmez-vous votre soumission ?</label>
         <name>Convsta_Texte_aide_2</name>
     </customLabels>
     <customLabels>
-        <label>Attention si les champs ci dessous sont mal remplis cela peut entraîner le blocage de votre demande . Merci donc de vous référer aux bulles d&apos;aide de chacun des champs ci dessous.</label>
+        <label>Attention si les champs ci dessous sont mal remplis cela peut entraîner le blocage de votre demande . Merci donc de vous référer aux bulles d&#39;aide de chacun des champs ci dessous.</label>
         <name>Convsta_Texte_aide_3</name>
     </customLabels>
     <customLabels>
-        <label>J&apos;ai pris connaissance du guide des bonnes pratiques à l&apos;étranger.</label>
+        <label>J&#39;ai pris connaissance du guide des bonnes pratiques à l&#39;étranger.</label>
         <name>Convsta_TxtGuideStageEtranger</name>
     </customLabels>
     <customLabels>
-        <label>Dans le cas des demandes de validations d&apos;expérience passée ou à venir, merci de bien vouloir télécharger votre contrat.</label>
+        <label>Dans le cas des demandes de validations d&#39;expérience passée ou à venir, merci de bien vouloir télécharger votre contrat.</label>
         <name>Convsta_UploadFile</name>
     </customLabels>
     <customLabels>
@@ -294,7 +294,7 @@ Confirmez-vous votre soumission ?</label>
         <name>Convsta_caseExpiration</name>
     </customLabels>
     <customLabels>
-        <label>Merci de remplir l&apos;ensemble des champs nécessaires à la demande.</label>
+        <label>Merci de remplir l&#39;ensemble des champs nécessaires à la demande.</label>
         <name>Convsta_consigneFormulaireDemande</name>
     </customLabels>
     <customLabels>
@@ -582,7 +582,7 @@ Confirmez-vous votre soumission ?</label>
         <name>SIS_After_this_course_participants_know</name>
     </customLabels>
     <customLabels>
-        <label>Historiques d&apos;approbations</label>
+        <label>Historiques d&#39;approbations</label>
         <name>SIS_Approval_History</name>
     </customLabels>
     <customLabels>
@@ -630,7 +630,7 @@ Confirmez-vous votre soumission ?</label>
         <name>SIS_Enrollments</name>
     </customLabels>
     <customLabels>
-        <label>Méthodes d&apos;évaluation</label>
+        <label>Méthodes d&#39;évaluation</label>
         <name>SIS_Evaluation_Methods</name>
     </customLabels>
     <customLabels>
@@ -646,12 +646,24 @@ Confirmez-vous votre soumission ?</label>
         <name>SIS_Hours_and_distribution</name>
     </customLabels>
     <customLabels>
+        <label>Classe/méthode apex inexistante ou nom invalide. Veuillez vérifier que la classe apex est correctement configurée.</label>
+        <name>SIS_Invalid_method_name_or_class_not_set_up</name>
+    </customLabels>
+    <customLabels>
+        <label>élément(s)</label>
+        <name>SIS_Items</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Connaissances acquises pendant le cours --></label>
         <name>SIS_Knowledge_acquired_during_the_course</name>
     </customLabels>
     <customLabels>
-        <label>Heures d&apos;apprentissage</label>
+        <label>Heures d&#39;apprentissage</label>
         <name>SIS_Learning_Hours</name>
+    </customLabels>
+    <customLabels>
+        <label>La méthode renseignée n&#39;est pas configurée pour les appels dynamiques.</label>
+        <name>SIS_Methode_not_set_up_for_dynamic_calls</name>
     </customLabels>
     <customLabels>
         <label>Autres informations utiles</label>
@@ -686,6 +698,14 @@ Confirmez-vous votre soumission ?</label>
         <name>SIS_Skills</name>
     </customLabels>
     <customLabels>
+        <label>Trié(s) par</label>
+        <name>SIS_Sorted_by</name>
+    </customLabels>
+    <customLabels>
+        <label>L&#39;identifiant de la Reconnaissance est incorrect.</label>
+        <name>SIS_Wrong_Academic_Certification_Id</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Ressources bibliographiques --></label>
         <name>SIS_pedagogical_resources</name>
     </customLabels>
@@ -702,7 +722,7 @@ Confirmez-vous votre soumission ?</label>
         <name>X</name>
     </customLabels>
     <customLabels>
-        <label>Evaluation de l&apos;expérience professionnelle de $1 auprès de $2 réalisé du $3 au $4 par son tuteur $5</label>
+        <label>Evaluation de l&#39;expérience professionnelle de $1 auprès de $2 réalisé du $3 au $4 par son tuteur $5</label>
         <name>convsta_Eval_title</name>
     </customLabels>
     <customLabels>
@@ -718,7 +738,7 @@ Confirmez-vous votre soumission ?</label>
         <name>convsta_NoExpAnterieure</name>
     </customLabels>
     <customLabels>
-        <label>A l&apos;étranger</label>
+        <label>A l&#39;étranger</label>
         <name>convsta_aLetranger</name>
     </customLabels>
     <customLabels>
@@ -738,7 +758,7 @@ Confirmez-vous votre soumission ?</label>
         <name>convsta_accueil_nouveau</name>
     </customLabels>
     <customLabels>
-        <label>Vous n&apos;avez pas de demande en cours</label>
+        <label>Vous n&#39;avez pas de demande en cours</label>
         <name>convsta_accueil_pas_de_demande</name>
     </customLabels>
     <customLabels>
@@ -746,7 +766,7 @@ Confirmez-vous votre soumission ?</label>
         <name>convsta_annuler_demande</name>
     </customLabels>
     <customLabels>
-        <label>Mon stage ne se déroule pas à l&apos;adresse indiquée ci-dessus</label>
+        <label>Mon stage ne se déroule pas à l&#39;adresse indiquée ci-dessus</label>
         <name>convsta_autre_adresse_deroulement</name>
     </customLabels>
     <customLabels>
@@ -826,7 +846,7 @@ Confirmez-vous votre soumission ?</label>
         <name>convsta_eval_quitPage</name>
     </customLabels>
     <customLabels>
-        <label>Les compétences en gras sont celles que l&apos;étudiant a déclarées lors de la rédaction de sa convention de stage.</label>
+        <label>Les compétences en gras sont celles que l&#39;étudiant a déclarées lors de la rédaction de sa convention de stage.</label>
         <name>convsta_eval_selectedCompetence</name>
     </customLabels>
     <customLabels>
@@ -846,7 +866,7 @@ Confirmez-vous votre soumission ?</label>
         <name>convsta_eval_vos_apprciations</name>
     </customLabels>
     <customLabels>
-        <label>Validation de l&apos;expérience professionnelle</label>
+        <label>Validation de l&#39;expérience professionnelle</label>
         <name>convsta_experienceProfessionnelle</name>
     </customLabels>
     <customLabels>
@@ -854,11 +874,11 @@ Confirmez-vous votre soumission ?</label>
         <name>convsta_fileList</name>
     </customLabels>
     <customLabels>
-        <label>Guide des bonnes pratiques à l&apos;étranger</label>
+        <label>Guide des bonnes pratiques à l&#39;étranger</label>
         <name>convsta_guide_des_bonnes_pratiques</name>
     </customLabels>
     <customLabels>
-        <label>Vous ne pouvez pas supprimer une demande si vous l&apos;avez déjà soumise. Prenez contact avec le Career Center.</label>
+        <label>Vous ne pouvez pas supprimer une demande si vous l&#39;avez déjà soumise. Prenez contact avec le Career Center.</label>
         <name>convsta_interditSuppression</name>
     </customLabels>
     <customLabels>
@@ -882,7 +902,7 @@ Confirmez-vous votre soumission ?</label>
         <name>convsta_password_esign</name>
     </customLabels>
     <customLabels>
-        <label>J&apos;ai pris connaissance du</label>
+        <label>J&#39;ai pris connaissance du</label>
         <name>convsta_prefixeGuide</name>
     </customLabels>
     <customLabels>
@@ -942,7 +962,7 @@ Confirmez-vous votre soumission ?</label>
         <name>convsta_telecharger_ma_convention</name>
     </customLabels>
     <customLabels>
-        <label>Votre recherche a renvoyé plus de 20 résultats. Veuillez restreindre votre recherche à l&apos;aide du code postal, de la ville ou du SIRET.</label>
+        <label>Votre recherche a renvoyé plus de 20 résultats. Veuillez restreindre votre recherche à l&#39;aide du code postal, de la ville ou du SIRET.</label>
         <name>convsta_tropDeResultats</name>
     </customLabels>
     <customLabels>
@@ -4499,7 +4519,7 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Activer_Candidature</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Add_permission_sets_to_users</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -4511,19 +4531,19 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Alerte_Exercice_Fiscal_Session_Errone</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Assignation_et_suppression_automatique_d_un_permission_set</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Attribution_opportunit_EMBA_PAris</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Compte_Programme_Academique_Envoi_email_pour_relecture_programme</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Compte_Programme_Academique_Envoi_email_pour_relecture_programme_QAR</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -4565,19 +4585,19 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Compte_programme_acad_mique_Tache_et_email_responsable_de_programme_Revision</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Conversion_automatique_de_piste_Site_Internet</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Conversion_automatique_de_piste_formulaire_candidater</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Convsta_EntrepriseEdit</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Convsta_Envoi_Rejet_Pedagogique</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -4598,7 +4618,7 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>required</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Convsta_Email_Tuteur_inp</name>
                 </fields>
@@ -4626,15 +4646,15 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Convsta_Soumission_Demande</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Convsta_onConditionContractuelleEdit</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Convsta_onEvaluationEdit</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Cours_Codification_du_cours</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -4649,23 +4669,23 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>actionMode</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>alignment</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>buttons</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>orientation</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showLines</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Button_Next_step</name>
                 </fields>
@@ -4675,11 +4695,11 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_bar_step_1</name>
                 </fields>
@@ -4689,14 +4709,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Create_Course_First_Step_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Create_Course_First_Step_Section1_Column2</name>
                 </fields>
@@ -4809,7 +4829,7 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Cours_Generation_du_syllabus_en_brouillon</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Cours_MAJ_Automatique_du_code_de_la_categorie_pedagogique</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -4829,51 +4849,51 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_openLinkinSameTab</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_showRowNumbers</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_tableBorder</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnEdits</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>DatatableCourseKnowledge</name>
                 </fields>
@@ -4906,59 +4926,59 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_not_suppressNameFieldLink</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_showRecordCount</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_showRowNumbers</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWraps</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showRecordCount</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showRowNumbers</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>SkillsDatatable</name>
                 </fields>
@@ -4983,19 +5003,19 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Course_Offering_Course_Skills_Assignment</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Cr_ation_Contact_Role</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Creation_automatique_d_un_nouveau_role_EM_Lyon</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Creation_objets_experience_professionnelle</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Delete_permission_set_assignment</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -5004,21 +5024,21 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator01a</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator01b</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator01c</name>
                 </fields>
@@ -5028,14 +5048,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator01e</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator01f</name>
                 </fields>
@@ -5045,21 +5065,21 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s01_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s01_Section1_Column2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s01_Section1_Column3</name>
                 </fields>
@@ -5075,62 +5095,62 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator02a</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator02b</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator02c</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator02d</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator02e</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator02f</name>
                 </fields>
@@ -5140,21 +5160,21 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s02_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s02_Section1_Column2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s02_Section1_Column3</name>
                 </fields>
@@ -5170,62 +5190,62 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator03a</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator03b</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator03c</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator03d</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator03e</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator03f</name>
                 </fields>
@@ -5235,21 +5255,21 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s03_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s03_Section1_Column2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s03_Section1_Column3</name>
                 </fields>
@@ -5265,62 +5285,62 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator04a</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator04b</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator04c</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator04d</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator04e</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator04f</name>
                 </fields>
@@ -5330,21 +5350,21 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s04_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s04_Section1_Column2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s04_Section1_Column3</name>
                 </fields>
@@ -5360,62 +5380,62 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator05a</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator05b</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator05c</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator05d</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator05e</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator05f</name>
                 </fields>
@@ -5425,21 +5445,21 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s05_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s05_Section1_Column2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s05_Section1_Column3</name>
                 </fields>
@@ -5455,62 +5475,62 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator06a</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator06b</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator06c</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator06d</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator06e</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>indicator06f</name>
                 </fields>
@@ -5520,21 +5540,21 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s06_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s06_Section1_Column2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>s06_Section1_Column3</name>
                 </fields>
@@ -5550,7 +5570,7 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Dynamic_Flow_Progress_Sample</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Email_reference_selon_statut</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -5565,14 +5585,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Coordonnees_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Coordonnees_Section1_Column2</name>
                 </fields>
@@ -5603,14 +5623,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Diplome2_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Diplome2_Section1_Column2</name>
                 </fields>
@@ -5620,14 +5640,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Diplome2_Section2_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Diplome2_Section2_Column2</name>
                 </fields>
@@ -5661,14 +5681,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Documents_d_identite_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Documents_d_identite_Section1_Column2</name>
                 </fields>
@@ -5687,19 +5707,19 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>accept</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>label</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>multiple</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>recordId</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Photo_CNI</name>
                 </fields>
@@ -5730,19 +5750,19 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>accept</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>label</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>multiple</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>recordId</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>photo_Passeport</name>
                 </fields>
@@ -5767,7 +5787,7 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Financement_Section1_Column1</name>
                 </fields>
@@ -5777,14 +5797,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Financement_Section2_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Financement_Section2_Column2</name>
                 </fields>
@@ -5815,21 +5835,21 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section1_Column2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section1_Column3</name>
                 </fields>
@@ -5839,21 +5859,21 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section2_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section2_Column2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section2_Column3</name>
                 </fields>
@@ -5863,14 +5883,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section3_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section3_Column2</name>
                 </fields>
@@ -5880,14 +5900,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section4_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section4_Column2</name>
                 </fields>
@@ -5897,14 +5917,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section5_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Informations_du_candidat_Section5_Column2</name>
                 </fields>
@@ -5971,14 +5991,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Langues_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Langues_Section1_Column2</name>
                 </fields>
@@ -5988,14 +6008,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Langues_Section2_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Langues_Section2_Column2</name>
                 </fields>
@@ -6014,14 +6034,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>label</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>EmailParent2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>label</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Emailparent1</name>
                 </fields>
@@ -6031,14 +6051,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Programme_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Programme_Section1_Column2</name>
                 </fields>
@@ -6057,15 +6077,15 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>fieldApiName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>label</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectApiName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Campus</name>
                 </fields>
@@ -6075,29 +6095,29 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Programmeinformation_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Programmeinformation_Section1_Column2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>fieldApiName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>label</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectApiName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Session</name>
                 </fields>
@@ -6119,14 +6139,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Sejour_linguistique_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Sejour_linguistique_Section1_Column2</name>
                 </fields>
@@ -6166,7 +6186,7 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>candidature_programme_Section1_Column1</name>
                 </fields>
@@ -6185,7 +6205,7 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ecran_Test_Section1_Column1</name>
                 </fields>
@@ -6195,11 +6215,11 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Formulaire_candidature_portail_em_lyon</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Fundraising_passage_donateur</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Generateur_de_processus_Localisation_Code_Produit_sur_opportunite_avec_reta</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -6223,54 +6243,54 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Datatable_Resources</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_1</name>
                 </fields>
@@ -6280,14 +6300,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Datatable_Ressources_Sequence_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Datatable_Ressources_Sequence_Section1_Column2</name>
                 </fields>
@@ -6303,50 +6323,50 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_Datatable_Resources</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_Progress_Bar_1</name>
                 </fields>
@@ -6359,14 +6379,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Datatable_Ressources_Sequence_to_delete_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Datatable_Ressources_Sequence_to_delete_Section1_Column2</name>
                 </fields>
@@ -6382,11 +6402,11 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_2</name>
                 </fields>
@@ -6396,14 +6416,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_New_Resource_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_New_Resource_Section1_Column2</name>
                 </fields>
@@ -6425,11 +6445,11 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_New</name>
                 </fields>
@@ -6442,14 +6462,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Want_New_Resource_Again_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Want_New_Resource_Again_Section1_Column2</name>
                 </fields>
@@ -6467,23 +6487,23 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>actionMode</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>alignment</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>buttons</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>orientation</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showLines</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Buttons_Navigation</name>
                 </fields>
@@ -6493,14 +6513,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>LGLOScreen_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>LGLOScreen_Section1_Column2</name>
                 </fields>
@@ -6510,70 +6530,70 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_bar_step_2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_not_suppressNameFieldLink</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_showRecordCount</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_showRowNumbers</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWraps</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showRecordCount</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showRowNumbers</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>SkillsDatatable</name>
                 </fields>
@@ -6612,62 +6632,62 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_openLinkinSameTab</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_showRowNumbers</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_tableBorder</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnEdits</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>DatatableCourseKnowledge</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_bar</name>
                 </fields>
@@ -6677,14 +6697,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseKnowledge_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseKnowledge_Section1_Column2</name>
                 </fields>
@@ -6703,23 +6723,23 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>actionMode</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>alignment</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>buttons</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>orientation</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showLines</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Button_Navigation</name>
                 </fields>
@@ -6729,11 +6749,11 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_2</name>
                 </fields>
@@ -6743,14 +6763,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseKnowledgeCreation_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseKnowledgeCreation_Section1_Column2</name>
                 </fields>
@@ -6766,58 +6786,58 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_openLinkinSameTab</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_showRowNumbers</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_tableBorder</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnEdits</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_DatatableCourseKnowledge</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_Progress_bar</name>
                 </fields>
@@ -6836,14 +6856,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseKnowledge_Delete_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseKnowledge_Delete_Section1_Column2</name>
                 </fields>
@@ -6873,23 +6893,23 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>actionMode</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>alignment</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>buttons</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>orientation</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showLines</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Button_Navigation</name>
                 </fields>
@@ -6899,11 +6919,11 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_2</name>
                 </fields>
@@ -6913,14 +6933,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseSkillCreation_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseSkillCreation_Section1_Column2</name>
                 </fields>
@@ -6936,62 +6956,62 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_openLinkinSameTab</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_showRowNumbers</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_tableBorder</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnEdits</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>DatatableCourseSkills</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar</name>
                 </fields>
@@ -7001,14 +7021,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseSkills_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseSkills_Section1_Column2</name>
                 </fields>
@@ -7027,58 +7047,58 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_openLinkinSameTab</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_showRowNumbers</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_tableBorder</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnEdits</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_DatatableCourseSkills</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_Progress_Bar</name>
                 </fields>
@@ -7097,14 +7117,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseSkills_Delete_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>ScreenCourseSkills_Delete_Section1_Column2</name>
                 </fields>
@@ -7143,34 +7163,34 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>actionMode</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>alignment</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>buttons</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>orientation</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showLines</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Button_Navigation</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_2</name>
                 </fields>
@@ -7180,14 +7200,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Hours_Creation_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Hours_Creation_Section1_Column2</name>
                 </fields>
@@ -7209,54 +7229,54 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>DatatableHours</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar</name>
                 </fields>
@@ -7266,14 +7286,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Learning_Hours_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Learning_Hours_Section1_Column2</name>
                 </fields>
@@ -7286,50 +7306,50 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_DatatableHours</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_Progress_Bar</name>
                 </fields>
@@ -7342,14 +7362,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Learning_Hours_to_delete_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Learning_Hours_to_delete_Section1_Column2</name>
                 </fields>
@@ -7376,34 +7396,34 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>actionMode</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>alignment</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>buttons</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>orientation</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showLines</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Navigation_Button_Bar</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_4</name>
                 </fields>
@@ -7413,14 +7433,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Ask_Create_New_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Ask_Create_New_Section1_Column2</name>
                 </fields>
@@ -7442,11 +7462,11 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progression</name>
                 </fields>
@@ -7456,14 +7476,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Creation_Ressource_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Creation_Ressource_Section1_Column2</name>
                 </fields>
@@ -7485,58 +7505,58 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnLabels</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Datatable_Sequences</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar</name>
                 </fields>
@@ -7546,14 +7566,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Existing_Sequences_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Existing_Sequences_Section1_Column2</name>
                 </fields>
@@ -7569,50 +7589,50 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_Datatable_Sequences</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_Progress_Bar</name>
                 </fields>
@@ -7628,14 +7648,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Existing_Sequences_To_Delete_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Existing_Sequences_To_Delete_Section1_Column2</name>
                 </fields>
@@ -7645,11 +7665,11 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_New</name>
                 </fields>
@@ -7659,21 +7679,21 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Modification_Description_Sequence_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Modification_Description_Sequence_Section1_Column2</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>value</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Sequence_Rich_Text</name>
                 </fields>
@@ -7692,42 +7712,42 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_3</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>maxNumberOfRows</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Datatable_Ressources</name>
                 </fields>
@@ -7737,14 +7757,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Ressources_Available_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Ressources_Available_Section1_Column2</name>
                 </fields>
@@ -7757,34 +7777,34 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>actionMode</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>alignment</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>buttons</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>orientation</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showLines</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Button_Sequence_Creation</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_2</name>
                 </fields>
@@ -7794,14 +7814,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Sequence_Creation_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Sequence_Creation_Section1_Column2</name>
                 </fields>
@@ -7846,61 +7866,61 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Datatable_Choix_Competences</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>actionMode</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>alignment</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>buttons</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>orientation</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showLines</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Navigation_Button_Bar</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_3</name>
                 </fields>
@@ -7910,14 +7930,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Competence_Attribution_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Competence_Attribution_Section1_Column2</name>
                 </fields>
@@ -7930,18 +7950,18 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>value</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Modalites_Rich_Text</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar_First</name>
                 </fields>
@@ -7951,14 +7971,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Course_Modification_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Course_Modification_Section1_Column2</name>
                 </fields>
@@ -7974,43 +7994,43 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>DatatableEvaluation_Methods</name>
                 </fields>
@@ -8020,11 +8040,11 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_Bar</name>
                 </fields>
@@ -8034,14 +8054,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Existing_Methods_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Existing_Methods_Section1_Column2</name>
                 </fields>
@@ -8054,39 +8074,39 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_DatatableEvaluation_Methods</name>
                 </fields>
@@ -8096,11 +8116,11 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Copier_1_sur_Progress_Bar</name>
                 </fields>
@@ -8113,14 +8133,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Existing_Methods_To_Delete_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Existing_Methods_To_Delete_Section1_Column2</name>
                 </fields>
@@ -8130,11 +8150,11 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progress_bar_dynamic</name>
                 </fields>
@@ -8144,14 +8164,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Method_Creation_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Method_Creation_Section1_Column2</name>
                 </fields>
@@ -8170,23 +8190,23 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>actionMode</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>alignment</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>buttons</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>orientation</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showLines</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>navigation_Button</name>
                 </fields>
@@ -8204,34 +8224,34 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>actionMode</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>alignment</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>buttons</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>orientation</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>showLines</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Button_Navigation</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>currentStep</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>indicatorType</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Progression_Bar</name>
                 </fields>
@@ -8241,14 +8261,14 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Update_Fields_Section1_Column1</name>
                 </fields>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Update_Fields_Section1_Column2</name>
                 </fields>
@@ -8270,39 +8290,39 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Generation_Syllabus_MAJ_Objectifs_pedagogiques</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Gestion_Relance_J5_J10_J11</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Gestion_Relance_J5_J10_J11_Workflow_Programme</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Import_SESAME</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>MAJ_Nom_Opportunity_RE</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>MAJ_du_champ_Pays_sur_Piste_depuis_Pardot</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Maj_proprietaire_contact_et_opp_FI</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Maj_souhait_programme_du_contact_pour_Pardot</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Modalit_Evaluation_Affichage_des_comp_tences_dans_un_champ_pour_Syllabus</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Modalite_Evaluation_Suppression_competence_champ</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -8311,39 +8331,39 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_allowNoneToBeChosen</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isSerializedRecordData</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_not_suppressNameFieldLink</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Datatable_Choix_competences</name>
                 </fields>
@@ -8394,11 +8414,11 @@ Confirmez-vous votre soumission ?</label>
         <fullName>ModeleDeCours_Creation_modele_de_cours</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Modele_De_Cours_Update_Niveau_Avancement_du_Syllabus</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Modele_de_cours_Update_de_la_categorie_pedagogique_des_cours_enfants</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -8410,59 +8430,59 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Notification_Confirmation_Inscription_FC</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Notification_Piste_Sur_mesure</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Opportunit_Taxe_Changement_de_statut_en_Conclu</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Opportunit_Taxe_Changement_de_statut_en_Promesse</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Opportunite_Taxe</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>PB_Compte_adresse_Etrangere</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>PB_Contact_MAJ_E_mail_standard</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>PB_Contact_adresse_Etrangere</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>PB_MAJ_Email_Reference</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>PB_MAJ_Email_standard_selon_le_choix_des_utilisateurs</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>PB_MAJ_Opp_Code_Agresso</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>PB_MAJ_les_informations_du_statut_CANEL_de_l_opportunite_sur_le_contact</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>PB_MAJ_programme_du_contact</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>PB_Update_phone_Contact</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>PB_V2_M_J_Contact_FI</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -8477,7 +8497,7 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Programme_academique_Mise_a_jour_du_champ_Statut_en_revision</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Remise_z_ro_du_champ_Re_u_ERP_Affaire</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -8498,7 +8518,7 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Resource_Creation_nouvelle_ressource</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Ressource_biblio_Creation_jonction_associee_la_ressource</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -8516,51 +8536,51 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_isRequired</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_openLinkinSameTab</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_showRowNumbers</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_singleRowSelection</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_tableBorder</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnEdits</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>hideCheckboxColumn</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>DatatableCourseSkills</name>
                 </fields>
@@ -8576,11 +8596,11 @@ Confirmez-vous votre soumission ?</label>
         <fullName>SIS_Course_Skill_Creation_Screen</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>SIS_Email_Reminder_Course_Offering</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>SIS_Plan_Requirement_Create_and_Update</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -8626,35 +8646,35 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>cb_navigateNextOnSave</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_not_suppressNameFieldLink</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFields</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnFilters</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>columnWidths</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>not_suppressNameFieldLink</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Datatable_Ressources</name>
                 </fields>
@@ -8664,7 +8684,7 @@ Confirmez-vous votre soumission ?</label>
                 <fields>
                     <inputParameters>
                         <name>width</name>
-                        <value/>
+                        <value />
                     </inputParameters>
                     <name>Screen_Ressources_Section1_Column1</name>
                 </fields>
@@ -8674,7 +8694,7 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Sequence_Ajouter_des_ressources</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Sequences_du_cours_Affichage_des_ressources_apres_suppression_d_une_jonction</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -8686,27 +8706,27 @@ Confirmez-vous votre soumission ?</label>
         <fullName>Sequences_du_cours_Affichage_des_ressources_liees_dans_un_champ</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Statut_CANEL</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Structure_pedagogique_Modification_du_nom_des_obligations_enfants</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Syllabus_Required_V2</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>Synchronisation_adresse_e_mail</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>testCreaOpp</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows />
         <fullName>versionsPB_V2_M_J_Contact_FC</fullName>
     </flowDefinitions>
     <quickActions>
@@ -8823,7 +8843,7 @@ Confirmez-vous votre soumission ?</label>
         </sections>
         <sections>
             <label><!-- Assignements des modalités d&apos;évaluation --></label>
-            <name>Assignements des modalités d&apos;évaluation</name>
+            <name>Assignements des modalités d&#39;évaluation</name>
         </sections>
         <sections>
             <label><!-- Compétences --></label>
@@ -9392,7 +9412,7 @@ Confirmez-vous votre soumission ?</label>
         </sections>
         <sections>
             <label><!-- Éléments d&apos;ensembles d&apos;enregistrements dupliqués --></label>
-            <name>Éléments d&apos;ensembles d&apos;enregistrements dupliqués</name>
+            <name>Éléments d&#39;ensembles d&#39;enregistrements dupliqués</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -9541,7 +9561,7 @@ Confirmez-vous votre soumission ?</label>
         </sections>
         <sections>
             <label><!-- Heures d&apos;apprentissage --></label>
-            <name>Heures d&apos;apprentissage</name>
+            <name>Heures d&#39;apprentissage</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -9589,7 +9609,7 @@ Confirmez-vous votre soumission ?</label>
         </sections>
         <sections>
             <label><!-- Éléments d&apos;ensembles d&apos;enregistrements dupliqués --></label>
-            <name>Éléments d&apos;ensembles d&apos;enregistrements dupliqués</name>
+            <name>Éléments d&#39;ensembles d&#39;enregistrements dupliqués</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -9615,7 +9635,7 @@ Confirmez-vous votre soumission ?</label>
         <name>Heures_d_apprentissage</name>
         <sections>
             <label><!-- Heures d&apos;apprentissage --></label>
-            <name>Heures d&apos;apprentissage</name>
+            <name>Heures d&#39;apprentissage</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -9637,7 +9657,7 @@ Confirmez-vous votre soumission ?</label>
         </sections>
         <sections>
             <label><!-- Éléments d&apos;ensembles d&apos;enregistrements dupliqués --></label>
-            <name>Éléments d&apos;ensembles d&apos;enregistrements dupliqués</name>
+            <name>Éléments d&#39;ensembles d&#39;enregistrements dupliqués</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -10280,7 +10300,7 @@ Confirmez-vous votre soumission ?</label>
         <name>Utilisateur_de_Salesforce_for_Outlook</name>
         <sections>
             <label><!-- Journaux des événements d&apos;identité (Utilisateur) --></label>
-            <name>Journaux des événements d&apos;identité (Utilisateur)</name>
+            <name>Journaux des événements d&#39;identité (Utilisateur)</name>
         </sections>
         <sections>
             <label><!-- Utilisateurs --></label>
@@ -10388,7 +10408,7 @@ Confirmez-vous votre soumission ?</label>
         <sections>
             <columns>
                 <label><!-- Nom de l&apos;étudiant --></label>
-                <name>Nom de l&apos;étudiant</name>
+                <name>Nom de l&#39;étudiant</name>
             </columns>
             <columns>
                 <label><!-- Prénom étudiant --></label>
@@ -10404,11 +10424,11 @@ Confirmez-vous votre soumission ?</label>
         <name>screen_flows_prebuilt_crt</name>
         <sections>
             <label><!-- Entrées au journal d&apos;interview de flux --></label>
-            <name>Entrées au journal d&apos;interview de flux</name>
+            <name>Entrées au journal d&#39;interview de flux</name>
         </sections>
         <sections>
             <label><!-- Journaux d&apos;interview de flux --></label>
-            <name>Journaux d&apos;interview de flux</name>
+            <name>Journaux d&#39;interview de flux</name>
         </sections>
     </reportTypes>
     <reportTypes>

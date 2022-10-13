@@ -10913,9 +10913,29 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SIS_Academic_Certification_Attribute__c.Issued_accreditation__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Academic_Certification_Attribute__c.SIS_Academic_certification_type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Academic_Certification_Attribute__c.SIS_Primary__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SIS_Academic_Certification_Attribute__c.SIS_RNCP_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SIS_Academic_Certification_Attribute__c.SIS_RNCP__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -11088,9 +11108,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SIS_Issued_accreditation__c.Higher_Education_Institution__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -11100,6 +11120,31 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SIS_Issued_accreditation__c.SIS_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Issued_accreditation__c.SIS_ID_Data_Import__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Issued_accreditation__c.SIS_RNCP_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SIS_Issued_accreditation__c.SIS_RNCP__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Issued_accreditation__c.SIS_URL_RNCP_sheet__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Issued_accreditation__c.SIS_University_Department__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11289,12 +11334,42 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SIS_Program_Location__c.SIS_Academic_Program__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Program_Location__c.SIS_Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SIS_Program_Offering__c.Programme__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>SIS_Program_Offering__c.Responsable__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Program_Offering__c.SIS_External_ID_2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Program_Offering__c.SIS_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Program_Offering__c.SIS_ID_Data_Import__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Program_Offering__c.Term__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11393,6 +11468,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Program_Path__c.SIS_ID_Data_Import__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>SIS_Program_Path__c.SIS_Lifetime_Member_access_AlumniNetwork__c</field>
         <readable>false</readable>
@@ -11459,7 +11539,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SIS_Program_Path__c.SIS_Path_responsible_DAP_User__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SIS_Program_Path__c.SIS_Path_responsible_DAP__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Program_Path__c.SIS_Path_responsible_ROP_User__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11476,6 +11566,11 @@
         <editable>false</editable>
         <field>SIS_Program_Path__c.SIS_Program__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Program_Path__c.SIS_Program_coordinator_2__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -11613,14 +11708,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SIS_Skills_Family_Assignments__c.SIS_Program__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>SIS_Skills_Family_Assignments__c.SIS_Skills_Family__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SIS_Skills_Family_Assignments__c.SIS_Skills_family_type__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -11640,6 +11740,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SIS_Skills_Family__c.SIS_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SIS_Skills_Family__c.SIS_RNCP_code__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -3,11 +3,13 @@
     <fullName>hed__All</fullName>
     <columns>NAME</columns>
     <columns>hed__Issuer__c</columns>
+    <columns>SIS_Program_name__c</columns>
     <columns>RECORDTYPE</columns>
     <columns>hed__Academic_Level__c</columns>
     <columns>hed__Field_Of_Study__c</columns>
     <columns>CREATED_DATE</columns>
     <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
